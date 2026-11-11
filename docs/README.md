@@ -29,6 +29,13 @@ from it. To fix one sentence, name the exercise and the sentence; only that unit
 - Ledgers: `sources/ielts-words/vocab-ledger.md`, `sources/teded/video-ledger.md`,
   `sources/grammar/drill-ledger.md`. They are the memory between sessions; each skill updates its own.
 
+## Deploy
+
+The live copy is http://91.107.173.6:8766/app/ (server `root@91.107.173.6`, folder
+`/root/hermes/hossein/english-recall-exercise`, systemd unit `english-recall.service`). "commit and deploy"
+means: commit, then `scripts/deploy.sh`, which pushes, pulls on the server, restarts the service and checks
+that the page answers.
+
 ## Project
 
 See the [main README](../README.md) for the layout, the collections and how the view works, and

@@ -8,6 +8,9 @@ python3 serve.py            # http://127.0.0.1:8766, opens the view
 python3 serve.py --lan      # also for a phone on the same Wi-Fi
 ```
 
+Online at **http://91.107.173.6:8766/app/** (open to anyone, plain http, so voice commands and the screen
+wake lock are off there). After committing, `scripts/deploy.sh` pushes to GitHub and updates the server.
+
 | Collection | In `data/` | Source | Skill that adds to it |
 |---|---|---|---|
 | واژگان — IELTS Up Words (80 lessons) | `ielts-words/` | `sources/ielts-words/lessons/*.pdf` | `ielts-vocab-drill` |
