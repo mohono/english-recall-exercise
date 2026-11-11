@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#FAF9F5">
+<title>تمرین</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root{
+    --bg:#FAF9F5; --surface:#FFFFFF; --surface-alt:#F0EEE6;
+    --text:#141413; --text-2:#6C6B68; --text-3:#8F8E8A;
+    --line:#E5E3DA; --line-2:#D6D3C7;
+    --accent:#D97757; --accent-deep:#B85C3E; --en:#3B4A6B;
+    --fa:"Vazirmatn","Segoe UI",Tahoma,sans-serif;
+    --serif:"Source Serif 4",Georgia,serif;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;padding:calc(1.1rem + env(safe-area-inset-top)) 0 calc(3rem + env(safe-area-inset-bottom));
+    background:var(--bg);color:var(--text);font-family:var(--fa);font-size:16px;line-height:1.8;
+    overflow-wrap:break-word}
+  .wrap{max-width:44rem;margin:0 auto;padding:0 .95rem}
+
+  en{direction:ltr;unicode-bidi:isolate;font-family:var(--serif);color:var(--en)}
+  /* راهنمای داخل پرانتز در جملهٔ فارسی: نکتهٔ واژه یا توضیح بافت */
+  c{color:var(--text-3);font-size:.86em;font-weight:400}
+  c en{color:inherit}
+  x{direction:ltr;unicode-bidi:isolate;font-family:var(--serif);color:var(--accent-deep);
+    text-decoration:line-through;text-decoration-thickness:1px}
+
+  h1{font-size:1.05rem;font-weight:700;margin:0 0 .3rem;line-height:1.6}
+  .hint{margin:0 0 1.1rem;color:var(--text-3);font-size:.84rem;line-height:1.75}
+  .src{display:inline-block;margin:0 0 .5rem;font-family:var(--serif);direction:ltr;
+    font-size:.82rem;color:var(--accent-deep);text-decoration:none;
+    border-bottom:1px solid var(--line-2)}
+  .src[hidden]{display:none}
+  .missing{margin:2rem 0;color:var(--accent-deep)}
+
+  /* ── فهرست متن‌ها ───────────────────────── */
+  .toc{margin:0 0 1.3rem;padding:.65rem .3rem;background:var(--surface-alt);border-radius:10px}
+  .toc button{display:block;width:100%;text-align:right;font:inherit;font-size:.87rem;
+    color:var(--text-2);background:none;border:0;padding:.5rem .65rem;cursor:pointer;
+    border-radius:7px;line-height:1.6}
+  .toc button:active{background:#E7E4DA}
+
+  /* ── عنوان هر متن ───────────────────────── */
+  .ttl{font-size:.98rem;font-weight:700;color:var(--text);margin:2.1rem 0 .95rem;
+    padding-top:1.2rem;border-top:1px solid var(--line);scroll-margin-top:1rem}
+  .text:first-child .ttl{margin-top:0;padding-top:0;border-top:0}
+  .sec{font-size:.86rem;font-weight:700;color:var(--text-3);margin:1.6rem 0 .6rem;
+       padding-top:.9rem;border-top:1px dashed var(--line-2)}
+
+  /* ── متن پیوسته ─────────────────────────── */
+  .block{margin-bottom:.3rem}
+  .para{margin:0 0 .55rem;font-size:1.05rem;line-height:1.85}
+  .s{cursor:pointer;border-radius:5px;padding:.12rem .1rem;
+    transition:background .15s ease;
+    -webkit-box-decoration-break:clone;box-decoration-break:clone}
+  .s:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+  .s.active{background:#F3E9E4;color:var(--text);font-weight:500}
+  .s.cp{box-shadow:inset 0 -2px 0 var(--accent)}
+
+  .jump{display:none;width:100%;margin:0 0 1.1rem;min-height:44px;
+    font:inherit;font-size:.86rem;font-weight:500;color:var(--accent-deep);
+    background:#F6EDE9;border:1px solid #EBD9D1;border-radius:10px;
+    padding:.6rem .9rem;cursor:pointer;text-align:center}
+  .jump.on{display:block}
+
+  .drawer{display:grid;grid-template-rows:0fr;transition:grid-template-rows .3s ease}
+  .drawer.open{grid-template-rows:1fr}
+  .drawer > div{overflow:hidden}
+  .panel{margin:.95rem 0 1.2rem;background:var(--surface);border:1px solid var(--line-2);
+    border-radius:14px;padding:1.05rem .9rem}
+
+  .attempt label{display:block;font-size:.82rem;color:var(--text-3);margin-bottom:.45rem}
+  textarea{width:100%;min-height:4.4rem;resize:vertical;direction:ltr;text-align:left;
+    font-family:var(--serif);font-size:1rem;line-height:1.6;color:var(--en);
+    padding:.65rem .75rem;background:var(--bg);border:1px solid var(--line);border-radius:9px}
+  textarea:focus{outline:none;border-color:var(--accent);background:var(--surface)}
+  .acts{display:flex;align-items:center;gap:.5rem;margin-top:.7rem}
+  .reveal{flex:1;min-height:44px;font:inherit;font-size:.92rem;font-weight:500;
+    padding:.65rem 1rem;background:var(--accent);color:#fff;border:0;border-radius:10px;cursor:pointer}
+  .reveal:active{background:var(--accent-deep)}
+
+  .answer[hidden]{display:none}
+  .answer{margin-top:1.15rem;padding-top:1.05rem;border-top:1px solid var(--line)}
+
+  .en-box{margin:0 0 1.15rem;padding-bottom:.9rem;border-bottom:1px solid var(--line)}
+  .en-line{margin:0;font-family:var(--serif);font-weight:600;font-size:1.08rem;line-height:1.5;color:var(--en)}
+
+  /* تلفظ آمریکایی: دکمهٔ پخش + آوانگاری */
+  .say-row{direction:ltr;text-align:left;display:flex;align-items:flex-start;gap:.5rem}
+  .say-row > :first-child{flex:1;min-width:0}
+  .say{flex:none;width:32px;height:32px;margin:-.2rem -.25rem 0 0;display:grid;place-items:center;
+    background:none;border:0;border-radius:8px;cursor:pointer}
+  .say i{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;
+    border:1px solid var(--line-2);transition:background .15s ease,border-color .15s ease}
+  .say svg{width:14px;height:14px;display:block}
+  .say svg path{fill:none;stroke:var(--en);stroke-width:1.5;stroke-linejoin:round;stroke-linecap:round}
+  .say.on i{background:var(--en);border-color:var(--en)}
+  .say.on svg path{stroke:#fff}
+  .say:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+  .no-tts .say{display:none}
+  .ipa{direction:ltr;text-align:left;unicode-bidi:isolate;
+    font-family:"Noto Sans","Segoe UI","Lucida Sans Unicode","DejaVu Sans",Arial,sans-serif;
+    font-size:.9rem;line-height:1.6;color:var(--text-2);margin-top:.35rem}
+  .ipa::before{content:"US";font-size:.66rem;font-weight:600;letter-spacing:.04em;color:var(--text-3);
+    border:1px solid var(--line-2);border-radius:4px;padding:0 .25rem;margin-right:.4rem;
+    vertical-align:.08em}
+  .wentry .ipa{font-size:.84rem;margin-top:.1rem}
+  .cp-btn{flex:none;width:44px;height:44px;
+    display:grid;place-items:center;background:none;border:0;border-radius:10px;cursor:pointer}
+  .cp-btn i{display:grid;place-items:center;width:30px;height:30px;border-radius:8px;
+    border:1px solid var(--line-2);transition:background .15s ease,border-color .15s ease}
+  .cp-btn svg{width:14px;height:16px;display:block}
+  .cp-btn svg path{fill:none;stroke:var(--text-3);stroke-width:1.7;
+    stroke-linejoin:round;stroke-linecap:round}
+  .cp-btn.on i{background:var(--accent);border-color:var(--accent)}
+  .cp-btn.on svg path{fill:#fff;stroke:#fff}
+  .cp-btn:focus-visible{outline:2px solid var(--accent);outline-offset:-4px}
+
+  /* دکمهٔ Anki */
+  .anki-btn{flex:none;height:44px;padding:0 .2rem;display:grid;place-items:center;
+    background:none;border:0;border-radius:10px;cursor:pointer;font:inherit}
+  .anki-btn i{display:flex;align-items:center;gap:.3rem;height:30px;padding:0 .55rem;border-radius:8px;
+    border:1px solid var(--line-2);font-style:normal;font-family:var(--serif);font-size:.82rem;
+    font-weight:600;color:var(--text-3);direction:ltr;transition:background .15s ease,border-color .15s ease}
+  .anki-btn svg{width:13px;height:13px;display:block}
+  .anki-btn svg path{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+  .anki-btn.busy i{opacity:.55}
+  .anki-btn.on i{background:var(--accent);border-color:var(--accent);color:#fff}
+  .anki-btn:focus-visible{outline:2px solid var(--accent);outline-offset:-4px}
+  .anki-msg{font-size:.8rem;line-height:1.7;color:var(--text-2);margin-top:.5rem}
+  .anki-msg:empty{display:none}
+  .anki-msg.err{color:var(--accent-deep)}
+
+  .row{margin-bottom:1.2rem}
+  .row:last-child{margin-bottom:0}
+  .key{font-size:.78rem;color:var(--text-3);line-height:1.6;margin-bottom:.25rem}
+  .val{font-size:.95rem;line-height:1.85}
+  .val > p{margin:0 0 .6rem}
+  .val > p:last-child{margin-bottom:0}
+
+  .skeleton{direction:ltr;text-align:left;font-family:var(--serif);font-size:.97rem;
+    color:var(--en);background:var(--surface-alt);border-radius:8px;padding:.55rem .7rem;line-height:1.6;
+    overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch}
+
+  .words{margin:0}
+  .wentry{padding:.65rem .75rem;background:var(--surface-alt);border-radius:9px;margin-bottom:.55rem}
+  .wentry:last-child{margin-bottom:0}
+  .w{direction:ltr;text-align:left;font-family:var(--serif);font-weight:600;font-size:1rem;
+    color:var(--en);line-height:1.4}
+  .wm{direction:ltr;text-align:left;font-family:var(--serif);font-size:.87rem;
+    color:var(--text-2);line-height:1.5;margin-top:.15rem}
+  .wfa{font-size:.92rem;color:var(--text);line-height:1.7;margin-top:.25rem}
+  .wx{direction:ltr;text-align:left;font-family:var(--serif);font-size:.85rem;
+    color:var(--accent-deep);line-height:1.5;margin-top:.3rem;
+    padding-top:.3rem;border-top:1px solid var(--line-2)}
+
+  ul.misses{margin:0;padding:0;list-style:none}
+  ul.misses li{margin-bottom:.85rem;padding-inline-start:1.1rem;position:relative}
+  ul.misses li:last-child{margin-bottom:0}
+  ul.misses li::before{content:"\00d7";position:absolute;inset-inline-start:0;top:0;
+    color:var(--accent-deep);font-weight:600}
+  ul.misses .bad{direction:ltr;unicode-bidi:isolate;font-family:var(--serif);color:var(--accent-deep);
+    display:inline-block;line-height:1.55}
+  ul.misses em{display:block;font-style:normal;font-size:.89rem;color:var(--text-2);line-height:1.75;margin-top:.2rem}
+
+  ul.mini{margin:.5rem 0 0;padding:0;list-style:none}
+  ul.mini li{margin-bottom:.5rem;padding-inline-start:.85rem;position:relative;font-size:.92rem;line-height:1.75}
+  ul.mini li:last-child{margin-bottom:0}
+  ul.mini li::before{content:"";position:absolute;inset-inline-start:0;top:.8rem;
+    width:4px;height:4px;border-radius:50%;background:var(--line-2)}
+  ul.mini em{font-style:normal;color:var(--text-2);font-size:.87rem}
+
+  .row.trap .key{color:var(--accent-deep)}
+
+  @media (min-width:640px){
+    body{font-size:17px;padding-bottom:6rem}
+    .wrap{padding:0 1.5rem}
+    h1{font-size:1.25rem}
+    .ttl{font-size:1.1rem}
+    .para{font-size:1.12rem;line-height:1.95}
+    .en-line{font-size:1.18rem}
+    .reveal{flex:none;padding:.6rem 1.5rem}
+    .panel{padding:1.4rem}
+    .row{display:grid;grid-template-columns:7rem 1fr;gap:0 1.1rem}
+    .key{line-height:1.9;margin-bottom:0}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none !important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1 id="title"></h1>
+  <a class="src" id="src" target="_blank" rel="noopener" hidden></a>
+  <p class="hint">متن را جمله‌به‌جمله جلو برو. اول در ذهنت ترجمه کن، بعد روی جمله بزن. هر لحظه فقط یک جمله باز می‌شود.</p>
+  <div class="toc" id="toc"></div>
+  <button class="jump" type="button" id="jump">ادامه از چک‌پوینت ↓</button>
+  <div id="passage"></div>
+</div>
+
+<script>
+/* ══════════════════════════════════════════════════════════
+   موتور مشترک همهٔ تمرین‌ها. خودِ تمرین یک فایل داده است:
+     data/<collection>/<id>.js  ←  DRILL({ "title", "storeKey", "source"?, "items": [ … ] });
+   و با drill.html?d=<collection>/<id> باز می‌شود.
+   هر واحد: fa، en و به‌دلخواه ipa، newPara، section، words، note (واژگان)
+   و skeleton، why، whyKey، trap، misses، alt، rule (گرامر).
+   داخل رشته‌های فارسی، انگلیسی در <en>…</en> و شکل غلط در <x>…</x>.
+   ══════════════════════════════════════════════════════════ */
+let DATA = null;
+function DRILL(d){ DATA = d; }
+const DRILL_ID = new URLSearchParams(location.search).get('d') || '';
+if (/^[\w-]+\/[\w.-]+$/.test(DRILL_ID))
+  document.write('<script src="../data/' + DRILL_ID + '.js"><\/script>');
+</script>
+<script>
+const MISSING   = !DATA;
+if (MISSING) DATA = { title: 'این تمرین پیدا نشد', storeKey: 'missing', items: [] };
+const TITLE     = DATA.title;
+const STORE_KEY = DATA.storeKey;
+const SOURCE    = DATA.source || '';
+const TEXTS     = [{ title: DATA.title, items: DATA.items }];
+
+/* ══════════════════════════════════════════════════════════
+   از اینجا به بعد موتور است. دست نخورد.
+   ══════════════════════════════════════════════════════════ */
+
+const BOOKMARK = '<svg viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.2 1.4h9.6v13.2L7 11.2l-4.8 3.4z"/></svg>';
+const row = (k, v, c='') => `<div class="row ${c}"><div class="key">${k}</div><div class="val">${v}</div></div>`;
+
+/* شماره‌گذاری سراسری واحدها در کل فایل */
+const FLAT = [];
+TEXTS.forEach((t, ti) => t.items.forEach(it => FLAT.push({ it, ti })));
+
+/* متنی که خوانده می‌شود: برچسب‌هایی مثل (noun) یا (BrE) و نقطه‌چین خوانده نمی‌شوند */
+const LABEL_RE = /\s*\((?:=[^()]*|(?:noun|verb|adjective|adverb|phrasal verb|informal|formal|BrE|AmE|AuE|plural|n|U|C|male|female)(?:\s*[,/]\s*(?:noun|verb|adjective|adverb|informal|BrE|AmE|AuE|U|C))*)\)/g;
+const spoken = (s, isWord) => {
+  s = s.replace(/<[^>]+>/g, '');
+  if (isWord) s = s.replace(LABEL_RE, '').replace(/…|\.\.\./g, ' ').replace(/\s*\/\s*/g, ', ');
+  return s.replace(/\s+/g, ' ').trim();
+};
+const attr = s => s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+const SPEAKER = '<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2 6.1h2.4L7.8 3v10L4.4 9.9H2z"/><path d="M10.4 5.6a3.4 3.4 0 0 1 0 4.8M12.4 3.7a6 6 0 0 1 0 8.6"/></svg>';
+const sayBtn = text => `<button class="say" type="button" data-say="${attr(text)}" aria-label="تلفظ آمریکایی"><i>${SPEAKER}</i></button>`;
+const ipaLine = ipa => ipa ? `<div class="ipa">/${ipa}/</div>` : '';
+
+function answerHTML(it){
+  let b = `<div class="en-box">
+    <div class="say-row"><p class="en-line">${it.en}</p>${sayBtn(spoken(it.en))}</div>
+    ${ipaLine(it.ipa)}
+  </div>`;
+  if (it.words?.length) b += row('واژه‌ها', `<div class="words">${it.words.map(w => `
+    <div class="wentry">
+      <div class="say-row"><div class="w">${w.w}</div>${sayBtn(spoken(w.w, true))}</div>
+      ${ipaLine(w.ipa)}
+      ${w.m   ? `<div class="wm">${w.m}</div>`     : ''}
+      ${w.fa  ? `<div class="wfa">${w.fa}</div>`   : ''}
+      ${w.more? `<div class="wx">${w.more}</div>`  : ''}
+    </div>`).join('')}</div>`);
+  if (it.note) b += row('نکته', it.note);
+  if (it.skeleton) b += row('اسکلت', `<div class="skeleton">${it.skeleton}</div>`);
+  if (it.why?.length) b += row(it.whyKey || 'چرا این شکل', it.why.map(p=>`<p>${p}</p>`).join(''));
+  if (it.trap) b += row('تلهٔ فارسی', it.trap, 'trap');
+  if (it.misses?.length) b += row('اگر این را نوشتی',
+    `<ul class="misses">${it.misses.map(m=>`<li><span class="bad">${m.en}</span><em>${m.why}</em></li>`).join('')}</ul>`);
+  if (it.alt) b += row('هم قبول است', it.alt);
+  if (it.rule){
+    let r = it.rule.intro ? `<p>${it.rule.intro}</p>` : '';
+    if (it.rule.examples?.length)
+      r += `<ul class="mini">${it.rule.examples.map(e=>`<li><en>${e.en}</en> <em>${e.fa||''}</em></li>`).join('')}</ul>`;
+    if (it.rule.outro) r += `<p style="margin-top:.7rem">${it.rule.outro}</p>`;
+    b += row('قاعدهٔ کلی', r);
+  }
+  return b;
+}
+
+document.getElementById('title').textContent = TITLE;
+document.title = TITLE;
+if (SOURCE) {
+  const a = document.getElementById('src');
+  a.href = SOURCE;
+  a.textContent = /youtu/.test(SOURCE) ? 'Watch on YouTube ↗' : 'Source ↗';
+  a.hidden = false;
+}
+if (MISSING) document.querySelector('.hint').outerHTML = '<p class="missing">فایل داده برای «' + DRILL_ID.replace(/[<&]/g, '') + '» نیست.</p>';
+
+/* گروه‌بندی واحدها به پاراگراف، درون هر متن */
+const html = TEXTS.map((t, ti) => {
+  const idx = FLAT.map((f, n) => f.ti === ti ? n : -1).filter(n => n >= 0);
+  const paras = [];
+  idx.forEach(n => {
+    if (!paras.length || FLAT[n].it.newPara) paras.push([]);
+    paras[paras.length - 1].push(n);
+  });
+  const body = paras.map(p => {
+    const sec = FLAT[p[0]].it.section;
+    return `${sec ? `<h3 class="sec">${sec}</h3>` : ''}<div class="block">
+      <div class="para">${p.map(n =>
+        `<span class="s" data-i="${n}" role="button" tabindex="0">${FLAT[n].it.fa}</span>`).join(' ')}</div>
+    </div>`;
+  }).join('');
+  return `<section class="text">${TEXTS.length > 1
+    ? `<h2 class="ttl" id="text-${ti}">${t.title}</h2>` : ''}${body}</section>`;
+}).join('');
+
+document.getElementById('passage').innerHTML = html;
+const tocEl = document.getElementById('toc');
+if (TEXTS.length > 1)
+  tocEl.innerHTML = TEXTS.map((t, ti) => `<button type="button" data-t="${ti}">${t.title}</button>`).join('');
+else
+  tocEl.style.display = 'none';
+
+(function(){
+  const spans   = [...document.querySelectorAll('.s')];
+  const jumpBtn = document.getElementById('jump');
+  const KEY = STORE_KEY + '-cp';
+  let active = null, mem = null, gen = 0, keepEl = null;
+
+  /* یک کشوی واحد که زیر جملهٔ فعال جابه‌جا می‌شود */
+  const drawer = document.createElement('div');
+  drawer.className = 'drawer';
+  drawer.innerHTML = '<div><div class="slot"></div></div>';
+  const slot = drawer.querySelector('.slot');
+
+  /* خواندن با صدای انگلیسی آمریکایی مرورگر */
+  const TTS = 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
+  if (!TTS) document.documentElement.classList.add('no-tts');
+  let voice = null, playing = null;
+  const pickVoice = () => {
+    const vs = speechSynthesis.getVoices().filter(v => /^en[-_]US$/i.test(v.lang));
+    voice = vs.find(v => /natural|online|neural|google|aria|jenny|ava|samantha/i.test(v.name))
+         || vs.find(v => v.localService) || vs[0] || null;
+  };
+  const hush = () => {
+    if (!TTS) return;
+    speechSynthesis.cancel();
+    if (playing) playing.classList.remove('on');
+    playing = null;
+  };
+  const speak = btn => {
+    const again = playing === btn;
+    hush();
+    if (again) return;
+    const u = new SpeechSynthesisUtterance(btn.dataset.say);
+    u.lang = 'en-US'; u.rate = 0.9;
+    if (voice) u.voice = voice;
+    u.onend = u.onerror = () => { btn.classList.remove('on'); if (playing === btn) playing = null; };
+    btn.classList.add('on'); playing = btn;
+    speechSynthesis.speak(u);
+  };
+  if (TTS){
+    pickVoice();
+    speechSynthesis.addEventListener?.('voiceschanged', pickVoice);
+  }
+  /* فوکِ کادر پاسخ نمی‌پرد تا Enter همچنان کار کند */
+  slot.addEventListener('mousedown', e => { if (e.target.closest('.say, .anki-btn')) e.preventDefault(); });
+  slot.addEventListener('click', e => {
+    const b = e.target.closest('.say');
+    if (b && TTS) speak(b);
+    const a = e.target.closest('.anki-btn');
+    if (a && active !== null) addToAnki(active, a);
+  });
+
+  /* ── Anki: افزودن جمله با توضیحاتش به دستهٔ sentences از راه افزونهٔ AnkiConnect ── */
+  const ANKI_URL = 'http://127.0.0.1:8765', DECK = 'sentences', MODEL = 'Lingemy Sentence';
+  const PLUS = '<svg viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 2.2v9.6M2.2 7h9.6"/></svg>';
+  const ankiAdded = new Set();
+  let ankiReady = null;   // Promise: اجازه + دسته + مدل، یک بار در هر بار باز کردن صفحه
+
+  async function anki(action, params = {}){
+    let res;
+    try {
+      res = await fetch(ANKI_URL, { method: 'POST', body: JSON.stringify({ action, version: 6, params }) });
+    } catch (e) {
+      throw Object.assign(new Error('offline'), { offline: true });
+    }
+    const data = await res.json();
+    if (data.error) throw new Error(data.error);
+    return data.result;
+  }
+
+  const CARD_CSS = `.card{font-family:Vazirmatn,Tahoma,sans-serif;font-size:20px;line-height:1.8;text-align:center;color:#141413;background:#FAF9F5}
+.nightMode .card,.card.nightMode{color:#ECEAE4;background:#1F1E1C}
+en{font-family:Georgia,serif;color:#3B4A6B;direction:ltr;unicode-bidi:isolate}
+.nightMode en{color:#A9B8D8}
+c{color:#8F8E8A;font-size:.85em}
+.fa{direction:rtl}
+.en{font-family:Georgia,serif;font-weight:600;font-size:1.05em;color:#3B4A6B;direction:ltr}
+.nightMode .en{color:#A9B8D8}
+.ipa{direction:ltr;color:#6C6B68;font-size:.8em;margin-top:.2em}
+.words{direction:ltr;text-align:left;margin:1em auto 0;max-width:34em}
+.word{background:rgba(127,127,127,.1);border-radius:9px;padding:.5em .75em;margin-bottom:.5em}
+.word b{font-family:Georgia,serif;color:#3B4A6B}
+.nightMode .word b{color:#A9B8D8}
+.word .ipa{display:inline;margin-left:.4em}
+.wm{font-family:Georgia,serif;font-size:.8em;color:#6C6B68}
+.wfa{direction:rtl;text-align:right;font-size:.85em}
+.wx{font-family:Georgia,serif;font-size:.8em;color:#B85C3E}
+.note{direction:rtl;text-align:right;font-size:.82em;margin:1em auto 0;max-width:34em}
+.lesson{font-size:.7em;color:#8F8E8A;margin-top:1.2em}`;
+
+  const CARD_FRONT = '<div class="fa">{{Persian}}</div>';
+  const CARD_BACK = '{{FrontSide}}<hr id="answer"><div class="en">{{English}}</div>'
+    + '{{#IPA}}<div class="ipa">/{{IPA}}/</div>{{/IPA}}{{tts en_US:English}}'
+    + '{{#Words}}<div class="words">{{Words}}</div>{{/Words}}'
+    + '{{#Note}}<div class="note">{{Note}}</div>{{/Note}}<div class="lesson">{{Lesson}}</div>';
+
+  function ankiSetup(){
+    if (!ankiReady) ankiReady = (async () => {
+      const p = await anki('requestPermission');   // بار اول، Anki پنجرهٔ اجازه نشان می‌دهد
+      if (p.permission !== 'granted') throw Object.assign(new Error('denied'), { denied: true });
+      await anki('createDeck', { deck: DECK });
+      const models = await anki('modelNames');
+      if (!models.includes(MODEL)) await anki('createModel', {
+        modelName: MODEL,
+        inOrderFields: ['Persian', 'English', 'IPA', 'Words', 'Note', 'Lesson'],
+        css: CARD_CSS,
+        isCloze: false,
+        cardTemplates: [{ Name: 'Persian → English', Front: CARD_FRONT, Back: CARD_BACK }]
+      });
+    })().catch(e => { ankiReady = null; throw e; });
+    return ankiReady;
+  }
+
+  function wordsHTML(words){
+    return (words || []).map(w => '<div class="word"><b>' + w.w + '</b>'
+      + (w.ipa ? '<span class="ipa">/' + w.ipa + '/</span>' : '')
+      + (w.m ? '<div class="wm">' + w.m + '</div>' : '')
+      + (w.fa ? '<div class="wfa">' + w.fa + '</div>' : '')
+      + (w.more ? '<div class="wx">' + w.more + '</div>' : '') + '</div>').join('');
+  }
+
+  async function addToAnki(i, btn){
+    if (btn.classList.contains('busy')) return;
+    const msg = slot.querySelector('.anki-msg');
+    const say = (text, err) => { msg.textContent = text; msg.classList.toggle('err', !!err); };
+    btn.classList.add('busy');
+    const slow = setTimeout(() => say('اگر Anki پنجره‌ای برای اجازهٔ دسترسی باز کرد، «Yes» را بزن.'), 900);
+    try {
+      await ankiSetup();
+      const it = FLAT[i].it;
+      await anki('addNote', { note: {
+        deckName: DECK, modelName: MODEL,
+        fields: { Persian: it.fa, English: it.en, IPA: it.ipa || '', Words: wordsHTML(it.words),
+                  Note: it.note || [it.skeleton ? '<en>' + it.skeleton + '</en>' : '', ...(it.why || [])].filter(Boolean).join('<br>'),
+                  Lesson: TITLE },
+        options: { allowDuplicate: false, duplicateScope: 'deck' },
+        tags: [DRILL_ID.split('/')[0] || 'drill', STORE_KEY]
+      }});
+      ankiAdded.add(i); btn.classList.add('on');
+      say('به دستهٔ «' + DECK + '» در Anki اضافه شد.');
+    } catch (e) {
+      if (e.offline) say('Anki باز نیست. اول Anki را (با افزونهٔ AnkiConnect) باز کن و دوباره بزن.', true);
+      else if (e.denied) say('Anki اجازهٔ دسترسی نداد. دوباره بزن و در پنجرهٔ Anki «Yes» را انتخاب کن.', true);
+      else if (/duplicate/i.test(e.message)) { ankiAdded.add(i); btn.classList.add('on'); say('این جمله قبلاً در Anki هست.'); }
+      else say('خطا از Anki: ' + e.message, true);
+    } finally {
+      clearTimeout(slow);
+      btn.classList.remove('busy');
+    }
+  }
+
+  const readCP = () => {
+    let v; try { v = localStorage.getItem(KEY); } catch(e){ v = mem; }
+    if (v === null || v === undefined) return null;
+    const n = +v;
+    return (Number.isInteger(n) && n >= 0 && n < FLAT.length) ? n : null;
+  };
+  const writeCP = v => {
+    mem = v;
+    try { v === null ? localStorage.removeItem(KEY) : localStorage.setItem(KEY, v); } catch(e){}
+  };
+  const paintCP = () => {
+    const cp = readCP();
+    spans.forEach((sp, i) => sp.classList.toggle('cp', i === cp));
+    jumpBtn.classList.toggle('on', cp !== null);
+  };
+
+  /* جملهٔ فعال به بالای صفحه می‌آید، با فاصله‌ای به اندازهٔ یک سطر */
+  function bring(keep){
+    if (active === null) return;
+    keepEl = keep || null;
+    const sp  = spans[active];
+    const gap = parseFloat(getComputedStyle(sp.parentNode).lineHeight) || 32;
+    const delta = sp.getBoundingClientRect().top - gap;
+    if (Math.abs(delta) > 4) window.scrollBy({ top: delta, behavior: 'smooth' });
+  }
+
+  function close(animate){
+    hush();
+    if (active === null) return;
+    spans[active].classList.remove('active');
+    drawer.classList.remove('open');
+    active = null; keepEl = null;
+    const my = ++gen;
+    if (animate) setTimeout(() => { if (my === gen && drawer.parentNode) drawer.remove(); }, 300);
+    else if (drawer.parentNode) drawer.remove();
+  }
+
+  function open(i){
+    close(false);
+    active = i; gen++;
+    const isCP = readCP() === i;
+    slot.innerHTML = `
+      <div class="panel">
+        <div class="attempt">
+          <label>ترجمه‌ات را بنویس (اختیاری):</label>
+          <textarea spellcheck="false" autocomplete="off"></textarea>
+          <div class="acts">
+            <button class="reveal" type="button">نمایش پاسخ</button>
+            <button class="cp-btn${isCP ? ' on' : ''}" type="button" aria-pressed="${isCP}" aria-label="چک‌پوینت"><i>${BOOKMARK}</i></button>
+            <button class="anki-btn${ankiAdded.has(i) ? ' on' : ''}" type="button" aria-label="افزودن به Anki"><i>${PLUS}Anki</i></button>
+          </div>
+          <div class="anki-msg" role="status"></div>
+        </div>
+        <div class="answer" hidden>${answerHTML(FLAT[i].it)}</div>
+      </div>`;
+
+    spans[i].classList.add('active');
+    spans[i].after(drawer);
+    requestAnimationFrame(() => { if (active === i) drawer.classList.add('open'); });
+
+    const ta     = slot.querySelector('textarea');
+    const ans    = slot.querySelector('.answer');
+    const revBtn = slot.querySelector('.reveal');
+
+    const reveal = () => {
+      if (!ans.hidden) return;
+      ans.hidden = false;
+      revBtn.hidden = true;
+      bring(ans.querySelector('.en-line'));
+    };
+    const next = () => { i + 1 < FLAT.length ? open(i + 1) : close(true); };
+
+    revBtn.addEventListener('click', reveal);
+
+    slot.querySelector('.cp-btn').addEventListener('click', e => {
+      const on = readCP() !== i;
+      writeCP(on ? i : null);
+      e.currentTarget.classList.toggle('on', on);
+      e.currentTarget.setAttribute('aria-pressed', on);
+      paintCP();
+    });
+
+    /* Enter → نمایش پاسخ، Enter دوباره → جملهٔ بعدی، Shift+Enter → خط تازه */
+    ta.addEventListener('keydown', e => {
+      if (e.key !== 'Enter' || e.shiftKey || e.isComposing || e.keyCode === 229) return;
+      e.preventDefault();
+      ans.hidden ? reveal() : next();
+    });
+
+    ta.focus({ preventScroll: true });
+    bring(null);
+  }
+
+  spans.forEach(sp => {
+    const i = +sp.dataset.i;
+    const go = () => { if (active === i) close(true); else open(i); };
+    sp.addEventListener('click', go);
+    sp.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); go(); }
+    });
+  });
+
+  /* بالاآمدن کیبورد روی موبایل ارتفاع دید را عوض می‌کند */
+  if (window.visualViewport){
+    let t;
+    window.visualViewport.addEventListener('resize', () => {
+      clearTimeout(t);
+      t = setTimeout(() => bring(keepEl), 150);
+    });
+  }
+
+  jumpBtn.addEventListener('click', () => {
+    const cp = readCP();
+    if (cp !== null) spans[cp].scrollIntoView({block:'center', behavior:'smooth'});
+  });
+
+  document.getElementById('toc').addEventListener('click', e => {
+    const b = e.target.closest('button[data-t]');
+    if (b) document.getElementById('text-' + b.dataset.t)
+      .scrollIntoView({block:'start', behavior:'smooth'});
+  });
+
+  paintCP();
+})();
+</script>
+
+</body>
+</html>

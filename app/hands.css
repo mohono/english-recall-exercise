@@ -1,0 +1,277 @@
+/* the hands-free shell: bar, lesson frame, lessons panel, toast, help. The lesson itself gets frame.css. */
+@font-face { font-family: "Vazirmatn"; src: url(fonts/Vazirmatn-Regular.ttf); font-weight: 400; }
+@font-face { font-family: "Vazirmatn"; src: url(fonts/Vazirmatn-Bold.ttf); font-weight: 700; }
+
+:root {
+  --bg: #FAF9F5; --fg: #141413; --muted: #6C6B68; --panel: #F0EEE6; --line: #D6D3C7; --accent: #D97757;
+}
+:root[data-theme="dark"], :root[data-theme="contrast"] { color-scheme: dark; }
+:root[data-theme="dark"] {
+  --bg: #15171a; --fg: #e9e4da; --muted: #9a9488; --panel: #202328; --line: #33373e; --accent: #ff8a5c;
+}
+:root[data-theme="contrast"] {
+  --bg: #000; --fg: #fff; --muted: #ccc; --panel: #111; --line: #555; --accent: #ffea00;
+}
+
+* { box-sizing: border-box; touch-action: manipulation; }
+:root { --bot: 0px; }   /* height of the bottom bar (phones) */
+html, body { height: 100%; overscroll-behavior: none; }   /* a sideways swipe is "next", not the browser's "back" */
+body { margin: 0; overflow: hidden; background: var(--bg); color: var(--fg); font-family: system-ui, sans-serif; }
+
+#bar {
+  position: fixed; inset: 0 0 auto 0; z-index: 20; height: 52px;
+  display: flex; align-items: center; gap: 10px; padding: 0 10px;
+  background: var(--panel); border-bottom: 1px solid var(--line); font-size: 16px; line-height: 1;
+}
+#bar button, #bar select {
+  font: inherit; color: var(--fg); background: transparent; border: 1px solid var(--line);
+  border-radius: 7px; height: 34px; min-width: 34px; padding: 0 7px; cursor: pointer;
+}
+@media (hover: hover) { #bar button:hover { border-color: var(--accent); } }
+@media (pointer: coarse) { #bar button, #bar select { height: 42px; min-width: 42px; } }
+#bar select { max-width: 120px; }
+#bar .group { display: flex; align-items: center; gap: 4px; }
+#where {
+  flex: 1; min-width: 190px; display: flex; gap: 10px; align-items: baseline; white-space: nowrap; color: var(--muted);
+  font-family: "Vazirmatn", system-ui, sans-serif; font-size: 18px;
+}
+#where .t { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+#where .count { flex: none; }
+/* wide window: #more is simply part of the bar, in the old order */
+#more { display: contents; }
+#more .touch, #moreBtn { display: none; }
+#sideBtn, #where { order: -2; }
+#more .nav { order: -1; }
+#moreBtn.on { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+#backdrop { position: fixed; inset: 0; z-index: 14; }
+#backdrop[hidden] { display: none; }
+#where b { color: var(--fg); }
+#where .count { direction: ltr; unicode-bidi: isolate; font-variant-numeric: tabular-nums; }
+#pace, #after { min-width: 34px; text-align: center; color: var(--muted); font-variant-numeric: tabular-nums; }
+#auto.on, #speak.on, #type.on, #sideBtn.on, #remote.on { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+#mic.on { background: #2f8f3a; border-color: #2f8f3a; }
+#mic.loading { background: #a0761a; border-color: #a0761a; }
+#progress { position: fixed; top: 52px; left: 0; right: 0; height: 4px; z-index: 20; }
+#progress div { height: 100%; width: 0; background: var(--accent); }
+
+#lesson {
+  position: fixed; top: 56px; left: 0; width: 100%; border: 0; background: var(--bg);
+  height: calc(100% - 56px - var(--bot)); height: calc(100dvh - 56px - var(--bot));
+}
+
+@media (pointer: coarse) { #exercises .item, #exercises .gh { padding-top: 9px; padding-bottom: 9px; } }
+
+/* exercises sidebar: docked beside the lesson, for a page that holds several exercises */
+:root { --side: 300px; }
+#exercises {
+  position: fixed; top: 56px; bottom: 0; right: 0; width: var(--side); z-index: 10; overflow: auto;
+  background: var(--panel); border-left: 1px solid var(--line); padding: 6px 8px 40px;
+  font-family: "Vazirmatn", system-ui, sans-serif; font-size: 17px; line-height: 1.45;
+}
+#exercises[hidden] { display: none; }
+#exercises .head { display: flex; align-items: center; gap: 6px; position: sticky; top: -6px; z-index: 1; background: var(--panel); padding: 4px 0; }
+#exercises h4 { flex: 1; margin: 0 8px; color: var(--accent); font-size: 15px; }
+#exercises .head button {
+  font: inherit; line-height: 1; color: var(--fg); background: transparent; border: 1px solid var(--line);
+  border-radius: 7px; height: 30px; min-width: 34px; cursor: pointer;
+}
+#exercises .head button:hover { border-color: var(--accent); }
+/* groups: one per collection, closed until opened (the one you are in opens by itself) */
+#exercises .gh {
+  display: flex; gap: 6px; align-items: baseline; padding: 6px 8px; margin-top: 4px; border-radius: 6px; cursor: pointer;
+  color: var(--accent); font-weight: 700; font-size: .94em; user-select: none;
+}
+@media (hover: hover) { #exercises .gh:hover { background: var(--bg); } }
+#exercises .gt { flex: 1; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+#exercises .gc { flex: none; color: var(--muted); font-size: 13px; font-weight: 400; font-variant-numeric: tabular-nums; }
+#exercises .caret { flex: none; width: 1em; text-align: center; transition: transform .15s; }
+#exercises .grp.closed .caret { transform: rotate(90deg); }
+#exercises .grp.closed .item { display: none; }
+body.side-small #exercises .gt, body.side-small #exercises .gc { display: none; }
+body.side-small #exercises .gh { justify-content: center; padding: 4px 0; border-top: 1px solid var(--line); border-radius: 0; }
+#exercises .num { display: none; flex: 1; text-align: center; font-variant-numeric: tabular-nums; }
+/* shrunk: a strip of lesson numbers (the title is the tooltip) */
+body.side-small { --side: 62px; }
+body.side-small #exercises { padding: 6px 5px 40px; }
+body.side-small #exercises h4, body.side-small #exercises .title, body.side-small #exercises .prog { display: none; }
+body.side-small #exercises .head { justify-content: center; }
+body.side-small #exercises .head button { flex: 1; }
+body.side-small #exercises .num { display: block; }
+body.side-small #exercises .item { padding: 5px 2px; }
+#exercises .item { display: flex; gap: 8px; align-items: baseline; padding: 5px 8px; border-radius: 6px; cursor: pointer; }
+@media (hover: hover) { #exercises .item:hover { background: var(--bg); } }
+#exercises .item.cur { background: var(--bg); outline: 2px solid var(--accent); font-weight: 700; }
+#exercises .title { flex: 1; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+#exercises .done { color: #2f8f3a; }
+#exercises .prog { flex: none; direction: ltr; color: var(--muted); font-size: 13px; font-weight: 400; font-variant-numeric: tabular-nums; }
+body.side #lesson { width: calc(100% - var(--side)); }
+body.side #clock { right: calc(var(--side) + 26px); }
+@media (max-width: 1000px) { :root { --side: 210px; } #exercises { font-size: 15px; } }
+@media (max-width: 1000px) { body.side-small { --side: 54px; } }
+
+/* toast: what the voice heard, what happened */
+#toast {
+  position: fixed; bottom: 26px; left: 26px; z-index: 30; padding: 10px 18px; border-radius: 10px;
+  background: var(--fg); color: var(--bg); font-size: 22px; font-family: "Vazirmatn", system-ui, sans-serif; line-height: 1.4;
+  opacity: 0; transition: opacity .25s; pointer-events: none; max-width: 70vw;
+}
+#toast.show { opacity: .93; }
+
+#help {
+  position: fixed; z-index: 45; top: 50%; left: 50%; transform: translate(-50%, -50%); width: min(820px, 94vw);
+  max-height: 92vh; overflow: auto;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 20px 28px;
+  font-size: 17px; line-height: 1.5; box-shadow: 0 20px 60px rgba(0,0,0,.35);
+}
+#help[hidden] { display: none; }
+#help h2 { margin: 0 0 .5em; font-size: 22px; }
+#help table { border-collapse: collapse; width: 100%; }
+#help th, #help td { text-align: left; padding: 5px 10px; border-bottom: 1px solid var(--line); }
+#help td:first-child { font-weight: 700; color: var(--accent); }
+
+/* the voice dialog: big enough to read from a distance */
+#words {
+  position: fixed; z-index: 45; top: 50%; left: 50%; transform: translate(-50%, -50%); width: min(1500px, 96vw);
+  max-height: 94vh; overflow: auto;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px 26px 18px;
+  font-size: 19px; line-height: 1.35; box-shadow: 0 20px 60px rgba(0,0,0,.35);
+}
+#words[hidden] { display: none; }
+#words h2 { margin: 0 0 .15em; font-size: 26px; }
+#wordsStatus { margin: 0 0 .5em; color: var(--muted); }
+#wordsList { display: grid; grid-auto-flow: column; grid-template-rows: repeat(var(--rows), auto); column-gap: 34px; }
+#words .w {
+  display: grid; grid-template-columns: 215px 1fr auto; gap: 12px; align-items: baseline;
+  padding: 6px 6px; border-top: 1px solid var(--line); border-radius: 4px;
+}
+#words .phrase { font-size: 24px; font-weight: 700; color: var(--accent); white-space: nowrap; }
+#words .or { font-size: 15px; font-weight: 400; color: var(--muted); }
+#words .keys { white-space: nowrap; }
+#words kbd {
+  font: 14px system-ui, sans-serif; padding: 1px 6px; border: 1px solid var(--line); border-radius: 5px;
+  background: var(--bg); color: var(--fg);
+}
+#words .w.hit { animation: heard 1.6s ease-out; }
+@keyframes heard { from { background: color-mix(in srgb, #2f8f3a 45%, transparent); } to { background: transparent; } }
+#words .rules { margin: .7em 0 0; font-size: 16px; color: var(--muted); line-height: 1.5; }
+@media (max-width: 1000px) { #wordsList { grid-auto-flow: row; grid-template-rows: none; } }
+@media (max-height: 800px) {
+  #words { font-size: 17px; padding: 12px 22px 14px; }
+  #words .w { padding: 4px 6px; grid-template-columns: 190px 1fr auto; }
+  #words .phrase { font-size: 21px; }
+  #words .rules { margin-top: .5em; font-size: 14px; line-height: 1.4; }
+}
+
+/* auto mode: the play / pause button, and a countdown big enough to read from across the room */
+#auto { min-width: 96px; }
+#auto.paused { border-color: var(--accent); color: var(--accent); border-width: 2px; }
+#clock {
+  position: fixed; right: 26px; bottom: 26px; z-index: 25; display: flex; align-items: center; gap: 10px;
+  min-width: 150px; padding: 10px 20px 14px; border-radius: 14px; overflow: hidden;
+  background: var(--panel); border: 2px solid var(--line); color: var(--fg);
+  font: 700 38px/1 system-ui, sans-serif; font-variant-numeric: tabular-nums; box-shadow: 0 6px 24px rgba(0,0,0,.18);
+  pointer-events: none;
+}
+#clock[hidden] { display: none; }
+#clock .icon { font-size: 32px; }
+#clock .label { font-size: 30px; }
+#clock i { position: absolute; left: 0; bottom: 0; height: 6px; width: calc(100% * var(--done, 0)); background: var(--accent); }
+#clock.answer i { background: #2f8f3a; }
+
+/* auto-mode settings */
+#settings {
+  position: fixed; z-index: 45; top: 50%; left: 50%; transform: translate(-50%, -50%); width: min(860px, 96vw);
+  max-height: 94vh; overflow: auto;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px 28px 20px;
+  font-size: 20px; line-height: 1.4; box-shadow: 0 20px 60px rgba(0,0,0,.35);
+}
+#settings[hidden] { display: none; }
+#settings h2 { margin: 0 0 .4em; font-size: 26px; }
+#settings .row {
+  display: grid; grid-template-columns: 1fr 48px 150px 48px; gap: 10px; align-items: center;
+  padding: 7px 0; border-top: 1px solid var(--line);
+}
+#settings .row b { text-align: center; color: var(--accent); font-size: 23px; font-variant-numeric: tabular-nums; }
+#settings button {
+  font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 8px;
+  height: 42px; padding: 0 14px; cursor: pointer;
+}
+#settings .row button { font-size: 24px; padding: 0; }
+#settings button:hover:not(:disabled) { border-color: var(--accent); }
+#settings button:disabled { opacity: .35; cursor: default; }
+#settings button.on { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+#setFlow { margin: .7em 0 .3em; padding: 8px 12px; border-radius: 8px; background: var(--bg); font-size: 18px; }
+#settings .rules { margin: .5em 0 .8em; font-size: 15px; color: var(--muted); line-height: 1.5; }
+#settings .acts { display: flex; gap: 10px; flex-wrap: wrap; }
+@media (max-width: 700px) { #settings .row { grid-template-columns: 1fr 42px 110px 42px; font-size: 17px; } }
+#bar .sep { color: var(--muted); margin-left: 4px; }
+@media (min-width: 1251px) and (max-width: 1500px) { #micDev { display: none; } }
+
+/* ---------- narrower than the full bar: everything but the transport goes into the ⋯ sheet ---------- */
+@media (max-width: 1250px) {
+  #moreBtn { display: block; }
+  #more {
+    display: none; position: fixed; top: 60px; right: 8px; z-index: 40; width: min(430px, calc(100vw - 16px));
+    max-height: calc(100dvh - 68px - var(--bot)); overflow: auto; flex-wrap: wrap; align-items: center; gap: 12px 10px;
+    padding: 12px 14px 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+    box-shadow: 0 14px 44px rgba(0,0,0,.3);
+  }
+  body.more #more { display: flex; }
+  #more .touch { display: flex; }
+  #more .group { width: 100%; flex-wrap: wrap; gap: 6px; }
+  #more .group::before { content: attr(data-label); width: 100%; font-size: 12px; color: var(--muted); letter-spacing: .02em; }
+  #more .nav { order: 0; }
+  #more button, #more select { height: 44px; min-width: 46px; padding: 0 11px; }
+  #more select { max-width: 100%; flex: 1; }
+  #pace, #after { min-width: 46px; }
+}
+
+/* ---------- phone: transport at the bottom, sidebar as a drawer, dialogs full screen ---------- */
+@media (max-width: 700px) {
+  :root { --bot: calc(62px + env(safe-area-inset-bottom, 0px)); }
+  #bar { gap: 6px; padding: 0 8px; }
+  #where { min-width: 0; font-size: 15px; gap: 8px; }
+  #where.multi b, #where.multi .arrow { display: none; }   /* the exercise's own title is enough */
+  #where.multi .part { color: var(--fg); font-weight: 700; }
+  #where .count { font-size: 13px; }
+  #transport {
+    position: fixed; left: 0; right: 0; bottom: 0; height: var(--bot); gap: 8px;
+    padding: 7px 10px calc(7px + env(safe-area-inset-bottom, 0px));
+    background: var(--panel); border-top: 1px solid var(--line);
+  }
+  #transport button { flex: 1; height: 48px; min-width: 0; font-size: 19px; border-radius: 10px; }
+  #transport [data-cmd="step"] { flex: 2.2; background: var(--accent); color: var(--bg); border-color: var(--accent); font-size: 22px; }
+  #transport #auto { flex: 1.7; min-width: 0; font-size: 16px; }
+  #transport [data-cmd="quiet"] { flex: .8; }
+  #backdrop { background: rgba(0,0,0,.4); }
+  #exercises { z-index: 16; width: min(340px, 86vw); bottom: var(--bot); font-size: 17px; box-shadow: -8px 0 30px rgba(0,0,0,.25); }
+  #exercises .head button { display: none; }             /* a drawer does not shrink */
+  #toast { left: 12px; right: 12px; bottom: calc(var(--bot) + 12px); max-width: none; font-size: 16px; padding: 9px 14px; }
+  body.auto #toast { right: 122px; }
+  #clock { bottom: calc(var(--bot) + 12px); right: 10px; min-width: 0; gap: 6px; padding: 7px 12px 11px; font-size: 22px; border-radius: 11px; opacity: .94; }
+  #clock .icon { font-size: 19px; }
+  #clock .label { font-size: 20px; }
+  #settings, #words, #help {
+    top: 0; left: 0; transform: none; width: 100%; height: 100%; height: 100dvh; max-height: none;
+    border: 0; border-radius: 0; padding: 14px 16px calc(22px + env(safe-area-inset-bottom, 0px)); font-size: 16px;
+  }
+  #settings h2, #words h2, #help h2 { font-size: 21px; }
+  #settings .row { grid-template-columns: 1fr 44px 78px 44px; gap: 6px; font-size: 16px; }
+  #settings .row b { font-size: 18px; }
+  #settings button { height: 44px; }
+  #setFlow { font-size: 15px; }
+  #settings .acts button { flex: 1; white-space: nowrap; padding: 0 8px; }
+  #words .w { grid-template-columns: 1fr; gap: 1px; padding: 7px 4px; }
+  #words .phrase { font-size: 19px; white-space: normal; }
+  #words .keys { display: none; }
+  #help { font-size: 15px; }
+  #help th:nth-child(2), #help td:nth-child(2), #help tr:has(td:first-child:empty) { display: none; }   /* no keys on a phone */
+  #help th, #help td { padding: 6px 6px; }
+}
+#help .touchHelp { display: none; }
+@media (pointer: coarse) { #help .touchHelp { display: block; } }
+#bar [hidden] { display: none !important; }
+/* no microphone on this device: nothing about voice is shown */
+body.no-voice #help th:first-child, body.no-voice #help td:first-child, body.no-voice #help .voiceHelp { display: none; }
+@media (max-width: 700px) { body.no-voice #help table { display: none; } }   /* no voice, no keys: only the touch help */
+body.no-voice #help .touchHelp { display: block; }

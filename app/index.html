@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F0EEE6">
+<title>English recall</title>
+<link rel="stylesheet" href="hands.css">
+</head>
+<body>
+<header id="bar">
+  <button id="sideBtn" data-cmd="side" title="All exercises: expand / shrink / hide the sidebar (E or L)">☰</button>
+  <div id="where" dir="rtl"></div>
+  <!-- on a phone this group is the bar at the bottom of the screen -->
+  <div class="group" id="transport">
+    <button data-cmd="prev" title="Previous sentence (Shift+Space)">◀</button>
+    <button data-cmd="step" title="Answer, then next sentence (Space)">▶</button>
+    <button id="auto" data-cmd="auto" title="Auto mode: play / pause (P, or say “play” / “pause”)">▶ Auto</button>
+    <button data-cmd="quiet" title="Stop auto mode and reading aloud (Esc, or say “stop”)">■</button>
+  </div>
+  <button id="moreBtn" data-cmd="more" title="More controls">⋯</button>
+  <!-- wide window: part of the bar. Narrower: the sheet that ⋯ opens -->
+  <div id="more">
+    <div class="group touch" data-label="This sentence">
+      <button data-cmd="answer" title="Show the answer (A)">Answer</button>
+      <button data-cmd="skip" title="Next sentence without the answer (S)">Skip</button>
+      <button data-cmd="repeat" title="Read the English sentence again (R)">🔁 Repeat</button>
+      <button data-cmd="word" title="Read the next target word (W)">🗣 Word</button>
+      <button data-cmd="bookmark" title="Bookmark on / off (C)">🔖</button>
+      <button data-cmd="anki" title="Add the sentence to Anki (+)">+ Anki</button>
+    </div>
+    <div class="group touch" data-label="Earbud / headset buttons: play-pause = auto mode · next / previous = sentence">
+      <button id="remote" data-cmd="remote" title="Earbud / headset buttons drive the drill: on / off">🎧 Earbuds</button>
+    </div>
+    <div class="group nav" data-label="Lesson / exercise">
+      <button data-cmd="prevLesson" title="Previous lesson ([)">|◀</button>
+      <button data-cmd="nextLesson" title="Next lesson (])">▶|</button>
+    </div>
+    <div class="group" data-label="Auto mode: time to think · wait after the answer">
+      <button data-cmd="slower" title="More time to think (−)">−</button>
+      <span id="pace" title="Time to think before the answer"></span>
+      <button data-cmd="faster" title="Less time to think (=)">+</button>
+      <span class="sep" title="Wait after the answer">⏭</span>
+      <button data-cmd="shorterWait" title="Shorter wait after the answer (;, or say “shorter”)">−</button>
+      <span id="after" title="Wait after the answer, then the next sentence"></span>
+      <button data-cmd="longerWait" title="Longer wait after the answer (', or say “longer”)">+</button>
+      <button data-cmd="settings" title="Auto-mode settings (O, or say “settings”)">⚙</button>
+    </div>
+    <div class="group" data-label="Answer">
+      <button id="speak" data-cmd="speakAnswers" title="Read the English answer aloud when it shows: on / off (V)">🔊 Read</button>
+      <button id="type" data-cmd="typing" title="Typing box (K)">⌨</button>
+    </div>
+    <div class="group" data-label="Look">
+      <button data-cmd="smaller" title="Smaller text (,)">A−</button>
+      <button data-cmd="bigger" title="Bigger text (.)">A+</button>
+      <button data-cmd="theme" title="Theme (T)">◐</button>
+      <button data-cmd="fullscreen" title="Fullscreen (F)">⛶</button>
+    </div>
+    <div class="group" id="micGroup" data-label="Voice commands">
+      <button id="mic" data-cmd="mic" title="Voice commands (M)">🎤</button>
+      <select id="micDev" title="Microphone"></select>
+      <button data-cmd="words" title="What you can say (G, or say “commands”)">🗣 Words</button>
+    </div>
+    <button data-cmd="help" title="Help (?)">?</button>
+  </div>
+</header>
+<div id="backdrop" hidden></div>
+<div id="progress"><div></div></div>
+
+<iframe id="lesson" title="Lesson"></iframe>
+<nav id="exercises" hidden dir="rtl" aria-label="Exercises"></nav>
+<div id="toast" dir="auto"></div>
+<div id="clock" hidden aria-live="off"><span class="icon"></span><span class="label"></span><i></i></div>
+
+<div id="settings" hidden role="dialog" aria-labelledby="setTitle">
+  <h2 id="setTitle">Auto mode</h2>
+  <div id="setList"></div>
+  <p id="setFlow"></p>
+  <p class="rules">The countdown waits while the answer is being read aloud, while a panel like this one is open, and
+    while you are typing in the typing box, so its time is always quiet time. Any move (next, previous, skip, a click
+    on a sentence) starts the time of the new step afresh. “pause” keeps the step and its time; “play” goes on.</p>
+  <div class="acts">
+    <button id="setTry" data-say="This is how fast the English answers are read aloud.">🔊 Try the speed</button>
+    <button id="setDefaults">Defaults</button>
+    <button id="setClose">Close (Esc)</button>
+  </div>
+</div>
+
+<div id="words" hidden role="dialog" aria-labelledby="wordsTitle">
+  <h2 id="wordsTitle">What you can say</h2>
+  <p id="wordsStatus"></p>
+  <div id="wordsList"></div>
+  <p class="rules">Say each one <b>on its own</b>, with a short pause before and after it. Inside a sentence it is
+    ignored, so the English answers you say aloud do not count. The mic does not listen while an answer is
+    being read aloud. The toast at the bottom left shows what was heard: a word with “?” was not sure enough
+    and nothing happened. Close this list with Esc, a click, G, or by saying “commands”.</p>
+</div>
+
+<div id="help" hidden>
+  <h2>Hands-free drills</h2>
+  <table>
+    <tr><th>Say</th><th>Key</th><th>Does</th></tr>
+    <tr><td>next</td><td>Space Enter → N</td><td>show the answer; when it is shown, go to the next sentence</td></tr>
+    <tr><td>previous</td><td>Shift+Space ← B</td><td>previous sentence, answer shown</td></tr>
+    <tr><td>answer / show</td><td>A</td><td>show the answer only</td></tr>
+    <tr><td>skip</td><td>S</td><td>next sentence without the answer</td></tr>
+    <tr><td>repeat</td><td>R</td><td>read the English sentence again</td></tr>
+    <tr><td>pronounce</td><td>W</td><td>read the next target word (1, 2, … again)</td></tr>
+    <tr><td>play / start / resume / continue</td><td>P</td><td>auto mode: think time → answer read aloud → a short wait → next sentence; after a pause, go on</td></tr>
+    <tr><td>pause / wait / hold</td><td>P</td><td>pause auto mode where it is</td></tr>
+    <tr><td>stop</td><td>Esc</td><td>stop reading aloud and turn auto mode off</td></tr>
+    <tr><td>faster / slower</td><td>= −</td><td>less / more time to think in auto mode</td></tr>
+    <tr><td>shorter / longer</td><td>; '</td><td>shorter / longer wait after the answer in auto mode</td></tr>
+    <tr><td>settings</td><td>O</td><td>auto-mode settings: think time, per word, read aloud, times, speed, wait after</td></tr>
+    <tr><td>bookmark</td><td>C</td><td>checkpoint 🔖 on / off</td></tr>
+    <tr><td>save card</td><td>+</td><td>add the sentence to the Anki deck “sentences”</td></tr>
+    <tr><td>next lesson / previous lesson</td><td>] [</td><td>the next / previous exercise in the sidebar, at your place in it</td></tr>
+    <tr><td>bigger / smaller</td><td>. ,</td><td>text size</td></tr>
+    <tr><td>commands</td><td>G</td><td>the list of voice words and what each one does (🗣 Words)</td></tr>
+    <tr><td></td><td>↓ ↑ PageDown</td><td>scroll a long answer</td></tr>
+    <tr><td></td><td>V</td><td>read the English answer aloud when it shows: on / off (the “🔊 Read” button)</td></tr>
+    <tr><td></td><td>K</td><td>typing box on / off</td></tr>
+    <tr><td></td><td>T F M</td><td>theme, fullscreen, microphone</td></tr>
+    <tr><td></td><td>E L</td><td>sidebar of all exercises: expanded → shrunk to numbers → hidden. Click a group to open it, an exercise to switch to it; auto mode stops at the end of each exercise</td></tr>
+  </table>
+  <p class="touchHelp">By touch: tap anywhere on the lesson that is not a sentence or a button to show the answer, and
+    again to go on. ◀ ▶ at the bottom do the same, and so does swiping sideways (right = next, left = previous).
+    With 🎧 Earbuds on (in ⋯), the earbud buttons work too: play / pause = auto mode, next / previous = sentence. ⋯ holds every other control, ☰ the list of all exercises. Tap here to close.</p>
+  <p class="voiceHelp">Say a command on its own, with a short pause around it. Voice runs offline on this laptop (Vosk) and
+    does not listen while an answer is being read aloud. The toast at the bottom left shows what it heard;
+    a word with “?” was ignored. Your place in every lesson, text size, theme and mic are remembered.</p>
+</div>
+
+<script src="vendor/vosk.js"></script>
+<script src="hands.js"></script>
+</body>
+</html>
