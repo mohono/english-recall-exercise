@@ -28,6 +28,8 @@ python3 serve.py --lan      # also for a phone on the same Wi-Fi
   TED-Ed also against the transcript), `check --all` validates everything, `index` rebuilds the index.
   **`scripts/add_ipa.py`** adds American IPA. **`scripts/fetch.py`** picks the next TED-Ed video and fetches
   its transcript (`SUPADATA_API_KEY` in `.env`, never committed).
+- **`docs/`** says how to ask for each kind of new exercise ([docs/README.md](docs/README.md)) and lists the
+  working rules ([docs/rules.md](docs/rules.md)).
 - **`.claude/skills/`** hold the three skills. Their content rules are the ones from the old projects; they
   write data files here.
 
