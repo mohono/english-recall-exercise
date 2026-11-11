@@ -5,9 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#F0EEE6">
 <title>English recall</title>
+<script>
+/* the saved theme, before the first paint: the loading cover is already in it */
+try {
+  var t = JSON.parse(localStorage.getItem("lhf.theme"));
+  if (t === "dark" || t === "contrast") document.documentElement.dataset.theme = t;
+} catch (e) { /* private window, or nothing saved */ }
+</script>
 <link rel="stylesheet" href="hands.css">
 </head>
 <body>
+<!-- covers the page until the exercise is at the saved place, in the saved size and theme (boot / bootDone) -->
+<div id="boot" class="first" role="status"><i class="ring"></i><b>English recall</b><span id="bootMsg" dir="auto">Loading…</span></div>
 <header id="bar">
   <button id="sideBtn" data-cmd="side" title="All exercises: expand / shrink / hide the sidebar (E or L)">☰</button>
   <div id="where" dir="rtl"></div>
@@ -131,7 +140,6 @@
     a word with “?” was ignored. Your place in every lesson, text size, theme and mic are remembered.</p>
 </div>
 
-<script src="vendor/vosk.js"></script>
 <script src="hands.js"></script>
 </body>
 </html>

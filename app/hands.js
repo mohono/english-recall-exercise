@@ -415,7 +415,8 @@ function toggle(key, on, off) {
 /* ---------- exercises: the sidebar lists every one, grouped by collection ---------- */
 function goLesson(path) {
   const l = LESSONS.find((x) => x.path === path) || LESSONS[0];
-  if (!l) return;
+  if (!l) { bootDone(); return; }
+  boot(l.title);
   S.last = l.path; save("last", l.path);
   history.replaceState(null, "", "#" + l.path);
   F = null;
@@ -605,7 +606,7 @@ function changed() {                 // the engine opened, closed or revealed so
 frame.addEventListener("load", () => {
   const win = frame.contentWindow, doc = win.document;
   let title;
-  try { title = win.eval("TITLE"); } catch { toast("This page is not a drill"); return; }
+  try { title = win.eval("TITLE"); } catch { bootDone(); toast("This page is not a drill"); return; }
   const path = new URLSearchParams(win.location.search).get("d") || "";
   F = { win, doc, title, path, group: LESSONS.find((l) => l.path === path)?.group || "",
     spans: [...doc.querySelectorAll("#passage .s")] };
@@ -626,7 +627,14 @@ frame.addEventListener("load", () => {
   }, true);
   new win.MutationObserver(changed).observe(doc.getElementById("passage"),
     { subtree: true, attributes: true, attributeFilter: ["class", "hidden"] });
-  const go = () => { if (F?.win === win && active() < 0) openPlace(); changed(); };
+  const go = () => {
+    if (F?.win === win && active() < 0) openPlace();
+    changed();
+    // the cover lifts when the fonts are in and the engine has brought the sentence to the top
+    const wait = (ms) => new Promise((r) => setTimeout(r, ms));
+    Promise.all([Promise.race([doc.fonts?.ready, wait(1500)]), wait(350)])
+      .then(() => { if (F?.win === win) bootDone(); });
+  };
   link.onload = go; link.onerror = go;               // open the sentence once the page has its final size
   watchSwipes(win);
   win.addEventListener("pointerdown", wakeRemote); win.addEventListener("keydown", wakeRemote);
@@ -736,6 +744,16 @@ async function openMic() {
   }
 }
 
+let voskLoading = null;
+function loadVosk() {                // 5.8 MB: fetched only when the mic is switched on, never for the first paint
+  return voskLoading ??= new Promise((res, rej) => {
+    const s = document.createElement("script");
+    s.src = "vendor/vosk.js"; s.onload = res;
+    s.onerror = () => { voskLoading = null; s.remove(); rej(new Error("vendor/vosk.js did not load")); };
+    document.head.append(s);
+  });
+}
+
 async function startMic() {
   if (!CAN_VOICE) {                  // browsers give the mic only to https or localhost
     toast("The microphone only works on the laptop itself (127.0.0.1), not over the network", 7000); return;
@@ -743,7 +761,7 @@ async function startMic() {
   if (location.protocol === "file:") { toast("Voice needs the local server: python3 serve.py", 6000); return; }
   $("#mic").classList.add("loading");
   try {
-    if (!model) { toast("Loading speech model…", 20000); model = await Vosk.createModel(MODEL_URL); }
+    if (!model) { toast("Loading speech model…", 20000); await loadVosk(); model = await Vosk.createModel(MODEL_URL); }
     const stream = await openMic();
     const ctx = new AudioContext();
     const rec = new model.KaldiRecognizer(ctx.sampleRate, GRAMMAR);
@@ -921,6 +939,21 @@ function toast(msg, ms = 1800) {
   clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove("show"), ms);
 }
 
+/* ---------- the loading cover: up until the exercise is at the saved place, in the saved look ---------- */
+let bootTimer = 0;
+function boot(msg) {
+  $("#bootMsg").textContent = msg;
+  $("#boot").classList.remove("done");
+  clearTimeout(bootTimer); bootTimer = setTimeout(bootDone, 15000);   // never stuck behind it
+}
+function bootDone() {
+  const b = $("#boot");
+  clearTimeout(bootTimer);
+  if (b.classList.contains("done")) return;
+  b.classList.add("done");
+  setTimeout(() => { if (b.classList.contains("done")) b.classList.remove("first"); }, 250);   // from now on: the frame only
+}
+
 /* ---------- keep the screen on ---------- */
 let wakeLock = null;
 async function keepAwake() {
@@ -975,6 +1008,7 @@ function moveOldPlaces() {
 /* ---------- start ---------- */
 async function init() {
   if (importFromHash()) return;
+  boot("Loading exercises…");
   if (!THEMES.includes(S.theme)) S.theme = "light";
   for (const s of SETTINGS) if (!s.list.includes(S[s.key])) S[s.key] = DEFAULTS[s.key];   // a stored value no longer offered
   applyLook();
@@ -1006,7 +1040,7 @@ async function init() {
   if (S.micOn) startMic();
 
   try { GROUPS = await (await fetch("../data/index.json")).json(); }
-  catch { toast("Start it with: python3 serve.py", 10000); return; }
+  catch { bootDone(); toast("Start it with: python3 serve.py", 10000); return; }
   LESSONS = GROUPS.flatMap((g) => g.items.map((it) => ({ path: it.id, title: it.title, units: it.units, group: g.title })));
   moveOldPlaces();
   buildSide();

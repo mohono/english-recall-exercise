@@ -97,6 +97,9 @@ in this browser. The screen is kept awake while the view is open.
   `hands.js` adds `frame.css` to it (size, full width, themes, typing box hidden) and drives the engine through
   its own elements: `span.s`, `.reveal`, `.say`, `.cp-btn`, `.anki-btn`. The mic and the speech model live in
   the view, so they stay on from one exercise to the next.
+- A loading cover (`#boot`) is up from the first paint, already in the saved theme, until the exercise stands at
+  your place in the saved size and look; on a switch of exercise it covers only the lesson frame. It never waits
+  for the speech files: `vendor/vosk.js` is fetched only when the mic is switched on.
 - `vendor/vosk.js` (vosk-browser 0.0.8) and `vendor/vosk-model-small-en-us-0.15.tar.gz` do speech recognition
   fully offline in the page; no audio leaves the laptop. The recognizer only listens for the command words,
   plus "[unk]" for everything else. A word counts only when the recognizer is ≥ 0.85 sure of it and it has
