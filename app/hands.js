@@ -358,7 +358,8 @@ function showClock(why = auto && !paused ? holding() : "") {
   btn.classList.toggle("paused", paused);
   const c = $("#clock");
   c.hidden = !auto;
-  document.body.classList.toggle("auto", auto);   // the toast leaves room for the clock on a phone
+  document.body.classList.toggle("auto", auto);
+  F?.doc.documentElement.classList.toggle("hf-auto", auto);   // the toast leaves room for the clock on a phone
   if (!auto) return;
   const sec = Math.max(0, Math.ceil(left / 1000));
   const ans = !!F && shown();
@@ -390,6 +391,7 @@ function applyLook() {
   root.dataset.hfTheme = S.theme;
   root.classList.toggle("hf-type", S.type);
   root.classList.toggle("hf-no-anki", !CAN_ANKI);
+  root.classList.toggle("hf-auto", auto);            // touch: a sentence is "next" too, and is not selected by a long press
 }
 function keepPlace(change) {         // change the look without losing the line you are on
   const a = active();
@@ -566,6 +568,33 @@ function watchSwipes(win) {
   }, { passive: true });
 }
 
+// auto mode, touch: a tap on a sentence is "next" (the text fills a phone's screen), so a long press jumps to it
+let holdUntil = 0;                   // a click that ends a long press does nothing
+function watchHolds(win) {
+  let timer = 0, x = 0, y = 0;
+  const drop = () => { clearTimeout(timer); timer = 0; };
+  win.addEventListener("touchstart", (e) => {
+    drop();
+    const sp = e.touches.length === 1 && auto && !overlayOpen() && e.target.closest?.(".s");
+    if (!sp) return;
+    x = e.touches[0].clientX; y = e.touches[0].clientY;
+    timer = setTimeout(() => {
+      timer = 0;
+      if (!F || F.win !== win) return;
+      holdUntil = performance.now() + 900;
+      navigator.vibrate?.(15);
+      open(F.spans.indexOf(sp));
+    }, 500);
+  }, { passive: true });
+  win.addEventListener("touchmove", (e) => {
+    const p = e.touches[0];
+    if (timer && Math.hypot(p.clientX - x, p.clientY - y) > 10) drop();
+  }, { passive: true });
+  win.addEventListener("touchend", drop, { passive: true });
+  win.addEventListener("touchcancel", drop, { passive: true });
+  win.addEventListener("contextmenu", (e) => { if (auto && e.target.closest?.(".s")) e.preventDefault(); });
+}
+
 /* ---------- status: where am I, remembered place ---------- */
 let statusQueued = false;
 function changed() {                 // the engine opened, closed or revealed something
@@ -617,6 +646,15 @@ frame.addEventListener("load", () => {
   applyLook();
   win.addEventListener("keydown", onKey, true);
   doc.addEventListener("click", onLessonClick);
+  doc.addEventListener("click", (e) => {             // auto mode, touch: a tap on a sentence is "next", not a jump to it
+    if (!e.isTrusted || !e.target.closest?.(".s")) return;
+    if (performance.now() < holdUntil) { e.stopPropagation(); e.preventDefault(); return; }   // the end of a long press
+    if (!auto || !(e.pointerType === "touch" || coarse.matches) || overlayOpen()) return;
+    e.stopPropagation(); e.preventDefault();
+    closeDrawers();
+    run("step");
+  }, true);
+  watchHolds(win);
   doc.addEventListener("click", (e) => {             // the lesson's own 🔊 buttons read here too, at the speed set
     const say = e.target.closest(".say");
     if (!say || !e.isTrusted) return;

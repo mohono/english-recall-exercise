@@ -47,4 +47,6 @@ html[data-hf-theme="contrast"] .anki-btn.on i { color: #000; }
 html, body { overscroll-behavior-x: none; }   /* a sideways swipe is "next" / "previous", not the browser's "back" */
 /* + Anki only works on the laptop itself: elsewhere the lesson does not show it */
 html.hf-no-anki .anki-btn, html.hf-no-anki .anki-msg { display: none; }
+/* auto mode: a long press on a sentence jumps to it, so it must not select text or open the browser's menu */
+html.hf-auto .s { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
 html { touch-action: manipulation; }   /* a tap is "next" at once: no double-tap zoom, no wait for it */

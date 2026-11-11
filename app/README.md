@@ -70,6 +70,9 @@ the width:
   text starts at 18px. Swiping the lesson sideways moves too: right = next (answer first), left = previous.
 - on a touch screen, **a tap anywhere on the lesson** that is not a sentence or a button is "next": the answer
   first, then the next sentence. Tapping a sentence still jumps to it.
+- **while auto mode is on**, a tap on a sentence is "next" as well (on a phone the text fills the screen), so the
+  whole lesson is one tap target; only the lesson's buttons (🔊, bookmark, + Anki) keep their own job. To jump to a
+  sentence then, press and hold it for half a second.
 - **🎧 Earbuds** (in ⋯, on by default on a touch device): the earbud / headset buttons drive the drill.
   Play / pause turns auto mode on and pauses it, next track (usually a double tap) is "next", previous track is
   "previous"; the same controls show on the lock screen. A browser passes those buttons only to a page that is
