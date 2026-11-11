@@ -1,7 +1,7 @@
-"""Serve english-recall-exercise on http://127.0.0.1:8766 and open the hands-free view in a Chrome app window.
+"""Serve english-recall-exercise on http://127.0.0.1:8080 and open the hands-free view in a Chrome app window.
 
 The microphone only works on a real address (not file://), and Chrome remembers the mic permission for
-127.0.0.1:8766, so it asks only the first time. Port 8765 is left free for AnkiConnect, which the +Anki
+127.0.0.1:8080, so it asks only the first time. Port 8765 is left free for AnkiConnect, which the +Anki
 button talks to. Ctrl+C stops the server.
 
 Usage: python3 serve.py [--no-open] [--lan] [--port N]
@@ -23,7 +23,7 @@ ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / "scripts"))
 import drill  # noqa: E402  (scripts/drill.py: the index of all exercises)
 
-PORT = int(sys.argv[sys.argv.index("--port") + 1]) if "--port" in sys.argv else 8766
+PORT = int(sys.argv[sys.argv.index("--port") + 1]) if "--port" in sys.argv else 8080
 URL = f"http://127.0.0.1:{PORT}/app/"
 SERVED = ("/app/", "/data/")       # the view and the exercises; sources, scripts and .env are not served
 

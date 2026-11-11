@@ -4,7 +4,7 @@ Every exercise in `data/` on one page, for studying on a laptop monitor a little
 sidebar of all exercises, big text, themes, keys, offline voice commands, an auto mode, touch and your place
 remembered. An exercise is only a data file; it runs in this view on the one shared engine, `drill.html`.
 
-**Start:** `python3 serve.py` serves the project on http://127.0.0.1:8766 and opens the view in a Chrome app
+**Start:** `python3 serve.py` serves the project on http://127.0.0.1:8080 and opens the view in a Chrome app
 window. It continues the last exercise at the sentence you were on. Turn the microphone on with 🎤 or **M**;
 Chrome asks for mic permission only the first time. (Port 8765 is left free for AnkiConnect, which the +Anki
 button uses.)

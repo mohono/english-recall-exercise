@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Move progress</title>
+<style>body { font: 18px/1.5 system-ui, sans-serif; margin: 2rem; background: #FAF9F5; color: #141413; }</style>
+</head>
+<body>
+<p id="msg">Moving your progress…</p>
+<script>
+// Saved places live per address (host + port). Opened on the OLD address, this page hands everything the
+// view saved (keys "lhf.…") to the view on another port: export.html?to=8080
+(function () {
+  const to = new URLSearchParams(location.search).get("to") || "8080";
+  const data = {};
+  try {
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i);
+      if (k.startsWith("lhf.")) data[k] = localStorage.getItem(k);
+    }
+  } catch (e) { /* no storage here: nothing to move */ }
+  const n = Object.keys(data).length;
+  document.getElementById("msg").textContent = n ? `Moving ${n} saved settings and places to port ${to}…` : "Nothing saved here to move.";
+  const url = `${location.protocol}//${location.hostname}:${to}/app/`;
+  location.replace(n ? url + "#lhf-import=" + encodeURIComponent(JSON.stringify(data)) : url);
+})();
+</script>
+</body>
+</html>

@@ -931,6 +931,22 @@ async function keepAwake() {
   } catch { /* not allowed here */ }
 }
 
+/* ---------- progress handed over from another port (export.html on the old address) ---------- */
+function importFromHash() {
+  const m = location.hash.match(/^#lhf-import=(.*)$/);
+  if (!m) return false;
+  let n = 0;
+  try {
+    for (const [k, v] of Object.entries(JSON.parse(decodeURIComponent(m[1])))) {
+      if (k.startsWith("lhf.") && typeof v === "string") { localStorage.setItem(k, v); n++; }
+    }
+  } catch { /* a broken link: keep what is here */ }
+  history.replaceState(null, "", location.pathname);
+  console.info("[import]", n, "saved settings and places");
+  location.reload();                 // start again with the imported settings and places
+  return true;
+}
+
 /* ---------- once: your places from the lingemy-exercise view (same browser, same address) ---------- */
 function moveOldPlaces() {
   if (load("moved", false)) return;
@@ -958,6 +974,7 @@ function moveOldPlaces() {
 
 /* ---------- start ---------- */
 async function init() {
+  if (importFromHash()) return;
   if (!THEMES.includes(S.theme)) S.theme = "light";
   for (const s of SETTINGS) if (!s.list.includes(S[s.key])) S[s.key] = DEFAULTS[s.key];   // a stored value no longer offered
   applyLook();

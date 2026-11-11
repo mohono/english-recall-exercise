@@ -31,7 +31,7 @@ from it. To fix one sentence, name the exercise and the sentence; only that unit
 
 ## Deploy
 
-The live copy is http://91.107.173.6:8766/app/ (server `root@91.107.173.6`, folder
+The live copy is http://91.107.173.6:8080/app/ (server `root@91.107.173.6`, folder
 `/root/hermes/hossein/english-recall-exercise`, systemd unit `english-recall.service`). "commit and deploy"
 means: commit, then `scripts/deploy.sh`, which pushes, pulls on the server, restarts the service and checks
 that the page answers.
