@@ -31,8 +31,9 @@
 
   h1{font-size:1.05rem;font-weight:700;margin:0 0 .3rem;line-height:1.6}
   .hint{margin:0 0 1.1rem;color:var(--text-3);font-size:.84rem;line-height:1.75}
-  .src{display:inline-block;margin:0 0 .5rem;font-family:var(--serif);direction:ltr;
-    font-size:.82rem;color:var(--accent-deep);text-decoration:none;
+  /* لینک منبع (ویدیوی TED-Ed)، در پایان تمرین */
+  .src{display:inline-block;margin:1.6rem 0 .5rem;font-family:var(--serif);direction:ltr;
+    font-size:.95rem;color:var(--accent-deep);text-decoration:none;
     border-bottom:1px solid var(--line-2)}
   .src[hidden]{display:none}
   .missing{margin:2rem 0;color:var(--accent-deep)}
@@ -194,11 +195,11 @@
 <body>
 <div class="wrap">
   <h1 id="title"></h1>
-  <a class="src" id="src" target="_blank" rel="noopener" hidden></a>
   <p class="hint">متن را جمله‌به‌جمله جلو برو. اول در ذهنت ترجمه کن، بعد روی جمله بزن. هر لحظه فقط یک جمله باز می‌شود.</p>
   <div class="toc" id="toc"></div>
   <button class="jump" type="button" id="jump">ادامه از چک‌پوینت ↓</button>
   <div id="passage"></div>
+  <a class="src" id="src" target="_blank" rel="noopener" hidden></a>
 </div>
 
 <script>
