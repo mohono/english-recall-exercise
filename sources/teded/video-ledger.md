@@ -26,6 +26,7 @@
 | ۱۳ | `z3Y-gsBKChc` | Why are AI data centers using so much electricity? | 2026-09-29 | 2026-11-12 | ۶۰ | ۱۵۴ |
 | ۱۴ | `jG7ULeWUfDw` | Do we actually know how magnets work? | 2026-09-24 | 2026-11-12 | ۶۱ | ۱۴۰ |
 | ۱۵ | `N2uQWfV6Jr4` | 4 ways to fix your attention span | 2026-09-22 | 2026-11-12 | ۶۲ | ۱۷۳ |
+| ۱۶ | `EMbZ72cCAzI` | How to explain something complicated | 2026-09-15 | 2026-11-12 | ۱۱۴ | ۱۹۷ |
 
 ## ردشده‌ها
 
@@ -53,3 +54,4 @@
 - **ویدیوی ۱۳:** ترنسکریپت بدون تغییر ماند («LLMS» و «New York Citys» همان‌طور ماندند). سرواژه‌ها و نام‌های فنی (GPU، LLM، Meet-Me-Room، transceiver، photonics) ورودی نگرفتند؛ فارسیِ واحدها «پردازندهٔ گرافیکی»، «مدل زبانی بزرگ»، «فرستنده‌گیرنده» و «فوتونیک» را آورده است. «Alternately» در معنای alternatively در `note` توضیح داده شد.
 - **ویدیوی ۱۴:** ترنسکریپت بدون تغییر ماند («competing spins their fields» بی‌ویرگول همان‌طور ماند). اصطلاحِ فنیِ spectroscopy ورودی نگرفت؛ فارسیِ واحد «طیف‌سنجی» را آورده است. بازی با کلمهٔ «attractive» در واحدِ آخر و «does» تأکیدی در `note` توضیح داده شد.
 - **ویدیوی ۱۵:** ترنسکریپت بدون تغییر ماند («every distraction, after all, our own…» با ویرگول همان‌طور ماند و دو واحد شد). جمله‌های نیمه‌کارهٔ آغازِ ویدیو (گوینده عمداً حواسش پرت می‌شود) واحدِ جدا گرفتند و در `note` واحدِ اول توضیح داده شد. نام‌های فنیِ مغز (prefrontal cortex، parietal cortex) ورودی نگرفتند؛ فارسیِ واحدها «قشرِ پیش‌پیشانی» و «قشرِ آهیانه» را آورده است.
+- **ویدیوی ۱۶:** ویدیوی ۹٫۵ دقیقه‌ایِ تک (نه گلچین) با تکه‌هایی از سخنرانیِ دن گیلبرت. در کپشن، «in action, He goes on» (حرفِ بزرگ وسطِ جمله) به «in action, he goes on» اصلاح شد. «Kind of remarkable machinery does this guy have» ظاهراً «What» را از آغاز انداخته؛ چیزی اضافه نشد و در `note` همان واحد گفته شد. «In fact, they really are, from field studies…» تکهٔ بریده‌شده از سخنرانی است و در `note` توضیح داده شد. نقل‌قولِ قرنِ هفدهمیِ تامس براون («hath») دست‌نخورده ماند. اصطلاحاتِ فنیِ مغز (frontal lobe، prefrontal cortex) ورودی نگرفتند.
