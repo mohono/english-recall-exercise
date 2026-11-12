@@ -34,6 +34,7 @@
 | ۲۱ | `JOs-q7rXqdk` | 4 ways to tell a great story | 2026-09-01 | 2026-11-12 | ۶۲ | ۱۳۸ |
 | ۲۲ | `QyRqlTV60zM` | Plato’s infamous Ship of State thought experiment | 2026-08-25 | 2026-11-12 | ۶۸ | ۲۱۶ |
 | ۲۳ | `l29K-ZkARmE` | The Greek myth of Apollo's curse | 2026-08-18 | 2026-11-12 | ۶۳ | ۱۵۸ |
+| ۲۴ | `2A1IEBFt6Xg` | How do Maglev trains work? | 2026-08-11 | 2026-11-12 | ۶۸ | ۱۶۰ |
 
 ## ردشده‌ها
 
@@ -69,3 +70,4 @@
 - **ویدیوی ۲۱:** ترنسکریپت بدون تغییر ماند. شماره‌گذاریِ «1. … 2. … 3. … 4.» در متن همان‌طور ماند و هر شماره سرِ واحدِ خودش آمد. «throughline» (اصطلاحِ سخنرانی‌های TED) ورودی گرفت.
 - **ویدیوی ۲۲:** ترنسکریپت بدون تغییر ماند. «so powerful a class of paid tutors» (بی that) همان‌طور ماند و در `note` آمد. نام‌های خاص (Magnesia، Assembly، sophists) ورودیِ نام‌خاص نگرفتند؛ assembly به معنای عام ورودی دارد.
 - **ویدیوی ۲۳:** کپشن نشانه‌های «[music]» و «>>» داشت که از ترنسکریپت حذف شدند. سه غلطِ آشکارِ کپشن اصلاح شد: «insidiousness truth» به «insidious truth»، «grizzly visions» به «grisly visions»، «her people screams» به «her people’s screams». جملهٔ بی‌فاعلِ «Then proceeded to tug…» همان‌طور ماند و در `note` آمد. جملهٔ پایانیِ تبلیغِ کانال («Subscribe…») جزءِ ترنسکریپت ماند. نام‌های اساطیری ورودی نگرفتند.
+- **ویدیوی ۲۴:** نشانه‌های «[music]» و «>>» از ترنسکریپت حذف شد و «engines aerodynamics and infrastructure» (ویرگول‌های افتاده) به «engines, aerodynamics, and infrastructure» اصلاح شد. «the Shinkansen capable of» و «80% of train's» همان‌طور ماندند. آگهیِ پایانیِ حامیِ مالی (Brilliant) جزءِ ترنسکریپت ماند و در `note` واحدِ اولش گفته شد. اصطلاحاتِ فنی (electromagnetic/electrodynamic suspension، diesel) ورودیِ جدا نگرفتند؛ suspension، coil و phase ورودی دارند.
