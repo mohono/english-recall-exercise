@@ -23,6 +23,7 @@
 | ۱۰ | `h6CmKF-mN2U` | Which is better: Buying or renting a home? | 2026-10-08 | 2026-11-12 | ۶۰ | ۱۱۶ |
 | ۱۱ | `JjhrN0FcHpM` | Why is Queen Victoria so controversial? | 2026-10-06 | 2026-11-12 | ۷۴ | ۱۹۰ |
 | ۱۲ | `G3hXvByzLHs` | 6 ways to be more persuasive | 2026-10-01 | 2026-11-12 | ۷۸ | ۱۱۸ |
+| ۱۳ | `z3Y-gsBKChc` | Why are AI data centers using so much electricity? | 2026-09-29 | 2026-11-12 | ۶۰ | ۱۵۴ |
 
 ## ردشده‌ها
 
@@ -47,3 +48,4 @@
 - **ویدیوی ۱۰:** ترنسکریپت بدون تغییر ماند. «Between X and Y» در معنای «X و Y روی هم» در `note` توضیح داده شد.
 - **ویدیوی ۱۱:** ترنسکریپت بدون تغییر ماند. ویدیو به شکلِ دادگاه است؛ `newPara` روی هر تغییرِ گوینده (قاضی، مدافع، دادستان) گذاشته شد. «straight laced» و «countless more international citizens» همان‌طور که در کپشن بود ماندند. «affecting change» (به‌جای effecting) لغزشِ گوینده است و در `note` آمد؛ ورودی به صورتِ معیارِ `to effect change` است.
 - **ویدیوی ۱۲:** ترنسکریپت بدون تغییر ماند. «started … and asks» (ناهمخوانیِ زمان) همان‌طور ماند. اصطلاحاتِ مُدِ جین (stonewashed، acid washed، bootcut) ورودی نگرفتند؛ distressed و tapered به‌خاطرِ معنای عمومی‌شان ورودی دارند.
+- **ویدیوی ۱۳:** ترنسکریپت بدون تغییر ماند («LLMS» و «New York Citys» همان‌طور ماندند). سرواژه‌ها و نام‌های فنی (GPU، LLM، Meet-Me-Room، transceiver، photonics) ورودی نگرفتند؛ فارسیِ واحدها «پردازندهٔ گرافیکی»، «مدل زبانی بزرگ»، «فرستنده‌گیرنده» و «فوتونیک» را آورده است. «Alternately» در معنای alternatively در `note` توضیح داده شد.
