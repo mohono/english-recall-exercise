@@ -32,6 +32,7 @@
 | ۱۹ | `_gP3aXvNmv8` | Ever walk into a room and forget what you were doing? | 2026-09-08 | 2026-11-12 | ۶۰ | ۱۵۰ |
 | ۲۰ | `BSdEiOYvKpE` | What are tariffs, and how do they work? | 2026-09-03 | 2026-11-12 | ۶۰ | ۱۴۵ |
 | ۲۱ | `JOs-q7rXqdk` | 4 ways to tell a great story | 2026-09-01 | 2026-11-12 | ۶۲ | ۱۳۸ |
+| ۲۲ | `QyRqlTV60zM` | Plato’s infamous Ship of State thought experiment | 2026-08-25 | 2026-11-12 | ۶۸ | ۲۱۶ |
 
 ## ردشده‌ها
 
@@ -65,3 +66,4 @@
 - **ویدیوی ۱۹:** ترنسکریپت بدون تغییر ماند. «Moving through the doorway distracted seemed to…» ناقص به نظر می‌رسد (احتمالاً «while distracted»)؛ چیزی اضافه نشد و در `note` همان واحد گفته شد. «default mode network» و «hippocampus» ورودی نگرفتند (اجزای default و network جداگانه ورودی دارند). بازی با کلمهٔ «caught up / get ahead of» در واحدِ آخر در `note` آمد.
 - **ویدیوی ۲۰:** ترنسکریپت بدون تغییر ماند. سرواژهٔ GDP ورودی نگرفت؛ فارسیِ واحد «تولیدِ ناخالصِ داخلی» را آورده است. نامِ قانون (Smoot-Hawley) ورودی نگرفت؛ اجزای عمومی‌اش (tariff، act) ورودی دارند.
 - **ویدیوی ۲۱:** ترنسکریپت بدون تغییر ماند. شماره‌گذاریِ «1. … 2. … 3. … 4.» در متن همان‌طور ماند و هر شماره سرِ واحدِ خودش آمد. «throughline» (اصطلاحِ سخنرانی‌های TED) ورودی گرفت.
+- **ویدیوی ۲۲:** ترنسکریپت بدون تغییر ماند. «so powerful a class of paid tutors» (بی that) همان‌طور ماند و در `note` آمد. نام‌های خاص (Magnesia، Assembly، sophists) ورودیِ نام‌خاص نگرفتند؛ assembly به معنای عام ورودی دارد.
