@@ -19,6 +19,7 @@
 | ۶ | `a_4eFB8pPwI` | 5 sneaky ways stores get you to spend more | 2026-10-22 | 2026-11-12 | ۶۸ | ۱۶۱ |
 | ۷ | `NPJ9KZqrl50` | Why does this animal never age? | 2026-10-20 | 2026-11-12 | ۶۸ | ۱۶۸ |
 | ۸ | `av3zdxYvCp8` | 3 things to never do with a credit card | 2026-10-15 | 2026-11-12 | ۶۶ | ۱۴۱ |
+| ۹ | `1uTRlM6MbMo` | How to present your ideas effectively | 2026-10-13 | 2026-11-12 | ۷۸ | ۱۶۸ |
 
 ## ردشده‌ها
 
@@ -39,3 +40,4 @@
 - **ویدیوی ۶:** ترنسکریپت بدون تغییر ماند. «Scary stories to watch in the dark» (گلچین) پیش از آن رد شد؛ نگاه کنید به «ردشده‌ها».
 - **ویدیوی ۷:** ترنسکریپت بدون تغییر ماند. اصطلاحاتِ رده‌بندیِ جانوری (genus، phylum، Cnidaria/cnidarian، polyp، Medusa) ورودی نگرفتند؛ فارسیِ واحدها «سرده»، «شاخه»، «مرجانیان»، «پولیپ» و «مدوسا» را آورده است.
 - **ویدیوی ۸:** ترنسکریپت بدون تغییر ماند. «credit-worthy» در واحد اول بازی با کلمه است و در `note` توضیح داده شد. سرواژهٔ APR ورودی نگرفت؛ اجزایش (annual، percentage، rate) ورودی دارند.
+- **ویدیوی ۹:** در کپشن، «Connection narration, explanation persuasion these are all» (ویرگول‌ها و خط تیره افتاده بود) به «Connection, narration, explanation, persuasion— these are all» اصلاح شد. «wrote $1 million check» (بدون a) دست‌نخورده ماند و در `note` آمد. نام‌های خاص («Jeff Hahn»، «Six Sense») همان‌طور که در کپشن بود ماندند. «bioluminescent» و «multi-touch» ورودی نگرفتند.
