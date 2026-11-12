@@ -41,6 +41,7 @@
 | ۲۸ | `JhxuP0AuRPA` | When did we start using passports? | 2026-07-14 | 2026-11-12 | ۶۳ | ۱۴۹ |
 | ۲۹ | `5ljV0Vxu00M` | How does the space station never run out of oxygen? | 2026-07-07 | 2026-11-12 | ۶۱ | ۱۴۲ |
 | ۳۰ | `QIqKGMM8ivM` | Psychedelics, mind control, radiation-eating: The secret superpowers of fungi | 2026-06-30 | 2026-11-12 | ۶۴ | ۱۷۶ |
+| ۳۱ | `DbEZmLoGDbk` | How a broken heart affects your body | 2026-06-25 | 2026-11-12 | ۷۰ | ۱۵۵ |
 
 ## ردشده‌ها
 
@@ -83,3 +84,4 @@
 - **ویدیوی ۲۸:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود، بی‌نشانهٔ موسیقی). «"golden passports”» با گیومهٔ بازِ مستقیم و بستهٔ خمیده همان‌طور ماند. «W.E.B. Dubois» همان‌طور که در کپشن بود ماند. نام‌های خاص (Ładoś، League of Nations، Schengen) ورودیِ نام‌خاص نگرفتند؛ league و agreement به معنای عام ورودی دارند.
 - **ویدیوی ۲۹:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «on board» و «onboard» هر دو همان‌طور که در کپشن بود ماندند. نام‌ها و اصطلاحاتِ فنی (lithium hydroxide، electrolysis، electrolyzer، methane، Lorentz force، Magnetohydrodynamic، MOGA) ورودی نگرفتند؛ electrode، current و magnetic field به‌خاطرِ کاربردِ عمومی ورودی دارند. بازی با کلمهٔ «breathe a little easier» در `note` آمد.
 - **ویدیوی ۳۰:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «along the plants they support» (ظاهراً به‌جای along with) همان‌طور ماند و در `note` آمد. نام‌های علمی (Psilocybe، psilocybin، Clathrus archeri، gleba، Cordyceps، Cryptococcus neoformans، melanin) و اصطلاحاتِ تخصصی (ectomycorrhizal، arbuscular mycorrhizal، chitin، cellulose، serotonin، gamma، tundra) ورودی نگرفتند.
+- **ویدیوی ۳۱:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). آپاستروفِ خمیده و مستقیم (’ و ') همان‌طور که در کپشن بود ماندند. اصطلاحاتِ تخصصی (takotsubo، cardiomyopathy، ventricle، epinephrine، norepinephrine، beta-adrenergic، beta blocker، estrogen، postmenopausal، dysregulate) ورودی نگرفتند؛ dysregulate در `note` توضیح داده شد. adrenaline، cardiac arrest، cardiovascular و menopause به‌خاطرِ کاربردِ عمومی ورودی دارند.
