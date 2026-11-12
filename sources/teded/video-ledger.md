@@ -12,8 +12,10 @@
 | # | videoId | عنوان | انتشار | پردازش | واحد | ورودی واژه |
 |---|---------|-------|--------|--------|------|-----------|
 | ۱ | `bHB5iiDDJ-s` | Everything you need to know about bird flu | 2026-09-17 | 2026-09-21 | ۶۲ | ۱۲۲ |
+| ۲ | `nBVuemyrMgE` | Is salt the most important ingredient in history? | 2026-11-10 | 2026-11-12 | ۶۱ | ۱۷۲ |
 
 ## یادداشت‌ها
 
 - **ویدیوی ۱:** در ترنسکریپت کپشن، «ao the only way» غلط تایپی آشکار بود و به «so the only way» اصلاح شد (در `transcripts/`).
 - **ویدیوی ۱:** واژه‌های تخصصی‌ای که فقط برای نام‌گذاری آمده‌اند (hemagglutinin، neuraminidase، H5N1) و دو واژهٔ محوریِ ویدیو (receptor، antigen) ورودی نگرفتند؛ فارسیِ واحد معنایشان را می‌رساند.
+- **ویدیوی ۲:** در ترنسکریپت کپشن، «salt fixes, Our hunter-gatherer» (ویرگول به‌جای نقطه پیش از جملهٔ تازه) به «salt fixes. Our hunter-gatherer» اصلاح شد. «1st millennia» و «microbe’s» دست‌نخورده ماندند.
