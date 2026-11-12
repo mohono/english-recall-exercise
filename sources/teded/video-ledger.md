@@ -22,6 +22,7 @@
 | ۹ | `1uTRlM6MbMo` | How to present your ideas effectively | 2026-10-13 | 2026-11-12 | ۷۸ | ۱۶۸ |
 | ۱۰ | `h6CmKF-mN2U` | Which is better: Buying or renting a home? | 2026-10-08 | 2026-11-12 | ۶۰ | ۱۱۶ |
 | ۱۱ | `JjhrN0FcHpM` | Why is Queen Victoria so controversial? | 2026-10-06 | 2026-11-12 | ۷۴ | ۱۹۰ |
+| ۱۲ | `G3hXvByzLHs` | 6 ways to be more persuasive | 2026-10-01 | 2026-11-12 | ۷۸ | ۱۱۸ |
 
 ## ردشده‌ها
 
@@ -45,3 +46,4 @@
 - **ویدیوی ۹:** در کپشن، «Connection narration, explanation persuasion these are all» (ویرگول‌ها و خط تیره افتاده بود) به «Connection, narration, explanation, persuasion— these are all» اصلاح شد. «wrote $1 million check» (بدون a) دست‌نخورده ماند و در `note` آمد. نام‌های خاص («Jeff Hahn»، «Six Sense») همان‌طور که در کپشن بود ماندند. «bioluminescent» و «multi-touch» ورودی نگرفتند.
 - **ویدیوی ۱۰:** ترنسکریپت بدون تغییر ماند. «Between X and Y» در معنای «X و Y روی هم» در `note` توضیح داده شد.
 - **ویدیوی ۱۱:** ترنسکریپت بدون تغییر ماند. ویدیو به شکلِ دادگاه است؛ `newPara` روی هر تغییرِ گوینده (قاضی، مدافع، دادستان) گذاشته شد. «straight laced» و «countless more international citizens» همان‌طور که در کپشن بود ماندند. «affecting change» (به‌جای effecting) لغزشِ گوینده است و در `note` آمد؛ ورودی به صورتِ معیارِ `to effect change` است.
+- **ویدیوی ۱۲:** ترنسکریپت بدون تغییر ماند. «started … and asks» (ناهمخوانیِ زمان) همان‌طور ماند. اصطلاحاتِ مُدِ جین (stonewashed، acid washed، bootcut) ورودی نگرفتند؛ distressed و tapered به‌خاطرِ معنای عمومی‌شان ورودی دارند.
