@@ -42,6 +42,7 @@
 | ۲۹ | `5ljV0Vxu00M` | How does the space station never run out of oxygen? | 2026-07-07 | 2026-11-12 | ۶۱ | ۱۴۲ |
 | ۳۰ | `QIqKGMM8ivM` | Psychedelics, mind control, radiation-eating: The secret superpowers of fungi | 2026-06-30 | 2026-11-12 | ۶۴ | ۱۷۶ |
 | ۳۱ | `DbEZmLoGDbk` | How a broken heart affects your body | 2026-06-25 | 2026-11-12 | ۷۰ | ۱۵۵ |
+| ۳۲ | `6hCo4S_1Fhw` | Why avalanches are most deadly when they stop | 2026-06-23 | 2026-11-12 | ۷۴ | ۱۵۴ |
 
 ## ردشده‌ها
 
@@ -85,3 +86,4 @@
 - **ویدیوی ۲۹:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «on board» و «onboard» هر دو همان‌طور که در کپشن بود ماندند. نام‌ها و اصطلاحاتِ فنی (lithium hydroxide، electrolysis، electrolyzer، methane، Lorentz force، Magnetohydrodynamic، MOGA) ورودی نگرفتند؛ electrode، current و magnetic field به‌خاطرِ کاربردِ عمومی ورودی دارند. بازی با کلمهٔ «breathe a little easier» در `note` آمد.
 - **ویدیوی ۳۰:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «along the plants they support» (ظاهراً به‌جای along with) همان‌طور ماند و در `note` آمد. نام‌های علمی (Psilocybe، psilocybin، Clathrus archeri، gleba، Cordyceps، Cryptococcus neoformans، melanin) و اصطلاحاتِ تخصصی (ectomycorrhizal، arbuscular mycorrhizal، chitin، cellulose، serotonin، gamma، tundra) ورودی نگرفتند.
 - **ویدیوی ۳۱:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). آپاستروفِ خمیده و مستقیم (’ و ') همان‌طور که در کپشن بود ماندند. اصطلاحاتِ تخصصی (takotsubo، cardiomyopathy، ventricle، epinephrine، norepinephrine، beta-adrenergic، beta blocker، estrogen، postmenopausal، dysregulate) ورودی نگرفتند؛ dysregulate در `note` توضیح داده شد. adrenaline، cardiac arrest، cardiovascular و menopause به‌خاطرِ کاربردِ عمومی ورودی دارند.
+- **ویدیوی ۳۲:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «descension» (به‌جای descent ِ رایج) همان‌طور ماند و در `note` آمد. ساختارِ وارونهٔ «Below this sat…» و شرطیِ «should disaster strike» در `note` آمدند. «surface hoar» (اصطلاحِ تخصصی) و نام‌های خاص (Elyse Saugstad، Cascade Mountains، Peruvian) ورودی نگرفتند.
