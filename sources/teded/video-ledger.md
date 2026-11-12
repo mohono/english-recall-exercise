@@ -28,6 +28,7 @@
 | ۱۵ | `N2uQWfV6Jr4` | 4 ways to fix your attention span | 2026-09-22 | 2026-11-12 | ۶۲ | ۱۷۳ |
 | ۱۶ | `EMbZ72cCAzI` | How to explain something complicated | 2026-09-15 | 2026-11-12 | ۱۱۴ | ۱۹۷ |
 | ۱۷ | `aDblEBU41nA` | How did pepper end up on every dinner table? | 2026-11-12 | 2026-11-12 | ۵۶ | ۱۴۲ |
+| ۱۸ | `I8XaYkRW1tA` | Why do some people have a better sense of direction than others? | 2026-09-10 | 2026-11-12 | ۶۵ | ۱۸۵ |
 
 ## ردشده‌ها
 
@@ -57,3 +58,4 @@
 - **ویدیوی ۱۵:** ترنسکریپت بدون تغییر ماند («every distraction, after all, our own…» با ویرگول همان‌طور ماند و دو واحد شد). جمله‌های نیمه‌کارهٔ آغازِ ویدیو (گوینده عمداً حواسش پرت می‌شود) واحدِ جدا گرفتند و در `note` واحدِ اول توضیح داده شد. نام‌های فنیِ مغز (prefrontal cortex، parietal cortex) ورودی نگرفتند؛ فارسیِ واحدها «قشرِ پیش‌پیشانی» و «قشرِ آهیانه» را آورده است.
 - **ویدیوی ۱۶:** ویدیوی ۹٫۵ دقیقه‌ایِ تک (نه گلچین) با تکه‌هایی از سخنرانیِ دن گیلبرت. در کپشن، «in action, He goes on» (حرفِ بزرگ وسطِ جمله) به «in action, he goes on» اصلاح شد. «Kind of remarkable machinery does this guy have» ظاهراً «What» را از آغاز انداخته؛ چیزی اضافه نشد و در `note` همان واحد گفته شد. «In fact, they really are, from field studies…» تکهٔ بریده‌شده از سخنرانی است و در `note` توضیح داده شد. نقل‌قولِ قرنِ هفدهمیِ تامس براون («hath») دست‌نخورده ماند. اصطلاحاتِ فنیِ مغز (frontal lobe، prefrontal cortex) ورودی نگرفتند.
 - **ویدیوی ۱۷:** ویدیوی تازه (همان روزِ انتشار پردازش شد). ترنسکریپت بدون تغییر ماند. «the now seeming inseparable pair» (به‌جای seemingly) همان‌طور ماند و در `note` آمد؛ ورودی به صورتِ معیارِ `seemingly` است. «4th or 5th century BCE» برای کتابِ آشپزیِ رومی همان‌طور که گفته شده ماند. نام‌های علمی و ترکیب‌های شیمیایی (Piper nigrum، Piper longum، piperine، capsaicin) و نام‌های غذا (salsa، harissa، gochujang) ورودی نگرفتند. واحدِ آخر به ویدیوی ۲ (نمک) اشاره دارد.
+- **ویدیوی ۱۸:** ترنسکریپت بدون تغییر ماند. نام‌های بخش‌های مغز (striatum، hippocampus، hippocampal) ورودی نگرفتند؛ فارسیِ واحدها «جسمِ مخطط» و «هیپوکامپ» را آورده است. «put … on the map» (بازی با کلمه) و پایان‌بندیِ «find your way» در `note` توضیح داده شدند.
