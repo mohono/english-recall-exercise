@@ -38,6 +38,7 @@
 | ۲۵ | `-61qDRPG3to` | The fastest way to board a plane, according to mathematics | 2026-08-04 | 2026-11-12 | ۶۹ | ۱۴۱ |
 | ۲۶ | `krNP8RlDsbw` | Red gold: The world's most expensive spice | 2026-07-28 | 2026-11-12 | ۷۱ | ۱۹۶ |
 | ۲۷ | `5jPCAlE0z7I` | The magical forest realm hiding at the bottom of the ocean | 2026-07-21 | 2026-11-12 | ۶۳ | ۱۳۹ |
+| ۲۸ | `JhxuP0AuRPA` | When did we start using passports? | 2026-07-14 | 2026-11-12 | ۶۳ | ۱۴۹ |
 
 ## ردشده‌ها
 
@@ -77,3 +78,4 @@
 - **ویدیوی ۲۵:** نشانه‌های «[music]» و «>>» از ترنسکریپت حذف شد؛ متن تغییرِ دیگری نکرد. بازی با کلمهٔ «wouldn't fly» در `note` آمد. نام‌های خاص (Airbus A320، WMA، Southwest، Steffen) ورودی نگرفتند. شناسهٔ ویدیو با «-» شروع می‌شود؛ در `drill.py check` باید `--transcript -61qDRPG3to` (با فاصله) نوشت.
 - **ویدیوی ۲۶:** نشانه‌های «[music]» و «>>» از ترنسکریپت حذف شد. دو غلطِ آشکارِ کپشن (آپاستروفِ افتاده) اصلاح شد: «this unique crocus qualities» به «this unique crocus's qualities» و «spread the spices sensuous smell» به «spread the spice's sensuous smell». «flavor but one's cost» (بی‌ویرگول) همان‌طور ماند. نام‌های ترکیب‌ها (crocin، picrocrocin، saffronal)، corm و نام‌های غذا (tahchin، paella، bouillabaisse) ورودی نگرفتند. «make an effective dye» در `note` توضیح داده شد. جملهٔ پایانیِ تبلیغِ کانال جزءِ ترنسکریپت ماند.
 - **ویدیوی ۲۷:** نشانه‌های «[music]» و «>>» و «Mhm.» پایانی (صدای غیرگفتاریِ کپشن) از ترنسکریپت حذف شد؛ متن تغییرِ دیگری نکرد. «mesophotic» (اصطلاحِ تخصصی) ورودی نگرفت؛ فارسیِ واحدها «منطقهٔ نیمه‌تاریک» را آورده است. bicarbonate و ROV ورودی نگرفتند. مقایسهٔ «deeper than … is tall» در `note` آمد.
+- **ویدیوی ۲۸:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود، بی‌نشانهٔ موسیقی). «"golden passports”» با گیومهٔ بازِ مستقیم و بستهٔ خمیده همان‌طور ماند. «W.E.B. Dubois» همان‌طور که در کپشن بود ماند. نام‌های خاص (Ładoś، League of Nations، Schengen) ورودیِ نام‌خاص نگرفتند؛ league و agreement به معنای عام ورودی دارند.
