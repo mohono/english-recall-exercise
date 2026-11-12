@@ -43,6 +43,7 @@
 | ۳۰ | `QIqKGMM8ivM` | Psychedelics, mind control, radiation-eating: The secret superpowers of fungi | 2026-06-30 | 2026-11-12 | ۶۴ | ۱۷۶ |
 | ۳۱ | `DbEZmLoGDbk` | How a broken heart affects your body | 2026-06-25 | 2026-11-12 | ۷۰ | ۱۵۵ |
 | ۳۲ | `6hCo4S_1Fhw` | Why avalanches are most deadly when they stop | 2026-06-23 | 2026-11-12 | ۷۴ | ۱۵۴ |
+| ۳۳ | `FBpBUwlDId0` | Should you rinse your dishes before placing them in the dishwasher? | 2026-06-18 | 2026-11-12 | ۸۱ | ۱۳۴ |
 
 ## ردشده‌ها
 
@@ -87,3 +88,4 @@
 - **ویدیوی ۳۰:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «along the plants they support» (ظاهراً به‌جای along with) همان‌طور ماند و در `note` آمد. نام‌های علمی (Psilocybe، psilocybin، Clathrus archeri، gleba، Cordyceps، Cryptococcus neoformans، melanin) و اصطلاحاتِ تخصصی (ectomycorrhizal، arbuscular mycorrhizal، chitin، cellulose، serotonin، gamma، tundra) ورودی نگرفتند.
 - **ویدیوی ۳۱:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). آپاستروفِ خمیده و مستقیم (’ و ') همان‌طور که در کپشن بود ماندند. اصطلاحاتِ تخصصی (takotsubo، cardiomyopathy، ventricle، epinephrine، norepinephrine، beta-adrenergic، beta blocker، estrogen، postmenopausal، dysregulate) ورودی نگرفتند؛ dysregulate در `note` توضیح داده شد. adrenaline، cardiac arrest، cardiovascular و menopause به‌خاطرِ کاربردِ عمومی ورودی دارند.
 - **ویدیوی ۳۲:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «descension» (به‌جای descent ِ رایج) همان‌طور ماند و در `note` آمد. ساختارِ وارونهٔ «Below this sat…» و شرطیِ «should disaster strike» در `note` آمدند. «surface hoar» (اصطلاحِ تخصصی) و نام‌های خاص (Elyse Saugstad، Cascade Mountains، Peruvian) ورودی نگرفتند.
+- **ویدیوی ۳۳:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «recollects» به معنای «دوباره جمع شدن» (نه «به یاد آوردن») در `note` آمد. بازی با کلمهٔ «throw in the towel» در `note` آمد. «surfactant» (اصطلاحِ تخصصی) ورودی نگرفت؛ فارسیِ واحد «مادهٔ فعالِ سطحی» را آورده است. «enzyme» و «bacteria» به‌خاطرِ کاربردِ عمومی ورودی دارند.
