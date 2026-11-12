@@ -36,6 +36,7 @@
 | ۲۳ | `l29K-ZkARmE` | The Greek myth of Apollo's curse | 2026-08-18 | 2026-11-12 | ۶۳ | ۱۵۸ |
 | ۲۴ | `2A1IEBFt6Xg` | How do Maglev trains work? | 2026-08-11 | 2026-11-12 | ۶۸ | ۱۶۰ |
 | ۲۵ | `-61qDRPG3to` | The fastest way to board a plane, according to mathematics | 2026-08-04 | 2026-11-12 | ۶۹ | ۱۴۱ |
+| ۲۶ | `krNP8RlDsbw` | Red gold: The world's most expensive spice | 2026-07-28 | 2026-11-12 | ۷۱ | ۱۹۶ |
 
 ## ردشده‌ها
 
@@ -73,3 +74,4 @@
 - **ویدیوی ۲۳:** کپشن نشانه‌های «[music]» و «>>» داشت که از ترنسکریپت حذف شدند. سه غلطِ آشکارِ کپشن اصلاح شد: «insidiousness truth» به «insidious truth»، «grizzly visions» به «grisly visions»، «her people screams» به «her people’s screams». جملهٔ بی‌فاعلِ «Then proceeded to tug…» همان‌طور ماند و در `note` آمد. جملهٔ پایانیِ تبلیغِ کانال («Subscribe…») جزءِ ترنسکریپت ماند. نام‌های اساطیری ورودی نگرفتند.
 - **ویدیوی ۲۴:** نشانه‌های «[music]» و «>>» از ترنسکریپت حذف شد و «engines aerodynamics and infrastructure» (ویرگول‌های افتاده) به «engines, aerodynamics, and infrastructure» اصلاح شد. «the Shinkansen capable of» و «80% of train's» همان‌طور ماندند. آگهیِ پایانیِ حامیِ مالی (Brilliant) جزءِ ترنسکریپت ماند و در `note` واحدِ اولش گفته شد. اصطلاحاتِ فنی (electromagnetic/electrodynamic suspension، diesel) ورودیِ جدا نگرفتند؛ suspension، coil و phase ورودی دارند.
 - **ویدیوی ۲۵:** نشانه‌های «[music]» و «>>» از ترنسکریپت حذف شد؛ متن تغییرِ دیگری نکرد. بازی با کلمهٔ «wouldn't fly» در `note` آمد. نام‌های خاص (Airbus A320، WMA، Southwest، Steffen) ورودی نگرفتند. شناسهٔ ویدیو با «-» شروع می‌شود؛ در `drill.py check` باید `--transcript -61qDRPG3to` (با فاصله) نوشت.
+- **ویدیوی ۲۶:** نشانه‌های «[music]» و «>>» از ترنسکریپت حذف شد. دو غلطِ آشکارِ کپشن (آپاستروفِ افتاده) اصلاح شد: «this unique crocus qualities» به «this unique crocus's qualities» و «spread the spices sensuous smell» به «spread the spice's sensuous smell». «flavor but one's cost» (بی‌ویرگول) همان‌طور ماند. نام‌های ترکیب‌ها (crocin، picrocrocin، saffronal)، corm و نام‌های غذا (tahchin، paella، bouillabaisse) ورودی نگرفتند. «make an effective dye» در `note` توضیح داده شد. جملهٔ پایانیِ تبلیغِ کانال جزءِ ترنسکریپت ماند.
