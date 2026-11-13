@@ -55,6 +55,7 @@
 | ۴۲ | `gePOX4nbMU4` | Why is getting bitten by a rabid animal so dangerous? | 2026-05-19 | 2026-11-13 | ۶۴ | ۱۷۱ |
 | ۴۳ | `HdieAFhQtPo` | Edgar Allan Poe's story of the Red Death | 2026-05-14 | 2026-11-13 | ۵۹ | ۱۶۵ |
 | ۴۴ | `mA1lnxfqHk8` | The missing ingredient in how we learn | 2026-05-12 | 2026-11-13 | ۵۶ | ۱۳۵ |
+| ۴۵ | `8H--GLt3h8I` | What to do if you live in the path of a volcano | 2026-05-07 | 2026-11-13 | ۵۸ | ۱۲۵ |
 
 ## ردشده‌ها
 
@@ -111,3 +112,4 @@
 - **ویدیوی ۴۲:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). اصطلاحاتِ تخصصی و نام‌ها (Lyssavirus، virion، axon، Joseph Meister، Louis Pasteur) ورودی نگرفتند؛ genus، prophylaxis، hydrophobia و blood-brain barrier به‌خاطرِ کاربردِ عمومی‌تر ورودی دارند. «lay low» (به‌جای lie low)، afford به معنای «فراهم کردن»، intervention به معنای اقدامِ پزشکی و meanwhile ِ مقایسه‌ای در `note` آمدند.
 - **ویدیوی ۴۳:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). متن خلاصه‌ای از داستانِ ادگار آلن پو با واژگانِ کهنه و ادبی است؛ واژه‌های کهنه (pest، ban، dame، anon، momently، varlet، mummer، habiliments، cerements، uncase) با برچسبِ (old use) ورودی گرفتند. نام‌های خاص (Prospero) ورودی نگرفتند. pest ban، so wild a look، disconcert ِ اسمی، maddening، upon which و ساختارِ وارونهٔ «there stalked» در `note` آمدند.
 - **ویدیوی ۴۴:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «material specific» و «teacher to student ratios» (بی‌خط‌تیره) همان‌طور ماندند؛ پسوندِ `-specific` ورودیِ جدا گرفت. نام‌های خاص (Fröbel، Prussia، Montessori، Reggio Emilia، MIT، Lifelong Kindergarten) ورودی نگرفتند؛ kindergarten به معنای عام ورودی دارد. تفاوتِ public school در آمریکا و بریتانیا در `note` آمد.
+- **ویدیوی ۴۵:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «6-month long» همان‌طور ماند. نام‌های خاص (Grindavik، Mauna Loa، Hilo، Thomas Jaggar، Eldfell، Heimaey، Etna، US Army Air Corps) و H2O ورودی نگرفتند. «otherwise awe-inspiring» در `note` آمد.
