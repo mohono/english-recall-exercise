@@ -53,6 +53,7 @@
 | ۴۰ | `aob7rM5PV5A` | What toys have kids played with throughout history? | 2026-05-26 | 2026-11-13 | ۵۸ | ۱۲۷ |
 | ۴۱ | `uBwkMc1llmM` | The incredible engineering of Venice | 2026-05-21 | 2026-11-13 | ۶۲ | ۱۹۶ |
 | ۴۲ | `gePOX4nbMU4` | Why is getting bitten by a rabid animal so dangerous? | 2026-05-19 | 2026-11-13 | ۶۴ | ۱۷۱ |
+| ۴۳ | `HdieAFhQtPo` | Edgar Allan Poe's story of the Red Death | 2026-05-14 | 2026-11-13 | ۵۹ | ۱۶۵ |
 
 ## ردشده‌ها
 
@@ -107,3 +108,4 @@
 - **ویدیوی ۴۰:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). نام‌های خاص و نامِ بازی‌ها (Julia Lucilla، Pompeia، Trajan، Aeneas، Anatolia، Indus Valley، Afro-Eurasia، Inuit، Mesoamerica، episkuros، Royal Game of Ur، Go، Senet، Ludus latrunculorum) ورودی نگرفتند؛ knucklebones و jacks به‌خاطرِ کاربردِ عمومی ورودی دارند. CE/BCE و circa ورودی گرفتند.
 - **ویدیوی ۴۱:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). آپاستروفِ خمیده و مستقیم همان‌طور که در کپشن بود ماندند. نام‌های خاص (Lombards، Po، Piave، Rialto، Dandolo، Constantinople، Ticino، Adige، Basilica di San Marco) و silica ورودی نگرفتند. «traded hands» (به‌جای change hands ِ رایج) و وارونگیِ «Little did they know» در `note` آمدند.
 - **ویدیوی ۴۲:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). اصطلاحاتِ تخصصی و نام‌ها (Lyssavirus، virion، axon، Joseph Meister، Louis Pasteur) ورودی نگرفتند؛ genus، prophylaxis، hydrophobia و blood-brain barrier به‌خاطرِ کاربردِ عمومی‌تر ورودی دارند. «lay low» (به‌جای lie low)، afford به معنای «فراهم کردن»، intervention به معنای اقدامِ پزشکی و meanwhile ِ مقایسه‌ای در `note` آمدند.
+- **ویدیوی ۴۳:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). متن خلاصه‌ای از داستانِ ادگار آلن پو با واژگانِ کهنه و ادبی است؛ واژه‌های کهنه (pest، ban، dame، anon، momently، varlet، mummer، habiliments، cerements، uncase) با برچسبِ (old use) ورودی گرفتند. نام‌های خاص (Prospero) ورودی نگرفتند. pest ban، so wild a look، disconcert ِ اسمی، maddening، upon which و ساختارِ وارونهٔ «there stalked» در `note` آمدند.
