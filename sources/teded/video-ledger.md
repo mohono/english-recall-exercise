@@ -52,6 +52,7 @@
 | ۳۹ | `BlK23YzqXOM` | Why your best ideas usually start as bad ones (Think Like A Musician) | 2026-05-28 | 2026-11-13 | ۶۵ | ۸۳ |
 | ۴۰ | `aob7rM5PV5A` | What toys have kids played with throughout history? | 2026-05-26 | 2026-11-13 | ۵۸ | ۱۲۷ |
 | ۴۱ | `uBwkMc1llmM` | The incredible engineering of Venice | 2026-05-21 | 2026-11-13 | ۶۲ | ۱۹۶ |
+| ۴۲ | `gePOX4nbMU4` | Why is getting bitten by a rabid animal so dangerous? | 2026-05-19 | 2026-11-13 | ۶۴ | ۱۷۱ |
 
 ## ردشده‌ها
 
@@ -105,3 +106,4 @@
 - **ویدیوی ۳۹:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). این ویدیو از مجموعهٔ «Think Like A Musician» است: گفت‌وگوی محاوره‌ای چند موسیقی‌دان، نه انیمیشنِ روایی؛ برای همین ورودی‌ها کمترند. «[snaps]» (توضیحِ صحنه در کپشن) همان‌طور ماند و در `note` آمد. «He goes» (= he says) ورودی گرفت. نام‌های خاص (Mark D. Sanders، Nashville) ورودی نگرفتند.
 - **ویدیوی ۴۰:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). نام‌های خاص و نامِ بازی‌ها (Julia Lucilla، Pompeia، Trajan، Aeneas، Anatolia، Indus Valley، Afro-Eurasia، Inuit، Mesoamerica، episkuros، Royal Game of Ur، Go، Senet، Ludus latrunculorum) ورودی نگرفتند؛ knucklebones و jacks به‌خاطرِ کاربردِ عمومی ورودی دارند. CE/BCE و circa ورودی گرفتند.
 - **ویدیوی ۴۱:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). آپاستروفِ خمیده و مستقیم همان‌طور که در کپشن بود ماندند. نام‌های خاص (Lombards، Po، Piave، Rialto، Dandolo، Constantinople، Ticino، Adige، Basilica di San Marco) و silica ورودی نگرفتند. «traded hands» (به‌جای change hands ِ رایج) و وارونگیِ «Little did they know» در `note` آمدند.
+- **ویدیوی ۴۲:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). اصطلاحاتِ تخصصی و نام‌ها (Lyssavirus، virion، axon، Joseph Meister، Louis Pasteur) ورودی نگرفتند؛ genus، prophylaxis، hydrophobia و blood-brain barrier به‌خاطرِ کاربردِ عمومی‌تر ورودی دارند. «lay low» (به‌جای lie low)، afford به معنای «فراهم کردن»، intervention به معنای اقدامِ پزشکی و meanwhile ِ مقایسه‌ای در `note` آمدند.
