@@ -68,6 +68,7 @@
 | ۵۵ | `ngarNTPMclE` | The haunting history of the Paris Catacombs | 2026-04-02 | 2026-11-13 | ۵۸ | ۱۷۲ |
 | ۵۶ | `QWCHnR53oIw` | What happens if you eat a silica gel packet? | 2026-03-31 | 2026-11-13 | ۶۹ | ۱۴۱ |
 | ۵۷ | `UDdkgOoeNcQ` | Do artists really write their own songs? (Think Like A Musician) | 2026-03-26 | 2026-11-13 | ۱۱۴ | ۱۳۵ |
+| ۵۸ | `D98UJl6Ea6o` | How did ancient civilizations brew beer? | 2026-03-24 | 2026-11-13 | ۶۲ | ۱۶۳ |
 
 ## ردشده‌ها
 
@@ -137,3 +138,4 @@
 - **ویدیوی ۵۵:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). نام‌های خاص (Cemetery of the Innocents، Sedlec Ossuary، Enlightenment، Louis XVI، Charles-Axel Guillaumot، Napoleon Bonaparte، September Massacres) و miasma (اصطلاحِ تاریخیِ پزشکی) ورودی نگرفتند؛ catacomb و ossuary ورودی دارند. بازیِ grave، physician در برابرِ physicist، Though ِ آغازِ جمله، فعلِ بی‌زمان پس از order that و lay به‌عنوانِ گذشتهٔ lie در `note` آمدند.
 - **ویدیوی ۵۶:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). آپاستروفِ مستقیم در «doesn't» همان‌طور ماند. نام‌های شیمیایی و خاص (silicon dioxide، sodium carbonate، covalent، ammonia، sulfur dioxide، aerogel، cobalt chloride) ورودی نگرفتند؛ polar، capillary و desiccant به‌خاطرِ کاربردِ عمومی‌تر ورودی دارند. وارونگیِ «Inside each … bead is»، did ِ تأکیدی، irritate ِ پزشکی و «actually is» در `note` آمدند.
 - **ویدیوی ۵۷:** ترنسکریپت بدون تغییر ماند. این ویدیو هم از مجموعهٔ «Think Like A Musician» است (چند گوینده، گفتارِ محاوره‌ای و جمله‌های ناقص). جمله‌های گفتاری («There's two different ways»، «the type of artist that singing all the runs»، «a whole career … of writing songs») همان‌طور ماندند و بعضی در `note` آمدند. نام‌های خاص (Carole King، Billboard Hot 100، Grammy، Nashville) ورودی نگرفتند. artwork ِ شوخی، «is it giving»، «we’ll pick that adventure» و «you’ve got better» در `note` آمدند.
+- **ویدیوی ۵۸:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). نام‌های خاص و نامِ نوشیدنی‌ها (Ninkasi، Hammurabi، Reinheitsgebot، Louis Pasteur، chicha، pilsner، bock، porter، stout، Kölsch، Lambic) ورودی نگرفتند؛ lager، ale، hops، millet، tuber و maize به‌خاطرِ کاربردِ عمومی ورودی دارند. brew ِ مجازی در واحدِ آخر ورودیِ دوم و `note` گرفت.
