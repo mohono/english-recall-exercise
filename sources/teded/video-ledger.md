@@ -62,6 +62,7 @@
 | ۴۹ | `2x3rJMBVB28` | Write every day, even if it’s terrible (Think Like A Musician) | 2026-04-23 | 2026-11-13 | ۷۴ | ۸۶ |
 | ۵۰ | `NEFmWclWiOw` | Why was this kung fu masterpiece banned? | 2026-04-21 | 2026-11-13 | ۵۵ | ۱۴۸ |
 | ۵۱ | `kRAl4Xgs_NU` | Why kids need to take more risks | 2026-04-16 | 2026-11-13 | ۵۸ | ۱۴۰ |
+| ۵۲ | `dOqqBQ5Ha6Q` | What is "The Thinker" actually thinking about? | 2026-04-14 | 2026-11-13 | ۶۵ | ۲۰۶ |
 
 ## ردشده‌ها
 
@@ -125,3 +126,4 @@
 - **ویدیوی ۴۹:** ترنسکریپت بدون تغییر ماند. این ویدیو هم از مجموعهٔ «Think Like A Musician» است (گفت‌وگوی محاوره‌ای، ورودی‌ها کمتر). «from from that day» (تکرارِ گفتاری) و «songwriters producers managers, A&Rs artists friends» (بی‌ویرگول) همان‌طور ماندند؛ اولی در `note` آمد. نام‌های خاص (Lyor Cohen، Megabus، D.C.، Daniel Breland، Nashville، New Jersey) ورودی نگرفتند. «was like» (= گفت)، «a good 365» و جابه‌جاییِ زمانِ حال و گذشته در روایت در `note` یا ورودی آمدند.
 - **ویدیوی ۵۰:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). نام‌های خاص و چینی (Jin Yong، Louis Cha، Guo Jing، Yang Kang، Huang Rong، Jurchen، Han، Song، Hangzhou، Samarkand، Genghis Khan، Ming Pao) و واژه‌های چینی (wuxia، jianghu) ورودی نگرفتند. «traverse through» (با حرفِ اضافهٔ زائد)، deceptively difficult و «the rivers and lakes» (= jianghu) در `note` آمدند.
 - **ویدیوی ۵۱:** در ترنسکریپت غلطِ «childrens’ safety» به «children’s safety» اصلاح شد. نام‌های خاص (Carl Theodor Sørensen، Kolle 37، Harapa Park، Glamis، Ellen Sandseter، Philadelphia، Omaha) ورودی نگرفتند. affordance (اصطلاحِ طراحی) ورودی گرفت. dedicated، agency، manipulate و spine ِ مجازی در `note` آمدند.
+- **ویدیوی ۵۲:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). گیومهٔ بازکنندهٔ مستقیم در «"The Gates of Hell,”» و آپاستروف‌های مستقیم و خمیده همان‌طور ماندند. نام‌های خاص و نامِ جنبش‌ها (Auguste Rodin، Lorenzo Ghiberti، Dante Alighieri، Paolo، Francesca، Count Ugolino، Charles Baudelaire، Salon، Renaissance، Cubism، Abstraction، Impressionism) و lost-wax ورودی نگرفتند. perch برای آدم، incarnate ِ پس از اسم، helm، وارونگیِ «above all of this … was to be» و overlook به معنای «مُشرف بودن» در `note` آمدند.
