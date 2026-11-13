@@ -50,6 +50,7 @@
 | ۳۷ | `HDt_rTPPh70` | Why does catnip make cats go crazy? | 2026-06-04 | 2026-11-13 | ۵۳ | ۱۲۴ |
 | ۳۸ | `pyDZpDkU46Y` | The dark origins of Disney fairy tales | 2026-06-02 | 2026-11-13 | ۶۳ | ۱۸۳ |
 | ۳۹ | `BlK23YzqXOM` | Why your best ideas usually start as bad ones (Think Like A Musician) | 2026-05-28 | 2026-11-13 | ۶۵ | ۸۳ |
+| ۴۰ | `aob7rM5PV5A` | What toys have kids played with throughout history? | 2026-05-26 | 2026-11-13 | ۵۸ | ۱۲۷ |
 
 ## ردشده‌ها
 
@@ -101,3 +102,4 @@
 - **ویدیوی ۳۷:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «on catnip binge» (بی‌حرفِ a) همان‌طور ماند و در `note` آمد. نام‌های شیمیایی و گیاهی (nepetalactol، nepetalactone، iridoid، silvervine، catnip، tannin، milkweed) ورودی نگرفتند؛ endorphin و hormone به‌خاطرِ کاربردِ عمومی ورودی دارند. «dove» (گذشتهٔ آمریکاییِ dive) و شوخیِ «medicinal» در `note` آمدند.
 - **ویدیوی ۳۸:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «[their]» در نقل‌قول همان‌طور ماند و در `note` آمد. نام‌های خاص (Grimm، Hanau، Napoleon، Rapunzel، Cinderella، Snow White، Hansel and Gretel) ورودی نگرفتند. وارونگیِ «No longer would…»، «did» ِ پایانِ جمله، «was revealed to have been entertaining» و بازیِ grim/Grimm در `note` آمدند.
 - **ویدیوی ۳۹:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). این ویدیو از مجموعهٔ «Think Like A Musician» است: گفت‌وگوی محاوره‌ای چند موسیقی‌دان، نه انیمیشنِ روایی؛ برای همین ورودی‌ها کمترند. «[snaps]» (توضیحِ صحنه در کپشن) همان‌طور ماند و در `note` آمد. «He goes» (= he says) ورودی گرفت. نام‌های خاص (Mark D. Sanders، Nashville) ورودی نگرفتند.
+- **ویدیوی ۴۰:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). نام‌های خاص و نامِ بازی‌ها (Julia Lucilla، Pompeia، Trajan، Aeneas، Anatolia، Indus Valley، Afro-Eurasia، Inuit، Mesoamerica، episkuros، Royal Game of Ur، Go، Senet، Ludus latrunculorum) ورودی نگرفتند؛ knucklebones و jacks به‌خاطرِ کاربردِ عمومی ورودی دارند. CE/BCE و circa ورودی گرفتند.
