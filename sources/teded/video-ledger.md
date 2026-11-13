@@ -64,6 +64,7 @@
 | ۵۱ | `kRAl4Xgs_NU` | Why kids need to take more risks | 2026-04-16 | 2026-11-13 | ۵۸ | ۱۴۰ |
 | ۵۲ | `dOqqBQ5Ha6Q` | What is "The Thinker" actually thinking about? | 2026-04-14 | 2026-11-13 | ۶۵ | ۲۰۶ |
 | ۵۳ | `qLrnn24C3zU` | Do imaginary friends make you smarter? | 2026-04-09 | 2026-11-13 | ۵۹ | ۱۱۷ |
+| ۵۴ | `m2BE9GZJJbs` | How do snakes swallow animals so much bigger than they are? | 2026-04-07 | 2026-11-13 | ۶۳ | ۱۸۶ |
 
 ## ردشده‌ها
 
@@ -129,3 +130,4 @@
 - **ویدیوی ۵۱:** در ترنسکریپت غلطِ «childrens’ safety» به «children’s safety» اصلاح شد. نام‌های خاص (Carl Theodor Sørensen، Kolle 37، Harapa Park، Glamis، Ellen Sandseter، Philadelphia، Omaha) ورودی نگرفتند. affordance (اصطلاحِ طراحی) ورودی گرفت. dedicated، agency، manipulate و spine ِ مجازی در `note` آمدند.
 - **ویدیوی ۵۲:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). گیومهٔ بازکنندهٔ مستقیم در «"The Gates of Hell,”» و آپاستروف‌های مستقیم و خمیده همان‌طور ماندند. نام‌های خاص و نامِ جنبش‌ها (Auguste Rodin، Lorenzo Ghiberti، Dante Alighieri، Paolo، Francesca، Count Ugolino، Charles Baudelaire، Salon، Renaissance، Cubism، Abstraction، Impressionism) و lost-wax ورودی نگرفتند. perch برای آدم، incarnate ِ پس از اسم، helm، وارونگیِ «above all of this … was to be» و overlook به معنای «مُشرف بودن» در `note` آمدند.
 - **ویدیوی ۵۳:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). نام‌های خاص (Amia، Zelba) ورودی نگرفتند. تفاوتِ imaginary و imaginative، company به معنای «هم‌صحبتی»، couldn’t be more different، gaggle و وارونگیِ «not only are they» در `note` آمدند.
+- **ویدیوی ۵۴:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). ویدیو اول از «rat snake» می‌گوید و در پایان «rattlesnake»؛ همان‌طور ماند و در `note` آمد. نام‌های خاص و نامِ گونه‌ها (kingsnake، rat snake، python، blindsnake، screech owl، garter snake، cobra، taipan، saw-scaled، Texas، Philippine) ورودی نگرفتند؛ viper، newt، alligator و hyena به‌خاطرِ کاربردِ عمومی ورودی دارند. بازی‌های لفظیِ snake-eat-snake، jaw-dropping و hard to swallow، و تفاوتِ venom و poison در `note` آمدند.
