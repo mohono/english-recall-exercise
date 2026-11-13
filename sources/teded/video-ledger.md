@@ -59,6 +59,7 @@
 | ۴۶ | `P8OEz3PvWZQ` | How to find hidden clues at crime scenes | 2026-05-05 | 2026-11-13 | ۶۹ | ۱۴۶ |
 | ۴۷ | `qKM4JzToM-A` | The fascinating reason you loved peek-a-boo | 2026-04-30 | 2026-11-13 | ۵۹ | ۱۱۸ |
 | ۴۸ | `65I_1sgTMLE` | Why do we use "they" as a singular pronoun? | 2026-04-28 | 2026-11-13 | ۵۴ | ۱۱۸ |
+| ۴۹ | `2x3rJMBVB28` | Write every day, even if it’s terrible (Think Like A Musician) | 2026-04-23 | 2026-11-13 | ۷۴ | ۸۶ |
 
 ## ردشده‌ها
 
@@ -119,3 +120,4 @@
 - **ویدیوی ۴۶:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «chemoluminescence» (املای دیگرِ chemiluminescence) همان‌طور ماند و در `note` آمد. نام‌های شیمیایی و خاص (luminol، 3-aminophthalhydrazide، hemoglobin، chemiluminescence، Walter Specht، Frank Carter) ورودی نگرفتند. excited ِ شیمیایی، apply به معنای «زدن روی سطح» و وارونگیِ «Not only does» در `note` آمدند.
 - **ویدیوی ۴۷:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). نام‌های بازی در زبان‌های دیگر (il gioco del cucù، ba’ ’éno، inai-inai...ba) و نام‌های خاص (Jean Piaget) ورودی نگرفتند؛ دو واحدِ اول به همین دلیل ورودی ندارند. بازیِ peak/peek، inform به معنای «شکل دادن» و «the bottom of which» در `note` آمدند.
 - **ویدیوی ۴۸:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). ویدیو دربارهٔ خودِ واژه‌های انگلیسی است؛ واژه‌هایی که موضوعِ بحث‌اند (like، as، fewer، less، they، he، you، …) در فارسی داخلِ `<en>` آمدند. دو جملهٔ مثالِ حرفِ اضافه به فارسی برگردانده شدند و جای حرفِ اضافه در پرانتز گفته شد. نام‌های خاص (Winston، Robert Baker، King George، L’Académie Française) ورودی نگرفتند. scholarship و academic در معنای غیرِ رایجشان در `note` آمدند.
+- **ویدیوی ۴۹:** ترنسکریپت بدون تغییر ماند. این ویدیو هم از مجموعهٔ «Think Like A Musician» است (گفت‌وگوی محاوره‌ای، ورودی‌ها کمتر). «from from that day» (تکرارِ گفتاری) و «songwriters producers managers, A&Rs artists friends» (بی‌ویرگول) همان‌طور ماندند؛ اولی در `note` آمد. نام‌های خاص (Lyor Cohen، Megabus، D.C.، Daniel Breland، Nashville، New Jersey) ورودی نگرفتند. «was like» (= گفت)، «a good 365» و جابه‌جاییِ زمانِ حال و گذشته در روایت در `note` یا ورودی آمدند.
