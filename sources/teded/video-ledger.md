@@ -49,6 +49,7 @@
 | ۳۶ | `Q9Vt6NGBVBc` | What is sumo, and why is it so popular? | 2026-06-09 | 2026-11-13 | ۷۴ | ۱۶۹ |
 | ۳۷ | `HDt_rTPPh70` | Why does catnip make cats go crazy? | 2026-06-04 | 2026-11-13 | ۵۳ | ۱۲۴ |
 | ۳۸ | `pyDZpDkU46Y` | The dark origins of Disney fairy tales | 2026-06-02 | 2026-11-13 | ۶۳ | ۱۸۳ |
+| ۳۹ | `BlK23YzqXOM` | Why your best ideas usually start as bad ones (Think Like A Musician) | 2026-05-28 | 2026-11-13 | ۶۵ | ۸۳ |
 
 ## ردشده‌ها
 
@@ -99,3 +100,4 @@
 - **ویدیوی ۳۶:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). آپاستروفِ خمیده و مستقیم (’ و ') همان‌طور که در کپشن بود ماندند. واژه‌های ژاپنی (dohyō، yokozuna، shōgun، shogunate، samurai) ورودی نگرفتند. legitimacy با وجودِ ورودیِ legitimate در واحدِ خودش ورودی گرفت چون واژهٔ محوریِ ویدیوست. ضمیرِ عامِ «one’s» در `note` آمد.
 - **ویدیوی ۳۷:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «on catnip binge» (بی‌حرفِ a) همان‌طور ماند و در `note` آمد. نام‌های شیمیایی و گیاهی (nepetalactol، nepetalactone، iridoid، silvervine، catnip، tannin، milkweed) ورودی نگرفتند؛ endorphin و hormone به‌خاطرِ کاربردِ عمومی ورودی دارند. «dove» (گذشتهٔ آمریکاییِ dive) و شوخیِ «medicinal» در `note` آمدند.
 - **ویدیوی ۳۸:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «[their]» در نقل‌قول همان‌طور ماند و در `note` آمد. نام‌های خاص (Grimm، Hanau، Napoleon، Rapunzel، Cinderella، Snow White، Hansel and Gretel) ورودی نگرفتند. وارونگیِ «No longer would…»، «did» ِ پایانِ جمله، «was revealed to have been entertaining» و بازیِ grim/Grimm در `note` آمدند.
+- **ویدیوی ۳۹:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). این ویدیو از مجموعهٔ «Think Like A Musician» است: گفت‌وگوی محاوره‌ای چند موسیقی‌دان، نه انیمیشنِ روایی؛ برای همین ورودی‌ها کمترند. «[snaps]» (توضیحِ صحنه در کپشن) همان‌طور ماند و در `note` آمد. «He goes» (= he says) ورودی گرفت. نام‌های خاص (Mark D. Sanders، Nashville) ورودی نگرفتند.
