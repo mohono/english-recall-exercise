@@ -65,6 +65,7 @@
 | ۵۲ | `dOqqBQ5Ha6Q` | What is "The Thinker" actually thinking about? | 2026-04-14 | 2026-11-13 | ۶۵ | ۲۰۶ |
 | ۵۳ | `qLrnn24C3zU` | Do imaginary friends make you smarter? | 2026-04-09 | 2026-11-13 | ۵۹ | ۱۱۷ |
 | ۵۴ | `m2BE9GZJJbs` | How do snakes swallow animals so much bigger than they are? | 2026-04-07 | 2026-11-13 | ۶۳ | ۱۸۶ |
+| ۵۵ | `ngarNTPMclE` | The haunting history of the Paris Catacombs | 2026-04-02 | 2026-11-13 | ۵۸ | ۱۷۲ |
 
 ## ردشده‌ها
 
@@ -131,3 +132,4 @@
 - **ویدیوی ۵۲:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). گیومهٔ بازکنندهٔ مستقیم در «"The Gates of Hell,”» و آپاستروف‌های مستقیم و خمیده همان‌طور ماندند. نام‌های خاص و نامِ جنبش‌ها (Auguste Rodin، Lorenzo Ghiberti، Dante Alighieri، Paolo، Francesca، Count Ugolino، Charles Baudelaire، Salon، Renaissance، Cubism، Abstraction، Impressionism) و lost-wax ورودی نگرفتند. perch برای آدم، incarnate ِ پس از اسم، helm، وارونگیِ «above all of this … was to be» و overlook به معنای «مُشرف بودن» در `note` آمدند.
 - **ویدیوی ۵۳:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). نام‌های خاص (Amia، Zelba) ورودی نگرفتند. تفاوتِ imaginary و imaginative، company به معنای «هم‌صحبتی»، couldn’t be more different، gaggle و وارونگیِ «not only are they» در `note` آمدند.
 - **ویدیوی ۵۴:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). ویدیو اول از «rat snake» می‌گوید و در پایان «rattlesnake»؛ همان‌طور ماند و در `note` آمد. نام‌های خاص و نامِ گونه‌ها (kingsnake، rat snake، python، blindsnake، screech owl، garter snake، cobra، taipan، saw-scaled، Texas، Philippine) ورودی نگرفتند؛ viper، newt، alligator و hyena به‌خاطرِ کاربردِ عمومی ورودی دارند. بازی‌های لفظیِ snake-eat-snake، jaw-dropping و hard to swallow، و تفاوتِ venom و poison در `note` آمدند.
+- **ویدیوی ۵۵:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). نام‌های خاص (Cemetery of the Innocents، Sedlec Ossuary، Enlightenment، Louis XVI، Charles-Axel Guillaumot، Napoleon Bonaparte، September Massacres) و miasma (اصطلاحِ تاریخیِ پزشکی) ورودی نگرفتند؛ catacomb و ossuary ورودی دارند. بازیِ grave، physician در برابرِ physicist، Though ِ آغازِ جمله، فعلِ بی‌زمان پس از order that و lay به‌عنوانِ گذشتهٔ lie در `note` آمدند.
