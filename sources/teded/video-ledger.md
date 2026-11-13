@@ -57,6 +57,7 @@
 | ۴۴ | `mA1lnxfqHk8` | The missing ingredient in how we learn | 2026-05-12 | 2026-11-13 | ۵۶ | ۱۳۵ |
 | ۴۵ | `8H--GLt3h8I` | What to do if you live in the path of a volcano | 2026-05-07 | 2026-11-13 | ۵۸ | ۱۲۵ |
 | ۴۶ | `P8OEz3PvWZQ` | How to find hidden clues at crime scenes | 2026-05-05 | 2026-11-13 | ۶۹ | ۱۴۶ |
+| ۴۷ | `qKM4JzToM-A` | The fascinating reason you loved peek-a-boo | 2026-04-30 | 2026-11-13 | ۵۹ | ۱۱۸ |
 
 ## ردشده‌ها
 
@@ -115,3 +116,4 @@
 - **ویدیوی ۴۴:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «material specific» و «teacher to student ratios» (بی‌خط‌تیره) همان‌طور ماندند؛ پسوندِ `-specific` ورودیِ جدا گرفت. نام‌های خاص (Fröbel، Prussia، Montessori، Reggio Emilia، MIT، Lifelong Kindergarten) ورودی نگرفتند؛ kindergarten به معنای عام ورودی دارد. تفاوتِ public school در آمریکا و بریتانیا در `note` آمد.
 - **ویدیوی ۴۵:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «6-month long» همان‌طور ماند. نام‌های خاص (Grindavik، Mauna Loa، Hilo، Thomas Jaggar، Eldfell، Heimaey، Etna، US Army Air Corps) و H2O ورودی نگرفتند. «otherwise awe-inspiring» در `note` آمد.
 - **ویدیوی ۴۶:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «chemoluminescence» (املای دیگرِ chemiluminescence) همان‌طور ماند و در `note` آمد. نام‌های شیمیایی و خاص (luminol، 3-aminophthalhydrazide، hemoglobin، chemiluminescence، Walter Specht، Frank Carter) ورودی نگرفتند. excited ِ شیمیایی، apply به معنای «زدن روی سطح» و وارونگیِ «Not only does» در `note` آمدند.
+- **ویدیوی ۴۷:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). نام‌های بازی در زبان‌های دیگر (il gioco del cucù، ba’ ’éno، inai-inai...ba) و نام‌های خاص (Jean Piaget) ورودی نگرفتند؛ دو واحدِ اول به همین دلیل ورودی ندارند. بازیِ peak/peek، inform به معنای «شکل دادن» و «the bottom of which» در `note` آمدند.
