@@ -70,6 +70,7 @@
 | ۵۷ | `UDdkgOoeNcQ` | Do artists really write their own songs? (Think Like A Musician) | 2026-03-26 | 2026-11-13 | ۱۱۴ | ۱۳۵ |
 | ۵۸ | `D98UJl6Ea6o` | How did ancient civilizations brew beer? | 2026-03-24 | 2026-11-13 | ۶۲ | ۱۶۳ |
 | ۵۹ | `DDo4rW0DMpk` | What if your president was chosen via lottery? | 2026-03-19 | 2026-11-13 | ۶۶ | ۱۷۲ |
+| ۶۰ | `lQRsqMiBTsI` | 3 surprising ways microplastics can enter your body | 2026-03-17 | 2026-11-13 | ۵۵ | ۱۳۴ |
 
 ## ردشده‌ها
 
@@ -141,3 +142,4 @@
 - **ویدیوی ۵۷:** ترنسکریپت بدون تغییر ماند. این ویدیو هم از مجموعهٔ «Think Like A Musician» است (چند گوینده، گفتارِ محاوره‌ای و جمله‌های ناقص). جمله‌های گفتاری («There's two different ways»، «the type of artist that singing all the runs»، «a whole career … of writing songs») همان‌طور ماندند و بعضی در `note` آمدند. نام‌های خاص (Carole King، Billboard Hot 100، Grammy، Nashville) ورودی نگرفتند. artwork ِ شوخی، «is it giving»، «we’ll pick that adventure» و «you’ve got better» در `note` آمدند.
 - **ویدیوی ۵۸:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). نام‌های خاص و نامِ نوشیدنی‌ها (Ninkasi، Hammurabi، Reinheitsgebot، Louis Pasteur، chicha، pilsner، bock، porter، stout، Kölsch، Lambic) ورودی نگرفتند؛ lager، ale، hops، millet، tuber و maize به‌خاطرِ کاربردِ عمومی ورودی دارند. brew ِ مجازی در واحدِ آخر ورودیِ دوم و `note` گرفت.
 - **ویدیوی ۵۹:** در ترنسکریپت دو غلطِ کپشن اصلاح شد: «across a network lottery-filled» به «across a network of lottery-filled» (of جاافتاده بود) و «limit public power, And without it» به «limit public power. And without it». نام‌های خاص (Athens، Plato، Aristotle، Alex Guerrero، Cristina LaFont، Nadia Urbinati، Congress) و lottocracy/SILL ورودی نگرفتند؛ sortition ورودی دارد. «roles were appointed» در `note` آمد.
+- **ویدیوی ۶۰:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «long term» و «single use» (بی‌خط‌تیره) همان‌طور ماندند. نام‌های شیمیایی و تجاری (Teflon، phthalates، PFAS، BPA، EDC، testosterone، estrogen) ورودی نگرفتند؛ endocrine، metabolism و in utero ورودی دارند. produce ِ اسمی و trigger ِ بی‌مفعول در `note` آمدند.
