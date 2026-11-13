@@ -47,6 +47,7 @@
 | ۳۴ | `eR5blcjll8o` | How to attack (and defend) a medieval castle | 2026-06-16 | 2026-11-12 | ۷۶ | ۱۶۱ |
 | ۳۵ | `JDqpcHGfJ2I` | Meet the slow loris, the only venomous primate in existence | 2026-06-11 | 2026-11-12 | ۷۱ | ۱۴۷ |
 | ۳۶ | `Q9Vt6NGBVBc` | What is sumo, and why is it so popular? | 2026-06-09 | 2026-11-13 | ۷۴ | ۱۶۹ |
+| ۳۷ | `HDt_rTPPh70` | Why does catnip make cats go crazy? | 2026-06-04 | 2026-11-13 | ۵۳ | ۱۲۴ |
 
 ## ردشده‌ها
 
@@ -95,3 +96,4 @@
 - **ویدیوی ۳۴:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «load bearing» (بی‌خط‌تیره) همان‌طور ماند؛ ورودی به صورتِ معیارِ `load-bearing` است. «motte and bailey» (اصطلاحِ تخصصیِ معماری) ورودی نگرفت؛ فارسیِ واحدها «تپه و حیاط» را آورده است. نام‌های خاص (Robert the Bruce، Carlisle، Carolingian، Caernarfon، Byzantine) ورودی نگرفتند. «arrived to find» و «so did» در `note` آمدند.
 - **ویدیوی ۳۵:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «staying stealth» (اسم به‌جای صفتِ stealthy) همان‌طور ماند و در `note` آمد. ساختارِ وارونهٔ «Deep in … lurks a deadly creature»، «slow-twitch» و «assume» (= به خود گرفتن) در `note` آمدند. اصطلاحاتِ تخصصی (toothcomb، anaphylaxis، Müllerian، civet، spectacled cobra) ورودی نگرفتند؛ mimicry ورودی دارد.
 - **ویدیوی ۳۶:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). آپاستروفِ خمیده و مستقیم (’ و ') همان‌طور که در کپشن بود ماندند. واژه‌های ژاپنی (dohyō، yokozuna، shōgun، shogunate، samurai) ورودی نگرفتند. legitimacy با وجودِ ورودیِ legitimate در واحدِ خودش ورودی گرفت چون واژهٔ محوریِ ویدیوست. ضمیرِ عامِ «one’s» در `note` آمد.
+- **ویدیوی ۳۷:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «on catnip binge» (بی‌حرفِ a) همان‌طور ماند و در `note` آمد. نام‌های شیمیایی و گیاهی (nepetalactol، nepetalactone، iridoid، silvervine، catnip، tannin، milkweed) ورودی نگرفتند؛ endorphin و hormone به‌خاطرِ کاربردِ عمومی ورودی دارند. «dove» (گذشتهٔ آمریکاییِ dive) و شوخیِ «medicinal» در `note` آمدند.
