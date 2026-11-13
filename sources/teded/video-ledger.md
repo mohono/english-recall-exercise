@@ -67,6 +67,7 @@
 | ۵۴ | `m2BE9GZJJbs` | How do snakes swallow animals so much bigger than they are? | 2026-04-07 | 2026-11-13 | ۶۳ | ۱۸۶ |
 | ۵۵ | `ngarNTPMclE` | The haunting history of the Paris Catacombs | 2026-04-02 | 2026-11-13 | ۵۸ | ۱۷۲ |
 | ۵۶ | `QWCHnR53oIw` | What happens if you eat a silica gel packet? | 2026-03-31 | 2026-11-13 | ۶۹ | ۱۴۱ |
+| ۵۷ | `UDdkgOoeNcQ` | Do artists really write their own songs? (Think Like A Musician) | 2026-03-26 | 2026-11-13 | ۱۱۴ | ۱۳۵ |
 
 ## ردشده‌ها
 
@@ -135,3 +136,4 @@
 - **ویدیوی ۵۴:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). ویدیو اول از «rat snake» می‌گوید و در پایان «rattlesnake»؛ همان‌طور ماند و در `note` آمد. نام‌های خاص و نامِ گونه‌ها (kingsnake، rat snake، python، blindsnake، screech owl، garter snake، cobra، taipan، saw-scaled، Texas، Philippine) ورودی نگرفتند؛ viper، newt، alligator و hyena به‌خاطرِ کاربردِ عمومی ورودی دارند. بازی‌های لفظیِ snake-eat-snake، jaw-dropping و hard to swallow، و تفاوتِ venom و poison در `note` آمدند.
 - **ویدیوی ۵۵:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). نام‌های خاص (Cemetery of the Innocents، Sedlec Ossuary، Enlightenment، Louis XVI، Charles-Axel Guillaumot، Napoleon Bonaparte، September Massacres) و miasma (اصطلاحِ تاریخیِ پزشکی) ورودی نگرفتند؛ catacomb و ossuary ورودی دارند. بازیِ grave، physician در برابرِ physicist، Though ِ آغازِ جمله، فعلِ بی‌زمان پس از order that و lay به‌عنوانِ گذشتهٔ lie در `note` آمدند.
 - **ویدیوی ۵۶:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). آپاستروفِ مستقیم در «doesn't» همان‌طور ماند. نام‌های شیمیایی و خاص (silicon dioxide، sodium carbonate، covalent، ammonia، sulfur dioxide، aerogel، cobalt chloride) ورودی نگرفتند؛ polar، capillary و desiccant به‌خاطرِ کاربردِ عمومی‌تر ورودی دارند. وارونگیِ «Inside each … bead is»، did ِ تأکیدی، irritate ِ پزشکی و «actually is» در `note` آمدند.
+- **ویدیوی ۵۷:** ترنسکریپت بدون تغییر ماند. این ویدیو هم از مجموعهٔ «Think Like A Musician» است (چند گوینده، گفتارِ محاوره‌ای و جمله‌های ناقص). جمله‌های گفتاری («There's two different ways»، «the type of artist that singing all the runs»، «a whole career … of writing songs») همان‌طور ماندند و بعضی در `note` آمدند. نام‌های خاص (Carole King، Billboard Hot 100، Grammy، Nashville) ورودی نگرفتند. artwork ِ شوخی، «is it giving»، «we’ll pick that adventure» و «you’ve got better» در `note` آمدند.
