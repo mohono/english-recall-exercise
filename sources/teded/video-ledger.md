@@ -80,6 +80,7 @@
 | ۶۷ | `MBir652KZPE` | How expert songwriters find the right lyrics | 2026-02-19 | 2026-11-14 | ۱۱۳ | ۱۳۱ |
 | ۶۸ | `EtiC0DVewa4` | The biggest myths about Neanderthals | 2026-02-17 | 2026-11-14 | ۵۴ | ۱۷۱ |
 | ۶۹ | `NOaeKRft-gc` | 3 things that can cause painful periods | 2026-02-12 | 2026-11-14 | ۵۳ | ۱۵۰ |
+| ۷۰ | `XNEHP6qFeCs` | The machine that changed our understanding of human history | 2026-02-10 | 2026-11-14 | ۶۱ | ۱۴۳ |
 
 ## ردشده‌ها
 
@@ -161,3 +162,4 @@
 - **ویدیوی ۶۷:** از مجموعهٔ «Think Like A Musician» (چند گوینده، گفتارِ محاوره‌ای). در ترنسکریپت دو غلطِ کپشن اصلاح شد: «its really important» به «it’s really important» و «Experience sincerity imagination are» به «Experience, sincerity, imagination are» (ویرگول‌های جاافتاده). تکرارِ گفتاریِ «and and vague»، «I’m playing going—back and forth»، «… is see how natural» و گیومه‌های ناجورِ «”Driver’s License”» و «“Since You’ve Been Gone,“» همان‌طور ماندند. نام‌های خاص (Stevie، Olivia Rodrigo، Bob Dylan و نامِ آهنگ‌ها) ورودی نگرفتند. be like و go به معنای «گفتن»، sticky و land ِ مجازی، haystack needle ِ وارونه، based off of و everyday در `note` آمدند.
 - **ویدیوی ۶۸:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). نام‌های خاص و علمی (Neander Valley، Homo neanderthalensis، Homo sapiens، Iraq، Spain) ورودی نگرفتند؛ hominin، femur، skullcap، genome و stalagmite ورودی دارند. work ِ متعدی (work a cave)، بازیِ «Neander slander»، ground ِ قسمتِ سوم، game به معنای «شکار»، fashion ِ فعلی، hold ِ بی‌مفعول، discrete/discreet و float ِ ایده در `note` آمدند.
 - **ویدیوی ۶۹:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). نام‌های خاص و دارویی (Béla Schick، naproxen، ibuprofen، prostaglandin، dysmenorrhea، endometriosis) ورودی نگرفتند؛ fibroid، uterus، contraceptive، microbiome و receptor ورودی دارند. control ِ آزمایش، did ِ تأکیدی، labor به معنای «زایمان»، «so is the treatment»، ساختارِ «find … to be helpful» و develop به معنای «مبتلا شدن» در `note` آمدند.
+- **ویدیوی ۷۰:** در ترنسکریپت ترتیبِ به‌هم‌ریختهٔ «between 13 gears automatically that recreated» به «between 13 gears that automatically recreated» اصلاح شد. جملهٔ «And by acting continuously …, many experts argue» (وابستهٔ آویزان) همان‌طور ماند. نام‌های خاص (Antikythera، Saros، naproxen) و 4K ورودی نگرفتند؛ zodiac، constellation و analog ورودی دارند. would ِ آینده در گذشته، وارونگیِ «Among the remains were»، impression، analog ِ اسمی، hand به معنای «عقربه»، lived و handshake ِ مجازی و discretely/discreetly در `note` آمدند.
