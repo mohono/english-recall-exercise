@@ -76,6 +76,7 @@
 | ۶۳ | `P5pmMe3EarI` | How to use emergency contraception effectively | 2026-03-05 | 2026-11-14 | ۶۰ | ۱۰۸ |
 | ۶۴ | `-Tw81EQYV_Y` | How hat fashion has evolved throughout history | 2026-03-03 | 2026-11-14 | ۴۶ | ۱۵۷ |
 | ۶۵ | `wxf_pKCOCBo` | The biggest mistake lottery winners make | 2026-02-26 | 2026-11-14 | ۵۷ | ۱۴۵ |
+| ۶۶ | `JJdoAMiaLZo` | Does hypnosis ever actually work? | 2026-02-24 | 2026-11-14 | ۶۷ | ۱۹۲ |
 
 ## ردشده‌ها
 
@@ -153,3 +154,4 @@
 - **ویدیوی ۶۳:** در ترنسکریپت غلطِ «these pills widespread use» (آپاستروفِ جاافتاده) به «these pills’ widespread use» اصلاح شد. «short lived» (بی‌خط‌تیره) همان‌طور ماند. نام‌های دارویی و هورمونی (levonorgestrel، ulipristal acetate، progesterone، luteinizing hormone/LH، Plan B، pituitary، fallopian) ورودی نگرفتند؛ ovary، ovulation، follicle، receptor، implantation و fertilization ورودی دارند. better ِ فعلی و «it’s only in … that» در `note` آمدند.
 - **ویدیوی ۶۴:** در ترنسکریپت غلطِ «the felts quality» (آپاستروفِ جاافتاده) به «the felt’s quality» اصلاح شد. جملهٔ «Originally crafted from the fur …, hat makers would …» (وابستهٔ آویزان) همان‌طور ماند. نام‌های خاص و نامِ کلاه‌ها (Elsa Schiaparelli، Salvador Dalí، Ötzi، Venus of Willendorf، Marianne، Burgundy، Suleiman، Mad Hatter، Lewis Carroll، pileus، Phrygian، hennin، escoffion، Paleolithic، mercuric nitrate) ورودی نگرفتند؛ top hat، bowler، bonnet، turban و stiletto ورودی دارند. fashion و sport ِ فعلی و would ِ عادتی در `note` آمدند. شناسهٔ این ویدیو با «-» شروع می‌شود و `drill.py check --transcript` آن را گزینه می‌خواند؛ بررسیِ ترنسکریپت با فراخوانیِ مستقیمِ `drill.problems` انجام شد.
 - **ویدیوی ۶۵:** در ترنسکریپت غلطِ «impulsive spending. a trap» (نقطه به‌جای ویرگول) به «impulsive spending, a trap» اصلاح شد. «a grand total of 3 million» (بی‌علامتِ دلار) همان‌طور ماند. نام‌های خاص (Powerball، Pennsylvania، Benjamin Franklin، S&P 500) ورودی نگرفتند. return ِ سرمایه‌گذاری، say به معنای «فرض کنید» و حذفِ rare در «doesn’t have to be» در `note` آمدند.
+- **ویدیوی ۶۶:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «open minded» (بی‌خط‌تیره) و آپاستروف‌های مستقیم و خمیده همان‌طور ماندند. نام‌های خاص (Anton Mesmer، Louis XVI، James Braid، Mesmerism) و de-induction ورودی نگرفتند؛ induction، placebo، opioid و schizophrenia ورودی دارند. suggestion به معنای «تلقین»، مجهولِ «be passively observed»، does ِ تأکیدی و بازیِ mesmerizing / Mesmer در `note` آمدند.
