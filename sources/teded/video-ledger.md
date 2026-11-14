@@ -78,6 +78,7 @@
 | ۶۵ | `wxf_pKCOCBo` | The biggest mistake lottery winners make | 2026-02-26 | 2026-11-14 | ۵۷ | ۱۴۵ |
 | ۶۶ | `JJdoAMiaLZo` | Does hypnosis ever actually work? | 2026-02-24 | 2026-11-14 | ۶۷ | ۱۹۲ |
 | ۶۷ | `MBir652KZPE` | How expert songwriters find the right lyrics | 2026-02-19 | 2026-11-14 | ۱۱۳ | ۱۳۱ |
+| ۶۸ | `EtiC0DVewa4` | The biggest myths about Neanderthals | 2026-02-17 | 2026-11-14 | ۵۴ | ۱۷۱ |
 
 ## ردشده‌ها
 
@@ -157,3 +158,4 @@
 - **ویدیوی ۶۵:** در ترنسکریپت غلطِ «impulsive spending. a trap» (نقطه به‌جای ویرگول) به «impulsive spending, a trap» اصلاح شد. «a grand total of 3 million» (بی‌علامتِ دلار) همان‌طور ماند. نام‌های خاص (Powerball، Pennsylvania، Benjamin Franklin، S&P 500) ورودی نگرفتند. return ِ سرمایه‌گذاری، say به معنای «فرض کنید» و حذفِ rare در «doesn’t have to be» در `note` آمدند.
 - **ویدیوی ۶۶:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «open minded» (بی‌خط‌تیره) و آپاستروف‌های مستقیم و خمیده همان‌طور ماندند. نام‌های خاص (Anton Mesmer، Louis XVI، James Braid، Mesmerism) و de-induction ورودی نگرفتند؛ induction، placebo، opioid و schizophrenia ورودی دارند. suggestion به معنای «تلقین»، مجهولِ «be passively observed»، does ِ تأکیدی و بازیِ mesmerizing / Mesmer در `note` آمدند.
 - **ویدیوی ۶۷:** از مجموعهٔ «Think Like A Musician» (چند گوینده، گفتارِ محاوره‌ای). در ترنسکریپت دو غلطِ کپشن اصلاح شد: «its really important» به «it’s really important» و «Experience sincerity imagination are» به «Experience, sincerity, imagination are» (ویرگول‌های جاافتاده). تکرارِ گفتاریِ «and and vague»، «I’m playing going—back and forth»، «… is see how natural» و گیومه‌های ناجورِ «”Driver’s License”» و «“Since You’ve Been Gone,“» همان‌طور ماندند. نام‌های خاص (Stevie، Olivia Rodrigo، Bob Dylan و نامِ آهنگ‌ها) ورودی نگرفتند. be like و go به معنای «گفتن»، sticky و land ِ مجازی، haystack needle ِ وارونه، based off of و everyday در `note` آمدند.
+- **ویدیوی ۶۸:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). نام‌های خاص و علمی (Neander Valley، Homo neanderthalensis، Homo sapiens، Iraq، Spain) ورودی نگرفتند؛ hominin، femur، skullcap، genome و stalagmite ورودی دارند. work ِ متعدی (work a cave)، بازیِ «Neander slander»، ground ِ قسمتِ سوم، game به معنای «شکار»، fashion ِ فعلی، hold ِ بی‌مفعول، discrete/discreet و float ِ ایده در `note` آمدند.
