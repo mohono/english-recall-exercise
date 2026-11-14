@@ -8,8 +8,10 @@ python3 serve.py            # http://127.0.0.1:8080, opens the view
 python3 serve.py --lan      # also for a phone on the same Wi-Fi
 ```
 
-Online at **http://91.107.173.6:8080/app/** (open to anyone, plain http, so voice commands and the screen
-wake lock are off there). After committing, `scripts/deploy.sh` pushes to GitHub and updates the server.
+Online at **https://91-107-173-6.sslip.io/app/** (open to anyone; Caddy on the server gives it https and
+proxies to serve.py on port 8080). It installs as an app (PWA) and works offline: see "Install and offline" in
+`app/README.md`. The old http://91.107.173.6:8080/app/ still answers. After committing, `scripts/deploy.sh`
+pushes to GitHub and updates the server.
 
 | Collection | In `data/` | Source | Skill that adds to it |
 |---|---|---|---|

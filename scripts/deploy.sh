@@ -1,5 +1,5 @@
 #!/bin/sh
-# Push main to GitHub and update the server: http://91.107.173.6:8080/app/
+# Push main to GitHub and update the server: https://91-107-173-6.sslip.io/app/ (Caddy -> port 8080)
 #   scripts/deploy.sh
 # The server folder is /root/hermes/hossein/english-recall-exercise, served by the systemd unit
 # english-recall.service (serve.py --no-open --lan, port 8080 open in ufw). app/vendor/ (the speech model) is
@@ -8,7 +8,7 @@ set -e
 cd "$(dirname "$0")/.."
 SERVER=root@91.107.173.6
 DIR=/root/hermes/hossein/english-recall-exercise
-URL=http://91.107.173.6:8080/app/
+URL=https://91-107-173-6.sslip.io/app/
 
 if [ -n "$(git status --porcelain)" ]; then echo "Uncommitted changes: commit first." >&2; exit 1; fi
 git push -q

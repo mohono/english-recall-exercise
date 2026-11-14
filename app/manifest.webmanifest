@@ -1,0 +1,16 @@
+{
+  "name": "English recall",
+  "short_name": "English recall",
+  "description": "Persian-to-English recall drills, offline",
+  "id": "/app/",
+  "start_url": "/app/",
+  "scope": "/app/",
+  "display": "standalone",
+  "background_color": "#FAF9F5",
+  "theme_color": "#F0EEE6",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

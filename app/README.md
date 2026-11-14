@@ -79,7 +79,8 @@ the width:
   playing sound, so a silent sound loops while it is on (it may pause music from another app). Not yet tried on
   real earbuds.
 
-What a device cannot do is not shown on it. Opened from another device over `http://<laptop-ip>`: no mic,
+What a device cannot do is not shown on it. Opened from another device over plain http (`http://<laptop-ip>`
+or the old `http://91.107.173.6:8080`): no mic,
 mic picker, 🗣 Words or voice help (browsers give the microphone only to https or localhost), no **+ Anki**, in the
 ⋯ sheet or in the lesson (AnkiConnect listens on the laptop's own 127.0.0.1:8765), and no ⛶ where the browser has
 no fullscreen (iPhone). The screen is not kept awake there either (that needs https too).
@@ -88,8 +89,28 @@ Your place in every exercise (the sentence, and whether its answer was open), th
 (shown in the sidebar), text size, theme, the auto-mode settings, typing box and mic choice are remembered
 in this browser. The screen is kept awake while the view is open.
 
+## Install and offline
+
+Open **https://91-107-173-6.sslip.io/app/** (the address must be https, or localhost, for any of this). Install it
+with Chrome's install icon in the address bar, or "Add to Home screen" / "Install app" in the phone browser's
+menu; it then opens in its own window from an icon.
+
+On the first visit `sw.js` (the service worker) saves the view, the fonts and **every exercise** on the device
+(about 15 MB) and shows "Offline ready ✓" once. After that it opens and works with no network, at your last
+exercise and sentence. When online, everything is still fetched fresh (an edited or new exercise shows on the
+next reload) and the saved copy is refreshed; the saved copy is used only when the network is gone or slower than
+3 s. New exercises are saved on the next start. The 45 MB speech files are saved only the first time the mic is
+switched on.
+
+Saved places belong to one address, so progress on the old http address does not carry over by itself. Open
+`http://91.107.173.6:8080/app/export.html?to=https://91-107-173-6.sslip.io/app/` once on each device that has
+progress there: it moves every saved place and setting to the new address.
+
 ## How it is built
 
+- `sw.js` + `manifest.webmanifest` + `icons/` make it an installable, offline app (see "Install and offline").
+  `sw.js` answers the fetches of `/data/` too; `hands.js` (`keepOffline`) registers it and asks it to cache every
+  exercise in `data/index.json`.
 - `../serve.py` serves `app/` and `data/` only (not sources, scripts or `.env`). `data/index.json`, the list of
   collections and exercises with their titles and number of sentences, is rebuilt from the data files on every
   request, so a new exercise appears on its own.

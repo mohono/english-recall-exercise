@@ -29,6 +29,8 @@ SERVED = ("/app/", "/data/")       # the view and the exercises; sources, script
 
 
 class Handler(SimpleHTTPRequestHandler):
+    extensions_map = {**SimpleHTTPRequestHandler.extensions_map, ".webmanifest": "application/manifest+json"}
+
     def log_message(self, *args):
         pass
 

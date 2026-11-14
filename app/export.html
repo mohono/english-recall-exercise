@@ -10,7 +10,8 @@
 <p id="msg">Moving your progress…</p>
 <script>
 // Saved places live per address (host + port). Opened on the OLD address, this page hands everything the
-// view saved (keys "lhf.…") to the view on another port: export.html?to=8080
+// view saved (keys "lhf.…") to the view on another port (export.html?to=8080) or another address
+// (export.html?to=https://91-107-173-6.sslip.io/app/)
 (function () {
   const to = new URLSearchParams(location.search).get("to") || "8080";
   const data = {};
@@ -21,8 +22,8 @@
     }
   } catch (e) { /* no storage here: nothing to move */ }
   const n = Object.keys(data).length;
-  document.getElementById("msg").textContent = n ? `Moving ${n} saved settings and places to port ${to}…` : "Nothing saved here to move.";
-  const url = `${location.protocol}//${location.hostname}:${to}/app/`;
+  const url = /^https?:\/\//.test(to) ? to : `${location.protocol}//${location.hostname}:${to}/app/`;
+  document.getElementById("msg").textContent = n ? `Moving ${n} saved settings and places to ${url}…` : "Nothing saved here to move.";
   location.replace(n ? url + "#lhf-import=" + encodeURIComponent(JSON.stringify(data)) : url);
 })();
 </script>

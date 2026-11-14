@@ -1043,6 +1043,22 @@ function moveOldPlaces() {
   save("last", S.last);
 }
 
+/* ---------- offline: sw.js keeps the view and every exercise on this device (https or localhost only) ---------- */
+function keepOffline() {
+  const sw = navigator.serviceWorker;
+  if (!sw) return;
+  navigator.storage?.persist?.().catch(() => {});      // ask the browser not to clear it when space runs low
+  sw.addEventListener("message", (e) => {
+    const r = e.data;
+    if (!r || r.total == null) return;
+    console.info("[offline]", r.cached, "of", r.total, "exercises cached", r.failed ? `(${r.failed} failed)` : "");
+    if (!r.failed && !load("offline", false)) { save("offline", true); toast(`Offline ready ✓ ${r.total} exercises saved`, 4000); }
+  });
+  sw.register("sw.js").then(() => sw.ready).then((reg) => {
+    reg.active?.postMessage({ cacheAll: LESSONS.map((l) => `../data/${l.path}.js`) });
+  }).catch((err) => console.warn("[offline] no service worker:", err));
+}
+
 /* ---------- start ---------- */
 async function init() {
   if (importFromHash()) return;
@@ -1080,6 +1096,7 @@ async function init() {
   try { GROUPS = await (await fetch("../data/index.json")).json(); }
   catch { bootDone(); toast("Start it with: python3 serve.py", 10000); return; }
   LESSONS = GROUPS.flatMap((g) => g.items.map((it) => ({ path: it.id, title: it.title, units: it.units, group: g.title })));
+  keepOffline();
   moveOldPlaces();
   buildSide();
   const want = decodeURIComponent(location.hash.slice(1));
