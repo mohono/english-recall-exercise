@@ -71,6 +71,7 @@
 | ۵۸ | `D98UJl6Ea6o` | How did ancient civilizations brew beer? | 2026-03-24 | 2026-11-13 | ۶۲ | ۱۶۳ |
 | ۵۹ | `DDo4rW0DMpk` | What if your president was chosen via lottery? | 2026-03-19 | 2026-11-13 | ۶۶ | ۱۷۲ |
 | ۶۰ | `lQRsqMiBTsI` | 3 surprising ways microplastics can enter your body | 2026-03-17 | 2026-11-13 | ۵۵ | ۱۳۴ |
+| ۶۱ | `iCBzEZek5cY` | How long can hair grow? | 2026-03-12 | 2026-11-14 | ۶۲ | ۱۲۴ |
 
 ## ردشده‌ها
 
@@ -143,3 +144,4 @@
 - **ویدیوی ۵۸:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). نام‌های خاص و نامِ نوشیدنی‌ها (Ninkasi، Hammurabi، Reinheitsgebot، Louis Pasteur، chicha، pilsner، bock، porter، stout، Kölsch، Lambic) ورودی نگرفتند؛ lager، ale، hops، millet، tuber و maize به‌خاطرِ کاربردِ عمومی ورودی دارند. brew ِ مجازی در واحدِ آخر ورودیِ دوم و `note` گرفت.
 - **ویدیوی ۵۹:** در ترنسکریپت دو غلطِ کپشن اصلاح شد: «across a network lottery-filled» به «across a network of lottery-filled» (of جاافتاده بود) و «limit public power, And without it» به «limit public power. And without it». نام‌های خاص (Athens، Plato، Aristotle، Alex Guerrero، Cristina LaFont، Nadia Urbinati، Congress) و lottocracy/SILL ورودی نگرفتند؛ sortition ورودی دارد. «roles were appointed» در `note` آمد.
 - **ویدیوی ۶۰:** ترنسکریپت بدون تغییر ماند (کپشن تمیز بود). «long term» و «single use» (بی‌خط‌تیره) همان‌طور ماندند. نام‌های شیمیایی و تجاری (Teflon، phthalates، PFAS، BPA، EDC، testosterone، estrogen) ورودی نگرفتند؛ endocrine، metabolism و in utero ورودی دارند. produce ِ اسمی و trigger ِ بی‌مفعول در `note` آمدند.
+- **ویدیوی ۶۱:** در ترنسکریپت املای نامِ «Xie Quiping» (یک بار) به «Xie Qiuping» یکدست شد. نام‌های خاص و زیستیِ تخصصی (Guinness، trichocyte، keratin، fibroblast، melanocyte، epithelial، testosterone) ورودی نگرفتند؛ follicle، matrix، pigment و stem cell ورودی دارند. بازیِ get to the bottom / at the bottom، «only for so long»، gray hair و وارونگیِ «At their base is» در `note` آمدند.
