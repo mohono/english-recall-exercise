@@ -7,7 +7,7 @@ html { font-size: var(--hf-size, 24px); }
 html body { font-size: 1rem; padding-bottom: 70vh; }   /* the last sentences can still come to the top */
 html .wrap { max-width: none; padding: 0 4vw; }
 html .hint { display: none; }
-.say, .cp-btn { zoom: var(--hf-k, 1.5); }   /* px-sized icons grow with the text */
+.say, .cp-btn, .star-btn { zoom: var(--hf-k, 1.5); }   /* px-sized icons grow with the text */
 .anki-btn { height: auto; padding: .15em .2em; }   /* its label is in rem already */
 .anki-btn i { height: auto; padding: .2em .55em; }
 .anki-btn svg { width: .8em; height: .8em; }
@@ -38,6 +38,7 @@ html[data-hf-theme="contrast"] .reveal { color: #000; }
 html[data-hf-theme="contrast"] .say.on svg path,
 html[data-hf-theme="contrast"] .cp-btn.on svg path { stroke: #000; }
 html[data-hf-theme="contrast"] .cp-btn.on svg path { fill: #000; }
+html[data-hf-theme="contrast"] .star-btn.on svg path { fill: #000; stroke: #000; }
 html[data-hf-theme="contrast"] .anki-btn.on i { color: #000; }
 
 /* phone: narrow gutters (the frame is as wide as the screen) */

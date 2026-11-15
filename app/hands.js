@@ -2,7 +2,7 @@
 // The hands-free view of every exercise in data/. An exercise runs in the frame on the one shared engine
 // (drill.html?d=<collection>/<id>), and this shell adds the sidebar of all exercises, big text, themes, keys,
 // offline voice commands (Vosk), auto mode, touch and a remembered place. It drives the engine only through
-// the engine's own elements (span.s, .reveal, .say, .cp-btn, .anki-btn). The mic and the speech model live
+// the engine's own elements (span.s, .reveal, .say, .cp-btn, .star-btn, .anki-btn). The mic and the speech model live
 // here, so they stay on from one exercise to the next.
 
 /* ---------- settings ---------- */
@@ -32,7 +32,7 @@ const PHRASES = {
   "play": "autoOn", "start": "autoOn", "resume": "autoOn", "continue": "autoOn",
   "pause": "pause", "wait": "pause", "hold": "pause", "stop": "quiet",
   "faster": "faster", "slower": "slower", "shorter": "shorterWait", "longer": "longerWait", "bigger": "bigger", "smaller": "smaller",
-  "bookmark": "bookmark", "save card": "anki", "settings": "settings", "commands": "words",
+  "bookmark": "bookmark", "star": "star", "save card": "anki", "settings": "settings", "commands": "words",
 };
 
 // what saying each command does, in the order of the voice dialog (🗣 Words, G, "commands")
@@ -52,6 +52,7 @@ const DOES = {
   longerWait: "Auto mode: longer wait after the answer",
   settings: "Open or close the auto-mode settings",
   bookmark: "Bookmark 🔖 this sentence, or remove the bookmark",
+  star: "Star ⭐ this sentence (it goes into “Starred sentences”), or take the star away",
   anki: "Add this sentence to Anki (deck “sentences”)",
   nextLesson: "Go to the next exercise in the sidebar, at your place in it",
   prevLesson: "Go to the previous exercise in the sidebar, at your place in it",
@@ -64,7 +65,7 @@ const DOES = {
 const KEYS = {
   Enter: "step", ArrowRight: "step", n: "step", ArrowLeft: "prev", b: "prev",
   a: "answer", s: "skip", r: "repeat", w: "word", p: "auto", "=": "faster", "-": "slower",
-  c: "bookmark", "+": "anki", "]": "nextLesson", "[": "prevLesson", ".": "bigger", ",": "smaller",
+  c: "bookmark", x: "star", "*": "star", "+": "anki", "]": "nextLesson", "[": "prevLesson", ".": "bigger", ",": "smaller",
   v: "speakAnswers", k: "typing", l: "side", t: "theme", f: "fullscreen", m: "mic", g: "words", o: "settings", e: "side", ";": "shorterWait", "'": "longerWait", "?": "help",
 };
 const MOVES = new Set(["step", "prev", "answer", "skip", "repeat", "word"]);   // these restart the auto countdown
@@ -100,6 +101,7 @@ const S = {
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 const frame = $("#lesson");
+const STARRED = "starred/all";      // the exercise of every starred sentence (stars.js), first in the sidebar
 let GROUPS = [];                     // data/index.json: [{ id, title, items: [{ id, title, units }] }]
 let LESSONS = [];                    // every exercise in sidebar order: [{ path, title, units, group }]
 let F = null;                        // the exercise in the frame: { win, doc, path, title, group, spans }
@@ -116,6 +118,7 @@ const ttsBusy = () => performance.now() < readingUntil || !!gapTimer || !!F?.win
 const reading = () => ttsBusy() || (!!current && !readingUntil);
 
 function open(i, show = false) {     // show: with its answer, not read aloud
+  if (!F.spans.length) { toast(F.path === STARRED ? "No starred sentences yet: ☆ a sentence in any exercise" : "This exercise is empty", 4000); return; }
   i = Math.max(0, Math.min(F.spans.length - 1, i));
   if (active() !== i) F.spans[i].click();           // the engine opens the drawer and brings it to the top
   if (F.doc.activeElement?.matches("textarea") && !S.type) F.doc.activeElement.blur();
@@ -238,6 +241,21 @@ function bookmark() {
   const btn = p.querySelector(".cp-btn");
   btn.click();
   toast(btn.classList.contains("on") ? "Bookmark set 🔖" : "Bookmark removed");
+}
+function star() {
+  const p = panel();
+  if (!p) { toast("Open a sentence first"); return; }
+  const btn = p.querySelector(".star-btn");
+  if (!btn) return;
+  btn.click();
+  toast(btn.classList.contains("on") ? "Starred ⭐" : "Star removed");
+}
+function starCount() {               // the starred exercise grew or shrank (here, in the lesson or on another device)
+  const l = LESSONS.find((x) => x.path === STARRED), g = GROUPS.find((x) => x.id === "starred");
+  if (!l) return;
+  l.units = g.items[0].units = Stars.list().length;
+  const it = sideItem(STARRED);
+  if (it) { it.querySelector(".prog").innerHTML = prog(l); it.parentElement.querySelector(".gc").textContent = l.units; }
 }
 function anki() {
   if (!CAN_ANKI) { toast("Anki is only reachable on the laptop itself"); return; }
@@ -416,7 +434,7 @@ function toggle(key, on, off) {
 
 /* ---------- exercises: the sidebar lists every one, grouped by collection ---------- */
 function goLesson(path) {
-  const l = LESSONS.find((x) => x.path === path) || LESSONS[0];
+  const l = LESSONS.find((x) => x.path === path) || LESSONS.find((x) => x.path !== STARRED);   // not the stars: first lesson
   if (!l) { bootDone(); return; }
   boot(l.title);
   S.last = l.path; save("last", l.path);
@@ -432,6 +450,7 @@ function lessonStep(d) {             // ] [ and "next / previous lesson": throug
   toast(l.title, 3000);
 }
 function prog(l) {                   // ✓ once its last answer has been seen, else your place in it
+  if (!l.units) return "";
   if (load("reached." + l.path, 0) >= l.units) return `<span class="done">✓</span>`;
   const p = load("at." + l.path, null);
   return p ? `${p.i + 1} / ${l.units}` : "";
@@ -623,11 +642,11 @@ function changed() {                 // the engine opened, closed or revealed so
       if (reached > load("reached." + F.path, 0)) save("reached." + F.path, reached);
     }
     markSide(F.path);
-    const at = a >= 0 ? a + 1 : place().i + 1;
+    const at = !n ? 0 : a >= 0 ? a + 1 : place().i + 1;
     const part = `<span class="arrow"> › </span><span class="part">${esc(F.title)}</span>`;
     $("#where").innerHTML = `<span class="t"><b>${esc(F.group)}</b>${part}</span><span class="count">${at} / ${n}</span>`;
     $("#where").classList.toggle("multi", !!part);
-    $("#progress div").style.width = (100 * at / n) + "%";
+    $("#progress div").style.width = (n ? 100 * at / n : 0) + "%";
     remoteTitle();
   });
 }
@@ -681,7 +700,7 @@ frame.addEventListener("load", () => {
 
 /* ---------- commands: keys, voice and the bar buttons (data-cmd) all run these ---------- */
 const COMMANDS = {
-  step, prev, answer, skip, repeat, word, quiet, bookmark, anki, pause,
+  step, prev, answer, skip, repeat, word, quiet, bookmark, star, anki, pause,
   auto: () => (auto && !paused ? pause() : play_()),   // P and the bar button: play / pause
   autoOn: play_,
   faster: () => setThink(-1),
@@ -718,7 +737,7 @@ const COMMANDS = {
   help: () => { $("#help").hidden = !$("#help").hidden; },
   words: () => showWords($("#words").hidden),
 };
-const NEEDS_LESSON = new Set(["step", "prev", "answer", "skip", "repeat", "word", "bookmark", "anki", "nextLesson", "prevLesson"]);
+const NEEDS_LESSON = new Set(["step", "prev", "answer", "skip", "repeat", "word", "bookmark", "star", "anki", "nextLesson", "prevLesson"]);
 
 // the voice list stays open while you try the words, and the settings while you change them by key or voice
 const KEEPS_SETTINGS = new Set(["settings", "faster", "slower", "shorterWait", "longerWait", "speakAnswers", "auto", "autoOn", "pause", "quiet", "bigger", "smaller", "theme"]);
@@ -1095,12 +1114,19 @@ async function init() {
 
   try { GROUPS = await (await fetch("../data/index.json")).json(); }
   catch { bootDone(); toast("Start it with: python3 serve.py", 10000); return; }
+  GROUPS.unshift({ id: "starred", title: "⭐ ستاره‌دار", items: [{ id: STARRED, title: "جمله‌های ستاره‌دار", units: Stars.list().length }] });
   LESSONS = GROUPS.flatMap((g) => g.items.map((it) => ({ path: it.id, title: it.title, units: it.units, group: g.title })));
   keepOffline();
   moveOldPlaces();
   buildSide();
   const want = decodeURIComponent(location.hash.slice(1));
-  goLesson(LESSONS.some((l) => l.path === want) ? want : S.last);
+  const first = LESSONS.some((l) => l.path === want) ? want : S.last;
+  // the stars of the other devices: wait for them a moment when the starred exercise opens first
+  window.addEventListener("stars", starCount);
+  window.addEventListener("storage", (e) => { if (e.key === "lhf.stars") starCount(); });
+  const synced = Stars.sync();
+  if (first === STARRED) await Promise.race([synced, new Promise((r) => setTimeout(r, 1500))]);
+  goLesson(first);
 }
 
 init();

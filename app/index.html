@@ -41,6 +41,7 @@ try {
       <button data-cmd="repeat" title="Read the English sentence again (R)">🔁 Repeat</button>
       <button data-cmd="word" title="Read the next target word (W)">🗣 Word</button>
       <button data-cmd="bookmark" title="Bookmark on / off (C)">🔖</button>
+      <button data-cmd="star" title="Star on / off: starred sentences are drilled together in “⭐ ستاره‌دار” (X, or say “star”)">⭐</button>
       <button data-cmd="anki" title="Add the sentence to Anki (+)">+ Anki</button>
     </div>
     <div class="group touch" data-label="Earbud / headset buttons: play-pause = auto mode · next / previous = sentence">
@@ -127,6 +128,7 @@ try {
     <tr><td>shorter / longer</td><td>; '</td><td>shorter / longer wait after the answer in auto mode</td></tr>
     <tr><td>settings</td><td>O</td><td>auto-mode settings: think time, per word, read aloud, times, speed, wait after</td></tr>
     <tr><td>bookmark</td><td>C</td><td>checkpoint 🔖 on / off</td></tr>
+    <tr><td>star</td><td>X *</td><td>star ⭐ on / off: every starred sentence is in “⭐ ستاره‌دار”, first in the sidebar, drilled like any exercise</td></tr>
     <tr><td>save card</td><td>+</td><td>add the sentence to the Anki deck “sentences”</td></tr>
     <tr><td>next lesson / previous lesson</td><td>] [</td><td>the next / previous exercise in the sidebar, at your place in it</td></tr>
     <tr><td>bigger / smaller</td><td>. ,</td><td>text size</td></tr>
@@ -145,6 +147,7 @@ try {
     a word with “?” was ignored. Your place in every lesson, text size, theme and mic are remembered.</p>
 </div>
 
+<script src="stars.js"></script>
 <script src="hands.js"></script>
 </body>
 </html>

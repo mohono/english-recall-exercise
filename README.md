@@ -23,6 +23,8 @@ pushes to GitHub and updates the server.
 
 ## How it fits together
 
+- **⭐ Starred sentences**: star any sentence and drill all of them as one exercise, first in the sidebar. The list
+  is kept on the server in `state/stars.json` (not in git), shared by every device. See `app/README.md`.
 - **`app/`** is the view and the one shared engine. See `app/README.md` for keys, voice, auto mode, phone use.
 - **`data/<collection>/<id>.js`** is one exercise: `DRILL({ "title", "storeKey", "source"?, "items": [ … ] });`
   with plain JSON inside. A unit has `fa`, `en` and optionally `ipa`, `newPara`, `section`, `words`, `note`

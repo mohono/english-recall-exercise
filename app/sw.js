@@ -7,7 +7,7 @@
 const CACHE = "english-recall";
 const NET_WAIT = 3000;
 const SHELL = [
-  "./", "index.html", "drill.html", "hands.js", "hands.css", "frame.css", "manifest.webmanifest",
+  "./", "index.html", "drill.html", "hands.js", "hands.css", "frame.css", "stars.js", "manifest.webmanifest",
   "fonts/fonts.css", "fonts/NotoSans-latin-2.woff2", "fonts/NotoSans-latin-ext-1.woff2",
   "fonts/SourceSerif4-latin-2.woff2", "fonts/SourceSerif4-latin-ext-1.woff2", "fonts/Vazirmatn-arabic-1.woff2",
   "fonts/Vazirmatn-latin-2.woff2", "fonts/Vazirmatn-latin-ext-1.woff2",

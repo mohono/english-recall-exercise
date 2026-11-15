@@ -6,6 +6,7 @@
 <meta name="theme-color" content="#FAF9F5">
 <title>تمرین</title>
 <link rel="stylesheet" href="fonts/fonts.css">
+<script src="stars.js"></script>
 <style>
   :root{
     --bg:#FAF9F5; --surface:#FFFFFF; --surface-alt:#F0EEE6;
@@ -121,6 +122,19 @@
   .cp-btn.on svg path{fill:#fff;stroke:#fff}
   .cp-btn:focus-visible{outline:2px solid var(--accent);outline-offset:-4px}
 
+  /* ستاره: جمله به تمرین «جمله‌های ستاره‌دار» می‌رود */
+  .star-btn{flex:none;width:44px;height:44px;
+    display:grid;place-items:center;background:none;border:0;border-radius:10px;cursor:pointer}
+  .star-btn i{display:grid;place-items:center;width:30px;height:30px;border-radius:8px;
+    border:1px solid var(--line-2);transition:background .15s ease,border-color .15s ease}
+  .star-btn svg{width:16px;height:16px;display:block}
+  .star-btn svg path{fill:none;stroke:var(--text-3);stroke-width:1.5;stroke-linejoin:round}
+  .star-btn.on i{background:var(--accent);border-color:var(--accent)}
+  .star-btn.on svg path{fill:#fff;stroke:#fff}
+  .star-btn:focus-visible{outline:2px solid var(--accent);outline-offset:-4px}
+  .s.star::after{content:"★";color:var(--accent);font-size:.7em;margin-inline-start:.2em;vertical-align:.15em}
+  .s.unstarred{opacity:.45;text-decoration:line-through;text-decoration-thickness:1px}
+
   /* دکمهٔ Anki */
   .anki-btn{flex:none;height:44px;padding:0 .2rem;display:grid;place-items:center;
     background:none;border:0;border-radius:10px;cursor:pointer;font:inherit}
@@ -214,7 +228,21 @@
 let DATA = null;
 function DRILL(d){ DATA = d; }
 const DRILL_ID = new URLSearchParams(location.search).get('d') || '';
-if (/^[\w-]+\/[\w.-]+$/.test(DRILL_ID))
+/* ⭐ starred/all: every starred sentence (stars.js), in the order starred; a run from one exercise is one
+   paragraph under that exercise's title */
+const STARRED = DRILL_ID === 'starred/all';
+let ENTRY_IDS = null;
+if (STARRED) {
+  const list = window.Stars ? Stars.list() : [];
+  ENTRY_IDS = list.map(e => e.id);
+  DRILL({ title: '⭐ جمله‌های ستاره‌دار', storeKey: 'starred',
+    items: list.map((e, k) => {
+      const first = !k || list[k - 1].path !== e.path;
+      return first ? { ...e.unit, newPara: true, section: e.title } : { ...e.unit };
+    }) });
+  DATA.entries = list;
+}
+else if (/^[\w-]+\/[\w.-]+$/.test(DRILL_ID))
   document.write('<script src="../data/' + DRILL_ID + '.js"><\/script>');
 </script>
 <script>
@@ -229,6 +257,7 @@ const TEXTS     = [{ title: DATA.title, items: DATA.items }];
    از اینجا به بعد موتور است. دست نخورد.
    ══════════════════════════════════════════════════════════ */
 
+const STAR = '<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M8 1.6l1.95 4.1 4.45.55-3.3 3.05.87 4.4L8 11.5l-3.97 2.2.87-4.4L1.6 6.25l4.45-.55z"/></svg>';
 const BOOKMARK = '<svg viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.2 1.4h9.6v13.2L7 11.2l-4.8 3.4z"/></svg>';
 const row = (k, v, c='') => `<div class="row ${c}"><div class="key">${k}</div><div class="val">${v}</div></div>`;
 
@@ -286,6 +315,8 @@ if (SOURCE) {
   a.textContent = /youtu/.test(SOURCE) ? 'Watch on YouTube ↗' : 'Source ↗';
   a.hidden = false;
 }
+if (STARRED && !DATA.items.length) document.querySelector('.hint').outerHTML =
+  '<p class="missing">هنوز جمله‌ای ستاره نخورده. در هر تمرین، زیر جمله دکمهٔ ☆ را بزن تا اینجا بیاید.</p>';
 if (MISSING) document.querySelector('.hint').outerHTML = '<p class="missing">فایل داده برای «' + DRILL_ID.replace(/[<&]/g, '') + '» نیست.</p>';
 
 /* گروه‌بندی واحدها به پاراگراف، درون هر متن */
@@ -480,6 +511,26 @@ c{color:#8F8E8A;font-size:.85em}
     jumpBtn.classList.toggle('on', cp !== null);
   };
 
+  /* ستاره‌ها: شناسهٔ هر جمله؛ در تمرین ستاره‌دار، شناسهٔ همان جملهٔ اصلی */
+  const starId = i => STARRED ? ENTRY_IDS[i] : Stars.idOf(DRILL_ID, FLAT[i].it);
+  const starEntry = i => STARRED ? DATA.entries[i] : Stars.entry(DRILL_ID, TITLE, FLAT[i].it);
+  const isStar = i => !!window.Stars && !MISSING && Stars.has(starId(i));
+  const paintStars = () => {
+    if (!window.Stars) return;
+    const ids = new Set(Stars.list().map(e => e.id));
+    spans.forEach((sp, i) => {
+      const on = ids.has(starId(i));
+      sp.classList.toggle('star', on && !STARRED);
+      sp.classList.toggle('unstarred', STARRED && !on);   // تا بار بعد می‌ماند، کم‌رنگ
+    });
+    if (active !== null) {
+      const b = slot.querySelector('.star-btn');
+      if (b) { const on = ids.has(starId(active)); b.classList.toggle('on', on); b.setAttribute('aria-pressed', on); }
+    }
+  };
+  window.addEventListener('storage', e => { if (e.key === 'lhf.stars') paintStars(); });
+  window.addEventListener('stars', paintStars);   // از دستگاه یا پنجرهٔ دیگر
+
   /* جملهٔ فعال به بالای صفحه می‌آید، با فاصله‌ای به اندازهٔ یک سطر */
   function bring(keep){
     if (active === null) return;
@@ -513,6 +564,7 @@ c{color:#8F8E8A;font-size:.85em}
           <div class="acts">
             <button class="reveal" type="button">نمایش پاسخ</button>
             <button class="cp-btn${isCP ? ' on' : ''}" type="button" aria-pressed="${isCP}" aria-label="چک‌پوینت"><i>${BOOKMARK}</i></button>
+            ${window.Stars && !MISSING ? `<button class="star-btn${isStar(i) ? ' on' : ''}" type="button" aria-pressed="${isStar(i)}" aria-label="ستاره"><i>${STAR}</i></button>` : ''}
             <button class="anki-btn${ankiAdded.has(i) ? ' on' : ''}" type="button" aria-label="افزودن به Anki"><i>${PLUS}Anki</i></button>
           </div>
           <div class="anki-msg" role="status"></div>
@@ -544,6 +596,11 @@ c{color:#8F8E8A;font-size:.85em}
       e.currentTarget.classList.toggle('on', on);
       e.currentTarget.setAttribute('aria-pressed', on);
       paintCP();
+    });
+
+    slot.querySelector('.star-btn')?.addEventListener('click', () => {
+      Stars.set(starEntry(i), !isStar(i));
+      paintStars();
     });
 
     /* Enter → نمایش پاسخ، Enter دوباره → جملهٔ بعدی، Shift+Enter → خط تازه */
@@ -587,6 +644,8 @@ c{color:#8F8E8A;font-size:.85em}
   });
 
   paintCP();
+  paintStars();
+  if (window.Stars && !STARRED) Stars.sync().then(ok => { if (ok) paintStars(); });
 })();
 </script>
 

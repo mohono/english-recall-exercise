@@ -3,3 +3,4 @@ __pycache__/
 app/vendor/
 scripts/.venv/
 scripts/.nltk_data/
+state/

@@ -14,7 +14,7 @@ button uses.)
 
 **Voice (English, each said on its own with a short pause around it):**
 next · previous · answer / show · skip · repeat · pronounce · play / start / resume / continue ·
-pause / wait / hold · stop · faster · slower · shorter · longer · settings · bookmark · save card · next lesson · previous lesson ·
+pause / wait / hold · stop · faster · slower · shorter · longer · settings · bookmark · star · save card · next lesson · previous lesson ·
 bigger · smaller.
 **🗣 Words** (or **G**, or say "commands") opens a list of every word the mic listens for and what saying it
 does; while it is open, the row of each word it hears lights up, so you can practise them. The toast at the
@@ -24,7 +24,7 @@ otherwise give commands), so wait for it to finish, or press Esc.
 
 **Keys:** Space/Enter/→/N next (answer first, then the next sentence) · Shift+Space/←/B previous · A answer ·
 S skip · R repeat · W pronounce the next target word · P auto mode play / pause · = / − less / more time to
-think · ; / ' shorter / longer wait after the answer · O auto-mode settings · C bookmark · \+ Anki · ] / [ lesson · . / , text size · V read the answer aloud
+think · ; / ' shorter / longer wait after the answer · O auto-mode settings · C bookmark · X (or \*) star · \+ Anki · ] / [ lesson · . / , text size · V read the answer aloud
 on / off · K typing box · E or L sidebar · T theme · F fullscreen · M mic · ? help · Esc stop (auto off) / close. ↑ ↓ PageUp PageDown scroll a long answer.
 
 **Reading the answer aloud:** when the English answer shows, it is read aloud automatically, however you
@@ -50,7 +50,16 @@ answer aloud on / off, how many times it is read (1–3), reading speed (0.75 by
 own 1; the lesson's own 🔊 buttons read at this speed too), and the wait after the answer. "Try the speed"
 reads a sample sentence; "Defaults" puts them all back. All of them are remembered.
 
-**Sidebar** (☰, **E** or **L**): every exercise, grouped by collection (IELTS Up Words, summaries, TED-Ed,
+**⭐ Starred sentences** (the Anki deck, in the app): ☆ under any sentence (or **X**, or say "star") stars it, and
+a small ★ marks it in its exercise. Every starred sentence is in **⭐ ستاره‌دار → جمله‌های ستاره‌دار**, first in
+the sidebar: one exercise, drilled like any other (auto mode, voice, keys, earbuds, your place), in the order you
+starred them, each run under the title of the exercise it came from. It keeps a copy of the sentence with its
+words and grammar rows, so an edited data file does not change it. Taking the star away there dims the sentence;
+it is gone the next time the exercise opens. The stars are kept on the server (`state/stars.json`, not in git),
+so a star on the phone shows on the laptop too. Starred offline, it shows at once and reaches the server on the
+next start or when the network is back.
+
+**Sidebar** (☰, **E** or **L**): every exercise, grouped by collection (starred sentences, IELTS Up Words, summaries, TED-Ed,
 grammar passages, grammar structures). A group opens and closes with a click on its name; the group you are in
 opens by itself. Each exercise shows your place in it, or ✓ once you have seen its last answer. Click one to
 switch to it, at your place in it. The » / « button at its top shrinks it to a narrow strip of numbers and
@@ -111,7 +120,11 @@ progress there: it moves every saved place and setting to the new address.
 - `sw.js` + `manifest.webmanifest` + `icons/` make it an installable, offline app (see "Install and offline").
   `sw.js` answers the fetches of `/data/` too; `hands.js` (`keepOffline`) registers it and asks it to cache every
   exercise in `data/index.json`.
-- `../serve.py` serves `app/` and `data/` only (not sources, scripts or `.env`). `data/index.json`, the list of
+- `stars.js` is the ⭐ store, loaded by the view and the engine: a copy of the list in `localStorage`
+  (`lhf.stars`) and the changes not yet sent (`lhf.starQueue`), sent as add / remove ops to `/api/stars`.
+  `serve.py` keeps the list in `state/stars.json`. `drill.html?d=starred/all` builds the starred exercise from
+  that copy, not from a data file; the view adds it to the sidebar itself (it is not in `data/index.json`).
+- `../serve.py` serves `app/` and `data/` only (not sources, scripts or `.env`), plus `/api/stars`. `data/index.json`, the list of
   collections and exercises with their titles and number of sentences, is rebuilt from the data files on every
   request, so a new exercise appears on its own.
 - `drill.html` is the engine: `drill.html?d=<collection>/<id>` loads `data/<collection>/<id>.js` and shows it
