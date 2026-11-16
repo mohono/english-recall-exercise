@@ -25,7 +25,7 @@ otherwise give commands), so wait for it to finish, or press Esc.
 **Keys:** Space/Enter/→/N next (answer first, then the next sentence) · Shift+Space/←/B previous · A answer ·
 S skip · R repeat · W pronounce the next target word · P auto mode play / pause · = / − less / more time to
 think · ; / ' shorter / longer wait after the answer · O auto-mode settings · C bookmark · X (or \*) star · \+ Anki · ] / [ lesson · . / , text size · V read the answer aloud
-on / off · K typing box · E or L sidebar · T theme · F fullscreen · M mic · ? help · Esc stop (auto off) / close. ↑ ↓ PageUp PageDown scroll a long answer.
+on / off · E or L sidebar · T theme · F fullscreen · M mic · ? help · Esc stop (auto off) / close. ↑ ↓ PageUp PageDown scroll a long answer.
 
 **Reading the answer aloud:** when the English answer shows, it is read aloud automatically, however you
 opened it (voice, keys, auto mode, the page's own «نمایش پاسخ» button or Enter in the typing box). The
@@ -72,7 +72,7 @@ and prints the address to open on the phone (without `--lan` only the laptop can
 the width:
 - wider than 1250px: the full bar, as described above;
 - up to 1250px: the bar keeps ☰, the title, ◀ ▶, Auto and ■; **⋯** opens a sheet with every other control
-  (answer, skip, repeat, word, bookmark, +Anki, lesson / exercise, the auto-mode times, ⚙, 🔊 Read, typing box,
+  (answer, skip, repeat, word, bookmark, +Anki, lesson / exercise, the auto-mode times, ⚙, 🔊 Read,
   text size, theme, mic, help), so nothing needs a keyboard;
 - up to 700px (phone): ◀ ▶ Auto ■ become big buttons at the bottom, the sidebar becomes a drawer that
   ☰ opens over the lesson (tap an exercise and it closes), settings, words and help fill the screen, and the
@@ -95,7 +95,7 @@ mic picker, 🗣 Words or voice help (browsers give the microphone only to https
 no fullscreen (iPhone). The screen is not kept awake there either (that needs https too).
 
 Your place in every exercise (the sentence, and whether its answer was open), the furthest sentence reached
-(shown in the sidebar), text size, theme, the auto-mode settings, typing box and mic choice are remembered
+(shown in the sidebar), text size, theme, the auto-mode settings and mic choice are remembered
 in this browser. The screen is kept awake while the view is open.
 
 ## Install and offline
@@ -129,9 +129,11 @@ progress there: it moves every saved place and setting to the new address.
   request, so a new exercise appears on its own.
 - `drill.html` is the engine: `drill.html?d=<collection>/<id>` loads `data/<collection>/<id>.js` and shows it
   sentence by sentence (answer panel, speaker buttons, IPA, bookmark, + Anki; vocabulary rows and grammar rows).
+  Every sentence box has a typing box for your own English translation before the answer shows; it is never
+  checked, and it stays until you move to the next sentence.
   Fonts come from `fonts/`, not from the network.
 - `index.html`, `hands.js`, `hands.css` are the view. The exercise runs in a frame from the same address, and
-  `hands.js` adds `frame.css` to it (size, full width, themes, typing box hidden) and drives the engine through
+  `hands.js` adds `frame.css` to it (size, full width, themes) and drives the engine through
   its own elements: `span.s`, `.reveal`, `.say`, `.cp-btn`, `.anki-btn`. The mic and the speech model live in
   the view, so they stay on from one exercise to the next.
 - A loading cover (`#boot`) is up from the first paint, already in the saved theme, until the exercise stands at

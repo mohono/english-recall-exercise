@@ -13,10 +13,6 @@ html .hint { display: none; }
 .anki-btn svg { width: .8em; height: .8em; }
 .wentry.hf-cur { outline: 3px solid var(--accent); outline-offset: 2px; }
 
-/* the typing box is hidden unless it is switched on (K) */
-html:not(.hf-type) .attempt label, html:not(.hf-type) .attempt textarea { display: none; }
-html:not(.hf-type) .acts { margin-top: 0; }
-
 html[data-hf-theme="dark"], html[data-hf-theme="contrast"] { color-scheme: dark; }   /* dark scrollbar */
 html[data-hf-theme="dark"] {
   --bg: #15171a; --surface: #1d2024; --surface-alt: #262a30; --text: #e9e4da; --text-2: #b3ada2; --text-3: #8f897e;

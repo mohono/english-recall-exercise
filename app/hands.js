@@ -66,7 +66,7 @@ const KEYS = {
   Enter: "step", ArrowRight: "step", n: "step", ArrowLeft: "prev", b: "prev",
   a: "answer", s: "skip", r: "repeat", w: "word", p: "auto", "=": "faster", "-": "slower",
   c: "bookmark", x: "star", "*": "star", "+": "anki", "]": "nextLesson", "[": "prevLesson", ".": "bigger", ",": "smaller",
-  v: "speakAnswers", k: "typing", l: "side", t: "theme", f: "fullscreen", m: "mic", g: "words", o: "settings", e: "side", ";": "shorterWait", "'": "longerWait", "?": "help",
+  v: "speakAnswers", l: "side", t: "theme", f: "fullscreen", m: "mic", g: "words", o: "settings", e: "side", ";": "shorterWait", "'": "longerWait", "?": "help",
 };
 const MOVES = new Set(["step", "prev", "answer", "skip", "repeat", "word"]);   // these restart the auto countdown
 
@@ -89,7 +89,6 @@ let sideOpen = false;                // the exercises drawer on a phone (never s
 const S = {
   size: load("size", phone.matches ? 18 : 24), theme: load("theme", "light"),
   ...Object.fromEntries(Object.entries(DEFAULTS).map(([k, v]) => [k, load(k, v)])),   // auto mode, read aloud
-  type: load("type", false),         // show the typing box
   remote: load("remote", coarse.matches),   // earbud / headset buttons drive the drill (🎧)
   side: load("side", true),          // the exercises sidebar (pages with more than one exercise)
   sideSmall: load("sideSmall", false),   // shrunk to a narrow strip of lesson numbers
@@ -121,7 +120,6 @@ function open(i, show = false) {     // show: with its answer, not read aloud
   if (!F.spans.length) { toast(F.path === STARRED ? "No starred sentences yet: ☆ a sentence in any exercise" : "This exercise is empty", 4000); return; }
   i = Math.max(0, Math.min(F.spans.length - 1, i));
   if (active() !== i) F.spans[i].click();           // the engine opens the drawer and brings it to the top
-  if (F.doc.activeElement?.matches("textarea") && !S.type) F.doc.activeElement.blur();
   if (show) reveal(true);
 }
 function openPlace() {               // auto mode starts a finished lesson again from the top
@@ -401,13 +399,11 @@ function showClock(why = auto && !paused ? holding() : "") {
 function applyLook() {
   document.documentElement.dataset.theme = S.theme;
   $("#speak").classList.toggle("on", S.speak);
-  $("#type").classList.toggle("on", S.type);
   if (!F) return;
   const root = F.doc.documentElement;
   root.style.setProperty("--hf-size", S.size + "px");
   root.style.setProperty("--hf-k", (S.size / 16).toFixed(3));
   root.dataset.hfTheme = S.theme;
-  root.classList.toggle("hf-type", S.type);
   root.classList.toggle("hf-no-anki", !CAN_ANKI);
   root.classList.toggle("hf-auto", auto);            // touch: a sentence is "next" too, and is not selected by a long press
 }
@@ -714,7 +710,6 @@ const COMMANDS = {
     toggle("speak", "🔊 Answers read aloud: on", "🔊 Answers read aloud: off");
     if (!S.speak && speaking === panel()?.querySelector(".en-box .say")) hush();   // off: stop it now
   },
-  typing: () => toggle("type", "Typing box on", "Typing box off"),
   theme: () => setTheme(THEMES[(THEMES.indexOf(S.theme) + 1) % THEMES.length]),
   fullscreen: () => (document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen())
     .catch(() => toast("Fullscreen not allowed here")),
@@ -741,7 +736,7 @@ const NEEDS_LESSON = new Set(["step", "prev", "answer", "skip", "repeat", "word"
 
 // the voice list stays open while you try the words, and the settings while you change them by key or voice
 const KEEPS_SETTINGS = new Set(["settings", "faster", "slower", "shorterWait", "longerWait", "speakAnswers", "auto", "autoOn", "pause", "quiet", "bigger", "smaller", "theme"]);
-const KEEPS_MORE = new Set(["more", "remote", "faster", "slower", "shorterWait", "longerWait", "bigger", "smaller", "theme", "speakAnswers", "typing"]);
+const KEEPS_MORE = new Set(["more", "remote", "faster", "slower", "shorterWait", "longerWait", "bigger", "smaller", "theme", "speakAnswers"]);
 function run(cmd, byVoice = false) {
   if (!KEEPS_MORE.has(cmd)) setMore(false);            // the sheet stays open while you step a value
   if (cmd !== "side" && sideOpen) { sideOpen = false; showSide(); }
@@ -783,7 +778,6 @@ function onLessonClick(e) {          // a sentence or a button of the engine
     && !e.target.closest(".s, button, a, textarea, input, select, label, .say, .toc, .jump");
   if (tapNext) { run("step"); return; }
   closeDrawers(); showWords(false); showSettings(false); $("#help").hidden = true;
-  if (!S.type) setTimeout(() => { if (F?.doc.activeElement?.matches("textarea")) F.doc.activeElement.blur(); });
 }
 
 /* ---------- voice (Vosk, offline, only the phrases above) ---------- */

@@ -48,7 +48,7 @@ body { margin: 0; overflow: hidden; background: var(--bg); color: var(--fg); fon
 #where b { color: var(--fg); }
 #where .count { direction: ltr; unicode-bidi: isolate; font-variant-numeric: tabular-nums; }
 #pace, #after { min-width: 34px; text-align: center; color: var(--muted); font-variant-numeric: tabular-nums; }
-#auto.on, #speak.on, #type.on, #sideBtn.on, #remote.on { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+#auto.on, #speak.on, #sideBtn.on, #remote.on { background: var(--accent); color: var(--bg); border-color: var(--accent); }
 #mic.on { background: #2f8f3a; border-color: #2f8f3a; }
 #mic.loading { background: #a0761a; border-color: #a0761a; }
 #progress { position: fixed; top: 52px; left: 0; right: 0; height: 4px; z-index: 20; }
