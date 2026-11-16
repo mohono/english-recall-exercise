@@ -73,7 +73,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از کارت‌های سنتیِ صادرشده از بانک گرفته تا کارت‌های شرکت‌های هواپیمایی، پمپ‌بنزین‌ها و حتی بستنی‌فروشی‌ها.",
+      "fa": "از کارت‌های سنتی‌ای که بانک‌ها صادر می‌کنند گرفته تا کارت‌های شرکت‌های هواپیمایی، پمپ‌بنزین‌ها و حتی بستنی‌فروشی‌ها.",
       "en": "ranging from traditional bank-issued to those from airlines, gas stations, and even ice cream shops.",
       "ipa": "ˈreɪndʒɪŋ frəm trəˈdɪʃənəl bæŋk ˈɪʃud tə ðoʊz frəm ˈɛrˌlaɪnz ɡæs ˈsteɪʃənz ənd ˈivɪn aɪs krim ʃɑps",
       "words": [
@@ -128,7 +128,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گرچه کارت‌های اعتباری برای خریدِ امن، از پسِ شرایطِ اضطراری برآمدن و ساختنِ امتیازِ اعتباری مفیدند،",
+      "fa": "گرچه کارت‌های اعتباری برای خریدِ امن، از پسِ موقعیت‌های اضطراری برآمدن و ساختنِ امتیازِ اعتباری (سابقهٔ خوش‌حسابی) مفیدند،",
       "en": "While useful for secure purchasing, handling emergencies, and building credit scores,",
       "ipa": "waɪl ˈjusfəl fɚ sɪˈkjʊr ˈpɝtʃəsɪŋ ˈhændlɪŋ ɪˈmɝdʒənsiz ənd ˈbɪldɪŋ ˈkrɛdət skɔrz",
       "words": [
@@ -168,7 +168,7 @@ DRILL({
           "w": "credit score",
           "ipa": "ˈkrɛdət skɔr",
           "m": "a number that shows how likely you are to pay back money you borrow",
-          "fa": "امتیاز اعتباری",
+          "fa": "امتیاز اعتباری (نمرهٔ خوش‌حسابی برای وام)",
           "more": "credit history · build credit"
         }
       ]
@@ -330,7 +330,7 @@ DRILL({
       ]
     },
     {
-      "fa": "وام‌دهنده‌ها اغلب مزایایی مثلِ برگشتِ نقدیِ پول، امتیازِ مایلِ سفر و تخفیف را با شدت و تهاجمی تبلیغ می‌کنند.",
+      "fa": "وام‌دهنده‌ها اغلب مزایایی مثلِ برگشتِ بخشی از پولِ خرید (کش‌بک)، امتیازِ مایلِ پرواز و تخفیف را به‌شکلی تهاجمی تبلیغ می‌کنند.",
       "en": "Lenders often aggressively advertise perks like cash back, travel miles, and discounts.",
       "ipa": "ˈlɛndɚz ˈɔfən əˈɡrɛsɪvli ˈædvɚˌtaɪz pɝks laɪk kæʃ bæk ˈtrævəl maɪlz ənd ˈdɪˌskaʊnts",
       "words": [
@@ -366,13 +366,13 @@ DRILL({
           "w": "cash back",
           "ipa": "kæʃ bæk",
           "m": "money returned to you as a reward when you buy something",
-          "fa": "برگشتِ نقدی"
+          "fa": "کش‌بک، برگشتِ بخشی از پولِ خرید"
         },
         {
           "w": "travel miles",
           "ipa": "ˈtrævəl maɪlz",
           "m": "points you collect when you spend, which you can use for flights",
-          "fa": "امتیازِ مایلِ سفر",
+          "fa": "امتیازِ مایلِ پرواز (برای سفرِ رایگان)",
           "more": "air miles · frequent flyer miles"
         },
         {
@@ -461,7 +461,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما طبق یک نظرسنجی، ۴۶ درصد از دارندگانِ کارت در آمریکا ماندهٔ بدهیِ چرخشی را با خود می‌کشند.",
+      "fa": "اما طبق یک نظرسنجی، ۴۶ درصد از دارندگانِ کارت در آمریکا بدهی‌شان را ماه‌به‌ماه جلو می‌برند (ماندهٔ چرخشی دارند).",
       "en": "But according to one survey, 46% of American cardholders carry a revolving balance.",
       "ipa": "bət əˈkɔrdɪŋ tə wʌn ˈsɝˌveɪ ˈfɔrti sɪks pɚˈsɛnt əv əˈmɛrəkən ˈkɑrdˌhoʊldɚz ˈkæri ə riˈvɑlvɪŋ ˈbæləns",
       "words": [
@@ -481,13 +481,13 @@ DRILL({
           "w": "to carry a balance",
           "ipa": "tə ˈkæri ə ˈbæləns",
           "m": "to not pay the full amount owed, so the debt moves to the next month",
-          "fa": "بدهی را به ماه بعد کشاندن"
+          "fa": "بدهی را (پرداخت‌نشده) به ماه بعد بردن"
         },
         {
           "w": "revolving",
           "ipa": "riˈvɑlvɪŋ",
           "m": "(of credit) that keeps being used and paid back, so the debt continues",
-          "fa": "چرخشی (اعتبار)",
+          "fa": "چرخشی، ماه‌به‌ماه تمدیدشونده",
           "more": "revolving credit"
         }
       ]
@@ -513,7 +513,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اگر فکر می‌کنید شاید در این دسته جا بگیرید،",
+      "fa": "اگر فکر می‌کنید شاید جزوِ این دسته باشید،",
       "en": "If you think you may fall into this category,",
       "ipa": "ɪf ju θɪŋk ju meɪ fɔl ɪnˈtu ðɪs ˈkætəˌɡɔri",
       "newPara": true,
@@ -522,7 +522,7 @@ DRILL({
           "w": "to fall into a category",
           "ipa": "tə fɔl ɪnˈtu ə ˈkætəˌɡɔri",
           "m": "to belong to a particular group or type",
-          "fa": "در دسته‌ای جا گرفتن",
+          "fa": "جزوِ دسته‌ای بودن",
           "more": "category"
         }
       ]
@@ -610,7 +610,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که به محضِ اینکه هر مقدار مانده‌ای را از سررسیدِ صورت‌حساب جلوتر ببرید، به کار می‌افتند.",
+      "fa": "که به محضِ اینکه هر مقدار بدهی‌ای را بعد از سررسیدِ صورت‌حساب پرداخت‌نشده نگه دارید، شروع می‌شوند.",
       "en": "which kick in as soon as you carry any balance past a statement due date.",
       "ipa": "wɪtʃ kɪk ɪn əz sun əz ju ˈkæri ˈɛni ˈbæləns pæst ə ˈsteɪtmənt du deɪt",
       "words": [
@@ -643,7 +643,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گرچه APRها به‌صورت نرخِ سالانه فهرست می‌شوند، در بیشترِ کارت‌ها بهره هر روز انباشته می‌شود.",
+      "fa": "گرچه APRها به‌صورت نرخِ سالانه اعلام می‌شوند، در بیشترِ کارت‌ها بهره هر روز تعلق می‌گیرد و جمع می‌شود.",
       "en": "While APRs are listed as yearly rates, for most cards, interest accrues daily.",
       "ipa": "waɪl ˌeɪˌpiˈɑrz ɚ ˈlɪstəd əz ˈjɪrli reɪts fɚ moʊst kɑrdz ˈɪntrəst əˈkruz ˈdeɪli",
       "words": [
@@ -651,7 +651,7 @@ DRILL({
           "w": "to list",
           "ipa": "tə lɪst",
           "m": "to show or write something as part of a list",
-          "fa": "فهرست کردن، درج کردن"
+          "fa": "اعلام کردن، درج کردن"
         },
         {
           "w": "yearly",
@@ -663,7 +663,7 @@ DRILL({
           "w": "to accrue",
           "ipa": "tə əˈkru",
           "m": "(of money) to increase gradually over a period of time",
-          "fa": "انباشته شدن، تعلق گرفتن (بهره)"
+          "fa": "(بهره) تعلق گرفتن و جمع شدن"
         }
       ]
     },
@@ -792,7 +792,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تسویهٔ کارتی که APR بالاتری دارد ۳۲۵ دلار بیشتر و هفت ماهِ اضافه طول می‌کشد.",
+      "fa": "تسویهٔ کارتی که APR بالاتری دارد ۳۲۵ دلار بیشتر خرج برمی‌دارد و هفت ماه بیشتر طول می‌کشد.",
       "en": "the card with the higher APR would take an extra $325 and an extra seven months to pay off.",
       "ipa": "ðə kɑrd wɪð ðə ˈhaɪɚ ˌeɪˌpiˈɑr wʊd teɪk ən ˈɛkstrə θri ˈhʌndrəd ˈtwɛnti faɪv ˈdɑlɚz ənd ən ˈɛkstrə ˈsɛvən mʌnθs tə peɪ ɔf",
       "words": [
@@ -805,7 +805,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و هزینه‌های بهره ممکن است حتی پیچیده‌تر هم باشد.",
+      "fa": "و هزینه‌های بهره ممکن است حتی پیچیده‌تر هم باشند.",
       "en": "And interest fees can be even more complicated.",
       "ipa": "ənd ˈɪntrəst fiz kən bi ˈivɪn mɔr ˈkɑmpləˌkeɪtəd",
       "newPara": true,
@@ -820,7 +820,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اگر مانده‌ای را با خود بکشید و همچنان فعالانه از کارت استفاده کنید،",
+      "fa": "اگر مانده‌ای را به ماه بعد ببرید و همچنان فعالانه از کارت استفاده کنید،",
       "en": "If you carry a balance and actively use a card,",
       "ipa": "ɪf ju ˈkæri ə ˈbæləns ənd ˈæktɪvli juz ə kɑrd",
       "words": [
@@ -833,7 +833,7 @@ DRILL({
       ]
     },
     {
-      "fa": "خریدهای تازه بلافاصله شروع به انباشتنِ بهره می‌کنند،",
+      "fa": "به خریدهای تازه بلافاصله بهره تعلق می‌گیرد،",
       "en": "new purchases start accruing interest immediately,",
       "ipa": "nu ˈpɝtʃəsəz stɑrt əˈkruɪŋ ˈɪntrəst ɪˈmidiətli",
       "words": [
@@ -851,7 +851,7 @@ DRILL({
       "ipa": "ˈivɪn ɪf ju peɪ ɔf ðoʊz ˈpɝtʃəsəz bɪˈfɔr ðə ˈsteɪtmənt deɪt"
     },
     {
-      "fa": "به عبارت دیگر، همین که شروع کنید مانده‌ای را با خود بکشید،",
+      "fa": "به عبارت دیگر، همین که شروع کنید مانده‌ای را به ماه بعد ببرید،",
       "en": "In other words, once you start to carry a balance,",
       "ipa": "ɪn ˈʌðɚ wɝdz wʌns ju stɑrt tə ˈkæri ə ˈbæləns",
       "words": [
@@ -902,7 +902,7 @@ DRILL({
       ]
     },
     {
-      "fa": "چیزی به نامِ «بهرهٔ پسماند»، بابتِ روزهای میانِ صورت‌حساب و تاریخِ پرداختتان.",
+      "fa": "چیزی به نامِ «بهرهٔ باقی‌مانده»، بابتِ روزهای میانِ صورت‌حساب و تاریخِ پرداختتان.",
       "en": "something called residual interest, for the days between your statement and payment date.",
       "ipa": "ˈsʌmθɪŋ kɔld rɪˈzɪdʒuəl ˈɪntrəst fɚ ðə deɪz bɪˈtwin jɔr ˈsteɪtmənt ənd ˈpeɪmənt deɪt",
       "words": [
@@ -910,7 +910,7 @@ DRILL({
           "w": "residual",
           "ipa": "rɪˈzɪdʒuəl",
           "m": "remaining after the main part has gone",
-          "fa": "باقی‌مانده، پسماند",
+          "fa": "باقی‌مانده",
           "more": "residue"
         }
       ]
@@ -937,7 +937,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با این حال، نسبت به کارت‌هایی که برای یک دورهٔ آغازین APR فوق‌العاده پایینی پیشنهاد می‌دهند، گوش‌به‌زنگ باشید.",
+      "fa": "با این حال، مراقبِ کارت‌هایی باشید که برای یک دورهٔ معرفیِ اولیه، APR فوق‌العاده پایینی پیشنهاد می‌کنند.",
       "en": "however, be wary of cards that offer exceptionally low APR for an introductory period.",
       "ipa": "ˌhaʊˈɛvɚ bi ˈwɛri əv kɑrdz ðæt ˈɔfɚ ɪkˈsɛpʃənəli loʊ ˌeɪˌpiˈɑr fɚ ən ˌɪntrəˈdʌktəri ˈpɪriəd",
       "words": [
@@ -951,7 +951,7 @@ DRILL({
           "w": "to be wary of",
           "ipa": "tə bi ˈwɛri ʌv",
           "m": "to be careful about something because it might cause problems",
-          "fa": "نسبت به چیزی محتاط بودن، حذر کردن از",
+          "fa": "مراقبِ (چیزی) بودن، به (چیزی) بدگمان بودن",
           "more": "cautious · beware of"
         },
         {
@@ -965,7 +965,7 @@ DRILL({
           "w": "introductory",
           "ipa": "ˌɪntrəˈdʌktəri",
           "m": "(of an offer) given only for a short time at the start",
-          "fa": "آغازین، معرفیِ اولیه",
+          "fa": "(دورهٔ) معرفیِ اولیه، آغازین",
           "more": "introductory offer"
         }
       ]
@@ -1051,7 +1051,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این شرایط اغلب لابه‌لای ریزنویس‌های قرارداد دفن شده‌اند.",
+      "fa": "این شرایط اغلب لابه‌لای ریزنویس‌های قرارداد گم شده‌اند.",
       "en": "they're often buried in the fine print.",
       "ipa": "ðɛr ˈɔfən ˈbɛrid ɪn ðə faɪn prɪnt",
       "words": [

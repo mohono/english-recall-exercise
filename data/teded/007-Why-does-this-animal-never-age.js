@@ -32,7 +32,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مقداری آبِ برکه را با چیزی گود برداشته بود تا آن‌ها بررسی‌اش کنند،",
+      "fa": "مقداری آب از برکه با ظرفی برداشته بود تا پسرها رویش مطالعه کنند،",
       "en": "he had scooped up some pond water for them to study",
       "ipa": "hi hæd skupt ʌp sʌm pɑnd ˈwɔtɚ fɚ ðɛm tə ˈstʌdi",
       "words": [
@@ -40,7 +40,7 @@ DRILL({
           "w": "to scoop up",
           "ipa": "tə skup ʌp",
           "m": "to lift something with a curved object or your hands",
-          "fa": "(با کفِ دست یا ظرف) برداشتن"
+          "fa": "(با ظرف یا کفِ دست) برداشتن"
         },
         {
           "w": "pond",
@@ -99,7 +99,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شیوهٔ حرکت کردن و خوردنِ چیزها در آن، جانوروار به نظر می‌رسید.",
+      "fa": "شیوهٔ حرکت‌کردن و چیز خوردنش شبیهِ جانوران به نظر می‌رسید.",
       "en": "Its way of moving and consuming things seemed animal-like.",
       "ipa": "ɪts weɪ əv ˈmuvɪŋ ənd kənˈsumɪŋ θɪŋz simd ˈænəməl laɪk",
       "words": [
@@ -114,13 +114,13 @@ DRILL({
           "w": "-like",
           "ipa": "laɪk",
           "m": "(after a noun) similar to; typical of",
-          "fa": "…وار، شبیهِ …",
+          "fa": "شبیهِ …",
           "more": "childlike · lifelike"
         }
       ]
     },
     {
-      "fa": "اما وقتی بخش‌هایی از آن را می‌برید، یا حتی دو نیمش می‌کرد، دوباره خودش را بازمی‌ساخت،",
+      "fa": "اما وقتی تکه‌هایی از آن را می‌برید، یا حتی دو نیمش می‌کرد، دوباره خودش را از نو می‌ساخت،",
       "en": "But when he cut parts off, or even split it in two, it regenerated,",
       "ipa": "bət wɛn hi kʌt pɑrts ɔf ɔr ˈivɪn splɪt ɪt ɪn tu ɪt riˈdʒɛnəˌreɪtɪd",
       "words": [
@@ -140,13 +140,13 @@ DRILL({
           "w": "to regenerate",
           "ipa": "tə riˈdʒɛnəˌreɪt",
           "m": "(of a body or part of a body) to grow again after damage",
-          "fa": "بازسازی شدن، دوباره روییدن",
+          "fa": "(بخشِ ازدست‌رفته را) از نو ساختن، دوباره روییدن",
           "more": "regeneration · regenerative"
         }
       ]
     },
     {
-      "fa": "که قطعاً گیاه‌وار بود و با رنگِ سبزش هم همخوانی داشت.",
+      "fa": "که بی‌تردید شبیهِ گیاهان بود و با رنگِ سبزش هم جور درمی‌آمد.",
       "en": "which was decidedly plant-like, in keeping with its green hue.",
       "ipa": "wɪtʃ wəz dɪˈsaɪdədli ˈplæntˌlaɪk ɪn ˈkipɪŋ wɪð ɪts ɡrin hju",
       "words": [
@@ -160,7 +160,7 @@ DRILL({
           "w": "in keeping with",
           "ipa": "ɪn ˈkipɪŋ wɪð",
           "m": "suitable for or matching something",
-          "fa": "همخوان با، هماهنگ با"
+          "fa": "جور با، هماهنگ با"
         },
         {
           "w": "hue",
@@ -270,7 +270,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آن‌ها سرده‌ای از جانورانِ ریزِ آبزی را در شاخهٔ گسترده‌ترِ مرجانیان تشکیل می‌دهند.",
+      "fa": "آن‌ها یک جنس (گروهی از گونه‌های نزدیک به هم) از جانورانِ ریزِ آبزی‌اند، در شاخهٔ بزرگ‌ترِ کیسه‌تنان (<en>Cnidaria</en>).",
       "en": "They comprise a genus of tiny aquatic animals in the broader phylum Cnidaria.",
       "ipa": "ðeɪ kəmˈpraɪz ə ˈdʒinəs əv ˈtaɪni əˈkwɑtɪk ˈænəməlz ɪn ðə ˈbrɔdɚ ˈfaɪləm niˈdɑriə",
       "words": [
@@ -290,13 +290,13 @@ DRILL({
           "w": "broad",
           "ipa": "brɔd",
           "m": "wide; including many things",
-          "fa": "گسترده، وسیع",
+          "fa": "گسترده، بزرگ‌تر و کلی‌تر",
           "more": "broader · broadly"
         }
       ]
     },
     {
-      "fa": "برخی مرجانیان، مثل عروس‌های دریایی، یک مرحلهٔ پولیپیِ ثابت و بی‌حرکت دارند،",
+      "fa": "برخی کیسه‌تنان، مثل عروس‌های دریایی، یک مرحلهٔ «پولیپ» دارند که در آن ثابت و بی‌حرکت‌اند،",
       "en": "Some cnidarians, like jellyfish, have a stationary polyp phase,",
       "ipa": "sʌm naɪˈdɛriənz laɪk ˈdʒɛliˌfɪʃ hæv ə ˈsteɪʃəˌnɛri ˈpɑləp feɪz",
       "words": [
@@ -321,7 +321,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و بعد یک مرحلهٔ مدوسا که آزادانه شنا می‌کند.",
+      "fa": "و بعد یک مرحلهٔ «مدوسا» که در آن آزادانه شنا می‌کنند.",
       "en": "then a free-swimming Medusa stage.",
       "ipa": "ðɛn ə fri ˈswɪmɪŋ məˈdusə steɪdʒ",
       "words": [
@@ -347,7 +347,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هیدراها طرحِ بدنیِ استوانه‌ایِ نسبتاً ساده‌ای دارند:",
+      "fa": "هیدراها ساختارِ بدنیِ استوانه‌ایِ نسبتاً ساده‌ای دارند:",
       "en": "Hydras have relatively simple cylindrical body plans,",
       "ipa": "ˈhaɪdrəz hæv ˈrɛlətɪvli ˈsɪmpəl səˈlɪndrɪkəl ˈbɑdi plænz",
       "newPara": true,
@@ -369,12 +369,12 @@ DRILL({
           "w": "body plan",
           "ipa": "ˈbɑdi plæn",
           "m": "the basic structure and shape of an animal's body",
-          "fa": "طرحِ بدنی"
+          "fa": "طرحِ کلیِ بدن"
         }
       ]
     },
     {
-      "fa": "یک سرشان پا را می‌سازد و سرِ دیگر دهان را، که شاخک‌هایی بادبزنی‌شکل دورش قاب گرفته‌اند.",
+      "fa": "یک سرشان پا را می‌سازد و سرِ دیگر دهان را، که شاخک‌هایی بادبزنی دورش را قاب گرفته‌اند.",
       "en": "one end forming the foot, the other the mouth, framed by fanning tentacles.",
       "ipa": "wʌn ɛnd ˈfɔrmɪŋ ðə fʊt ði ˈʌðɚ ðə maʊð freɪmd baɪ ˈfænɪŋ ˈtɛntəkəlz",
       "words": [
@@ -497,7 +497,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و رُست‌های تازه‌ای را از بدنشان جوانه می‌زنند.",
+      "fa": "به این شکل که از بدنشان برآمدگی‌های تازه‌ای جوانه می‌زنند.",
       "en": "budding new growths off their bodies.",
       "ipa": "ˈbʌdɪŋ nu ɡroʊθs ɔf ðɛr ˈbɑdiz",
       "words": [
@@ -505,18 +505,18 @@ DRILL({
           "w": "to bud",
           "ipa": "tə bʌd",
           "m": "to produce a new part or young that grows out from the body",
-          "fa": "جوانه زدن"
+          "fa": "جوانه زدن (و از آن رشد دادن)"
         },
         {
           "w": "growth",
           "ipa": "ɡroʊθ",
           "m": "something that has grown on or out of a body",
-          "fa": "رُست، برآمدگی"
+          "fa": "برآمدگی، زائدهٔ تازه‌رسته"
         }
       ]
     },
     {
-      "fa": "اینکه دقیقاً کجای برکه‌های آب شیرین و نهرهای کندرویی که در آن‌ها زندگی می‌کنند جا خوش می‌کنند،",
+      "fa": "اینکه دقیقاً کجای برکه‌های آب شیرین و جویبارهای آرامی که در آن‌ها زندگی می‌کنند جا خوش می‌کنند،",
       "en": "Where exactly they hunker down in the freshwater ponds and slow-moving streams they populate",
       "ipa": "wɛr ɪɡˈzæktli ðeɪ ˈhʌŋkɚ daʊn ɪn ðə ˈfrɛʃˌwɔtɚ pɑndz ənd sloʊ ˈmuvɪŋ strimz ðeɪ ˈpɑpjəˌleɪt",
       "newPara": true,
@@ -549,7 +549,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بسته به گونه فرق می‌کند؛ گونه‌هایی که به همین ترتیب در شکل، اندازه و رنگ هم با هم تفاوت دارند.",
+      "fa": "بسته به گونه فرق می‌کند؛ گونه‌هایی که به همین ترتیب از نظرِ شکل، اندازه و رنگ هم با هم فرق دارند.",
       "en": "varies by species, which likewise differ in shape, size, and hue.",
       "ipa": "ˈvɛriz baɪ ˈspiʃiz wɪtʃ ˈlaɪkˌwaɪz ˈdɪfɚ ɪn ʃeɪp saɪz ənd hju",
       "words": [
@@ -601,7 +601,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا جلبک‌های فتوسنتزکننده‌ای را که میزبانشان هستند تغذیه کنند،",
+      "fa": "تا جلبک‌های فتوسنتزکننده‌ای را که در بدنشان میزبانی می‌کنند تغذیه کنند،",
       "en": "to feed the photosynthetic algae they host,",
       "ipa": "tə fid ðə ˌfoʊəsənˈtɪktɪnɪk ˈældʒi ðeɪ hoʊst",
       "words": [
@@ -628,7 +628,7 @@ DRILL({
       ]
     },
     {
-      "fa": "جلبک‌هایی که رنگشان را به آن‌ها می‌بخشند و در ازای مواد مغذیِ دیگر، قند فراهم می‌کنند.",
+      "fa": "جلبک‌هایی که رنگشان را به آن‌ها می‌دهند و در ازای مواد مغذیِ دیگر، برایشان قند فراهم می‌کنند.",
       "en": "which lend them their color and provide sugars in return for other nutrients.",
       "ipa": "wɪtʃ lɛnd ðɛm ðɛr ˈkʌlɚ ənd prəˈvaɪd ˈʃʊɡɚz ɪn rɪˈtɝn fɚ ˈʌðɚ ˈnutriənts",
       "words": [
@@ -636,7 +636,7 @@ DRILL({
           "w": "to lend",
           "ipa": "tə lɛnd",
           "m": "to give a particular quality to something",
-          "fa": "بخشیدن (ویژگی یا رنگ)"
+          "fa": "(ویژگی یا رنگی را) به چیزی دادن"
         },
         {
           "w": "to provide",
@@ -675,7 +675,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در مقابل، گونه‌های دیگر، مثل هیدراهای قهوه‌ای، از سایه بیرون نمی‌آیند و فعالانه‌تر شکار می‌کنند.",
+      "fa": "از آن طرف، گونه‌های دیگر، مثل هیدراهای قهوه‌ای، در سایه می‌مانند و فعالانه‌تر شکار می‌کنند.",
       "en": "Meanwhile, other species, like brown hydras, stick to the shade and hunt more actively.",
       "ipa": "ˈminˌwaɪl ˈʌðɚ ˈspiʃiz laɪk braʊn ˈhaɪdrəz stɪk tə ðə ʃeɪd ənd hʌnt mɔr ˈæktɪvli",
       "words": [
@@ -689,7 +689,7 @@ DRILL({
           "w": "to stick to",
           "ipa": "tə stɪk tu",
           "m": "to stay in a place or keep to something",
-          "fa": "در جایی ماندن، از … جدا نشدن"
+          "fa": "(در جایی) ماندن، از (جایی) دور نشدن"
         },
         {
           "w": "shade",
@@ -727,7 +727,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که کپسول‌های کوچکی از ساختارهای زوبین‌مانندِ تحت‌فشار دارند.",
+      "fa": "و این یاخته‌ها کپسول‌های کوچکی دارند، پر از ساختارهای تحت‌فشارِ شبیهِ زوبین (نیزهٔ صید).",
       "en": "containing little capsules of pressurized, harpoon-like structures.",
       "ipa": "kənˈteɪnɪŋ ˈlɪtəl ˈkæpsəlz əv ˈprɛʃəˌraɪzd hɑrˈpun laɪk ˈstrʌktʃɚz",
       "words": [
@@ -747,7 +747,7 @@ DRILL({
           "w": "harpoon",
           "ipa": "hɑrˈpun",
           "m": "a long spear used for hunting large sea animals",
-          "fa": "زوبین، نیزهٔ صید"
+          "fa": "زوبین، نیزهٔ صیدِ نهنگ"
         },
         {
           "w": "structure",
@@ -873,7 +873,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بلکه پس از گذراندنِ چیزی شبیهِ فرایندِ مخلوط‌کن، می‌توانند خودشان را دوباره سرهم کنند،",
+      "fa": "بلکه بعد از اینکه یک‌جورهایی از مخلوط‌کن رد شدند، می‌توانند دوباره خودشان را سرهم کنند،",
       "en": "they can also reassemble themselves after going through a blending process of sorts,",
       "ipa": "ðeɪ kən ˈɔlsoʊ ˌriəˈsɛmbəl ðɛmˈsɛlvz ˈæftɚ ˈɡoʊɪŋ θru ə ˈblɛndɪŋ ˈprɑˌsɛs əv sɔrts",
       "words": [
@@ -905,7 +905,7 @@ DRILL({
       ]
     },
     {
-      "fa": "فرایندی که در آن کاملاً به یاخته‌های تک‌تک تجزیه می‌شوند.",
+      "fa": "یعنی وقتی کاملاً به سلول‌های تک‌تک تجزیه شده‌اند.",
       "en": "where they're completely broken down into individual cells.",
       "ipa": "wɛr ðɛr kəmˈplitli ˈbroʊkən daʊn ɪnˈtu ˌɪndəˈvɪdʒəwəl sɛlz",
       "words": [
@@ -946,7 +946,7 @@ DRILL({
       ]
     },
     {
-      "fa": "سپس شروع می‌کنند به دسته‌بندی کردنِ خودشان،",
+      "fa": "بعد شروع می‌کنند خودشان را مرتب و دسته‌بندی کنند،",
       "en": "then they begin to sort themselves,",
       "ipa": "ðɛn ðeɪ bɪˈɡɪn tə sɔrt ðɛmˈsɛlvz",
       "words": [
@@ -959,7 +959,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و همچنان که در قالبِ لایه‌های بیرونی و درونی گروه می‌شوند، کم‌کم توخالی و کشیده می‌شوند.",
+      "fa": "و همان‌طور که به‌صورتِ لایه‌های بیرونی و درونی گروه‌بندی می‌شوند، کم‌کم وسطشان خالی می‌شود و کشیده می‌شوند.",
       "en": "gradually hollowing out and elongating as they group into external and internal layers.",
       "ipa": "ˈɡrædʒuəli ˈhɑloʊɪŋ aʊt ənd ˈɛləɡˌneɪtɪŋ əz ðeɪ ɡrup ɪnˈtu ɪkˈstɝnəl ənd ɪnˈtɝnəl ˈleɪɚz",
       "words": [
@@ -973,7 +973,7 @@ DRILL({
           "w": "to hollow out",
           "ipa": "tə ˈhɑloʊ aʊt",
           "m": "to become empty inside",
-          "fa": "توخالی شدن"
+          "fa": "توخالی شدن، وسطِ (چیزی) خالی شدن"
         },
         {
           "w": "to elongate",
@@ -1113,7 +1113,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هرچند توانایی انجامِ آن هر وقت که دلشان بخواهد، آن‌طور که هیدراها انجام می‌دهند، قطعاً مشترک نیست.",
+      "fa": "هرچند این توانایی که بشود هر وقت و هر جور دلخواه این کار را کرد، آن‌طور که هیدراها می‌کنند، قطعاً میانِ همه مشترک نیست.",
       "en": "though the ability to perform it willy-nilly, as hydras do, is decidedly not.",
       "ipa": "ðoʊ ði əˈbɪləti tə pɚˈfɔrm ɪt ˈwɪli ˈnɪli əz ˈhaɪdrəz du ɪz dɪˈsaɪdədli nɑt",
       "words": [
@@ -1121,12 +1121,12 @@ DRILL({
           "w": "willy-nilly",
           "ipa": "ˈwɪli ˈnɪli",
           "m": "(informal) in a careless way, whenever or however you like",
-          "fa": "بی‌حساب‌وکتاب، هر وقت که دلشان بخواهد"
+          "fa": "هر وقت و هر جور که شد، بی‌حساب‌وکتاب"
         }
       ]
     },
     {
-      "fa": "جالب اینکه، اگر چند هیدرا این فرایندِ تکه‌تکه شدن را از سر بگذرانند،",
+      "fa": "جالب اینکه، اگر چند هیدرا این فرایندِ خرد شدن را از سر بگذرانند،",
       "en": "Interestingly, if multiple hydras go through this shearing process,",
       "ipa": "ˈɪntəˌrɛstɪŋli ɪf ˈmʌltəpəl ˈhaɪdrəz ɡoʊ θru ðɪs ˈʃɪrɪŋ ˈprɑˌsɛs",
       "words": [
@@ -1140,7 +1140,7 @@ DRILL({
           "w": "shearing",
           "ipa": "ˈʃɪrɪŋ",
           "m": "cutting or breaking something apart",
-          "fa": "بریدن، تکه‌تکه کردن",
+          "fa": "بریدن، خرد کردن",
           "more": "shear"
         }
       ]
@@ -1159,7 +1159,7 @@ DRILL({
       ]
     },
     {
-      "fa": "احتمالاً دلیلش این است که دستگاهِ ایمنی‌شان میانِ خودی و دیگری تمایز قائل نمی‌شود.",
+      "fa": "احتمالاً دلیلش این است که دستگاهِ ایمنی‌شان میانِ خودی و غیرخودی فرق نمی‌گذارد.",
       "en": "This is probably because their immune systems don’t distinguish between self and others.",
       "ipa": "ðɪs ɪz ˈprɑbəbli bɪˈkɔz ðɛr ɪˈmjun ˈsɪstəmz doʊnt dɪˈstɪŋɡwɪʃ bɪˈtwin sɛlf ənd ˈʌðɚz",
       "words": [
@@ -1173,13 +1173,13 @@ DRILL({
           "w": "to distinguish between",
           "ipa": "tə dɪˈstɪŋɡwɪʃ bɪˈtwin",
           "m": "to recognize the difference between two things",
-          "fa": "میانِ … تمایز قائل شدن",
+          "fa": "میانِ … فرق گذاشتن، تشخیص دادن",
           "more": "distinction"
         }
       ]
     },
     {
-      "fa": "و این حتی دربارهٔ آمیزه‌های میان‌گونه‌ای هم صادق است.",
+      "fa": "و این حتی دربارهٔ مخلوط‌هایی از گونه‌های مختلف هم صادق است.",
       "en": "And this even holds true for interspecies mixtures.",
       "ipa": "ənd ðɪs ˈivɪn hoʊldz tru fɚ ˈɪntsprəsiz ˈmɪkstʃɚz",
       "words": [
@@ -1193,7 +1193,7 @@ DRILL({
           "w": "interspecies",
           "ipa": "ˈɪntsprəsiz",
           "m": "between different species",
-          "fa": "میان‌گونه‌ای"
+          "fa": "میانِ گونه‌های مختلف"
         },
         {
           "w": "mixture",
@@ -1256,7 +1256,7 @@ DRILL({
       ]
     },
     {
-      "fa": "همهٔ جانوران سلول‌های بنیادی دارند که می‌توانند تقسیم شوند و به انواعِ یاخته‌های تخصص‌یافته تمایز یابند.",
+      "fa": "همهٔ جانوران سلول‌های بنیادی دارند که می‌توانند تقسیم شوند و به انواعِ سلول‌های تخصصی تبدیل شوند (تمایز پیدا کنند).",
       "en": "All animals have stem cells, which can divide and differentiate into specialized cell types.",
       "ipa": "ɔl ˈænəməlz hæv stɛm sɛlz wɪtʃ kən dɪˈvaɪd ənd ˌdɪfəˈrɛnʃiˌeɪt ɪnˈtu ˈspɛʃəˌlaɪzd sɛl taɪps",
       "newPara": true,
@@ -1278,7 +1278,7 @@ DRILL({
           "w": "to differentiate into",
           "ipa": "tə ˌdɪfəˈrɛnʃiˌeɪt ɪnˈtu",
           "m": "(of a cell) to develop into a particular type",
-          "fa": "تمایز یافتن به"
+          "fa": "(سلول) به … تبدیل شدن، تمایز پیدا کردن"
         },
         {
           "w": "specialized",
@@ -1456,7 +1456,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما تا وقتی چیزی آن‌ها را نکشد، از نظرِ نظری می‌توانند تا ابد زنده بمانند، بی‌آنکه پیر شوند.",
+      "fa": "اما تا وقتی چیزی آن‌ها را نکشد، در تئوری می‌توانند تا ابد زنده بمانند، بی‌آنکه پیر شوند.",
       "en": "But so long as nothing kills them, they can theoretically live forever, without aging.",
       "ipa": "bət soʊ lɔŋ əz ˈnʌθɪŋ kɪlz ðɛm ðeɪ kən ˌθiəˈrɛtɪkəli laɪv fəˈrɛvɚ wɪˈθaʊt ˈeɪdʒɪŋ",
       "words": [
@@ -1471,7 +1471,7 @@ DRILL({
           "w": "theoretically",
           "ipa": "ˌθiəˈrɛtɪkəli",
           "m": "according to theory, though perhaps not in real life",
-          "fa": "از نظرِ نظری، در تئوری"
+          "fa": "در تئوری، از نظر نظری"
         },
         {
           "w": "to age",
@@ -1509,7 +1509,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و دربارهٔ رشد، بازسازی، میرایی، و زندگیِ ریز و شاخک‌دارِ آب شیرین به ما درس داده‌اند.",
+      "fa": "و دربارهٔ رشد، بازسازی، میرایی، و موجوداتِ ریز و شاخک‌دارِ آب شیرین به ما درس داده‌اند.",
       "en": "teaching us about development, regeneration, mortality, and tiny, tentacled freshwater life.",
       "ipa": "ˈtitʃɪŋ ʌs əˈbaʊt dɪˈvɛləpmənt riˌdʒɛnəˈreɪʃən mɔrˈtæləti ənd ˈtaɪni ˈtɛntəkəld ˈfrɛʃˌwɔtɚ laɪf",
       "words": [

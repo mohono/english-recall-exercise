@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=8EtdC9Bjubk",
   "items": [
     {
-      "fa": "در حال بازدید از کارخانهٔ آب‌نبات‌سازیِ اسرارآمیزِ بیلی بانکای عجیب‌وغریب هستید،",
+      "fa": "دارید از کارخانهٔ مرموزِ آب‌نبات‌سازیِ بیلی بانکای عجیب‌وغریب بازدید می‌کنید،",
       "en": "You’re on a tour of the eccentric Billy Bonka’s mysterious candy factory,",
       "ipa": "jʊr ɑn ə tʊr əv ði ɪkˈsɛntrɪk ˈbɪli ˈbɑŋkəz mɪˈstɪriəs ˈkændi ˈfæktəri",
       "newPara": true,
@@ -40,7 +40,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که در جست‌وجوی سرویس بهداشتی، یک پیچ را اشتباه می‌روید و همین پیچِ اشتباه",
+      "fa": "که یک پیچِ اشتباه، وقتی دنبال دستشویی می‌گردید،",
       "en": "when a wrong turn searching for the restroom",
       "ipa": "wɛn ə rɔŋ tɝn ˈsɝtʃɪŋ fɚ ðə ˈrɛˌstrum",
       "words": [
@@ -48,7 +48,7 @@ DRILL({
           "w": "a wrong turn",
           "ipa": "ə rɔŋ tɝn",
           "m": "a mistake in choosing which way to go",
-          "fa": "پیچِ اشتباه، راهِ اشتباه",
+          "fa": "پیچِ اشتباه (راه را اشتباه رفتن)",
           "more": "take a wrong turn"
         },
         {
@@ -61,7 +61,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شما را به آزمایشگاهِ «فوق‌سری»ِ آب‌نبات می‌کشاند.",
+      "fa": "کارتان را به آزمایشگاهِ «فوق‌سریِ» آب‌نبات می‌کشاند.",
       "en": "lands you in the TOP SECRET candy laboratory.",
       "ipa": "lændz ju ɪn ðə ˌtiˌoʊˈpi ˌɛsˌiˌsiˌɑrˌiˈti ˈkændi ˈlæbrəˌtɔri",
       "words": [
@@ -69,7 +69,7 @@ DRILL({
           "w": "to land somebody in",
           "ipa": "tə lænd ˈsʌmˌbɑdi ɪn",
           "m": "to bring someone into a difficult or unexpected place or situation",
-          "fa": "کسی را به … کشاندن، کار کسی را به … رساندن",
+          "fa": "کارِ کسی را به (جایی یا وضعی) کشاندن",
           "more": "land in trouble"
         },
         {
@@ -109,7 +109,7 @@ DRILL({
       ]
     },
     {
-      "fa": "توضیح می‌دهد که عواقبِ کار ساده است: باید بازی‌اش را انجام دهید.",
+      "fa": "توضیح می‌دهد که عواقبش ساده است: باید بازی‌اش را بکنید.",
       "en": "Bonka explains that the consequences are simple: you must play his game.",
       "ipa": "ˈbɑŋkə ɪkˈspleɪnz ðæt ðə ˈkɑnsəkˌwɛnsəz ɚ ˈsɪmpəl ju mʌst pleɪ hɪz ɡeɪm",
       "words": [
@@ -117,13 +117,13 @@ DRILL({
           "w": "consequence",
           "ipa": "ˈkɑnsəkwəns",
           "m": "a result of something you have done, often a bad one",
-          "fa": "پیامد، عاقبت",
+          "fa": "عاقبت، پیامد",
           "more": "face the consequences"
         }
       ]
     },
     {
-      "fa": "ببرید، آزادتان می‌کند.",
+      "fa": "اگر ببرید، آزادتان می‌کند.",
       "en": "You win, he’ll set you free.",
       "ipa": "ju wɪn hil sɛt ju fri",
       "words": [
@@ -137,7 +137,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ببازید، شما را توی دستگاهِ <en>Chew-O-Meter 3000</en>اش می‌اندازد،",
+      "fa": "اگر ببازید، شما را می‌اندازد توی دستگاهِ <en>Chew-O-Meter 3000</en>اش،",
       "en": "You lose, he’ll throw you into his Chew-O-Meter 3000,",
       "ipa": "ju luz hil θroʊ ju ɪnˈtu hɪz tʃu oʊ ˈmitɚ θri ˈθaʊzənd"
     },
@@ -218,7 +218,7 @@ DRILL({
       "ipa": "fɔr rɛd drɑps tu waɪt ənd wʌn blu"
     },
     {
-      "fa": "سپس موجوداتِ جادویی‌ای را که کارخانه‌اش را سرپا نگه می‌دارند — پروفا-بومپاها — فرا می‌خواند",
+      "fa": "بعد موجوداتِ جادویی‌ای را که کارخانه‌اش را سرپا نگه می‌دارند — پروفا-بومپاها — احضار می‌کند",
       "en": "He then summons the magical creatures who maintain his factory, the Proofa-Boompas,",
       "ipa": "hi ðɛn ˈsʌmənz ðə ˈmædʒɪkəl ˈkritʃɚz hu meɪnˈteɪn hɪz ˈfæktəri ðə ˈprufə ˈbumpəz",
       "words": [
@@ -251,7 +251,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا در یک صفِ تکی پشتِ سرِ هم بایستند.",
+      "fa": "تا پشتِ سرِ هم در یک صف بایستند.",
       "en": "to form a single-file line.",
       "ipa": "tə fɔrm ə ˈsɪŋɡəl faɪl laɪn",
       "words": [
@@ -272,7 +272,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شما را سرِ صف قرار می‌دهند و چهار پروفا-بومپا پشتِ سرتان.",
+      "fa": "شما را سرِ صف می‌گذارند و چهار پروفا-بومپا پشتِ سرتان می‌ایستند.",
       "en": "You’re placed at the front with four Proofa-Boompas behind you.",
       "ipa": "jʊr pleɪst ət ðə frʌnt wɪð fɔr ˈprufə ˈbumpəz bɪˈhaɪnd ju",
       "words": [
@@ -319,7 +319,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هر کس در صف، دگرگونیِ موی کسانی را که جلویش هستند می‌بیند،",
+      "fa": "هر کس در صف می‌تواند تغییرِ موی کسانی را که جلویش هستند ببیند،",
       "en": "Everyone in line can see the hair transformations of those in front of them,",
       "ipa": "ˈɛvriˌwʌn ɪn laɪn kən si ðə hɛr ˌtrænsfɚˈmeɪʃənz əv ðoʊz ɪn frʌnt əv ðɛm",
       "words": [
@@ -327,13 +327,13 @@ DRILL({
           "w": "transformation",
           "ipa": "ˌtrænsfɚˈmeɪʃən",
           "m": "a complete change in the appearance or nature of something",
-          "fa": "دگرگونی، تغییر شکل",
+          "fa": "تغییرِ (کامل)، دگرگونی",
           "more": "transform"
         }
       ]
     },
     {
-      "fa": "اما نه موی خودش را، و نه مالِ هیچ‌کسِ پشتِ سرش را.",
+      "fa": "اما نه موی خودش را، نه مالِ هیچ‌کدام از کسانی را که پشتِ سرش هستند.",
       "en": "but not their own hair or that of anyone behind them.",
       "ipa": "bət nɑt ðɛr oʊn hɛr ɔr ðæt əv ˈɛniˌwʌn bɪˈhaɪnd ðɛm",
       "words": [
@@ -367,7 +367,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پروفا-بومپاها، که به استدلالِ منطقی شهره‌اند،",
+      "fa": "پروفا-بومپاها، که به استدلالِ منطقی معروف‌اند،",
       "en": "The Proofa-Boompas, who are renowned for logical reasoning,",
       "ipa": "ðə ˈprufə ˈbumpəz hu ɚ rɪˈnaʊnd fɚ ˈlɑdʒɪkəl ˈrizənɪŋ",
       "newPara": true,
@@ -376,7 +376,7 @@ DRILL({
           "w": "renowned for",
           "ipa": "rɪˈnaʊnd fɔr",
           "m": "famous and admired for a particular quality",
-          "fa": "شهره به، مشهور به",
+          "fa": "معروف به، مشهور به",
           "more": "famous for · well known for"
         },
         {
@@ -396,7 +396,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از ته صف به سرِ صف، یکی‌یکی از آن‌ها نظر می‌گیرند و می‌پرسند: «آیا از نظر منطقی از رنگ مویت مطمئنی؟»",
+      "fa": "از ته صف به سمت جلو، یکی‌یکی از آن‌ها می‌پرسند: «آیا از نظر منطقی از رنگ مویت مطمئنی؟»",
       "en": "are polled from back to front, and asked, “Are you logically certain of your hair color?”",
       "ipa": "ɚ poʊld frəm bæk tə frʌnt ənd æskt ɚ ju ˈlɑdʒɪkli ˈsɝtən əv jɔr hɛr ˈkʌlɚ",
       "words": [
@@ -404,7 +404,7 @@ DRILL({
           "w": "to poll",
           "ipa": "tə poʊl",
           "m": "to ask a number of people the same question to find out their answers",
-          "fa": "نظر گرفتن، نظرسنجی کردن",
+          "fa": "(یکی‌یکی از چند نفر) نظر پرسیدن، نظرسنجی کردن",
           "more": "poll (n.) · opinion poll"
         },
         {
@@ -548,7 +548,7 @@ DRILL({
       "ipa": "ənd wʌt ðeɪv ˈlɝnɪd frəm ðə rɪˈspɑnsɪz bɪˈhaɪnd ðɛm"
     },
     {
-      "fa": "و همچنان که صف را به جلو پایین می‌رویم،",
+      "fa": "و همین‌طور که در صف جلو می‌رویم،",
       "en": "And as we go down the line,",
       "ipa": "ənd əz wi ɡoʊ daʊn ðə laɪn",
       "words": [
@@ -561,7 +561,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هر پاسخ کمکمان می‌کند مجموعهٔ چیدمان‌های ممکنِ رنگ مو را باز هم تنگ‌تر کنیم.",
+      "fa": "هر پاسخ کمکمان می‌کند دایرهٔ چیدمان‌های ممکنِ رنگ مو را باز هم تنگ‌تر کنیم.",
       "en": "each response will help us further narrow the pool of possible hair color arrangements.",
       "ipa": "itʃ rɪˈspɑns wɪl hɛlp ʌs ˈfɝðɚ ˈnɛroʊ ðə pul əv ˈpɑsəbəl hɛr ˈkʌlɚ əˈreɪndʒmənts",
       "words": [
@@ -582,7 +582,7 @@ DRILL({
           "w": "pool",
           "ipa": "pul",
           "m": "a group of things or people available to be chosen from",
-          "fa": "مجموعه، دامنه (انتخاب)",
+          "fa": "دایره (انتخاب‌ها)، مجموعه",
           "more": "talent pool · gene pool"
         },
         {
@@ -817,7 +817,7 @@ DRILL({
       ]
     },
     {
-      "fa": "باز هم، مفید است از نظرِ آنچه پروفا-بومپای ۲ می‌تواند جلوی خود ببیند فکر کنیم.",
+      "fa": "باز هم بهتر است بر حسبِ اینکه پروفا-بومپای ۲ چه چیزی می‌تواند جلوی خودش ببیند فکر کنیم.",
       "en": "Once again, it’s helpful to think in terms of what Proofa-Boompa 2 could see in front of them.",
       "ipa": "wʌns əˈɡɛn ɪts ˈhɛlpfəl tə θɪŋk ɪn tɝmz əv wʌt ˈprufə ˈbumpə tu kʊd si ɪn frʌnt əv ðɛm",
       "words": [
@@ -831,7 +831,7 @@ DRILL({
           "w": "in terms of",
           "ipa": "ɪn tɝmz ʌv",
           "m": "from the point of view of; when you consider",
-          "fa": "از نظرِ، بر حسبِ"
+          "fa": "بر حسبِ، از زاویهٔ"
         }
       ]
     },
@@ -960,7 +960,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اگر اینجا آبی بود، یا اینجا سفید، آن‌وقت پروفا-بومپای ۱ «بله» گفته بود.",
+      "fa": "اگر اینجا آبی بود، یا اینجا سفید، آن‌وقت پروفا-بومپای ۱ «بله» می‌گفت.",
       "en": "If it were blue here, or white here, then Proofa-Boompa 1 would have said yes.",
       "ipa": "ɪf ɪt wɚ blu hɪr ɔr waɪt hɪr ðɛn ˈprufə ˈbumpə wʌn wʊd hæv sɛd jɛs"
     },
@@ -1055,7 +1055,7 @@ DRILL({
       "ipa": "sɪns ðiz wʊd liv ˈprufə ˈbumpə θri ənˈsɝtən wi kən ɪˈlɪməˌneɪt ðɛm"
     },
     {
-      "fa": "و همچنان که به سراغِ یقینِ پروفا-بومپای ۴ می‌رویم، پنج احتمال برایمان باقی می‌ماند.",
+      "fa": "و وقتی سراغِ قطعیتِ پروفا-بومپای ۴ (یعنی «بله»ِ او) می‌رویم، پنج احتمال برایمان باقی می‌ماند.",
       "en": "leaving us with five possibilities as we move on to Proofa-Boompa 4’s certainty.",
       "ipa": "ˈlivɪŋ ʌs wɪð faɪv ˌpɑsəˈbɪlətiz əz wi muv ɑn tə ˈprufə ˈbumpə fɔrz ˈsɝtənti",
       "words": [
@@ -1063,7 +1063,7 @@ DRILL({
           "w": "certainty",
           "ipa": "ˈsɝtənti",
           "m": "the state of being completely sure",
-          "fa": "یقین، قطعیت"
+          "fa": "قطعیت، اطمینانِ کامل"
         }
       ]
     },
@@ -1125,7 +1125,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شما با اطمینان، رسماً و بلند اعلام می‌کنید که مویتان قرمز است.",
+      "fa": "شما با اطمینان و با صدای بلند اعلام می‌کنید که مویتان قرمز است.",
       "en": "You confidently proclaim that your hair is red.",
       "ipa": "ju ˈkɑnfədəntli proʊˈkleɪm ðæt jɔr hɛr ɪz rɛd",
       "words": [
@@ -1160,7 +1160,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پروفا-بومپاها هم همین‌طور؛ و آن‌ها که از کارهای مسخره و بی‌مزهٔ بانکا به ستوه آمده‌اند،",
+      "fa": "پروفا-بومپاها هم همین‌طور؛ آن‌ها که از مسخره‌بازی‌های بانکا به ستوه آمده‌اند،",
       "en": "The Proofa-Boompas are too, who, fed up with Bonka’s antics,",
       "ipa": "ðə ˈprufə ˈbumpəz ɚ tu hu fɛd ʌp wɪð ˈbɑŋkəz ˈæntɪks",
       "words": [
@@ -1175,12 +1175,12 @@ DRILL({
           "w": "antics",
           "ipa": "ˈæntɪks",
           "m": "silly, strange or annoying behaviour",
-          "fa": "کارهای مسخره، شیرین‌کاری‌ها"
+          "fa": "مسخره‌بازی، کارهای عجیب‌وغریب"
         }
       ]
     },
     {
-      "fa": "توصیهٔ شما را به کار می‌بندند و شروع می‌کنند به تشکیلِ اتحادیه.",
+      "fa": "به توصیهٔ شما عمل می‌کنند و شروع می‌کنند به تشکیلِ اتحادیه.",
       "en": "take your advice and begin to unionize.",
       "ipa": "teɪk jɔr ædˈvaɪs ənd bɪˈɡɪn tə ˈjunjəˌnaɪz",
       "words": [

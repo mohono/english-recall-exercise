@@ -87,7 +87,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بیایید از آخرین روزی شروع کنیم که واقعاً مسواک و نخ دندان می‌زنید.",
+      "fa": "بیایید از آخرین روزی شروع کنیم که هنوز مسواک می‌زنید و نخ دندان می‌کشید.",
       "en": "Let’s start with the last day you do brush and floss.",
       "ipa": "lɛts stɑrt wɪð ðə læst deɪ ju du brʌʃ ənd flɑs"
     },
@@ -154,7 +154,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در هر لحظهٔ مفروضی، بیشترِ این ریزجانداران در یکی از دو گروه جای می‌گیرند:",
+      "fa": "در هر لحظه، بیشترِ این ریزجانداران در یکی از دو گروه جا می‌گیرند:",
       "en": "At any given time, most of these microorganisms fit into one of two groups:",
       "ipa": "ət ˈɛni ˈɡɪvən taɪm moʊst əv ðiz ˌmaɪkroʊˈɔrɡəˌnɪzəmz fɪt ɪnˈtu wʌn əv tu ɡrups",
       "words": [
@@ -162,7 +162,7 @@ DRILL({
           "w": "at any given time",
           "ipa": "ət ˈɛni ˈɡɪvən taɪm",
           "m": "at any particular moment you choose",
-          "fa": "در هر لحظه، در هر زمانِ مشخص"
+          "fa": "در هر لحظه، در هر زمانی"
         },
         {
           "w": "microorganism",
@@ -180,12 +180,12 @@ DRILL({
       ]
     },
     {
-      "fa": "هم‌سفره‌ها (<en>commensals</en>) و بیماری‌زاهای بالقوه (<en>pathobionts</en>).",
+      "fa": "«هم‌سفره‌ها» (<en>commensals</en>؛ میکروب‌های بی‌خطری که با ما زندگی می‌کنند) و «بیماری‌زاهای بالقوه» (<en>pathobionts</en>؛ میکروب‌هایی که می‌توانند بیماری بسازند).",
       "en": "commensals and pathobionts.",
       "ipa": "ˈkɑmənsəlz ənd ˈpæθioʊˌbɪnts"
     },
     {
-      "fa": "مقدارِ زیادِ هم‌سفره‌ها برای سلامتِ دهان خوب است.",
+      "fa": "تعدادِ زیادِ هم‌سفره‌ها برای سلامتِ دهان خوب است.",
       "en": "High quantities of commensals are good for oral health.",
       "ipa": "haɪ ˈkwɑntətiz əv ˈkɑmənsəlz ɚ ɡʊd fɚ ˈɔrəl hɛlθ",
       "newPara": true,
@@ -242,7 +242,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و آمونیاک تولید می‌کنند که اسیدهای پوساننده‌ٔ دندان را خنثی می‌کند.",
+      "fa": "و آمونیاک تولید می‌کنند که اسیدهای پوساندنِ دندان را خنثی می‌کند.",
       "en": "and produce ammonia, which neutralizes tooth-decaying acids.",
       "ipa": "ənd prəˈdus əˈmoʊnjə wɪtʃ ˈnutrəˌlaɪzɪz tuθ dəˈkeɪɪŋ ˈæsədz",
       "words": [
@@ -263,13 +263,13 @@ DRILL({
           "w": "to decay",
           "ipa": "tə dəˈkeɪ",
           "m": "to be slowly destroyed by natural processes",
-          "fa": "پوسیدن؛ پوساندن",
+          "fa": "پوسیدن؛ پوساندن (dental decay = پوسیدگی دندان)",
           "more": "decay (n.) · tooth decay"
         }
       ]
     },
     {
-      "fa": "در مقابل، وفورِ بیماری‌زاهای بالقوه برای سلامت دهان بد است.",
+      "fa": "از آن طرف، فراوانیِ بیماری‌زاهای بالقوه برای سلامت دهان بد است.",
       "en": "Meanwhile, an abundance of pathobionts is bad for oral health.",
       "ipa": "ˈminˌwaɪl ən əˈbʌndəns əv ˈpæθioʊˌbɪnts ɪz bæd fɚ ˈɔrəl hɛlθ",
       "words": [
@@ -277,7 +277,7 @@ DRILL({
           "w": "meanwhile",
           "ipa": "ˈminˌwaɪl",
           "m": "used to compare two things: on the other hand",
-          "fa": "در مقابل، از سوی دیگر"
+          "fa": "از آن طرف، در مقابل"
         },
         {
           "w": "abundance",
@@ -289,7 +289,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گونه‌های قندخوار اسیدی تولید می‌کنند که به بافت‌های دهان آسیب می‌زند،",
+      "fa": "انواعِ قندخوارشان اسیدی تولید می‌کنند که به بافت‌های دهان آسیب می‌زند،",
       "en": "Sugar-eating varieties produce acid that damages the mouths’ tissues,",
       "ipa": "ˈʃʊɡɚ ˈitɪŋ vəˈraɪətiz prəˈdus ˈæsəd ðæt ˈdæmədʒəz ðə maʊθs ˈtɪsˌjuz",
       "words": [
@@ -317,7 +317,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و گونه‌های گوشت‌خوار با خرده‌ریزه‌هایی که التهاب پدید می‌آورد جان می‌گیرند و رونق پیدا می‌کنند.",
+      "fa": "و انواعِ گوشت‌خوارشان با بقایایی که التهاب به جا می‌گذارد حسابی رشد می‌کنند و پر و بال می‌گیرند.",
       "en": "and meat-eating varieties thrive on the debris inflammation creates.",
       "ipa": "ənd mit ˈitɪŋ vəˈraɪətiz θraɪv ɑn ðə dəˈbri ˌɪnfləˈmeɪʃən kriˈeɪts",
       "words": [
@@ -325,14 +325,14 @@ DRILL({
           "w": "to thrive on",
           "ipa": "tə θraɪv ɑn",
           "m": "to grow or do well because of something",
-          "fa": "با … جان گرفتن، از … رونق گرفتن",
+          "fa": "با (چیزی) رشد کردن و پر و بال گرفتن",
           "more": "thrive · flourish"
         },
         {
           "w": "debris",
           "ipa": "dəˈbri",
           "m": "broken pieces or waste left after something has been damaged",
-          "fa": "خرده‌ریز، بقایا"
+          "fa": "بقایا، خرده‌ریزه"
         }
       ]
     },
@@ -359,7 +359,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما هم‌سفره‌ها می‌توانند سریع‌تر تکثیر شوند، پس معمولاً زودتر دوباره سرپا می‌شوند.",
+      "fa": "اما هم‌سفره‌ها می‌توانند سریع‌تر تکثیر شوند، پس معمولاً زودتر به حالت قبل برمی‌گردند.",
       "en": "but commensals can proliferate faster, so they tend to bounce back quicker.",
       "ipa": "bət ˈkɑmənsəlz kən proʊˈlɪfəˌreɪt ˈfæstɚ soʊ ðeɪ tɛnd tə baʊns bæk ˈkwɪkɚ",
       "words": [
@@ -381,7 +381,7 @@ DRILL({
           "w": "to bounce back",
           "ipa": "tə baʊns bæk",
           "m": "to return to a good state quickly after a problem",
-          "fa": "دوباره سرپا شدن، بازگشتن",
+          "fa": "(بعد از ضربه) زود به حالت قبل برگشتن",
           "more": "recover"
         }
       ]
@@ -440,7 +440,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در ۷۲ ساعت اول، چشمگیرترین عارضهٔ جانبی، بوی دهانی است که فوق‌العاده بد است.",
+      "fa": "در ۷۲ ساعت اول، چشمگیرترین عارضهٔ جانبی، بوی دهانِ فوق‌العاده بد است.",
       "en": "For the first 72 hours, the most notable side effect is supremely bad breath.",
       "ipa": "fɚ ðə fɝst ˈsɛvənti tu ˈaʊɚz ðə moʊst ˈnoʊtəbəl saɪd ɪˈfɛkt ɪz suˈpriməli bæd brɛθ",
       "newPara": true,
@@ -608,7 +608,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بعد از یک ماه، جمعیتِ رو‌به‌انفجارِ بیماری‌زاهای بالقوه‌تان ممکن است در حالِ آزاد کردنِ آن‌قدر فراوردهٔ جانبیِ اسیدی باشد",
+      "fa": "بعد از یک ماه، جمعیتِ بیماری‌زاهای بالقوه‌تان که به‌سرعت زیاد شده، ممکن است آن‌قدر اسید به‌عنوان مادهٔ جانبی آزاد کند",
       "en": "After a month, your booming pathobiont population may be releasing enough acid byproducts",
       "ipa": "ˈæftɚ ə mʌnθ jɔr ˈbumɪŋ pəˈθoʊənt ˌpɑpjəˈleɪʃən meɪ bi riˈlisɪŋ ɪˈnʌf ˈæsəd ˈbaɪˌprɔdəkts",
       "words": [
@@ -616,7 +616,7 @@ DRILL({
           "w": "booming",
           "ipa": "ˈbumɪŋ",
           "m": "growing very quickly and successfully",
-          "fa": "رو‌به‌انفجار، پررونق",
+          "fa": "به‌سرعت رو به افزایش، پررونق",
           "more": "boom"
         },
         {
@@ -630,13 +630,13 @@ DRILL({
           "w": "byproduct",
           "ipa": "ˈbaɪprɑdəkt",
           "m": "a substance produced while making or doing something else",
-          "fa": "فراوردهٔ جانبی",
+          "fa": "مادهٔ جانبی (که در کنار کار اصلی تولید می‌شود)",
           "more": "by-product"
         }
       ]
     },
     {
-      "fa": "تا مینای دندان را تجزیه کند و ایجادِ حفره‌های پوسیدگی را آغاز کند.",
+      "fa": "که مینای دندان را تخریب کند و کم‌کم حفره‌های پوسیدگی ایجاد کند.",
       "en": "to break down enamel and begin causing cavities.",
       "ipa": "tə breɪk daʊn ɪˈnæməl ənd bɪˈɡɪn ˈkɑzɪŋ ˈkævɪtiz",
       "words": [
@@ -644,7 +644,7 @@ DRILL({
           "w": "to break down",
           "ipa": "tə breɪk daʊn",
           "m": "to destroy something by separating it into smaller parts",
-          "fa": "تجزیه کردن، از بین بردن",
+          "fa": "تخریب کردن، تجزیه کردن",
           "more": "breakdown"
         },
         {
@@ -678,7 +678,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از آنجا که هر دو جامعهٔ میکروبی با نرخی تصاعدی رشد می‌کنند،",
+      "fa": "از آنجا که هر دو جامعهٔ میکروبی با سرعتی تصاعدی رشد می‌کنند،",
       "en": "Since both microbe communities grow at an exponential rate,",
       "ipa": "sɪns boʊθ ˈmaɪˌkroʊb kəˈmjunətiz ɡroʊ ət ən ˌɛkspoʊˈnɛntʃəl reɪt",
       "words": [
@@ -699,7 +699,7 @@ DRILL({
           "w": "rate",
           "ipa": "reɪt",
           "m": "the speed at which something happens",
-          "fa": "نرخ، آهنگ",
+          "fa": "سرعت، نرخ",
           "more": "at a rate of"
         }
       ]
@@ -752,7 +752,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما در حال حاضر هیچ راهی برای از نو ساختنِ دهانی که مغلوبِ بیماری‌زاهای بالقوه شده وجود ندارد.",
+      "fa": "اما در حال حاضر هیچ راهی نیست که دهانی را که مغلوبِ بیماری‌زاهای بالقوه شده، از نو بسازیم.",
       "en": "but currently there’s no way to remodel a mouth that’s been overcome by pathobionts.",
       "ipa": "bət ˈkɝəntli ðɛrz noʊ weɪ tə riˈmɑdəl ə maʊð ðæts bɪn ˈoʊvɚˌkʌm baɪ ˈpæθioʊˌbɪnts",
       "words": [
@@ -779,7 +779,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در این نظمِ نوینِ جهانی، بیماری‌زاهای بالقوه کار را میان خود تقسیم می‌کنند و فتح می‌کنند.",
+      "fa": "در این نظمِ نوینِ جهانی، بیماری‌زاها کارها را بین خودشان تقسیم می‌کنند و دهان را فتح می‌کنند.",
       "en": "In this new world order, pathobionts divide and conquer.",
       "ipa": "ɪn ðɪs nu wɝld ˈɔrdɚ ˈpæθioʊˌbɪnts dɪˈvaɪd ənd ˈkɑŋkɚ",
       "newPara": true,
@@ -801,7 +801,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بعضی پشتِ سرِ هم اسیدهایی بیرون می‌ریزند که مواد معدنیِ دندان‌هایتان را حل می‌کنند و پوسیدگیِ دندان را پیش می‌رانند،",
+      "fa": "بعضی پشتِ سرِ هم اسیدهایی بیرون می‌ریزند که مواد معدنیِ دندان‌هایتان را حل می‌کنند و پوسیدگیِ دندان را جلو می‌برند،",
       "en": "Some pump out acids that dissolve the minerals in your teeth and drive dental decay,",
       "ipa": "sʌm pʌmp aʊt ˈæsədz ðæt dɪˈzɑlv ðə ˈmɪnərəlz ɪn jɔr tiθ ənd draɪv ˈdɛntəl dəˈkeɪ",
       "words": [
@@ -828,7 +828,7 @@ DRILL({
           "w": "to drive",
           "ipa": "tə draɪv",
           "m": "to cause something to happen or move forward",
-          "fa": "پیش راندن، به پیش بردن",
+          "fa": "جلو بردن، باعثِ پیشرفتِ (چیزی) شدن",
           "more": "driving force"
         }
       ]
@@ -854,7 +854,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بعضی دیگر باعث می‌شوند لثه‌ها ورم کنند و عقب بروند،",
+      "fa": "بعضی دیگر باعث می‌شوند لثه‌ها ورم کنند و عقب بروند (تحلیل بروند)،",
       "en": "Others lead the gums to swell and recede,",
       "ipa": "ˈʌðɚz lɛd ðə ɡʌmz tə swɛl ənd rɪˈsid",
       "words": [
@@ -881,7 +881,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و شکاف‌هایی پدید می‌آورند که باز هم پلاکِ بیشتری در آن‌ها جا خوش می‌کند و تسخیرشان می‌کند.",
+      "fa": "و شکاف‌هایی ایجاد می‌کنند که به اشغالِ پلاکِ باز هم بیشتری درمی‌آیند.",
       "en": "creating gaps that get colonized by yet more plaque.",
       "ipa": "kriˈeɪtɪŋ ɡæps ðæt ɡɛt ˈkɑləˌnaɪzd baɪ jɛt mɔr plæk",
       "words": [
@@ -895,7 +895,7 @@ DRILL({
           "w": "to colonize",
           "ipa": "tə ˈkɑləˌnaɪz",
           "m": "(of plants, animals or microbes) to start living in a place in large numbers",
-          "fa": "تسخیر کردن، در جایی مستقر شدن",
+          "fa": "اشغال کردن، (مثل مستعمره) در جایی مستقر شدن",
           "more": "colony"
         },
         {
@@ -955,7 +955,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این بافتِ شل‌شدهٔ لثه، خوراکِ بیماری‌زاهای گوشت‌خوار می‌شود و چرخهٔ ویرانگری‌شان را ماندگار می‌کند.",
+      "fa": "این بافتِ شل‌شدهٔ لثه، خوراکِ بیماری‌زاهای گوشت‌خوار می‌شود و چرخهٔ تخریبشان را ادامه‌دار می‌کند.",
       "en": "This loose gum tissue feeds the meat-eating pathobionts, perpetuating their cycle of destruction.",
       "ipa": "ðɪs lus ɡʌm ˈtɪsˌju fidz ðə mit ˈitɪŋ ˈpæθioʊˌbɪnts pɚˈpɛtʃəˌweɪtɪŋ ðɛr ˈsaɪkəl əv dɪˈstrʌkʃən",
       "words": [
@@ -975,7 +975,7 @@ DRILL({
           "w": "to perpetuate",
           "ipa": "tə pɚˈpɛtʃəˌweɪt",
           "m": "to make something, especially something bad, continue",
-          "fa": "ماندگار کردن، تداوم بخشیدن"
+          "fa": "ادامه‌دار کردن، زنده نگه داشتن"
         },
         {
           "w": "destruction",
@@ -1008,7 +1008,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هرچه رژیم غذایی قندِ بیشتری داشته باشد، بیماری‌زاهای اسیدسازِ بیشتری را پشتیبانی و تغذیه می‌کند —",
+      "fa": "هرچه رژیم غذایی قندِ بیشتری داشته باشد، بیماری‌زاهای اسیدسازِ بیشتری را سرپا نگه می‌دارد —",
       "en": "The more sugar a diet contains, the more acid-producing pathobionts it supports—",
       "ipa": "ðə mɔr ˈʃʊɡɚ ə ˈdaɪət kənˈteɪnz ðə mɔr ˈæsəd prəˈdusɪŋ ˈpæθioʊˌbɪnts ɪt səˈpɔrts",
       "words": [
@@ -1034,7 +1034,7 @@ DRILL({
           "w": "to support",
           "ipa": "tə səˈpɔrt",
           "m": "to provide what is needed for something to live or grow",
-          "fa": "پشتیبانی کردن، تأمین کردن"
+          "fa": "(زندگیِ چیزی را) سرپا نگه داشتن، پشتیبانی کردن"
         }
       ]
     },
@@ -1086,7 +1086,7 @@ DRILL({
       ]
     },
     {
-      "fa": "لثه‌هایتان آن‌قدر طولانی ملتهب بوده‌اند که واکنشِ ایمنیِ بدن کم‌کم روی استخوانِ زیرینشان اثر می‌گذارد.",
+      "fa": "لثه‌هایتان آن‌قدر طولانی ملتهب بوده‌اند که واکنشِ ایمنیِ بدن کم‌کم روی استخوانِ زیرِ آن‌ها اثر می‌گذارد.",
       "en": "your gums have been inflamed so long that the body’s immune response starts impacting the underlying bone.",
       "ipa": "jɔr ɡʌmz hæv bɪn ɪnˈfleɪmd soʊ lɔŋ ðæt ðə ˈbɑdiz ɪˈmjun rɪˈspɑns stɑrts ɪmˈpæktɪŋ ði ˌʌndɚˈlaɪɪŋ boʊn",
       "words": [
@@ -1111,7 +1111,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این فرایند، که به آن تحلیلِ استخوانِ آلوئولار می‌گویند، باعث می‌شود استخوانِ فک عقب برود",
+      "fa": "این فرایند، که به آن تحلیلِ استخوانِ آلوئولار می‌گویند، باعث می‌شود استخوان فک عقب برود (تحلیل برود)",
       "en": "This process, called alveolar bone resorption, makes the jawbone recede",
       "ipa": "ðɪs ˈprɑˌsɛs kɔld ælˈviəlɚ boʊn rɪˈzɔrpʃən meɪks ðə ˈdʒɔˌboʊn rɪˈsid",
       "words": [
@@ -1131,7 +1131,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و داربستی را که دندان‌هایتان را نگه داشته سست می‌کند، و آن‌ها را به حال خود رها می‌کند تا لق شوند و بیفتند.",
+      "fa": "و داربستی را که دندان‌هایتان را نگه می‌دارد سست می‌کند و آن‌ها را رها می‌کند تا لق شوند و بیفتند.",
       "en": "and weakens the scaffolding holding your teeth, leaving them to wobble and fall out.",
       "ipa": "ənd ˈwikənz ðə ˈskæfəldɪŋ ˈhoʊldɪŋ jɔr tiθ ˈlivɪŋ ðɛm tə ˈwɑbəl ənd fɔl aʊt",
       "words": [
@@ -1152,7 +1152,7 @@ DRILL({
           "w": "to leave somebody/something to do",
           "ipa": "tə liv ˈsʌmˌbɑdi | ˈsʌmθɪŋ tə du",
           "m": "to let something happen to someone or something without helping",
-          "fa": "به حال خود رها کردن تا …"
+          "fa": "(کسی یا چیزی را) رها کردن تا …"
         },
         {
           "w": "to wobble",
@@ -1296,7 +1296,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از جمله بیماری‌های قلبی-عروقی، بیماری کلیه، دیابت و آرتروز.",
+      "fa": "از جمله بیماری‌های قلبی-عروقی، بیماری کلیه، دیابت و آرتریت (التهاب مفاصل).",
       "en": "including cardiovascular disease, kidney disease, diabetes, and arthritis.",
       "ipa": "ɪnˈkludɪŋ ˌkɑrdioʊˈvæskjəlɚ dɪˈziz ˈkɪdni dɪˈziz ˌdaɪəˈbitiz ənd ɑrˈθraɪtəs",
       "words": [
@@ -1329,12 +1329,12 @@ DRILL({
           "w": "arthritis",
           "ipa": "ɑrˈθraɪtəs",
           "m": "a disease that causes pain and swelling in the joints",
-          "fa": "آرتروز، التهاب مفاصل"
+          "fa": "آرتریت، التهاب مفاصل"
         }
       ]
     },
     {
-      "fa": "در برخی موارد، حتی می‌توانند بیماری‌های تحلیل‌برندهٔ عصبی مثل آلزایمر را تشدید کنند",
+      "fa": "در بعضی موارد، حتی می‌توانند بیماری‌های تخریب‌کنندهٔ سیستم عصبی مثل آلزایمر را تشدید کنند",
       "en": "In some cases, they can even exacerbate neurodegenerative diseases like Alzheimer’s",
       "ipa": "ɪn sʌm ˈkeɪsəz ðeɪ kən ˈivɪn ɪɡˈzæsɚˌbeɪt ˌnʊroʊdʒɛndəˈreɪtɪvli dɪˈzizəz laɪk ˈælzˌhaɪmɚz",
       "words": [
@@ -1349,7 +1349,7 @@ DRILL({
           "w": "neurodegenerative",
           "ipa": "ˌnʊroʊdʒɛndəˈreɪtɪvli",
           "m": "(of a disease) slowly damaging the nerve cells, especially in the brain",
-          "fa": "تحلیل‌برندهٔ عصبی"
+          "fa": "تخریب‌کنندهٔ سلول‌های عصبی"
         }
       ]
     },
@@ -1382,7 +1382,7 @@ DRILL({
       ]
     },
     {
-      "fa": "خوشبختانه، راهی ساده برای پرهیز از این سرانجامِ تیره و ناگوار هست.",
+      "fa": "خوشبختانه، راه ساده‌ای برای دوری از این عاقبتِ تلخ هست.",
       "en": "Thankfully, there’s a simple way to avoid this grim outcome.",
       "ipa": "ˈθæŋkfəli ðɛrz ə ˈsɪmpəl weɪ tə əˈvɔɪd ðɪs ɡrɪm ˈaʊtˌkʌm",
       "newPara": true,
@@ -1398,13 +1398,13 @@ DRILL({
           "w": "to avoid",
           "ipa": "tə əˈvɔɪd",
           "m": "to stop something bad from happening",
-          "fa": "پرهیز کردن از، جلوگیری کردن از"
+          "fa": "دوری کردن از، جلوگیری کردن از"
         },
         {
           "w": "grim",
           "ipa": "ɡrɪm",
           "m": "very unpleasant and worrying",
-          "fa": "تیره، ناگوار",
+          "fa": "تلخ، ناگوار",
           "more": "bleak"
         },
         {
@@ -1417,7 +1417,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اگر ۲ یا ۳ هفته پس از آغازِ آزمایشِ غیربهداشتیِ ما این ابزارها را دوباره دست می‌گرفتید،",
+      "fa": "اگر ۲ یا ۳ هفته بعد از شروعِ آزمایشِ غیربهداشتیِ ما این ابزارها را دوباره دست می‌گرفتید،",
       "en": "If you picked up these tools 2 or 3 weeks into our unhygienic experiment,",
       "ipa": "ɪf ju pɪkt ʌp ðiz tulz tu ɔr θri wiks ɪnˈtu ˈaʊɚ əndʒiˈɡɪfɪnɪk ɪkˈspɛrəmənt",
       "words": [
@@ -1431,7 +1431,7 @@ DRILL({
           "w": "(time) into",
           "ipa": "(taɪm) ɪnˈtu",
           "m": "after a period of time from the start of something",
-          "fa": "… پس از آغازِ",
+          "fa": "… بعد از شروعِ",
           "more": "ten minutes into the film"
         },
         {
@@ -1444,7 +1444,7 @@ DRILL({
       ]
     },
     {
-      "fa": "می‌توانستید مراحلِ اولیهٔ ژنژیویت و پوسیدگیِ دندان را کاملاً برگردانید",
+      "fa": "می‌توانستید مراحلِ اولیهٔ ژنژیویت و پوسیدگیِ دندان را کاملاً به حالت اول برگردانید",
       "en": "you could have fully reversed the early stages of gingivitis and tooth decay",
       "ipa": "ju kʊd hæv ˈfʊli rɪˈvɝst ði ˈɝli ˈsteɪdʒəz əv ɡɪnˈdʒɪvɪts ənd tuθ dəˈkeɪ",
       "words": [
@@ -1452,13 +1452,13 @@ DRILL({
           "w": "to reverse",
           "ipa": "tə rɪˈvɝs",
           "m": "to change something back to how it was before",
-          "fa": "برگرداندن، معکوس کردن",
+          "fa": "به حالت اول برگرداندن، معکوس کردن",
           "more": "reversible · irreversible"
         }
       ]
     },
     {
-      "fa": "و از همهٔ آسیب‌های دائمی‌ای که به دنبالش آمد در امان بمانید.",
+      "fa": "و از همهٔ آسیب‌های دائمی‌ای که بعدش آمد جلوگیری کنید.",
       "en": "and avoided all the permanent damage that followed.",
       "ipa": "ənd əˈvɔɪdəd ɔl ðə ˈpɝmənənt ˈdæmədʒ ðæt ˈfɑloʊd",
       "words": [
@@ -1466,7 +1466,7 @@ DRILL({
           "w": "to follow",
           "ipa": "tə ˈfɑloʊ",
           "m": "to come after something in time",
-          "fa": "به دنبالِ … آمدن"
+          "fa": "بعد از (چیزی) آمدن"
         }
       ]
     },
@@ -1529,7 +1529,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که بخشی از مینای بی‌حفاظتان را با اتم‌های فلوئورِ مقاوم در برابر اسید جایگزین می‌کند.",
+      "fa": "که بخشی از مینای در معرضِ دندانتان را با اتم‌های فلوئورِ مقاوم در برابر اسید جایگزین می‌کند.",
       "en": "which replaces some of your exposed enamel with acid-resistant fluorine atoms.",
       "ipa": "wɪtʃ rɪˈpleɪsɪz sʌm əv jɔr ɪkˈspoʊzd ɪˈnæməl wɪð ˈæsəd rɪˈzɪstənt ˈflʊˌrin ˈætəmz",
       "words": [
@@ -1543,7 +1543,7 @@ DRILL({
           "w": "exposed",
           "ipa": "ɪkˈspoʊzd",
           "m": "not covered or protected",
-          "fa": "بی‌حفاظ، در معرض",
+          "fa": "در معرضِ (آسیب)، بی‌حفاظ",
           "more": "expose · exposure"
         },
         {

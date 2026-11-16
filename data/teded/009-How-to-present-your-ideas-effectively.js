@@ -101,7 +101,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بسیاری از سخنرانی‌ها بر همین شیوه استوار شده‌اند.",
+      "fa": "بسیاری از سخنرانی‌ها بر همین پایه استوارند.",
       "en": "Many talks are anchored like this.",
       "ipa": "ˈmɛni tɔks ɚ ˈæŋkɚd laɪk ðɪs",
       "words": [
@@ -116,13 +116,13 @@ DRILL({
           "w": "to be anchored",
           "ipa": "tə bi ˈæŋkɚd",
           "m": "to be firmly based on or built around something",
-          "fa": "استوار بودن، تکیه داشتن",
+          "fa": "(بر چیزی) استوار بودن، تکیه داشتن",
           "more": "anchor (n) · be anchored in"
         }
       ]
     },
     {
-      "fa": "کارت را جوری برای مخاطبان آشکار می‌کنی که آن‌ها را به وجد بیاورد و الهام‌بخششان باشد.",
+      "fa": "کارت را جوری برای مخاطبان رو می‌کنی که آن‌ها را سرِ ذوق بیاورد و به آن‌ها الهام ببخشد.",
       "en": "You reveal your work to the audience in a way that delights and inspires them.",
       "ipa": "ju rɪˈvil jɔr wɝk tə ði ˈɑdiəns ɪn ə weɪ ðæt dɪˈlaɪts ənd ɪnˈspaɪrz ðɛm",
       "words": [
@@ -130,14 +130,14 @@ DRILL({
           "w": "to reveal",
           "ipa": "tə rɪˈvil",
           "m": "to show something that was hidden or not known before",
-          "fa": "آشکار کردن، رو کردن",
+          "fa": "رو کردن، پرده برداشتن از",
           "more": "unveil · disclose"
         },
         {
           "w": "to delight",
           "ipa": "tə dɪˈlaɪt",
           "m": "to give someone great pleasure",
-          "fa": "به وجد آوردن، شاد کردن",
+          "fa": "سرِ ذوق آوردن، خیلی خوشحال کردن",
           "more": "delight (n) · delightful · delighted"
         },
         {
@@ -150,7 +150,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اسمِ پایه‌ایِ این کار «آشکارسازی» است — کارِ الهام‌بخشِ آشکار کردنِ چیزی.",
+      "fa": "اسمِ ساده‌اش «پرده‌برداری» است — کارِ الهام‌بخشِ رو کردنِ چیزی.",
       "en": "The basic name for this is revelation— the inspiring act of revealing something.",
       "ipa": "ðə ˈbeɪsɪk neɪm fɚ ðɪs ɪz ˌrɛvəˈleɪʃən ði ɪnˈspaɪrɪŋ ækt əv rɪˈvilɪŋ ˈsʌmθɪŋ",
       "words": [
@@ -158,14 +158,14 @@ DRILL({
           "w": "basic",
           "ipa": "ˈbeɪsɪk",
           "m": "simple and forming the main part of something",
-          "fa": "پایه‌ای، ساده",
+          "fa": "ساده، پایه",
           "more": "basically · basics"
         },
         {
           "w": "revelation",
           "ipa": "ˌrɛvəˈleɪʃən",
           "m": "the act of showing something that was hidden; a surprising thing that is made known",
-          "fa": "آشکارسازی، افشا",
+          "fa": "پرده‌برداری، آشکار کردنِ چیزی",
           "more": "reveal"
         },
         {
@@ -178,7 +178,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در سخنرانیِ آشکارسازی، شاید هدفت فقط این باشد که حسی از شگفتی و لذت به وجود بیاوری.",
+      "fa": "در یک سخنرانیِ پرده‌برداری، شاید هدفت فقط این باشد که حسی از شگفتی و لذت به وجود بیاوری.",
       "en": "In a revelation talk, your goal might just be to create a sense of wonder and delight.",
       "ipa": "ɪn ə ˌrɛvəˈleɪʃən tɔk jɔr ɡoʊl maɪt dʒʌst bi tə kriˈeɪt ə sɛns əv ˈwʌndɚ ənd dɪˈlaɪt",
       "words": [
@@ -206,7 +206,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اگر سخنرانی‌ات نمایشی عملی است، احتمالاً امیدواری حیرت‌زده‌شان کنی و حسِ تازه‌ای از امکان پدید بیاوری.",
+      "fa": "اگر سخنرانی‌ات نمایشی عملی است، احتمالاً امیدواری حیرت‌زده‌شان کنی و حسِ تازه‌ای از اینکه چه چیزهایی ممکن است پدید بیاوری.",
       "en": "If your talk is a demonstration, you're probably hoping to amaze and create a new sense of possibility.",
       "ipa": "ɪf jɔr tɔk ɪz ə ˌdɛmənˈstreɪʃən jʊr ˈprɑbəbli ˈhoʊpɪŋ tə əˈmeɪz ənd kriˈeɪt ə nu sɛns əv ˌpɑsəˈbɪləti",
       "words": [
@@ -269,7 +269,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بیایید سه نوع سخنرانیِ آشکارسازی را از نزدیک کندوکاو کنیم.",
+      "fa": "بیایید سه نوع سخنرانیِ پرده‌برداری را عمیق‌تر بررسی کنیم.",
       "en": "Let’s dig into three kinds of revelation talks.",
       "ipa": "lɛts dɪɡ ɪnˈtu θri kaɪndz əv ˌrɛvəˈleɪʃən tɔks",
       "words": [
@@ -277,7 +277,7 @@ DRILL({
           "w": "to dig into",
           "ipa": "tə dɪɡ ɪnˈtu",
           "m": "to look at or study something in detail",
-          "fa": "کندوکاو کردن، از نزدیک بررسی کردن",
+          "fa": "عمیق‌تر بررسی کردن، کندوکاو کردن",
           "more": "delve into · look into"
         }
       ]
@@ -316,7 +316,7 @@ DRILL({
       ]
     },
     {
-      "fa": "می‌تواند مثل بازدید از کارگاهِ یک هنرمند باشد که خودش تو را از کنارِ تک‌تکِ آثارش عبور می‌دهد و راهنمایی‌ات می‌کند،",
+      "fa": "می‌تواند مثل بازدید از کارگاهِ یک هنرمند باشد که خودش تو را از اثری به اثرِ دیگر می‌برد و راهنمایی‌ات می‌کند،",
       "en": "It can be like a studio tour with an artist guiding you through each artwork,",
       "ipa": "ɪt kən bi laɪk ə ˈstudiˌoʊ tʊr wɪð ən ˈɑrtəst ˈɡaɪdɪŋ ju θru itʃ ˈɑrtˌwɝk",
       "words": [
@@ -350,7 +350,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یا پیاده‌رویِ طولانی‌ای همراهِ یک کاشف، در دلِ چشم‌اندازی خیره‌کننده.",
+      "fa": "یا کوه‌پیمایی همراهِ یک کاشف، در دلِ منظره‌ای خیره‌کننده.",
       "en": "or a hike with an explorer through a dramatic landscape.",
       "ipa": "ɔr ə haɪk wɪð ən ɪkˈsplɔrɚ θru ə drəˈmætɪk ˈlændˌskeɪp",
       "words": [
@@ -427,7 +427,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دیوید گالو سخنرانیِ کوتاهی دربارهٔ چیزهای حیرت‌انگیزِ زیرِ آب ایراد کرد.",
+      "fa": "دیوید گالو یک سخنرانیِ کوتاه دربارهٔ شگفتی‌های زیرِ آب ارائه کرد.",
       "en": "David Gallo gave a brief talk on underwater astonishments.",
       "ipa": "ˈdeɪvɪd ˈɡæloʊ ɡeɪv ə brif tɔk ɑn ˈʌndɚˌwɔtɚ əˈstɑnɪʃmənts",
       "newPara": true,
@@ -436,7 +436,7 @@ DRILL({
           "w": "to give a talk",
           "ipa": "tə ɡɪv ə tɔk",
           "m": "to speak to a group of people about a subject",
-          "fa": "سخنرانی کردن، ایراد سخنرانی",
+          "fa": "سخنرانی کردن، سخنرانی ارائه کردن",
           "more": "deliver a talk · give a speech"
         },
         {
@@ -457,13 +457,13 @@ DRILL({
           "w": "astonishment",
           "ipa": "əˈstɑnɪʃmənt",
           "m": "great surprise; here, something that causes great surprise",
-          "fa": "حیرت؛ چیزِ حیرت‌انگیز",
+          "fa": "شگفتی؛ چیزِ حیرت‌انگیز",
           "more": "astonish · astonishing · amazement"
         }
       ]
     },
     {
-      "fa": "او مجموعه‌ای از تصاویر و ویدیوهای باورنکردنی از جانورانِ دریاییِ زیست‌تاب (نورافشان) نشان داد.",
+      "fa": "او مجموعه‌ای از تصاویر و ویدیوهای باورنکردنی از جانورانِ دریاییِ نورتاب (که از خودشان نور تولید می‌کنند) نشان داد.",
       "en": "He showed a series of incredible images and videos of bioluminescent sea creatures.",
       "ipa": "hi ʃoʊd ə ˈsɪriz əv ɪnˈkrɛdəbəl ˈɪmədʒəz ənd ˈvɪdioʊz əv ˌbaɪoʊləˈmɪsəntəns si ˈkritʃɚz",
       "words": [
@@ -498,7 +498,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گردشِ شگفتی با یک رشتهٔ پیونددهندهٔ روشن (نخِ تسبیحِ روشن) از همه بهتر جواب می‌دهد —",
+      "fa": "گردشِ شگفتی وقتی بهترین نتیجه را می‌دهد که یک رشتهٔ اصلیِ روشن (نخِ تسبیح) داشته باشد —",
       "en": "A wonder walk works best with a clear throughline—",
       "ipa": "ə ˈwʌndɚ wɔk wɝks bɛst wɪð ə klɪr ˈθrulˌhaɪn",
       "words": [
@@ -616,7 +616,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و اینکه چطور از آنجا به تصویرگری‌های منتشرشده رسید.",
+      "fa": "و اینکه چطور از آنجا به تصویرهای منتشرشده رسید.",
       "en": "and how he got from there to the published illustrations.",
       "ipa": "ənd haʊ hi ɡɑt frəm ðɛr tə ðə ˈpʌblɪʃt ˌɪləˈstreɪʃənz",
       "words": [
@@ -664,7 +664,7 @@ DRILL({
       ]
     },
     {
-      "fa": "فقط آدم‌ها را قدم‌به‌قدم در میانِ کارهایت نگردان.",
+      "fa": "به آدم‌ها فقط کارهایت را قدم‌به‌قدم نشان نده.",
       "en": "Don't just walk people through your work.",
       "ipa": "doʊnt dʒʌst wɔk ˈpipəl θru jɔr wɝk",
       "words": [
@@ -706,7 +706,7 @@ DRILL({
       ]
     },
     {
-      "fa": "۲. نمایشِ زندهٔ پویا.",
+      "fa": "۲. نمایشِ عملیِ پویا (دمو).",
       "en": "2. The Dynamic Demo.",
       "ipa": "tu ðə daɪˈnæmɪk ˈdɛmoʊ",
       "newPara": true,
@@ -728,7 +728,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اگر آنچه آشکار می‌کنی فقط چیزی دیداری نیست —",
+      "fa": "اگر چیزی که رو می‌کنی فقط تصویری نیست —",
       "en": "If what you’re revealing is not just visual—",
       "ipa": "ɪf wʌt jʊr rɪˈvilɪŋ ɪz nɑt dʒʌst ˈvɪʒəwəl",
       "words": [
@@ -736,7 +736,7 @@ DRILL({
           "w": "visual",
           "ipa": "ˈvɪʒəwəl",
           "m": "connected with seeing or with pictures",
-          "fa": "دیداری، تصویری",
+          "fa": "تصویری، دیداری",
           "more": "visually · visualize · visuals"
         }
       ]
@@ -814,7 +814,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در یک نمایشِ زندهٔ پویا، مهم‌ترین چیز این است که چیزی چشمگیر برای نشان دادن داشته باشی.",
+      "fa": "در یک نمایشِ عملیِ پویا، مهم‌ترین چیز این است که چیزی چشمگیر برای نشان دادن داشته باشی.",
       "en": "For a dynamic demo, what matters most is having something impressive to demonstrate.",
       "ipa": "fɚ ə daɪˈnæmɪk ˈdɛmoʊ wʌt ˈmætɚz moʊst ɪz ˈhævɪŋ ˈsʌmθɪŋ ɪmˈprɛsɪv tə ˈdɛmənˌstreɪt",
       "newPara": true,
@@ -884,7 +884,7 @@ DRILL({
       ]
     },
     {
-      "fa": "او آبِ گل‌آلودِ برکه، روان‌آبِ فاضلاب و پِشکلِ خرگوش را در ظرفی ریخت،",
+      "fa": "او آبِ گل‌آلودِ برکه، پسابِ فاضلاب و پِشکلِ خرگوش را در ظرفی ریخت،",
       "en": "He poured muddy pond water, sewage runoff, and rabbit droppings into a container,",
       "ipa": "hi pɔrd ˈmʌdi pɑnd ˈwɔtɚ ˈsuədʒ ˈrʌˌnɔf ənd ˈræbət ˈdrɑpɪŋz ɪnˈtu ə kənˈteɪnɚ",
       "words": [
@@ -920,7 +920,7 @@ DRILL({
           "w": "runoff",
           "ipa": "ˈrʌˌnɔf",
           "m": "water that flows off land into rivers, often carrying dirt or waste",
-          "fa": "روان‌آب",
+          "fa": "آبِ جاری‌شده، پساب",
           "more": "run off (v)"
         },
         {
@@ -1478,7 +1478,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ابزارهای کمک‌دیداری اغلب می‌توانند در بخشِ اول کمک کنند.",
+      "fa": "ابزارهای کمکیِ تصویری (عکس، اسلاید، ماکت) اغلب می‌توانند در بخشِ اول کمک کنند.",
       "en": "Visual aids can often help with the first part.",
       "ipa": "ˈvɪʒəwəl eɪdz kən ˈɔfən hɛlp wɪð ðə fɝst pɑrt",
       "words": [
@@ -1486,7 +1486,7 @@ DRILL({
           "w": "visual aid",
           "ipa": "ˈvɪʒəwəl eɪd",
           "m": "a picture, chart or video used to help explain something",
-          "fa": "ابزار کمک‌دیداری",
+          "fa": "ابزارِ کمکیِ تصویری (عکس، اسلاید و…)",
           "more": "visuals · slides"
         }
       ]
@@ -1555,7 +1555,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و آینده‌ای را ترسیم می‌کرد که بسیاری از شنوندگان از ساکن شدن در آن غرقِ شادی می‌شدند.",
+      "fa": "و آینده‌ای را ترسیم می‌کرد که بسیاری از شنوندگان برای زندگی در آن سر از پا نمی‌شناختند.",
       "en": "painting a future many listeners would be thrilled to inhabit.",
       "ipa": "ˈpeɪntɪŋ ə ˈfjutʃɚ ˈmɛni ˈlɪsənɚz wʊd bi θrɪld tə ɪnˈhæbət",
       "words": [
@@ -1563,7 +1563,7 @@ DRILL({
           "w": "thrilled",
           "ipa": "θrɪld",
           "m": "extremely pleased and excited",
-          "fa": "غرقِ شادی، بسیار هیجان‌زده",
+          "fa": "خیلی هیجان‌زده و خوشحال، سر از پا نشناختن",
           "more": "thrill · thrilling · delighted"
         },
         {
@@ -1633,7 +1633,7 @@ DRILL({
       ]
     },
     {
-      "fa": "حالا، ترکیب کن و جور کن.",
+      "fa": "حالا: ترکیب کن و جفت‌وجور کن.",
       "en": "Now, Mix and Match.",
       "ipa": "naʊ mɪks ənd mætʃ",
       "newPara": true,

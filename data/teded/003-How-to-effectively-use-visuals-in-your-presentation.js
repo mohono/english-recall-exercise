@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=bw5tzcoEG88",
   "items": [
     {
-      "fa": "اگر می‌توانستید چوب جادو تکان بدهید،",
+      "fa": "اگر می‌توانستید یک چوب جادو تکان بدهید،",
       "en": "If you could wave a magic wand,",
       "ipa": "ɪf ju kʊd weɪv ə ˈmædʒɪk wɑnd",
       "newPara": true,
@@ -13,7 +13,7 @@ DRILL({
           "w": "to wave a magic wand",
           "ipa": "tə weɪv ə ˈmædʒɪk wɑnd",
           "m": "to solve a problem instantly, as if by magic",
-          "fa": "چوب جادو تکان دادن، معجزه کردن"
+          "fa": "چوب جادو تکان دادن (یک‌شبه و بی‌زحمت کاری را درست کردن)"
         },
         {
           "w": "wand",
@@ -25,7 +25,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آن یک ایده‌ای که بیش از هر چیز دوست دارید در ذهن دیگران بپراکنید چیست؟",
+      "fa": "آن یک ایده‌ای که بیشتر از همه دوست دارید در ذهن دیگران پخش کنید چیست؟",
       "en": "what’s the one idea you’d most love to spread to other people’s minds?",
       "ipa": "wʌts ðə wʌn aɪˈdiə jud moʊst lʌv tə sprɛd tə ˈʌðɚ ˈpipəlz maɪndz",
       "words": [
@@ -33,7 +33,7 @@ DRILL({
           "w": "to spread",
           "ipa": "tə sprɛd",
           "m": "to make something reach more and more people or places",
-          "fa": "پراکندن، گسترش دادن، پخش کردن",
+          "fa": "پخش کردن، گسترش دادن",
           "more": "spread (n.) · widespread"
         }
       ]
@@ -100,7 +100,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گنجاندنِ عناصر بصری می‌تواند سخنرانی را پرقدرت‌تر و قانع‌کننده‌تر کند.",
+      "fa": "گنجاندنِ عناصر بصری (تصویر، نمودار و…) می‌تواند سخنرانی را تأثیرگذارتر و قانع‌کننده‌تر کند.",
       "en": "Incorporating visuals can make a talk more powerful and convincing.",
       "ipa": "ɪnˈkɔrpəˌreɪtɪŋ ˈvɪʒwəlz kən meɪk ə tɔk mɔr ˈpaʊɚfəl ənd kənˈvɪnsɪŋ",
       "words": [
@@ -115,7 +115,7 @@ DRILL({
           "w": "visuals",
           "ipa": "ˈvɪʒwəlz",
           "m": "pictures, charts, videos, etc. used to help explain something",
-          "fa": "عناصر بصری، تصاویر",
+          "fa": "عناصر بصری (تصویر، نمودار، ویدیو و…)",
           "more": "visual (adj.) · visual aids"
         },
         {
@@ -129,7 +129,7 @@ DRILL({
           "w": "powerful",
           "ipa": "ˈpaʊɚfəl",
           "m": "having a strong effect on people's feelings or thoughts",
-          "fa": "پرقدرت، تأثیرگذار"
+          "fa": "تأثیرگذار، پرقدرت"
         },
         {
           "w": "convincing",
@@ -141,7 +141,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به فرض اینکه خطِ اصلیِ روایت و محتوای سخنرانی‌تان را دارید،",
+      "fa": "به فرض اینکه رشتهٔ اصلیِ سخنرانی‌تان (ایدهٔ محوری‌ای که همه‌چیز را به هم وصل می‌کند) و محتوایش را آماده دارید،",
       "en": "Assuming you have your throughline and talk content,",
       "ipa": "əˈsumɪŋ ju hæv jɔr ˈθrulˌhaɪn ənd tɔk ˈkɑntɛnt",
       "words": [
@@ -156,7 +156,7 @@ DRILL({
           "w": "throughline",
           "ipa": "ˈθrulˌhaɪn",
           "m": "the main idea or thread that connects every part of a talk or story",
-          "fa": "خط اصلی، رشتهٔ پیوند"
+          "fa": "رشتهٔ اصلی (ایدهٔ محوری‌ای که کل سخنرانی را به هم وصل می‌کند)"
         },
         {
           "w": "content",
@@ -167,7 +167,7 @@ DRILL({
       ]
     },
     {
-      "fa": "وقتش رسیده که کار را راه بیندازیم.",
+      "fa": "وقتش رسیده که کار را شروع کنیم و راه بیندازیم.",
       "en": "it's time to get this show on the road.",
       "ipa": "ɪts taɪm tə ɡɛt ðɪs ʃoʊ ɑn ðə roʊd",
       "words": [
@@ -180,7 +180,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در قرن بیست‌ویکم، می‌توانیم با فناوری‌های فراوانی چیزی به کلامِ گفتاری بیفزاییم —",
+      "fa": "در قرن بیست‌ویکم، می‌توانیم با فناوری‌های فراوانی چیزهایی به حرف‌هایمان (کلامِ گفتاری) اضافه کنیم —",
       "en": "In the 21st century, we can add to the spoken word with many technologies—",
       "ipa": "ɪn ðə ˈtwɛnti fɝst ˈsɛntʃəri wi kən æd tə ðə ˈspoʊkən wɝd wɪð ˈmɛni tɛkˈnɑlədʒiz",
       "newPara": true,
@@ -189,7 +189,7 @@ DRILL({
           "w": "to add to",
           "ipa": "tə æd tu",
           "m": "to make something bigger, better or more complete",
-          "fa": "افزودن به، تکمیل کردن"
+          "fa": "چیزی اضافه کردن به، کامل‌تر کردن"
         },
         {
           "w": "the spoken word",
@@ -207,7 +207,7 @@ DRILL({
       ]
     },
     {
-      "fa": "عکس، تصویرسازی، گراف، نمودار، پویانمایی، ویدیو، صدا و داده.",
+      "fa": "عکس، تصویرسازی، نمودار، چارت، انیمیشن، ویدیو، صدا و داده.",
       "en": "pictures, illustrations, graphs, charts, animation, video, audio, and data.",
       "ipa": "ˈpɪktʃɚz ˌɪləˈstreɪʃənz ɡræfs tʃɑrts ˌænəˈmeɪʃən ˈvɪdioʊ ˈɑdiˌoʊ ənd ˈdeɪtə",
       "words": [
@@ -222,20 +222,20 @@ DRILL({
           "w": "graph",
           "ipa": "ɡræf",
           "m": "a drawing with lines that shows how two sets of numbers are related",
-          "fa": "گراف، نمودار (خطی)"
+          "fa": "نمودار (به‌ویژه خطی)"
         },
         {
           "w": "chart",
           "ipa": "tʃɑrt",
           "m": "a drawing that shows information in a simple form",
-          "fa": "نمودار",
+          "fa": "چارت، نمودار (میله‌ای، دایره‌ای و…)",
           "more": "bar chart · pie chart"
         },
         {
           "w": "animation",
           "ipa": "ˌænəˈmeɪʃən",
           "m": "moving pictures made from drawings or models",
-          "fa": "پویانمایی، انیمیشن",
+          "fa": "انیمیشن، پویانمایی",
           "more": "animated"
         },
         {
@@ -354,7 +354,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شاید به نفعتان باشد که مستقیماً با خودِ مخاطبان حرف بزنید.",
+      "fa": "شاید بهتر باشد مستقیم با خودِ مخاطبان حرف بزنید.",
       "en": "you may be better off speaking directly to the audience.",
       "ipa": "ju meɪ bi ˈbɛtɚ ɔf ˈspikɪŋ dəˈrɛktli tə ði ˈɑdiəns",
       "words": [
@@ -362,7 +362,7 @@ DRILL({
           "w": "to be better off doing",
           "ipa": "tə bi ˈbɛtɚ ɔf ˈduɪŋ",
           "m": "to be in a better situation if you do something",
-          "fa": "به نفع کسی بودن که…",
+          "fa": "بهتر بودن که…، به نفعِ کسی بودن که…",
           "more": "you'd be better off"
         },
         {
@@ -374,7 +374,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برای هر سخنرانی قاعده ساده است: نداشتنِ اسلاید بهتر از داشتنِ اسلایدهای بد است.",
+      "fa": "برای همهٔ سخنران‌ها قاعده ساده است: نداشتنِ اسلاید بهتر از داشتنِ اسلایدهای بد است.",
       "en": "For every speaker, the rule is simple: having no slides is better than having bad slides.",
       "ipa": "fɚ ˈɛvəri ˈspikɚ ðə rul ɪz ˈsɪmpəl ˈhævɪŋ noʊ slaɪdz ɪz ˈbɛtɚ ðən ˈhævɪŋ bæd slaɪdz",
       "words": [
@@ -403,7 +403,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گاهی همین عناصر بصری‌اند که سخنرانی را به موفقیتی تبدیل می‌کنند.",
+      "fa": "گاهی همین عناصر بصری‌اند که سخنرانی را موفق می‌کنند.",
       "en": "Sometimes, the visuals make the talk a success.",
       "ipa": "səmˈtaɪmz ðə ˈvɪʒwəlz meɪk ðə tɔk ə səkˈsɛs",
       "words": [
@@ -451,7 +451,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پرده‌برداری، قدرتِ توضیح‌دهندگی، و جذابیتِ زیبایی‌شناختی.",
+      "fa": "پرده‌برداری، قدرتِ توضیح‌دادن، و جذابیتِ زیبایی‌شناختی (زیباییِ ظاهری).",
       "en": "revelation, explanatory power, and aesthetic appeal.",
       "ipa": "ˌrɛvəˈleɪʃən ɪkˈsplænəˌtɔri ˈpaʊɚ ənd ɛsˈθɛtɪk əˈpil",
       "words": [
@@ -459,21 +459,21 @@ DRILL({
           "w": "revelation",
           "ipa": "ˌrɛvəˈleɪʃən",
           "m": "the act of showing something surprising that people did not know or see before",
-          "fa": "پرده‌برداری، آشکارسازی",
+          "fa": "پرده‌برداری، آشکار کردنِ ناگهانیِ چیزی",
           "more": "reveal"
         },
         {
           "w": "explanatory",
           "ipa": "ɪkˈsplænəˌtɔri",
           "m": "giving the reason for something or making it clear",
-          "fa": "توضیحی، توضیح‌دهنده",
+          "fa": "توضیح‌دهنده، روشن‌کننده",
           "more": "explain · explanation"
         },
         {
           "w": "aesthetic",
           "ipa": "ɛsˈθɛtɪk",
           "m": "connected with beauty and how things look",
-          "fa": "زیبایی‌شناختی",
+          "fa": "زیبایی‌شناختی، مربوط به زیبایی ظاهری",
           "more": "aesthetics · aesthetically"
         },
         {
@@ -508,7 +508,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ادیت ویدر عضو تیمی بود که نخستین بار ماهی مرکبِ غول‌پیکر را در ویدیو ثبت کرد.",
+      "fa": "ادیت ویدر عضو تیمی بود که برای اولین بار اسکوئیدِ (ماهی مرکبِ) غول‌پیکر را با ویدیو ثبت کرد.",
       "en": "Edith Widder was part of the team that first captured the giant squid on video.",
       "ipa": "ˈidɪθ ˈwɪdɚ wəz pɑrt əv ðə tim ðæt fɝst ˈkæptʃɚd ðə ˈdʒaɪənt skwɪd ɑn ˈvɪdioʊ",
       "words": [
@@ -529,12 +529,12 @@ DRILL({
           "w": "squid",
           "ipa": "skwɪd",
           "m": "a sea animal with a long soft body and ten arms",
-          "fa": "ماهی مرکب، اسکوئید"
+          "fa": "اسکوئید، ماهی مرکب"
         }
       ]
     },
     {
-      "fa": "سخنرانیِ او حولِ همان لحظهٔ پرده‌برداری شکل گرفته بود.",
+      "fa": "سخنرانی‌اش حولِ همان لحظهٔ پرده‌برداری ساخته شده بود.",
       "en": "Her talk was built around that moment of revelation.",
       "ipa": "hɚ tɔk wəz bɪlt əˈraʊnd ðæt ˈmoʊmənt əv ˌrɛvəˈleɪʃən",
       "words": [
@@ -542,13 +542,13 @@ DRILL({
           "w": "to be built around",
           "ipa": "tə bi bɪlt əˈraʊnd",
           "m": "to have something as its main part or centre",
-          "fa": "حولِ … شکل گرفتن",
+          "fa": "حولِ … ساخته شدن، بر پایهٔ … شکل گرفتن",
           "more": "centred on · based on"
         }
       ]
     },
     {
-      "fa": "وقتی آن موجود روی پرده ظاهر شد، نزدیک بود حضار زهره‌ترک شوند و از جا بپرند.",
+      "fa": "وقتی آن موجود روی صفحه ظاهر شد، نزدیک بود حضار از ترس از جا بپرند.",
       "en": "When the creature appeared on screen, the audience nearly jumped out of its skin.",
       "ipa": "wɛn ðə ˈkritʃɚ əˈpɪrd ɑn skrin ði ˈɑdiəns ˈnɪrli dʒʌmpt aʊt əv ɪts skɪn",
       "words": [
@@ -562,7 +562,7 @@ DRILL({
           "w": "on screen",
           "ipa": "ɑn skrin",
           "m": "shown on a cinema, television or computer screen",
-          "fa": "روی پرده، روی صفحه"
+          "fa": "روی صفحه، روی پرده"
         },
         {
           "w": "nearly",
@@ -574,12 +574,12 @@ DRILL({
           "w": "to jump out of your skin",
           "ipa": "tə dʒʌmp aʊt əv jɔr skɪn",
           "m": "to be suddenly very surprised or frightened",
-          "fa": "زهره‌ترک شدن، از جا پریدن"
+          "fa": "از ترس از جا پریدن، زهره‌ترک شدن"
         }
       ]
     },
     {
-      "fa": "پرده‌برداری لازم نیست پرهیجان و نمایشی باشد.",
+      "fa": "پرده‌برداری لازم نیست حتماً پرهیجان و نمایشی باشد.",
       "en": "Revelation doesn't have to be dramatic.",
       "ipa": "ˌrɛvəˈleɪʃən ˈdʌzənt hæv tə bi drəˈmætɪk",
       "words": [
@@ -639,7 +639,7 @@ DRILL({
       ]
     },
     {
-      "fa": "قدرت توضیح‌دهندگی: واژه‌ها و تصویرها اغلب با هم بهتر از هر چیز توضیح می‌دهند.",
+      "fa": "قدرتِ توضیح‌دادن: واژه‌ها و تصویرها اغلب وقتی با هم باشند، بهترین توضیح را می‌دهند.",
       "en": "Explanatory power: Words and images often explain best together.",
       "ipa": "ɪkˈsplænəˌtɔri ˈpaʊɚ wɝdz ənd ˈɪmədʒəz ˈɔfən ɪkˈspleɪn bɛst təˈɡɛðɚ",
       "newPara": true,
@@ -654,7 +654,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بخش بزرگی از جهانِ ما به‌صورت بصری در ذهن تصور می‌شود.",
+      "fa": "بخش بزرگی از دنیای ما به‌شکل تصویری در ذهن مجسم می‌شود.",
       "en": "Much of our world is imagined visually.",
       "ipa": "mʌtʃ əv ˈaʊɚ wɝld ɪz ɪˈmædʒənd ˈvɪʒwəli",
       "words": [
@@ -662,7 +662,7 @@ DRILL({
           "w": "to imagine",
           "ipa": "tə ɪˈmædʒən",
           "m": "to form a picture of something in your mind",
-          "fa": "تصور کردن، در ذهن مجسم کردن",
+          "fa": "در ذهن مجسم کردن، تصور کردن",
           "more": "imagination · imaginary"
         }
       ]
@@ -737,7 +737,7 @@ DRILL({
       ]
     },
     {
-      "fa": "چند جریانِ اطلاعات برای پردازش‌شدن، انرژیِ ذهنی لازم دارند.",
+      "fa": "چند جریانِ اطلاعاتی برای اینکه پردازش شوند، انرژیِ ذهنی لازم دارند.",
       "en": "Multiple streams of information require mental energy to process.",
       "ipa": "ˈmʌltəpəl strimz əv ˌɪnfɚˈmeɪʃən ˌriˈkwaɪɚ ˈmɛntəl ˈɛnɚdʒi tə ˌprɔˈsɛs",
       "words": [
@@ -751,7 +751,7 @@ DRILL({
           "w": "stream",
           "ipa": "strim",
           "m": "a continuous flow of things, information, people, etc.",
-          "fa": "جریان، رشته",
+          "fa": "جریان (پیوستهٔ اطلاعات)",
           "more": "a stream of data · live stream"
         },
         {
@@ -778,7 +778,7 @@ DRILL({
       ]
     },
     {
-      "fa": "سخنران باید توجه را هدایت کند تا اسلایدها نقشِ پشتیبان داشته باشند.",
+      "fa": "سخنران باید توجه را هدایت کند تا اسلایدها فقط پشتیبانِ حرف‌هایش باشند.",
       "en": "A speaker must direct attention so slides support.",
       "ipa": "ə ˈspikɚ mʌst dəˈrɛkt əˈtɛnʃən soʊ slaɪdz səˈpɔrt",
       "note": "به نظر می‌رسد در کپشن ادامهٔ این جمله (احتمالاً چیزی مثل <en>not compete</en>) افتاده است؛ جمله همان‌طور که در ترنسکریپت آمده نگه داشته شده.",
@@ -855,7 +855,7 @@ DRILL({
       ]
     },
     {
-      "fa": "سرتیترهایی که زیرشان فهرست‌های نقطه‌دارِ بلند می‌آید اغلب توجه را از دست می‌دهند —",
+      "fa": "عنوان‌هایی که زیرشان بندهای نقطه‌دارِ طولانی آمده، اغلب توجه را از دست می‌دهند —",
       "en": "Headlines with long bullet points often lose attention—",
       "ipa": "ˈhɛdˌlaɪnz wɪð lɔŋ ˈbʊlət pɔɪnts ˈɔfən luz əˈtɛnʃən",
       "words": [
@@ -863,7 +863,7 @@ DRILL({
           "w": "headline",
           "ipa": "ˈhɛdˌlaɪn",
           "m": "the title written in large letters at the top of a page or slide",
-          "fa": "سرتیتر، عنوان"
+          "fa": "عنوان، تیتر"
         },
         {
           "w": "bullet point",
@@ -881,7 +881,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بندها را به اسلایدهای جداگانه تبدیل کنید، عبارت‌ها را کم کنید، یا آن‌ها را با تصویر جایگزین کنید.",
+      "fa": "بندها را به اسلایدهای جداگانه تبدیل کنید، عبارت‌ها را کمتر کنید، یا تصویر را جایگزینشان کنید.",
       "en": "turn bullets into separate slides, reduce phrases, or replace them with images.",
       "ipa": "tɝn ˈbʊləts ɪnˈtu ˈsɛpərɪt slaɪdz rəˈdus ˈfreɪzəz ɔr ˌriˈpleɪs ðɛm wɪð ˈɪmədʒəz",
       "words": [
@@ -921,7 +921,7 @@ DRILL({
       ]
     },
     {
-      "fa": "حتی اسلایدهای ساده هم ممکن است پیش‌دستی کنند و جلوه‌تان را بدزدند.",
+      "fa": "حتی اسلایدهای ساده هم ممکن است حرفتان را زودتر از خودتان بزنند و اثرش را از شما بگیرند.",
       "en": "Even simple slides may steal your thunder.",
       "ipa": "ˈivɪn ˈsɪmpəl slaɪdz meɪ stil jɔr ˈθʌndɚ",
       "newPara": true,
@@ -930,12 +930,12 @@ DRILL({
           "w": "to steal someone's thunder",
           "ipa": "tə stil ˈsʌmˌwʌnz ˈθʌndɚ",
           "m": "to take attention away from someone by saying or doing first what they planned to say or do",
-          "fa": "جلوهٔ کسی را دزدیدن، پیش‌دستی کردن"
+          "fa": "حرفِ کسی را زودتر زدن و جلوه‌اش را گرفتن"
         }
       ]
     },
     {
-      "fa": "به‌جای «سیاه‌چاله جرمی است آن‌قدر سنگین که هیچ نوری نمی‌تواند از آن بگریزد»،",
+      "fa": "به‌جای «سیاه‌چاله جسمی است آن‌قدر پرجرم که هیچ نوری نمی‌تواند از آن فرار کند»،",
       "en": "Instead of “A black hole is an object so massive that no light can escape,”",
       "ipa": "ɪnˈstɛd əv ə blæk hoʊl ɪz ən əbˈdʒɛkt soʊ ˈmæsɪv ðæt noʊ laɪt kən ɪˈskeɪp",
       "words": [
@@ -955,25 +955,25 @@ DRILL({
           "w": "massive",
           "ipa": "ˈmæsɪv",
           "m": "very large and heavy",
-          "fa": "بسیار سنگین، عظیم",
+          "fa": "پرجرم، بسیار سنگین و بزرگ",
           "more": "mass · huge"
         },
         {
           "w": "to escape",
           "ipa": "tə ɪˈskeɪp",
           "m": "to get away from a place",
-          "fa": "گریختن، رها شدن",
+          "fa": "فرار کردن، بیرون رفتن",
           "more": "escape (n.)"
         }
       ]
     },
     {
-      "fa": "امتحان کنید: «سیاه‌چاله چقدر سیاه است؟»",
+      "fa": "این را امتحان کنید: «سیاه‌چاله چقدر سیاه است؟»",
       "en": "try: “How black is a black hole?”",
       "ipa": "traɪ haʊ blæk ɪz ə blæk hoʊl"
     },
     {
-      "fa": "بعد اطلاعات را از راه گفتار برسانید.",
+      "fa": "بعد اطلاعات را با گفتار منتقل کنید.",
       "en": "Then deliver the information through speech.",
       "ipa": "ðɛn dɪˈlɪvɚ ði ˌɪnfɚˈmeɪʃən θru spitʃ",
       "words": [
@@ -981,7 +981,7 @@ DRILL({
           "w": "to deliver",
           "ipa": "tə dɪˈlɪvɚ",
           "m": "to give information, a speech, etc. to people",
-          "fa": "رساندن، ارائه دادن",
+          "fa": "ارائه کردن، رساندن",
           "more": "delivery · deliver a talk"
         },
         {
@@ -993,7 +993,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اسلاید کنجکاوی را قلقلک می‌دهد و واژه‌ها را گیراتر می‌کند.",
+      "fa": "اسلاید کنجکاوی را قلقلک می‌دهد و حرف‌هایتان را گیراتر می‌کند.",
       "en": "The slide teases curiosity and makes words more compelling.",
       "ipa": "ðə slaɪd ˈtizɪz ˌkjʊriˈɑsəti ənd meɪks wɝdz mɔr kəmˈpɛlɪŋ",
       "words": [
@@ -1021,7 +1021,7 @@ DRILL({
       ]
     },
     {
-      "fa": "عناصر بصری نباید واژه‌هایی را منتقل کنند که دهانتان به‌راحتی می‌تواند بگوید.",
+      "fa": "عناصر بصری نباید واژه‌هایی را منتقل کنند که دهانتان خیلی راحت می‌تواند بگوید.",
       "en": "Visuals shouldn't communicate words your mouth can easily say.",
       "ipa": "ˈvɪʒwəlz ˈʃʊdənt kəˈmjunəˌkeɪt wɝdz jɔr maʊð kən ˈizəli seɪ",
       "words": [
@@ -1035,7 +1035,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از آن‌ها برای در میان گذاشتنِ چیزی استفاده کنید که گفتار نمی‌تواند: عکس، ویدیو، پویانمایی یا داده.",
+      "fa": "از آن‌ها برای نشان دادنِ چیزی استفاده کنید که گفتار نمی‌تواند: عکس، ویدیو، انیمیشن یا داده.",
       "en": "Use them to share what speech can’t: photographs, video, animation, or data.",
       "ipa": "juz ðɛm tə ʃɛr wʌt spitʃ kænt ˈfoʊtəˌɡræfs ˈvɪdioʊ ˌænəˈmeɪʃən ɔr ˈdeɪtə",
       "words": [
@@ -1043,7 +1043,7 @@ DRILL({
           "w": "to share",
           "ipa": "tə ʃɛr",
           "m": "to tell or show something to other people",
-          "fa": "در میان گذاشتن",
+          "fa": "نشان دادن، در میان گذاشتن",
           "more": "share with"
         }
       ]
@@ -1070,7 +1070,7 @@ DRILL({
       ]
     },
     {
-      "fa": "جذابیت زیبایی‌شناختی: اسلایدهای خوش‌ظاهر قدرت می‌افزایند.",
+      "fa": "جذابیتِ زیبایی‌شناختی: اسلایدهای خوش‌ظاهر به سخنرانی قدرت اضافه می‌کنند.",
       "en": "Aesthetic appeal: Nice-looking slides add power.",
       "ipa": "ɛsˈθɛtɪk əˈpil naɪs ˈlʊkɪŋ slaɪdz æd ˈpaʊɚ",
       "newPara": true,
@@ -1085,7 +1085,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اسلایدهایی که از نظر بصری چشم‌نوازند می‌توانند اثرِ سخنرانی را تقویت کنند.",
+      "fa": "اسلایدهایی که چشم‌نوازند می‌توانند تأثیرِ سخنرانی را چند برابر کنند.",
       "en": "Visually appealing slides can amplify a talk's impact.",
       "ipa": "ˈvɪʒwəli əˈpilɪŋ slaɪdz kən ˈæmpləˌfaɪ ə tɔks ˈɪmpækt",
       "words": [
@@ -1100,7 +1100,7 @@ DRILL({
           "w": "to amplify",
           "ipa": "tə ˈæmpləˌfaɪ",
           "m": "to make something stronger or greater",
-          "fa": "تقویت کردن، بیشتر کردن",
+          "fa": "تقویت کردن، چند برابر کردن",
           "more": "amplifier · boost"
         },
         {
@@ -1113,7 +1113,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هانس روسلینگ سخنرانی از TED است که در این کار سرآمد بود.",
+      "fa": "هانس روسلینگ یکی از سخنرانان TED است که در این کار استاد بود.",
       "en": "Hans Rosling is a TED speaker who excelled at this.",
       "ipa": "hɑns ˈrɑsəlɪŋ ɪz ə tɛd ˈspikɚ hu ɪkˈsɛld ət ðɪs",
       "words": [
@@ -1121,13 +1121,13 @@ DRILL({
           "w": "to excel at",
           "ipa": "tə ɪkˈsɛl æt",
           "m": "to be extremely good at something",
-          "fa": "سرآمد بودن در، درخشیدن در",
+          "fa": "در کاری استاد بودن، درخشیدن در",
           "more": "excellent · excellence"
         }
       ]
     },
     {
-      "fa": "«بفرمایید. آنجا را می‌بینید؟ چین است.",
+      "fa": "«خب، شروع شد. آنجا را می‌بینید؟ چین است.",
       "en": "“Here we go. Can you see there? It’s China.",
       "ipa": "hɪr wi ɡoʊ kən ju si ðɛr ɪts ˈtʃaɪnə",
       "newPara": true,
@@ -1136,7 +1136,7 @@ DRILL({
           "w": "here we go",
           "ipa": "hɪr wi ɡoʊ",
           "m": "(spoken) said when something is about to start or happen",
-          "fa": "بفرمایید، شروع شد"
+          "fa": "خب، شروع شد / بریم"
         }
       ]
     },
@@ -1234,7 +1234,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و پی ببرید که چطور آن‌ها را به ارائه‌ای پربار و ارزشمند تبدیل کنید.",
+      "fa": "و راهش را پیدا کنید که چطور آن‌ها را به ارائه‌ای پربار و ارزشمند تبدیل کنید.",
       "en": "and figure out how to turn them into a rewarding presentation.",
       "ipa": "ənd ˈfɪɡjɚ aʊt haʊ tə tɝn ðɛm ɪnˈtu ə rɪˈwɔrdɪŋ ˌprɛzənˈteɪʃən",
       "words": [
@@ -1242,7 +1242,7 @@ DRILL({
           "w": "to figure out",
           "ipa": "tə ˈfɪɡjɚ aʊt",
           "m": "to think about something until you understand it or find the answer",
-          "fa": "پی بردن، فهمیدن، راهش را پیدا کردن",
+          "fa": "(با فکر کردن) راهش را پیدا کردن، فهمیدن",
           "more": "work out"
         },
         {
@@ -1282,7 +1282,7 @@ DRILL({
       ]
     },
     {
-      "fa": "سخنرانی‌ای که الهام‌بخش است، شادی می‌آفریند، و شاید حتی جهان را تغییر دهد.",
+      "fa": "سخنرانی‌ای که الهام‌بخش است، مخاطب را سرِ ذوق می‌آورد و شاید حتی دنیا را تغییر دهد.",
       "en": "one that inspires, delights, and may even change the world.",
       "ipa": "wʌn ðæt ɪnˈspaɪrz dɪˈlaɪts ənd meɪ ˈivɪn tʃeɪndʒ ðə wɝld",
       "words": [
@@ -1297,7 +1297,7 @@ DRILL({
           "w": "to delight",
           "ipa": "tə dɪˈlaɪt",
           "m": "to give someone great pleasure",
-          "fa": "شادی بخشیدن، خوشحال کردن",
+          "fa": "سرِ ذوق آوردن، خیلی خوشحال کردن",
           "more": "delight (n.) · delighted · delightful"
         }
       ]

@@ -4,13 +4,13 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=nBVuemyrMgE",
   "items": [
     {
-      "fa": "در سال ۲۰۱۸، پارک ملی المپیک با بزها مشکل داشت.",
+      "fa": "در سال ۲۰۱۸، پارک ملی المپیک گرفتارِ مشکلِ بزها بود.",
       "en": "In 2018, Olympic National Park had a goat problem.",
       "ipa": "ɪn ˈtwɛnti eɪˈtin oʊˈlɪmpɪk ˈnæʃənəl pɑrk hæd ə ɡoʊt ˈprɑbləm",
       "newPara": true
     },
     {
-      "fa": "بزهای کوهی، که در آن منطقه گونه‌ای مهاجم بودند،",
+      "fa": "بزهای کوهی، که در آن منطقه گونه‌ای مهاجم (غیربومی و دردسرساز) بودند،",
       "en": "Mountain goats, which were invasive to the area,",
       "ipa": "ˈmaʊntən ɡoʊts wɪtʃ wɚ ɪnˈveɪsɪv tə ði ˈɛriə",
       "words": [
@@ -18,13 +18,13 @@ DRILL({
           "w": "invasive",
           "ipa": "ɪnˈveɪsɪv",
           "m": "(of a plant or animal) not originally from a place and spreading in a harmful way",
-          "fa": "مهاجم (گونهٔ جانوری یا گیاهی)",
+          "fa": "مهاجم (گونهٔ غیربومی که به محیط آسیب می‌زند)",
           "more": "invade · invasion · invasive species"
         }
       ]
     },
     {
-      "fa": "به سمت بازدیدکنندگان یورش می‌بردند و گیاهان کمیاب را لگدمال می‌کردند.",
+      "fa": "به بازدیدکننده‌ها حمله‌ور می‌شدند و گیاهان کمیاب را زیر پا له می‌کردند.",
       "en": "were charging at visitors and trampling rare plants.",
       "ipa": "wɚ ˈtʃɑrdʒɪŋ ət ˈvɪzətɚz ənd ˈtræmplɪŋ rɛr plænts",
       "words": [
@@ -32,7 +32,7 @@ DRILL({
           "w": "to charge at",
           "ipa": "tə tʃɑrdʒ æt",
           "m": "to run quickly towards someone in order to attack them",
-          "fa": "یورش بردن به، حمله‌ور شدن به"
+          "fa": "حمله‌ور شدن به، یورش بردن به"
         },
         {
           "w": "to trample",
@@ -51,7 +51,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آن‌ها دنبال فقط یک چیز بودند: نمک.",
+      "fa": "آن‌ها فقط دنبال یک چیز بودند: نمک.",
       "en": "They were after one thing: salt.",
       "ipa": "ðeɪ wɚ ˈæftɚ wʌn θɪŋ sɔlt",
       "words": [
@@ -64,7 +64,7 @@ DRILL({
       ]
     },
     {
-      "fa": "وقتی کوهنوردان در طول مسیرهای پیاده‌روی حسابی عرق می‌کردند یا قضای حاجت می‌کردند،",
+      "fa": "وقتی کوهنوردها کنار مسیرهای پیاده‌روی حسابی عرق می‌کردند یا قضای حاجت می‌کردند،",
       "en": "As hikers worked up a sweat or relieved themselves along trails,",
       "ipa": "əz ˈhaɪkɚz wɝkt ʌp ə swɛt ɔr rɪˈlivd ðɛmˈsɛlvz əˈlɔŋ treɪlz",
       "words": [
@@ -97,7 +97,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برای این حیوانات گرسنهٔ نمک، جاذبه‌ای مقاومت‌ناپذیر درست می‌کردند.",
+      "fa": "برای این حیواناتِ گرسنهٔ نمک، جاذبه‌ای مقاومت‌ناپذیر درست می‌کردند.",
       "en": "they created an irresistible draw for these salt-hungry animals.",
       "ipa": "ðeɪ kriˈeɪtəd ən ˌɪrɪˈzɪstəbəl drɔ fɚ ðiz sɔlt ˈhʌŋɡri ˈænəməlz",
       "words": [
@@ -112,7 +112,7 @@ DRILL({
           "w": "draw",
           "ipa": "drɔ",
           "m": "something that attracts people or animals to a place",
-          "fa": "جاذبه، عامل کشش",
+          "fa": "جاذبه، چیزی که جذب می‌کند",
           "more": "attraction · pull"
         },
         {
@@ -125,7 +125,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اوضاع آن‌قدر خطرناک شد که گروه‌های کاری مجبور شدند صدها بز را به دام بیندازند",
+      "fa": "اوضاع آن‌قدر خطرناک شد که گروه‌های کاری مجبور شدند صدها بز را بگیرند",
       "en": "The situation became so dangerous that crews had to capture hundreds of goats",
       "ipa": "ðə ˌsɪtʃuˈeɪʃən bɪˈkeɪm soʊ ˈdeɪndʒərəs ðæt kruz hæd tə ˈkæptʃɚ ˈhʌndrədz əv ɡoʊts",
       "words": [
@@ -146,13 +146,13 @@ DRILL({
           "w": "to capture",
           "ipa": "tə ˈkæptʃɚ",
           "m": "to catch a person or animal and keep them as a prisoner",
-          "fa": "به دام انداختن، گرفتن",
+          "fa": "گرفتن، به دام انداختن",
           "more": "capture (n.) · captive"
         }
       ]
     },
     {
-      "fa": "و ترتیبی بدهند که با هوابرد از پارک بیرون برده شوند.",
+      "fa": "و ترتیبی بدهند که از راه هوا (با هلیکوپتر) از پارک بیرون برده شوند.",
       "en": "and have them airlifted out of the park.",
       "ipa": "ənd hæv ðɛm ˈɛrˌlɪftɪd aʊt əv ðə pɑrk",
       "words": [
@@ -160,7 +160,7 @@ DRILL({
           "w": "to airlift",
           "ipa": "tə ˈɛrˌlɪft",
           "m": "to carry people, animals or goods by plane or helicopter, especially away from a dangerous place",
-          "fa": "با هوابرد منتقل کردن، ترابری هوایی",
+          "fa": "از راه هوا جابه‌جا کردن (با هلیکوپتر یا هواپیما)",
           "more": "airlift (n.)"
         }
       ]
@@ -188,7 +188,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ولی همهٔ جانوران برای بسیاری از کارکردهای پایه‌ای زیستی به نمک، یا همان سدیم کلرید، متکی‌اند.",
+      "fa": "ولی همهٔ جانوران برای بسیاری از کارکردهای زیستیِ پایه‌ای‌شان به نمک، یعنی همان سدیم کلرید، وابسته‌اند.",
       "en": "but all animals rely on salt, or sodium chloride, for many basic biological functions.",
       "ipa": "bət ɔl ˈænəməlz rɪˈlaɪ ɑn sɔlt ɔr ˈsoʊdiəm ˈklɔraɪd fɚ ˈmɛni ˈbeɪsɪk ˌbaɪəˈlɑdʒɪkəl ˈfʌŋkʃənz",
       "words": [
@@ -196,7 +196,7 @@ DRILL({
           "w": "to rely on",
           "ipa": "tə rɪˈlaɪ ɑn",
           "m": "to need something or someone in order to work or survive",
-          "fa": "متکی بودن به، وابسته بودن به",
+          "fa": "وابسته بودن به، متکی بودن به",
           "more": "depend on · reliance · reliable"
         },
         {
@@ -216,7 +216,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برای مثال، هجوم ناگهانی سدیم همان محرکی است که باعث می‌شود سلول‌های عصبی شلیک کنند و پیام‌ها را دست‌به‌دست منتقل کنند.",
+      "fa": "برای مثال، ورود ناگهانیِ سدیم همان تلنگری است که باعث می‌شود سلول‌های عصبی فعال شوند (به اصطلاح «شلیک کنند») و پیام‌ها را به هم برسانند.",
       "en": "An influx of sodium, for example, is the trigger that causes nerve cells to fire and relay messages.",
       "ipa": "ən ˈɪnˌflʌks əv ˈsoʊdiəm fɚ ɪɡˈzæmpəl ɪz ðə ˈtrɪɡɚ ðæt ˈkɑzəz nɝv sɛlz tə ˈfaɪɚ ənd ˌriˈleɪ ˈmɛsədʒəz",
       "words": [
@@ -224,14 +224,14 @@ DRILL({
           "w": "influx",
           "ipa": "ˈɪnˌflʌks",
           "m": "a sudden arrival of a large number of people or a large amount of something",
-          "fa": "هجوم، ورود ناگهانی",
+          "fa": "ورود ناگهانیِ مقدار زیاد",
           "more": "an influx of tourists · inflow"
         },
         {
           "w": "trigger",
           "ipa": "ˈtrɪɡɚ",
           "m": "something that makes another thing start to happen",
-          "fa": "ماشه، محرک",
+          "fa": "تلنگر، عامل شروع (مثل ماشهٔ تفنگ)",
           "more": "trigger (v.) · set off"
         },
         {
@@ -251,7 +251,7 @@ DRILL({
           "w": "to fire",
           "ipa": "tə ˈfaɪɚ",
           "m": "(of a nerve cell) to send an electrical signal",
-          "fa": "شلیک کردن (نورون)، فعال شدن"
+          "fa": "فعال شدن و پیام فرستادن (سلول عصبی)"
         },
         {
           "w": "to relay",
@@ -263,7 +263,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در حالی که کلرید جزء کلیدیِ اسید معده است که به هضم غذا کمک می‌کند.",
+      "fa": "در حالی که کلرید یکی از اجزای کلیدیِ اسید معده است که به هضم غذا کمک می‌کند.",
       "en": "While chloride is a key component in stomach acid that helps digest food.",
       "ipa": "waɪl ˈklɔraɪd ɪz ə ki kəmˈpoʊnənt ɪn ˈstʌmək ˈæsəd ðæt hɛlps daɪˈdʒɛst fud",
       "words": [
@@ -298,7 +298,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و انسان‌ها هم، درست مثل همان بزهای دیوانهٔ نمک،",
+      "fa": "و انسان‌ها هم، درست مثل آن بزهایی که برای نمک دیوانه بودند،",
       "en": "And humans, just like those salt-crazed goats,",
       "ipa": "ənd ˈhjumənz dʒʌst laɪk ðoʊz sɔlt kreɪzd ɡoʊts",
       "newPara": true,
@@ -313,10 +313,10 @@ DRILL({
       ]
     },
     {
-      "fa": "به همان اندازه به هر دری زده‌اند تا به اعتیادِ نمکیِ خودشان خوراک برسانند.",
+      "fa": "به همان اندازه به هر دری زده‌اند تا «دوزِ» نمکِ خودشان را جور کنند.",
       "en": "have gone to similarly great lengths to feed their own salt fixes.",
       "ipa": "hæv ɡɔn tə ˈsɪməlɚli ɡreɪt lɛŋkθs tə fid ðɛr oʊn sɔlt ˈfɪksɪz",
-      "note": "<en>fix</en> در اینجا یعنی دوزی که آدمِ معتاد به آن نیاز دارد؛ نیاز به نمک به اعتیاد تشبیه شده است.",
+      "note": "<en>fix</en> در زبان محاوره یعنی همان مقداری که آدمِ معتاد هر بار نیاز دارد («دوز»)؛ اینجا نیازِ انسان به نمک به اعتیاد تشبیه شده است.",
       "words": [
         {
           "w": "to go to great lengths",
@@ -336,20 +336,20 @@ DRILL({
           "w": "to feed a habit",
           "ipa": "tə fid ə ˈhæbət",
           "m": "to give yourself the thing you are addicted to or always want",
-          "fa": "خوراک رساندن به (عادت یا اعتیاد)",
+          "fa": "(نیازِ عادت یا اعتیاد را) تأمین کردن، جور کردن",
           "more": "feed an addiction"
         },
         {
           "w": "fix",
           "ipa": "fɪks",
           "m": "(informal) an amount of something that you need and want very strongly, like a drug",
-          "fa": "دوز، خوراک (اعتیاد)",
+          "fa": "دوز (آنچه معتاد هر بار نیاز دارد)",
           "more": "get your fix · a caffeine fix"
         }
       ]
     },
     {
-      "fa": "نیاکان شکارچی-گردآورندهٔ ما نیاز به نمک را عمدتاً با خوردن جانوران دیگر برطرف می‌کردند.",
+      "fa": "نیاکانِ ما که از راه شکار و جمع‌کردنِ خوراک زندگی می‌کردند، نیازشان به نمک را بیشتر با خوردن جانوران دیگر برطرف می‌کردند.",
       "en": "Our hunter-gatherer ancestors satisfied the need for salt primarily by eating other animals.",
       "ipa": "ˈaʊɚ ˈhʌntɚ ˈɡæðərɚ ˈænˌsɛstɚz ˈsætəˌsfaɪd ðə nid fɚ sɔlt praɪˈmɛrəli baɪ ˈitɪŋ ˈʌðɚ ˈænəməlz",
       "words": [
@@ -357,7 +357,7 @@ DRILL({
           "w": "hunter-gatherer",
           "ipa": "ˈhʌntɚ ˈɡæðərɚ",
           "m": "a member of a group of people who live by hunting animals and collecting wild plants",
-          "fa": "شکارچی-گردآورنده"
+          "fa": "شکارچی-گردآورنده (انسانی که از شکار و جمع‌کردن گیاهان وحشی زندگی می‌کند)"
         },
         {
           "w": "ancestor",
@@ -377,7 +377,7 @@ DRILL({
           "w": "primarily",
           "ipa": "praɪˈmɛrəli",
           "m": "mainly; mostly",
-          "fa": "عمدتاً، اساساً",
+          "fa": "بیشتر، عمدتاً",
           "more": "primary · mainly"
         }
       ]
@@ -404,7 +404,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بنابراین وقتی حدود ۱۱٬۰۰۰ سال پیش کشاورزی رونق گرفت، رسمِ افزودن نمک به غذا آغاز شد.",
+      "fa": "بنابراین وقتی حدود ۱۱٬۰۰۰ سال پیش کشاورزی رونق گرفت، رسمِ اضافه‌کردنِ نمک به غذا شروع شد.",
       "en": "So, when agriculture flourished around 11,000 years ago, the practice of adding salt to food began.",
       "ipa": "soʊ wɛn ˈæɡrɪˌkʌltʃɚ ˈflɝɪʃt əˈraʊnd ɪˈlɛvən ˈθaʊzənd jɪrz əˈɡoʊ ðə ˈpræktəs əv ˈædɪŋ sɔlt tə fud bɪˈɡæn",
       "words": [
@@ -485,7 +485,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در نواحیِ دور از دریا، ساکنانِ باستانیِ کرانهٔ رودی شور در مرکز چین",
+      "fa": "در خشکی و دور از دریا، مردمانِ باستانی‌ای که کنار رودی شور در مرکز چین ساکن شده بودند،",
       "en": "Inland, ancient settlers along a salty river in central China",
       "ipa": "ˈɪnˌlænd ˈeɪntʃənt ˈsɛtlɚz əˈlɔŋ ə ˈsɔlti ˈrɪvɚ ɪn ˈsɛntrəl ˈtʃaɪnə",
       "words": [
@@ -505,7 +505,7 @@ DRILL({
           "w": "settler",
           "ipa": "ˈsɛtəlɚ",
           "m": "a person who goes to live in a new place where few people have lived before",
-          "fa": "ساکن، مهاجرنشین",
+          "fa": "کسی که در جایی تازه ساکن می‌شود، مهاجرِ ساکن‌شده",
           "more": "settle · settlement"
         },
         {
@@ -517,7 +517,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آب رود را در خمره‌های بزرگ می‌جوشاندند تا آب را بخار کنند و بلورهای نمک را برداشت کنند.",
+      "fa": "آب رود را در دیگ‌های بزرگ می‌جوشاندند تا آبش بخار شود و بلورهای نمک را برداشت کنند.",
       "en": "boiled river water in vats to evaporate the water and harvest the salt crystals.",
       "ipa": "bɔɪld ˈrɪvɚ ˈwɔtɚ ɪn væts tə ɪˈvæpəˌreɪt ðə ˈwɔtɚ ənd ˈhɑrvəst ðə sɔlt ˈkrɪstəlz",
       "words": [
@@ -531,7 +531,7 @@ DRILL({
           "w": "vat",
           "ipa": "væt",
           "m": "a very large container for holding liquids",
-          "fa": "خمره، دیگ بزرگ"
+          "fa": "دیگ یا مخزن بزرگ"
         },
         {
           "w": "to harvest",
@@ -543,7 +543,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در همین حال، معدنچی‌ها در جایی که امروز هالشتات در اتریش است، دل کوه‌ها را می‌شکافتند تا نمک سنگ برداشت کنند،",
+      "fa": "در همین حال، معدنچی‌ها در جایی که امروز هالشتاتِ اتریش است، دلِ کوه‌ها را می‌کندند تا سنگ‌نمک برداشت کنند،",
       "en": "Meanwhile, miners in what's today Hallstatt, Austria, cut into mountains to harvest rock salt,",
       "ipa": "ˈminˌwaɪl ˈmaɪnɚz ɪn wʌts təˈdeɪ ˈhælstət ˈɔstriə kʌt ɪnˈtu ˈmaʊntənz tə ˈhɑrvəst rɑk sɔlt",
       "words": [
@@ -564,18 +564,18 @@ DRILL({
           "w": "to cut into",
           "ipa": "tə kʌt ɪnˈtu",
           "m": "to make an opening into something by cutting or digging",
-          "fa": "شکافتن، کندن (دل چیزی)"
+          "fa": "کندن، شکافتنِ (دلِ چیزی)"
         },
         {
           "w": "rock salt",
           "ipa": "rɑk sɔlt",
           "m": "salt found as a solid mineral in the ground",
-          "fa": "نمک سنگ"
+          "fa": "سنگ‌نمک"
         }
       ]
     },
     {
-      "fa": "که پس از تبخیر دریاهای باستانی، مدت‌ها زیر خاک مدفون مانده بود.",
+      "fa": "که پس از بخار شدنِ دریاهای باستانی، مدت‌های طولانی زیر خاک دفن مانده بود.",
       "en": "long buried in the earth after ancient seas evaporated.",
       "ipa": "lɔŋ ˈbɛrid ɪn ði ɝθ ˈæftɚ ˈeɪntʃənt siz ɪˈvæpəˌreɪtəd",
       "words": [
@@ -583,7 +583,7 @@ DRILL({
           "w": "to bury",
           "ipa": "tə ˈbɛri",
           "m": "to put something under the ground or cover it with earth",
-          "fa": "دفن کردن، مدفون کردن",
+          "fa": "دفن کردن، زیر خاک کردن",
           "more": "burial · buried"
         }
       ]
@@ -611,7 +611,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که به تمدن‌های باستانی امکان می‌داد ماهی، گوشت‌ها، میوه و سبزی و لبنیات را سالم نگه دارند.",
+      "fa": "و به تمدن‌های باستانی امکان می‌داد ماهی، انواع گوشت، میوه و سبزی و لبنیات را از خراب‌شدن حفظ کنند.",
       "en": "allowing ancient civilizations to preserve fish, meats, produce, and dairy.",
       "ipa": "əˈlaʊɪŋ ˈeɪntʃənt ˌsɪvəlɪˈzeɪʃənz tə prəˈzɝv fɪʃ mits prəˈdus ənd ˈdɛri",
       "words": [
@@ -626,7 +626,7 @@ DRILL({
           "w": "to preserve",
           "ipa": "tə prəˈzɝv",
           "m": "to treat food so that it stays good for a long time",
-          "fa": "نگه‌داشتن (غذا از فساد)",
+          "fa": "(غذا را) از خراب شدن حفظ کردن، نگه‌داری کردن",
           "more": "preservative · preservation"
         },
         {
@@ -646,7 +646,7 @@ DRILL({
       ]
     },
     {
-      "fa": "نمک باکتری‌هایی را می‌کشد که در غیر این صورت غذا را فاسد می‌کردند،",
+      "fa": "نمک باکتری‌هایی را می‌کشد که وگرنه غذا را فاسد می‌کردند،",
       "en": "Salt kills the bacteria that would otherwise spoil food",
       "ipa": "sɔlt kɪlz ðə bækˈtɪriə ðæt wʊd ˈʌðɚˌwaɪz spɔɪl fud",
       "words": [
@@ -661,7 +661,7 @@ DRILL({
           "w": "otherwise",
           "ipa": "ˈʌðɚˌwaɪz",
           "m": "if not; or else",
-          "fa": "در غیر این صورت",
+          "fa": "وگرنه، در غیر این صورت",
           "more": "or else"
         },
         {
@@ -674,7 +674,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با بیرون مکیدنِ آب از سلول‌های این میکروب‌ها.",
+      "fa": "با مکیدنِ آب از سلول‌های این میکروب‌ها.",
       "en": "by sucking water from these microbe’s cells.",
       "ipa": "baɪ ˈsʌkɪŋ ˈwɔtɚ frəm ðiz ˈmaɪˌkroʊbz sɛlz",
       "words": [
@@ -695,7 +695,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و نمک به‌خاطر اینکه مزهٔ غذا را بهتر می‌کرد هم بسیار ارج نهاده می‌شد.",
+      "fa": "و نمک به این خاطر هم که مزهٔ غذا را بهتر می‌کرد، خیلی ارزشمند شمرده می‌شد.",
       "en": "And salt was also prized for making food taste better.",
       "ipa": "ənd sɔlt wəz ˈɔlsoʊ praɪzd fɚ ˈmeɪkɪŋ fud teɪst ˈbɛtɚ",
       "words": [
@@ -703,13 +703,13 @@ DRILL({
           "w": "to be prized for",
           "ipa": "tə bi praɪzd fɔr",
           "m": "to be very highly valued because of a particular quality",
-          "fa": "به‌خاطر چیزی ارج نهاده شدن، ارزشمند بودن",
+          "fa": "به‌خاطر چیزی خیلی ارزشمند بودن",
           "more": "prized (adj.) · treasure · value"
         }
       ]
     },
     {
-      "fa": "یک پَر نمک، ته‌مزه‌های تلخ را می‌پوشاند و طعم‌های ترش، شیرین و اومامی را برجسته می‌کند.",
+      "fa": "یک ذره نمک، ته‌مزه‌های تلخ را می‌پوشاند و طعم‌های ترش، شیرین و اومامی را برجسته می‌کند.",
       "en": "A pinch will mask bitter notes and bring out sour, sweet, and umami flavors.",
       "ipa": "ə pɪntʃ wɪl mæsk ˈbɪtɚ noʊts ənd brɪŋ aʊt ˈsaʊɚ swit ənd juˈmɑri ˈfleɪvɚz",
       "words": [
@@ -717,7 +717,7 @@ DRILL({
           "w": "pinch",
           "ipa": "pɪntʃ",
           "m": "a very small amount of something held between your finger and thumb",
-          "fa": "یک پَر، یک‌ذره (نمک، ادویه)",
+          "fa": "یک ذره (به اندازهٔ نوک دو انگشت)",
           "more": "a pinch of salt"
         },
         {
@@ -764,7 +764,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ریختنِ مقدار بیشتری از آن، شیرینی را می‌پوشاند و اومامی را بالا می‌برد.",
+      "fa": "ریختنِ مقدارِ بیشتری از آن، شیرینی را می‌پوشاند و طعم اومامی را بالا می‌برد.",
       "en": "A heavier pour will mask sweetness and up the umami.",
       "ipa": "ə ˈhɛviɚ pɔr wɪl mæsk ˈswitnəs ənd ʌp ðə juˈmɑri",
       "words": [
@@ -772,7 +772,7 @@ DRILL({
           "w": "pour",
           "ipa": "pɔr",
           "m": "(noun) an amount of something poured at one time",
-          "fa": "مقدار ریخته‌شده",
+          "fa": "(مقدارِ) ریختن",
           "more": "a heavy pour · pour (v.)"
         },
         {
@@ -785,7 +785,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با این حال، اینکه نمک دقیقاً چطور این دگرگونی‌ها را انجام می‌دهد، هنوز معماست.",
+      "fa": "با این حال، اینکه نمک دقیقاً چطور این تغییرها را ایجاد می‌کند، هنوز معماست.",
       "en": "However, exactly how salt performs these transformations is still a mystery.",
       "ipa": "ˌhaʊˈɛvɚ ɪɡˈzæktli haʊ sɔlt pɚˈfɔrmz ðiz ˌtrænsfɚˈmeɪʃənz ɪz stɪl ə ˈmɪstəri",
       "words": [
@@ -799,14 +799,14 @@ DRILL({
           "w": "to perform",
           "ipa": "tə pɚˈfɔrm",
           "m": "to do a piece of work or a task",
-          "fa": "انجام دادن",
+          "fa": "انجام دادن، ایجاد کردن",
           "more": "performance · carry out"
         },
         {
           "w": "transformation",
           "ipa": "ˌtrænsfɚˈmeɪʃən",
           "m": "a complete change in the form or nature of something",
-          "fa": "دگرگونی، تحول",
+          "fa": "تغییرِ اساسی، دگرگونی",
           "more": "transform"
         },
         {
@@ -819,7 +819,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس هرجا نمک فراوان بود، انسان‌ها آن را برداشت می‌کردند تا با مناطقِ گرسنهٔ نمک دادوستد کنند.",
+      "fa": "پس هر جا نمک فراوان بود، انسان‌ها آن را برداشت می‌کردند تا با مناطقی که گرسنهٔ نمک بودند دادوستد کنند.",
       "en": "So wherever salt was plentiful, humans harvested it to trade with salt-hungry regions.",
       "ipa": "soʊ wɛˈrɛvɚ sɔlt wəz ˈplɛntəfəl ˈhjumənz ˈhɑrvəstəd ɪt tə treɪd wɪð sɔlt ˈhʌŋɡri ˈridʒənz",
       "newPara": true,
@@ -848,7 +848,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از همان هزارهٔ اول میلادی، کاروان‌های عظیمی از شترها",
+      "fa": "از همان هزارهٔ اول میلادی، کاروان‌های عظیمِ شتر",
       "en": "As early as the 1st millennia CE, huge caravans of camels",
       "ipa": "əz ˈɝli əz ðə fɝst məˈlɛniə ˌsiˈi hjudʒ ˈkærəˌvænz əv ˈkæməlz",
       "words": [
@@ -874,7 +874,7 @@ DRILL({
       ]
     },
     {
-      "fa": "قالب‌های تخت و بزرگِ نمکِ استخراج‌شده در صحرای بزرگ آفریقا را به غرب آفریقا می‌بردند.",
+      "fa": "قالب‌های تخت و بزرگِ نمک را که در صحرای آفریقا استخراج شده بود، به غرب آفریقا می‌بردند.",
       "en": "moved slabs of salt mined in the Sahara to West Africa.",
       "ipa": "muvd slæbz əv sɔlt maɪnd ɪn ðə səˈhɛrə tə wɛst ˈæfrəkə",
       "words": [
@@ -882,7 +882,7 @@ DRILL({
           "w": "slab",
           "ipa": "slæb",
           "m": "a thick, flat piece of a hard material, such as stone",
-          "fa": "قالب، تختهٔ (سنگ و…)"
+          "fa": "قالبِ تخت و ضخیم (سنگ، نمک و…)"
         },
         {
           "w": "to mine",
@@ -894,7 +894,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اینجا، ذخایر نمک آن‌قدر کمیاب بود که مردم در ازای این کالای گران‌بها، مقدار برابری گرد طلا تحویل می‌دادند.",
+      "fa": "در آنجا موجودیِ نمک آن‌قدر کم بود که مردم در ازای این کالای گران‌بها، همان مقدار گردِ طلا تحویل می‌دادند.",
       "en": "Here, salt supplies were so rare that people handed over equal quantities of gold dust for the precious commodity.",
       "ipa": "hɪr sɔlt səˈplaɪz wɚ soʊ rɛr ðæt ˈpipəl ˈhændəd ˈoʊvɚ ˈikwəl ˈkwɑntətiz əv ɡoʊld dʌst fɚ ðə ˈprɛʃəs kəˈmɑdəti",
       "words": [
@@ -902,7 +902,7 @@ DRILL({
           "w": "supply",
           "ipa": "səˈplaɪ",
           "m": "an amount of something that is available to be used",
-          "fa": "ذخیره، موجودی",
+          "fa": "موجودی، ذخیره",
           "more": "supplies (pl.) · in short supply"
         },
         {
@@ -1012,7 +1012,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و اما دربارهٔ نمکِ سرِ میز: نخستین ظرف‌های شناخته‌شده برای بیرون دادنِ نمک،",
+      "fa": "و اما نمکِ سرِ میز: نخستین ظرف‌های شناخته‌شده برای ریختن و برداشتنِ نمک،",
       "en": "As for salt on tables, the first known containers for dispensing salt,",
       "ipa": "əz fɚ sɔlt ɑn ˈteɪbəlz ðə fɝst noʊn kənˈteɪnɚz fɚ dɪˈspɛnsɪŋ sɔlt",
       "newPara": true,
@@ -1033,7 +1033,7 @@ DRILL({
           "w": "to dispense",
           "ipa": "tə dɪˈspɛns",
           "m": "to give out a fixed amount of something",
-          "fa": "بیرون دادن، توزیع کردن (به‌اندازه)",
+          "fa": "(به‌اندازه) بیرون دادن، ریختن",
           "more": "dispenser"
         }
       ]
@@ -1060,7 +1060,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بسیاری از پژوهشگران بر این باورند که در ضیافت‌های اروپای قرون وسطی،",
+      "fa": "بسیاری از پژوهشگران بر این باورند که در مهمانی‌های مجللِ اروپای قرون وسطی،",
       "en": "Many scholars believe that at banquets in medieval Europe,",
       "ipa": "ˈmɛni ˈskɑlɚz bɪˈliv ðæt ət ˈbæŋkwəts ɪn mɪˈdivəl ˈjʊrəp",
       "words": [
@@ -1075,20 +1075,20 @@ DRILL({
           "w": "banquet",
           "ipa": "ˈbæŋkwət",
           "m": "a large formal meal for many people",
-          "fa": "ضیافت",
+          "fa": "ضیافت، مهمانیِ مجلل",
           "more": "feast"
         },
         {
           "w": "medieval",
           "ipa": "mɪˈdivəl",
           "m": "belonging to the period in Europe from about 500 to 1500 AD",
-          "fa": "قرون‌وسطایی",
+          "fa": "مربوط به قرون وسطی",
           "more": "the Middle Ages"
         }
       ]
     },
     {
-      "fa": "این نمکدان‌های پرنقش‌ونگار نشان‌دهندهٔ جایگاه اجتماعی بودند،",
+      "fa": "این نمکدان‌های پرنقش‌ونگار نشانهٔ جایگاه اجتماعی بودند،",
       "en": "these elaborate cellars marked social status,",
       "ipa": "ðiz ɪˈlæbrət ˈsɛlɚz mɑrkt ˈsoʊʃəl ˈstætəs",
       "words": [
@@ -1116,7 +1116,7 @@ DRILL({
       ]
     },
     {
-      "fa": "چون مهم‌ترین اعضای جامعه در یک سرِ میز، بالاتر از نمک، می‌نشستند",
+      "fa": "چون مهم‌ترین افراد جامعه در یک سرِ میز، «بالای نمک»، می‌نشستند",
       "en": "as the most important society members sat on one end of the table above the salt",
       "ipa": "əz ðə moʊst ɪmˈpɔrtənt səˈsaɪəti ˈmɛmbɚz sæt ɑn wʌn ɛnd əv ðə ˈteɪbəl əˈbʌv ðə sɔlt",
       "words": [
@@ -1129,7 +1129,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و کم‌اهمیت‌ترها پایین‌تر از آن.",
+      "fa": "و افراد کم‌اهمیت‌تر «پایینِ» آن.",
       "en": "and the less important sat below it.",
       "ipa": "ənd ðə lɛs ɪmˈpɔrtənt sæt bɪˈloʊ ɪt"
     },
@@ -1169,7 +1169,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در قرن هجدهم، یک مالیات نمکِ نامحبوب در فرانسه —",
+      "fa": "در قرن هجدهم، مالیاتِ نامحبوبی بر نمک در فرانسه —",
       "en": "In the 18th century, an unpopular salt tax in France,",
       "ipa": "ɪn ði eɪˈtinθ ˈsɛntʃəri ən ˌʌnˈpɑpjəlɚ sɔlt tæks ɪn fræns",
       "words": [
@@ -1189,7 +1189,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که اشراف از پرداختش معاف بودند — به برانگیختن انقلاب فرانسه کمک کرد.",
+      "fa": "که اشراف از پرداختش معاف بودند — به شعله‌ور شدنِ انقلاب فرانسه دامن زد.",
       "en": "which nobility was exempt from paying, helped spur the French Revolution.",
       "ipa": "wɪtʃ noʊˈbɪləti wəz ɪɡˈzɛmpt frəm ˈpeɪɪŋ hɛlpt spɝ ðə frɛntʃ ˌrɛvəˈluʃən",
       "words": [
@@ -1211,7 +1211,7 @@ DRILL({
           "w": "to spur",
           "ipa": "tə spɝ",
           "m": "to encourage something to happen or to happen faster",
-          "fa": "برانگیختن، دامن زدن به",
+          "fa": "دامن زدن به، برانگیختن",
           "more": "spur on · trigger · prompt"
         },
         {
@@ -1287,7 +1287,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا آغاز قرن بیستم، با صنعتی‌شدن و کشف ذخایرِ نمکیِ بیشتر،",
+      "fa": "تا آغاز قرن بیستم، با صنعتی‌شدن و کشفِ ذخایر تازهٔ نمک در زیر زمین،",
       "en": "By the turn of the 20th century, with industrialization and the discovery of additional salt deposits,",
       "ipa": "baɪ ðə tɝn əv ðə ˈtwɛntiəθ ˈsɛntʃəri wɪð ɪnˌdʌstriəlɪˈzeɪʃən ənd ðə dɪˈskʌvəri əv əˈdɪʃənəl sɔlt dəˈpɑzɪts",
       "newPara": true,
@@ -1323,13 +1323,13 @@ DRILL({
           "w": "deposit",
           "ipa": "dəˈpɑzɪt",
           "m": "a layer of a natural substance found in the ground",
-          "fa": "ذخیره، کانسار (معدنی)",
+          "fa": "ذخیره، لایهٔ (معدنی) در زیر زمین",
           "more": "mineral deposits · oil deposits"
         }
       ]
     },
     {
-      "fa": "تولید جهانی نمک به‌شکل انفجاری بالا رفت و قیمتش پایین آمد.",
+      "fa": "تولید جهانی نمک یک‌باره جهش کرد و قیمتش پایین آمد.",
       "en": "global salt production exploded and the price dropped.",
       "ipa": "ˈɡloʊbəl sɔlt prəˈdʌkʃən ɪkˈsploʊdəd ənd ðə praɪs drɑpt",
       "words": [
@@ -1351,7 +1351,7 @@ DRILL({
           "w": "to explode",
           "ipa": "tə ɪkˈsploʊd",
           "m": "to increase suddenly and by a very large amount",
-          "fa": "انفجاری بالا رفتن",
+          "fa": "(ناگهان) جهش کردن، به‌شدت بالا رفتن",
           "more": "explosion · soar"
         },
         {
@@ -1364,7 +1364,7 @@ DRILL({
       ]
     },
     {
-      "fa": "چیزی نگذشت که تولیدکنندگان نمک هر سال میلیون‌ها تن متریک نمک برداشت می‌کردند،",
+      "fa": "طولی نکشید که تولیدکنندگان نمک هر سال میلیون‌ها تن نمک برداشت می‌کردند،",
       "en": "Soon, salt producers were harvesting millions of metric tons of salt every year,",
       "ipa": "sun sɔlt prəˈdusɚz wɚ ˈhɑrvəstɪŋ ˈmɪljənz əv ˈmɛtrɪk tʌnz əv sɔlt ˈɛvəri jɪr",
       "words": [
@@ -1384,7 +1384,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با همان روش‌هایی که در طول هزاران سال صیقل خورده و پخته شده‌اند،",
+      "fa": "با همان روش‌هایی که طیِ هزاران سال کم‌کم کامل‌تر و دقیق‌تر شده بودند،",
       "en": "using the same methods that have been honed for thousands of years,",
       "ipa": "ˈjuzɪŋ ðə seɪm ˈmɛθədz ðæt hæv bɪn hoʊnd fɚ ˈθaʊzəndz əv jɪrz",
       "words": [
@@ -1398,13 +1398,13 @@ DRILL({
           "w": "to hone",
           "ipa": "tə hoʊn",
           "m": "to improve a skill or method over time until it is very good",
-          "fa": "صیقل دادن، پخته کردن",
+          "fa": "(روش یا مهارت را) کم‌کم کامل کردن، صیقل دادن",
           "more": "refine · perfect"
         }
       ]
     },
     {
-      "fa": "فقط با کمکِ ابزارهای پیشرفته‌تر و انفجاری‌تر.",
+      "fa": "فقط با این فرق که ابزارهای پیشرفته‌تر و انفجاری‌تری به کمکشان آمده بود.",
       "en": "only with the help of more sophisticated and explosive tools.",
       "ipa": "ˈoʊnli wɪð ðə hɛlp əv mɔr səˈfɪstəˌkeɪtɪd ənd ɪkˈsploʊsɪv tulz",
       "words": [
@@ -1425,7 +1425,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و پاشیدنِ این وفورِ نمک روی هر وعدهٔ غذا از هر زمانی آسان‌تر شده بود،",
+      "fa": "و پاشیدنِ این نمکِ فراوان روی هر وعده غذا، از هر زمان دیگری آسان‌تر شده بود،",
       "en": "And sprinkling this abundance of salt on every meal was easier than ever before",
       "ipa": "ənd ˈsprɪŋklɪŋ ðɪs əˈbʌndəns əv sɔlt ɑn ˈɛvəri mil wəz ˈiziɚ ðən ˈɛvɚ bɪˈfɔr",
       "newPara": true,
@@ -1441,7 +1441,7 @@ DRILL({
           "w": "abundance",
           "ipa": "əˈbʌndəns",
           "m": "a very large amount of something, more than enough",
-          "fa": "وفور، فراوانی",
+          "fa": "فراوانی، وفور",
           "more": "abundant · an abundance of"
         },
         {
@@ -1467,7 +1467,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شروع کرد به افزودنِ کربنات منیزیم تا جلوی کلوخه‌شدنِ نمک را در آشپزخانه‌های مرطوب بگیرد.",
+      "fa": "شروع کرد به اضافه‌کردنِ کربنات منیزیم تا در آشپزخانه‌های مرطوب جلوی گلوله‌گلوله شدنِ نمک را بگیرد.",
       "en": "began adding magnesium carbonate to prevent salt from clumping in humid kitchens.",
       "ipa": "bɪˈɡæn ˈædɪŋ mæɡˈniziəm ˈkɑrbəˌneɪt tə prɪˈvɛnt sɔlt frəm ˈklʌmpɪŋ ɪn ˈhjuməd ˈkɪtʃənz",
       "words": [
@@ -1482,7 +1482,7 @@ DRILL({
           "w": "to clump",
           "ipa": "tə klʌmp",
           "m": "to come together to form a tight mass",
-          "fa": "کلوخه شدن، گلوله شدن",
+          "fa": "گلوله شدن، به هم چسبیدن و کلوخه شدن",
           "more": "clump (n.) · clump together"
         },
         {
@@ -1495,7 +1495,7 @@ DRILL({
       ]
     },
     {
-      "fa": "حالا که نمک آزادانه روان بود، اختراع نمک‌پاش و فلفل‌پاش هم به دنبالش آمد.",
+      "fa": "حالا که نمک می‌توانست آزادانه جریان پیدا کند، اختراع نمک‌پاش و فلفل‌پاش هم پشت سرش آمد.",
       "en": "With salt free to flow, the invention of salt and pepper shakers followed.",
       "ipa": "wɪð sɔlt fri tə floʊ ði ɪnˈvɛnʃən əv sɔlt ənd ˈpɛpɚ ˈʃeɪkɚz ˈfɑloʊd",
       "words": [
@@ -1503,7 +1503,7 @@ DRILL({
           "w": "to flow",
           "ipa": "tə floʊ",
           "m": "to move along smoothly and without stopping",
-          "fa": "روان بودن، جاری شدن",
+          "fa": "جریان پیدا کردن، روان بودن",
           "more": "free-flowing · flow (n.)"
         },
         {
@@ -1530,7 +1530,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این دو، جفتِ روحیِ دنیای چاشنی‌ها شدند،",
+      "fa": "این دو در دنیای چاشنی‌ها نیمهٔ گمشدهٔ هم شدند،",
       "en": "The pair became seasoning soulmates,",
       "ipa": "ðə pɛr bɪˈkeɪm ˈsizənɪŋ ˈsoʊlməts",
       "words": [
@@ -1551,12 +1551,12 @@ DRILL({
           "w": "soulmate",
           "ipa": "ˈsoʊlmət",
           "m": "a person you feel very close to because you understand each other perfectly",
-          "fa": "جفت روحی، همدم"
+          "fa": "نیمهٔ گمشده، جفت روحی"
         }
       ]
     },
     {
-      "fa": "و مرتب زینت‌بخشِ رویهٔ میزها در سراسر آمریکای شمالی و اروپا بودند.",
+      "fa": "و همیشه زینت‌بخشِ میزها در سراسر آمریکای شمالی و اروپا بودند.",
       "en": "regularly adorning tabletops across North America and Europe.",
       "ipa": "ˈrɛɡjəlɚli əˈdɔrnɪŋ ˈteɪbəltˌpɑps əˈkrɔs nɔrθ əˈmɛrəkə ənd ˈjʊrəp",
       "words": [
@@ -1582,7 +1582,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس چطور شد که فلفل کم‌کم کنار نمک روی این‌همه میز شام جا گرفت و به آن پیوست؟",
+      "fa": "پس چطور شد که فلفل کم‌کم روی این‌همه میز شام به نمک پیوست؟",
       "en": "So how did pepper come to join salt on so many dinner tables?",
       "ipa": "soʊ haʊ dɪd ˈpɛpɚ kʌm tə dʒɔɪn sɔlt ɑn soʊ ˈmɛni ˈdɪnɚ ˈteɪbəlz",
       "words": [

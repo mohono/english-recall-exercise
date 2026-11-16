@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=h6CmKF-mN2U",
   "items": [
     {
-      "fa": "مورگان و خواهرِ دوقلویش لیزا از بدوِ تولد جدانشدنی بوده‌اند.",
+      "fa": "مورگان و خواهرِ دوقلویش لیزا از وقتی به دنیا آمده‌اند، از هم جدانشدنی بوده‌اند.",
       "en": "Morgan and her twin sister Lisa have been inseparable since birth.",
       "ipa": "ˈmɔrɡən ənd hɚ twɪn ˈsɪstɚ ˈlisə hæv bɪn ɪnˈsɛpərəbəl sɪns bɝθ",
       "newPara": true,
@@ -27,13 +27,13 @@ DRILL({
           "w": "since birth",
           "ipa": "sɪns bɝθ",
           "m": "from the time someone was born",
-          "fa": "از بدوِ تولد",
+          "fa": "از وقتِ تولد، از بدوِ تولد",
           "more": "from birth"
         }
       ]
     },
     {
-      "fa": "پس هیچ‌کس تعجب نکرد وقتی به خانه‌هایی کاملاً یکسان، درست بغلِ هم، نقل‌مکان کردند.",
+      "fa": "پس وقتی به دو خانهٔ عینِ هم، درست کنارِ همدیگر، نقل‌مکان کردند، هیچ‌کس تعجب نکرد.",
       "en": "So nobody was surprised when they moved into identical houses right next to each other.",
       "ipa": "soʊ ˈnoʊˌbɑˌdi wəz sɚˈpraɪzd wɛn ðeɪ muvd ɪnˈtu aɪˈdɛntɪkəl ˈhaʊsəz raɪt nɛkst tə itʃ ˈʌðɚ",
       "words": [
@@ -61,7 +61,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تنها تفاوت؟ مورگان خانه‌اش را خرید، در حالی که لیزا خانه‌اش را اجاره کرده و مستأجرِ آن است.",
+      "fa": "تنها تفاوت؟ مورگان خانه‌اش را خرید، در حالی که لیزا خانه‌اش را اجاره کرده است.",
       "en": "The only difference? Morgan bought her house, while Lisa is renting hers.",
       "ipa": "ði ˈoʊnli ˈdɪfərəns ˈmɔrɡən bɑt hɚ haʊs waɪl ˈlisə ɪz ˈrɛntɪŋ hɚz",
       "words": [
@@ -299,7 +299,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با جمعِ پیش‌پرداختِ ۱۰ درصدیِ مورگان و چند کارمزدِ اضافه که به «هزینه‌های نهاییِ معامله» معروف‌اند،",
+      "fa": "با جمعِ پیش‌پرداختِ ۱۰ درصدیِ مورگان و چند کارمزدِ اضافه که به «هزینه‌های بستنِ معامله» معروف‌اند،",
       "en": "Between Morgan’s 10% down payment and a few extra fees, known as closing costs,",
       "ipa": "bɪˈtwin ˈmɔrɡənz tɛn pɚˈsɛnt daʊn ˈpeɪmənt ənd ə fju ˈɛkstrə fiz noʊn əz ˈkloʊzɪŋ kɑsts",
       "note": "<en>Between X and Y</en> اینجا یعنی «X و Y روی هم».",
@@ -322,7 +322,7 @@ DRILL({
           "w": "closing costs",
           "ipa": "ˈkloʊzɪŋ kɑsts",
           "m": "fees paid at the end of buying a house, for legal and bank services",
-          "fa": "هزینه‌های نهایی‌سازیِ معامله"
+          "fa": "هزینه‌های بستنِ معامله (ثبت، کارمزد و…)"
         }
       ]
     },
@@ -370,7 +370,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برای گرفتنِ کلیدهایش، ودیعهٔ تضمینی هم می‌پردازد،",
+      "fa": "برای گرفتنِ کلیدها، ودیعه‌ای (پولِ ضمانت) هم می‌پردازد،",
       "en": "To get her keys, she’ll also pay a security deposit,",
       "ipa": "tə ɡɛt hɚ kiz ʃil ˈɔlsoʊ peɪ ə sɪˈkjʊrəti dəˈpɑzɪt",
       "words": [
@@ -378,7 +378,7 @@ DRILL({
           "w": "security deposit",
           "ipa": "sɪˈkjʊrəti dəˈpɑzɪt",
           "m": "money paid to a landlord that is returned if nothing is damaged",
-          "fa": "ودیعه، پول پیش",
+          "fa": "ودیعه، پولِ ضمانت (که آخرِ قرارداد پس داده می‌شود)",
           "more": "deposit · refundable"
         }
       ]
@@ -545,7 +545,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هرچند در باقیِ دنیا، وام‌هایی با نرخِ قابلِ تعدیل و برای دوره‌های کوتاه‌تر خیلی معمول‌ترند.",
+      "fa": "هرچند در بقیهٔ دنیا، وام‌هایی با نرخِ متغیر (قابلِ تعدیل) و برای دوره‌های کوتاه‌تر خیلی معمول‌ترند.",
       "en": "though loans with adjustable rates over shorter periods are much more typical in the rest of the world.",
       "ipa": "ðoʊ loʊnz wɪð əˈdʒʌstəbəl reɪts ˈoʊvɚ ˈʃɔrtɚ ˈpɪriədz ɚ mʌtʃ mɔr ˈtɪpəkəl ɪn ðə rɛst əv ðə wɝld",
       "words": [
@@ -580,7 +580,7 @@ DRILL({
       ]
     },
     {
-      "fa": "وام‌های مسکنِ طولانی‌تر، با پخش کردنِ اقساطِ ماهانه در دوره‌ای طولانی‌شده، آن‌ها را پایین می‌آورند.",
+      "fa": "وام‌های مسکنِ طولانی‌تر، اقساطِ ماهانه را پایین می‌آورند، چون آن‌ها را در دوره‌ای طولانی پخش می‌کنند.",
       "en": "Longer mortgages lower monthly payments by spreading them over an extended period.",
       "ipa": "ˈlɔŋɡɚ ˈmɔrɡədʒəz ˈloʊɚ ˈmʌnθli ˈpeɪmənts baɪ ˈsprɛdɪŋ ðɛm ˈoʊvɚ ən ɪkˈstɛndəd ˈpɪriəd",
       "words": [
@@ -602,7 +602,7 @@ DRILL({
           "w": "extended",
           "ipa": "ɪkˈstɛndəd",
           "m": "longer than usual",
-          "fa": "طولانی‌شده، بلند",
+          "fa": "طولانی، طولانی‌شده",
           "more": "extend · extension · prolonged"
         }
       ]
@@ -707,7 +707,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و همین به او امکان می‌دهد وامش را بازتأمینِ مالی کند.",
+      "fa": "و همین به او امکان می‌دهد وامش را از نو تأمین کند (اصطلاحاً «ری‌فایننس» کند).",
       "en": "allowing her to refinance.",
       "ipa": "əˈlaʊɪŋ hɚ tə ˌrifəˈnæns",
       "words": [
@@ -722,7 +722,7 @@ DRILL({
           "w": "to refinance",
           "ipa": "tə ˌrifəˈnæns",
           "m": "to replace an old loan with a new one, usually at a lower interest rate",
-          "fa": "بازتأمین مالی کردن، وام را با وام تازه عوض کردن",
+          "fa": "وامِ قبلی را با وامی تازه (با شرایط بهتر) عوض کردن",
           "more": "refinancing"
         }
       ]
@@ -792,7 +792,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در طولِ یک فصلِ طوفانیِ شدید، سیلاب‌های ناگهانی محله‌شان را درمی‌نوردند.",
+      "fa": "در طولِ یک فصلِ طوفانیِ شدید، سیل‌های ناگهانی به محله‌شان می‌زنند.",
       "en": "During an intense storm season, flash floods hit their neighborhood.",
       "ipa": "ˈdʊrɪŋ ən ɪnˈtɛns stɔrm ˈsizən flæʃ flʌdz hɪt ðɛr ˈneɪbɚˌhʊd",
       "words": [
@@ -807,14 +807,14 @@ DRILL({
           "w": "flash flood",
           "ipa": "flæʃ flʌd",
           "m": "a sudden flood caused by very heavy rain",
-          "fa": "سیلاب ناگهانی",
+          "fa": "سیلِ ناگهانی",
           "more": "flood · flooding"
         },
         {
           "w": "to hit",
           "ipa": "tə hɪt",
           "m": "to affect a place suddenly and badly",
-          "fa": "به جایی زدن، گریبان‌گیر شدن",
+          "fa": "به (جایی) زدن، گریبان‌گیرِ (جایی) شدن",
           "more": "strike · be hit by"
         },
         {
@@ -827,7 +827,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مورگان در مقامِ مالکِ خانه هزینهٔ تعمیرات را می‌پردازد، در حالی که لیزا رسیدگی به همه‌چیز را به موجرش می‌سپارد.",
+      "fa": "مورگان به‌عنوان مالکِ خانه هزینهٔ تعمیرات را می‌دهد، در حالی که لیزا رسیدگی به همه‌چیز را به صاحب‌خانه‌اش می‌سپارد.",
       "en": "As a homeowner, Morgan pays for repairs, while Lisa lets her landlord handle everything.",
       "ipa": "əz ə ˈhoʊˌmoʊnɚ ˈmɔrɡən peɪz fɚ rɪˈpɛrz waɪl ˈlisə lɛts hɚ ˈlændˌlɔrd ˈhændəl ˈɛvriˌθɪŋ",
       "words": [
@@ -835,7 +835,7 @@ DRILL({
           "w": "homeowner",
           "ipa": "ˈhoʊˌmoʊnɚ",
           "m": "a person who owns their house or flat",
-          "fa": "مالک خانه",
+          "fa": "مالکِ خانه",
           "more": "home ownership"
         },
         {
@@ -849,7 +849,7 @@ DRILL({
           "w": "landlord",
           "ipa": "ˈlændˌlɔrd",
           "m": "a person who owns a house and rents it to other people",
-          "fa": "موجر، صاحب‌خانه",
+          "fa": "صاحب‌خانه (موجر)",
           "more": "landlady · tenant"
         },
         {
@@ -876,7 +876,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بعد از ۳۰ سال، کارِ تسویهٔ وامِ مسکنِ مورگان سرانجام تمام شده است.",
+      "fa": "بعد از ۳۰ سال، مورگان بالاخره تسویهٔ وامِ مسکنش را تمام کرده است.",
       "en": "After 30 years, Morgan is finally done paying off her mortgage.",
       "ipa": "ˈæftɚ ˈθɝdi jɪrz ˈmɔrɡən ɪz ˈfaɪnəli dʌn ˈpeɪɪŋ ɔf hɚ ˈmɔrɡədʒ",
       "newPara": true,
@@ -918,7 +918,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در همین حال، اجاره‌بهای لیزا حالا ماهی ۳۳۰۰ دلار است، و او تا حالا حدودِ ۹۰۰ هزار دلار اجاره داده است.",
+      "fa": "در همین حال، اجاره‌بهای لیزا حالا ماهی ۳۳۰۰ دلار است، و او تا حالا حدودِ ۹۰۰ هزار دلار اجاره‌بها پرداخته است.",
       "en": "Meanwhile, Lisa’s rent is now $3,300 a month, and she's spent around $900,000 in rent.",
       "ipa": "ˈminˌwaɪl ˈlisəz rɛnt ɪz naʊ θri ˈθaʊzənd θri ˈhʌndrəd ˈdɑlɚz ə mʌnθ ənd ʃiz spɛnt əˈraʊnd naɪn ˈhʌndrəd ˈθaʊzənd ˈdɑlɚz ɪn rɛnt"
     },
@@ -956,7 +956,7 @@ DRILL({
       "ipa": "wɛn ˈmɔrɡən tʃoʊz tə spɛnd ˈfɔrti ˈθaʊzənd ˈdɑlɚz ɑn ə daʊn ˈpeɪmənt"
     },
     {
-      "fa": "فرصتِ گذاشتنِ همان ۴۰ هزار دلار در یک حسابِ بازنشستگیِ باثبات و متنوع را از دست داد.",
+      "fa": "فرصتِ گذاشتنِ همان ۴۰ هزار دلار در یک حسابِ بازنشستگیِ باثبات و متنوع (با سرمایه‌گذاری‌های گوناگون) را از دست داد.",
       "en": "she missed out on putting that $40,000 into a stable, diversified retirement account.",
       "ipa": "ʃi mɪst aʊt ɑn ˈpʌtɪŋ ðæt ˈfɔrti ˈθaʊzənd ˈdɑlɚz ɪnˈtu ə ˈsteɪbəl daɪˈvɝsəˌfaɪd riˈtaɪɚmənt əˈkaʊnt",
       "words": [
@@ -978,7 +978,7 @@ DRILL({
           "w": "diversified",
           "ipa": "daɪˈvɝsəˌfaɪd",
           "m": "spread across many different types, to lower risk",
-          "fa": "متنوع، تنوع‌یافته",
+          "fa": "متنوع (پخش‌شده در سرمایه‌گذاری‌های گوناگون)",
           "more": "diversify · diverse"
         },
         {
@@ -1076,7 +1076,7 @@ DRILL({
       ]
     },
     {
-      "fa": "لیزا ۹۰۰ هزار دلار اجاره داد، اما از سرمایه‌گذاری‌ها ۴۶۰ هزار دلار به دست آورد،",
+      "fa": "لیزا ۹۰۰ هزار دلار اجاره‌بها داد، اما از سرمایه‌گذاری‌ها ۴۶۰ هزار دلار به دست آورد،",
       "en": "Lisa spent $900,000 in rent, but made $460,000 in investments,",
       "ipa": "ˈlisə spɛnt naɪn ˈhʌndrəd ˈθaʊzənd ˈdɑlɚz ɪn rɛnt bət meɪd fɔr ˈhʌndrəd ˈsɪksti ˈθaʊzənd ˈdɑlɚz ɪn ɪnˈvɛstmənts"
     },
@@ -1086,7 +1086,7 @@ DRILL({
       "ipa": "ˈpʌtɪŋ hɚ ət ə ˈtoʊtəl lɔs əv fɔr ˈhʌndrəd ˈfɔrti ˈθaʊzənd ˈdɑlɚz"
     },
     {
-      "fa": "در این وضعیت، مورگان دستِ بالا را پیدا کرد.",
+      "fa": "در این وضعیت، مورگان برندهٔ ماجرا شد.",
       "en": "In this situation, Morgan came out on top.",
       "ipa": "ɪn ðɪs ˌsɪtʃuˈeɪʃən ˈmɔrɡən keɪm aʊt ɑn tɑp",
       "words": [
@@ -1094,7 +1094,7 @@ DRILL({
           "w": "to come out on top",
           "ipa": "tə kʌm aʊt ɑn tɑp",
           "m": "to win or be the most successful in the end",
-          "fa": "برنده شدن، دست بالا را داشتن",
+          "fa": "(در پایان) برنده شدن، دستِ بالا را داشتن",
           "more": "come out ahead · win out"
         }
       ]
@@ -1128,7 +1128,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما لیزا از جنبه‌های دیگری پیروز شد.",
+      "fa": "اما لیزا از جهاتِ دیگری برنده شد.",
       "en": "But Lisa won out in other ways.",
       "ipa": "bət ˈlisə wʌn aʊt ɪn ˈʌðɚ weɪz",
       "newPara": true,
@@ -1137,7 +1137,7 @@ DRILL({
           "w": "to win out",
           "ipa": "tə wɪn aʊt",
           "m": "to be successful after a struggle or comparison",
-          "fa": "پیروز شدن، سربلند بیرون آمدن",
+          "fa": "(در نهایت) برنده شدن، پیروز شدن",
           "more": "come out on top · prevail"
         }
       ]
@@ -1157,7 +1157,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در سناریویی دیگر، شاید آن پولِ نقدِ اضافه را در حسابِ بازنشستگی یا سرمایه‌گذاری‌ها می‌گذاشت و می‌گذاشت رشد کند.",
+      "fa": "در سناریویی دیگر، شاید آن پولِ نقدِ اضافه را در حسابِ بازنشستگی یا سرمایه‌گذاری‌ها می‌ریخت و اجازه می‌داد رشد کند.",
       "en": "In another scenario, she might have put that extra cash into retirement or investments and allowed it to grow.",
       "ipa": "ɪn əˈnʌðɚ sɪˈnɛrioʊ ʃi maɪt hæv pʊt ðæt ˈɛkstrə kæʃ ɪnˈtu riˈtaɪɚmənt ɔr ɪnˈvɛstmənts ənd əˈlaʊd ɪt tə ɡroʊ",
       "words": [
@@ -1178,7 +1178,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و لیزا پای‌بندِ یک مکان نبود.",
+      "fa": "و لیزا به یک مکان بسته نبود.",
       "en": "And Lisa wasn't tied to one location.",
       "ipa": "ənd ˈlisə ˈwɑzənt taɪd tə wʌn loʊˈkeɪʃən",
       "words": [
@@ -1186,7 +1186,7 @@ DRILL({
           "w": "to be tied to",
           "ipa": "tə bi taɪd tu",
           "m": "to be unable to leave or change something",
-          "fa": "پای‌بندِ … بودن، وابسته بودن",
+          "fa": "به (جایی یا چیزی) بسته بودن، وابسته بودن",
           "more": "tied down · be bound to"
         },
         {
@@ -1220,7 +1220,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و بالاخره حس می‌کند آماده است دامنهٔ زندگی‌اش را گسترش دهد و پا به عرصه‌های تازه بگذارد.",
+      "fa": "و بالاخره حس می‌کند آماده است سراغِ تجربه‌های تازه برود و شاخه‌های تازه بدواند.",
       "en": "and is finally feeling ready to branch out.",
       "ipa": "ənd ɪz ˈfaɪnəli ˈfilɪŋ ˈrɛdi tə bræntʃ aʊt",
       "words": [
@@ -1228,7 +1228,7 @@ DRILL({
           "w": "to branch out",
           "ipa": "tə bræntʃ aʊt",
           "m": "to start doing something new and different",
-          "fa": "به عرصه‌های تازه پا گذاشتن، دامنه را گسترش دادن",
+          "fa": "سراغِ کارها و تجربه‌های تازه رفتن، شاخه دواندن",
           "more": "expand · diversify"
         }
       ]

@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=a_4eFB8pPwI",
   "items": [
     {
-      "fa": "دارید هدفونی از سبدِ اجناسِ ارزان‌قیمت می‌خرید که چشمتان به جنسی واقعاً به‌صرفه می‌افتد.",
+      "fa": "می‌خواهید یک هدفونِ ارزان از سبدِ حراجی‌ها بخرید که چشمتان به یک جنسِ واقعاً به‌صرفه می‌افتد.",
       "en": "You're about to buy some bargain bin headphones when you spot a real bargain.",
       "ipa": "jʊr əˈbaʊt tə baɪ sʌm ˈbɑrɡən bɪn ˈhɛdˌfoʊnz wɛn ju spɑt ə ril ˈbɑrɡən",
       "newPara": true,
@@ -13,7 +13,7 @@ DRILL({
           "w": "to be about to",
           "ipa": "tə bi əˈbaʊt tu",
           "m": "to be going to do something very soon",
-          "fa": "در شرفِ … بودن، داشتن … را می‌کردید"
+          "fa": "در آستانهٔ … بودن، می‌خواستید که…"
         },
         {
           "w": "bargain bin",
@@ -38,7 +38,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این جفت گران‌تر است، اما به نصفِ قیمتِ معمولش فروخته می‌شود.",
+      "fa": "این یکی (این جفت هدفون) گران‌تر است، اما به نصفِ قیمتِ همیشگی‌اش فروخته می‌شود.",
       "en": "This pair is more expensive, but it's selling for half its usual price.",
       "ipa": "ðɪs pɛr ɪz mɔr ɪkˈspɛnsɪv bət ɪts ˈsɛlɪŋ fɚ hæf ɪts ˈjuʒəwəl praɪs",
       "words": [
@@ -51,7 +51,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بی‌شک این خریدِ بهتری است، نه؟ ممکن است!",
+      "fa": "حتماً این خریدِ بهتری است، نه؟ ممکن است!",
       "en": "Surely this is the better buy, right? It’s possible!",
       "ipa": "ˈʃʊrli ðɪs ɪz ðə ˈbɛtɚ baɪ raɪt ɪts ˈpɑsəbəl",
       "words": [
@@ -59,7 +59,7 @@ DRILL({
           "w": "surely",
           "ipa": "ˈʃʊrli",
           "m": "used to show you think something must be true and expect others to agree",
-          "fa": "بی‌شک، حتماً (… دیگر)"
+          "fa": "حتماً (… دیگر)، بی‌شک"
         },
         {
           "w": "buy",
@@ -71,7 +71,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با این حال، این هم ممکن است که دارید فریبِ ترفندی روانشناختی را می‌خورید",
+      "fa": "با این حال، این هم ممکن است که دارید گولِ یک ترفندِ روانشناختی را می‌خورید",
       "en": "However, it’s also possible you’re falling for a psychological trick",
       "ipa": "ˌhaʊˈɛvɚ ɪts ˈɔlsoʊ ˈpɑsəbəl jʊr ˈfɑlɪŋ fɚ ə ˌsaɪkəˈlɑdʒɪkəl trɪk",
       "words": [
@@ -79,7 +79,7 @@ DRILL({
           "w": "to fall for",
           "ipa": "tə fɔl fɔr",
           "m": "to be tricked into believing something that is not true",
-          "fa": "فریبِ … را خوردن",
+          "fa": "گولِ (چیزی) را خوردن",
           "more": "be taken in by"
         },
         {
@@ -98,7 +98,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که خرده‌فروشان به کار می‌برند تا روی آنچه می‌خرید و مبلغی که حاضرید بپردازید اثر بگذارند.",
+      "fa": "که خرده‌فروشان به کار می‌برند تا روی اینکه چه می‌خرید و حاضرید چقدر پول بدهید اثر بگذارند.",
       "en": "retailers use to influence what you buy and what you’re willing to pay.",
       "ipa": "ˈriˌteɪlɚz juz tə ˈɪnfluəns wʌt ju baɪ ənd wʌt jʊr ˈwɪlɪŋ tə peɪ",
       "words": [
@@ -126,7 +126,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از اواخرِ دههٔ ۱۸۰۰، نظریهٔ اقتصادی اغلب فرض می‌کرد که مصرف‌کنندگان کنشگرانی عقلانی‌اند",
+      "fa": "از اواخرِ قرن نوزدهم، نظریهٔ اقتصادی اغلب فرض می‌کرد که مصرف‌کنندگان کنشگرانی منطقی‌اند",
       "en": "From the late 1800s, economic theory often assumed that consumers were rational actors",
       "ipa": "frəm ðə leɪt eɪˈtin ˈhʌndrədz ˌɛkəˈnɑmɪk ˈθɪri ˈɔfən əˈsumd ðæt kənˈsumɚz wɚ ˈræʃənəl ˈæktɚz",
       "newPara": true,
@@ -169,12 +169,12 @@ DRILL({
           "w": "actor",
           "ipa": "ˈæktɚ",
           "m": "a person or group that takes part in an activity, e.g. in the economy",
-          "fa": "کنشگر"
+          "fa": "کنشگر، فرد (در نظریه‌های اقتصادی و اجتماعی)"
         }
       ]
     },
     {
-      "fa": "که در پیِ بهینه‌ترین انتخابِ مالی بودند.",
+      "fa": "که دنبالِ بهترین انتخابِ مالیِ ممکن بودند.",
       "en": "who pursued the optimal financial choice.",
       "ipa": "hu pɚˈsud ði ˈɑptəməl fəˈnænʃəl tʃɔɪs",
       "words": [
@@ -182,14 +182,14 @@ DRILL({
           "w": "to pursue",
           "ipa": "tə pɚˈsu",
           "m": "to try to achieve or get something",
-          "fa": "در پیِ … بودن، دنبال کردن",
+          "fa": "دنبالِ (چیزی) بودن",
           "more": "pursuit"
         },
         {
           "w": "optimal",
           "ipa": "ˈɑptəməl",
           "m": "the best possible",
-          "fa": "بهینه",
+          "fa": "بهینه، بهترینِ ممکن",
           "more": "optimum · optimize"
         },
         {
@@ -202,7 +202,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما در حالی که مصرف‌کنندگان به‌طور میانگین تا حدِ معقولی عقلانی‌اند،",
+      "fa": "اما هرچند مصرف‌کنندگان به‌طور میانگین تا حدِ معقولی منطقی‌اند،",
       "en": "But while consumers are reasonably rational on average,",
       "ipa": "bət waɪl kənˈsumɚz ɚ ˈrizənəbli ˈræʃənəl ɑn ˈævərɪdʒ",
       "words": [
@@ -221,7 +221,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در عین حال آسیب‌پذیرند در برابرِ خریدهای هوسی، فروشندگانِ زبل،",
+      "fa": "در عین حال در برابرِ خریدهای هوسی، فروشنده‌های زبل،",
       "en": "they’re also vulnerable to impulse purchases, savvy salespeople,",
       "ipa": "ðɛr ˈɔlsoʊ ˈvʌlnərəbəl tə ˈɪmpəls ˈpɝtʃəsəz ˈsævi ˈseɪlzˌpipəl",
       "words": [
@@ -319,7 +319,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و تا دههٔ ۱۹۷۰، این پژوهش‌ها به پیدایشِ اقتصادِ رفتاری شکل داد،",
+      "fa": "و تا دههٔ ۱۹۷۰، همین پژوهش‌ها پایه و مبنای تولدِ اقتصادِ رفتاری شد،",
       "en": "And by the 1970s, this research informed the birth of behavioral economics,",
       "ipa": "ənd baɪ ðə ˌnaɪnˈtin ˈsɛvəntiz ðɪs riˈsɝtʃ ɪnˈfɔrmd ðə bɝθ əv bɪˈheɪvjərəl ˌɛkəˈnɑmɪks",
       "words": [
@@ -327,7 +327,7 @@ DRILL({
           "w": "to inform",
           "ipa": "tə ɪnˈfɔrm",
           "m": "to influence or shape something",
-          "fa": "شکل دادن به، الهام‌بخشِ … بودن"
+          "fa": "پایه و مبنای (چیزی) شدن، شکل دادن به"
         },
         {
           "w": "birth",
@@ -344,7 +344,7 @@ DRILL({
       ]
     },
     {
-      "fa": "رشته‌ای تازه که محلِ تلاقیِ اقتصاد و روان‌شناسی را می‌کاود.",
+      "fa": "رشته‌ای تازه که نقطهٔ تلاقیِ اقتصاد و روان‌شناسی را بررسی می‌کند.",
       "en": "a new field exploring the intersection of economics and psychology.",
       "ipa": "ə nu fild ɪkˈsplɔrɪŋ ði ˌɪntɚˈsɛkʃən əv ˌɛkəˈnɑmɪks ənd saɪˈkɑlədʒi",
       "words": [
@@ -358,7 +358,7 @@ DRILL({
           "w": "to explore",
           "ipa": "tə ɪkˈsplɔr",
           "m": "to study a subject carefully",
-          "fa": "کاویدن، بررسی کردن",
+          "fa": "بررسی کردن، کاویدن",
           "more": "exploration"
         },
         {
@@ -390,7 +390,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که برندهٔ جایزهٔ علوم اقتصادی، هربرت سایمون، آن را مطرح کرده بود.",
+      "fa": "که هربرت سایمون، برندهٔ جایزهٔ (نوبلِ) علوم اقتصادی، مطرح کرده بود.",
       "en": "introduced by economic sciences laureate Herbert Simon.",
       "ipa": "ˌɪntrəˈdust baɪ ˌɛkəˈnɑmɪk ˈsaɪənsəz ˈlɔriət ˈhɝbɚt ˈsaɪmən",
       "words": [
@@ -449,7 +449,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و محدودیت‌های روانشناختیِ گوناگونی دارند که آن‌ها را نه به بهینه‌ترین انتخابِ مالی،",
+      "fa": "و محدودیت‌های روانشناختیِ گوناگونی دارند که آن‌ها را نه به بهترین انتخابِ مالی،",
       "en": "and various psychological constraints that lead them not to the optimal financial choice,",
       "ipa": "ənd ˈvɛriəs ˌsaɪkəˈlɑdʒɪkəl kənˈstreɪnts ðæt lɛd ðɛm nɑt tə ði ˈɑptəməl fəˈnænʃəl tʃɔɪs",
       "words": [
@@ -502,7 +502,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به گفتهٔ اقتصاددانانِ رفتاری، به‌جای استفاده از منطق، به هیوریستیک‌ها متوسل می‌شویم —",
+      "fa": "به گفتهٔ اقتصاددانانِ رفتاری، به‌جای استفاده از منطق، به «هیوریستیک‌ها» (قاعده‌های سرانگشتی) پناه می‌بریم —",
       "en": "Rather than using logic, behavioral economists say we fall back on heuristics—",
       "ipa": "ˈræðɚ ðən ˈjuzɪŋ ˈlɑdʒɪk bɪˈheɪvjərəl ɪˈkɑnəmɪsts seɪ wi fɔl bæk ɑn hjʊˈrɪstɪks",
       "words": [
@@ -522,7 +522,7 @@ DRILL({
           "w": "to fall back on",
           "ipa": "tə fɔl bæk ɑn",
           "m": "to use something when other things have failed or are not possible",
-          "fa": "متوسل شدن به، پناه بردن به"
+          "fa": "(وقتی راه دیگری نیست) پناه بردن به، متوسل شدن به"
         },
         {
           "w": "heuristic",
@@ -553,7 +553,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برای مثال، هیوریستیکِ لنگراندازی حاکی از آن است",
+      "fa": "برای مثال، هیوریستیکِ «لنگراندازی» می‌گوید",
       "en": "For example, the anchoring heuristic suggests",
       "ipa": "fɚ ɪɡˈzæmpəl ði ˈæŋkərɪŋ hjʊˈrɪstɪk səɡˈdʒɛsts",
       "words": [
@@ -561,19 +561,19 @@ DRILL({
           "w": "anchoring",
           "ipa": "ˈæŋkərɪŋ",
           "m": "the habit of depending too much on the first piece of information you get",
-          "fa": "لنگراندازی",
+          "fa": "لنگراندازی (تکیه بر اولین عددی که می‌بینیم)",
           "more": "anchor (n./v.)"
         },
         {
           "w": "to suggest",
           "ipa": "tə səɡˈdʒɛst",
           "m": "to show that something is probably true",
-          "fa": "حاکی بودن، نشان دادن"
+          "fa": "نشان دادن، حاکی بودن"
         }
       ]
     },
     {
-      "fa": "که نخستین تکه‌اطلاعاتی که به دستتان می‌رسد، مبنای تصمیم‌گیری‌های آینده‌تان می‌شود.",
+      "fa": "که اولین اطلاعاتی که به دستتان می‌رسد، مبنای تصمیم‌گیری‌های بعدی‌تان می‌شود.",
       "en": "that the first piece of information you get becomes your baseline for future decision making.",
       "ipa": "ðæt ðə fɝst pis əv ˌɪnfɚˈmeɪʃən ju ɡɛt bɪˈkʌmz jɔr ˈbeɪˌslaɪn fɚ ˈfjutʃɚ dɪˈsɪʒən ˈmeɪkɪŋ",
       "words": [
@@ -592,7 +592,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس اگر اولین قلمِ منو ۵۰ دلار باشد، بقیهٔ قیمت‌ها را با آن نقطهٔ مرجع مقایسه می‌کنید.",
+      "fa": "پس اگر اولین مورد در منو ۵۰ دلار باشد، بقیهٔ قیمت‌ها را با آن نقطهٔ مرجع مقایسه می‌کنید.",
       "en": "So if a menu's first item costs $50, you'll compare other prices against that reference point.",
       "ipa": "soʊ ɪf ə ˈmɛnəs fɝst ˈaɪtəm kɑsts ˈfɪfti ˈdɑlɚz jul kəmˈpɛr ˈʌðɚ ˈpraɪsəz əˈɡɛnst ðæt ˈrɛfərəns pɔɪnt",
       "words": [
@@ -600,7 +600,7 @@ DRILL({
           "w": "item",
           "ipa": "ˈaɪtəm",
           "m": "one thing in a list or group",
-          "fa": "قلم، مورد"
+          "fa": "مورد، قلم"
         },
         {
           "w": "to compare against",
@@ -633,7 +633,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و این یعنی می‌شود آن‌ها را دست‌کاری کرد تا انتخاب‌ها را کنترل کرد.",
+      "fa": "و این یعنی می‌شود با دست‌کاریِ آن‌ها، انتخاب‌ها را کنترل کرد.",
       "en": "which means they can be manipulated to control them.",
       "ipa": "wɪtʃ minz ðeɪ kən bi məˈnɪpjəˌleɪtɪd tə kənˈtroʊl ðɛm",
       "words": [
@@ -647,7 +647,7 @@ DRILL({
       ]
     },
     {
-      "fa": "نمونه‌اش: هرچند آن هدفون‌های تخفیف‌خورده شاید ۵۰ درصد تخفیف داشته باشند،",
+      "fa": "یک نمونهٔ بارز: هرچند آن هدفون‌های تخفیف‌خورده شاید ۵۰ درصد تخفیف داشته باشند،",
       "en": "Case in point, while those discounted headphones might be 50% off,",
       "ipa": "keɪs ɪn pɔɪnt waɪl ðoʊz ˈdɪˌskaʊntɪd ˈhɛdˌfoʊnz maɪt bi ˈfɪfti pɚˈsɛnt ɔf",
       "words": [
@@ -673,7 +673,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این هم ممکن است که قیمتِ اولیه از همان اول باد شده بوده.",
+      "fa": "این هم ممکن است که قیمتِ اولیه از همان اول الکی بالا برده شده باشد.",
       "en": "it’s also possible the original price was inflated to begin with.",
       "ipa": "ɪts ˈɔlsoʊ ˈpɑsəbəl ði əˈrɪdʒənəl praɪs wəz ɪnˈfleɪtəd tə bɪˈɡɪn wɪð",
       "words": [
@@ -687,7 +687,7 @@ DRILL({
           "w": "inflated",
           "ipa": "ɪnˈfleɪtəd",
           "m": "made higher than it should be",
-          "fa": "باد شده، بیش از حد بالا رفته",
+          "fa": "بادکرده، الکی بالا برده‌شده",
           "more": "inflate · inflation"
         },
         {
@@ -747,7 +747,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هر دو به یک اندازه مؤثرند و اساساً قیمتشان یکی است،",
+      "fa": "هر دو به یک اندازه مؤثرند و عملاً قیمتشان یکی است،",
       "en": "Both are equally effective and basically cost the same,",
       "ipa": "boʊθ ɚ ˈikwəli ɪˈfɛktɪv ənd ˈbeɪsɪkli kɑst ðə seɪm",
       "words": [
@@ -768,7 +768,7 @@ DRILL({
           "w": "basically",
           "ipa": "ˈbeɪsɪkli",
           "m": "in the most important ways; mainly",
-          "fa": "اساساً، در اصل"
+          "fa": "عملاً، در اصل"
         }
       ]
     },
@@ -799,7 +799,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این همان اثرِ قاب‌بندی است،",
+      "fa": "این همان «اثرِ قاب‌بندی» است (تأثیرِ شیوهٔ ارائه بر انتخاب)،",
       "en": "This is the framing effect,",
       "ipa": "ðɪs ɪz ðə ˈfreɪmɪŋ ɪˈfɛkt",
       "words": [
@@ -807,13 +807,13 @@ DRILL({
           "w": "framing",
           "ipa": "ˈfreɪmɪŋ",
           "m": "the way information is presented, which changes how people react to it",
-          "fa": "قاب‌بندی، نحوهٔ ارائه",
+          "fa": "قاب‌بندی، شیوهٔ ارائه",
           "more": "frame (v.)"
         }
       ]
     },
     {
-      "fa": "و یکی از چند پدیدهٔ روانشناختی است که توانایی‌مان در ارزش‌گذاری را دچارِ اتصالی می‌کنند.",
+      "fa": "و یکی از چند پدیدهٔ روانشناختی است که توانایی‌مان در ارزش‌گذاری را، مثل اتصالیِ برق، مختل می‌کنند.",
       "en": "and it’s one of several psychological phenomena that short circuit our ability to assign value.",
       "ipa": "ənd ɪts wʌn əv ˈsɛvrəl ˌsaɪkəˈlɑdʒɪkəl fəˈnɑmənə ðæt ʃɔrt ˈsɝkət ˈaʊɚ əˈbɪləti tə əˈsaɪn ˈvælju",
       "words": [
@@ -828,7 +828,7 @@ DRILL({
           "w": "to short-circuit",
           "ipa": "tə ʃɔrt ˈsɝkət",
           "m": "to stop something from working in the normal way",
-          "fa": "مختل کردن، دچار اتصالی کردن"
+          "fa": "(مثل اتصالیِ برق) مختل کردن، از کار انداختن"
         },
         {
           "w": "to assign value",
@@ -878,7 +878,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با پیشنهادِ ۵ سنت اعتبار.",
+      "fa": "با دادنِ ۵ سنت اعتبار (تخفیف).",
       "en": "by offering a 5 cent credit.",
       "ipa": "baɪ ˈɔfərɪŋ ə faɪv sɛnt ˈkrɛdət",
       "words": [
@@ -892,7 +892,7 @@ DRILL({
           "w": "credit",
           "ipa": "ˈkrɛdət",
           "m": "an amount of money taken off what you have to pay",
-          "fa": "اعتبار (کسرشده از مبلغ)",
+          "fa": "اعتبار، مبلغی که از صورت‌حساب کم می‌شود",
           "more": "store credit"
         }
       ]
@@ -925,7 +925,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به عبارت دیگر، میلِ پرهیز از باختنِ ۵ سنت انگیزه‌بخش‌تر از به دست آوردنِ ۵ سنت بود.",
+      "fa": "به عبارت دیگر، میل به از دست ندادنِ ۵ سنت، بیشتر از به دست آوردنِ ۵ سنت انگیزه ایجاد می‌کرد.",
       "en": "In other words, the desire to avoid losing 5 cents was more motivating than gaining 5 cents.",
       "ipa": "ɪn ˈʌðɚ wɝdz ðə dɪˈzaɪɚ tə əˈvɔɪd ˈluzɪŋ faɪv sɛnts wəz mɔr ˈmoʊtəˌveɪtɪŋ ðən ˈɡeɪnɪŋ faɪv sɛnts",
       "words": [
@@ -957,7 +957,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به این، بیزاری از زیان می‌گویند،",
+      "fa": "به این «زیان‌گریزی» می‌گویند،",
       "en": "This is called loss aversion,",
       "ipa": "ðɪs ɪz kɔld lɔs əˈvɝʒən",
       "words": [
@@ -977,7 +977,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و خرده‌فروشان این ترسِ از دست دادنِ ارزش را با تأکید بر کمیابیِ حراج یا مهلتِ نزدیک‌شونده‌اش برمی‌انگیزند.",
+      "fa": "و خرده‌فروشان این ترسِ از دست دادنِ ارزش را با تأکید بر کمیابیِ حراج یا مهلتی که دارد سر می‌رسد برمی‌انگیزند.",
       "en": "and retailers trigger this fear of losing value by emphasizing a sale’s scarcity or looming deadline.",
       "ipa": "ənd ˈriˌteɪlɚz ˈtrɪɡɚ ðɪs fɪr əv ˈluzɪŋ ˈvælju baɪ ˈɛmfəˌsaɪzɪŋ ə seɪlz ˈskɛrsɪti ɔr ˈlumɪŋ ˈdɛdˌlaɪn",
       "words": [
@@ -1012,7 +1012,7 @@ DRILL({
           "w": "looming",
           "ipa": "ˈlumɪŋ",
           "m": "about to happen, in a worrying way",
-          "fa": "در حالِ نزدیک شدن، سایه‌افکن",
+          "fa": "(چیزِ نگران‌کننده‌ای که) در حالِ نزدیک شدن است",
           "more": "loom (v.)"
         },
         {
@@ -1051,7 +1051,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و این اثر از آنچه شاید فکرش را بکنید ریشه‌دارتر است.",
+      "fa": "و این اثر عمیق‌تر از آن است که شاید فکرش را بکنید.",
       "en": "And that effect goes deeper than you might think.",
       "ipa": "ənd ðæt ɪˈfɛkt ɡoʊz ˈdipɚ ðən ju maɪt θɪŋk",
       "words": [
@@ -1059,13 +1059,13 @@ DRILL({
           "w": "to go deep",
           "ipa": "tə ɡoʊ dip",
           "m": "to be serious or strong and affect more than just the surface",
-          "fa": "ریشه‌دار بودن، عمیق بودن",
+          "fa": "عمیق بودن، ریشه‌دار بودن",
           "more": "go deeper"
         }
       ]
     },
     {
-      "fa": "در پژوهشی در سال ۲۰۰۸، آزمودنی‌ها را درونِ دستگاه‌های MRI گذاشتند",
+      "fa": "در پژوهشی در سال ۲۰۰۸، آزمودنی‌ها (افرادِ مورد آزمایش) را درونِ دستگاه‌های MRI گذاشتند",
       "en": "In a 2008 study, subjects were put into MRI machines",
       "ipa": "ɪn ə tu ˈθaʊzənd eɪt ˈstʌdi ˈsʌbdʒɪkts wɚ pʊt ɪnˈtu ˌɛmˌɑrˈaɪ məˈʃinz",
       "newPara": true,
@@ -1080,12 +1080,12 @@ DRILL({
           "w": "subject",
           "ipa": "ˈsʌbdʒɪkt",
           "m": "a person who takes part in an experiment",
-          "fa": "آزمودنی"
+          "fa": "آزمودنی (فردی که روی او آزمایش می‌شود)"
         }
       ]
     },
     {
-      "fa": "و از پنج بطری شراب که یکی از دیگری گران‌تر بود، نمونه‌هایی مهمانشان کردند.",
+      "fa": "و با نمونه‌هایی از پنج بطری شراب که هر کدام گران‌تر از قبلی بود، از آن‌ها پذیرایی کردند.",
       "en": "and treated to samples from five bottles of increasingly expensive wine.",
       "ipa": "ənd ˈtritəd tə ˈsæmpəlz frəm faɪv ˈbɑtəlz əv ɪnˈkrisɪŋli ɪkˈspɛnsɪv waɪn",
       "words": [
@@ -1093,7 +1093,7 @@ DRILL({
           "w": "to treat somebody to",
           "ipa": "tə trit ˈsʌmˌbɑdi tu",
           "m": "to give someone something special that they enjoy",
-          "fa": "کسی را به … مهمان کردن"
+          "fa": "از کسی با (چیزی) پذیرایی کردن"
         },
         {
           "w": "sample",
@@ -1105,7 +1105,7 @@ DRILL({
           "w": "increasingly",
           "ipa": "ɪnˈkrisɪŋli",
           "m": "more and more",
-          "fa": "به‌طور فزاینده، روزبه‌روز"
+          "fa": "هر بار بیشتر، به‌طور فزاینده"
         }
       ]
     },
@@ -1163,7 +1163,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و دو بطریِ ارزان‌تر، نقشِ دوگانه داشتند و جای دو بطریِ گران‌تر را هم پر می‌کردند.",
+      "fa": "و دو تا از ارزان‌ترها دو نقش داشتند: جای دو تا از گران‌ترین‌ها را هم پر می‌کردند.",
       "en": "with the two cheapest pulling double duty as the two priciest.",
       "ipa": "wɪð ðə tu ˈtʃipəst ˈpʊlɪŋ ˈdʌbəl ˈduti əz ðə tu ˌpraɪsiɪst",
       "words": [
@@ -1171,7 +1171,7 @@ DRILL({
           "w": "to pull double duty",
           "ipa": "tə pʊl ˈdʌbəl ˈduti",
           "m": "(informal) to be used for two purposes at the same time",
-          "fa": "دو نقش را هم‌زمان بازی کردن",
+          "fa": "دو نقش را هم‌زمان داشتن",
           "more": "do double duty"
         },
         {
@@ -1214,7 +1214,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و فروشگاه‌ها را طوری طراحی می‌کنند که شما را از کنارِ آن‌ها عبور دهند.",
+      "fa": "و فروشگاه‌ها را طوری طراحی می‌کنند که شما را از جلوی آن‌ها رد کنند.",
       "en": "and design stores to guide you past them.",
       "ipa": "ənd dɪˈzaɪn stɔrz tə ɡaɪd ju pæst ðɛm",
       "words": [
@@ -1234,7 +1234,7 @@ DRILL({
           "w": "past",
           "ipa": "pæst",
           "m": "(preposition) moving beside something and beyond it",
-          "fa": "از کنارِ"
+          "fa": "از جلوی، از کنارِ"
         }
       ]
     },
@@ -1284,7 +1284,7 @@ DRILL({
       ]
     },
     {
-      "fa": "سایت‌ها ممکن است با پیشنهادِ اقلامِ مرتبط برای خرید یا با ازپیش‌انتخاب کردنِ افزودنی‌ها، به شما تلنگر بزنند.",
+      "fa": "سایت‌ها ممکن است با پیشنهادِ اقلامِ مرتبط برای خرید یا با انتخاب کردنِ ازپیشِ گزینه‌های جانبی، به شما تلنگر بزنند.",
       "en": "Sites might nudge you by suggesting related items to purchase or by pre-selecting add-ons.",
       "ipa": "saɪts maɪt nʌdʒ ju baɪ səɡˈdʒɛstɪŋ rɪˈleɪtɪd ˈaɪtəmz tə ˈpɝtʃəs ɔr baɪ ˌpriˈzɛləktɪŋ æd ɑnz",
       "words": [
@@ -1317,7 +1317,7 @@ DRILL({
           "w": "add-on",
           "ipa": "æd ɑn",
           "m": "an extra item or feature that you can buy",
-          "fa": "افزودنی، ملحقات"
+          "fa": "گزینه یا محصولِ جانبی (اضافه)"
         }
       ]
     },
@@ -1361,7 +1361,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس آهسته کردن و حساب‌وکتاب کردن می‌تواند از رازِ یک معاملهٔ پرزرق‌وبرق پرده بردارد.",
+      "fa": "پس آهسته کردن و حساب‌وکتاب کردن می‌تواند از حقیقتِ یک پیشنهادِ پرزرق‌وبرق پرده بردارد.",
       "en": "so slowing down to run the numbers can pull back the curtain on a flashy deal.",
       "ipa": "soʊ ˈsloʊɪŋ daʊn tə rʌn ðə ˈnʌmbɚz kən pʊl bæk ðə ˈkɝtən ɑn ə ˈflæʃi dil",
       "words": [
@@ -1393,12 +1393,12 @@ DRILL({
           "w": "deal",
           "ipa": "dil",
           "m": "an offer to buy something at a particular price",
-          "fa": "معامله، پیشنهادِ فروش"
+          "fa": "پیشنهادِ فروش، معامله"
         }
       ]
     },
     {
-      "fa": "اینکه پیش از خرید تصمیم بگیرید یک محصول برای شما چقدر می‌ارزد، کمک می‌کند لنگرهای خودتان را تعیین کنید.",
+      "fa": "اینکه پیش از خرید تصمیم بگیرید یک محصول برای شما چقدر می‌ارزد، کمک می‌کند لنگرِ خودتان را خودتان بیندازید.",
       "en": "Deciding what a product is worth to you before shopping can help set your own anchors.",
       "ipa": "dəˈsaɪdɪŋ wʌt ə ˈprɑdəkt ɪz wɝθ tə ju bɪˈfɔr ˈʃɑpɪŋ kən hɛlp sɛt jɔr oʊn ˈæŋkɚz",
       "words": [
@@ -1412,7 +1412,7 @@ DRILL({
           "w": "to set",
           "ipa": "tə sɛt",
           "m": "to decide or fix something such as a limit or price",
-          "fa": "تعیین کردن"
+          "fa": "تعیین کردن، (لنگر) انداختن"
         }
       ]
     },
@@ -1494,7 +1494,7 @@ DRILL({
       ]
     },
     {
-      "fa": "توانایی انتخاب کردن به شیوه و شرایطِ خودتان.",
+      "fa": "توانایی اینکه با شرایطِ خودتان انتخاب کنید.",
       "en": "the ability to choose on your own terms.",
       "ipa": "ði əˈbɪləti tə tʃuz ɑn jɔr oʊn tɝmz",
       "words": [
@@ -1502,7 +1502,7 @@ DRILL({
           "w": "on your own terms",
           "ipa": "ɑn jɔr oʊn tɝmz",
           "m": "in the way that you choose and under conditions you decide",
-          "fa": "به شیوه و شرایطِ خودتان"
+          "fa": "با شرایط و به شیوهٔ خودتان"
         }
       ]
     }

@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=bHB5iiDDJ-s",
   "items": [
     {
-      "fa": "در مارس ۲۰۲۴، دامپزشکان آمریکایی مستقیماً با یک معما رودررو بودند.",
+      "fa": "در مارس ۲۰۲۴، دامپزشکان آمریکا با معمایی دست‌وپنجه نرم می‌کردند.",
       "en": "In March 2024, US veterinarians were facing down a mystery.",
       "ipa": "ɪn mɑrtʃ ˈtwɛnti ˈtwɛnti fɔr ˌjuˈɛs ˌvɛtrəˈnɛriənz wɚ ˈfeɪsɪŋ daʊn ə ˈmɪstəri",
       "newPara": true,
@@ -20,7 +20,7 @@ DRILL({
           "w": "to face down",
           "ipa": "tə feɪs daʊn",
           "m": "to deal with a difficult problem directly, without backing away",
-          "fa": "رودررو شدن با، مقابلهٔ مستقیم با"
+          "fa": "دست‌وپنجه نرم کردن با، رودررو شدن با"
         },
         {
           "w": "mystery",
@@ -31,7 +31,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در مزرعه‌های لبنیاتیِ تگزاس و ایالت‌های اطراف، گاوها اشتهایشان را از دست می‌دادند و شیری غلیظ و تغییررنگ‌یافته تولید می‌کردند.",
+      "fa": "در گاوداری‌های شیریِ تگزاس و ایالت‌های همسایه، گاوها بی‌اشتها شده بودند و شیری غلیظ و بدرنگ تولید می‌کردند.",
       "en": "On dairy farms in Texas and nearby states, cows were losing their appetite and producing thick, discolored milk.",
       "ipa": "ɑn ˈdɛri fɑrmz ɪn ˈtɛksəs ənd ˌnɪrˈbaɪ steɪts kaʊz wɚ ˈluzɪŋ ðɛr ˈæpəˌtaɪt ənd prəˈdusɪŋ θɪk dɪˈskʌlɚd mɪlk",
       "words": [
@@ -39,7 +39,7 @@ DRILL({
           "w": "dairy",
           "ipa": "ˈdɛri",
           "m": "made from milk, or relating to the production of milk",
-          "fa": "لبنی",
+          "fa": "شیری، لبنی (dairy farm = گاوداری شیری)",
           "more": "dairy farm · dairy products"
         },
         {
@@ -53,13 +53,13 @@ DRILL({
           "w": "discolored",
           "ipa": "dɪˈskʌlɚd",
           "m": "changed to a different, usually worse, colour",
-          "fa": "تغییررنگ‌یافته، بدرنگ",
+          "fa": "بدرنگ، رنگ‌برگشته",
           "more": "discoloured (BrE) · discoloration"
         }
       ]
     },
     {
-      "fa": "در همان زمان، برای گربه‌های این مزرعه‌ها تشخیص یک بیماری عصبیِ ناشناخته گذاشته می‌شد.",
+      "fa": "در همان حال، در گربه‌های همین گاوداری‌ها یک بیماری عصبیِ ناشناخته تشخیص داده می‌شد.",
       "en": "At the same time, cats on these farms were being diagnosed with an unknown neurological disease.",
       "ipa": "ət ðə seɪm taɪm kæts ɑn ðiz fɑrmz wɚ ˈbiɪŋ ˌdaɪəɡˈnoʊst wɪð ən ənˈnoʊn ˌnʊrəˈlɑdʒɪkəl dɪˈziz",
       "words": [
@@ -93,7 +93,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا هفته‌ها، همهٔ آزمایش‌هایشان برای بیماری‌های رایجِ دام‌های گاوی با جواب منفی برمی‌گشت،",
+      "fa": "چند هفته جوابِ همهٔ آزمایش‌هایشان برای بیماری‌های رایج گاو منفی درمی‌آمد،",
       "en": "For weeks, all their tests for common cattle diseases came back negative",
       "ipa": "fɚ wiks ɔl ðɛr tɛsts fɚ ˈkɑmən ˈkætəl dɪˈzizəz keɪm bæk ˈnɛɡətɪv",
       "words": [
@@ -101,20 +101,20 @@ DRILL({
           "w": "cattle",
           "ipa": "ˈkætəl",
           "m": "cows and bulls kept on a farm for their meat or milk",
-          "fa": "گاوان، دام‌های گاوی",
+          "fa": "گاو (به‌طور جمعی)، احشام",
           "more": "livestock"
         },
         {
           "w": "to come back negative",
           "ipa": "tə kʌm bæk ˈnɛɡətɪv",
           "m": "(of a test) to show that the person or animal does not have the illness",
-          "fa": "نتیجهٔ آزمایش منفی برگشتن",
+          "fa": "(جواب آزمایش) منفی درآمدن",
           "more": "come back positive"
         }
       ]
     },
     {
-      "fa": "تا اینکه سرانجام نتایج آزمایشگاه مقصر اصلی را آشکار کرد:",
+      "fa": "تا اینکه بالاخره جواب‌های آزمایشگاه پرده از مقصر برداشت:",
       "en": "until lab results finally uncovered the culprit:",
       "ipa": "ənˈtɪl læb rɪˈzʌlts ˈfaɪnəli ənˈkʌvɚd ðə ˈkʌlprɪt",
       "words": [
@@ -122,7 +122,7 @@ DRILL({
           "w": "to uncover",
           "ipa": "tə ənˈkʌvɚ",
           "m": "to discover something that was hidden or secret",
-          "fa": "آشکار کردن، کشف کردن"
+          "fa": "پرده برداشتن از، آشکار کردن"
         },
         {
           "w": "culprit",
@@ -133,7 +133,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آنفلوانزای نوع A با زیرگونهٔ H5N1 — که بیشتر به نام آنفلوانزای پرندگان شناخته می‌شود.",
+      "fa": "آنفلوانزای نوع A، زیرگروه H5N1 — که بیشتر با نام «آنفلوانزای پرندگان» شناخته می‌شود.",
       "en": "influenza A subtype H5N1 — more commonly known as bird flu.",
       "ipa": "ˌɪnfluˈɛnzə ə ˈsʌbˌtaɪp ˈfeɪvəˌnoʊn mɔr ˈkɑmənli noʊn əz bɝd flu",
       "words": [
@@ -148,7 +148,7 @@ DRILL({
           "w": "subtype",
           "ipa": "ˈsʌbˌtaɪp",
           "m": "a smaller group within a larger type",
-          "fa": "زیرگونه، زیرنوع"
+          "fa": "زیرگروه، زیرنوع"
         },
         {
           "w": "commonly known as",
@@ -159,7 +159,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این اولین باری نبود که ویروسی که برای پرندگان سازگار شده بود، حیواناتِ غیرِ پرنده را آلوده می‌کرد.",
+      "fa": "این اولین بار نبود که ویروسی که با بدن پرندگان سازگار شده بود، حیوانی غیر از پرنده را آلوده می‌کرد.",
       "en": "This wasn’t the first time a virus adapted for birds infected non-avian animals.",
       "ipa": "ðɪs ˈwɑzənt ðə fɝst taɪm ə ˈvaɪrəs əˈdæptəd fɚ bɝdz ɪnˈfɛktəd nɑˈneɪviən ˈænəməlz",
       "newPara": true,
@@ -194,7 +194,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در واقع، هر همه‌گیری جهانیِ آنفلوانزای انسانی که تاکنون ثبت شده، با یکی از سویه‌های آنفلوانزای پرندگان ارتباط داده شده است.",
+      "fa": "در واقع، همهٔ همه‌گیری‌های جهانیِ آنفلوانزای انسانی که تا امروز ثبت شده‌اند، به یکی از انواع آنفلوانزای پرندگان ربط داده شده‌اند.",
       "en": "In fact, every human influenza pandemic on record has been linked to some strain of bird flu.",
       "ipa": "ɪn fækt ˈɛvəri ˈhjumən ˌɪnfluˈɛnzə pænˈdɛmɪk ɑn ˈrɛkɚd hæz bɪn lɪŋkt tə sʌm streɪn əv bɝd flu",
       "words": [
@@ -228,12 +228,12 @@ DRILL({
           "w": "strain",
           "ipa": "streɪn",
           "m": "a particular type of a virus or bacteria",
-          "fa": "سویه"
+          "fa": "نوع، واریانت (ویروس یا میکروب)"
         }
       ]
     },
     {
-      "fa": "پس چه چیزی در این ویروس‌هاست که باعث می‌شود تا این حد به‌طرزی ترسناک انعطاف‌پذیر باشند؟",
+      "fa": "پس این ویروس‌ها چه دارند که آن‌ها را تا این حد، به‌طرز ترسناکی، انعطاف‌پذیر می‌کند؟",
       "en": "So what is it about these viruses that makes them so frighteningly flexible?",
       "ipa": "soʊ wʌt ɪz ɪt əˈbaʊt ðiz ˈvaɪrəsəz ðæt meɪks ðɛm soʊ ˈfraɪtənɪŋli ˈflɛksəbəl",
       "words": [
@@ -241,7 +241,7 @@ DRILL({
           "w": "what is it about … that …?",
           "ipa": "wʌt ɪz ɪt əˈbaʊt … ðæt …",
           "m": "used to ask which quality of something causes a particular effect",
-          "fa": "چه چیزی دربارهٔ … باعث می‌شود که …؟"
+          "fa": "… چه دارد که …؟"
         },
         {
           "w": "frighteningly",
@@ -260,7 +260,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از میان چهار گروه ویروس‌های آنفلوانزا، همهٔ آنفلوانزاهای پرندگان در گروه A قرار می‌گیرند.",
+      "fa": "از چهار گروه ویروس‌های آنفلوانزا، همهٔ آنفلوانزاهای پرندگان در گروه A جای می‌گیرند.",
       "en": "Of the four groups of flu viruses, all bird flus fall into group A.",
       "ipa": "əv ðə fɔr ɡrups əv flu ˈvaɪrəsəz ɔl bɝd fluz fɔl ɪnˈtu ɡrup ə",
       "newPara": true,
@@ -269,12 +269,12 @@ DRILL({
           "w": "to fall into",
           "ipa": "tə fɔl ɪnˈtu",
           "m": "to belong to a particular group or category",
-          "fa": "در دسته‌ای قرار گرفتن"
+          "fa": "در (گروه یا دسته‌ای) جای گرفتن"
         }
       ]
     },
     {
-      "fa": "درون این گروه، ویروس‌ها به زیرگونه‌هایی سازمان‌دهی می‌شوند که با دو پروتئین ویروسی تعریف می‌شوند.",
+      "fa": "در داخل این گروه، ویروس‌ها به زیرگروه‌هایی دسته‌بندی می‌شوند که هر کدام با دو پروتئین ویروسی مشخص می‌شود.",
       "en": "Within this group, the viruses are organized into subtypes defined by two viral proteins.",
       "ipa": "wɪˈðɪn ðɪs ɡrup ðə ˈvaɪrəsəz ɚ ˈɔrɡəˌnaɪzd ɪnˈtu ˈsʌbˌtaɪps dɪˈfaɪnd baɪ tu ˈvaɪrəl ˈproʊˌtinz",
       "words": [
@@ -306,7 +306,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هماگلوتینین به گیرنده‌های سلول میزبان متصل می‌شود و به ویروس اجازه می‌دهد وارد سلول شود و تکثیر شود.",
+      "fa": "هماگلوتینین به گیرنده‌های سلول میزبان می‌چسبد و به ویروس امکان می‌دهد وارد سلول شود و خودش را تکثیر کند.",
       "en": "Hemagglutinin binds to host cell receptors, allowing the virus to enter the cell and replicate.",
       "ipa": "ˌhɛməɡəˈleɪntʃi baɪndz tə hoʊst sɛl rəˈsɛptɚz əˈlaʊɪŋ ðə ˈvaɪrəs tə ˈɛntɚ ðə sɛl ənd ˈrɛpləˌkeɪt",
       "words": [
@@ -337,7 +337,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و نورآمینیداز به آن ویروس‌های تازه کمک می‌کند تا سلول را ترک کنند.",
+      "fa": "و نورآمینیداز به آن ویروس‌های تازه کمک می‌کند از سلول بیرون بروند.",
       "en": "And neuraminidase helps those new viruses leave the cell.",
       "ipa": "ənd nʊrɑmiˈnɑdiz hɛlps ðoʊz nu ˈvaɪrəsəz liv ðə sɛl"
     },
@@ -370,7 +370,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برای مثال، ترکیبِ هماگلوتینین ۵ و نورآمینیداز ۱ «H5N1» نامیده می‌شود.",
+      "fa": "مثلاً به ترکیبِ هماگلوتینین ۵ و نورآمینیداز ۱، H5N1 گفته می‌شود.",
       "en": "For example, the combo of hemagglutinin 5 and neuraminidase 1 is called H5N1.",
       "ipa": "fɚ ɪɡˈzæmpəl ðə ˈkɑmˌboʊ əv ˌhɛməɡəˈleɪntʃi faɪv ənd nʊrɑmiˈnɑdiz wʌn ɪz kɔld ˈfeɪvəˌnoʊn",
       "words": [
@@ -383,7 +383,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این پروتئین‌ها برای آنکه آنفلوانزای A بتواند وارد سلول‌های میزبان شود و از آن‌ها خارج شود ضروری‌اند،",
+      "fa": "این پروتئین‌ها برای ورود آنفلوانزای A به سلول‌های میزبان و خروجش از آن‌ها لازم‌اند،",
       "en": "These proteins are necessary for influenza A to enter and exit host cells,",
       "ipa": "ðiz ˈproʊˌtinz ɚ ˈnɛsəˌsɛri fɚ ˌɪnfluˈɛnzə ə tə ˈɛntɚ ənd ˈɛɡzɪt hoʊst sɛlz",
       "newPara": true,
@@ -403,7 +403,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس معمولاً همین‌ها تعیین می‌کنند که یک سویه می‌تواند کدام حیوان‌ها را آلوده کند.",
+      "fa": "پس به‌طور کلی همین‌ها تعیین می‌کنند که هر نوع ویروس کدام حیوان‌ها را می‌تواند آلوده کند.",
       "en": "so they generally determine which animals a strain can infect.",
       "ipa": "soʊ ðeɪ ˈdʒɛnərəli dəˈtɝmən wɪtʃ ˈænəməlz ə streɪn kən ɪnˈfɛkt",
       "words": [
@@ -422,7 +422,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما پرندگان، به‌ویژه پرندگان وحشیِ آبزی، برای بیشترِ نسخه‌های شناخته‌شدهٔ این پروتئین‌ها گیرنده دارند،",
+      "fa": "اما پرندگان، به‌خصوص پرندگان وحشیِ آبزی، برای بیشترِ نسخه‌های شناخته‌شدهٔ این پروتئین‌ها گیرنده دارند،",
       "en": "But birds, especially wild aquatic birds, have receptors for most known versions of these proteins,",
       "ipa": "bət bɝdz əˈspɛʃli waɪld əˈkwɑtɪk bɝdz hæv rəˈsɛptɚz fɚ moʊst noʊn ˈvɝʒənz əv ðiz ˈproʊˌtinz",
       "words": [
@@ -435,7 +435,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که آن‌ها را نسبت به تقریباً همهٔ ترکیب‌ها مستعدِ ابتلا می‌کند.",
+      "fa": "و همین آن‌ها را مستعدِ ابتلا به تقریباً همهٔ ترکیب‌ها می‌کند.",
       "en": "making them susceptible to nearly all combinations.",
       "ipa": "ˈmeɪkɪŋ ðɛm səˈsɛptəbəl tə ˈnɪrli ɔl ˌkɑmbəˈneɪʃənz",
       "words": [
@@ -443,13 +443,13 @@ DRILL({
           "w": "susceptible",
           "ipa": "səˈsɛptəbəl",
           "m": "easily affected or harmed by something, especially a disease",
-          "fa": "مستعد ابتلا، آسیب‌پذیر",
+          "fa": "مستعد (ابتلا)، آسیب‌پذیر",
           "more": "susceptible to · vulnerable"
         }
       ]
     },
     {
-      "fa": "بدتر اینکه، این پرندگان آبی ویروس را از راه مدفوعشان به دریاچه‌ها و برکه‌ها دفع می‌کنند،",
+      "fa": "بدتر از آن، این پرندگان آبی ویروس را با فضله‌شان در دریاچه‌ها و برکه‌ها دفع می‌کنند،",
       "en": "Worse still, these waterfowl shed the virus through their feces into lakes and ponds,",
       "ipa": "wɝs stɪl ðiz ˈwɔtɚˌfaʊl ʃɛd ðə ˈvaɪrəs θru ðɛr ˈfiˌsiz ɪnˈtu leɪks ənd pɑndz",
       "words": [
@@ -476,7 +476,7 @@ DRILL({
           "w": "feces",
           "ipa": "ˈfiˌsiz",
           "m": "solid waste that leaves the body of a person or animal",
-          "fa": "مدفوع",
+          "fa": "مدفوع، فضله",
           "more": "faeces (BrE) · droppings"
         },
         {
@@ -488,7 +488,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و احتمال ابتلا را برای هر پرنده‌ای که از آن پهنه‌های آبی استفاده می‌کند بالا می‌برند.",
+      "fa": "و احتمالِ آلوده‌شدنِ هر پرنده‌ای را که از آن آب‌ها (دریاچه‌ها و برکه‌ها) استفاده کند بالا می‌برند.",
       "en": "increasing the odds of infection for any bird using those bodies of water.",
       "ipa": "ɪnˈkrisɪŋ ði ɑdz əv ɪnˈfɛkʃən fɚ ˈɛni bɝd ˈjuzɪŋ ðoʊz ˈbɑdiz əv ˈwɔtɚ",
       "words": [
@@ -503,12 +503,12 @@ DRILL({
           "w": "body of water",
           "ipa": "ˈbɑdi əv ˈwɔtɚ",
           "m": "a large area of water such as a lake, river or sea",
-          "fa": "پهنهٔ آبی"
+          "fa": "پهنهٔ آب (دریاچه، برکه، دریا و…)"
         }
       ]
     },
     {
-      "fa": "و از آنجا که این ویروس‌ها معمولاً پرندگان را به‌طور آشکار بیمار نمی‌کنند،",
+      "fa": "و چون این ویروس‌ها معمولاً این پرندگان را واقعاً و آشکارا بیمار نمی‌کنند،",
       "en": "And since the viruses don’t usually make these birds actively sick,",
       "ipa": "ənd sɪns ðə ˈvaɪrəsəz doʊnt ˈjuʒəwəli meɪk ðiz bɝdz ˈæktɪvli sɪk",
       "words": [
@@ -516,12 +516,12 @@ DRILL({
           "w": "actively",
           "ipa": "ˈæktɪvli",
           "m": "in a way that clearly shows an effect or action",
-          "fa": "به‌طور آشکار، به‌صورت فعال"
+          "fa": "واقعاً، به‌طور آشکار"
         }
       ]
     },
     {
-      "fa": "می‌توانند مثل مخزنی برای بیماری عمل کنند—",
+      "fa": "این پرندگان می‌توانند نقش مخزنِ بیماری را بازی کنند —",
       "en": "they can act as reservoirs for disease—",
       "ipa": "ðeɪ kən ækt əz ˈrɛzɚvˌwɑrz fɚ dɪˈziz",
       "words": [
@@ -535,13 +535,13 @@ DRILL({
           "w": "reservoir",
           "ipa": "ˈrɛzəvˌwɑr",
           "m": "a place or animal where a disease is kept and can spread from",
-          "fa": "مخزن (بیماری)",
+          "fa": "مخزن، منبع (بیماری)",
           "more": "natural reservoir"
         }
       ]
     },
     {
-      "fa": "و در حال پرواز به این‌سو و آن‌سو، سویهٔ خود را پخش می‌کنند.",
+      "fa": "همین‌طور که این‌طرف و آن‌طرف پرواز می‌کنند، نوعِ ویروسِ خودشان را پخش می‌کنند.",
       "en": "flying around and spreading their strain.",
       "ipa": "ˈflaɪɪŋ əˈraʊnd ənd ˈsprɛdɪŋ ðɛr streɪn",
       "words": [
@@ -554,7 +554,7 @@ DRILL({
       ]
     },
     {
-      "fa": "خوشبختانه، انسان‌ها در بیشتر موارد از همهٔ این آنفلوانزاها در امان‌اند.",
+      "fa": "خوشبختانه، انسان‌ها تا حد زیادی از همهٔ این آنفلوانزاها در امان‌اند.",
       "en": "Thankfully, humans are mostly safe from all these flus.",
       "ipa": "ˈθæŋkfəli ˈhjumənz ɚ ˈmoʊstli seɪf frəm ɔl ðiz fluz",
       "newPara": true,
@@ -570,17 +570,17 @@ DRILL({
           "w": "mostly",
           "ipa": "ˈmoʊstli",
           "m": "in most cases; mainly",
-          "fa": "بیشتر، عمدتاً"
+          "fa": "تا حد زیادی، عمدتاً"
         }
       ]
     },
     {
-      "fa": "ما فقط برای چند پروتئین ویروسی گیرنده داریم و این ما را از بیشتر ترکیب‌ها محافظت می‌کند.",
+      "fa": "ما فقط برای چند پروتئین ویروسی گیرنده داریم و همین ما را در برابر بیشتر ترکیب‌ها محافظت می‌کند.",
       "en": "We only have receptors for a few viral proteins, protecting us from most combinations.",
       "ipa": "wi ˈoʊnli hæv rəˈsɛptɚz fɚ ə fju ˈvaɪrəl ˈproʊˌtinz prəˈtɛktɪŋ ʌs frəm moʊst ˌkɑmbəˈneɪʃənz"
     },
     {
-      "fa": "و درحالی‌که آنفلوانزاهای پرندگان گاهی می‌توانند به گیرنده‌های موجود در مجاری هوایی ما متصل شوند،",
+      "fa": "و هرچند آنفلوانزاهای پرندگان گاهی می‌توانند به گیرنده‌های مجاری تنفسیِ ما بچسبند،",
       "en": "And while bird flus can sometimes bind to receptors in our airways,",
       "ipa": "ənd waɪl bɝd fluz kən səmˈtaɪmz baɪnd tə rəˈsɛptɚz ɪn ˈaʊɚ ˈɛrˌweɪz",
       "words": [
@@ -588,12 +588,12 @@ DRILL({
           "w": "airway",
           "ipa": "ˈɛrˌweɪ",
           "m": "the passage that carries air to the lungs",
-          "fa": "مجرای هوایی"
+          "fa": "مجرای تنفسی"
         }
       ]
     },
     {
-      "fa": "گیرنده‌های آسیب‌پذیرترِ ما عمیق در ریه‌هایمان‌اند.",
+      "fa": "گیرنده‌هایی که در بدن ما آسیب‌پذیرترند، در عمقِ ریه‌هایمان قرار دارند.",
       "en": "our more vulnerable receptors are deep in our lungs.",
       "ipa": "ˈaʊɚ mɔr ˈvʌlnərəbəl rəˈsɛptɚz ɚ dip ɪn ˈaʊɚ lʌŋz",
       "words": [
@@ -613,7 +613,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این کار باعث می‌شود ابتلا کمتر محتمل و انتقال کم‌کارآمدتر باشد",
+      "fa": "همین باعث می‌شود احتمال ابتلا کمتر باشد و انتقالِ ویروس هم کارایی کمتری داشته باشد",
       "en": "This makes infection less likely and transmission less efficient",
       "ipa": "ðɪs meɪks ɪnˈfɛkʃən lɛs ˈlaɪkli ənd trænˈsmɪʃən lɛs ɪˈfɪʃənt",
       "words": [
@@ -628,13 +628,13 @@ DRILL({
           "w": "efficient",
           "ipa": "ɪˈfɪʃənt",
           "m": "working well without wasting time or energy",
-          "fa": "کارآمد، بهره‌ور",
+          "fa": "کارا، کارآمد",
           "more": "efficiency"
         }
       ]
     },
     {
-      "fa": "در مقایسه با آنفلوانزاهای رایج انسانی که گیرنده‌های بینی و گلوی ما را هدف می‌گیرند.",
+      "fa": "در مقایسه با آنفلوانزاهای رایجِ انسانی، که گیرنده‌های بینی و گلوی ما را هدف می‌گیرند.",
       "en": "compared to common human flus that target receptors in our nose and throat.",
       "ipa": "kəmˈpɛrd tə ˈkɑmən ˈhjumən fluz ðæt ˈtɑrɡət rəˈsɛptɚz ɪn ˈaʊɚ noʊz ənd θroʊt",
       "words": [
@@ -687,7 +687,7 @@ DRILL({
       "newPara": true
     },
     {
-      "fa": "مولکول‌هایی مشخص که سیستم ایمنی ما می‌تواند آن‌ها را شناسایی کند و برای مبارزه با یک عفونت به آن‌ها حمله کند.",
+      "fa": "مولکول‌های مشخصی که سیستم ایمنی ما می‌تواند آن‌ها را بشناسد و برای مقابله با عفونت به آن‌ها حمله کند.",
       "en": "specific molecules that our immune system can recognize and attack to fight against an infection.",
       "ipa": "spəˈsɪfɪk ˈmɑləkˌjulz ðæt ˈaʊɚ ɪˈmjun ˈsɪstəm kən ˈrɛkəɡˌnaɪz ənd əˈtæk tə faɪt əˈɡɛnst ən ɪnˈfɛkʃən",
       "words": [
@@ -714,13 +714,13 @@ DRILL({
           "w": "to recognize",
           "ipa": "tə ˈrɛkəɡˌnaɪz",
           "m": "to know who or what something is because you have seen it before",
-          "fa": "شناسایی کردن، تشخیص دادن",
+          "fa": "شناختن، تشخیص دادن",
           "more": "recognise (BrE)"
         }
       ]
     },
     {
-      "fa": "اما دو فرایند پیوسته این مولکول‌ها را تغییر می‌دهند و سیستم‌های ایمنی ما را به چالش می‌کشند.",
+      "fa": "اما دو فرایند مدام این مولکول‌ها را تغییر می‌دهند و سیستم ایمنی ما را به چالش می‌کشند.",
       "en": "But two processes are constantly changing these molecules and challenging our immune systems.",
       "ipa": "bət tu ˌprɔˈsɛsəz ɚ ˈkɑnstəntli ˈtʃeɪndʒɪŋ ðiz ˈmɑləkˌjulz ənd ˈtʃæləndʒɪŋ ˈaʊɚ ɪˈmjun ˈsɪstəmz",
       "words": [
@@ -734,7 +734,7 @@ DRILL({
           "w": "constantly",
           "ipa": "ˈkɑnstəntli",
           "m": "all the time; again and again",
-          "fa": "پیوسته، مدام"
+          "fa": "مدام، پیوسته"
         },
         {
           "w": "to challenge",
@@ -745,7 +745,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اولی رانش آنتی‌ژنی است، جایی که آنتی‌ژن‌ها به‌کندی و طی زمان، بر اثر جهش‌های تصادفی تغییر می‌کنند.",
+      "fa": "اولی «رانش آنتی‌ژنی» است؛ یعنی آنتی‌ژن‌ها به‌خاطر جهش‌های تصادفی، آرام‌آرام و در طول زمان تغییر می‌کنند.",
       "en": "The first is antigenic drift, where antigens change slowly over time due to random mutations.",
       "ipa": "ðə fɝst ɪz ˌæntədʒəˈnɛkɪŋ drɪft wɛr ˈæntɪdʒənz tʃeɪndʒ ˈsloʊli ˈoʊvɚ taɪm du tə ˈrændəm mjuˈteɪʃənz",
       "words": [
@@ -753,7 +753,7 @@ DRILL({
           "w": "drift",
           "ipa": "drɪft",
           "m": "a slow, gradual change or movement",
-          "fa": "رانش، تغییر تدریجی"
+          "fa": "تغییرِ آرام و تدریجی، رانش"
         },
         {
           "w": "over time",
@@ -783,7 +783,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این کار شناسایی ویروس را برای سیستم‌های ایمنی سخت‌تر می‌کند،",
+      "fa": "این کار شناختنِ ویروس را برای سیستم ایمنی سخت‌تر می‌کند،",
       "en": "This makes it harder for immune systems to recognize the virus,",
       "ipa": "ðɪs meɪks ɪt ˈhɑrdɚ fɚ ɪˈmjun ˈsɪstəmz tə ˈrɛkəɡˌnaɪz ðə ˈvaɪrəs"
     },
@@ -809,7 +809,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در واقع، ما با به‌روزرسانی آمپول‌های آنفلوانزایمان در هر سال، رانش آنتی‌ژنیِ آنفلوانزای انسانی را مدیریت می‌کنیم.",
+      "fa": "در واقع، با به‌روزکردنِ واکسن آنفلوانزا در هر سال، از پسِ رانش آنتی‌ژنیِ آنفلوانزای انسانی برمی‌آییم.",
       "en": "In fact, we manage the antigenic drift of human flu by updating our flu shots every year.",
       "ipa": "ɪn fækt wi ˈmænədʒ ði ˌæntədʒəˈnɛkɪŋ drɪft əv ˈhjumən flu baɪ əpˈdeɪtɪŋ ˈaʊɚ flu ʃɑts ˈɛvəri jɪr",
       "words": [
@@ -817,7 +817,7 @@ DRILL({
           "w": "to manage",
           "ipa": "tə ˈmænədʒ",
           "m": "to deal with a problem or situation successfully",
-          "fa": "مدیریت کردن، از پس … برآمدن"
+          "fa": "از پسِ … برآمدن، کنترل کردن"
         },
         {
           "w": "to update",
@@ -829,13 +829,13 @@ DRILL({
           "w": "flu shot",
           "ipa": "flu ʃɑt",
           "m": "an injection that helps protect you from the flu",
-          "fa": "آمپول (واکسن) آنفلوانزا",
+          "fa": "واکسن آنفلوانزا",
           "more": "flu jab (BrE) · vaccination"
         }
       ]
     },
     {
-      "fa": "فرایندِ بسیار ناگهانی‌تر و بالقوه خطرناک‌تر، جابه‌جایی آنتی‌ژنی است.",
+      "fa": "فرایندی که بسیار ناگهانی‌تر و بالقوه خطرناک‌تر است، «جابه‌جایی آنتی‌ژنی» است.",
       "en": "The much more sudden and potentially dangerous process is antigenic shift.",
       "ipa": "ðə mʌtʃ mɔr ˈsʌdən ənd pəˈtɛnʃəli ˈdeɪndʒərəs ˈprɑˌsɛs ɪz ˌæntədʒəˈnɛkɪŋ ʃɪft",
       "newPara": true,
@@ -856,12 +856,12 @@ DRILL({
           "w": "shift",
           "ipa": "ʃɪft",
           "m": "a change in position, direction or way of doing things",
-          "fa": "جابه‌جایی، تغییر"
+          "fa": "تغییرِ ناگهانی و بزرگ، جابه‌جایی"
         }
       ]
     },
     {
-      "fa": "این زمانی رخ می‌دهد که دو یا چند ویروس آنفلوانزای متفاوت درون یک میزبان به هم برسند و بخش‌های کاملِ ژن را با هم عوض کنند،",
+      "fa": "این وقتی رخ می‌دهد که دو یا چند ویروس آنفلوانزای مختلف درون یک میزبان به هم برسند و تکه‌هایی کامل از ژن‌هایشان را با هم عوض کنند،",
       "en": "This happens when two or more different influenza viruses meet inside a host and swap entire gene segments,",
       "ipa": "ðɪs ˈhæpənz wɛn tu ɔr mɔr ˈdɪfərənt ˌɪnfluˈɛnzə ˈvaɪrəsəz mit ɪnˈsaɪd ə hoʊst ənd swɑp ɪnˈtaɪɚ dʒin ˈsɛɡmənts",
       "words": [
@@ -888,12 +888,12 @@ DRILL({
           "w": "segment",
           "ipa": "ˌsɛɡˈmɛnt",
           "m": "one part of something that is divided",
-          "fa": "بخش، قطعه"
+          "fa": "تکه، بخش"
         }
       ]
     },
     {
-      "fa": "و بلافاصله ویروسی تازه با توانایی‌هایی کاملاً نو پدید می‌آورند—",
+      "fa": "و در یک آن، ویروسی تازه با توانایی‌هایی کاملاً جدید بسازند —",
       "en": "instantly creating a new virus with all-new abilities—",
       "ipa": "ˈɪnstəntli kriˈeɪtɪŋ ə nu ˈvaɪrəs wɪð ɔl nu əˈbɪlətiz",
       "words": [
@@ -912,7 +912,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از جمله توانایی بالقوه برای اتصال به گیرنده‌های متفاوت و آلوده‌کردن گونه‌های مختلف.",
+      "fa": "از جمله این توانایی بالقوه که به گیرنده‌های دیگری بچسبد و گونه‌های جانوریِ دیگری را آلوده کند.",
       "en": "including the potential to bind to different receptors and infect different species.",
       "ipa": "ɪnˈkludɪŋ ðə pəˈtɛnʃəl tə baɪnd tə ˈdɪfərənt rəˈsɛptɚz ənd ɪnˈfɛkt ˈdɪfərənt ˈspiʃiz",
       "words": [
@@ -926,7 +926,7 @@ DRILL({
           "w": "species",
           "ipa": "ˈspiʃiz",
           "m": "a group of animals or plants of the same kind that can breed together",
-          "fa": "گونه (زیستی)",
+          "fa": "گونه (جانوری یا گیاهی)",
           "more": "same form in singular and plural"
         }
       ]
@@ -947,17 +947,17 @@ DRILL({
       ]
     },
     {
-      "fa": "از آنجا که پرندگان در برابر این‌همه زیرگونهٔ آنفلوانزای A آسیب‌پذیرند،",
+      "fa": "چون پرندگان در برابر این‌همه زیرگروهِ آنفلوانزای A آسیب‌پذیرند،",
       "en": "Since birds are vulnerable to so many influenza A subtypes,",
       "ipa": "sɪns bɝdz ɚ ˈvʌlnərəbəl tə soʊ ˈmɛni ˌɪnfluˈɛnzə ə ˈsʌbˌtaɪps"
     },
     {
-      "fa": "مخازن طبیعیِ جابه‌جایی‌های آنتی‌ژنی‌اند.",
+      "fa": "به‌طور طبیعی مخزنی برای جابه‌جایی‌های آنتی‌ژنی‌اند.",
       "en": "they’re natural reservoirs for antigenic shifts.",
       "ipa": "ðɛr ˈnætʃərəl ˈrɛzɚvˌwɑrz fɚ ˌæntədʒəˈnɛkɪŋ ʃɪfts"
     },
     {
-      "fa": "معمای مزرعهٔ لبنیاتیِ خودمان را در نظر بگیرید.",
+      "fa": "همان معمای گاوداریِ شیریِ خودمان را در نظر بگیرید.",
       "en": "Consider our dairy farm mystery.",
       "ipa": "kənˈsɪdɚ ˈaʊɚ ˈdɛri fɑrm ˈmɪstəri",
       "newPara": true,
@@ -976,7 +976,7 @@ DRILL({
       "ipa": "waɪl ˈfeɪvəˌnoʊn just tə ɪnˈfɛkt ˈmoʊstli bɝdz"
     },
     {
-      "fa": "در چند سال گذشته در بیش از ۷۰ گونهٔ پستاندار یافت شده است،",
+      "fa": "در چند سال اخیر، در بیش از ۷۰ گونهٔ پستاندار پیدا شده است،",
       "en": "in the past few years, it’s been found in over 70 mammal species,",
       "ipa": "ɪn ðə pæst fju jɪrz ɪts bɪn faʊnd ɪn ˈoʊvɚ ˈsɛvənti ˈmæməl ˈspiʃiz",
       "words": [
@@ -998,17 +998,17 @@ DRILL({
           "w": "seal",
           "ipa": "sil",
           "m": "a sea animal with smooth fur that eats fish",
-          "fa": "فوک، شیر دریایی"
+          "fa": "فوک"
         }
       ]
     },
     {
-      "fa": "هر عفونت پستانداریِ تازه به ویروس فرصت‌های بیشتری می‌دهد تا دچار رانش یا جابه‌جایی شود،",
+      "fa": "هر آلودگیِ تازه در یک پستاندار به ویروس فرصت‌های بیشتری می‌دهد تا دچار رانش یا جابه‌جایی شود،",
       "en": "Each new mammalian infection gives the virus more chances to drift or shift,",
       "ipa": "itʃ nu məˈmeɪliən ɪnˈfɛkʃən ɡɪvz ðə ˈvaɪrəs mɔr ˈtʃænsəz tə drɪft ɔr ʃɪft"
     },
     {
-      "fa": "و احتمالاً به انسان‌ها سرریز کند و همه‌گیری‌ای را شعله‌ور سازد.",
+      "fa": "و چه‌بسا به انسان‌ها هم سرایت کند و جرقهٔ یک همه‌گیری جهانی را بزند.",
       "en": "potentially spilling over into humans, and igniting a pandemic.",
       "ipa": "pəˈtɛnʃəli ˈspɪlɪŋ ˈoʊvɚ ɪnˈtu ˈhjumənz ənd ɪɡˈnaɪtɪŋ ə pænˈdɛmɪk",
       "words": [
@@ -1016,23 +1016,23 @@ DRILL({
           "w": "to spill over",
           "ipa": "tə spɪl ˈoʊvɚ",
           "m": "to spread from one area or group into another",
-          "fa": "سرریز شدن، سرایت کردن"
+          "fa": "سرایت کردن (از گروهی به گروه دیگر)، سرریز شدن"
         },
         {
           "w": "to ignite",
           "ipa": "tə ɪɡˈnaɪt",
           "m": "to start a fire, or to make a strong feeling or event begin",
-          "fa": "شعله‌ور کردن، جرقه زدن"
+          "fa": "جرقهٔ … را زدن، شعله‌ور کردن"
         }
       ]
     },
     {
-      "fa": "و از آنجا که سیستم‌های ایمنی ما برای شناسایی پروتئین‌های آنفلوانزای پرندگان آموزش ندیده‌اند،",
+      "fa": "و چون سیستم ایمنی ما برای شناختن پروتئین‌های آنفلوانزای پرندگان آموزش ندیده،",
       "en": "And since our immune systems aren’t trained to recognize avian influenza proteins,",
       "ipa": "ənd sɪns ˈaʊɚ ɪˈmjun ˈsɪstəmz ˈɑrənt treɪnd tə ˈrɛkəɡˌnaɪz ˈeɪviən ˌɪnfluˈɛnzə ˈproʊˌtinz"
     },
     {
-      "fa": "اثرات این ویروس‌ها می‌تواند مرگبار باشد.",
+      "fa": "اثر این ویروس‌ها می‌تواند کشنده باشد.",
       "en": "the effects of these viruses can be deadly.",
       "ipa": "ði ɪˈfɛkts əv ðiz ˈvaɪrəsəz kən bi ˈdɛdli",
       "words": [
@@ -1060,7 +1060,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با وجود اینکه آنفلوانزا در پرندگان سراسر جهان همه‌جاحاضر است،",
+      "fa": "با وجود اینکه آنفلوانزا میان پرندگانِ سراسر جهان فراگیر است،",
       "en": "Despite the fact that influenza is ubiquitous in birds across the globe,",
       "ipa": "dɪˈspaɪt ðə fækt ðæt ˌɪnfluˈɛnzə ɪz juˈbɪkwɪtəs ɪn bɝdz əˈkrɔs ðə ɡloʊb",
       "words": [
@@ -1075,7 +1075,7 @@ DRILL({
           "w": "ubiquitous",
           "ipa": "juˈbɪkwɪtəs",
           "m": "seen or found everywhere",
-          "fa": "همه‌جاحاضر، فراگیر"
+          "fa": "فراگیر، همه‌جایی"
         },
         {
           "w": "across the globe",
@@ -1100,7 +1100,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مهم‌ترین چیز این است که هشیار بمانیم.",
+      "fa": "مهم‌ترین چیز این است که هوشیار بمانیم.",
       "en": "What's most important is to stay vigilant.",
       "ipa": "wʌts moʊst ɪmˈpɔrtənt ɪz tə steɪ ˈvɪdʒələnt",
       "words": [
@@ -1114,7 +1114,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دانشمندان شبانه‌روز کار می‌کنند تا تکاملِ ویروسیِ در جریان را زیر نظر داشته باشند،",
+      "fa": "دانشمندان شبانه‌روز کار می‌کنند تا تکاملِ ویروس را، که همچنان در جریان است، زیر نظر بگیرند،",
       "en": "Scientists are working around the clock to monitor ongoing viral evolution,",
       "ipa": "ˈsaɪəntɪsts ɚ ˈwɝkɪŋ əˈraʊnd ðə klɑk tə ˈmɑnətɚ ˈɑnˌɡoʊɪŋ ˈvaɪrəl ˌɛvəˈluʃən",
       "words": [
@@ -1175,7 +1175,7 @@ DRILL({
       ]
     },
     {
-      "fa": "همه‌چیز می‌تواند با یک شیوع تغییر کند،",
+      "fa": "ممکن است همه‌چیز فقط با یک بار شیوعِ بیماری عوض شود،",
       "en": "Everything could change with a single outbreak,",
       "ipa": "ˈɛvriˌθɪŋ kʊd tʃeɪndʒ wɪð ə ˈsɪŋɡəl ˈaʊtˌbreɪk",
       "words": [
@@ -1183,13 +1183,13 @@ DRILL({
           "w": "outbreak",
           "ipa": "ˈaʊtˌbreɪk",
           "m": "a sudden start of a disease or war in a place",
-          "fa": "شیوع، طغیان",
+          "fa": "شیوع (ناگهانی بیماری)",
           "more": "epidemic"
         }
       ]
     },
     {
-      "fa": "پس تنها راه برنده‌شدن در این مسابقهٔ تسلیحاتیِ ویروسی این است که یک بال‌زدن جلوتر بمانیم.",
+      "fa": "پس تنها راهِ بردن در این مسابقهٔ تسلیحاتیِ ویروسی این است که همیشه «یک بال‌زدن» جلوتر بمانیم.",
       "en": "so the only way to win this viral arms race is to stay one flap ahead.",
       "ipa": "soʊ ði ˈoʊnli weɪ tə wɪn ðɪs ˈvaɪrəl ɑrmz reɪs ɪz tə steɪ wʌn flæp əˈhɛd",
       "words": [
