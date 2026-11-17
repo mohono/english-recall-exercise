@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>خلاصه‌ی کاربردی دستور زبان انگلیسی</title>
+<style>
+@font-face{font-family:'Vazirmatn';font-weight:400;font-display:swap;src:url('../../../app/fonts/Vazirmatn-arabic-1.woff2') format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+200C-200E,U+FB50-FDFF,U+FE70-FEFC}
+@font-face{font-family:'Vazirmatn';font-weight:400;font-display:swap;src:url('../../../app/fonts/Vazirmatn-latin-2.woff2') format('woff2');unicode-range:U+0000-00FF,U+2000-206F,U+2191,U+2193,U+2212}
+@font-face{font-family:'Vazirmatn';font-weight:700;font-display:swap;src:url('../../../app/fonts/Vazirmatn-Bold.ttf') format('truetype')}
+@font-face{font-family:'Source Serif 4';font-weight:400;font-display:swap;src:url('../../../app/fonts/SourceSerif4-latin-2.woff2') format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
+@font-face{font-family:'Source Serif 4';font-weight:600;font-display:swap;src:url('../../../app/fonts/SourceSerif4-latin-2.woff2') format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
+:root{
+  --bg:#FAF8F3; --panel:#F1EDE3; --card:#FFFDF8; --fg:#22201B; --muted:#77705F;
+  --line:#E2DAC9; --accent:#C05B3C; --accent-soft:#F6E4DB; --en:#1D5C63;
+  --code-bg:#F3EEE2; --pre-bg:#26231D; --pre-fg:#EDE7DA;
+  --no:#B3372E; --no-bg:#F9E9E5; --yes:#2E7D4F; --yes-bg:#E7F2E9;
+  --mark:#F5D98F; --shadow:0 1px 3px rgba(60,50,30,.08),0 8px 24px rgba(60,50,30,.06);
+  --fs:17px;
+}
+:root[data-theme="dark"]{
+  --bg:#16181D; --panel:#1D2026; --card:#20242B; --fg:#E6E2D8; --muted:#9A948A;
+  --line:#31353E; --accent:#E08A63; --accent-soft:#3A2C24; --en:#7FC4C9;
+  --code-bg:#2A2E36; --pre-bg:#101216; --pre-fg:#DDD8CC;
+  --no:#E57368; --no-bg:#33231F; --yes:#7CC494; --yes-bg:#1F2E24;
+  --mark:#6B5518; --shadow:0 1px 3px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.25);
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:'Vazirmatn','Noto Sans Arabic',Tahoma,sans-serif;font-size:var(--fs);line-height:2}
+::selection{background:var(--accent-soft)}
+#progress{position:fixed;top:0;right:0;height:3px;background:var(--accent);width:0;z-index:60}
+.topbar{position:sticky;top:0;z-index:50;display:flex;align-items:center;gap:12px;padding:8px 18px;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.brand{font-weight:700;white-space:nowrap}
+.brand small{color:var(--muted);font-weight:400;margin-inline-start:6px}
+.search{flex:1;max-width:420px;display:flex;align-items:center;gap:6px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:2px 12px}
+.search input{flex:1;border:0;background:none;color:var(--fg);font:inherit;font-size:.9rem;outline:none;min-width:0}
+.search .count{font-size:.75rem;color:var(--muted);white-space:nowrap}
+.controls{display:flex;gap:6px;margin-inline-start:auto}
+.btn{border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:9px;padding:4px 10px;font:inherit;font-size:.85rem;cursor:pointer;line-height:1.6}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+#menuBtn{display:none}
+.layout{display:grid;grid-template-columns:290px minmax(0,1fr);max-width:1280px;margin:0 auto}
+aside{position:sticky;top:53px;height:calc(100vh - 53px);overflow-y:auto;padding:18px 14px 40px;border-inline-end:1px solid var(--line);scrollbar-width:thin}
+aside .nav-title{font-size:.78rem;color:var(--muted);margin:14px 8px 6px}
+aside a{display:block;color:var(--fg);text-decoration:none;border-radius:8px;padding:3px 10px;font-size:.86rem;line-height:1.9}
+aside a:hover{background:var(--panel)}
+aside a.active{background:var(--accent-soft);color:var(--accent);font-weight:700}
+aside details{margin-bottom:2px}
+aside summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:8px;padding:6px 10px;border-radius:9px;font-weight:700;font-size:.92rem}
+aside summary::-webkit-details-marker{display:none}
+aside summary:hover{background:var(--panel)}
+aside summary .gnum{flex:none;width:22px;height:22px;border-radius:7px;background:var(--panel);color:var(--muted);display:inline-flex;align-items:center;justify-content:center;font-size:.72rem}
+aside details[open] summary .gnum{background:var(--accent);color:#fff}
+aside .sub{margin:2px 12px 8px 0;border-inline-start:2px solid var(--line);padding-inline-start:6px}
+aside .sub a{color:var(--muted);font-size:.8rem}
+aside .sub a.active{color:var(--accent)}
+main{padding:34px clamp(18px,5vw,64px) 90px;min-width:0}
+.hero{margin-bottom:48px}
+.hero h1{font-size:1.9rem;line-height:1.6;margin:0 0 6px}
+.hero .sub{color:var(--muted);margin:0 0 24px;max-width:60ch}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
+.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;text-decoration:none;color:var(--fg);box-shadow:var(--shadow);transition:transform .15s,border-color .15s}
+.card:hover{transform:translateY(-3px);border-color:var(--accent)}
+.card .n{font-size:.75rem;color:var(--accent);font-weight:700}
+.card h3{margin:4px 0 6px;font-size:1.05rem}
+.card p{margin:0;font-size:.82rem;color:var(--muted);line-height:1.9}
+.guide{margin-bottom:70px;scroll-margin-top:70px}
+.guide-head{border-bottom:2px solid var(--accent);padding-bottom:14px;margin-bottom:26px}
+.guide-head .kicker{color:var(--accent);font-weight:700;font-size:.85rem}
+.guide-head h1{font-size:1.55rem;line-height:1.7;margin:4px 0 6px}
+.guide-head p{margin:0;color:var(--muted);font-size:.92rem}
+h2{font-size:1.22rem;line-height:1.8;margin:44px 0 14px;padding:8px 14px;background:var(--panel);border-inline-start:4px solid var(--accent);border-radius:0 10px 10px 0;scroll-margin-top:70px;position:relative}
+h3{font-size:1.02rem;margin:28px 0 10px;color:var(--accent);scroll-margin-top:70px}
+h2 .anchor{position:absolute;inset-inline-end:10px;top:8px;color:var(--muted);text-decoration:none;opacity:0;font-size:.9rem}
+h2:hover .anchor{opacity:.7}
+p{margin:10px 0}
+strong{font-weight:700}
+code{font-family:'Source Serif 4','Vazirmatn',serif;direction:ltr;unicode-bidi:isolate;background:var(--code-bg);color:var(--en);border:1px solid var(--line);border-radius:6px;padding:0 6px;font-size:.92em;font-weight:600;white-space:nowrap}
+h3 code{font-size:.9em}
+pre.example{background:var(--pre-bg);color:var(--pre-fg);border-radius:12px;padding:16px 20px;overflow-x:auto;font-family:'Vazirmatn','Noto Sans Arabic',monospace;font-size:.9rem;line-height:2.1;unicode-bidi:plaintext;box-shadow:var(--shadow);margin:14px 0}
+blockquote{margin:14px 0;padding:10px 16px;background:var(--accent-soft);border-inline-start:4px solid var(--accent);border-radius:0 10px 10px 0;color:var(--fg);font-size:.93rem}
+blockquote code{background:var(--card)}
+hr{border:0;border-top:1px dashed var(--line);margin:30px 0}
+ul,ol{margin:10px 0;padding-inline-start:26px}
+li{margin:5px 0}
+li.trap{background:var(--no-bg);border-radius:8px;padding:2px 10px;list-style-position:inside;margin-inline-start:-10px}
+.no{color:var(--no)}
+.yes{color:var(--yes)}
+.arrow{color:var(--muted);padding:0 2px}
+.tbl{overflow-x:auto;margin:14px 0;border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;font-size:.9rem;background:var(--card)}
+th{background:var(--panel);font-weight:700;text-align:start;padding:9px 14px;border-bottom:2px solid var(--line);white-space:nowrap}
+td{padding:8px 14px;border-bottom:1px solid var(--line);unicode-bidi:plaintext;vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:nth-child(even){background:color-mix(in srgb,var(--panel) 45%,var(--card))}
+td code,th code{white-space:normal}
+mark.hl{background:var(--mark);color:inherit;border-radius:3px;padding:0 1px}
+.pager{display:flex;justify-content:space-between;gap:12px;margin-top:44px}
+.pager a{flex:1;max-width:46%;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 16px;text-decoration:none;color:var(--fg);font-size:.88rem}
+.pager a:hover{border-color:var(--accent)}
+.pager a small{display:block;color:var(--muted);font-size:.75rem}
+.pager a.next{text-align:end;margin-inline-start:auto}
+#toTop{position:fixed;bottom:22px;inset-inline-start:22px;z-index:55;width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--accent);font-size:1.1rem;cursor:pointer;box-shadow:var(--shadow);opacity:0;pointer-events:none;transition:opacity .2s}
+#toTop.show{opacity:1;pointer-events:auto}
+#overlay{display:none}
+@media (max-width:960px){
+  .layout{grid-template-columns:1fr}
+  #menuBtn{display:inline-block}
+  aside{position:fixed;top:0;right:0;bottom:0;width:300px;max-width:85vw;height:100vh;background:var(--bg);z-index:70;transform:translateX(100%);transition:transform .25s;border-inline-end:0;border-inline-start:1px solid var(--line);padding-top:20px}
+  aside.open{transform:translateX(0)}
+  #overlay{display:block;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:65;opacity:0;pointer-events:none;transition:opacity .25s}
+  #overlay.show{opacity:1;pointer-events:auto}
+  .brand small{display:none}
+}
+@media print{
+  .topbar,aside,#toTop,#overlay,.pager,#progress{display:none!important}
+  .layout{display:block;max-width:none}
+  main{padding:0}
+  body{background:#fff;color:#000;font-size:12px}
+  .guide{page-break-before:always}
+  pre.example{background:#f2f2f2;color:#000;box-shadow:none}
+  .card{box-shadow:none}
+}
+</style>
+</head>
+<body>
+<div id="progress"></div>
+<header class="topbar">
+<button class="btn" id="menuBtn" aria-label="فهرست">☰</button>
+<div class="brand">دستور زبان کاربردی<small>خلاصه‌ی ۹ راهنما</small></div>
+<div class="search"><input id="q" type="search" placeholder="جستجو در متن… (کلید /)" aria-label="جستجو"><span class="count" id="qCount"></span></div>
+<div class="controls">
+<button class="btn" id="fsMinus" title="کوچک‌تر">−</button>
+<button class="btn" id="fsPlus" title="بزرگ‌تر">+</button>
+<button class="btn" id="themeBtn" title="حالت شب/روز">تیره</button>
+<button class="btn" id="printBtn" title="چاپ">چاپ</button>
+</div>
+</header>
+<div id="overlay"></div>
+<div class="layout">
+<aside id="sidebar">
+<a href="#top"><strong>نمای کلی</strong></a>
+<div class="nav-title">راهنماها</div>
+<details data-guide="g-tenses" open>
+<summary><span class="gnum">۱</span><a href="#g-tenses">زمان‌ها</a></summary>
+<div class="sub"><a href="#tenses-s1">۱. ایده‌ی اصلی: شبکه‌ی ۳×۴</a>
+<a href="#tenses-s2">۲. دوازده زمان — ساخت، کاربرد اصلی، خطای رایج</a>
+<a href="#tenses-s3">۳. چهار مقایسه‌ی حیاتی (۸۰٪ خطاها از اینجاست)</a>
+<a href="#tenses-s4">۴. State Verbs — افعالی که ing نمی‌گیرند</a>
+<a href="#tenses-s5">۵. قیدهای زمان</a>
+<a href="#tenses-s6">۶. used to / would / be used to</a>
+<a href="#tenses-s7">۷. Time Clauses — «will ممنوع»</a>
+<a href="#tenses-s8">۸. جدول‌های سریعِ مباحث مرتبط</a>
+<a href="#tenses-s9">۹. چک‌لیست خطاهای رایج (بعد از هر جمله چک کن)</a>
+<a href="#tenses-s10">۱۰. کدام زمان در کدام بخش IELTS</a></div>
+</details>
+<details data-guide="g-passive">
+<summary><span class="gnum">۲</span><a href="#g-passive">مجهول و شرطی</a></summary>
+<div class="sub"><a href="#passive-s1">۱. کی مجهول؟</a>
+<a href="#passive-s2">۲. فرمول واحد</a>
+<a href="#passive-s3">۳. مجهول با modal</a>
+<a href="#passive-s4">۴. شکل‌های غیرصرفی (پرکاربرد)</a>
+<a href="#passive-s5">۵. افعال دو مفعولی</a>
+<a href="#passive-s6">۶. افعالی که مجهول نمی‌شوند</a>
+<a href="#passive-s7">۷. قاعده‌ی by</a>
+<a href="#passive-s8">۸. ساختارهای پرکاربرد دیگر</a>
+<a href="#passive-s9">۹. مجهول در IELTS</a>
+<a href="#passive-s10">۱۰. ایده‌ی اصلی: گذشته = فاصله، نه لزوماً زمان</a>
+<a href="#passive-s11">۱۱. چهار نوع اصلی</a>
+<a href="#passive-s12">۱۲. Mixed — شرط و نتیجه در دو زمان</a>
+<a href="#passive-s13">۱۳. جایگزین‌های if (پرکاربردها)</a>
+<a href="#passive-s14">۱۴. Inversion — حذف if (فقط برای Writing، یک بار)</a>
+<a href="#passive-s15">۱۵. همان قاعده‌ی فاصله در ساختارهای دیگر</a>
+<a href="#passive-s16">۱۶. شرطی در IELTS</a>
+<a href="#passive-s17">۱۷. چک‌لیست خطاها</a></div>
+</details>
+<details data-guide="g-patterns">
+<summary><span class="gnum">۳</span><a href="#g-patterns">الگوی فعل و وجه</a></summary>
+<div class="sub"><a href="#patterns-s1">۱. قاعده‌ی مولد: to رو به جلو، -ing واقع‌شده</a>
+<a href="#patterns-s2">۲. فهرست‌های اصلی (به‌عنوان تأیید، نه حفظ)</a>
+<a href="#patterns-s3">۳. بعد از حرف اضافه، همیشه -ing (بی‌استثنا)</a>
+<a href="#patterns-s4">۴. تله‌ی to — حرف اضافه یا نشانه‌ی مصدر؟</a>
+<a href="#patterns-s5">۵. مصدر بدون to</a>
+<a href="#patterns-s6">۶. فعل + مفعول + فعل (سه دسته)</a>
+<a href="#patterns-s7">۷. Modalها — خواص مشترک</a>
+<a href="#patterns-s8">۸. الزام</a>
+<a href="#patterns-s9">۹. توانایی و اجازه</a>
+<a href="#patterns-s10">۱۰. نردبان قطعیت (پرکاربردترین بخش برای IELTS)</a>
+<a href="#patterns-s11">۱۱. Modal گذشته — modal + have + V3</a>
+<a href="#patterns-s12">۱۲. used to / would / be used to</a>
+<a href="#patterns-s13">۱۳. تعدیل ادعا (Hedging) — بازده نامتناسب بالا در Task 2</a>
+<a href="#patterns-s14">۱۴. حروف اضافه‌ی وابسته — اینجا قاعده‌ی مولد نیست</a>
+<a href="#patterns-s15">۱۵. چک‌لیست خطاها (اگر وقت فقط برای سه‌تا: ۱، ۸، ۱۱)</a></div>
+</details>
+<details data-guide="g-complex">
+<summary><span class="gnum">۴</span><a href="#g-complex">جمله‌های مرکب</a></summary>
+<div class="sub"><a href="#complex-s1">۱. کل معماری: سه جایگاه</a>
+<a href="#complex-s2">۲. بند موصولی (ارزان‌ترین و کم‌ریسک‌ترین راه پیچیدگی)</a>
+<a href="#complex-s3">۳. بند اسمی</a>
+<a href="#complex-s4">۴. بند قیدی</a>
+<a href="#complex-s5">۵. کاهش بند قیدی (participle) — یک قاعده برای همه</a>
+<a href="#complex-s6">۶. تأکید (کم‌مصرف — حداکثر یکی در مقاله، در Speaking نه)</a>
+<a href="#complex-s7">۷. استراتژی IELTS</a>
+<a href="#complex-s8">۸. چک‌لیست خطاها (اگر وقت فقط سه‌تا: ۱، ۲، ۴)</a></div>
+</details>
+<details data-guide="g-noun">
+<summary><span class="gnum">۵</span><a href="#g-noun">گروه اسمی</a></summary>
+<div class="sub"><a href="#noun-s1">۱. دو سؤال اجباری قبل از هر اسم</a>
+<a href="#noun-s2">۲. درخت تصمیم article (کل سیستم)</a>
+<a href="#noun-s3">۳. کلیت — پیش‌فرض IELTS: جمعِ بدون article</a>
+<a href="#noun-s4">۴. article صفر — کارکرد در برابر مکان/شیء</a>
+<a href="#noun-s5">۵. شمارا و ناشمارا — بسته‌بندی زبانی، نه ماهیت شیء</a>
+<a href="#noun-s6">۶. مقدارنماها</a>
+<a href="#noun-s7">۷. مطابقت فعل و فاعل</a>
+<a href="#noun-s8">۸. در IELTS</a>
+<a href="#noun-s9">۹. چک‌لیست خطاها (اگر وقت فقط سه‌تا: ۱، ۴، ۷)</a></div>
+</details>
+<details data-guide="g-comparison">
+<summary><span class="gnum">۶</span><a href="#g-comparison">مقایسه و ترتیب</a></summary>
+<div class="sub"><a href="#comparison-s1">۱. مقایسه — سه قالب</a>
+<a href="#comparison-s2">۲. ترتیب</a>
+<a href="#comparison-s3">۳. فاعل صوری — هر بند فاعل می‌خواهد</a>
+<a href="#comparison-s4">۴. جانشینی و حذف</a>
+<a href="#comparison-s5">۵. سؤال</a>
+<a href="#comparison-s6">۶. واژه‌سازی — کلمه‌ی درست در جایگاه درست</a>
+<a href="#comparison-s7">۷. در IELTS</a>
+<a href="#comparison-s8">۸. چک‌لیست خطاها (اگر وقت فقط سه‌تا: ۱، ۸، ۱۴)</a></div>
+</details>
+<details data-guide="g-prepositions">
+<summary><span class="gnum">۷</span><a href="#g-prepositions">حروف اضافه</a></summary>
+<div class="sub"><a href="#prepositions-s1">۱. هندسه‌ی at / on / in — یک تصویر برای همه‌چیز</a>
+<a href="#prepositions-s2">۲. مکان</a>
+<a href="#prepositions-s3">۳. زمان — چهارتایی و by/until</a>
+<a href="#prepositions-s4">۴. by / with و جفت‌های اشتباه‌انداز</a>
+<a href="#prepositions-s5">۵. حروف اضافه‌ی Task 1 (مستقیماً نمره دارد)</a>
+<a href="#prepositions-s6">۶. افعال عبارتی — چهار نوع ساختاری</a>
+<a href="#prepositions-s7">۷. چک‌لیست خطاها (اگر وقت فقط سه‌تا: ۱، ۳، ۱۰)</a></div>
+</details>
+<details data-guide="g-reference">
+<summary><span class="gnum">۸</span><a href="#g-reference">ارجاع و مالکیت</a></summary>
+<div class="sub"><a href="#reference-s1">۱. محورِ چرخیده — ریشه‌ی تله‌ی شماره‌یک</a>
+<a href="#reference-s2">۲. جدول ضمایر</a>
+<a href="#reference-s3">۳. مالکیت — 's در برابر of</a>
+<a href="#reference-s4">۴. ارجاع گفتمانی</a>
+<a href="#reference-s5">۵. موصولی‌های نامعین (کم‌مصرف — بشناس، یکی در مقاله کافی است)</a>
+<a href="#reference-s6">۶. انسجام پاراگراف</a>
+<a href="#reference-s7">۷. در IELTS</a>
+<a href="#reference-s8">۸. چک‌لیست خطاها (اگر وقت فقط سه‌تا: ۱، ۷، ۸)</a></div>
+</details>
+<details data-guide="g-mechanics">
+<summary><span class="gnum">۹</span><a href="#g-mechanics">نگارش و لحن</a></summary>
+<div class="sub"><a href="#mechanics-s1">۱. ثبت یک بسته است، نه یک انتخاب</a>
+<a href="#mechanics-s2">۲. کاما — شش کاربرد، دو ممنوعیت</a>
+<a href="#mechanics-s3">۳. نقطه‌ویرگول و دونقطه</a>
+<a href="#mechanics-s4">۴. خط تیره و صفت مرکب</a>
+<a href="#mechanics-s5">۵. آپاستروف و کوتاه‌نویسی</a>
+<a href="#mechanics-s6">۶. حروف بزرگ</a>
+<a href="#mechanics-s7">۷. املا — یکی را انتخاب کن و ثابت بمان</a>
+<a href="#mechanics-s8">۸. اعداد، درصد، تاریخ</a>
+<a href="#mechanics-s9">۹. سه ساختار رسمی</a>
+<a href="#mechanics-s10">۱۰. بسته‌ی ثبت</a>
+<a href="#mechanics-s11">۱۱. چک‌لیست (اگر وقت فقط سه‌تا: ۱، ۲، ۳)</a></div>
+</details>
+</aside>
+<main id="content">
+<section class="hero" id="top">
+<h1>دستور زبان انگلیسی — نسخه‌ی کاربردی</h1>
+<p class="sub">چکیده‌ی ۹ راهنمای کامل، فقط آن‌چه در مکالمه و IELTS واقعاً به کار می‌آید: قاعده‌های زاینده، الگوهای پربسامد، و تله‌های خطای فارسی‌زبان‌ها با جفت ❌/✅. متن اصلی هر راهنما در پوشه‌ی <code dir="ltr">guides/</code> دست‌نخورده باقی است.</p>
+<div class="cards">
+<a class="card" href="#g-tenses"><span class="n">راهنمای ۱</span><h3>زمان‌ها</h3><p>شبکه‌ی ۳×۴، هر ۱۲ زمان، چهار مقایسه‌ی حیاتی و خطاهای رایج فارسی‌زبان‌ها</p></a>
+<a class="card" href="#g-passive"><span class="n">راهنمای ۲</span><h3>مجهول و شرطی</h3><p>مجهول در زمان‌های پرکاربرد، نردبان فاصله‌ی شرطی‌ها، wish و it’s time</p></a>
+<a class="card" href="#g-patterns"><span class="n">راهنمای ۳</span><h3>الگوی فعل و وجه</h3><p>قاعده‌ی to یا ing، فعل‌های دومعنایی، مودال‌ها و نردبان قطعیت، حروف اضافه‌ی وابسته</p></a>
+<a class="card" href="#g-complex"><span class="n">راهنمای ۴</span><h3>جمله‌های مرکب</h3><p>بندهای موصولی، اسمی و قیدی؛ تله‌ی ضمیر برگشتی؛ کوتاه‌سازی بندها</p></a>
+<a class="card" href="#g-noun"><span class="n">راهنمای ۵</span><h3>گروه اسمی</h3><p>درخت تصمیم a/an/the، شمارش‌پذیری، کمّی‌سازها و موافقت فعل و فاعل</p></a>
+<a class="card" href="#g-comparison"><span class="n">راهنمای ۶</span><h3>مقایسه و ترتیب</h3><p>تفضیلی و عالی، that of، جای قید، it/there، حذف و جانشینی</p></a>
+<a class="card" href="#g-prepositions"><span class="n">راهنمای ۷</span><h3>حروف اضافه</h3><p>هندسه‌ی at/on/in، تله‌ی by/until، زبان اعداد در Task 1، فعل‌های عبارتی</p></a>
+<a class="card" href="#g-reference"><span class="n">راهنمای ۸</span><h3>ارجاع و مالکیت</h3><p>ضمیرها و تله‌ی جنسیت، قاعده‌ی 's در برابر of، خانواده‌ی its/it’s، انسجام با this</p></a>
+<a class="card" href="#g-mechanics"><span class="n">راهنمای ۹</span><h3>نگارش و لحن</h3><p>نشانه‌گذاری، بزرگ‌نویسی، اعداد و تاریخ، بسته‌ی لحن رسمی و محاوره</p></a>
+</div>
+</section>
+<section class="guide" id="g-tenses">
+<header class="guide-head"><span class="kicker">راهنمای ۱ از ۹</span>
+<h1>خلاصه‌ی کاربردی زمان‌های انگلیسی (۱۲ زمان)</h1><p>شبکه‌ی ۳×۴، هر ۱۲ زمان، چهار مقایسه‌ی حیاتی و خطاهای رایج فارسی‌زبان‌ها</p></header>
+<blockquote>نسخه‌ی فشرده‌ی <code dir="ltr">english-tenses-complete-guide.md</code> — فقط چیزی که در مکالمه و IELTS واقعاً به کار می‌آید.</blockquote>
+<hr>
+<h2 id="tenses-s1"><a class="anchor" href="#tenses-s1" aria-label="پیوند">#</a>۱. ایده‌ی اصلی: شبکه‌ی ۳×۴</h2>
+<p>هر زمان = <strong>نقطه‌ی مرجع</strong> (حال / گذشته / آینده) + <strong>زاویه‌ی دید</strong>:</p>
+<div class="tbl"><table><thead><tr><th>زاویه‌ی دید</th><th>معنا</th><th>فرمول</th></tr></thead><tbody><tr><td>Simple (نقطه‌ای)</td><td>عمل به‌عنوان یک واحد کامل</td><td>V1 / V-s / V2 / will+V1</td></tr><tr><td>Continuous (جریانی)</td><td>از داخل عمل، در جریان، موقت</td><td>be + V-ing</td></tr><tr><td>Perfect (پیوندی)</td><td>پل از قبل به نقطه‌ی مرجع؛ نتیجه مهم</td><td>have + V3</td></tr><tr><td>Perfect Continuous (پیوندیِ کشیده)</td><td>همان پل، ولی مدت مهم است</td><td>have been + V-ing</td></tr></tbody></table></div>
+<div class="tbl"><table><thead><tr><th></th><th>نقطه‌ای</th><th>جریانی</th><th>پیوندی</th><th>پیوندیِ کشیده</th></tr></thead><tbody><tr><td><strong>حال</strong></td><td>I write</td><td>I am writing</td><td>I have written</td><td>I have been writing</td></tr><tr><td><strong>گذشته</strong></td><td>I wrote</td><td>I was writing</td><td>I had written</td><td>I had been writing</td></tr><tr><td><strong>آینده</strong></td><td>I will write</td><td>I will be writing</td><td>I will have written</td><td>I will have been writing</td></tr></tbody></table></div>
+<p>فقط فعل کمکی عوض می‌شود؛ الگو ثابت است. یک ستون را بلد باشی، هر سه سطرش را بلدی.</p>
+<p><strong>دو سؤال برای انتخاب زمان:</strong></p>
+<ol start="1"><li>عملم کامل است (نقطه‌ای)، در جریان است (جریانی)، یا به نقطه‌ای دیگر وصل است (پیوندی — و اگر مدت مهم‌تر از نتیجه است، کشیده)؟</li><li>مرجعم کجاست: الان / گذشته / آینده؟</li></ol>
+<p><strong>منفی و سؤالی:</strong> همیشه با اولین فعل کمکی. اگر کمکی نیست (Simple حال/گذشته)، <code dir="ltr">do/does/did</code> بیاور و فعل اصلی به V1 برمی‌گردد:<br><code dir="ltr">She doesn't work</code> <span class="yes">✅</span> نه <code dir="ltr">doesn't works</code> <span class="no">❌</span></p>
+<hr>
+<h2 id="tenses-s2"><a class="anchor" href="#tenses-s2" aria-label="پیوند">#</a>۲. دوازده زمان — ساخت، کاربرد اصلی، خطای رایج</h2>
+<h3>Present Simple — <code dir="ltr">V1 (+s)</code></h3>
+<p>واقعیت پایدار، عادت، حقیقت علمی، جدول زمانی رسمی (<code dir="ltr">The train leaves at 7</code>)، توصیف نمودار (<code dir="ltr">The chart shows...</code>).</p>
+<ul><li>نشانه‌ها: <code dir="ltr">always, usually, often, every day, never</code></li><li>قید تکرار: قبل از فعل اصلی، <strong>بعد از be</strong> <span class="arrow">→</span> <code dir="ltr">I am always tired</code> <span class="yes">✅</span></li><li class="trap"><span class="no">❌</span> <code dir="ltr">He work here</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">He works here</code> (خطای شماره‌یک فارسی‌زبان‌ها)</li><li class="trap"><span class="no">❌</span> <code dir="ltr">I read a book right now</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">I'm reading...</code></li></ul>
+<h3>Present Continuous — <code dir="ltr">am/is/are + V-ing</code></h3>
+<p>همین الان، وضعیت موقت (<code dir="ltr">I'm working in Berlin</code> = این مدت)، برنامه‌ی قطعی آینده (<code dir="ltr">I'm meeting the client tomorrow</code>)، روند (<code dir="ltr">Prices are rising</code>)، شکایت با always (<code dir="ltr">He's always breaking the build!</code>).</p>
+<ul><li>نشانه‌ها: <code dir="ltr">now, at the moment, currently, these days, this week</code></li><li class="trap"><span class="no">❌</span> <code dir="ltr">I working on it</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">I am working on it</code> (حذف be)</li><li class="trap"><span class="no">❌</span> <code dir="ltr">I'm agree</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">I agree</code> (agree فعل است، نه صفت)</li><li class="trap">با state verb نمی‌آید: <span class="no">❌</span> <code dir="ltr">I am knowing</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">I know</code></li></ul>
+<h3>Present Perfect — <code dir="ltr">have/has + V3</code></h3>
+<p><strong>گذشته‌ای که هنوز به حال وصل است.</strong> درباره‌ی «حالا» حرف می‌زند:</p>
+<ol start="1"><li>تجربه بدون زمان مشخص: <code dir="ltr">I've worked with three databases.</code></li><li>نتیجه‌اش الان مهم است: <code dir="ltr">I've lost my keys.</code> (الان کلید ندارم)</li><li>شروع در گذشته، ادامه تا حالا: <code dir="ltr">I've lived here for ten years.</code></li><li>بازه‌ی ناتمام: <code dir="ltr">I've had three meetings today.</code></li><li>خبر تازه: <code dir="ltr">They've just released the beta.</code></li><li>با superlative: <code dir="ltr">the best framework I've ever used</code></li></ol>
+<ul><li>نشانه‌ها: <code dir="ltr">ever, never, just, already, yet, so far, since, for, this week, how long</code></li><li class="trap"><strong>قاعده‌ی بی‌استثنا:</strong> زمان مشخص گذشته (<code dir="ltr">yesterday, in 2018, ago, when?</code>) هرگز با Present Perfect نمی‌آید. <span class="no">❌</span> <code dir="ltr">I have finished it yesterday</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">I finished it yesterday</code></li><li class="trap"><span class="no">❌</span> <code dir="ltr">I live here for ten years</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">I have lived here for ten years</code> (فارسی حال می‌گوید، انگلیسی Perfect می‌خواهد)</li><li class="trap"><span class="no">❌</span> <code dir="ltr">I have wrote</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">I have written</code> (بعد از have همیشه V3)</li><li><code dir="ltr">been to</code> = رفته و برگشته (تجربه) / <code dir="ltr">gone to</code> = رفته و هنوز آنجاست</li></ul>
+<h3>Present Perfect Continuous — <code dir="ltr">have/has been + V-ing</code></h3>
+<p>تأکید روی <strong>مدت و فرآیند</strong>، نه نتیجه:</p>
+<ul><li><code dir="ltr">I've been working here for five years.</code></li><li>همین الان تمام شد و اثرش پیداست: <code dir="ltr">I'm tired because I've been coding all night.</code></li><li class="trap"><span class="no">❌</span> با تعداد نمی‌آید: <code dir="ltr">I've been writing three reports</code> <span class="no">❌</span> <span class="arrow">→</span> <code dir="ltr">I've written three reports</code> <span class="yes">✅</span></li><li class="trap"><span class="no">❌</span> <code dir="ltr">I have working here</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">I have been working here</code></li></ul>
+<h3>Past Simple — <code dir="ltr">V2</code></h3>
+<p>عمل تمام‌شده در زمان مشخص، زنجیره‌ی روایت، عادت گذشته.</p>
+<ul><li>نشانه‌ها: <code dir="ltr">yesterday, last week, ago, in 2015, when?</code></li><li class="trap"><span class="no">❌</span> <code dir="ltr">I didn't went</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">I didn't go</code> (بعد از did همیشه V1)</li><li class="trap"><span class="no">❌</span> <code dir="ltr">Did you be there?</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">Were you there?</code> (be هرگز do نمی‌گیرد)</li><li>was: I/he/she/it — were: you/we/they</li><li>تلفظ ed: بعد از t/d <span class="arrow">→</span> /ɪd/ (wanted)؛ بعد از صدای بی‌واک <span class="arrow">→</span> /t/ (worked)؛ بقیه <span class="arrow">→</span> /d/ (played). همه را «اِد» نگو.</li></ul>
+<h3>Past Continuous — <code dir="ltr">was/were + V-ing</code></h3>
+<p>پس‌زمینه‌ی صحنه؛ عمل بلندی که رویداد کوتاهی قطعش می‌کند:</p>
+<ul><li><code dir="ltr">I was debugging when the power went out.</code></li><li><code dir="ltr">While I was cooking, the phone rang.</code></li><li>دو عمل هم‌زمان: <code dir="ltr">While I was writing the backend, she was designing the UI.</code></li><li>راهنما: <strong>while + continuous</strong>، <strong>when + simple</strong></li><li>جمله‌ی طلایی روایت: <code dir="ltr">I was sitting at my desk when I suddenly realised...</code></li></ul>
+<h3>Past Perfect — <code dir="ltr">had + V3</code></h3>
+<p><strong>گذشته‌ی گذشته</strong> — فقط وقتی ترتیب رویدادها با ترتیب گفتنشان یکی نیست:</p>
+<ul><li><code dir="ltr">When I arrived, the meeting had already started.</code> (دیر رسیدم)</li><li>دلیل وضعیت گذشته: <code dir="ltr">I was exhausted because I hadn't slept.</code></li><li>شرطی نوع سه: <code dir="ltr">If I had known, I would have told you.</code></li><li class="trap"><span class="no">❌</span> استفاده‌ی بی‌مورد: <code dir="ltr">I woke up, took a shower and left</code> <span class="yes">✅</span> — نیازی به had نیست وقتی ترتیب طبیعی است.</li><li>همیشه یک نقطه‌ی مرجع گذشته می‌خواهد؛ تنها و بی‌context بی‌معناست.</li></ul>
+<h3>Past Perfect Continuous — <code dir="ltr">had been + V-ing</code></h3>
+<p>«مدتی بود داشتم X می‌کردم که Y شد»:</p>
+<ul><li><code dir="ltr">I had been waiting for two hours when they finally called.</code></li><li>کم‌مصرف است؛ یک جمله‌ی درست کافی است، دنبال جا کردنش نباش.</li></ul>
+<h3>Future Simple — <code dir="ltr">will + V1</code></h3>
+<p>پیش‌بینی بر اساس نظر (<code dir="ltr">I think AI will change...</code>)، تصمیم لحظه‌ای (<code dir="ltr">OK, I'll take a look</code>)، قول (<code dir="ltr">I'll help you</code>).</p>
+<ul><li class="trap">بعد از will همیشه V1: <span class="no">❌</span> <code dir="ltr">will to send / will sending / will sends</code></li><li class="trap"><span class="no">❌</span> <code dir="ltr">will</code> در time clause و بند if: <code dir="ltr">I'll call you when I arrive</code> <span class="yes">✅</span></li><li>برای برنامه‌ی قبلی going to و برای قرار قطعی Present Continuous طبیعی‌تر است.</li></ul>
+<h3>Future Continuous — <code dir="ltr">will be + V-ing</code></h3>
+<p>در لحظه‌ای از آینده در جریان: <code dir="ltr">Don't call at 8 — I'll be driving.</code><br>پرسش مؤدبانه‌ی بی‌فشار: <code dir="ltr">Will you be using the meeting room later?</code></p>
+<h3>Future Perfect — <code dir="ltr">will have + V3</code></h3>
+<p>«تا فلان زمان تمام شده خواهد بود» — تقریباً همیشه با <strong>by</strong>:</p>
+<ul><li><code dir="ltr">By Friday I'll have finished it.</code></li><li><code dir="ltr">By 2050, most countries will have adopted renewable energy policies.</code></li><li class="trap">by نداری؟ احتمالاً به این زمان نیاز نداری. <span class="no">❌</span> <code dir="ltr">will have finished it tomorrow</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">by tomorrow</code></li></ul>
+<h3>Future Perfect Continuous — <code dir="ltr">will have been + V-ing</code></h3>
+<p>نادرترین زمان انگلیسی. فقط: «تا فلان زمان، X سال است که...»</p>
+<ul><li><code dir="ltr">Next year, I'll have been programming for ten years.</code></li><li>بشناسش که در Reading گیج نشوی؛ در Speaking زورکی جا نکن.</li></ul>
+<hr>
+<h2 id="tenses-s3"><a class="anchor" href="#tenses-s3" aria-label="پیوند">#</a>۳. چهار مقایسه‌ی حیاتی (۸۰٪ خطاها از اینجاست)</h2>
+<h3>Past Simple یا Present Perfect؟</h3>
+<pre class="example">زمان مشخص گذشته هست (yesterday, in 2019, ago, when?) → Past Simple، بی‌استثنا
+وگرنه:
+  ادامه دارد / بازه ناتمام / نتیجه الان مهم / تجربه → Present Perfect</pre>
+<div class="tbl"><table><thead><tr><th>Present Perfect</th><th>Past Simple</th></tr></thead><tbody><tr><td>I've lived here for 10 years. (هنوز هستم)</td><td>I lived there for 10 years. (دیگر نیستم)</td></tr><tr><td>I've been to Turkey. (تجربه)</td><td>I went to Turkey in 2019. (سفر مشخص)</td></tr><tr><td>I've had three meetings today.</td><td>I had three meetings yesterday.</td></tr></tbody></table></div>
+<h3>Perfect یا Perfect Continuous؟</h3>
+<ul><li><strong>نتیجه/تعداد <span class="arrow">→</span> Simple</strong>: <code dir="ltr">I've written three emails.</code></li><li><strong>فرآیند/مدت <span class="arrow">→</span> Continuous</strong>: <code dir="ltr">I've been writing emails all morning.</code></li><li>تعداد هرگز با continuous نمی‌آید؛ state verb هم هرگز.</li><li>با live/work/study + for/since هر دو تقریباً یکی‌اند.</li></ul>
+<h3>Past Simple یا Past Perfect؟</h3>
+<ul><li>ترتیب گفتن = ترتیب وقوع <span class="arrow">→</span> هر دو Past Simple کافی است.</li><li>ترتیب معکوس <span class="arrow">→</span> Past Perfect لازم: <code dir="ltr">I pushed the code that I had finished the day before.</code></li><li>با when تفاوت <strong>معنایی</strong> است: <code dir="ltr">the meeting started</code> (بعد از رسیدن من) ≠ <code dir="ltr">the meeting had started</code> (قبلش).</li><li>با before/after اختیاری است؛ بعد از by the time معمولاً لازم.</li></ul>
+<h3>شکل‌های آینده — جدول تصمیم</h3>
+<pre class="example">شاهد عینی دارم؟           → going to   (Look at those clouds — it's going to rain)
+قبلاً تصمیم گرفته بودم؟     → going to   (I'm going to learn Rust)
+قرار قطعی با ساعت؟        → Present Continuous  (I'm meeting her at 3)
+جدول رسمی؟               → Present Simple  (The train leaves at 7)
+همین الان تصمیم گرفتم؟    → will  (OK, I'll do it)
+فقط نظرم است؟            → will  (I think it'll rain)
+آینده‌ی خیلی نزدیک؟       → be about to  (The build is about to finish)</pre>
+<hr>
+<h2 id="tenses-s4"><a class="anchor" href="#tenses-s4" aria-label="پیوند">#</a>۴. State Verbs — افعالی که ing نمی‌گیرند</h2>
+<p>حالت جریان ندارد، پس continuous نمی‌شود:</p>
+<ul><li><strong>ذهنی:</strong> know, believe, think (=نظر), understand, remember, forget, mean, agree, prefer</li><li><strong>احساس:</strong> like, love, hate, want, need, wish, care, mind</li><li><strong>حواس:</strong> see, hear, smell, taste, feel, seem, look (=به نظر رسیدن)</li><li><strong>مالکیت/رابطه:</strong> have (=داشتن), own, belong, contain, include, cost, depend on</li><li><strong>وجودی:</strong> be, exist, matter, fit, deserve</li></ul>
+<p><span class="no">❌</span> <code dir="ltr">I'm knowing / I'm wanting / I'm understanding</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">I know / I want / I understand</code></p>
+<p><strong>افعال دوگانه</strong> — با ing معنا عوض می‌شود:</p>
+<div class="tbl"><table><thead><tr><th>فعل</th><th>بدون ing (حالت)</th><th>با ing (عمل)</th></tr></thead><tbody><tr><td>think</td><td>I think it's a bug. (نظر)</td><td>I'm thinking about it. (فکر کردن)</td></tr><tr><td>have</td><td>I have a laptop. (داشتن)</td><td>I'm having lunch. (خوردن)</td></tr><tr><td>see</td><td>I see what you mean. (فهمیدن)</td><td>I'm seeing a doctor. (ملاقات)</td></tr><tr><td>look</td><td>It looks broken. (به نظر)</td><td>I'm looking at the logs. (نگاه کردن)</td></tr><tr><td>be</td><td>He is careless. (شخصیت)</td><td>He's being careless. (رفتار این لحظه)</td></tr></tbody></table></div>
+<hr>
+<h2 id="tenses-s5"><a class="anchor" href="#tenses-s5" aria-label="پیوند">#</a>۵. قیدهای زمان</h2>
+<div class="tbl"><table><thead><tr><th>قید</th><th>قاعده</th></tr></thead><tbody><tr><td><strong>for</strong></td><td>+ مدت: for two hours, for ten years</td></tr><tr><td><strong>since</strong></td><td>+ نقطه‌ی شروع: since 2019, since Monday, since I changed jobs (جمله‌اش Past Simple)</td></tr><tr><td><strong>ago</strong></td><td>بعد از مدت، همیشه Past Simple: <code dir="ltr">I started it two years ago</code></td></tr><tr><td><strong>already</strong></td><td>مثبت، بعد از have: <code dir="ltr">I've already finished</code></td></tr><tr><td><strong>yet</strong></td><td>منفی/سؤالی، آخر جمله: <code dir="ltr">I haven't finished yet</code></td></tr><tr><td><strong>still</strong></td><td>ادامه دارد، قبل از فعل: <code dir="ltr">I'm still working on it</code></td></tr><tr><td><strong>just</strong></td><td>همین الان: <code dir="ltr">I've just finished</code></td></tr></tbody></table></div>
+<p>سه جمله، یک معنا: <code dir="ltr">I moved here three years ago</code> / <code dir="ltr">I've been here for three years</code> / <code dir="ltr">I've been here since 2023</code>.</p>
+<p><code dir="ltr">rarely, seldom, hardly ever, never</code> خودشان منفی‌اند: <span class="no">❌</span> <code dir="ltr">I don't never do that</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">I never do that</code>.</p>
+<hr>
+<h2 id="tenses-s6"><a class="anchor" href="#tenses-s6" aria-label="پیوند">#</a>۶. used to / would / be used to</h2>
+<div class="tbl"><table><thead><tr><th>ساختار</th><th>بعدش</th><th>معنا</th></tr></thead><tbody><tr><td>used to</td><td><strong>V1</strong></td><td>قبلاً می‌کردم/بودم، دیگر نه (هم عمل هم حالت)</td></tr><tr><td>would</td><td><strong>V1</strong></td><td>عادت تکراری گذشته — فقط با action verb، نه حالت</td></tr><tr><td>be used to</td><td><strong>V-ing / noun</strong></td><td>عادت دارم به</td></tr><tr><td>get used to</td><td><strong>V-ing / noun</strong></td><td>دارم عادت می‌کنم به</td></tr></tbody></table></div>
+<ul><li><code dir="ltr">I used to work with PHP.</code> / منفی: <code dir="ltr">I didn't use to...</code> (use بدون d)</li><li class="trap"><span class="no">❌</span> <code dir="ltr">I would live in Tehran</code> (حالت) <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">I used to live in Tehran</code></li><li class="trap"><span class="no">❌</span> <code dir="ltr">I'm used to work late</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">I'm used to working late</code></li><li>جمله‌ی طلایی مقایسه‌ی گذشته/حال: <code dir="ltr">I used to think programming was all about syntax, but now I realise design matters far more.</code></li></ul>
+<hr>
+<h2 id="tenses-s7"><a class="anchor" href="#tenses-s7" aria-label="پیوند">#</a>۷. Time Clauses — «will ممنوع»</h2>
+<p>بعد از <code dir="ltr">when, after, before, as soon as, until, while, once, by the time</code> حتی با معنای آینده، <strong>will نمی‌آید</strong>:</p>
+<ul><li class="trap"><span class="no">❌</span> <code dir="ltr">I'll call you when I will arrive</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">...when I arrive</code></li><li class="trap"><span class="no">❌</span> <code dir="ltr">If it will rain...</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">If it rains...</code></li><li>برای تأکید روی اتمامِ قبل: Present Perfect، نه Future Perfect <span class="arrow">→</span> <code dir="ltr">Once I've finished, I'll let you know.</code></li></ul>
+<p><strong>استثنا:</strong> when/if به معنای «آیا/چه‌وقت» (noun clause) will می‌گیرد: <code dir="ltr">I don't know when he will arrive.</code> <span class="yes">✅</span></p>
+<hr>
+<h2 id="tenses-s8"><a class="anchor" href="#tenses-s8" aria-label="پیوند">#</a>۸. جدول‌های سریعِ مباحث مرتبط</h2>
+<h3>Passive — <code dir="ltr">be (در آن زمان) + V3</code></h3>
+<div class="tbl"><table><thead><tr><th>زمان</th><th>مجهول</th></tr></thead><tbody><tr><td>Present Simple</td><td>is written</td></tr><tr><td>Present Continuous</td><td>is being written</td></tr><tr><td>Present Perfect</td><td>has been written</td></tr><tr><td>Past Simple</td><td>was written</td></tr><tr><td>Past Continuous</td><td>was being written</td></tr><tr><td>Past Perfect</td><td>had been written</td></tr><tr><td>Future Simple</td><td>will be written</td></tr><tr><td>Future Perfect</td><td>will have been written</td></tr></tbody></table></div>
+<p>(Perfect Continuousها و Future Continuous عملاً مجهول نمی‌شوند.)</p>
+<ul><li class="trap"><span class="no">❌</span> <code dir="ltr">The report has written</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">has been written</code></li><li class="trap">فعل ناگذر مجهول نمی‌شود: <span class="no">❌</span> <code dir="ltr">It was happened</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">It happened</code></li><li><code dir="ltr">I was born</code> درست است — born همیشه مجهول است.</li></ul>
+<h3>Reported Speech — یک پله عقب (وقتی said/told گذشته است)</h3>
+<p>Present<span class="arrow">→</span>Past، Past<span class="arrow">→</span>Past Perfect، will<span class="arrow">→</span>would، can<span class="arrow">→</span>could، must<span class="arrow">→</span>had to.<br>قیدها: now<span class="arrow">→</span>then، today<span class="arrow">→</span>that day، tomorrow<span class="arrow">→</span>the next day، yesterday<span class="arrow">→</span>the day before، here<span class="arrow">→</span>there.</p>
+<ul><li class="trap">سؤال نقل‌شده ترتیب خبری می‌گیرد: <span class="no">❌</span> <code dir="ltr">He asked where did I work</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">He asked where I worked</code></li><li>حقیقتِ هنوز درست یا فعل نقلِ حال <span class="arrow">→</span> backshift لازم نیست.</li></ul>
+<h3>Conditionals</h3>
+<div class="tbl"><table><thead><tr><th>نوع</th><th>بند if</th><th>بند اصلی</th><th>معنا</th></tr></thead><tbody><tr><td>Zero</td><td>Present Simple</td><td>Present Simple</td><td>حقیقت همیشگی</td></tr><tr><td>First</td><td>Present Simple</td><td>will + V1</td><td>احتمال واقعی آینده</td></tr><tr><td>Second</td><td>Past Simple</td><td>would + V1</td><td>فرضی حال/آینده</td></tr><tr><td>Third</td><td>Past Perfect</td><td>would have + V3</td><td>خلاف واقع گذشته</td></tr><tr><td>Mixed</td><td>Past Perfect</td><td>would + V1</td><td>گذشته‌ی خلاف واقع، نتیجه در حال</td></tr></tbody></table></div>
+<ul><li><code dir="ltr">If I were you, I would accept.</code> (were برای همه، رسمی‌تر)</li><li>بند if اول هرگز will نمی‌گیرد؛ جای بندها آزاد است (if اول <span class="arrow">→</span> کاما).</li></ul>
+<hr>
+<h2 id="tenses-s9"><a class="anchor" href="#tenses-s9" aria-label="پیوند">#</a>۹. چک‌لیست خطاهای رایج (بعد از هر جمله چک کن)</h2>
+<div class="tbl"><table><thead><tr><th><span class="no">❌</span></th><th><span class="yes">✅</span></th></tr></thead><tbody><tr><td>He work here.</td><td>He <strong>works</strong> here.</td></tr><tr><td>Does he works?</td><td>Does he <strong>work</strong>?</td></tr><tr><td>I have seen him yesterday.</td><td>I <strong>saw</strong> him yesterday.</td></tr><tr><td>I live here for 5 years.</td><td>I <strong>have lived</strong> here for 5 years.</td></tr><tr><td>I working now.</td><td>I <strong>am</strong> working now.</td></tr><tr><td>I'm agree.</td><td>I <strong>agree</strong>.</td></tr><tr><td>I am knowing.</td><td>I <strong>know</strong>.</td></tr><tr><td>since 5 years</td><td><strong>for</strong> 5 years</td></tr><tr><td>I have wrote.</td><td>I have <strong>written</strong>.</td></tr><tr><td>I didn't went.</td><td>I didn't <strong>go</strong>.</td></tr><tr><td>when I will arrive</td><td>when I <strong>arrive</strong></td></tr><tr><td>If it will rain</td><td>If it <strong>rains</strong></td></tr><tr><td>We was late.</td><td>We <strong>were</strong> late.</td></tr><tr><td>I born in Tehran.</td><td>I <strong>was</strong> born in Tehran.</td></tr><tr><td>I'm used to work late.</td><td>I'm used to <strong>working</strong> late.</td></tr><tr><td>The report has written.</td><td>The report has <strong>been</strong> written.</td></tr><tr><td>It was happened.</td><td>It <strong>happened</strong>.</td></tr><tr><td>He asked where did I work.</td><td>He asked where <strong>I worked</strong>.</td></tr><tr><td>I always am tired.</td><td>I <strong>am always</strong> tired.</td></tr><tr><td>I have finished yet.</td><td>I have <strong>already</strong> finished.</td></tr><tr><td>ago two years</td><td>two years <strong>ago</strong></td></tr><tr><td>I will to help.</td><td>I will <strong>help</strong>.</td></tr><tr><td>I don't never do that.</td><td>I <strong>never</strong> do that.</td></tr></tbody></table></div>
+<p>و سه خطای سطح بالا: Past Perfect افراطی، یکنواختی زمان‌ها (تنوع درست خودش نمره است)، زمان نمایشیِ بی‌جا (طبیعی بودن مهم‌تر از پیچیدگی).</p>
+<hr>
+<h2 id="tenses-s10"><a class="anchor" href="#tenses-s10" aria-label="پیوند">#</a>۱۰. کدام زمان در کدام بخش IELTS</h2>
+<ul><li><strong>Speaking P1:</strong> Present Simple (ستون فقرات) + Continuous («این روزها») + Perfect («چند سال است که...»)</li><li><strong>Speaking P2:</strong> Past Simple (روایت) + Past Continuous (صحنه) + یک Past Perfect + جمع‌بندی با Present Perfect (<code dir="ltr">Since then, I've always...</code>)</li><li><strong>Speaking P3:</strong> Present Simple (نظر) + will/going to + شرطی دوم + یک Future Perfect (<code dir="ltr">By 2050...</code>)</li><li><strong>Writing T1:</strong> زمان را از محور نمودار بگیر؛ فرآیند = Present Simple Passive</li><li><strong>Writing T2:</strong> ۸۰٪ Present Simple؛ تغییرات تا امروز = Present Perfect؛ مثال تاریخی = Past Simple</li></ul>
+<nav class="pager">
+<span></span>
+<a class="next" href="#g-passive"><small>بعدی</small>مجهول و شرطی</a>
+</nav>
+</section>
+<section class="guide" id="g-passive">
+<header class="guide-head"><span class="kicker">راهنمای ۲ از ۹</span>
+<h1>بخش دوم — شرطی‌ها (Conditionals)</h1><p>مجهول در زمان‌های پرکاربرد، نردبان فاصله‌ی شرطی‌ها، wish و it’s time</p></header>
+<blockquote>نسخه‌ی فشرده‌ی <code dir="ltr">passive-and-conditionals-guide.md</code> — فقط پرکاربردها. پیش‌نیاز: جدول ۳×۴ زمان‌ها. مجهول = همان زمان‌ها + <code dir="ltr">be + V3</code>. شرطی = همان زمان‌ها + قاعده‌ی «فاصله».</blockquote>
+<hr>
+<h2 id="passive-s1"><a class="anchor" href="#passive-s1" aria-label="پیوند">#</a>۱. کی مجهول؟</h2>
+<p>مجهول درباره‌ی <strong>ترتیب و تمرکز</strong> است، نه معنا. آنچه مهم‌تر است اول می‌آید:</p>
+<ul><li>عامل نامعلوم: <code dir="ltr">My laptop was stolen.</code></li><li>عامل بدیهی: <code dir="ltr">He was arrested.</code> (معلوم است پلیس)</li><li>فرآیند مهم است نه عامل: <code dir="ltr">The mixture is then heated.</code></li><li>لحن بی‌طرف و آکادمیک: <code dir="ltr">It is often argued that...</code></li></ul>
+<h2 id="passive-s2"><a class="anchor" href="#passive-s2" aria-label="پیوند">#</a>۲. فرمول واحد</h2>
+<p>**<code dir="ltr">be</code> را در همان زمان فعل اصلی صرف کن + V3.** مفعول می‌شود فاعل؛ فاعل قبلی یا حذف یا با by.</p>
+<div class="tbl"><table><thead><tr><th>زمان</th><th>مجهول</th></tr></thead><tbody><tr><td>Present Simple</td><td>is/are written</td></tr><tr><td>Present Continuous</td><td>is being written</td></tr><tr><td>Present Perfect</td><td>has been written</td></tr><tr><td>Past Simple</td><td>was/were written</td></tr><tr><td>Past Continuous</td><td>was being written</td></tr><tr><td>Past Perfect</td><td>had been written</td></tr><tr><td>Future Simple</td><td>will be written</td></tr><tr><td>Future Perfect</td><td>will have been written</td></tr></tbody></table></div>
+<p>Perfect Continuousها و Future Continuous مجهول نمی‌شوند (<code dir="ltr">been being</code> <span class="no">❌</span>) — جمله را معلوم کن. در عمل ۸ زمان مجهول داری و در IELTS تقریباً فقط ۵ تای اول لازم است.</p>
+<p>منفی/سؤالی با اولین کمکی: <code dir="ltr">hasn't been written</code> / <code dir="ltr">Has it been written?</code></p>
+<h2 id="passive-s3"><a class="anchor" href="#passive-s3" aria-label="پیوند">#</a>۳. مجهول با modal</h2>
+<ul><li>حال/آینده: <strong>modal + be + V3</strong> <span class="arrow">→</span> <code dir="ltr">must be done</code>, <code dir="ltr">can be done</code>, <code dir="ltr">should be done</code>, <code dir="ltr">needs to be done</code></li><li>گذشته: <strong>modal + have been + V3</strong> <span class="arrow">→</span> <code dir="ltr">It should have been tested.</code> / <code dir="ltr">The bug could have been avoided.</code></li><li class="trap"><span class="no">❌</span> <code dir="ltr">It should be done yesterday</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">should have been done yesterday</code></li></ul>
+<h2 id="passive-s4"><a class="anchor" href="#passive-s4" aria-label="پیوند">#</a>۴. شکل‌های غیرصرفی (پرکاربرد)</h2>
+<div class="tbl"><table><thead><tr><th>شکل</th><th>مثال</th></tr></thead><tbody><tr><td>to be + V3</td><td><code dir="ltr">The issue needs to be fixed.</code></td></tr><tr><td>being + V3</td><td><code dir="ltr">I hate being interrupted.</code></td></tr><tr><td>to have been + V3</td><td><code dir="ltr">He is thought to have stolen the money.</code></td></tr></tbody></table></div>
+<p>نکته‌ی بریتانیایی: <code dir="ltr">The report needs revising.</code> = <code dir="ltr">needs to be revised</code></p>
+<h2 id="passive-s5"><a class="anchor" href="#passive-s5" aria-label="پیوند">#</a>۵. افعال دو مفعولی</h2>
+<p><code dir="ltr">give, send, tell, offer, show, teach, pay</code> — دو مجهول ممکن است، ولی <strong>انسان به‌عنوان فاعل طبیعی‌تر است</strong>:</p>
+<ul><li><span class="yes">✅</span> <code dir="ltr">I was offered a job.</code> / <code dir="ltr">We were told to wait.</code></li><li class="trap">نسخه‌ی دیگر به to نیاز دارد: <code dir="ltr">A certificate was given to Hossein.</code> (نه <code dir="ltr">given Hossein</code> <span class="no">❌</span>)</li></ul>
+<p>فعل + حرف اضافه: حرف اضافه همراه فعل می‌ماند:</p>
+<ul><li class="trap"><span class="yes">✅</span> <code dir="ltr">The problem was dealt with.</code> (نه <code dir="ltr">was dealt</code> <span class="no">❌</span>)</li><li><span class="yes">✅</span> <code dir="ltr">The server must be looked after.</code></li></ul>
+<h2 id="passive-s6"><a class="anchor" href="#passive-s6" aria-label="پیوند">#</a>۶. افعالی که مجهول نمی‌شوند</h2>
+<p><strong>ناگذرها</strong> (مفعول ندارند): <code dir="ltr">happen, occur, take place, arrive, come, go, appear, disappear, die, fall, rise, exist, sleep, seem, remain, belong to, consist of, become</code></p>
+<ul><li class="trap"><span class="no">❌</span> <code dir="ltr">The accident was happened</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">The accident happened</code></li></ul>
+<p><strong>stateهای گذرا:</strong> <code dir="ltr">have (=داشتن), suit, fit, resemble, cost, weigh</code> <span class="arrow">→</span> <span class="no">❌</span> <code dir="ltr">A car is had by me</code></p>
+<p>**<code dir="ltr">be born</code> همیشه مجهول:** <span class="yes">✅</span> <code dir="ltr">I was born in Tehran.</code></p>
+<p><strong>رویداد خودبه‌خودی = معلوم:</strong> <code dir="ltr">The door opened.</code> / <code dir="ltr">The glass broke.</code> / <code dir="ltr">The temperature rose.</code> — مجهول (<code dir="ltr">was opened</code>) فقط اگر کسی انجامش داده.</p>
+<h2 id="passive-s7"><a class="anchor" href="#passive-s7" aria-label="پیوند">#</a>۷. قاعده‌ی by</h2>
+<p>۸۰٪ مجهول‌های آکادمیک اصلاً by ندارند. by فقط وقتی عامل <strong>اطلاعات مفید</strong> اضافه کند:</p>
+<ul><li><span class="yes">✅</span> <code dir="ltr">The theory was proposed by Einstein.</code></li><li class="trap"><span class="no">❌</span> <code dir="ltr">The window was broken by someone.</code> <span class="arrow">→</span> فقط <code dir="ltr">was broken</code></li><li class="trap"><span class="no">❌</span> <code dir="ltr">The report was written by me.</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">I wrote the report.</code> (عامل مهم است <span class="arrow">→</span> معلوم)</li><li class="trap">ابزار = <strong>with</strong>: <code dir="ltr">It was cut with a knife.</code> (نه by <span class="no">❌</span>)</li></ul>
+<h2 id="passive-s8"><a class="anchor" href="#passive-s8" aria-label="پیوند">#</a>۸. ساختارهای پرکاربرد دیگر</h2>
+<p><strong>get-passive (محاوره):</strong> <code dir="ltr">He got fired.</code> / <code dir="ltr">My phone got stolen.</code> — در Speaking طبیعی، در Writing هرگز.</p>
+<p><strong>مجهول غیرشخصی (طلای Task 2):</strong></p>
+<ul><li><code dir="ltr">It is widely believed that...</code> / <code dir="ltr">It is often argued that...</code> / <code dir="ltr">It cannot be denied that...</code></li><li><code dir="ltr">He is believed to be a genius.</code> (رویداد قبل‌تر: <code dir="ltr">to have stolen</code>)</li><li>دو سه تا در کل مقاله کافی است؛ زیاده‌روی مصنوعی می‌شود.</li></ul>
+<p><strong>Causative — دادن کار به دست دیگری:</strong></p>
+<ul><li><strong>have/get + چیزی + V3</strong>: <code dir="ltr">I had my car repaired.</code> / <code dir="ltr">I got my hair cut.</code></li><li>فرق حیاتی: <code dir="ltr">I cut my hair</code> (خودم) ≠ <code dir="ltr">I had my hair cut</code> (آرایشگر)</li><li>معنای دوم — اتفاق ناخوشایند: <code dir="ltr">He had his wallet stolen.</code></li><li>نسخه‌ی معلوم: <code dir="ltr">have someone do</code> / <code dir="ltr">get someone to do</code> (دقت به to) / <code dir="ltr">make someone do</code> (اجبار) / <code dir="ltr">let someone do</code> (اجازه)</li></ul>
+<h2 id="passive-s9"><a class="anchor" href="#passive-s9" aria-label="پیوند">#</a>۹. مجهول در IELTS</h2>
+<ul><li><strong>Task 1 فرآیند:</strong> ساختار پیش‌فرض = Present Simple Passive + کلمات ترتیبی (<code dir="ltr">first, then, once, finally</code>)</li><li><strong>Task 1 نمودار:</strong> عمدتاً معلوم (<code dir="ltr">sales rose</code>)؛ مجهول فقط برای روش جمع‌آوری (<code dir="ltr">The data was collected...</code>)</li><li><strong>Task 2:</strong> حدود ۱۵–۲۰٪ جملات؛ بیشتر از این سنگین و مبهم می‌شود</li><li><strong>Speaking:</strong> <code dir="ltr">I was told that...</code> / <code dir="ltr">I got promoted</code> / <code dir="ltr">I had my laptop upgraded</code></li></ul>
+<hr>
+<h2 id="passive-s10"><a class="anchor" href="#passive-s10" aria-label="پیوند">#</a>۱۰. ایده‌ی اصلی: گذشته = فاصله، نه لزوماً زمان</h2>
+<p>در شرطی‌ها صرف گذشته <strong>فاصله از واقعیت</strong> می‌سازد، نه فاصله در زمان:<br><code dir="ltr">If I had more money...</code> <span class="arrow">→</span> درباره‌ی همین الان است (الان پول ندارم).</p>
+<p>فارسی هم همین را دارد، فقط برای ادب: «می‌خواستم خواهش کنم» — خواهش مال الان است، گذشته فقط مستقیم بودن را کم کرده.</p>
+<p><strong>نردبان فاصله — دو ستون که مستقل تنظیم می‌شوند:</strong></p>
+<div class="tbl"><table><thead><tr><th></th><th>بند if (زمانِ شرط)</th><th>بند اصلی (زمانِ نتیجه)</th></tr></thead><tbody><tr><td>پله ۰ — واقعی</td><td>If I <strong>have</strong> time</td><td>I <strong>will</strong> call you</td></tr><tr><td>پله ۱ — غیرواقعیِ حال</td><td>If I <strong>had</strong> time</td><td>I <strong>would</strong> call you</td></tr><tr><td>پله ۲ — غیرواقعیِ گذشته</td><td>If I <strong>had had</strong> time</td><td>I <strong>would have</strong> called you</td></tr></tbody></table></div>
+<ul><li class="trap">بند if فقط زمان را عقب می‌برد؛ بند اصلی فقط modal را. برای همین <span class="no">❌</span> <code dir="ltr">If I would have known</code> غلط است — دو بار علامت غیرواقعی.</li><li><strong>قانون سفت:</strong> will و would هرگز در بند if شرطی استاندارد نمی‌آیند.</li><li>چرا گذشته <code dir="ltr">had had</code> می‌خواهد؟ چون <code dir="ltr">had</code> قبلاً برای «غیرواقعیِ حال» خرج شده.</li></ul>
+<p><strong>تست دو سؤالی:</strong></p>
+<ol start="1"><li>واقعی است یا خلاف واقع؟ واقعی <span class="arrow">→</span> پله ۰</li><li>خلاف واقع: هنوز قابل تغییر است <span class="arrow">→</span> پله ۱ / تمام شده <span class="arrow">→</span> پله ۲</li></ol>
+<p><strong>تله‌ی فارسی:</strong> «اگر پول داشتم، می‌خریدمش» مبهم است — هم پله ۱ هم پله ۲. انگلیسی مجبورت می‌کند انتخاب کنی. این تنها خطای مفهومی شرطی‌هاست؛ بقیه مکانیکی‌اند.</p>
+<h2 id="passive-s11"><a class="anchor" href="#passive-s11" aria-label="پیوند">#</a>۱۱. چهار نوع اصلی</h2>
+<div class="tbl"><table><thead><tr><th>نوع</th><th>بند if</th><th>بند اصلی</th><th>معنا</th></tr></thead><tbody><tr><td>Zero</td><td>Present</td><td>Present</td><td>حقیقت همیشگی: <code dir="ltr">If you heat water, it boils.</code></td></tr><tr><td>First</td><td>Present</td><td>will + V1</td><td>آینده‌ی ممکن: <code dir="ltr">If the tests pass, I'll merge.</code></td></tr><tr><td>Second</td><td>Past</td><td>would + V1</td><td>فرضی حال: <code dir="ltr">If I had time, I would refactor.</code></td></tr><tr><td>Third</td><td>Past Perfect</td><td>would have + V3</td><td>حسرت گذشته: <code dir="ltr">If I had known, I would have told you.</code></td></tr></tbody></table></div>
+<ul><li><strong>Zero:</strong> تست — اگر if را با when عوض کنی و معنا عوض نشود، Zero است.</li><li><strong>First:</strong> بند اصلی لازم نیست will باشد: <code dir="ltr">If you finish early, you can leave.</code> / <code dir="ltr">...we should cancel.</code> / <code dir="ltr">...tell him I called.</code> (تنوع = range)</li><li><strong>Second:</strong> <code dir="ltr">were</code> برای همه‌ی ضمایر: <code dir="ltr">If I were you...</code> (نه was در Writing). تفاوت First/Second نگرش گوینده است: <code dir="ltr">If I get the job, I'll move</code> (امیدوارم) ≠ <code dir="ltr">If I got the job, I'd move</code> (بعید می‌دانم).</li><li><strong>Third:</strong> بند اصلی سه گزینه دارد: <code dir="ltr">would have</code> (حتماً) / <code dir="ltr">could have</code> (امکانش بود) / <code dir="ltr">might have</code> (شاید).</li><li class="trap"><span class="no">❌</span> <code dir="ltr">If it will rain</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">If it rains</code> — بند if خودش نشانه‌ی آینده است.</li></ul>
+<h2 id="passive-s12"><a class="anchor" href="#passive-s12" aria-label="پیوند">#</a>۱۲. Mixed — شرط و نتیجه در دو زمان</h2>
+<p>از دو ستون ناهم‌ردیف انتخاب کن؛ قاعده‌ی جدیدی ندارد:</p>
+<ul><li><strong>شرط گذشته <span class="arrow">→</span> نتیجه حال</strong> (پرکاربردترین): <code dir="ltr">If I had studied medicine, I would be a doctor now.</code></li><li><strong>ویژگی دائمی <span class="arrow">→</span> نتیجه گذشته</strong>: <code dir="ltr">If he spoke English, they would have hired him.</code></li></ul>
+<p>تشخیص: آیا شرط و نتیجه در یک زمان‌اند؟ نه <span class="arrow">→</span> mixed.<br>یک جمله در کل Speaking کافی است؛ زورکی جا نکن.</p>
+<h2 id="passive-s13"><a class="anchor" href="#passive-s13" aria-label="پیوند">#</a>۱۳. جایگزین‌های if (پرکاربردها)</h2>
+<div class="tbl"><table><thead><tr><th>ساختار</th><th>معنا</th><th>مثال</th></tr></thead><tbody><tr><td>unless</td><td>مگر اینکه</td><td><code dir="ltr">I won't deploy unless all tests pass.</code></td></tr><tr><td>as long as</td><td>به شرطی که</td><td><code dir="ltr">You can use it as long as you credit the source.</code></td></tr><tr><td>in case</td><td>محض احتیاط</td><td><code dir="ltr">Take a backup in case the disk fails.</code></td></tr><tr><td>even if</td><td>حتی اگر</td><td><code dir="ltr">Even if it costs more, it's worth it.</code></td></tr><tr><td>otherwise</td><td>وگرنه</td><td><code dir="ltr">Back it up; otherwise you'll lose everything.</code></td></tr><tr><td>if it weren't for</td><td>اگر ... نبود (حال)</td><td><code dir="ltr">If it weren't for open source, this wouldn't exist.</code></td></tr><tr><td>if it hadn't been for</td><td>اگر ... نبود (گذشته)</td><td><code dir="ltr">If it hadn't been for the backup, we'd have lost everything.</code></td></tr></tbody></table></div>
+<p><strong>سه تله‌ی unless:</strong></p>
+<ol start="1"><li class="trap">خودش منفی است: <span class="no">❌</span> <code dir="ltr">Unless you don't hurry</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">Unless you hurry</code></li><li class="trap">فقط جای «مگر اینکه» می‌نشیند، نه هر <code dir="ltr">if not</code>: <span class="no">❌</span> <code dir="ltr">I'd be surprised unless he came</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">if he didn't come</code></li><li>با نوع سوم کمتر طبیعی است <span class="arrow">→</span> <code dir="ltr">If I hadn't been warned...</code></li></ol>
+<p><strong>in case ≠ if:</strong> <code dir="ltr">I'll take an umbrella if it rains</code> (واکنش — اول باران) ≠ <code dir="ltr">in case it rains</code> (پیشگیری — اول چتر). بعد از in case هم will ممنوع.</p>
+<p><strong>امر + and/or:</strong> <code dir="ltr">Work hard and you'll pass.</code> / <code dir="ltr">Hurry up or you'll miss the train.</code></p>
+<h2 id="passive-s14"><a class="anchor" href="#passive-s14" aria-label="پیوند">#</a>۱۴. Inversion — حذف if (فقط برای Writing، یک بار)</h2>
+<p>if را حذف کن، کمکی را ببر قبل از فاعل (همان ترتیب سؤالی):</p>
+<ul><li><code dir="ltr">Should you need help, please contact us.</code></li><li><code dir="ltr">Were I you...</code> / <code dir="ltr">Were governments to invest more, congestion would fall.</code></li><li><code dir="ltr">Had I known, I would have told you.</code></li><li class="trap">منفی بدون اختصار: <span class="no">❌</span> <code dir="ltr">Hadn't I known</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">Had I not known</code></li><li>در Speaking تقریباً هیچ‌وقت — مصنوعی به گوش می‌رسد.</li></ul>
+<h2 id="passive-s15"><a class="anchor" href="#passive-s15" aria-label="پیوند">#</a>۱۵. همان قاعده‌ی فاصله در ساختارهای دیگر</h2>
+<div class="tbl"><table><thead><tr><th>ساختار</th><th>یک قدم عقب (حال)</th><th>دو قدم عقب (گذشته)</th></tr></thead><tbody><tr><td>wish</td><td>I wish I <strong>had</strong> more time</td><td>I wish I <strong>had studied</strong> harder</td></tr><tr><td>if only</td><td>If only I <strong>knew</strong></td><td>If only I <strong>had listened</strong></td></tr><tr><td>it's time</td><td>It's time we <strong>left</strong></td><td>—</td></tr><tr><td>would rather + دیگری</td><td>I'd rather you <strong>didn't</strong> tell him</td><td>I'd rather we <strong>had discussed</strong> it</td></tr><tr><td>as if</td><td>He talks as if he <strong>knew</strong> everything</td><td>as if he <strong>had seen</strong> it</td></tr></tbody></table></div>
+<ul><li class="trap"><code dir="ltr">wish + would</code> = شکایت از رفتار <strong>دیگری</strong>: <code dir="ltr">I wish he would stop interrupting.</code> — برای خودت <span class="no">❌</span> (<code dir="ltr">I wish I would be...</code> <span class="arrow">→</span> <code dir="ltr">I wish I were...</code>)</li><li><code dir="ltr">wish + could</code> = آرزوی توانایی: <code dir="ltr">I wish I could help.</code></li><li><code dir="ltr">It's high time you took this seriously.</code> (high = خیلی وقته باید)</li><li><code dir="ltr">would rather + V1</code> برای ترجیح خودم: <code dir="ltr">I'd rather stay home.</code></li><li>as if: گذشته = باور دارم غیرواقعی است؛ حال = شاید واقعی باشد.</li></ul>
+<h2 id="passive-s16"><a class="anchor" href="#passive-s16" aria-label="پیوند">#</a>۱۶. شرطی در IELTS</h2>
+<ul><li><strong>Part 3 (پرارزش‌ترین):</strong> سؤال فرضی <span class="arrow">→</span> <code dir="ltr">If education were free, I imagine universities would face funding problems, although access would improve.</code></li><li><strong>Part 2:</strong> جمع‌بندی با نوع سوم: <code dir="ltr">Looking back, if I had asked for help earlier, I would have saved a lot of time.</code></li><li><strong>Task 2:</strong> استدلال فرضی (نوع ۲)، تحلیل پیامد (نوع ۱: <code dir="ltr">If this trend continues...</code>)، جمع‌بندی با unless: <code dir="ltr">Unless immediate action is taken, these problems are likely to worsen.</code></li></ul>
+<hr>
+<h2 id="passive-s17"><a class="anchor" href="#passive-s17" aria-label="پیوند">#</a>۱۷. چک‌لیست خطاها</h2>
+<p><strong>مجهول:</strong></p>
+<div class="tbl"><table><thead><tr><th><span class="no">❌</span></th><th><span class="yes">✅</span></th></tr></thead><tbody><tr><td>The report has written.</td><td>has <strong>been</strong> written</td></tr><tr><td>It is wrote.</td><td>is <strong>written</strong></td></tr><tr><td>The task will finished.</td><td>will <strong>be</strong> finished</td></tr><tr><td>The accident was happened.</td><td><strong>happened</strong></td></tr><tr><td>I born in Tehran.</td><td>I <strong>was</strong> born</td></tr><tr><td>The problem was dealt.</td><td>was dealt <strong>with</strong></td></tr><tr><td>It was cut by a knife.</td><td>cut <strong>with</strong> a knife</td></tr><tr><td>A book was given him.</td><td>given <strong>to</strong> him</td></tr><tr><td>The door was opened by itself.</td><td>The door <strong>opened</strong></td></tr><tr><td>It should be done yesterday.</td><td>should <strong>have been</strong> done</td></tr></tbody></table></div>
+<p><strong>شرطی:</strong></p>
+<div class="tbl"><table><thead><tr><th><span class="no">❌</span></th><th><span class="yes">✅</span></th></tr></thead><tbody><tr><td>If it will rain...</td><td>If it <strong>rains</strong></td></tr><tr><td>If I would have known...</td><td>If I <strong>had</strong> known</td></tr><tr><td>If I was you...</td><td>If I <strong>were</strong> you</td></tr><tr><td>Unless you don't hurry...</td><td>Unless you <strong>hurry</strong></td></tr><tr><td>I wish I would be taller.</td><td>I wish I <strong>were</strong> taller</td></tr><tr><td>I wish I have more time.</td><td>I wish I <strong>had</strong> more time</td></tr><tr><td>It's time we leave.</td><td>It's time we <strong>left</strong></td></tr><tr><td>I'd rather you don't tell him.</td><td>I'd rather you <strong>didn't</strong> tell him</td></tr><tr><td>in case it will rain</td><td>in case it <strong>rains</strong></td></tr><tr><td>Hadn't I known...</td><td><strong>Had I not</strong> known</td></tr></tbody></table></div>
+<p><strong>چک بعد از هر جمله‌ی مجهول:</strong> be در زمان درست؟ V3 نه V2؟ been جا نیفتاده؟ فعل گذراست؟ by واقعاً لازم است؟<br><strong>چک بعد از هر شرطی:</strong> will/would در بند if نیامده؟ قابل تغییر (۲) یا تمام‌شده (۳)؟ دو بند همخوان؟ were در نوع ۲؟ کاما اگر if اول آمده؟</p>
+<nav class="pager">
+<a href="#g-tenses"><small>قبلی</small>زمان‌ها</a>
+<a class="next" href="#g-patterns"><small>بعدی</small>الگوی فعل و وجه</a>
+</nav>
+</section>
+<section class="guide" id="g-patterns">
+<header class="guide-head"><span class="kicker">راهنمای ۳ از ۹</span>
+<h1>خلاصه‌ی کاربردی الگوهای فعل و وجه</h1><p>قاعده‌ی to یا ing، فعل‌های دومعنایی، مودال‌ها و نردبان قطعیت، حروف اضافه‌ی وابسته</p></header>
+<blockquote>نسخه‌ی فشرده‌ی <code dir="ltr">verb-patterns-and-modality-guide.md</code> — gerund/infinitive، modalها، تعدیل ادعا، حروف اضافه‌ی وابسته.</blockquote>
+<hr>
+<h2 id="patterns-s1"><a class="anchor" href="#patterns-s1" aria-label="پیوند">#</a>۱. قاعده‌ی مولد: to رو به جلو، -ing واقع‌شده</h2>
+<ul><li><strong>to + V1</strong> = عملی که هنوز واقع نشده؛ هدف، قصد، امکان (<code dir="ltr">want to leave</code>)</li><li><strong>V-ing</strong> = عملی که هست/بود، یا به‌عنوان یک «چیز» در نظر گرفته می‌شود (<code dir="ltr">enjoy swimming</code>)</li></ul>
+<p>مدرکش افعال دوگانه‌اند — تفاوت معنا همیشه روی همین محور است:</p>
+<div class="tbl"><table><thead><tr><th>فعل</th><th>+ to (رو به جلو)</th><th>+ -ing (واقع‌شده)</th></tr></thead><tbody><tr><td>stop</td><td>stop to smoke = ایستاد تا بکشد</td><td>stop smoking = ترک کرد</td></tr><tr><td>remember</td><td>remember to lock = یادت باشد قفل کنی</td><td>remember locking = یادت می‌آید قفل کردی</td></tr><tr><td>forget</td><td>forget to call = یادش رفت زنگ بزند</td><td>forget calling = یادش نمی‌آید زده</td></tr><tr><td>regret</td><td>regret to inform = متأسفم که خبر می‌دهم</td><td>regret informing = پشیمانم که گفتم</td></tr><tr><td>try</td><td>try to open = تلاش کرد (شاید نشد)</td><td>try opening = امتحان کرد (روش)</td></tr><tr><td>mean</td><td>mean to = قصد داشتن</td><td>mean -ing = مستلزم بودن</td></tr><tr><td>go on</td><td>go on to become = بعداً رفت شد</td><td>go on talking = ادامه داد</td></tr><tr><td>need</td><td>need to do = لازم دارم بکنم</td><td>need washing = نیاز به شسته‌شدن دارد (مجهول)</td></tr></tbody></table></div>
+<p>فعل ناشناخته دیدی؟ بپرس: «درباره‌ی چیزی است که هنوز نشده، یا چیزی که هست؟»</p>
+<h2 id="patterns-s2"><a class="anchor" href="#patterns-s2" aria-label="پیوند">#</a>۲. فهرست‌های اصلی (به‌عنوان تأیید، نه حفظ)</h2>
+<p><strong><span class="arrow">→</span> to V1 (رو به جلو):</strong><br>want, wish, hope, plan, intend, decide, choose, promise, agree, offer, refuse, expect, attempt, manage, fail, afford, deserve, seem, appear, tend, learn, pretend, claim</p>
+<p><strong><span class="arrow">→</span> V-ing (واقع‌شده):</strong><br>enjoy, mind, dislike, can't stand, can't help, avoid, finish, quit, give up, postpone, delay, admit, deny, mention, suggest, recommend, consider, imagine, involve, keep, practise, risk, miss, spend time</p>
+<p><strong>هر دو، بدون تفاوت معنایی:</strong> begin, start, continue, like, love, hate, prefer</p>
+<ul><li>⚠️ <code dir="ltr">would like/love/prefer</code> همیشه <strong>to</strong>: <code dir="ltr">I would like to go.</code> <span class="yes">✅</span></li></ul>
+<p><strong>دو تله:</strong></p>
+<ul><li class="trap"><span class="no">❌</span> <code dir="ltr">He suggested me to apply</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">He suggested applying</code> / <code dir="ltr">He suggested that I apply</code> (suggest/recommend مفعول شخصی + مصدر نمی‌گیرند)</li><li class="trap"><code dir="ltr">spend/waste + زمان + V-ing</code>: <code dir="ltr">She spends two hours studying.</code> (نه to study <span class="no">❌</span>)</li></ul>
+<h2 id="patterns-s3"><a class="anchor" href="#patterns-s3" aria-label="پیوند">#</a>۳. بعد از حرف اضافه، همیشه -ing (بی‌استثنا)</h2>
+<p>حرف اضافه اسم می‌خواهد؛ gerund اسم است:<br><code dir="ltr">interested in learning</code> / <code dir="ltr">good at solving</code> / <code dir="ltr">instead of complaining</code> / <code dir="ltr">before leaving</code> / <code dir="ltr">without asking</code></p>
+<p>عبارت‌های آماده: <code dir="ltr">There is no point in doing...</code> / <code dir="ltr">It is worth doing...</code> / <code dir="ltr">have difficulty (in) doing...</code> / <code dir="ltr">play a key role in doing...</code> / <code dir="ltr">in addition to doing...</code></p>
+<h2 id="patterns-s4"><a class="anchor" href="#patterns-s4" aria-label="پیوند">#</a>۴. تله‌ی to — حرف اضافه یا نشانه‌ی مصدر؟</h2>
+<p>این‌ها toی <strong>حرف اضافه</strong> دارند <span class="arrow">→</span> <strong>-ing</strong>:<br><code dir="ltr">look forward to doing</code> / <code dir="ltr">be used to doing</code> / <code dir="ltr">get used to doing</code> / <code dir="ltr">object to doing</code> / <code dir="ltr">be committed to doing</code> / <code dir="ltr">be opposed to doing</code> / <code dir="ltr">in addition to doing</code></p>
+<p><strong>تست:</strong> بعد از to یک اسم بگذار. معنا داشت <span class="arrow">→</span> حرف اضافه <span class="arrow">→</span> -ing.<br><code dir="ltr">look forward to the weekend</code> <span class="yes">✅</span> <span class="arrow">→</span> <code dir="ltr">look forward to hearing from you</code><br><code dir="ltr">want to the weekend</code> <span class="no">❌</span> <span class="arrow">→</span> <code dir="ltr">want to go</code></p>
+<h2 id="patterns-s5"><a class="anchor" href="#patterns-s5" aria-label="پیوند">#</a>۵. مصدر بدون to</h2>
+<pre class="example">make/let/have + مفعول + V1     He made me wait. / Let me explain.
+help + مفعول + (to) V1          She helped me (to) understand.
+modalها، had better، would rather   must go / You had better leave / I'd rather stay</pre>
+<ul><li class="trap"><span class="no">❌</span> <code dir="ltr">made me to wait</code> / <code dir="ltr">must to go</code></li><li>make در مجهول to را پس می‌گیرد: <code dir="ltr">He was made to work overtime.</code></li><li>let مجهول نمی‌شود <span class="arrow">→</span> <code dir="ltr">We were allowed to leave.</code></li></ul>
+<h2 id="patterns-s6"><a class="anchor" href="#patterns-s6" aria-label="پیوند">#</a>۶. فعل + مفعول + فعل (سه دسته)</h2>
+<pre class="example">allow/enable/encourage/force/persuade/advise/remind/warn/ask/tell/expect/want/cause
+    + مفعول + to V1        Technology allows people to work remotely.
+
+make/let/have + مفعول + V1
+
+prevent/stop/discourage + مفعول + from + V-ing
+accuse + of / blame + for / thank + for + V-ing</pre>
+<ul><li class="trap"><span class="no">❌</span> <code dir="ltr">prevents them to succeed</code> / <code dir="ltr">from to succeed</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">prevents them from succeeding</code></li><li><code dir="ltr">allow/enable/encourage + to</code> پرکاربردترین الگوی Task 2 است.</li></ul>
+<p><strong>افعال حسی:</strong> <code dir="ltr">see/hear/watch + مفعول + V1</code> (کل رویداد) / <code dir="ltr">+ V-ing</code> (در میانه‌ی رویداد):<br><code dir="ltr">I saw him cross the road</code> (کل عمل) ≠ <code dir="ltr">I saw him crossing</code> (بخشی).</p>
+<p><strong>فاعل جمله:</strong> gerund طبیعی‌تر است (<code dir="ltr">Smoking is harmful</code>)؛ مصدر را با it صوری بیاور (<code dir="ltr">It is difficult to learn a language</code>).</p>
+<hr>
+<h2 id="patterns-s7"><a class="anchor" href="#patterns-s7" aria-label="پیوند">#</a>۷. Modalها — خواص مشترک</h2>
+<ol start="1"><li class="trap">بعدشان V1 بدون to <span class="no">❌</span> <code dir="ltr">must to go</code></li><li class="trap">s سوم شخص نمی‌گیرند <span class="no">❌</span> <code dir="ltr">he cans</code></li><li class="trap">دو modal با هم نمی‌آیند <span class="no">❌</span> <code dir="ltr">will can</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">will be able to</code></li><li>منفی/سؤالی را خودشان می‌سازند</li></ol>
+<p>معادل‌های عبارتی برای زمان‌های دیگر: <code dir="ltr">can → be able to</code> / <code dir="ltr">must → have to</code> / <code dir="ltr">may → be allowed to</code></p>
+<p><strong>دو محور — هر modal دو کاربرد دارد:</strong></p>
+<div class="tbl"><table><thead><tr><th>modal</th><th>الزام/اجازه (درباره‌ی دنیا)</th><th>استنتاج (اطمینان گوینده)</th></tr></thead><tbody><tr><td>must</td><td>باید انجامش بدهی</td><td>حتماً همین است (~۹۵٪)</td></tr><tr><td>should</td><td>بهتر است بکنی</td><td>انتظار می‌رود (~۷۰٪)</td></tr><tr><td>may/might</td><td>اجازه داری</td><td>ممکن است (~۴۰٪)</td></tr><tr><td>can</td><td>می‌توانی</td><td>امکانش هست</td></tr><tr><td>can't</td><td>—</td><td>محال است (~۰٪)</td></tr></tbody></table></div>
+<h2 id="patterns-s8"><a class="anchor" href="#patterns-s8" aria-label="پیوند">#</a>۸. الزام</h2>
+<pre class="example">must / have to      اجباری      (must = از سمت گوینده؛ have to = قانون/شرایط بیرونی)
+should              توصیه
+had better          توصیه‌ی قوی با تهدید ضمنی
+be supposed to      انتظار می‌رود</pre>
+<ul><li>must گذشته ندارد <span class="arrow">→</span> <code dir="ltr">had to</code>؛ آینده <span class="arrow">→</span> <code dir="ltr">will have to</code></li><li><strong>تله‌ی «باید»:</strong> فارسی یک کلمه برای سه شدت دارد <span class="arrow">→</span> فارسی‌زبان‌ها must را زیادی می‌آورند. در Task 2: <code dir="ltr">People should recycle more</code> <span class="yes">✅</span> نه <code dir="ltr">must</code> (آمرانه).</li></ul>
+<p><strong>mustn't ≠ don't have to (معنا وارونه می‌شود!):</strong></p>
+<ul><li><code dir="ltr">mustn't</code> = ممنوع («نباید»): <code dir="ltr">You mustn't tell anyone.</code></li><li><code dir="ltr">don't have to</code> = لازم نیست («لازم نیست»): <code dir="ltr">You don't have to tell anyone.</code></li></ul>
+<h2 id="patterns-s9"><a class="anchor" href="#patterns-s9" aria-label="پیوند">#</a>۹. توانایی و اجازه</h2>
+<pre class="example">can               حال
+could             گذشته — توانایی کلی
+was/were able to  گذشته — موفقیت در یک مورد مشخص (managed to)
+will be able to   آینده</pre>
+<ul><li class="trap"><span class="no">❌</span> <code dir="ltr">everyone could escape</code> (یک مورد مشخص) <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">everyone was able to escape</code></li><li>در منفی این محدودیت نیست: couldn't هر دو حالت.</li></ul>
+<p>اجازه: <code dir="ltr">can</code> (غیررسمی) <span class="arrow">→</span> <code dir="ltr">could</code> (مؤدبانه) <span class="arrow">→</span> <code dir="ltr">may</code> (رسمی) <span class="arrow">→</span> <code dir="ltr">be allowed to</code> (خنثی).<br>could در سؤال گذشته نیست، ادب است — همان نردبان فاصله: <code dir="ltr">Can you help?</code> <span class="arrow">→</span> <code dir="ltr">Could you help?</code> <span class="arrow">→</span> <code dir="ltr">I was wondering if you could help.</code></p>
+<h2 id="patterns-s10"><a class="anchor" href="#patterns-s10" aria-label="پیوند">#</a>۱۰. نردبان قطعیت (پرکاربردترین بخش برای IELTS)</h2>
+<pre class="example">must be (~۹۵٪) &gt; will be &gt; is likely to (~۸۰٪) &gt; should be (~۷۰٪)
+&gt; may/might/could be (~۴۰٪) &gt; is unlikely to (~۲۰٪) &gt; can't be (~۰٪)</pre>
+<ul><li class="trap">منفیِ استنتاجِ must = <strong>can't</strong>، نه mustn't: <span class="no">❌</span> <code dir="ltr">He mustn't be at home</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">He can't be at home</code></li><li>may/might/could در احتمال عملاً هم‌معنا؛ might محتاطانه‌تر، may رسمی‌تر.</li><li><code dir="ltr">couldn't</code> = محال (نه «ممکن است نباشد»): <code dir="ltr">It may not rain</code> ≠ <code dir="ltr">It couldn't rain</code></li></ul>
+<h2 id="patterns-s11"><a class="anchor" href="#patterns-s11" aria-label="پیوند">#</a>۱۱. Modal گذشته — modal + have + V3</h2>
+<pre class="example">must have V3      حتماً کرده        She must have forgotten.
+can't have V3     محال است کرده باشد  He can't have seen us.
+might have V3     شاید کرده         They might have taken the earlier train.
+should have V3    باید می‌کرد (نکرد)  I should have started sooner.
+could have V3     می‌توانست (نکرد)   We could have avoided this.
+needn't have V3   کرد ولی لازم نبود  I needn't have hurried.
+didn't need to    لازم نبود و نکرد   I didn't need to hurry, so I walked.</pre>
+<ul><li class="trap"><span class="no">❌</span> <code dir="ltr">She should came earlier</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">should have come</code> (حذف have = همان خطای حذف been)</li><li><code dir="ltr">should have + V3</code> ابزار حسرت و نقد — عالی برای Part 2 و Task 2.</li></ul>
+<h2 id="patterns-s12"><a class="anchor" href="#patterns-s12" aria-label="پیوند">#</a>۱۲. used to / would / be used to</h2>
+<pre class="example">used to + V1         قبلاً می‌کردم/بودم، دیگر نه   (منفی: didn't use to)
+would + V1           عادت تکراری گذشته — فقط action، نه حالت
+be used to + V-ing   عادت دارم
+get used to + V-ing  دارم عادت می‌کنم</pre>
+<p><span class="no">❌</span> <code dir="ltr">I would live in Tehran</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">I used to live in Tehran</code><br><code dir="ltr">I used to live in Tehran, so I am used to living in a big city.</code> — هر دو در یک جمله.</p>
+<hr>
+<h2 id="patterns-s13"><a class="anchor" href="#patterns-s13" aria-label="پیوند">#</a>۱۳. تعدیل ادعا (Hedging) — بازده نامتناسب بالا در Task 2</h2>
+<p>ادعای مطلق هم به Task Response ضرر می‌زند هم با یک استثنا فرو می‌ریزد:</p>
+<ul><li class="trap"><span class="no">❌</span> <code dir="ltr">All young people are addicted to social media.</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">Many young people appear to be heavily reliant on social media.</code></li><li class="trap"><span class="no">❌</span> <code dir="ltr">This proves that the policy failed.</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">This suggests that the policy may have been ineffective.</code></li></ul>
+<p><strong>جعبه‌ابزار (دو سه‌تا از هر دسته کافی است):</strong></p>
+<ol start="1"><li><strong>modal:</strong> may, might, could, can, would</li><li><strong>فعل:</strong> tend to, appear to, seem to, suggest, indicate — اگر فقط دو ابزار برداری: <strong>tend to</strong> و <strong>suggest</strong></li><li><strong>قید:</strong> often, generally, typically, largely, relatively, arguably, to some extent, in most cases</li><li><strong>مقدارنما:</strong> many, some, a number of, the majority of, a significant proportion of — به‌جای all/every/always/never</li><li><strong>عبارت آماده:</strong> <code dir="ltr">It could be argued that...</code> / <code dir="ltr">There is a tendency for...</code> / <code dir="ltr">While this may be true in some contexts, ...</code></li></ol>
+<p><strong>قاعده‌ی تعادل:</strong> ادعاهای کلی را تعدیل کن، موضع خودت را قاطع بگو:<br><code dir="ltr">While technology may have some negative effects, I believe its benefits clearly outweigh its drawbacks.</code><br>تعدیل افراطی (may + possibly + perhaps در یک جمله) مقاله را بی‌موضع می‌کند.</p>
+<hr>
+<h2 id="patterns-s14"><a class="anchor" href="#patterns-s14" aria-label="پیوند">#</a>۱۴. حروف اضافه‌ی وابسته — اینجا قاعده‌ی مولد نیست</h2>
+<p><code dir="ltr">depend on</code> و <code dir="ltr">suffer from</code> دلیل نظام‌مند ندارند؛ بخشی از خود واژه‌اند. ولی <strong>ریشه‌ی خطا پیش‌بینی‌پذیر است</strong>:</p>
+<h3>تله‌ی فعل مرکب فارسی (پیش‌بینی‌پذیرترین خطا)</h3>
+<p>فارسی «بحث کردن <strong>درباره‌ی</strong>»، «تأثیر گذاشتن <strong>روی</strong>» — معادل انگلیسی اغلب <strong>گذرای مستقیم</strong> است، بدون حرف اضافه:</p>
+<pre class="example">discuss X       ❌ discuss about        enter X        ❌ enter to
+marry X         ❌ marry with           answer X       ❌ answer to
+affect X        ❌ affect on            emphasize X    ❌ emphasize on
+reach, approach, contact, lack, resemble, mention, request, join,
+influence, accompany, resist, address, oppose  — همه بدون حرف اضافه</pre>
+<p>هر جا فعل فارسی مرکب است و حرف اضافه دارد <span class="arrow">→</span> مشکوک شو.</p>
+<p><strong>دام مضاعف — اسمِ هم‌ریشه حرف اضافه می‌گیرد:</strong></p>
+<pre class="example">affect X        ولی   have an effect on X
+emphasize X     ولی   place emphasis on X
+influence X     ولی   have an influence on X
+answer X        ولی   give an answer to X</pre>
+<p><span class="no">❌</span> <code dir="ltr">Technology affects on our lives</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">affects our lives</code> / <code dir="ltr">has a significant effect on our lives</code></p>
+<p><strong>جهت معکوس (انگلیسی حرف اضافه می‌خواهد):</strong><br><code dir="ltr">wait for</code> / <code dir="ltr">listen to</code> / <code dir="ltr">depend on</code> (نه to) / <code dir="ltr">suffer from</code> (نه of) / <code dir="ltr">arrive at</code> (نه to)</p>
+<h3>جدول‌های مرجع پرتکرار</h3>
+<p><strong>فعل + حرف اضافه:</strong></p>
+<pre class="example">to:   contribute to, lead to, respond to, refer to
+from: result from, suffer from, benefit from, prevent from, differ from
+on:   depend on, rely on, focus on, comment on
+in:   succeed in, result in, participate in
+with: deal with, cope with, agree with, compared with
+for:  apply for, account for, responsible for
+of:   consist of, aware of, capable of</pre>
+<p>⚠️ <code dir="ltr">result in</code> = منجر شد به (علت<span class="arrow">→</span>معلول) / <code dir="ltr">result from</code> = ناشی شد از (معلول<span class="arrow">→</span>علت)<br>⚠️ <code dir="ltr">apply for</code> = درخواست شغل / <code dir="ltr">apply to</code> = درخواست به دانشگاه</p>
+<p><strong>اسم + حرف اضافه (طلای Task 1):</strong></p>
+<div class="tbl"><table><thead><tr><th>اسم</th><th>حرف اضافه</th></tr></thead><tbody><tr><td>increase / rise / decline / fall / drop</td><td><strong>in</strong></td></tr><tr><td>impact / effect / influence / emphasis / focus</td><td><strong>on</strong></td></tr><tr><td>solution / answer / approach / access / alternative</td><td><strong>to</strong></td></tr><tr><td>reason / need / demand</td><td><strong>for</strong></td></tr><tr><td>awareness / lack / advantage</td><td><strong>of</strong></td></tr><tr><td>attitude</td><td><strong>to / towards</strong></td></tr><tr><td>difference</td><td><strong>between</strong></td></tr></tbody></table></div>
+<p>نکته‌ی ظریف: <code dir="ltr">an increase in X</code> (چه چیزی زیاد شد) / <code dir="ltr">an increase of 20%</code> (چقدر) — هر دو با هم: <code dir="ltr">an increase of 15% in car ownership</code> <span class="yes">✅</span></p>
+<p><strong>صفت + حرف اضافه:</strong></p>
+<pre class="example">of:    aware, capable, typical        to:    similar, related, prone, opposed, accustomed
+in:    interested, involved           on:    dependent, based, keen
+for:   responsible, suitable, famous  with:  familiar, consistent, associated
+from:  different                      about: concerned, worried, enthusiastic</pre>
+<p><code dir="ltr">different from</code> استاندارد است (نه than).</p>
+<hr>
+<h2 id="patterns-s15"><a class="anchor" href="#patterns-s15" aria-label="پیوند">#</a>۱۵. چک‌لیست خطاها (اگر وقت فقط برای سه‌تا: ۱، ۸، ۱۱)</h2>
+<ol start="1"><li>بعد از حرف اضافه -ing گذاشتم نه مصدر؟</li><li>look forward to / be used to با -ing؟</li><li>بعد از make/let/must مصدر بدون to؟</li><li>suggest me to / recommend me to ننوشتم؟</li><li>prevent … from … -ing درست؟</li><li>modal گذشته: have جا نیفتاده؟ (should have come)</li><li>mustn't را به‌جای don't have to نگذاشتم؟</li><li>discuss/enter/answer/affect بدون حرف اضافه؟</li><li>affect (فعل) و effect on (اسم) قاطی نشده؟</li><li>increase in (نه of) برای «چه چیزی زیاد شد»؟</li><li>ادعاهای مطلق (all/always/never) تعدیل شده؟</li><li>must بی‌جا به‌جای should نیامده؟</li><li>دو modal پشت سر هم نگذاشتم؟ (will can)</li></ol>
+<nav class="pager">
+<a href="#g-passive"><small>قبلی</small>مجهول و شرطی</a>
+<a class="next" href="#g-complex"><small>بعدی</small>جمله‌های مرکب</a>
+</nav>
+</section>
+<section class="guide" id="g-complex">
+<header class="guide-head"><span class="kicker">راهنمای ۴ از ۹</span>
+<h1>خلاصه‌ی کاربردی جمله‌ی پیچیده</h1><p>بندهای موصولی، اسمی و قیدی؛ تله‌ی ضمیر برگشتی؛ کوتاه‌سازی بندها</p></header>
+<blockquote>نسخه‌ی فشرده‌ی <code dir="ltr">complex-sentence-guide.md</code> — بند موصولی، اسمی، قیدی، کاهش و تأکید. هشدار: ساختار پیچیده‌ی غلط از ساده‌ی درست <strong>بدتر</strong> است. دو سه ساختار را انتخاب کن و بی‌خطا کن، نه همه را.</blockquote>
+<hr>
+<h2 id="complex-s1"><a class="anchor" href="#complex-s1" aria-label="پیوند">#</a>۱. کل معماری: سه جایگاه</h2>
+<p>جمله‌ی دوم را در کدام جایگاه فرو می‌کنی؟</p>
+<pre class="example">اسم   → noun clause      I know [that he is right].
+صفت   → relative clause  The man [who called] is my boss.
+قید   → adverbial clause [Although it was late], we continued.</pre>
+<p><strong>تست:</strong> جای بند یک کلمه بگذار — ضمیر جا افتاد <span class="arrow">→</span> اسمی؛ صفت <span class="arrow">→</span> موصولی؛ قید <span class="arrow">→</span> قیدی.</p>
+<p>یک کلمه چند نقش دارد (<code dir="ltr">that, when, if</code>) — تشخیص با تست است، نه شکل کلمه.<br><strong>بند وابسته هرگز تنها نمی‌ایستد:</strong> <span class="no">❌</span> <code dir="ltr">Because he was late.</code> به‌عنوان جمله‌ی کامل.</p>
+<p>ریشه‌ی نصف خطاها: فارسی برای همه‌ی این‌ها یک «که» دارد.</p>
+<hr>
+<h2 id="complex-s2"><a class="anchor" href="#complex-s2" aria-label="پیوند">#</a>۲. بند موصولی (ارزان‌ترین و کم‌ریسک‌ترین راه پیچیدگی)</h2>
+<h3>ضمایر</h3>
+<div class="tbl"><table><thead><tr><th>ضمیر</th><th>برای</th></tr></thead><tbody><tr><td>who</td><td>انسان (فاعل/مفعول)</td></tr><tr><td>whom</td><td>انسان، فقط مفعول، رسمی — بعد از حرف اضافه حتماً</td></tr><tr><td>which</td><td>غیرانسان</td></tr><tr><td>that</td><td>هر دو — فقط در defining</td></tr><tr><td>whose</td><td>مالکیت — برای غیرانسان هم: <code dir="ltr">a company whose profits doubled</code></td></tr><tr><td>where / when / why</td><td>مکان / زمان / دلیل (فقط با reason)</td></tr></tbody></table></div>
+<h3>defining / non-defining — کاما معنا را عوض می‌کند</h3>
+<pre class="example">My brother who lives in London is a doctor.   → چند برادر دارم؛ آنکه در لندن است
+My brother, who lives in London, is a doctor. → یک برادر دارم؛ ضمناً در لندن است</pre>
+<p>تست: بند را بردار — هنوز معلوم است درباره‌ی کی حرف می‌زنی؟ بله <span class="arrow">→</span> non-defining (کاما).</p>
+<ul><li><strong>non-defining: that ممنوع، حذف ضمیر ممنوع.</strong> <code dir="ltr">Tehran, which is the capital, ...</code> <span class="yes">✅</span></li><li>اسم خاص تقریباً همیشه non-defining است: <code dir="ltr">Ali, who works with me, is reliable.</code></li></ul>
+<h3>حذف ضمیر موصولی</h3>
+<p>فقط اگر <strong>مفعول</strong> بند باشد و بند defining باشد. تست: بعد از ضمیر <strong>فاعل جدید</strong> آمده؟ <span class="arrow">→</span> حذف‌شدنی.</p>
+<pre class="example">The book (that) I read was good.     ← I آمده → حذف ✅
+The book that is on the table…       ← فعل آمده → حذف ❌</pre>
+<p>حذف در انگلیسی طبیعی بسیار رایج است؛ همیشه that گذاشتن متن را سنگین می‌کند.</p>
+<h3>حرف اضافه</h3>
+<pre class="example">غیررسمی: the house (that) I live in      ← حرف اضافه ته بند
+رسمی:    the house in which I live       ← بعد از حرف اضافه فقط which/whom، هرگز that/who</pre>
+<ul><li class="trap"><span class="no">❌</span> حرف اضافه دو بار: <code dir="ltr">in which I live in</code></li><li>عبارت‌های طلایی Task 2: <code dir="ltr">the extent to which...</code> / <code dir="ltr">the way in which...</code></li></ul>
+<h3>which ارجاع به کل جمله (بازده بالا)</h3>
+<p><code dir="ltr">He arrived two hours late, which annoyed everyone.</code></p>
+<ul><li class="trap">همیشه کاما؛ فقط which — <span class="no">❌</span> <code dir="ltr">what annoyed everyone</code> / <code dir="ltr">that annoyed everyone</code></li><li><code dir="ltr">Unemployment has risen sharply, which has increased social tension.</code></li></ul>
+<h3>⚠️ تله‌ی ضمیر تکراری — مهم‌ترین بخش (ریشه‌ی فارسی)</h3>
+<p>فارسی ضمیر را نگه می‌دارد («مردی که <strong>او را</strong> دیدم»)؛ انگلیسی جایگاه را <strong>خالی</strong> می‌خواهد:</p>
+<pre class="example">❌ The man who I saw him…        ✅ The man I saw…
+❌ The house that I live in it…  ✅ The house I live in…
+❌ The man that his car was stolen…  ✅ The man whose car was stolen…</pre>
+<p><strong>تست:</strong> بند را جدا بخوان — اگر جمله‌ی کامل بود، ضمیر اضافه داری. بند موصولی <strong>باید</strong> ناقص باشد.<br>گوش فارسی‌ات این خطا را تأیید می‌کند؛ بررسی آگاهانه لازم دارد.</p>
+<h3>کاهش بند موصولی (فقط وقتی ضمیر فاعل باشد)</h3>
+<pre class="example">معلوم → V-ing:   The man who is waiting → The man waiting outside
+مجهول → V3:      Cars which are made in Japan → Cars made in Japan
+be + عبارت → حذف be:  The book which is on the table → The book on the table</pre>
+<p><code dir="ltr">Countries located near the equator…</code> / <code dir="ltr">The factors affecting this decision…</code> — آکادمیک و بی‌ریسک.</p>
+<hr>
+<h2 id="complex-s3"><a class="anchor" href="#complex-s3" aria-label="پیوند">#</a>۳. بند اسمی</h2>
+<p>جایگاه‌ها: مفعول (<code dir="ltr">I believe that…</code>)، فاعل، بعد از be (<code dir="ltr">The problem is that…</code>)، بعد از صفت (<code dir="ltr">I'm sure that…</code>).<br><strong>ممنوع: بعد از حرف اضافه</strong> <span class="arrow">→</span> <span class="no">❌</span> <code dir="ltr">worried about that he is late</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">worried about the fact that…</code> / <code dir="ltr">worried that…</code></p>
+<h3>that</h3>
+<p>در مفعول حذف‌شدنی است، ولی در Writing <strong>نگهش دار</strong> (رسمی‌تر، بی‌ابهام). فاعل که باشد هرگز حذف نکن.</p>
+<h3>فاعل صوری it (به‌جای بند اسمیِ فاعلِ سنگین)</h3>
+<pre class="example">It is clear that… / It is often argued that… / It is widely believed that…
+It should be noted that… / It is undeniable that…</pre>
+<h3>سؤال درون‌نشانده — ترتیب خبری می‌شود</h3>
+<p>نه جابه‌جایی کمکی، نه do/does/did:</p>
+<pre class="example">❌ I don't know what is it.           ✅ …what it is.
+❌ Can you tell me where is the bank? ✅ …where the bank is.
+❌ I wonder why did he leave.         ✅ …why he left.</pre>
+<p>اگر wh خودش فاعل است تغییری نمی‌کند: <code dir="ltr">I don't know who called.</code> <span class="yes">✅</span><br>این خطا از تعمیم عادت سؤال‌سازی می‌آید — در Part 3 پرسرعت بیشتر بروز می‌کند.</p>
+<h3>whether / if</h3>
+<p>در مفعول هر دو؛ ولی فقط whether: بعد از حرف اضافه (<code dir="ltr">the question of whether</code>)، قبل از مصدر (<code dir="ltr">whether to go</code>)، در فاعل، قبل از or not (<code dir="ltr">whether or not</code>).<br><strong>قاعده‌ی امن Writing: همیشه whether.</strong></p>
+<h3>نقل قول — یک پله عقب (همان backshift)</h3>
+<p>present<span class="arrow">→</span>past، past<span class="arrow">→</span>past perfect، will<span class="arrow">→</span>would، can<span class="arrow">→</span>could، must<span class="arrow">→</span>had to.<br>قیدها: now<span class="arrow">→</span>then، today<span class="arrow">→</span>that day، tomorrow<span class="arrow">→</span>the next day، yesterday<span class="arrow">→</span>the day before، here<span class="arrow">→</span>there.</p>
+<ul><li>حقیقت هنوز برقرار یا فعل نقل حال <span class="arrow">→</span> backshift لازم نیست.</li><li>سؤال نقل‌شده: هم backshift هم ترتیب خبری: <code dir="ltr">She asked where I lived.</code> / بله‌خیر <span class="arrow">→</span> <code dir="ltr">whether/if</code> لازم.</li><li>دستور: <code dir="ltr">He told me to close the door.</code> / منفی: <code dir="ltr">told me not to be late.</code></li><li class="trap"><strong>say بدون مخاطب، tell با مخاطب:</strong> <span class="no">❌</span> <code dir="ltr">said me</code> / <span class="no">❌</span> <code dir="ltr">told that</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">said that…</code> / <code dir="ltr">told me that…</code></li></ul>
+<h3>the fact that</h3>
+<p>پلِ بعد از حرف اضافه: <code dir="ltr">Despite the fact that…</code> / <code dir="ltr">Because of the fact that…</code><br>زیاده‌روی نکن — اگر ساده‌تر می‌شود، بگو: <code dir="ltr">Despite the rain</code> بهتر از <code dir="ltr">Despite the fact that it was raining</code> است.</p>
+<hr>
+<h2 id="complex-s4"><a class="anchor" href="#complex-s4" aria-label="پیوند">#</a>۴. بند قیدی</h2>
+<div class="tbl"><table><thead><tr><th>نوع</th><th>حروف ربط</th></tr></thead><tbody><tr><td>زمان</td><td>when, while, before, after, until, since, as soon as, once</td></tr><tr><td>علت</td><td>because, since, as</td></tr><tr><td>تضاد</td><td>although, though, even though, while, whereas</td></tr><tr><td>شرط</td><td>if, unless, as long as, in case</td></tr><tr><td>هدف</td><td>so that (+ modal)</td></tr><tr><td>نتیجه</td><td>so… that / such… that</td></tr></tbody></table></div>
+<ul><li>برای علت در Writing، <strong>because</strong> امن‌تر است (since/as دوپهلو: زمان یا علت).</li><li><strong>while/whereas برای مقایسه — طلای Task 1:</strong> <code dir="ltr">While sales rose in Europe, they fell in Asia.</code></li><li><code dir="ltr">so + صفت + that</code> / <code dir="ltr">such + (a) + اسم + that</code>: <code dir="ltr">so cold that…</code> / <code dir="ltr">such a cold day that…</code></li><li class="trap"><code dir="ltr">so that</code> فاعل و modal می‌خواهد: <span class="no">❌</span> <code dir="ltr">so that pass</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">so that he could pass</code></li></ul>
+<h3>although / despite / however — سه دسته‌ی متفاوت (پرتکرارترین خطای انسجام)</h3>
+<pre class="example">Although + جمله‌ی کامل        Although it was raining, we went out.
+Despite + اسم / V-ing         Despite the rain, we went out. / Despite being tired…
+                              (❌ despite of وجود ندارد — یا despite یا in spite of)
+جمله. However, جمله           It was raining. However, we went out.
+جمله; however, جمله           (however قید است، دو جمله را با کاما نمی‌چسباند)</pre>
+<h3>⚠️ یک رابطه، یک نشانه (تله‌ی فارسی)</h3>
+<p>فارسی «اگرچه… ولی…» و «چون… بنابراین…» درست‌اند؛ انگلیسی ممنوع:</p>
+<pre class="example">❌ Although it was raining, but we went out.   ✅ Although…, we went out. / …, but we went out.
+❌ Because he was late, so we left.            ✅ Because…, we left. / …, so we left.</pre>
+<h3>نقطه‌گذاری</h3>
+<ul><li>بند وابسته اول <span class="arrow">→</span> کاما؛ بعد <span class="arrow">→</span> معمولاً بدون کاما.</li><li class="trap"><strong>comma splice:</strong> دو جمله‌ی مستقل با کامای خالی نمی‌چسبند <span class="no">❌</span> <code dir="ltr">It was raining, we stayed home.</code></li></ul>
+<p>  چهار راه‌حل: نقطه / نقطه‌ویرگول / <code dir="ltr">, so</code> (FANBOYS: for, and, nor, but, or, yet, so) / وابسته‌ساز (Because…).</p>
+<ul><li>نقطه‌ویرگول: دو جمله‌ی مرتبط، یا قبل از قید ربطی (<code dir="ltr">; however,</code>). یکی دو تا در مقاله کافی است.</li></ul>
+<hr>
+<h2 id="complex-s5"><a class="anchor" href="#complex-s5" aria-label="پیوند">#</a>۵. کاهش بند قیدی (participle) — یک قاعده برای همه</h2>
+<p><strong>فاعل دو بند یکی باشد <span class="arrow">→</span> فاعل بند وابسته را حذف کن، فعل را participle کن:</strong></p>
+<pre class="example">V-ing             معلوم، همزمان:      Walking home, I met an old friend.
+Having + V3       معلوم، قبل‌تر:       Having finished the report, she went home.
+V3                مجهول:              Written in 1920, the book still feels modern.
+Not + V-ing       منفی:               Not being aware of the risk, he continued.</pre>
+<h3>کاربرد طلایی — نتیجه در انتهای جمله (Task 1 و 2)</h3>
+<pre class="example">جمله‌ی اصلی + کاما + V-ing:
+The economy grew rapidly, creating thousands of new jobs.
+Sales peaked in 2010, reaching almost 40 percent.</pre>
+<p>چهار فعل پرکاربرد: <code dir="ltr">…, resulting in + اسم</code> / <code dir="ltr">…, leading to + اسم</code> / <code dir="ltr">…, causing + اسم</code> / <code dir="ltr">…, accounting for + درصد</code> (Task 1)</p>
+<h3>participle آویزان</h3>
+<p>فاعل حذف‌شده باید همان فاعل بند اصلی باشد:<br><span class="no">❌</span> <code dir="ltr">Having finished the report, the printer broke down.</code> (پرینتر گزارش را تمام کرد!)<br>تست: بعد از participle بپرس «چه کسی این کار را می‌کرد؟» — جواب باید فاعل بند اصلی باشد.</p>
+<hr>
+<h2 id="complex-s6"><a class="anchor" href="#complex-s6" aria-label="پیوند">#</a>۶. تأکید (کم‌مصرف — حداکثر یکی در مقاله، در Speaking نه)</h2>
+<h3>Inversion — عبارت منفی/محدودکننده اول جمله <span class="arrow">→</span> ترتیب سؤالی</h3>
+<pre class="example">Never had I seen such a thing.
+Not only does it save money, but it also saves time.   ← فقط بند اول inversion
+Only after the meeting did I realise the problem.
+Under no circumstances should you share your password.</pre>
+<p>مفیدترینش برای IELTS: <strong>Not only… but also…</strong></p>
+<h3>Cleft — امن‌تر از inversion</h3>
+<pre class="example">it-cleft:  It was John who broke the window.
+wh-cleft:  What we need is more investment in education.   ← اگر فقط یکی برداری، این
+هم‌خانواده: The reason why… is that… / The main problem is that… / All we need is…</pre>
+<hr>
+<h2 id="complex-s7"><a class="anchor" href="#complex-s7" aria-label="پیوند">#</a>۷. استراتژی IELTS</h2>
+<p>ده جمله‌ی ساده‌ی درست (~۶.۵) بهتر از ده جمله‌ی پیچیده‌ی نصفه‌غلط (~۵.۵) است.<br><strong>پیشنهاد سه ساختار برای بی‌خطا کردن:</strong> بند موصولی، بند وجهی نتیجه‌ای (<code dir="ltr">…, leading to…</code>)، <code dir="ltr">It is… that…</code>.</p>
+<ul><li><strong>Task 1:</strong> <code dir="ltr">which</code> برای جزئیات، <code dir="ltr">…, reaching…</code> برای درصد، <code dir="ltr">while/whereas</code> برای مقایسه، <code dir="ltr">accounting for</code></li><li><strong>Task 2:</strong> non-defining برای توضیح، <code dir="ltr">which</code> ارجاع به کل جمله، <code dir="ltr">the extent to which</code> برای سؤال‌های to what extent</li><li><strong>Speaking:</strong> بند موصولی طبیعی‌ترین راه گسترش جواب (<code dir="ltr">I have a friend who works in that field…</code>)؛ خطر اصلی Part 3 = سؤال درون‌نشانده؛ inversion/cleft در گفتار نه.</li></ul>
+<hr>
+<h2 id="complex-s8"><a class="anchor" href="#complex-s8" aria-label="پیوند">#</a>۸. چک‌لیست خطاها (اگر وقت فقط سه‌تا: ۱، ۲، ۴)</h2>
+<ol start="1"><li>ضمیر تکراری بعد از موصولی نگذاشتم؟ (him/it/his)</li><li>although+but و because+so با هم نیامده؟</li><li class="trap">despite بعدش اسم است نه جمله؟ (despite of <span class="no">❌</span>)</li><li>however با نقطه/نقطه‌ویرگول آمده نه کاما؟</li><li>در non-defining، that نگذاشتم؟ کاماهای دو طرف هست؟</li><li>سؤال درون‌نشانده ترتیب خبری دارد؟</li><li>بند وابسته را جمله‌ی مستقل رها نکرده‌ام؟</li><li>comma splice ندارم؟</li><li>فاعل participle = فاعل بند اصلی؟</li><li>حرف اضافه دو بار نیامده؟ (in which… in)</li><li>بعد از حرف اضافه that-clause نگذاشتم؟</li><li>said me / told that ننوشتم؟</li></ol>
+<nav class="pager">
+<a href="#g-patterns"><small>قبلی</small>الگوی فعل و وجه</a>
+<a class="next" href="#g-noun"><small>بعدی</small>گروه اسمی</a>
+</nav>
+</section>
+<section class="guide" id="g-noun">
+<header class="guide-head"><span class="kicker">راهنمای ۵ از ۹</span>
+<h1>خلاصه‌ی کاربردی گروه اسمی</h1><p>درخت تصمیم a/an/the، شمارش‌پذیری، کمّی‌سازها و موافقت فعل و فاعل</p></header>
+<blockquote>نسخه‌ی فشرده‌ی <code dir="ltr">noun-phrase-guide.md</code> — article، شمارش، مقدارنما، مطابقت فعل. این حوزه با «فهمیدن» حل نمی‌شود؛ عادتِ توجه می‌خواهد: قبل از هر اسم، نیم‌ثانیه مکث کن.</blockquote>
+<hr>
+<h2 id="noun-s1"><a class="anchor" href="#noun-s1" aria-label="پیوند">#</a>۱. دو سؤال اجباری قبل از هر اسم</h2>
+<ol start="1"><li>شمارا است یا ناشمارا؟</li><li>آیا <strong>شنونده</strong> می‌تواند تشخیص دهد کدام را می‌گویم؟</li></ol>
+<p><strong>the یعنی «قابل تشخیص برای شنونده»، نه «مشخص برای من».</strong><br><code dir="ltr">I'm looking for a book my friend recommended.</code> — برای من مشخص است، ولی تو نمی‌دانی کدام <span class="arrow">→</span> a.<br><code dir="ltr">Close the door.</code> — هر دو می‌دانیم کدام <span class="arrow">→</span> the.</p>
+<p>خطای شماره‌یک فارسی‌زبان‌ها: <strong>افراط در the</strong> روی مفاهیم کلی:<br><span class="no">❌</span> <code dir="ltr">The technology has changed the society.</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">Technology has changed society.</code></p>
+<h2 id="noun-s2"><a class="anchor" href="#noun-s2" aria-label="پیوند">#</a>۲. درخت تصمیم article (کل سیستم)</h2>
+<pre class="example">شنونده می‌تواند تشخیص دهد کدام؟
+├── بله → the   (مفرد/جمع/ناشمارا — فرقی ندارد)
+└── نه
+    ├── شمارا مفرد → a/an   ← اجباری، هرگز خالی
+    ├── شمارا جمع  → ∅ / some
+    └── ناشمارا    → ∅ / some</pre>
+<p><strong>محکم‌ترین قاعده:</strong> اسم شمارای مفرد هرگز بدون determiner نمی‌آید. <span class="no">❌</span> <code dir="ltr">I am student</code> / <code dir="ltr">He bought car</code>.</p>
+<h3>چهار منبع «قابل تشخیص بودن»</h3>
+<ol start="1"><li>قبلاً گفته شده: <code dir="ltr">I saw a dog. The dog was barking.</code> (حتی پیوندی: <code dir="ltr">I bought a car. The engine…</code>)</li><li>در موقعیت حاضر: <code dir="ltr">Pass me the salt.</code></li><li>خود جمله محدودش کرده: <code dir="ltr">the capital of France</code> / <code dir="ltr">the impact of technology on education</code> — ولی فقط اگر واقعاً یکتا کند: <code dir="ltr">a friend of mine</code> <span class="yes">✅</span> (چندتا دوست دارم)</li><li>یکتای دنیای مشترک: <code dir="ltr">the sun, the internet, the government, the economy, the environment, the media, the police</code></li></ol>
+<p>⚠️ مرز خطر — نهاد/سیستمِ منفرد the می‌گیرد، <strong>مفهوم کلی</strong> نه:</p>
+<div class="tbl"><table><thead><tr><th>با the <span class="yes">✅</span></th><th>بدون the <span class="yes">✅</span></th></tr></thead><tbody><tr><td>the environment</td><td>nature</td></tr><tr><td>the government</td><td>society</td></tr><tr><td>the economy</td><td>education</td></tr><tr><td>the internet</td><td>technology</td></tr><tr><td>the media</td><td>information</td></tr></tbody></table></div>
+<h3>a یا an — صدا، نه حرف</h3>
+<p><code dir="ltr">a university, a European, a one-way street</code> (صدای y/w) — <code dir="ltr">an hour, an honest man, an MBA, an X-ray</code> (صدای مصوت). اختصارها را با نام حروف بخوان.</p>
+<h2 id="noun-s3"><a class="anchor" href="#noun-s3" aria-label="پیوند">#</a>۳. کلیت — پیش‌فرض IELTS: جمعِ بدون article</h2>
+<pre class="example">Computers have changed our lives.     ← پیش‌فرض تو، تقریباً هرگز غلط نیست
+A computer is a machine that…         ← تعریف‌گونه
+The computer has changed our lives.   ← رسمی/علمی (اختراعات، اندام‌ها، سازها)</pre>
+<p><span class="no">❌</span> <code dir="ltr">The children should learn the foreign languages.</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">Children should learn foreign languages.</code><br>the + مفرد استاندارد: <code dir="ltr">the telephone</code> (اختراع)، <code dir="ltr">the heart</code> (اندام)، <code dir="ltr">play the piano</code> (ساز). شک داری <span class="arrow">→</span> جمع.</p>
+<h2 id="noun-s4"><a class="anchor" href="#noun-s4" aria-label="پیوند">#</a>۴. article صفر — کارکرد در برابر مکان/شیء</h2>
+<pre class="example">go to school (درس خواندن) ≠ go to the school (ساختمان)
+go to bed (خوابیدن) / be at work / be at university (دانشجو بودن)
+by car/bus/train/email   ولی: on foot / in my car
+at night, at noon, at home   ولی: in the morning/afternoon/evening ⚠️ (حفظی)
+have breakfast / after lunch
+speak English, study physics, play football
+Life is short. / Books are expensive.</pre>
+<h3>the با اسم خاص — منطق: جمع است یا هسته‌ی عام دارد</h3>
+<p><strong>با the:</strong> the Netherlands, the UK, the Alps, the Caspian Sea, the Nile, the Sahara, the Middle East, the BBC, the UN, the Guardian, the Smiths<br><strong>بدون the:</strong> Iran, Europe, Tehran, Mount Everest, Lake Victoria, Oxford Street, Heathrow Airport, Oxford University (ولی <code dir="ltr">the University of Oxford</code>)</p>
+<h3>the + صفت = گروه انسانی (فعل جمع) — طلای Task 2</h3>
+<p><code dir="ltr">the poor, the rich, the elderly, the young, the unemployed, the homeless, the disabled</code><br><code dir="ltr">The unemployed need support.</code> <span class="yes">✅</span> — <span class="no">❌</span> <code dir="ltr">the elderlies</code> / <code dir="ltr">the elderly is</code></p>
+<h3>یک جایگاه، یک determiner</h3>
+<p><span class="no">❌</span> <code dir="ltr">the my book</code> / <code dir="ltr">a my friend</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">my book</code> / <code dir="ltr">a friend of mine</code><br>ترتیب: determiner + صفت + اسم؛ استثنا: <code dir="ltr">such a good idea</code> / <code dir="ltr">quite a long time</code> / <code dir="ltr">What a surprise!</code></p>
+<hr>
+<h2 id="noun-s5"><a class="anchor" href="#noun-s5" aria-label="پیوند">#</a>۵. شمارا و ناشمارا — بسته‌بندی زبانی، نه ماهیت شیء</h2>
+<p>تست: می‌توانی مستقیم جلویش عدد بگذاری؟ <code dir="ltr">three books</code> <span class="yes">✅</span> / <code dir="ltr">three advices</code> <span class="no">❌</span><br>یک خطای شمارش، چهار خطا تولید می‌کند: a/s غلط + فعل غلط + مقدارنمای غلط.</p>
+<h3>ناشماراهای پرخطر (فارسی جمع می‌بنددشان!)</h3>
+<pre class="example">information, advice, knowledge, research, evidence, progress, feedback,
+access, behaviour, pollution, training, homework, news
+furniture, equipment, luggage, baggage, machinery, traffic, money,
+clothing, accommodation, rubbish</pre>
+<p><span class="no">❌</span> <code dir="ltr">informations are</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">information is</code><br>شمردن: <code dir="ltr">a piece of advice/information/news/furniture</code> — ولی اغلب <code dir="ltr">some advice</code> طبیعی‌تر است.</p>
+<p><strong>رشته‌های -s دار، فعل مفرد:</strong> physics, mathematics, economics, politics, statistics (رشته). <code dir="ltr">Economics is difficult.</code><br><strong>فقط جمع:</strong> trousers, jeans, glasses, scissors, clothes, goods, savings, belongings <span class="arrow">→</span> <code dir="ltr">My jeans are new.</code> / <code dir="ltr">a pair of jeans</code></p>
+<h3>اسم‌های دوچهره (ناشمارا = مفهوم / شمارا = یک نمونه)</h3>
+<div class="tbl"><table><thead><tr><th>کلمه</th><th>ناشمارا</th><th>شمارا</th></tr></thead><tbody><tr><td>experience</td><td>تجربه‌ی کاری</td><td>یک ماجرا (<code dir="ltr">a strange experience</code>)</td></tr><tr><td>paper</td><td>کاغذ</td><td>مقاله/روزنامه</td></tr><tr><td>time</td><td>زمان</td><td>دفعه (<code dir="ltr">three times</code>)</td></tr><tr><td>work</td><td>کار</td><td>اثر هنری</td></tr><tr><td>room</td><td>فضا، جا</td><td>اتاق</td></tr><tr><td>glass / hair / chicken</td><td>شیشه / موها / گوشت مرغ</td><td>لیوان / تار مو / مرغ زنده</td></tr></tbody></table></div>
+<p><code dir="ltr">suggestion</code> شمارا ولی <code dir="ltr">advice</code> ناشمارا؛ <code dir="ltr">a journey</code> <span class="yes">✅</span> ولی <code dir="ltr">travel</code> ناشمارا (<span class="no">❌</span> a travel).</p>
+<hr>
+<h2 id="noun-s6"><a class="anchor" href="#noun-s6" aria-label="پیوند">#</a>۶. مقدارنماها</h2>
+<div class="tbl"><table><thead><tr><th>مقدار</th><th>فقط شمارا</th><th>فقط ناشمارا</th><th>هر دو</th></tr></thead><tbody><tr><td>زیاد</td><td>many</td><td>much</td><td>a lot of, plenty of</td></tr><tr><td>کم — مثبت</td><td>a few</td><td>a little</td><td>—</td></tr><tr><td>کم — منفی</td><td>few</td><td>little</td><td>—</td></tr><tr><td>مقداری</td><td>—</td><td>—</td><td>some, any</td></tr><tr><td>بیشتر/همه/کافی</td><td>—</td><td>—</td><td>most, all, enough</td></tr><tr><td>هر / چند</td><td>every, each / several, a number of</td><td>—</td><td>—</td></tr></tbody></table></div>
+<ul><li class="trap"><strong>much در مثبت غیرطبیعی است:</strong> <span class="no">❌</span> <code dir="ltr">I have much money</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">a lot of money</code>. در منفی/سؤالی/با too-so طبیعی است. many در مثبت عادی است (<code dir="ltr">Many people believe…</code> <span class="yes">✅</span>).</li><li><strong>some/any:</strong> some = وجودش را فرض می‌گیرم (<code dir="ltr">Would you like some tea?</code> تعارف)؛ any = باز می‌گذارم (<code dir="ltr">Do you have any questions?</code>)؛ any در مثبت = «هر» (<code dir="ltr">Any student can apply</code>).</li><li><strong>few/a few — نگرش، نه مقدار:</strong> <code dir="ltr">a few friends</code> = چندتا دارم، خوب است / <code dir="ltr">few friends</code> = تقریباً هیچ، تنهایم. همین برای little/a little. شک داری <span class="arrow">→</span> a few. <code dir="ltr">Few people realise…</code> رسمی و قوی است اگر واقعاً منفی منظورت باشد.</li></ul>
+<h3>قاعده‌ی of</h3>
+<p><strong>of فقط قبل از گروه از پیش محدودشده (the/my/these/us/them):</strong></p>
+<pre class="example">most people ✅        most of the people in my city ✅
+❌ most of people     all students / all of them</pre>
+<ul><li class="trap"><code dir="ltr">none of</code> همیشه of دارد: <code dir="ltr">No students came</code> / <code dir="ltr">None of the students came</code> (<span class="no">❌</span> None students)</li><li><code dir="ltr">most</code> (اکثر) ≠ <code dir="ltr">the most</code> (صفت عالی)</li></ul>
+<h3>amount / number / less / fewer</h3>
+<pre class="example">the amount of + ناشمارا      the number of + جمع
+less + ناشمارا               fewer + جمع</pre>
+<p><span class="no">❌</span> <code dir="ltr">the amount of people</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">the number of people</code><br><span class="no">❌</span> <code dir="ltr">less people</code> (محاوره) <span class="arrow">→</span> در Writing <span class="yes">✅</span> <code dir="ltr">fewer people</code></p>
+<p><strong>مطابقت:</strong> <code dir="ltr">The number of students has increased</code> (هسته number <span class="arrow">→</span> مفرد) / <code dir="ltr">A number of students have complained</code> (= several <span class="arrow">→</span> جمع).</p>
+<p><strong>زبان مقدار Task 1:</strong> <code dir="ltr">the majority of</code> / <code dir="ltr">a significant proportion of</code> / <code dir="ltr">a small minority of</code> / <code dir="ltr">roughly one in three</code> / <code dir="ltr">approximately a quarter of</code> / <code dir="ltr">just over/under half of</code></p>
+<hr>
+<h2 id="noun-s7"><a class="anchor" href="#noun-s7" aria-label="پیوند">#</a>۷. مطابقت فعل و فاعل</h2>
+<p><strong>قاعده‌ی مولد: فعل با هسته‌ی گروه اسمی مطابقت می‌کند، نه نزدیک‌ترین اسم.</strong><br>توضیح of را بپوشان، بعد فعل را انتخاب کن:</p>
+<pre class="example">The impact of these changes IS significant.   (هسته = impact)
+The quality of the products HAS declined.</pre>
+<div class="tbl"><table><thead><tr><th>مورد</th><th>فعل</th></tr></thead><tbody><tr><td>everyone / everybody / each / every / neither / either</td><td>مفرد (<code dir="ltr">Everyone is here</code> — ولی ضمیر ارجاعی‌شان they: <code dir="ltr">Everyone should bring their laptop</code> <span class="yes">✅</span>)</td></tr><tr><td>ناشمارا (information, research, news, equipment)</td><td>مفرد</td></tr><tr><td>police / staff / people</td><td>همیشه جمع (<code dir="ltr">The police are investigating</code>)</td></tr><tr><td>اسم جمعی (team, family)</td><td>مفرد یا جمع — یکی را انتخاب کن و ثابت بمان</td></tr><tr><td>data</td><td>show/shows هر دو قبول — ثابت بمان</td></tr><tr><td>there is/are</td><td>با اسم بعدش؛ در فهرست با اولین مورد</td></tr></tbody></table></div>
+<h3>⚠️ تله‌ی فارسی: فاعل جمعِ بی‌جان</h3>
+<p>فارسی «قیمت‌ها بالا رفته <strong>است</strong>» درست است؛ انگلیسی نه:<br><span class="no">❌</span> <code dir="ltr">Prices has increased</code> / <code dir="ltr">The books is on the table</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">Prices have increased</code> / <code dir="ltr">The books are…</code><br>گوش فارسی‌ات این خطا را تأیید می‌کند — بررسی آگاهانه لازم دارد.</p>
+<hr>
+<h2 id="noun-s8"><a class="anchor" href="#noun-s8" aria-label="پیوند">#</a>۸. در IELTS</h2>
+<p><strong>Task 1:</strong> <code dir="ltr">The chart shows the percentage of households that owned a car.</code> — هر جمله چند تصمیم article دارد. عبارت‌های ثابت: <code dir="ltr">the number of + جمع</code> / <code dir="ltr">the amount of + ناشمارا</code> / <code dir="ltr">the figure for…</code> / <code dir="ltr">the highest</code> (بعد از صفت عالی همیشه the) / <code dir="ltr">in 2010</code> (سال بدون article).</p>
+<p><strong>Task 2 — سه قاعده‌ی پربازده:</strong></p>
+<ol start="1"><li>کلیت = جمع بدون article: <code dir="ltr">Governments should invest in renewable energy.</code></li><li>این‌ها بدون theاند: <code dir="ltr">in society</code> / <code dir="ltr">in modern society</code> / <code dir="ltr">in nature</code> / <code dir="ltr">throughout history</code> / <code dir="ltr">society today</code> / <code dir="ltr">modern life</code></li><li>the + صفت برای گروه‌ها: <code dir="ltr">the elderly, the unemployed, the disadvantaged</code></li></ol>
+<p><strong>همیشه با the:</strong> <code dir="ltr">on the one hand / on the other hand</code> / <code dir="ltr">in the long run</code> / <code dir="ltr">in the short term</code> / <code dir="ltr">to a certain extent</code> / <code dir="ltr">the vast majority</code> / <code dir="ltr">in the past/future</code> / <code dir="ltr">at the moment</code> / <code dir="ltr">play a role in</code> / <code dir="ltr">have an impact on</code> / <code dir="ltr">as a result</code></p>
+<p><strong>Speaking:</strong> <code dir="ltr">I'm a teacher</code> / <code dir="ltr">She's an engineer</code> را خودکار کن؛ Part 2: اولین بار a، بعد the.</p>
+<hr>
+<h2 id="noun-s9"><a class="anchor" href="#noun-s9" aria-label="پیوند">#</a>۹. چک‌لیست خطاها (اگر وقت فقط سه‌تا: ۱، ۴، ۷)</h2>
+<ol start="1"><li>اسم شمارای مفرد بدون determiner نمانده؟</li><li>بعد از عدد اسم جمع بسته شده؟ (five books نه five book)</li><li>information/advice/research/equipment جمع نبسته‌ام؟</li><li>جای کلیت، the را برداشته‌ام؟</li><li>society/nature/technology بدون the؟</li><li>the my / a my نیست؟</li><li>فعل با هسته مطابقت دارد نه اسم داخل of؟</li><li>فاعل جمع بی‌جان فعل جمع گرفته؟</li><li>most of the (نه most of)؟</li><li>amount ناشمارا / number جمع؟</li><li>fewer برای جمع نه less؟</li><li>a/an با صدا نه حرف؟</li></ol>
+<nav class="pager">
+<a href="#g-complex"><small>قبلی</small>جمله‌های مرکب</a>
+<a class="next" href="#g-comparison"><small>بعدی</small>مقایسه و ترتیب</a>
+</nav>
+</section>
+<section class="guide" id="g-comparison">
+<header class="guide-head"><span class="kicker">راهنمای ۶ از ۹</span>
+<h1>خلاصه‌ی کاربردی مقایسه، ترتیب و صرفه‌جویی</h1><p>تفضیلی و عالی، that of، جای قید، it/there، حذف و جانشینی</p></header>
+<blockquote>نسخه‌ی فشرده‌ی <code dir="ltr">comparison-order-economy-guide.md</code> — مقایسه، جای قید/صفت، فاعل صوری، جانشینی و حذف، سؤال، واژه‌سازی. نخ مشترک: در انگلیسی <strong>جایگاه معنا حمل می‌کند</strong> (فارسی با «را» و شناسه آزادتر است). بیشتر این جزوه مکانیکی است و سریع خودکار می‌شود.</blockquote>
+<hr>
+<h2 id="comparison-s1"><a class="anchor" href="#comparison-s1" aria-label="پیوند">#</a>۱. مقایسه — سه قالب</h2>
+<pre class="example">برابری:  as + صفت + as          Tehran is as crowded as Cairo.
+برتری:   صفت‌تر + than           more crowded than Isfahan
+عالی:    the + صفت عالی          the most crowded city in Iran
+منفی:    not as … as / less … than</pre>
+<ul><li class="trap"><span class="no">❌</span> <code dir="ltr">more crowded from/that</code> <span class="arrow">→</span> <span class="yes">✅</span> <strong>than</strong> (فارسی «از» ذهن را به from می‌برد)</li><li class="trap"><span class="no">❌</span> نشانه‌گذاری مضاعف: <code dir="ltr">more better</code> / <code dir="ltr">most fastest</code> <span class="arrow">→</span> یک درجه، یک نشانه</li></ul>
+<h3>-er یا more (بر اساس هجا)</h3>
+<pre class="example">یک هجا → -er (bigger)      دو هجا با -y → -ier (easier)
+دو هجای دیگر و سه+ → more (more careful, more important)</pre>
+<p>شک داری <span class="arrow">→</span> more امن‌تر است.<br>بی‌قاعده: good/better/best، bad/worse/worst، far/further/furthest، little/less/least، many-much/more/most.<br><code dir="ltr">different from</code> استاندارد (نه than).</p>
+<h3>تشدید مقایسه (طلای Task 1)</h3>
+<pre class="example">خیلی بیشتر: much / far / significantly / considerably / substantially + تفضیلی
+کمی بیشتر:  slightly / marginally / somewhat / a bit + تفضیلی
+عالی:       by far the largest / easily the most popular</pre>
+<p><span class="no">❌</span> <code dir="ltr">very higher</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">much higher</code> (very فقط با صفت ساده: very high)<br>عبارت‌های آماده: <code dir="ltr">significantly higher than</code> / <code dir="ltr">slightly above/below</code> / <code dir="ltr">roughly the same as</code> / <code dir="ltr">compared with</code></p>
+<h3>چندبرابری و that of</h3>
+<pre class="example">twice as large as / three times as high as / half as … as
+❌ twice higher than → ✅ twice as high as</pre>
+<p><strong>هم‌جنس‌ها را مقایسه کن:</strong><br><span class="no">❌</span> <code dir="ltr">The population of China is larger than India.</code> (جمعیت با کشور!)<br><span class="yes">✅</span> <code dir="ltr">…larger than that of India.</code> — مفرد: <strong>that of</strong> / جمع: <strong>those of</strong> (<code dir="ltr">Sales in Europe exceeded those in Asia</code>)</p>
+<h3>صفت عالی</h3>
+<ul><li class="trap">همیشه <strong>the</strong>: <span class="no">❌</span> <code dir="ltr">Tehran is largest city</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">the largest city</code></li><li>حرف اضافه: <code dir="ltr">in + مکان/گروه</code> (the largest city in Europe) / <code dir="ltr">of + مجموعه</code> (the best of the three)</li><li>رتبه‌ها: <code dir="ltr">the second largest</code> / <code dir="ltr">the third most popular</code></li><li class="trap">⚠️ <strong>one of the + عالی + جمع:</strong> <span class="no">❌</span> <code dir="ltr">one of the most important factor</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">factors</code></li></ul>
+<h3>الگوهای موازی</h3>
+<ul><li><code dir="ltr">The more you practise, the better you become.</code> (کاما بین دو بخش)</li><li>روند: <code dir="ltr">harder and harder</code> / <code dir="ltr">more and more crowded</code></li><li><code dir="ltr">as quickly as possible</code></li></ul>
+<hr>
+<h2 id="comparison-s2"><a class="anchor" href="#comparison-s2" aria-label="پیوند">#</a>۲. ترتیب</h2>
+<h3>فعل و مفعول را جدا نکن (خطای امضادار فارسی‌زبان‌ها)</h3>
+<p><span class="no">❌</span> <code dir="ltr">I like very much this book</code> / <code dir="ltr">He speaks fluently English</code><br><span class="yes">✅</span> <code dir="ltr">I like this book very much</code> / <code dir="ltr">He speaks English fluently</code><br>قید یا قبل از فعل یا بعد از مفعول — هرگز بینشان.</p>
+<h3>جای قید</h3>
+<div class="tbl"><table><thead><tr><th>نوع</th><th>جایگاه</th></tr></thead><tbody><tr><td>تکرار (always, usually, never, still)</td><td><strong>بعد از be</strong> / <strong>قبل از فعل اصلی</strong> / <strong>بعد از اولین کمکی</strong>: <code dir="ltr">He is always late</code> / <code dir="ltr">He always arrives late</code> / <code dir="ltr">He has always been late</code></td></tr><tr><td>حالت (carefully, well, fluently)</td><td>آخر جمله</td></tr><tr><td>نظر/ربط (However, Therefore, Clearly)</td><td>اول، با کاما</td></tr><tr><td>زمان (yesterday)</td><td>آخر یا اول</td></tr></tbody></table></div>
+<p><span class="no">❌</span> <code dir="ltr">He always is late</code> / <code dir="ltr">I go always to the gym</code> / <code dir="ltr">She has been always kind</code></p>
+<h3>انتهای جمله: روش ← مکان ← زمان</h3>
+<p><code dir="ltr">He worked quietly in the office yesterday.</code><br>با فعل حرکتی مکان اول: <code dir="ltr">They travelled to Paris by train last week.</code><br>جمله سنگین شد؟ زمان را ببر اول: <code dir="ltr">During the 1990s, sales increased sharply…</code></p>
+<h3>ترتیب صفت‌ها</h3>
+<p>نظر <span class="arrow">→</span> اندازه <span class="arrow">→</span> سن <span class="arrow">→</span> شکل <span class="arrow">→</span> رنگ <span class="arrow">→</span> منشأ <span class="arrow">→</span> جنس <span class="arrow">→</span> کاربرد<br>در عمل دو قاعده کافی است: <strong>نظری اول</strong> (<code dir="ltr">a nice old house</code>)، <strong>اندازه قبل از رنگ</strong> (<code dir="ltr">a big red car</code>). بیش از سه صفت ناجور است — با which بشکنش.</p>
+<h3>مفعول غیرمستقیم</h3>
+<pre class="example">give/send/tell/show/offer/lend/teach/buy/bring:
+   He gave me the book. = He gave the book to me.
+ولی این‌ها فقط الگوی دوم (افعال انتقال اطلاعات):
+   explain, describe, suggest, mention, say, announce, introduce, report</pre>
+<p><span class="no">❌</span> <code dir="ltr">He explained me the rules</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">explained the rules to me</code><br><span class="no">❌</span> <code dir="ltr">She suggested me a solution</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">suggested a solution to me</code></p>
+<hr>
+<h2 id="comparison-s3"><a class="anchor" href="#comparison-s3" aria-label="پیوند">#</a>۳. فاعل صوری — هر بند فاعل می‌خواهد</h2>
+<p>فارسی فاعل را حذف می‌کند («رفتم»)؛ انگلیسی نه: <span class="no">❌</span> <code dir="ltr">Went.</code> / <span class="no">❌</span> <code dir="ltr">Is raining.</code><br>جایی که فاعل معنایی نیست، placeholder بگذار: <strong>it / there</strong>.</p>
+<pre class="example">there → معرفی وجود:   There is a park near my house.
+it    → ادامه/اشاره:   It is a very nice park.
+        آب‌وهوا/زمان/فاصله/مدت: It is raining / It is Monday / It takes two hours.
+        جانشین بند:   It is clear that the policy failed.</pre>
+<ul><li>ترتیب طبیعی: اول there معرفی، بعد it ادامه.</li><li class="trap"><span class="no">❌</span> <code dir="ltr">It is a problem in this city</code> (منظور: مشکلی وجود دارد) <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">There is a problem…</code></li><li class="trap"><span class="no">❌</span> <code dir="ltr">In my city there is very crowded</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">My city is very crowded.</code></li><li>there با اسم بعدش مطابقت می‌کند: <code dir="ltr">There is one problem</code> / <code dir="ltr">There are several problems</code></li></ul>
+<h3>it + صفت + for/of + مصدر (پرکاربرد Task 2)</h3>
+<pre class="example">It is difficult for students to find affordable housing.   (صفت درباره‌ی موقعیت → for)
+It was kind of you to help.                                (صفت درباره‌ی شخص → of)</pre>
+<h3>there رسمی‌تر (هم‌زمان hedging)</h3>
+<p><code dir="ltr">There appears/seems to be…</code> / <code dir="ltr">There has been a significant increase in…</code> / <code dir="ltr">There is little evidence that…</code> / <code dir="ltr">There is no doubt that…</code> / <code dir="ltr">There remain several problems.</code></p>
+<hr>
+<h2 id="comparison-s4"><a class="anchor" href="#comparison-s4" aria-label="پیوند">#</a>۴. جانشینی و حذف</h2>
+<p><strong>قاعده‌ی وارونه:</strong> فارسی فاعل را حذف می‌کند و فعل را تکرار؛ انگلیسی فاعل را نگه می‌دارد و فعل را حذف.</p>
+<ul><li class="trap">فاعل را حذف نکن (اجباری): <span class="no">❌</span> <code dir="ltr">When arrived home, was tired</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">When I arrived home, I was tired.</code></li><li>استثنا: هم‌پایگی با فاعل یکسان: <code dir="ltr">He opened the door and walked in.</code> <span class="yes">✅</span></li></ul>
+<h3>جانشین‌ها</h3>
+<pre class="example">one/ones → اسم شمارا:   The blue one. / I need new ones.
+           ❌ The blue. (صفت تنها نمی‌ایستد)
+           ناشمارا: Do you have any? (نه one)
+so/not   → یک بند:      I think so. / I hope not. / I'm afraid not.
+           منفیِ think روی خودش: ✅ I don't think so (❌ I think not)
+do so    → گروه فعلی (رسمی): He was asked to revise it, and he did so.
+that of/those of → در مقایسه (بخش ۱)</pre>
+<h3>حذف با فعل کمکی — کمکی را نگه دار، بقیه را بینداز</h3>
+<pre class="example">موافقت مثبت:  so + کمکی + فاعل       She can swim, and so can I.
+موافقت منفی:  neither/nor + کمکی + فاعل   I don't smoke, and neither does he.
+              (بعد از neither فعل مثبت است — ❌ Neither doesn't he)
+مخالفت:       فاعل + کمکی             I like coffee, but he doesn't.
+جواب کوتاه:   حتماً با کمکی           ✅ Yes, I am. (❌ Yes, I.)</pre>
+<p><strong>too/either:</strong> مثبت <span class="arrow">→</span> too (<code dir="ltr">I like it too</code>) / منفی <span class="arrow">→</span> either (<code dir="ltr">I don't like it either</code> <span class="no">❌</span> too). فارسی «هم» برای هر دو یکی است.</p>
+<hr>
+<h2 id="comparison-s5"><a class="anchor" href="#comparison-s5" aria-label="پیوند">#</a>۵. سؤال</h2>
+<h3>ساختن</h3>
+<p>کمکی جلوی فاعل؛ کمکی نیست <span class="arrow">→</span> do/does/did + فعل ساده:<br><code dir="ltr">Is she working?</code> / <code dir="ltr">Does she work here?</code> (<span class="no">❌</span> works) / <code dir="ltr">Did they arrive?</code> (<span class="no">❌</span> arrived)<br>سؤال از فاعل تغییری نمی‌کند: <code dir="ltr">Who called?</code> / <code dir="ltr">What happened?</code> (<span class="no">❌</span> Who did call)<br>یادآوری: سؤال درون‌نشانده وارونگی را <strong>برمی‌دارد</strong>: <code dir="ltr">I don't know where she is.</code></p>
+<h3>tag question (مکانیکی)</h3>
+<p>مثبت <span class="arrow">→</span> تگ منفی / منفی <span class="arrow">→</span> تگ مثبت؛ کمکی جمله + ضمیر:<br><code dir="ltr">It's cold, isn't it?</code> / <code dir="ltr">You don't smoke, do you?</code> / <code dir="ltr">She called, didn't she?</code><br>خاص: <code dir="ltr">I am late, aren't I?</code> / <code dir="ltr">Let's go, shall we?</code> / <code dir="ltr">Nobody came, did they?</code><br>در Writing جایی ندارد؛ در Speaking فقط اگر طبیعی آمد.</p>
+<h3>⚠️ جواب به سؤال منفی — تله‌ی «چرا»</h3>
+<p>انگلیسی معادل «چرا» ندارد؛ ملاک <strong>واقعیت</strong> است نه شکل سؤال:</p>
+<pre class="example">Aren't you coming?  — می‌آیی؟ → ✅ Yes, I am.   (نه No!)
+                    — نمی‌آیی؟ → No, I'm not.</pre>
+<p>راه امن: همیشه جمله‌ی کوتاه را هم بگو (Yes, I am / No, I'm not).</p>
+<hr>
+<h2 id="comparison-s6"><a class="anchor" href="#comparison-s6" aria-label="پیوند">#</a>۶. واژه‌سازی — کلمه‌ی درست در جایگاه درست</h2>
+<p>هر ریشه چهار شکل دارد؛ جایگاه تعیین می‌کند کدام:</p>
+<pre class="example">فعل        اسم           صفت            قید
+analyse    analysis      analytical     analytically
+succeed    success       successful     successfully
+benefit    benefit       beneficial     beneficially
+—          economy       economic       economically
+compete    competition   competitive    competitively
+differ     difference    different      differently</pre>
+<p><span class="no">❌</span> <code dir="ltr">a benefit policy</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">a beneficial policy</code> / <span class="no">❌</span> <code dir="ltr">the economy situation</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">the economic situation</code> / <span class="no">❌</span> <code dir="ltr">the different between</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">the difference between</code></p>
+<p><strong>تشخیص جایگاه:</strong> بعد از a/the و قبل از اسم <span class="arrow">→</span> صفت؛ بعد از be <span class="arrow">→</span> صفت؛ فاعل/مفعول <span class="arrow">→</span> اسم؛ توصیف فعل <span class="arrow">→</span> قید.</p>
+<p><strong>پسوندها:</strong> اسم: -tion, -ment, -ness, -ity, -ance/-ence, -ship, -ism / صفت: -ful, -less, -able, -ive, -ous, -al, -ic, -ent/-ant / فعل: -ise/-ize, -ify, -en, -ate / قید: -ly<br><strong>پیشوند منفی:</strong> un-, in-, dis-, non-؛ im- قبل از m/p (impossible)، il- قبل از l (illegal)، ir- قبل از r (irrelevant).</p>
+<h3>صفت در برابر قید (ریشه‌ی فارسی: «سریع» هم صفت هم قید)</h3>
+<p><span class="no">❌</span> <code dir="ltr">He speaks English good</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">well</code> / <span class="no">❌</span> <code dir="ltr">She drives very careful</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">carefully</code></p>
+<ul><li>good صفت / well قید (استثنا: سلامتی <span class="arrow">→</span> <code dir="ltr">I don't feel well</code> صفت)</li><li>قیدهای بدون -ly: fast, hard, late, early, high, straight</li><li>⚠️ <strong>جفت‌های وارونه‌ساز:</strong> hard (سخت/زیاد) ≠ hardly (تقریباً هیچ) / late (دیر) ≠ lately (اخیراً) / near ≠ nearly (تقریباً)</li></ul>
+<p>  <code dir="ltr">He works hard</code> (زیاد کار می‌کند) ≠ <code dir="ltr">He hardly works</code> (تقریباً کار نمی‌کند)</p>
+<h3>جفت‌های اشتباه‌انداز</h3>
+<div class="tbl"><table><thead><tr><th>جفت</th><th>تفاوت</th></tr></thead><tbody><tr><td>economic / economical</td><td>اقتصادی / کم‌مصرف، صرفه‌جو</td></tr><tr><td>effective / efficient</td><td>مؤثر (نتیجه می‌دهد) / کارآمد (بدون اتلاف)</td></tr><tr><td>historic / historical</td><td>تاریخ‌ساز / مربوط به تاریخ</td></tr><tr><td>sensible / sensitive</td><td>عاقلانه / حساس</td></tr><tr><td>considerable / considerate</td><td>قابل‌توجه / ملاحظه‌کار</td></tr></tbody></table></div>
+<h3>-ed / -ing (خطای بسیار رایج)</h3>
+<pre class="example">-ed  → احساس خودِ شخص:   I am bored. / I am interested in history.
+-ing → ویژگیِ عامل:       The lecture is boring. / an interesting topic</pre>
+<p><span class="no">❌</span> <code dir="ltr">I am boring</code> (= من آدم کسل‌کننده‌ای‌ام) / <span class="no">❌</span> <code dir="ltr">I am very interesting in history</code></p>
+<hr>
+<h2 id="comparison-s7"><a class="anchor" href="#comparison-s7" aria-label="پیوند">#</a>۷. در IELTS</h2>
+<p><strong>Task 1 (بیشترین بازده):</strong> <code dir="ltr">significantly higher than</code> / <code dir="ltr">twice as high as</code> / <code dir="ltr">by far the largest</code> / <code dir="ltr">the second highest</code> / <code dir="ltr">that of / those of</code> / <code dir="ltr">compared with</code> / <code dir="ltr">There was a marked increase in…</code><br>الگوی آماده: <code dir="ltr">The figure for X was significantly higher than that for Y.</code></p>
+<p><strong>Task 2:</strong> <code dir="ltr">It is difficult for governments to…</code> / <code dir="ltr">There is little evidence that…</code> / <code dir="ltr">The more…, the more…</code> / <code dir="ltr">one of the most significant factors</code> (جمع!) / شکل درست کلمه (economic/effective/beneficial).</p>
+<p><strong>Speaking:</strong> <code dir="ltr">so do I / neither do I</code> (طبیعی و روان) / too-either / جواب سؤال منفی / good-well. تکرار کامل جمله را حذف کن: <span class="yes">✅</span> <code dir="ltr">I like coffee and so does my brother.</code></p>
+<hr>
+<h2 id="comparison-s8"><a class="anchor" href="#comparison-s8" aria-label="پیوند">#</a>۸. چک‌لیست خطاها (اگر وقت فقط سه‌تا: ۱، ۸، ۱۴)</h2>
+<ol start="1"><li>بین فعل و مفعول چیزی نگذاشتم؟</li><li>قید تکرار جای درست؟ (بعد از be، قبل از فعل، بعد از اولین کمکی)</li><li>more better / most fastest ننوشتم؟</li><li>than جا نیفتاده؟ (نه from/that)</li><li>در مقایسه that of / those of گذاشتم؟</li><li>one of the + عالی + جمع؟</li><li>صفت عالی the گرفته؟</li><li>هر بند فاعل دارد؟ (It/There جا نیفتاده؟)</li><li>there is و it is قاطی نشده؟</li><li>explain/describe/suggest + to me؟</li><li>too مثبت / either منفی؟</li><li>good/well و صفت/قید درست؟</li><li>I am bored نه boring؟</li><li>کلمه در جایگاه درست؟ (benefit/beneficial)</li></ol>
+<nav class="pager">
+<a href="#g-noun"><small>قبلی</small>گروه اسمی</a>
+<a class="next" href="#g-prepositions"><small>بعدی</small>حروف اضافه</a>
+</nav>
+</section>
+<section class="guide" id="g-prepositions">
+<header class="guide-head"><span class="kicker">راهنمای ۷ از ۹</span>
+<h1>خلاصه‌ی کاربردی حروف اضافه و افعال عبارتی</h1><p>هندسه‌ی at/on/in، تله‌ی by/until، زبان اعداد در Task 1، فعل‌های عبارتی</p></header>
+<blockquote>نسخه‌ی فشرده‌ی <code dir="ltr">prepositions-and-phrasal-verbs-guide.md</code>. حروف اضافه‌ی <strong>وابسته</strong> (depend on, suffer from) حفظی‌اند — در خلاصه‌ی الگوهای فعل. اینجا حروف اضافه‌ی <strong>معنادار</strong> (مکان/زمان) قاعده دارند: یک هندسه‌ی فضایی.</blockquote>
+<hr>
+<h2 id="prepositions-s1"><a class="anchor" href="#prepositions-s1" aria-label="پیوند">#</a>۱. هندسه‌ی at / on / in — یک تصویر برای همه‌چیز</h2>
+<pre class="example">at → نقطه (بدون بُعد)    on → سطح (دوبعدی)    in → حجم/محدوده (سه‌بعدی)</pre>
+<p><code dir="ltr">at the door</code> (نقطه) / <code dir="ltr">on the door</code> (روی سطحش) / <code dir="ltr">in the door</code> (داخل چارچوب)<br>at اندازه را نادیده می‌گیرد: <code dir="ltr">at the airport</code> (نقطه‌ی قرار) ≠ <code dir="ltr">in the airport</code> (داخل فضایش) — هر دو درست، تصویر متفاوت.</p>
+<p><strong>همان هندسه برای زمان:</strong></p>
+<pre class="example">at → لحظه:   at 5 o'clock, at midnight, at the moment
+on → روز:    on Monday, on 5 May, on my birthday
+in → دوره:   in July, in 2010, in the summer, in the 1990s, in the morning</pre>
+<p><strong>قاعده‌ی عملی: at لحظه‌ها، on روزها/تاریخ‌ها، in هر چیز بلندتر از یک روز.</strong></p>
+<ul><li>بی‌قاعدگی واقعی: <strong>at night</strong> ولی in the morning/afternoon/evening؛ at the weekend (BrE) / on the weekend (AmE)</li><li>روز که مشخص شود on غالب است: <code dir="ltr">in the morning</code> ولی <code dir="ltr">on Monday morning</code></li><li class="trap"><strong>با this/last/next/every حرف اضافه حذف:</strong> <span class="no">❌</span> <code dir="ltr">in this week</code> / <code dir="ltr">on last Monday</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">this week</code> / <code dir="ltr">last Monday</code></li></ul>
+<p><strong>انتزاع (حدس‌زن، نه قطعی):</strong> at war/risk/work — on purpose/time/the phone/holiday — in trouble/love/danger/a hurry/cash.</p>
+<h3>جفت‌های معنا‌عوض‌کن</h3>
+<pre class="example">on time = سر ساعت، دقیقاً موعد      in time = به‌موقع، پیش از دیر شدن
+at the end (of) = پایانِ چیزی       in the end = بالاخره، سرانجام
+at first = در ابتدا (بعد عوض شد)    first = اول، در فهرست
+in the way = سر راه، مزاحم          on the way = در مسیر</pre>
+<h3>⚠️ ریشه‌ی فارسی: «در» سه حرف اضافه را می‌پوشاند</h3>
+<p><code dir="ltr">in</code> پیش‌فرض ذهنی توست و در نصف موارد غلط است. شک کردی بپرس: نقطه است، سطح، یا حجم؟</p>
+<pre class="example">❌ in the station/university/work/the party/the bus stop
+✅ at the station / at university / at work / at the party / at the bus stop</pre>
+<p>خطر دوم: فارسی گاهی اصلاً حرف اضافه نمی‌گذارد («دوشنبه می‌آیم») <span class="arrow">→</span> <span class="no">❌</span> <code dir="ltr">I'll come Monday</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">on Monday</code>.</p>
+<hr>
+<h2 id="prepositions-s2"><a class="anchor" href="#prepositions-s2" aria-label="پیوند">#</a>۲. مکان</h2>
+<pre class="example">in → شهر، کشور، فضای بسته:   in Tehran, in the room, in the car
+at → آدرس، نهاد، نقطه‌ی قرار: at 25 Vali-Asr St, at the station, at home, at work
+on → خیابان، طبقه، ساحل:     on Main Street, on the third floor, on the coast</pre>
+<ul><li>نهاد: <code dir="ltr">at school</code> (کارکرد/دانش‌آموز بودن) ≠ <code dir="ltr">in the school</code> (ساختمان) — همان تمایز article صفر.</li><li class="trap"><strong>وسایل نقلیه:</strong> <code dir="ltr">in a car/taxi</code> (کوچک، بسته) / <code dir="ltr">on a bus/train/plane/ship/bike</code> (می‌توانی رویش راه بروی). <span class="no">❌</span> in the bus.</li><li>in the street (BrE) / on the street (AmE) — هر دو قبول.</li></ul>
+<h3>سکون / حرکت</h3>
+<pre class="example">سکون: at/on/in      حرکت: to/into/onto
+He is in the room → He walked into the room.</pre>
+<ul><li class="trap"><strong>home قید است:</strong> <span class="no">❌</span> <code dir="ltr">go to home</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">go home</code> (ولی at home <span class="yes">✅</span>)</li><li><strong>arrive هرگز to نمی‌گیرد:</strong> <span class="yes">✅</span> <code dir="ltr">arrive at the airport</code> (نقطه) / <code dir="ltr">arrive in Tehran</code> (شهر)</li><li><strong>enter بدون حرف اضافه:</strong> <span class="yes">✅</span> <code dir="ltr">enter the building</code></li><li>to = مقصد / at = هدف‌گیری (اغلب خصمانه): <code dir="ltr">throw the ball to me</code> (بگیرم) ≠ <code dir="ltr">at me</code> (بزندم)؛ <code dir="ltr">shout to</code> (صدایش کردم) ≠ <code dir="ltr">shout at</code> (سرش داد زدم)</li></ul>
+<hr>
+<h2 id="prepositions-s3"><a class="anchor" href="#prepositions-s3" aria-label="پیوند">#</a>۳. زمان — چهارتایی و by/until</h2>
+<pre class="example">for    + مدت:        for three hours, for ten years
+since  + نقطه‌ی شروع: since 2010, since Monday, since I arrived  (با حال کامل)
+during + اسم دوره:   during the meeting, during the summer
+while  + جمله:       while I was studying</pre>
+<p>تست: «چقدر؟» <span class="arrow">→</span> for / «از کِی؟» <span class="arrow">→</span> since / اسم دوره؟ <span class="arrow">→</span> during / جمله؟ <span class="arrow">→</span> while<br><span class="no">❌</span> <code dir="ltr">during three hours</code> / <code dir="ltr">since three hours</code> / <code dir="ltr">during I was there</code> / <code dir="ltr">for 2010</code><br><code dir="ltr">throughout the period</code> = از اول تا آخر (مفید Task 1)؛ during = جایی داخلش.</p>
+<h3>⚠️ by / until — تله‌ی «تا» (ریشه‌ی مستقیم فارسی)</h3>
+<p>فارسی هر دو را «تا» می‌گوید:</p>
+<pre class="example">by    → موعد نهایی، عمل یک‌باره:   I'll finish it by Friday.   (تا جمعه تمام شده)
+until → ادامه‌ی پیوسته تا آن لحظه:  I'll stay here until Friday. (تا جمعه می‌مانم)</pre>
+<p>تست: عمل پیوسته است (wait, stay, work, remain) <span class="arrow">→</span> until / یک‌باره (finish, submit, arrive, send) <span class="arrow">→</span> by<br><span class="no">❌</span> <code dir="ltr">submit it until Monday</code> <span class="arrow">→</span> <span class="yes">✅</span> by / <span class="no">❌</span> <code dir="ltr">Wait for me by 5</code> <span class="arrow">→</span> <span class="yes">✅</span> until<br><code dir="ltr">by the time</code> حرف ربط است، جمله می‌گیرد: <code dir="ltr">By the time we arrived, the meeting had started.</code></p>
+<h3>in / within و بازه‌ها</h3>
+<pre class="example">in two hours = بعد از دو ساعت (نه به مدت!)    I'll be ready in ten minutes.
+within two hours = ظرف دو ساعت
+for ten minutes = به مدت ده دقیقه
+from 2000 to 2010 / between 2000 and 2010   (❌ between…to)
+over the period / throughout the period      (Task 1)</pre>
+<hr>
+<h2 id="prepositions-s4"><a class="anchor" href="#prepositions-s4" aria-label="پیوند">#</a>۴. by / with و جفت‌های اشتباه‌انداز</h2>
+<p>فارسی هر دو را «با» می‌گوید:</p>
+<pre class="example">by   → روش/وسیله‌ی کلی/عامل:  by car, by train, by hand, written by Shakespeare
+with → ابزار مشخص در دست:     cut it with a knife, fill it with water</pre>
+<p>تست: جلویش a/the می‌آید؟ <span class="arrow">→</span> with (<code dir="ltr">with a knife</code> <span class="yes">✅</span> / <code dir="ltr">by a car</code> <span class="no">❌</span> به‌عنوان روش).<br>by دیگر: موعد (by Friday)، مقدار تغییر (rose by 20%)، مجاورت (the house by the river).</p>
+<div class="tbl"><table><thead><tr><th>جفت</th><th>تفاوت</th></tr></thead><tbody><tr><td>above / over</td><td>بالاتر بدون تماس / پوشاننده یا عبور از بالا</td></tr><tr><td>below / under</td><td>پایین‌تر / زیر و اغلب پوشیده</td></tr><tr><td>between / among</td><td>بین اعضای مجزا (حتی ۳+ تا: between the four groups <span class="yes">✅</span>) / میان گروه نامتمایز</td></tr><tr><td>beside / besides</td><td>کنارِ / علاوه بر</td></tr><tr><td>across / through</td><td>از این سو به آن سو روی سطح / از داخل چیزی</td></tr></tbody></table></div>
+<p>Task 1: <code dir="ltr">above 50%</code> / <code dir="ltr">fell below 5%</code> / <code dir="ltr">above average</code>.</p>
+<hr>
+<h2 id="prepositions-s5"><a class="anchor" href="#prepositions-s5" aria-label="پیوند">#</a>۵. حروف اضافه‌ی Task 1 (مستقیماً نمره دارد)</h2>
+<pre class="example">by → مقدار تغییر:    Sales rose by 20%.
+to → نقطه‌ی پایانی:   Sales rose to 60 million.
+at → سطح ثابت:       Sales stood at 40 million.</pre>
+<p><span class="yes">✅</span> <code dir="ltr">Sales rose by 20% to reach 60 million.</code> — <span class="no">❌</span> <code dir="ltr">rose to 20%</code> وقتی منظور «۲۰٪ افزایش» است.</p>
+<p>بسته‌ی کامل:</p>
+<pre class="example">rise/increase/grow/fall/decline/drop + by X + to Y
+stand at / remain at / level off at / stabilise at / peak at / reach a peak of / hit a low of
+compared with (رسمی‌تر از compared to) / the figure for X
+an increase of 20% in car ownership   (of = چقدر، in = چه چیزی)
+account for 45% of the total / at a rate of
+in 2010 / from 2000 to 2010 / between…and / over the period / throughout the period</pre>
+<p>سه خطای پرتکرار: <span class="no">❌</span> between…to / <span class="no">❌</span> rose to 20% (به‌جای by) / <span class="no">❌</span> an increase of tourists (<span class="arrow">→</span> in).</p>
+<hr>
+<h2 id="prepositions-s6"><a class="anchor" href="#prepositions-s6" aria-label="پیوند">#</a>۶. افعال عبارتی — چهار نوع ساختاری</h2>
+<p>فعل + ذره؛ معنا اغلب از اجزا قابل حدس نیست (مثل فعل مرکب فارسی: «سر در آوردن» = find out).</p>
+<pre class="example">۱. بدون مفعول:        break down, take off, grow up, come back, turn up
+۲. جداشدنی:           turn off, put off, give up, bring up, point out, carry out, set up
+                      Turn off the light = Turn the light off
+۳. جدانشدنی:          look after, look for, deal with, rely on, consist of, come across
+                      ❌ Look the children after
+۴. سه‌جزئی (جدانشدنی): put up with, look forward to, come up with, get rid of,
+                      run out of, cut down on, catch up on, look down on</pre>
+<h3>تست ضمیر (قاعده‌ی واحد و قابل اتکا)</h3>
+<p><strong>ضمیر مفعولی در جداشدنی حتماً وسط، در جدانشدنی حتماً آخر:</strong></p>
+<pre class="example">✅ Turn it off.      ❌ Turn off it.
+✅ Look after her.   ❌ Look her after.
+✅ put up with it    ❌ put it up with</pre>
+<p>مفعول طولانی حتی در جداشدنی ته جمله می‌آید (سنگین به آخر): <span class="yes">✅</span> <code dir="ltr">Turn off the light in the living room.</code></p>
+<h3>منطق ذره‌ها (حدس‌زن، پوشش کامل ندارد)</h3>
+<pre class="example">up = تکمیل/افزایش (use up, speed up)      down = کاهش/ثبت (cut down, write down)
+out = حذف/آشکار شدن (run out, find out)   off = جدایی/لغو (call off, take off)
+on = ادامه (carry on, keep on)            over = بازبینی/انتقال (think over, take over)
+through = عبور تا انتها (go through)      back = بازگشت/مهار (give back, cut back)</pre>
+<h3>ثبت — سه دسته (قاعده‌ی «همه غیررسمی‌اند» نصفه‌درست است!)</h3>
+<p><strong>دسته ۱ — کاملاً آکادمیک، در Task 2 با خیال راحت:</strong><br><code dir="ltr">carry out (research), point out, bring about, result in, lead to, deal with, focus on, rely on, consist of, take into account, put forward, draw on, account for</code></p>
+<p><strong>دسته ۲ — خنثی؛ در Task 2 معادل رسمی بهتر، در Speaking خودشان:</strong><br>find out<span class="arrow">→</span>discover/determine، cut down on<span class="arrow">→</span>reduce، look into<span class="arrow">→</span>investigate، put off<span class="arrow">→</span>postpone، come up with<span class="arrow">→</span>devise/propose</p>
+<p><strong>دسته ۳ — غیررسمی، در Writing نه:</strong><br>put up with, figure out, sort out, mess up, hang out, get across, get on with</p>
+<p><strong>در Speaking افعال عبارتی امتیاز مستقیم‌اند</strong> (Lexical Resource): <span class="yes">✅</span> <code dir="ltr">I decided to put off my trip</code> طبیعی‌تر از <code dir="ltr">postpone</code> در گفتار. فارسی‌زبان‌ها معمولاً وارونه عمل می‌کنند — وارونه‌اش کن.</p>
+<h3>فهرست پرکاربرد Speaking (ده‌تا را خودکار کن)</h3>
+<pre class="example">grow up (بزرگ شدن)          get along with (کنار آمدن)
+look forward to + V-ing     take up (شروع سرگرمی)
+give up (ترک کردن)          come up with (به ذهن رسیدن)
+find out (فهمیدن)           end up (سر از جایی درآوردن)
+run out of (تمام شدن)       look after (مراقبت کردن)
+turn out (از آب درآمدن)     catch up on (جبران عقب‌ماندگی)</pre>
+<p>یادآوری: <code dir="ltr">look forward to</code> و <code dir="ltr">get used to</code> + <strong>V-ing</strong> (to حرف اضافه است).</p>
+<hr>
+<h2 id="prepositions-s7"><a class="anchor" href="#prepositions-s7" aria-label="پیوند">#</a>۷. چک‌لیست خطاها (اگر وقت فقط سه‌تا: ۱، ۳، ۱۰)</h2>
+<ol start="1"><li>at نقطه / on روز / in دوره؟</li><li>at the station / at university / at home — نه in؟</li><li>by موعد / until ادامه؟</li><li>for مدت / since نقطه‌ی شروع؟</li><li>during + اسم / while + جمله؟</li><li>between…and — نه to؟</li><li>arrive at/in — نه to؟</li><li>go home — بدون to؟</li><li>on the bus / in the car؟</li><li>rose by (مقدار) / rose to (پایانی)؟</li><li>با this/last/next حرف اضافه نگذاشتم؟</li><li>ضمیر در جداشدنی وسط؟ (turn it off)</li><li>فعل عبارتی غیررسمی در Task 2 نیاوردم؟</li><li>beside (کنار) / besides (علاوه بر) قاطی نشده؟</li></ol>
+<nav class="pager">
+<a href="#g-comparison"><small>قبلی</small>مقایسه و ترتیب</a>
+<a class="next" href="#g-reference"><small>بعدی</small>ارجاع و مالکیت</a>
+</nav>
+</section>
+<section class="guide" id="g-reference">
+<header class="guide-head"><span class="kicker">راهنمای ۸ از ۹</span>
+<h1>خلاصه‌ی کاربردی ارجاع و مالکیت</h1><p>ضمیرها و تله‌ی جنسیت، قاعده‌ی 's در برابر of، خانواده‌ی its/it’s، انسجام با this</p></header>
+<blockquote>نسخه‌ی فشرده‌ی <code dir="ltr">reference-and-possession-guide.md</code> — ضمایر، 's/of، ارجاع گفتمانی، ضمیر عام، انسجام. ملاک اینجا «درست بودن» نیست، <strong>قابل‌بازیابی بودن</strong> است: هر ضمیر یک وعده است که خواننده مرجعش را پیدا می‌کند. خطای این حوزه بیشتر به Coherence and Cohesion ضربه می‌زند.</blockquote>
+<hr>
+<h2 id="reference-s1"><a class="anchor" href="#reference-s1" aria-label="پیوند">#</a>۱. محورِ چرخیده — ریشه‌ی تله‌ی شماره‌یک</h2>
+<pre class="example">فارسی:   او (جاندار) / آن (بی‌جان)        ← محور جانداری
+انگلیسی: he / she (جنسیت) / it (غیرانسان)  ← محور جنسیت + جانداری</pre>
+<p>تمایزی که داری (جاندار/بی‌جان) مشکلی نمی‌سازد؛ تمایزی که <strong>نداری</strong> (مرد/زن) اجباری است.<br><span class="no">❌</span> <code dir="ltr">My sister called me. He said…</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">She said…</code><br>این خطا در Speaking زیر فشار سرعت رخ می‌دهد و خودت نمی‌شنوی‌اش. راهش <strong>تکرار تولیدی</strong> است (شفاهی و سریع)، نه خواندن جمله‌ی درست. در Writing: هر he/she/his/her را جدا بررسی کن — «این به کی اشاره دارد، مرد است یا زن؟»<br>«کتابش» هم همین تله را دارد: his/her/its book.</p>
+<h2 id="reference-s2"><a class="anchor" href="#reference-s2" aria-label="پیوند">#</a>۲. جدول ضمایر</h2>
+<div class="tbl"><table><thead><tr><th></th><th>فاعلی</th><th>مفعولی</th><th>صفت ملکی</th><th>ضمیر ملکی</th><th>انعکاسی</th></tr></thead><tbody><tr><td></td><td>I</td><td>me</td><td>my</td><td>mine</td><td>myself</td></tr><tr><td></td><td>you</td><td>you</td><td>your</td><td>yours</td><td>yourself</td></tr><tr><td></td><td>he</td><td>him</td><td>his</td><td><strong>his</strong></td><td>himself</td></tr><tr><td></td><td>she</td><td>her</td><td><strong>her</strong></td><td>hers</td><td>herself</td></tr><tr><td></td><td>it</td><td>it</td><td>its</td><td>—</td><td>itself</td></tr><tr><td></td><td>we</td><td>us</td><td>our</td><td>ours</td><td>ourselves</td></tr><tr><td></td><td>they</td><td>them</td><td>their</td><td>theirs</td><td>themselves</td></tr></tbody></table></div>
+<ul><li class="trap">صفت ملکی جلوی اسم (<code dir="ltr">my book</code>) / ضمیر ملکی جای اسم (<code dir="ltr">This book is mine</code> <span class="no">❌</span> is my).</li><li>his هم صفت هم ضمیر ملکی؛ her هم مفعولی هم صفت ملکی.</li></ul>
+<h3>it / they برای غیرانسان</h3>
+<ul><li>حیوان ناشناس <span class="arrow">→</span> it؛ حیوان خانگی آشنا <span class="arrow">→</span> he/she (در Writing رسمی it امن‌تر).</li><li><strong>کشور/سازمان در Writing <span class="arrow">→</span> it/its:</strong> <span class="yes">✅</span> <code dir="ltr">The company announced its new policy.</code> / <code dir="ltr">The government said it would act.</code> (they محاوره‌ای است)</li><li class="trap">اسم جمعی (team, family): مفرد یا جمع — <strong>یکی را انتخاب کن و ثابت بمان.</strong> <span class="no">❌</span> <code dir="ltr">The team is… They have…</code> (ناسازگار)</li></ul>
+<h3>they مفرد — کاملاً استاندارد و پذیرفته در IELTS</h3>
+<p><code dir="ltr">Everyone should bring their own laptop.</code> / <code dir="ltr">If a student misses the deadline, they must contact the office.</code><br>فعل مرجع مفرد می‌ماند، فعل بعد از they جمع: <code dir="ltr">Everyone has arrived, and they are waiting.</code> <span class="yes">✅</span></p>
+<h3>انعکاسی / متقابل</h3>
+<ul><li>فاعل = مفعول <span class="arrow">→</span> انعکاسی: <code dir="ltr">She taught herself Spanish.</code></li><li>تأکیدی (قابل حذف): <code dir="ltr">The manager himself approved it.</code> / <code dir="ltr">I did it myself.</code></li><li><code dir="ltr">by myself</code> = تنها/بدون کمک</li><li><strong>each other ≠ themselves:</strong> <code dir="ltr">They looked at themselves</code> (هر کدام به خودش) ≠ <code dir="ltr">They looked at each other</code> (به همدیگر)</li><li class="trap"><span class="no">❌</span> انعکاسی زائد: <code dir="ltr">I feel myself tired</code> / <code dir="ltr">He concentrated himself</code> / <code dir="ltr">They met themselves</code> <span class="arrow">→</span> بدون ضمیر.</li></ul>
+<h3>جنسیت نامعلوم <span class="arrow">→</span> سه راه</h3>
+<p>they (رایج‌ترین) / he or she (سنگین) / <strong>جمع کردن جمله</strong> (بهترین: <code dir="ltr">Students should bring their own laptops</code>) — با قاعده‌ی «کلیت = جمع» هم هم‌خوان است.</p>
+<hr>
+<h2 id="reference-s3"><a class="anchor" href="#reference-s3" aria-label="پیوند">#</a>۳. مالکیت — 's در برابر of</h2>
+<p><strong>قاعده‌ی جانداری:</strong></p>
+<pre class="example">'s → انسان، حیوان، سازمان، کشور/شهر (کنشگرند)، زمان، فاصله:
+     Ali's book, the company's policy, Iran's economy, today's newspaper, a week's holiday
+of → شیء، مفهوم، بخش از کل:
+     the leg of the table, the importance of education, the top of the page</pre>
+<ul><li>شک داری برای شیء <span class="arrow">→</span> of (هرگز غلط نیست).</li><li class="trap"><strong>عبارت طولانی <span class="arrow">→</span> of:</strong> <span class="no">❌</span> <code dir="ltr">the man I met yesterday's opinion</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">the opinion of the man I met yesterday</code> (سنگین به آخر).</li><li class="trap">⚠️ تله‌ی اضافه‌ی فارسی: «کتابِ علی» و «پایِ میز» یک ساختارند و ترتیبشان با of هم‌جهت است <span class="arrow">→</span> of پیش‌فرض ذهنت می‌شود. <strong>قاعده‌ی عملی: هر of نوشتی و مالک انسان/سازمان بود <span class="arrow">→</span> 's.</strong> <span class="no">❌</span> <code dir="ltr">the book of Ali</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">Ali's book</code>.</li></ul>
+<h3>آپاستروف — اول جمع را بساز، بعد آپاستروف بگذار</h3>
+<pre class="example">مفرد: student's      جمع با s: students'      جمع بی‌قاعده: children's, women's rights
+اسم خاص منتهی به s: James's یا James' (هر دو)
+مشترک: Ali and Sara's house / جدا: Ali's and Sara's houses</pre>
+<p><strong>آپاستروف برای جمع هرگز:</strong> <span class="no">❌</span> <code dir="ltr">three book's</code> / <code dir="ltr">1990's</code> / <code dir="ltr">CD's</code> <span class="arrow">→</span> <span class="yes">✅</span> books / 1990s / CDs.</p>
+<h3>its / it's و خانواده</h3>
+<pre class="example">its = ملکی (The company increased its profits)    it's = it is/has (It's raining)
+تست: «it is» را جایگزین کن — معنا داد → it's
+نکته: ضمایر ملکی هیچ‌کدام آپاستروف ندارند (his, hers, its, ours, yours, theirs)
+your/you're · their/they're/there · whose/who's</pre>
+<p><span class="no">❌</span> <code dir="ltr">Their going to the office</code> <span class="arrow">→</span> <span class="yes">✅</span> They're / <span class="no">❌</span> <code dir="ltr">Who's book is this?</code> <span class="arrow">→</span> <span class="yes">✅</span> Whose</p>
+<h3>مالکیت مضاعف</h3>
+<p>جلوی اسم فقط یک determiner <span class="arrow">→</span> <span class="no">❌</span> <code dir="ltr">a my friend</code>. راه‌حل: <strong>a friend of mine</strong> / <code dir="ltr">a colleague of hers</code> / <code dir="ltr">that idea of yours</code> / <code dir="ltr">a book of Ali's</code>.<br>بعد از of <strong>ضمیر ملکی</strong> می‌آید: <span class="no">❌</span> <code dir="ltr">a friend of my</code> <span class="arrow">→</span> <span class="yes">✅</span> mine.</p>
+<hr>
+<h2 id="reference-s4"><a class="anchor" href="#reference-s4" aria-label="پیوند">#</a>۴. ارجاع گفتمانی</h2>
+<h3>it / this / that</h3>
+<pre class="example">it   → ادامه‌ی خنثی همان موضوع
+this → تأکید روی چیزی که همین الان گفتم؛ می‌تواند به کل گزاره اشاره کند
+that → فاصله، یا اشاره به حرف کسِ دیگر</pre>
+<p><code dir="ltr">Many students work part-time. This affects their performance.</code> <span class="yes">✅</span> (it مبهم است △)<br>ارجاع به کل جمله <strong>داخل همان جمله</strong> <span class="arrow">→</span> which: <code dir="ltr">…, which affects their performance.</code></p>
+<h3>this + اسم — مؤثرترین ابزار انسجام کل مجموعه</h3>
+<p><code dir="ltr">this</code> تنها مبهم می‌شود؛ اسم جمع‌بندی‌کننده بگذار:<br><span class="no">❌</span> <code dir="ltr">The government raised taxes and cut spending. This was unpopular.</code> (کدام؟)<br><span class="yes">✅</span> <code dir="ltr">This tax increase / This combination of measures was unpopular.</code><br>سه کار همزمان: حذف ابهام (Coherence) + اسم انتزاعی (Lexical Resource) + چسباندن جمله‌ها بدون حرف ربط.<br><strong>فهرست طلایی:</strong> <code dir="ltr">this trend / approach / issue / problem / situation / development / argument / view / policy / shift / phenomenon / practice</code> — <code dir="ltr">these measures / factors / findings</code><br>قاعده: this تنها را کمتر بنویس، this + اسم را بیشتر.</p>
+<h3>ابهام مرجع</h3>
+<p>ضمیر به نزدیک‌ترین اسم ممکن اشاره می‌کند؛ دو مرجع ممکن = جمله شکسته:<br><span class="no">❌</span> <code dir="ltr">When students meet their teachers, they often feel nervous.</code><br>سه راه‌حل: تکرار اسم / بازسازی جمله (<code dir="ltr">Students often feel nervous when they meet their teachers</code>) / the former-the latter (فقط دو مورد، یکی دو بار در مقاله).</p>
+<p><strong>قاعده‌ی فاصله:</strong></p>
+<pre class="example">جمله‌ی بلافاصله بعد → ضمیر امن است
+یک جمله فاصله      → the + اسم
+دو جمله یا بیشتر   → اسم کامل
+اسم رقیب در جمله   → اسم بنویس، نه ضمیر</pre>
+<h3>ضمیر عام در Task 2</h3>
+<pre class="example">✅ people / individuals / those who…   (امن‌ترین)
+✅ It is often argued/said that…       (مجهول غیرشخصی)
+✅ we (وقتی درباره‌ی بشریت است)
+❌ you (غیررسمی)   ❌ they عام («می‌گویند» → They say مرجع ندارد)   ❌ one (ریسک ناسازگاری)</pre>
+<p><span class="no">❌</span> <code dir="ltr">If you want to succeed, you have to work hard.</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">Those who wish to succeed must work hard.</code> / <code dir="ltr">Success generally requires hard work.</code></p>
+<hr>
+<h2 id="reference-s5"><a class="anchor" href="#reference-s5" aria-label="پیوند">#</a>۵. موصولی‌های نامعین (کم‌مصرف — بشناس، یکی در مقاله کافی است)</h2>
+<h3>whatever / whoever / wherever / whenever / whichever</h3>
+<p>دو معنا: «هر ... که» (≈ anything that) / «مهم نیست چه» (≈ no matter what):</p>
+<pre class="example">Take whatever you need.                هر چه لازم داری
+Whatever happens, I'll support you.    هر چه پیش بیاید
+Whoever wins the election will face serious challenges.</pre>
+<p>کاربرد فشرده‌ی رسمی: <code dir="ltr">Whatever the reason, the outcome remains the same.</code> (فعل حذف شده)</p>
+<h3>however دوگانه — تله‌ی واقعی</h3>
+<pre class="example">however + کاما      → قید ربطی «با این حال»:  It was raining. However, we went out.
+however + صفت/قید   → نامعین «هر چقدر هم»:    However hard they tried, they could not succeed.</pre>
+<p><span class="no">❌</span> <code dir="ltr">However, hard they tried…</code> (کاما نگذار). معادل امن‌تر: <code dir="ltr">No matter how hard they tried…</code></p>
+<h3>no matter</h3>
+<p>فقط معنای «مهم نیست» — جانشین همه‌ی کاربردهای -ever نیست:<br><span class="yes">✅</span> <code dir="ltr">No matter what happens, we will continue.</code> / <span class="no">❌</span> <code dir="ltr">Take no matter what you need.</code><br>مفید Task 2: <code dir="ltr">No matter how much funding is provided, the problem will persist unless underlying attitudes change.</code></p>
+<hr>
+<h2 id="reference-s6"><a class="anchor" href="#reference-s6" aria-label="پیوند">#</a>۶. انسجام پاراگراف</h2>
+<h3>زنجیره‌ی ارجاع استاندارد</h3>
+<pre class="example">معرفی: a carbon tax → the measure → it → this resistance → the tax</pre>
+<p>هرچه فاصله بیشتر یا اسم‌های رقیب بیشتر <span class="arrow">→</span> از ضمیر به سمت the + اسم و تکرار اسم برو.</p>
+<h3>⚠️ تله‌ی تنوع زورکی</h3>
+<p>«کلمه را تکرار نکن، مترادف بیاور» فقط در حد معقول درست است. چهار مترادف برای یک چیز (carbon tax <span class="arrow">→</span> fiscal instrument <span class="arrow">→</span> pecuniary measure <span class="arrow">→</span> monetary levy) خواننده را هر بار مکث می‌دهد: «این همان است یا چیز جدید؟»</p>
+<pre class="example">✅ تکرار اسم کلیدی مشکلی ندارد — حتی خوب است (دقت مهم‌تر از تنوع)
+✅ یکی دو مترادف طبیعی خوب است
+❌ مترادف‌سازی زنجیره‌ای ضرر است</pre>
+<p>تنوع واقعی را در <strong>افعال و ساختارها</strong> بگذار، نه اسم‌های کلیدی.</p>
+<hr>
+<h2 id="reference-s7"><a class="anchor" href="#reference-s7" aria-label="پیوند">#</a>۷. در IELTS</h2>
+<p><strong>Task 2:</strong> this + اسم (بیشترین بازده Coherence) / پرهیز از you و they عام / 's برای سازمان و کشور (<code dir="ltr">the government's approach</code>, <code dir="ltr">Iran's economy</code>).<br><strong>Task 1:</strong> <code dir="ltr">the country's population</code> / <code dir="ltr">This figure rose steadily</code> / وقتی چند دسته داری ضمیر مبهم نگذار — اسم را تکرار کن.<br><strong>Speaking:</strong> تله‌ی اصلی جنسیت است — قبل از Part 2 جنسیت شخص را در ذهنت تثبیت کن («my sister — she»). تمرینش باید شفاهی و سریع باشد، نه کتبی.</p>
+<hr>
+<h2 id="reference-s8"><a class="anchor" href="#reference-s8" aria-label="پیوند">#</a>۸. چک‌لیست خطاها (اگر وقت فقط سه‌تا: ۱، ۷، ۸)</h2>
+<ol start="1"><li>هر he/she/his/her به جنسیت درست اشاره دارد؟</li><li>مالک انسان/سازمان است؟ <span class="arrow">→</span> 's نه of</li><li>آپاستروف جمع درست؟ (students' نه student's)</li><li>its (ملکی) / it's (it is) قاطی نشده؟</li><li>their / they're / there درست؟</li><li>a friend of mine — نه of my؟</li><li>هیچ ضمیری دو مرجع ممکن ندارد؟</li><li>this تنها <span class="arrow">→</span> this + اسم؟</li><li>you و they عام در Task 2 نیامده؟</li><li>each other / themselves درست؟</li><li>با اسم جمعی ثابت مانده‌ام؟ (it یا they، نه هر دو)</li><li>آپاستروف برای جمع نگذاشتم؟ (1990s)</li><li>مترادف‌سازی زنجیره‌ای نکرده‌ام؟</li></ol>
+<nav class="pager">
+<a href="#g-prepositions"><small>قبلی</small>حروف اضافه</a>
+<a class="next" href="#g-mechanics"><small>بعدی</small>نگارش و لحن</a>
+</nav>
+</section>
+<section class="guide" id="g-mechanics">
+<header class="guide-head"><span class="kicker">راهنمای ۹ از ۹</span>
+<h1>خلاصه‌ی کاربردی مکانیک و ثبت رسمی</h1><p>نشانه‌گذاری، بزرگ‌نویسی، اعداد و تاریخ، بسته‌ی لحن رسمی و محاوره</p></header>
+<blockquote>نسخه‌ی فشرده‌ی <code dir="ltr">mechanics-and-register-guide.md</code> — نقطه‌گذاری، حروف بزرگ، املا، اعداد، ساختارهای رسمی. بیشتر این‌ها قرارداد است نه قاعده‌ی زبانی — سریع یاد گرفته می‌شود و بهترین نسبت بازده به زحمت را دارد. فارسی هیچ‌کدام را ندارد (حرف بزرگ، آپاستروف)، پس از صفر بساز.</blockquote>
+<hr>
+<h2 id="mechanics-s1"><a class="anchor" href="#mechanics-s1" aria-label="پیوند">#</a>۱. ثبت یک بسته است، نه یک انتخاب</h2>
+<p>رسمی = چند انتخاب کوچک همزمان: کوتاه‌نویسی حذف، فعل لاتین‌تبار به‌جای عبارتی، you <span class="arrow">→</span> people، تعدیل، اسمی‌سازی.<br><strong>ناسازگاری بدتر از انتخاب اشتباه است</strong> — متن نیمه‌رسمی/نیمه‌محاوره‌ای از متن یکدست غیررسمی بدتر است.</p>
+<p>قاعده‌ی سرانگشتی: کلمه‌ی بلندتر لاتین‌تبار رسمی‌تر (say<span class="arrow">→</span>state, cut down<span class="arrow">→</span>reduce, find out<span class="arrow">→</span>determine, put off<span class="arrow">→</span>postpone). ولی زیاده‌روی نکن: <code dir="ltr">utilise</code> به‌جای <code dir="ltr">use</code> مثل «فعالیت نمودن» به‌جای «کار کردن» است. رسمی = مناسب، نه سنگین.</p>
+<h2 id="mechanics-s2"><a class="anchor" href="#mechanics-s2" aria-label="پیوند">#</a>۲. کاما — شش کاربرد، دو ممنوعیت</h2>
+<pre class="example">۱. بعد از بند وابسته‌ی مقدم:   Although the costs were high, the project was approved.
+۲. قبل از FANBOYS بین دو جمله‌ی کامل:  …, but its effects are unclear.
+   (فاعل دوم حذف شده → بدون کاما: She studied hard and passed.)
+۳. دور بند غیرتوضیحی — هر دو کاما:  Tehran, which is the capital, has pollution.
+۴. بین اقلام فهرست:  education, healthcare and transport (کامای آکسفورد اختیاری — ثابت بمان)
+۵. بعد از قید ربطی اول جمله:  However, … / Moreover, … / Therefore, …
+۶. دور عبارت معترضه:  The results, however, were disappointing.</pre>
+<p><strong>ممنوع:</strong> <span class="no">❌</span> بین فاعل و فعل (<code dir="ltr">The government, should…</code>) — هرقدر فاعل بلند باشد. <span class="no">❌</span> comma splice (چسباندن دو جمله‌ی مستقل با کامای خالی).</p>
+<h2 id="mechanics-s3"><a class="anchor" href="#mechanics-s3" aria-label="پیوند">#</a>۳. نقطه‌ویرگول و دونقطه</h2>
+<pre class="example">;  دو جمله‌ی مستقل مرتبط:  Sales rose in Europe; they fell in Asia.
+   قبل از قید ربطی:        …expensive; however, it proved effective.
+   فهرستِ دارای کاما:      Tehran, Iran; Cairo, Egypt; and Ankara, Turkey
+   (بعدش جمله‌ی کامل می‌خواهد — ❌ ; although effective)
+:  معرفی فهرست/توضیح — قبلش باید جمله‌ی کامل باشد:
+   ❌ The main causes are: pollution…   ✅ There are three main causes: pollution…</pre>
+<p>در IELTS: نقطه‌ویرگول درست امتیاز دارد ولی یکی دو تا کافی است.</p>
+<h2 id="mechanics-s4"><a class="anchor" href="#mechanics-s4" aria-label="پیوند">#</a>۴. خط تیره و صفت مرکب</h2>
+<p><strong>چند کلمه که با هم یک صفت می‌سازند و قبل از اسم می‌آیند <span class="arrow">→</span> خط تیره:</strong><br><code dir="ltr">a well-known writer</code> / <code dir="ltr">long-term effects</code> / <code dir="ltr">a two-hour meeting</code> / <code dir="ltr">high-quality education</code><br>بعد از اسم خط تیره برداشته می‌شود: <code dir="ltr">The writer is well known.</code></p>
+<p>⚠️ <strong>داخل صفت مرکب، اسم مفرد می‌ماند:</strong><br><span class="no">❌</span> <code dir="ltr">a five-years-old child</code> / <code dir="ltr">a two-hours meeting</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">a five-year-old child</code> / <code dir="ltr">a two-hour meeting</code><br>(مقایسه: <code dir="ltr">The child is five years old</code> — اسم مستقل <span class="arrow">→</span> جمع)</p>
+<p>dash (—) برای معترضه‌ی تأکیدی؛ در Task 2 کم استفاده کن.</p>
+<h2 id="mechanics-s5"><a class="anchor" href="#mechanics-s5" aria-label="پیوند">#</a>۵. آپاستروف و کوتاه‌نویسی</h2>
+<pre class="example">مفرد: student's   جمع با s: students'   جمع بی‌قاعده: children's
+its (ملکی) بدون آپاستروف   جمع بدون آپاستروف: 1990s, CDs</pre>
+<p><strong>کوتاه‌نویسی در Writing ممنوع:</strong> don't<span class="arrow">→</span>do not، it's<span class="arrow">→</span>it is، can't<span class="arrow">→</span><strong>cannot</strong> (یک کلمه؛ <span class="no">❌</span> can not).<br>اختصارها در Task 2: <span class="no">❌</span> etc./e.g./i.e./&amp;/% <span class="arrow">→</span> <span class="yes">✅</span> and so on / for example / that is / and / per cent (در Task 1 نماد % قبول است).</p>
+<h2 id="mechanics-s6"><a class="anchor" href="#mechanics-s6" aria-label="پیوند">#</a>۶. حروف بزرگ</h2>
+<p><strong>همیشه بزرگ:</strong> اول جمله، <strong>I</strong>، اسم خاص (Ali, Tehran, the Middle East)، <strong>ملیت و زبان (Iranian, Persian, English)</strong> ← پرتکرارترین خطا، روز/ماه (Monday, July)، تعطیلات (Nowruz, Ramadan)، ادیان (Islam, Muslim)، سازمان‌ها (the UN)، عنوان قبل از نام (President Rouhani, Dr Ahmadi).</p>
+<p><strong>هرگز بزرگ نه:</strong> فصل‌ها (summer)، رشته‌ها جز زبان (economics, physics)، جهت‌ها (north)، اسم عام (government, university, the president).<br><code dir="ltr">I study economics at Tehran University.</code> — رشته کوچک، نام خاص بزرگ.<br><span class="no">❌</span> بزرگ‌نویسی برای تأکید: <code dir="ltr">a serious Problem for our Society</code>.</p>
+<h2 id="mechanics-s7"><a class="anchor" href="#mechanics-s7" aria-label="پیوند">#</a>۷. املا — یکی را انتخاب کن و ثابت بمان</h2>
+<p>هر دو گونه در IELTS قبول‌اند؛ ناسازگاری خطاست. پیشنهاد: بریتانیایی.</p>
+<pre class="example">-our: colour, behaviour     -re: centre, theatre     -ise: organise, realise
+-yse: analyse               دو l: travelled, cancelled     defence, programme</pre>
+<ul><li><code dir="ltr">practise</code> فعل / <code dir="ltr">practice</code> اسم (بریتانیایی)</li><li class="trap"><strong>advise فعل / advice اسم</strong> (هر دو گونه): <span class="no">❌</span> <code dir="ltr">Let me advice you</code> / <code dir="ltr">Good advise</code></li></ul>
+<h2 id="mechanics-s8"><a class="anchor" href="#mechanics-s8" aria-label="پیوند">#</a>۸. اعداد، درصد، تاریخ</h2>
+<ul><li>زیر ده با حروف (three)، ده+ با رقم (25)؛ در Task 1 رقم عادی است.</li><li class="trap"><strong>جمله هرگز با رقم شروع نمی‌شود:</strong> <span class="no">❌</span> <code dir="ltr">20% of respondents…</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">A total of 20% of…</code> (بازآرایی کن)</li><li class="trap">per cent (BrE) / percent (AmE) / % (Task 1)؛ <strong>percentage</strong> اسم مفهوم: <span class="no">❌</span> <code dir="ltr">The percent of car owners rose</code> <span class="arrow">→</span> <span class="yes">✅</span> <code dir="ltr">The percentage…</code></li><li>نقطه اعشار، ویرگول هزارگان: 1,500 / 1.5 million</li><li class="trap">دهه: <strong>the 1990s</strong> (<span class="no">❌</span> 1990's)؛ تاریخ BrE: 5 May 2020</li><li class="trap">بازه: <code dir="ltr">from X to Y</code> / <code dir="ltr">between X and Y</code> (<span class="no">❌</span> between…to)</li><li>تقریب: approximately / roughly / just over / just under / nearly / one in three</li></ul>
+<hr>
+<h2 id="mechanics-s9"><a class="anchor" href="#mechanics-s9" aria-label="پیوند">#</a>۹. سه ساختار رسمی</h2>
+<h3>التزامی الزامی — بعد از that، فعل ساده (بدون s، بدون زمان)</h3>
+<pre class="example">محرک‌ها: suggest, recommend, propose, insist, demand, require, urge, advise
+         It is essential/vital/important/crucial/necessary that…
+✅ It is essential that the government act now.      (نه acts)
+✅ I suggest that he be present.                     (نه is)
+✅ It is vital that this issue be addressed.         (مجهول)
+منفی بدون do: that he not be informed</pre>
+<p>سه گزینه به‌ترتیب قوت: <code dir="ltr">that he act</code> (آکادمیک‌ترین) / <code dir="ltr">that he should act</code> (امن بریتانیایی) / <code dir="ltr">for him to act</code> (راه فرار بی‌ریسک).</p>
+<h3>do تأکیدی — فقط خبری مثبت</h3>
+<p><code dir="ltr">This does suggest a serious problem.</code> / <code dir="ltr">Governments do have a responsibility.</code><br>کاربرد طلایی: امتیاز دادن و بعد رد کردن <span class="arrow">→</span> <code dir="ltr">While technology does offer significant benefits, it also creates new forms of inequality.</code><br>یکی دو بار در مقاله، نه بیشتر.</p>
+<h3>اسمی‌سازی — فعل/صفت <span class="arrow">→</span> اسم (فارسی هم دارد، آشناست)</h3>
+<pre class="example">Prices increased rapidly. → There was a rapid increase in prices.
+The government decided to cut spending. This caused…
+→ The government's decision to cut spending caused a rise in unemployment.</pre>
+<p>الگوها: decide<span class="arrow">→</span>decision، reduce<span class="arrow">→</span>reduction، grow<span class="arrow">→</span>growth، fail<span class="arrow">→</span>failure، implement<span class="arrow">→</span>implementation.<br>⚠️ یکی دو تا در هر پاراگراف؛ بیش از دو of پشت سر هم = زیاده‌روی، متن مرده می‌شود.</p>
+<hr>
+<h2 id="mechanics-s10"><a class="anchor" href="#mechanics-s10" aria-label="پیوند">#</a>۱۰. بسته‌ی ثبت</h2>
+<div class="tbl"><table><thead><tr><th><span class="no">❌</span> غیررسمی (Writing)</th><th><span class="yes">✅</span> آکادمیک</th></tr></thead><tbody><tr><td>it's, don't</td><td>it is, do not</td></tr><tr><td>sort out, figure out</td><td>resolve, determine</td></tr><tr><td>you, they say</td><td>people, it is argued</td></tr><tr><td>a lot of</td><td>a significant number of</td></tr><tr><td>all, always, never</td><td>many, generally, tend to</td></tr><tr><td>get, put, do</td><td>obtain, place, conduct</td></tr><tr><td>etc., e.g., &amp;</td><td>and so on, for example, and</td></tr><tr><td>!</td><td>هرگز</td></tr><tr><td>And/But/So اول جمله</td><td>Moreover, However, Therefore</td></tr></tbody></table></div>
+<p>سه باور غلط: «کلمه‌ی بلندتر بهتر» (utilise بدتر از use) / «جمله‌ی طولانی‌تر بهتر» / «باید مجهول نوشت» (فقط جای درستش).</p>
+<h3>Speaking — همه‌چیز وارونه!</h3>
+<p>رسمی بودن در Speaking <strong>ضرر دارد</strong>. امتیازآور: کوتاه‌نویسی (I'm, don't)، افعال عبارتی (put off, get along with)، پرکننده‌ی طبیعی (well, actually, I mean, to be honest)، جمله‌های کوتاه.<br><strong>الگوی خطای فارسی‌زبان‌ها: Speakingِ زیادی رسمی، Writingِ زیادی محاوره‌ای.</strong> وارونه‌اش کن — کم‌هزینه‌ترین بهبود ممکن، بدون گرامر جدید.</p>
+<hr>
+<h2 id="mechanics-s11"><a class="anchor" href="#mechanics-s11" aria-label="پیوند">#</a>۱۱. چک‌لیست (اگر وقت فقط سه‌تا: ۱، ۲، ۳)</h2>
+<ol start="1"><li>کوتاه‌نویسی در Writing نمانده؟</li><li>ملیت/زبان/روز/ماه بزرگ نوشته شده؟</li><li>کامای بند وابسته‌ی مقدم هست؟</li><li>کاما بین فاعل و فعل نگذاشتم؟</li><li>هر دو کامای غیرتوضیحی هست؟</li><li>comma splice نیست؟</li><li>its/it's درست؟</li><li>1990s بدون آپاستروف؟</li><li>املا یکدست؟</li><li>جمله با رقم شروع نشده؟</li><li>between…and نه to؟</li><li>صفت مرکب قبل از اسم: خط تیره + مفرد؟</li><li>etc./e.g./&amp; در Task 2 نیامده؟</li><li>علامت تعجب نیست؟</li><li>بعد از that التزامی، فعل ساده؟</li></ol>
+<nav class="pager">
+<a href="#g-reference"><small>قبلی</small>ارجاع و مالکیت</a>
+<span></span>
+</nav>
+</section>
+<footer><hr><p style="color:var(--muted);font-size:.82rem">برگرفته از ۹ فایل markdown در همین پوشه — متن کامل‌تر در پوشه‌ی guides/.</p></footer>
+</main>
+</div>
+<button id="toTop" title="بازگشت به بالا">↑</button>
+<script>
+const root=document.documentElement;
+const store={get(k,d){try{return localStorage.getItem(k)??d}catch{return d}},set(k,v){try{localStorage.setItem(k,v)}catch{}}};
+const themeBtn=document.getElementById('themeBtn');
+function setTheme(t){root.dataset.theme=t;themeBtn.textContent=t==='dark'?'روشن':'تیره';store.set('gr-theme',t)}
+setTheme(store.get('gr-theme',matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'));
+themeBtn.onclick=()=>setTheme(root.dataset.theme==='dark'?'light':'dark');
+let fs=parseFloat(store.get('gr-fs','17'));
+function setFs(v){fs=Math.min(22,Math.max(14,v));root.style.setProperty('--fs',fs+'px');store.set('gr-fs',String(fs))}
+setFs(fs);
+document.getElementById('fsPlus').onclick=()=>setFs(fs+1);
+document.getElementById('fsMinus').onclick=()=>setFs(fs-1);
+document.getElementById('printBtn').onclick=()=>window.print();
+const bar=document.getElementById('progress'),toTop=document.getElementById('toTop');
+addEventListener('scroll',()=>{
+  const h=document.documentElement;
+  bar.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';
+  toTop.classList.toggle('show',h.scrollTop>600);
+},{passive:true});
+toTop.onclick=()=>scrollTo({top:0,behavior:'smooth'});
+const aside=document.getElementById('sidebar'),overlay=document.getElementById('overlay');
+const closeNav=()=>{aside.classList.remove('open');overlay.classList.remove('show')};
+document.getElementById('menuBtn').onclick=()=>{aside.classList.toggle('open');overlay.classList.toggle('show')};
+overlay.onclick=closeNav;
+aside.addEventListener('click',e=>{if(e.target.closest('a'))closeNav()});
+const links=[...aside.querySelectorAll('a[href^="#"]')];
+const map=new Map(links.map(a=>[a.getAttribute('href').slice(1),a]));
+const targets=[...document.querySelectorAll('h2[id],section.guide[id]')];
+let current=null;
+function activate(id){
+  if(current===id)return;current=id;
+  links.forEach(a=>a.classList.remove('active'));
+  const a=map.get(id);if(!a)return;
+  a.classList.add('active');
+  const det=a.closest('details');
+  if(det&&!det.open){det.open=true}
+  const g=a.closest('details')?.dataset.guide;
+  if(g){const ga=map.get(g);ga?.classList.add('active')}
+}
+const io=new IntersectionObserver(es=>{
+  const vis=es.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);
+  if(vis.length)activate(vis[0].target.id);
+},{rootMargin:'-60px 0px -70% 0px'});
+targets.forEach(t=>io.observe(t));
+const q=document.getElementById('q'),qc=document.getElementById('qCount'),content=document.getElementById('content');
+function clearMarks(){content.querySelectorAll('mark.hl').forEach(m=>{const p=m.parentNode;p.replaceChild(document.createTextNode(m.textContent),m);p.normalize()})}
+function search(term){
+  clearMarks();
+  if(!term){qc.textContent='';return}
+  const rx=new RegExp(term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi');
+  const walker=document.createTreeWalker(content,NodeFilter.SHOW_TEXT,{acceptNode(n){
+    if(!n.nodeValue.trim()||/^(SCRIPT|STYLE|MARK)$/.test(n.parentNode.nodeName))return NodeFilter.FILTER_REJECT;
+    rx.lastIndex=0;return rx.test(n.nodeValue)?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT;
+  }});
+  const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
+  let count=0,first=null;
+  for(const n of nodes){
+    const frag=document.createDocumentFragment();let last=0,m;rx.lastIndex=0;
+    while((m=rx.exec(n.nodeValue))){
+      frag.appendChild(document.createTextNode(n.nodeValue.slice(last,m.index)));
+      const mk=document.createElement('mark');mk.className='hl';mk.textContent=m[0];frag.appendChild(mk);
+      last=rx.lastIndex;count++;first=first||mk;
+      if(m[0]==='')rx.lastIndex++;
+    }
+    frag.appendChild(document.createTextNode(n.nodeValue.slice(last)));
+    n.parentNode.replaceChild(frag,n);
+  }
+  qc.textContent=count?count+' مورد':'هیچ';
+  if(first)first.scrollIntoView({behavior:'smooth',block:'center'});
+}
+let deb;q.addEventListener('input',()=>{clearTimeout(deb);deb=setTimeout(()=>search(q.value.trim()),300)});
+addEventListener('keydown',e=>{
+  if(e.key==='/'&&document.activeElement!==q){e.preventDefault();q.focus()}
+  if(e.key==='Escape'){q.value='';search('');q.blur();closeNav()}
+});
+</script>
+</body>
+</html>
