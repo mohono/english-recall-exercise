@@ -20,7 +20,6 @@ pushes to GitHub and updates the server.
 | TED-Ed | `teded/` | transcripts via supadata.ai, `sources/teded/` | `teded-vocab-drill` |
 | گرامر — متن‌ها (5 courses × 10 texts) | `grammar-passages/` | written per session, `sources/grammar/` | `ielts-passage-drill` |
 | گرامر — ساختارها (37 structures × 10) | `grammar-daily/` | the old daily pool | none |
-| صدای فارسی (recorded) | `audio/` | your own voice, `app/record.html` | none |
 
 ## How it fits together
 
@@ -32,10 +31,6 @@ pushes to GitHub and updates the server.
   (vocabulary) and `skeleton`, `why`, `whyKey`, `trap`, `misses`, `alt`, `rule` (grammar). There is no HTML,
   CSS or JS in an exercise. `data/collections.json` names the collections and sets their order;
   `data/index.json` is generated.
-- **`app/record.html`** is the recorder for the Persian sentences: one take per sentence, Space to start, it stops
-  by itself on silence and moves on. The server trims and encodes each take to a 32 kbps m4a in
-  `audio/<collection>/<exercise>/<sha1(fa)>` (not in git; `scripts/audio-sync.sh` moves it between the laptop and
-  the server). A lesson plays it with the 🔊 beside the Persian, and auto mode can play it before the think time.
 - **`scripts/drill.py`** `build` turns the block a skill writes into a data file, `check` validates one (for
   TED-Ed also against the transcript), `check --all` validates everything, `index` rebuilds the index.
   **`scripts/add_ipa.py`** adds American IPA. **`scripts/fetch.py`** picks the next TED-Ed video and fetches
@@ -50,5 +45,4 @@ The exercises were imported once with `scripts/import.py` from `lingemy-exercise
 overwrites them. The audio / video tools and the Anki summary tool are still in `lingemy-exercise/tools`.
 
 Not in git: `.env`, `app/vendor/` (the offline speech model, 45 MB), `scripts/.venv/` and `scripts/.nltk_data/`
-(for `add_ipa.py`; setup is in its docstring), and `audio/` (the recorded voice — run `scripts/audio-sync.sh pull`
-for a local copy).
+(for `add_ipa.py`; setup is in its docstring).

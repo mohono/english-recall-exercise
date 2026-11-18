@@ -14,7 +14,7 @@ const PER_WORD = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.75, 1];                // extra 
 const AFTERS = [0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 20, 30];            // s to wait once the answer has been read
 const TIMES = [1, 2, 3];                                                // times the answer is read aloud
 const RATES = [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 1, 1.1, 1.2];   // reading speed (1 = the voice's own)
-const DEFAULTS = { think: 10, perWord: 0, after: 3, speak: true, times: 1, rate: 0.75, faPlay: true };
+const DEFAULTS = { think: 10, perWord: 0, after: 3, speak: true, times: 1, rate: 0.75 };
 const REPEAT_GAP = 900;              // ms between two readings of the same answer
 const MODEL_URL = new URL("vendor/vosk-model-small-en-us-0.15.tar.gz", location.href).href;
 const MIN_CONF = 0.85;               // ignore words the recognizer is not sure about
@@ -113,23 +113,8 @@ const panel = () => active() < 0 ? null : F.doc.querySelector(".drawer .slot");
 const shown = () => { const p = panel(); return !!p && !p.querySelector(".answer").hidden; };
 const place = () => load("at." + F.path, { i: 0, shown: false });
 const ttsBusy = () => performance.now() < readingUntil || !!gapTimer || !!F?.win.speechSynthesis?.speaking;
-let faUntil = 0, faAt = -1;         // the recorded Persian sentence, while it is playing (the countdown waits)
 // also an utterance asked for but not started yet (bounded: play() gives up on it after a few seconds)
-const reading = () => ttsBusy() || performance.now() < faUntil || (!!current && !readingUntil);
-
-/* The recorded Persian voice of app/record.html, played by the lesson page on the sentence it opened. */
-function stopFa() {
-  faUntil = 0;
-  try { F?.win.stopFa?.(); } catch (e) { /* the lesson page is not a drill */ }
-}
-function maybeFa(a) {
-  faUntil = 0;
-  if (!S.faPlay || !F?.win.hasFa?.(a) || !F.win.playFa) return;
-  if (navigator.userActivation && !navigator.userActivation.hasBeenActive) return;   // no click or key yet
-  faAt = a;
-  faUntil = performance.now() + 60000;      // until the real end of the clip
-  F.win.playFa(a).then(() => { if (faAt === a) faUntil = 0; });
-}
+const reading = () => ttsBusy() || (!!current && !readingUntil);
 
 function open(i, show = false) {     // show: with its answer, not read aloud
   if (!F.spans.length) { toast(F.path === STARRED ? "No starred sentences yet: ☆ a sentence in any exercise" : "This exercise is empty", 4000); return; }
@@ -165,7 +150,6 @@ function pickVoice() {
   local = vs.find((v) => v.localService) || null;   // none: the browser's default voice
 }
 function hush() {
-  stopFa();
   TTS?.cancel();
   clearTimeout(gapTimer); gapTimer = 0;
   speaking?.classList.remove("on");
@@ -640,9 +624,7 @@ function changed() {                 // the engine opened, closed or revealed so
     if (a !== lastActive) {
       // the answer of the sentence you left must not go on (or be read again) over the new one
       if (current || gapTimer || F.win.speechSynthesis?.speaking) { F.win.speechSynthesis?.cancel(); hush(); }
-      stopFa();
       lastActive = a; wordAt = 0; quietReveal = false;
-      maybeFa(a);                    // before restart(), so the think time waits for the voice
       F.doc.querySelectorAll(".wentry.hf-cur").forEach((w) => w.classList.remove("hf-cur"));
     } else if (sh && !lastShown) {   // the answer just opened: by a command, the engine's button or Enter
       if (S.speak && !quietReveal) readAnswer();
@@ -672,7 +654,7 @@ frame.addEventListener("load", () => {
   const path = new URLSearchParams(win.location.search).get("d") || "";
   F = { win, doc, title, path, group: LESSONS.find((l) => l.path === path)?.group || "",
     spans: [...doc.querySelectorAll("#passage .s")] };
-  lastActive = -1; lastShown = false; faUntil = 0; faAt = -1;
+  lastActive = -1; lastShown = false;
   const link = doc.createElement("link");
   link.rel = "stylesheet"; link.href = new URL("frame.css", location.href).href;
   doc.head.append(link);
@@ -690,7 +672,7 @@ frame.addEventListener("load", () => {
   watchHolds(win);
   doc.addEventListener("click", (e) => {             // the lesson's own 🔊 buttons read here too, at the speed set
     const say = e.target.closest(".say");
-    if (!say || !say.dataset.say || !e.isTrusted) return;
+    if (!say || !e.isTrusted) return;
     e.stopPropagation(); e.preventDefault(); say.blur();
     onLessonClick(e);
     win.speechSynthesis?.cancel();                   // the page's own reading, if any
@@ -715,7 +697,6 @@ frame.addEventListener("load", () => {
 /* ---------- commands: keys, voice and the bar buttons (data-cmd) all run these ---------- */
 const COMMANDS = {
   step, prev, answer, skip, repeat, word, quiet, bookmark, star, anki, pause,
-  record: () => { location.href = "record.html" + (F && F.path !== STARRED ? "?d=" + encodeURIComponent(F.path) : ""); },
   auto: () => (auto && !paused ? pause() : play_()),   // P and the bar button: play / pause
   autoOn: play_,
   faster: () => setThink(-1),
@@ -955,7 +936,6 @@ const SETTINGS = [
   { key: "times", list: TIMES, label: "Times the answer is read", say: (v) => `${v}×` },
   { key: "rate", list: RATES, label: "Reading speed", say: (v) => `${v}×` },
   { key: "after", list: AFTERS, label: "Wait after the answer, then next", say: (v) => `${v} s` },
-  { key: "faPlay", list: [true, false], label: "Play the Persian sentence (your recording)", say: (v) => v ? "On" : "Off" },
 ];
 function buildSettings() {
   const n = F && active() >= 0 ? enWords() : 12;
@@ -980,7 +960,6 @@ function changeSetting(key, d) {
     applyLook();
     if (!S.speak && speaking === panel()?.querySelector(".en-box .say")) hush();
   }
-  if (key === "faPlay" && !S.faPlay) stopFa();
   if (key === "think" || key === "after") showPace();
   if (auto && F && (key === "think" || key === "perWord" ? !shown() : key === "after" && shown())) restart();
   buildSettings();

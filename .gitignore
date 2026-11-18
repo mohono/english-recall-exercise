@@ -4,5 +4,3 @@ app/vendor/
 scripts/.venv/
 scripts/.nltk_data/
 state/
-audio/
-.qwen/

@@ -35,8 +35,7 @@ click once anywhere; that one click also switches the mic on. The voice is the s
 use. If it doesn't start (for example a Google network voice while offline), it is tried again with a local
 voice.
 
-**Auto mode** (P, ▶ Auto, "play"): opens a sentence (the Persian is not synthesized; if you have recorded it, the
-recording plays first, see “The recorded Persian voice”), waits the think time
+**Auto mode** (P, ▶ Auto, "play"): opens a sentence (the Persian is never read aloud), waits the think time
 (10 s), opens the answer and reads the English aloud if 🔊 Read is on, waits a little (3 s), then goes to the next
 sentence. The big clock at the bottom right shows the step and its seconds: 💭 think, 🔊 reading, ⏭ the wait
 after. The countdown only runs in quiet time: it waits while something is read aloud, while a panel (settings,
@@ -50,29 +49,6 @@ change the think time, "shorter" / "longer" (; / ') the wait after the answer; b
 answer aloud on / off, how many times it is read (1–3), reading speed (0.75 by default, slower than the voice's
 own 1; the lesson's own 🔊 buttons read at this speed too), and the wait after the answer. "Try the speed"
 reads a sample sentence; "Defaults" puts them all back. All of them are remembered.
-
-**The recorded Persian voice** (🎙 Record in ⋯): the Persian of a sentence can be your own voice. `app/record.html`
-is a recorder for this: choose an exercise, and it walks through the sentences — **Space** (or the red button)
-starts, it stops by itself after a second of silence, and it moves to the next unrecorded sentence. **R** re-records,
-**P** plays the take, **S** skips, **Backspace** goes back, **F** flags a sentence for later; the number row and
-the sidebar show what is done (a green chip) and how much of the exercise is left. “پخش خودکار” plays the take back
-before moving on; “انگلیسی” shows the English under the Persian. The mic stays on after the first take.
-
-Each take is trimmed and encoded by `serve.py` to **24 kHz mono AAC at 32 kbps** (~4 KB a second, about 1 MB for a
-65-sentence TED-Ed exercise; the whole collection at ~19 hours is ~260 MB). It is kept as
-`audio/<collection>/<exercise>/<sha1(fa)>.m4a`, named by the Persian text rather than the sentence number, so
-reordering an exercise never plays the wrong voice and an edited sentence correctly asks for a new take. Audio is
-not in git; a re-record replaces the file and the `?v=<mtime>` on its URL makes browsers fetch the new one.
-
-In a lesson, a small 🔊 appears beside the Persian of a sentence that has a recording; click it to hear it.
-In auto mode the setting **“Play the Persian sentence”** (⚙) plays it as the sentence opens and the countdown waits
-for it, then the English answer is read as before. It is on by default; on a fresh page the browser needs one click
-or key before it may play sound, the same rule as the English voice.
-
-Recording at the https address (on the laptop or the phone) saves everything on the server in one place; recording
-at `127.0.0.1` saves on the laptop. `scripts/audio-sync.sh pull` copies the server's recordings to the laptop (a
-backup, and what the local server plays), `push` the other way, and it never deletes a take. `state/` and `audio/`
-are the two things on the server that git does not carry. The ⭐ starred exercise has no voice of its own yet.
 
 **⭐ Starred sentences** (the Anki deck, in the app): ☆ under any sentence (or **X**, or say "star") stars it, and
 a small ★ marks it in its exercise. Every starred sentence is in **⭐ ستاره‌دار → جمله‌های ستاره‌دار**, first in
