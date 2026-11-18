@@ -13,9 +13,8 @@ const THINKS = [3, 4, 5, 6, 7, 8, 10, 12, 15, 20, 25, 30, 40, 50, 60];   // s to
 const PER_WORD = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.75, 1];                // extra s to think per word of the English
 const AFTERS = [0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 20, 30];            // s to wait once the answer has been read
 const TIMES = [1, 2, 3];                                                // times the answer is read aloud
-const REPS = [1, 2, 3, 4, 5];                                           // times a sentence is gone through: Persian, then English
 const RATES = [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 1, 1.1, 1.2];   // reading speed (1 = the voice's own)
-const DEFAULTS = { think: 10, perWord: 0, after: 3, speak: true, times: 1, rate: 0.75, faPlay: true, reps: 1 };
+const DEFAULTS = { think: 10, perWord: 0, after: 3, speak: true, times: 1, rate: 0.75, faPlay: true };
 const REPEAT_GAP = 900;              // ms between two readings of the same answer
 const MODEL_URL = new URL("vendor/vosk-model-small-en-us-0.15.tar.gz", location.href).href;
 const MIN_CONF = 0.85;               // ignore words the recognizer is not sure about
@@ -286,12 +285,10 @@ function anki() {
 
 /* ---------- auto mode ----------
    A sentence opens → think time (+ per word) → the answer opens and is read aloud (if on, × times) → the wait
-   after it → the same sentence again if it is set to repeat (Persian first, then English) → the next sentence.
-   The countdown only runs while nothing is being read aloud, no panel is open and you are not typing, so the
-   time is always quiet time to think (or to read the answer). Any move, by voice, key, the bar or a click in
-   the lesson, starts the countdown of the new step afresh; a pause keeps it. */
+   after it → the next sentence. The countdown only runs while nothing is being read aloud, no panel is open and
+   you are not typing, so the time is always quiet time to think (or to read the answer). Any move, by voice,
+   key, the bar or a click in the lesson, starts the countdown of the new step afresh; a pause keeps it. */
 let auto = false, paused = false, cutRead = false;   // cutRead: a pause stopped the answer being read
-let repLeft = 1;                     // rounds of this sentence left before the next one
 let left = 0, total = 0, lastTick = 0, ticker = 0;   // ms of the countdown, and its full length
 const overlayOpen = () => !$("#help").hidden || !$("#words").hidden || !$("#settings").hidden
   || document.body.classList.contains("more") || phone.matches && sideOpen;
@@ -300,7 +297,6 @@ function enWords() {
   return p ? (p.querySelector(".en-box .say")?.dataset.say || "").split(/\s+/).filter(Boolean).length : 0;
 }
 const stepTime = () => shown() ? S.after : S.think + S.perWord * enWords();
-const resetReps = (a) => { repLeft = a >= 0 ? S.reps : 1; };
 function restart() {                 // the countdown of the step the lesson is on now
   total = left = F && active() >= 0 ? stepTime() * 1000 : 0;
   showClock();
@@ -325,16 +321,9 @@ function autoMove() {
   const a = active();
   if (a < 0) openPlace();
   else if (!shown()) reveal();
-  else if (repLeft > 1) { repLeft--; repeatSame(a); return; }   // Persian → think → English, again
   else if (a + 1 >= F.spans.length) return endOfLesson();   // auto mode never walks into the next exercise
   else open(a + 1);
   restart();                         // changed() restarts it as well, once the engine has moved
-}
-function repeatSame(a) {             // the same sentence again: the answer hidden, the Persian played, the think time
-  if (!F.win.reopenAt?.(a)) { F.spans[a].click(); F.spans[a].click(); }   // no API: close, then open it again
-  quietReveal = false;
-  maybeFa(a);                        // before restart(), so the think time waits for the voice
-  restart();
 }
 function endOfLesson() {
   setAuto(false);
@@ -347,8 +336,6 @@ function setAuto(on) {
     const a = F ? active() : -1;
     if (F && a < 0) openPlace();
     else if (F && shown() && a === F.spans.length - 1) open(0);   // started on a finished exercise: from the top
-    resetReps(F ? active() : -1);
-    if (F && shown()) repLeft = 1;      // this sentence has already had its round
     restart();
     lastTick = performance.now();
     ticker = setInterval(tick, 100);
@@ -655,7 +642,6 @@ function changed() {                 // the engine opened, closed or revealed so
       if (current || gapTimer || F.win.speechSynthesis?.speaking) { F.win.speechSynthesis?.cancel(); hush(); }
       stopFa();
       lastActive = a; wordAt = 0; quietReveal = false;
-      resetReps(a);                  // a new sentence: all of its rounds
       maybeFa(a);                    // before restart(), so the think time waits for the voice
       F.doc.querySelectorAll(".wentry.hf-cur").forEach((w) => w.classList.remove("hf-cur"));
     } else if (sh && !lastShown) {   // the answer just opened: by a command, the engine's button or Enter
@@ -969,7 +955,6 @@ const SETTINGS = [
   { key: "times", list: TIMES, label: "Times the answer is read", say: (v) => `${v}×` },
   { key: "rate", list: RATES, label: "Reading speed", say: (v) => `${v}×` },
   { key: "after", list: AFTERS, label: "Wait after the answer, then next", say: (v) => `${v} s` },
-  { key: "reps", list: REPS, label: "Repeat each sentence (Persian, then English)", say: (v) => `${v}×` },
   { key: "faPlay", list: [true, false], label: "Play the Persian sentence (your recording)", say: (v) => v ? "On" : "Off" },
 ];
 function buildSettings() {
@@ -984,9 +969,7 @@ function buildSettings() {
   }).join("");
   $("#setFlow").textContent = `This sentence (${n} words): ${think} s to think → answer` +
     (S.speak ? ` read aloud ${S.times > 1 ? S.times + " times" : "once"}` : " shown") +
-    ` → ${S.after} s → ` +
-    (S.reps > 1 ? `the same sentence again (${S.reps} rounds of Persian, then English), then next.` : "next sentence.") +
-    (S.speak ? "" : " (Nothing is read aloud.)");
+    ` → ${S.after} s → next sentence.` + (S.speak ? "" : " (Nothing is read aloud.)");
 }
 function changeSetting(key, d) {
   const s = SETTINGS.find((x) => x.key === key);
@@ -998,7 +981,6 @@ function changeSetting(key, d) {
     if (!S.speak && speaking === panel()?.querySelector(".en-box .say")) hush();
   }
   if (key === "faPlay" && !S.faPlay) stopFa();
-  if (key === "reps" && repLeft > S.reps) repLeft = S.reps;   // fewer rounds from now on, never more
   if (key === "think" || key === "after") showPace();
   if (auto && F && (key === "think" || key === "perWord" ? !shown() : key === "after" && shown())) restart();
   buildSettings();

@@ -453,7 +453,6 @@ else
   window.hasFa = i => { const h = FA.hashes[i]; return !!(h && FA.clips[h]); };
   window.playFa = playFa;
   window.stopFa = stopFa;
-  window.reopenAt = i => { if (i !== active) return false; open(i); return true; };   // auto mode: the same sentence again
 
   /* فوکِ کادر پاسخ نمی‌پرد تا Enter همچنان کار کند */
   slot.addEventListener('mousedown', e => { if (e.target.closest('.say, .anki-btn')) e.preventDefault(); });

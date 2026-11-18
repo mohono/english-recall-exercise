@@ -38,9 +38,7 @@ voice.
 **Auto mode** (P, ▶ Auto, "play"): opens a sentence (the Persian is not synthesized; if you have recorded it, the
 recording plays first, see “The recorded Persian voice”), waits the think time
 (10 s), opens the answer and reads the English aloud if 🔊 Read is on, waits a little (3 s), then goes to the next
-sentence. **Repeat each sentence** (⚙, 1–5, off at 1) goes through the same sentence that many times before it moves
-on — Persian, think, English, wait, and the pair again, not each half on its own; the answer is hidden again at the
-start of each round. The big clock at the bottom right shows the step and its seconds: 💭 think, 🔊 reading, ⏭ the wait
+sentence. The big clock at the bottom right shows the step and its seconds: 💭 think, 🔊 reading, ⏭ the wait
 after. The countdown only runs in quiet time: it waits while something is read aloud, while a panel (settings,
 lessons, help, words) is open and while you type in the typing box. Any move (next, previous, skip, repeat, a
 click on a sentence) starts the time of the new step afresh, and going to another sentence stops the reading of
@@ -50,8 +48,7 @@ answer cut off by the pause is read again. "stop" (or Esc, or ■) turns auto mo
 change the think time, "shorter" / "longer" (; / ') the wait after the answer; both are on the bar too.
 **⚙ Settings** (O, "settings"): time to think, extra time per English word (for long sentences), read the
 answer aloud on / off, how many times it is read (1–3), reading speed (0.75 by default, slower than the voice's
-own 1; the lesson's own 🔊 buttons read at this speed too), the wait after the answer, and how many times each
-sentence repeats (Persian → English as one round). "Try the speed"
+own 1; the lesson's own 🔊 buttons read at this speed too), and the wait after the answer. "Try the speed"
 reads a sample sentence; "Defaults" puts them all back. All of them are remembered.
 
 **The recorded Persian voice** (🎙 Record in ⋯): the Persian of a sentence can be your own voice. `app/record.html`
