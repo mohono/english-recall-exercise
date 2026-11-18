@@ -8,7 +8,7 @@ const CACHE = "english-recall";
 const NET_WAIT = 3000;
 const SHELL = [
   "./", "index.html", "drill.html", "hands.js", "hands.css", "frame.css", "stars.js", "manifest.webmanifest",
-  "fonts/fonts.css", "fonts/NotoSans-latin-2.woff2", "fonts/NotoSans-latin-ext-1.woff2",
+  "record.html", "fonts/fonts.css", "fonts/NotoSans-latin-2.woff2", "fonts/NotoSans-latin-ext-1.woff2",
   "fonts/SourceSerif4-latin-2.woff2", "fonts/SourceSerif4-latin-ext-1.woff2", "fonts/Vazirmatn-arabic-1.woff2",
   "fonts/Vazirmatn-latin-2.woff2", "fonts/Vazirmatn-latin-ext-1.woff2",
   "icons/icon-192.png", "icons/icon-512.png", "icons/maskable-512.png", "icons/apple-touch-icon.png",
@@ -51,10 +51,12 @@ self.addEventListener("fetch", (e) => {
   const req = e.request;
   const url = new URL(req.url);
   if (req.method !== "GET" || url.origin !== location.origin) return;   // AnkiConnect, anything not ours
-  if (!url.pathname.startsWith("/app/") && !url.pathname.startsWith("/data/")) return;
+  if (!url.pathname.startsWith("/app/") && !url.pathname.startsWith("/data/")
+      && !url.pathname.startsWith("/audio/")) return;
   if (req.headers.has("range")) return;                                  // let the browser handle partial requests
   const k = key(url);
-  e.respondWith(FOREVER.test(url.pathname) ? cacheFirst(req, k) : networkFirst(req, k));
+  const forever = FOREVER.test(url.pathname) || url.pathname.startsWith("/audio/");   // ?v=<mtime>
+  e.respondWith(forever ? cacheFirst(req, k) : networkFirst(req, k));
 });
 
 // {cacheAll: [urls]} from the view: fetch every exercise not yet cached, a few at a time, and report back
