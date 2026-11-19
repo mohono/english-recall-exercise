@@ -41,14 +41,12 @@ body { margin: 0; overflow: hidden; background: var(--bg); color: var(--fg); fon
 #more { display: contents; }
 #more .touch, #moreBtn { display: none; }
 #sideBtn, #where { order: -2; }
-#more .nav { order: -1; }
 #moreBtn.on { background: var(--accent); color: var(--bg); border-color: var(--accent); }
 #backdrop { position: fixed; inset: 0; z-index: 14; }
 #backdrop[hidden] { display: none; }
 #where b { color: var(--fg); }
 #where .count { direction: ltr; unicode-bidi: isolate; font-variant-numeric: tabular-nums; }
-#pace, #after { min-width: 34px; text-align: center; color: var(--muted); font-variant-numeric: tabular-nums; }
-#auto.on, #speak.on, #sideBtn.on, #remote.on { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+#auto.on, #speak.on, #sideBtn.on { background: var(--accent); color: var(--bg); border-color: var(--accent); }
 #progress { position: fixed; top: 52px; left: 0; right: 0; height: 4px; z-index: 20; }
 #progress div { height: 100%; width: 0; background: var(--accent); }
 
@@ -191,7 +189,6 @@ body.side #clock { right: calc(var(--side) + 26px); }
 #settings .rules { margin: .5em 0 .8em; font-size: 15px; color: var(--muted); line-height: 1.5; }
 #settings .acts { display: flex; gap: 10px; flex-wrap: wrap; }
 @media (max-width: 700px) { #settings .row { grid-template-columns: 1fr 42px 110px 42px; font-size: 17px; } }
-#bar .sep { color: var(--muted); margin-left: 4px; }
 
 /* ---------- narrower than the full bar: everything but the transport goes into the ⋯ sheet ---------- */
 @media (max-width: 1250px) {
@@ -206,10 +203,8 @@ body.side #clock { right: calc(var(--side) + 26px); }
   #more .touch { display: flex; }
   #more .group { width: 100%; flex-wrap: wrap; gap: 6px; }
   #more .group::before { content: attr(data-label); width: 100%; font-size: 12px; color: var(--muted); letter-spacing: .02em; }
-  #more .nav { order: 0; }
   #more button, #more select { height: 44px; min-width: 46px; padding: 0 11px; }
   #more select { max-width: 100%; flex: 1; }
-  #pace, #after { min-width: 46px; }
 }
 
 /* ---------- phone: transport at the bottom, sidebar as a drawer, dialogs full screen ---------- */

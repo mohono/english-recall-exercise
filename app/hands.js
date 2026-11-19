@@ -8,20 +8,20 @@
 const SIZES = [14, 16, 18, 20, 22, 24, 26, 28, 30, 33, 36, 40, 44];   // root font size of the lesson, px
 const THEMES = ["light", "dark", "contrast"];
 // auto mode: what each setting can be (⚙, O, "settings"); the values themselves are stored, not their place here
-const THINKS = [3, 4, 5, 6, 7, 8, 10, 12, 15, 20, 25, 30, 40, 50, 60];   // s to think before the answer opens
+const THINKS = [1, 2, 3, 4, 5, 6, 7, 8, 10, 12, 15, 20, 25, 30, 40, 50, 60];   // s to think before the answer opens
 const PER_WORD = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.75, 1];                // extra s to think per word of the English
 const AFTERS = [0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 20, 30];            // s to wait once the answer has been read
 const TIMES = [1, 2, 3];                                                // times the answer is read aloud
 const REPS = [0, 1, 2, 3, 4, 5];                                        // extra full rounds of a sentence: Persian, then English
 const RATES = [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 1, 1.1, 1.2];   // reading speed (1 = the voice's own)
-const DEFAULTS = { think: 10, perWord: 0, after: 3, speak: true, times: 1, rate: 0.75, faPlay: true, reps: 0 };
+const DEFAULTS = { think: 10, perWord: 0, after: 3, speak: true, times: 1, rate: 0.75, faPlay: true, reps: 0, typing: true };
 const REPEAT_GAP = 900;              // ms between two readings of the same answer
 
 // key -> command (Space is next, Shift+Space previous: see onKey). ↑ ↓ PageUp PageDown keep scrolling.
 const KEYS = {
   Enter: "step", ArrowRight: "step", n: "step", ArrowLeft: "prev", b: "prev",
   p: "auto", "=": "faster", "-": "slower",
-  c: "bookmark", x: "star", "*": "star", "+": "anki", "]": "nextLesson", "[": "prevLesson", ".": "bigger", ",": "smaller",
+  c: "bookmark", x: "star", "*": "star", "+": "anki", ".": "bigger", ",": "smaller",
   v: "speakAnswers", l: "side", t: "theme", f: "fullscreen", o: "settings", e: "side", ";": "shorterWait", "'": "longerWait", "?": "help",
 };
 const MOVES = new Set(["step", "prev"]);   // these restart the auto countdown
@@ -36,7 +36,6 @@ function save(key, val) { try { localStorage.setItem("lhf." + key, JSON.stringif
 // what this device cannot do is not offered at all (a phone that opened the laptop's address over the Wi-Fi):
 // + Anki (AnkiConnect listens on the laptop's own 127.0.0.1)
 const CAN_ANKI = ["127.0.0.1", "localhost", "[::1]"].includes(location.hostname);
-const CAN_REMOTE = "mediaSession" in navigator;      // earbud / headset buttons
 const coarse = matchMedia("(pointer: coarse)");     // a touch screen is the main way in
 const phone = matchMedia("(max-width: 700px)");   // bottom bar, sidebar as a drawer, dialogs full screen
 let sideOpen = false;                // the exercises drawer on a phone (never stored: it opens over the lesson)
@@ -44,7 +43,6 @@ let sideOpen = false;                // the exercises drawer on a phone (never s
 const S = {
   size: load("size", phone.matches ? 18 : 24), theme: load("theme", "light"),
   ...Object.fromEntries(Object.entries(DEFAULTS).map(([k, v]) => [k, load(k, v)])),   // auto mode, read aloud
-  remote: load("remote", coarse.matches),   // earbud / headset buttons drive the drill (🎧)
   side: load("side", true),          // the exercises sidebar (pages with more than one exercise)
   sideSmall: load("sideSmall", false),   // shrunk to a narrow strip of lesson numbers
   closed: load("closed", {}),        // sidebar groups: { collection: false } = open (closed until you open one)
@@ -67,11 +65,11 @@ const panel = () => active() < 0 ? null : F.doc.querySelector(".drawer .slot");
 const shown = () => { const p = panel(); return !!p && !p.querySelector(".answer").hidden; };
 const place = () => load("at." + F.path, { i: 0, shown: false });
 const ttsBusy = () => performance.now() < readingUntil || !!gapTimer || !!F?.win.speechSynthesis?.speaking;
-let faUntil = 0, faAt = -1;         // the uploaded Persian voice, while it is playing (the countdown waits)
+let faUntil = 0, faAt = -1;         // the Persian voice clip, while it is playing (the countdown waits)
 // also an utterance asked for but not started yet (bounded: play() gives up on it after a few seconds)
 const reading = () => ttsBusy() || performance.now() < faUntil || (!!current && !readingUntil);
 
-/* The uploaded Persian voice, played by the lesson page on the sentence it opened. */
+/* The Persian voice clip, played by the lesson page on the sentence it opened. */
 function stopFa() {
   faUntil = 0;
   try { F?.win.stopFa?.(); } catch (e) { /* the lesson page is not a drill */ }
@@ -305,7 +303,6 @@ function play_() {                   // start auto mode, or go on after a pause
 }
 function setThink(d) {
   S.think = stepIn(THINKS, S.think, d); save("think", S.think);
-  showPace();
   if (auto && F && !shown()) restart();
   toast(`${S.think}s to think`);
 }
@@ -316,12 +313,9 @@ function stepIn(list, value, d) {    // the value d places further on in list (f
 }
 function setAfter(d) {
   S.after = stepIn(AFTERS, S.after, d); save("after", S.after);
-  showPace();
   if (auto && F && shown()) restart();
   toast(`${S.after}s wait after the answer`);
 }
-function showPace() { $("#pace").textContent = "💭" + S.think + "s"; $("#after").textContent = S.after + "s"; }
-
 let clockText = "";
 function showClock(why = auto && !paused ? holding() : "") {
   const btn = $("#auto");
@@ -363,6 +357,10 @@ function applyLook() {
   root.classList.toggle("hf-no-anki", !CAN_ANKI);
   root.classList.toggle("hf-auto", auto);            // touch: a sentence is "next" too, and is not selected by a long press
 }
+function applyTyping() {             // show / hide the translation box in the lesson
+  if (!F) return;
+  try { F.win.setTyping?.(S.typing); } catch { /* the lesson page is not a drill */ }
+}
 function keepPlace(change) {         // change the look without losing the line you are on
   const a = active();
   const el = a >= 0 ? F.spans[a] : F.spans.find((s) => s.getBoundingClientRect().bottom > 0);
@@ -394,12 +392,6 @@ function goLesson(path) {
   F = null;
   frame.src = "drill.html?d=" + l.path;
   markSide(l.path);
-}
-function lessonStep(d) {             // ] [ and "next / previous lesson": through the sidebar order
-  const l = LESSONS[LESSONS.findIndex((x) => x.path === S.last) + d];
-  if (!l) { toast(d > 0 ? "This is the last exercise" : "This is the first exercise"); return; }
-  goLesson(l.path);
-  toast(l.title, 3000);
 }
 function prog(l) {                   // ✓ once its last answer has been seen, else your place in it
   if (!l.units) return "";
@@ -478,44 +470,6 @@ function closeDrawers() {
 }
 $("#backdrop").onclick = closeDrawers;
 phone.addEventListener("change", () => { sideOpen = false; setMore(false); F ? keepPlace(showSide) : showSide(); });
-
-/* ---------- earbud / headset buttons (🎧): play-pause = auto mode, next / previous track = sentence ----------
-   A browser passes those buttons only to a page that is playing sound, so a silent sound loops while this is on
-   (it also puts play / next / previous on the phone's lock screen). */
-let remoteAudio = null;
-function silentWav(sec) {            // 8 kHz, 8 bit, mono, all silence
-  const rate = 8000, n = rate * sec, buf = new ArrayBuffer(44 + n), v = new DataView(buf);
-  const str = (o, s) => [...s].forEach((c, i) => v.setUint8(o + i, c.charCodeAt(0)));
-  str(0, "RIFF"); v.setUint32(4, 36 + n, true); str(8, "WAVEfmt "); v.setUint32(16, 16, true);
-  v.setUint16(20, 1, true); v.setUint16(22, 1, true); v.setUint32(24, rate, true); v.setUint32(28, rate, true);
-  v.setUint16(32, 1, true); v.setUint16(34, 8, true); str(36, "data"); v.setUint32(40, n, true);
-  new Uint8Array(buf, 44).fill(128);
-  return URL.createObjectURL(new Blob([buf], { type: "audio/wav" }));
-}
-function setRemote(on) {
-  $("#remote").classList.toggle("on", on && CAN_REMOTE);
-  if (!CAN_REMOTE) return;
-  const acts = { play: "auto", pause: "auto", nexttrack: "step", previoustrack: "prev" };
-  for (const [a, c] of Object.entries(acts)) {
-    try { navigator.mediaSession.setActionHandler(a, on ? () => run(c) : null); } catch { /* not known to this browser */ }
-  }
-  if (!on) { remoteAudio?.pause(); return; }
-  if (!remoteAudio) {
-    remoteAudio = new Audio(silentWav(10));   // long enough for the phone to count it as media
-    remoteAudio.loop = true;
-    // something else took the sound (the voice reading an answer, a notification): take it up again
-    remoteAudio.addEventListener("pause", () => setTimeout(() => { if (S.remote) remoteAudio.play().catch(() => {}); }, 800));
-  }
-  remoteAudio.play().catch(() => {});         // before the first tap the browser refuses: wakeRemote tries again
-  remoteTitle();
-}
-function wakeRemote() { if (S.remote && CAN_REMOTE && (!remoteAudio || remoteAudio.paused)) setRemote(true); }
-function remoteTitle() {             // what the lock screen shows
-  if (!S.remote || !CAN_REMOTE || !F || !window.MediaMetadata) return;
-  const at = (active() >= 0 ? active() : place().i) + 1;
-  navigator.mediaSession.metadata = new MediaMetadata({
-    title: F.title, artist: `${at} / ${F.spans.length}`, album: "Lingemy" });
-}
 
 /* swipe the lesson sideways: right = next, left = previous (the way pages of a Persian text turn) */
 function watchSwipes(win) {
@@ -601,7 +555,6 @@ function changed() {                 // the engine opened, closed or revealed so
     $("#where").innerHTML = `<span class="t"><b>${esc(F.group)}</b>${part}</span><span class="count">${at} / ${n}</span>`;
     $("#where").classList.toggle("multi", !!part);
     $("#progress div").style.width = (n ? 100 * at / n : 0) + "%";
-    remoteTitle();
   });
 }
 
@@ -617,6 +570,7 @@ frame.addEventListener("load", () => {
   link.rel = "stylesheet"; link.href = new URL("frame.css", location.href).href;
   doc.head.append(link);
   applyLook();
+  applyTyping();
   win.addEventListener("keydown", onKey, true);
   doc.addEventListener("click", onLessonClick);
   doc.addEventListener("click", (e) => {             // auto mode, touch: a tap on a sentence is "next", not a jump to it
@@ -648,7 +602,6 @@ frame.addEventListener("load", () => {
   };
   link.onload = go; link.onerror = go;               // open the sentence once the page has its final size
   watchSwipes(win);
-  win.addEventListener("pointerdown", wakeRemote); win.addEventListener("keydown", wakeRemote);
 });
 
 /* ---------- commands: keys and the bar buttons (data-cmd) all run these ---------- */
@@ -661,7 +614,6 @@ const COMMANDS = {
   shorterWait: () => setAfter(-1),
   longerWait: () => setAfter(1),
   settings: () => showSettings($("#settings").hidden),
-  nextLesson: () => lessonStep(1), prevLesson: () => lessonStep(-1),
   bigger: () => stepSize(1), smaller: () => stepSize(-1),
   speakAnswers: () => {
     toggle("speak", "🔊 Answers read aloud: on", "🔊 Answers read aloud: off");
@@ -670,11 +622,6 @@ const COMMANDS = {
   theme: () => setTheme(THEMES[(THEMES.indexOf(S.theme) + 1) % THEMES.length]),
   fullscreen: () => (document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen())
     .catch(() => toast("Fullscreen not allowed here")),
-  remote: () => {
-    S.remote = !S.remote; save("remote", S.remote);
-    setRemote(S.remote);
-    toast(S.remote ? "🎧 Earbud buttons on: play / pause = auto mode, next / previous = sentence" : "🎧 Earbud buttons off", 5000);
-  },
   more: () => setMore(!document.body.classList.contains("more")),
   side: () => {                      // E, ▤: expanded → shrunk → hidden → expanded; on a phone the drawer, open / closed
     if (phone.matches) { sideOpen = !sideOpen; showSide(); return; }
@@ -687,11 +634,11 @@ const COMMANDS = {
   },
   help: () => { $("#help").hidden = !$("#help").hidden; },
 };
-const NEEDS_LESSON = new Set(["step", "prev", "bookmark", "star", "anki", "nextLesson", "prevLesson"]);
+const NEEDS_LESSON = new Set(["step", "prev", "bookmark", "star", "anki"]);
 
 // the settings stay open while you change them by key or by their buttons
 const KEEPS_SETTINGS = new Set(["settings", "faster", "slower", "shorterWait", "longerWait", "speakAnswers", "auto", "autoOn", "pause", "quiet", "bigger", "smaller", "theme"]);
-const KEEPS_MORE = new Set(["more", "remote", "faster", "slower", "shorterWait", "longerWait", "bigger", "smaller", "theme", "speakAnswers"]);
+const KEEPS_MORE = new Set(["more", "faster", "slower", "shorterWait", "longerWait", "bigger", "smaller", "theme", "speakAnswers"]);
 function run(cmd) {
   if (!KEEPS_MORE.has(cmd)) setMore(false);            // the sheet stays open while you step a value
   if (cmd !== "side" && sideOpen) { sideOpen = false; showSide(); }
@@ -734,8 +681,23 @@ function onLessonClick(e) {          // a sentence or a button of the engine
   closeDrawers(); showSettings(false); $("#help").hidden = true;
 }
 
+/* ---------- the phone / PWA Back button: close an open panel, else leave the app ---------- */
+function closeTopPanel() {
+  if (!$("#settings").hidden) { showSettings(false); return true; }
+  if (!$("#help").hidden) { $("#help").hidden = true; return true; }
+  if (phone.matches && sideOpen) { sideOpen = false; showSide(); return true; }
+  if (document.body.classList.contains("more")) { setMore(false); return true; }
+  return false;
+}
+function armBack() { history.pushState({ app: 1 }, "", location.href); }
+window.addEventListener("popstate", () => {
+  if (closeTopPanel()) { armBack(); return; }   // a panel closed: keep the next Back in the app
+  history.back();                                // nothing open: leave (browser tab, or the PWA)
+});
+
 /* ---------- auto-mode settings (⚙, O, "settings") ---------- */
 const SETTINGS = [
+  { key: "typing", list: [false, true], label: "Typing box for your translation", say: (v) => v ? "On" : "Off" },
   { key: "think", list: THINKS, label: "Time to think before the answer", say: (v) => `${v} s` },
   { key: "perWord", list: PER_WORD, label: "Extra time to think, per English word", say: (v) => v ? `+${v} s` : "none" },
   { key: "speak", list: [true, false], label: "Read the English answer aloud (V)", say: (v) => v ? "On" : "Off" },
@@ -743,11 +705,11 @@ const SETTINGS = [
   { key: "rate", list: RATES, label: "Reading speed", say: (v) => `${v}×` },
   { key: "after", list: AFTERS, label: "Wait after the answer, then next", say: (v) => `${v} s` },
   { key: "reps", list: REPS, label: "Repeat each sentence (Persian, then English)", say: (v) => v ? `+${v}×` : "Off" },
-  { key: "faPlay", list: [true, false], label: "Play the Persian sentence (your recording)", say: (v) => v ? "On" : "Off" },
+  { key: "faPlay", list: [true, false], label: "Play the Persian voice clip before the think time", say: (v) => v ? "On" : "Off" },
 ];
 function buildSettings() {
   const n = F && active() >= 0 ? enWords() : 12;
-  const think = Math.round(S.think + S.perWord * n);
+  const think = Math.round((S.think + S.perWord * n) * 10) / 10;
   $("#setList").innerHTML = SETTINGS.map((s) => {
     const i = s.list.indexOf(S[s.key]);
     return `<div class="row"><span>${esc(s.label)}</span>` +
@@ -771,8 +733,8 @@ function changeSetting(key, d) {
     if (!S.speak && speaking === panel()?.querySelector(".en-box .say")) hush();
   }
   if (key === "faPlay" && !S.faPlay) stopFa();
+  if (key === "typing") applyTyping();
   if (key === "reps" && repLeft > S.reps) repLeft = S.reps;   // fewer rounds from now on, never more
-  if (key === "think" || key === "after") showPace();
   if (auto && F && (key === "think" || key === "perWord" ? !shown() : key === "after" && shown())) restart();
   buildSettings();
 }
@@ -787,7 +749,7 @@ $("#settings").addEventListener("click", (e) => {
   if (b.dataset.set) changeSetting(b.dataset.set, +b.dataset.d);
   else if (b.id === "setDefaults") {
     for (const [k, v] of Object.entries(DEFAULTS)) { S[k] = v; save(k, v); }
-    applyLook(); showPace();
+    applyLook(); applyTyping();
     if (auto && F) restart();
     buildSettings();
     toast("Settings back to the defaults");
@@ -894,11 +856,7 @@ async function init() {
   // what this device cannot do is not offered: fullscreen (iPhone), + Anki away from the laptop
   if (!document.fullscreenEnabled) $('[data-cmd="fullscreen"]').hidden = true;
   if (!CAN_ANKI) $('#more [data-cmd="anki"]').hidden = true;
-  if (!CAN_REMOTE) $("#remote").parentElement.hidden = true;
-  $("#remote").classList.toggle("on", S.remote && CAN_REMOTE);
-  window.addEventListener("pointerdown", wakeRemote); window.addEventListener("keydown", wakeRemote);
   showSide();
-  showPace();
   showClock();
   document.addEventListener("keydown", onKey, true);
   document.addEventListener("click", onClick);
@@ -922,6 +880,7 @@ async function init() {
   const synced = Stars.sync();
   if (first === STARRED) await Promise.race([synced, new Promise((r) => setTimeout(r, 1500))]);
   goLesson(first);
+  armBack();                         // the first Back closes a panel instead of leaving the app
 }
 
 init();

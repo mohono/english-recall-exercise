@@ -80,6 +80,7 @@
     font-family:var(--serif);font-size:1rem;line-height:1.6;color:var(--en);
     padding:.65rem .75rem;background:var(--bg);border:1px solid var(--line);border-radius:9px}
   textarea:focus{outline:none;border-color:var(--accent);background:var(--surface)}
+  body.no-typing .attempt label, body.no-typing .attempt textarea{display:none}
   .acts{display:flex;align-items:center;gap:.5rem;margin-top:.7rem}
   .reveal{flex:1;min-height:44px;font:inherit;font-size:.92rem;font-weight:500;
     padding:.65rem 1rem;background:var(--accent);color:#fff;border:0;border-radius:10px;cursor:pointer}
@@ -104,14 +105,8 @@
   .say.on svg path{stroke:#fff}
   .say:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
   .no-tts .say{display:none}
-  .no-tts .fa-say,.no-tts .fa-up{display:grid}
-  .acts .fa-say,.acts .fa-up{margin:0;width:40px;height:44px}
-  .fa-up i{border-style:dashed}
-  .fa-up.busy i{opacity:.45;cursor:progress}
-  .fa-up:disabled{cursor:progress}
-  .fa-msg{font-size:.8rem;line-height:1.7;color:var(--text-2);margin-top:.5rem}
-  .fa-msg:empty{display:none}
-  .fa-msg.err{color:var(--accent-deep)}
+  .no-tts .fa-say{display:grid}
+  .acts .fa-say{margin:0;width:40px;height:44px}
   .ipa{direction:ltr;text-align:left;unicode-bidi:isolate;
     font-family:"Noto Sans","Segoe UI","Lucida Sans Unicode","DejaVu Sans",Arial,sans-serif;
     font-size:.9rem;line-height:1.6;color:var(--text-2);margin-top:.35rem}
@@ -365,6 +360,19 @@ else
   drawer.innerHTML = '<div><div class="slot"></div></div>';
   const slot = drawer.querySelector('.slot');
 
+  /* کادر ترجمه: از صفحهٔ ⚙ روشن / خاموش می‌شود و هیچ‌وقت خودش فوکوس نمی‌گیرد */
+  let typing = true;
+  try { typing = localStorage.getItem('lhf.typing') !== 'false'; } catch(e){}
+  const paintTyping = () => {
+    document.body.classList.toggle('no-typing', !typing);
+    if (!typing) slot.querySelector('textarea')?.blur();
+  };
+  window.setTyping = on => { typing = !!on; paintTyping(); };
+  window.addEventListener('storage', e => {
+    if (e.key === 'lhf.typing') { typing = e.newValue !== 'false'; paintTyping(); }
+  });
+  paintTyping();
+
   /* خواندن با صدای انگلیسی آمریکایی مرورگر */
   const TTS = 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window;
   if (!TTS) document.documentElement.classList.add('no-tts');
@@ -397,11 +405,10 @@ else
     speechSynthesis.addEventListener?.('voiceschanged', pickVoice);
   }
 
-  /* ── صدای فارسی: audio/<exercise>/<sha1(fa)>.m4a، آپلودشده از خود درس ──
+  /* ── صدای فارسی: audio/<exercise>/<sha1(fa)>.m4a، ساخته‌شده با scripts/fa-voices.py ──
      هر جمله با متن فارسی شناسایی می‌شود، پس جابه‌جایی واحدها صدا را قاطی نمی‌کند. */
   const FA = { clips: {}, hashes: {}, ready: false };
   const SPEAKER = '<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.6 6.1h2.3L7.8 3v10L4.9 9.9H2.6z"/><path d="M9.9 5.6a3.2 3.2 0 010 4.8M11.7 3.8a5.8 5.8 0 010 8.4"/></svg>';
-  const UPLOAD = '<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M8 10V3M5 6l3-3 3 3"/><path d="M3 11v1.6c0 .8.6 1.4 1.4 1.4h7.2c.8 0 1.4-.6 1.4-1.4V11"/></svg>';
   let faAudio = null, faToken = 0;
   const faHash = async s => {
     const d = await crypto.subtle.digest('SHA-1', new TextEncoder().encode(s));
@@ -434,75 +441,12 @@ else
       setTimeout(() => end(a.duration), 180000);   // a browser that never fires "ended"
     });
   }
-  function faMsg(text, err = false){
-    const m = slot.querySelector('.fa-msg');
-    if (!m) return;
-    m.textContent = text;
-    m.classList.toggle('err', !!err);
-    clearTimeout(m._faTimer);
-    if (text && !err) m._faTimer = setTimeout(() => { if (m.textContent === text) m.textContent = ''; }, 4000);
-  }
-  function pickFile(i){
-    const inp = document.createElement('input');
-    inp.type = 'file';
-    inp.accept = 'audio/*,.m4a,.mp3,.wav,.ogg,.oga,.opus,.webm,.aac,.flac';
-    inp.style.display = 'none';
-    inp.addEventListener('change', () => {
-      const f = inp.files?.[0];
-      inp.remove();
-      if (f) uploadFa(i, f);
-    });
-    slot.append(inp);
-    inp.click();
-  }
-  async function uploadFa(i, file){
-    const h = FA.hashes[i];
-    if (!h) return;
-    if (file.size > 16 * 1024 * 1024) { faMsg('فایل بزرگ‌تر از ۱۶ مگابایت است', true); return; }
-    if (!/^audio\//.test(file.type) && !/\.(m4a|mp3|wav|ogg|oga|opus|webm|aac|flac)$/i.test(file.name)) {
-      faMsg('این فایل صوتی نیست', true); return;
-    }
-    const up = slot.querySelector('.fa-up');
-    if (up) { up.disabled = true; up.classList.add('busy'); }
-    faMsg('در حال آپلود…');
-    try {
-      const r = await fetch('../api/audio?d=' + encodeURIComponent(DRILL_ID) + '&h=' + h,
-        { method: 'POST', headers: { 'Content-Type': file.type || 'application/octet-stream' }, body: file });
-      if (!r.ok)
-        throw new Error((await r.text()).replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 140) || ('HTTP ' + r.status));
-      const j = await r.json();
-      FA.clips[h] = j.mtime;
-      if (active === i) addFa(i);
-      faMsg(`ذخیره شد (${Math.round((j.dur || 0) * 10) / 10} ثانیه)`);
-    } catch (e) {
-      if (active === i) addFa(i);
-      faMsg('آپلود نشد: ' + (e.message || e), true);
-    } finally {
-      const b = slot.querySelector('.fa-up');
-      if (b) { b.disabled = false; b.classList.remove('busy'); }
-    }
-  }
   function addFa(i){
     const acts = slot.querySelector('.acts');
     if (!acts) return;
     slot.querySelector('.fa-say')?.remove();
-    slot.querySelector('.fa-up')?.remove();
     const h = FA.hashes[i];
-    if (!h) return;
-    if (!slot.querySelector('.fa-msg')){
-      const m = document.createElement('div');
-      m.className = 'fa-msg'; m.setAttribute('role', 'status');
-      slot.querySelector('.attempt').append(m);
-    }
-    const up = document.createElement('button');
-    up.type = 'button';
-    up.className = 'say fa-up';
-    up.title = FA.clips[h] ? 'جایگزینی صدای این جمله' : 'آپلود صدای این جمله';
-    up.setAttribute('aria-label', up.title);
-    up.innerHTML = `<i>${UPLOAD}</i>`;
-    up.addEventListener('click', () => pickFile(i));
-    acts.insertBefore(up, slot.querySelector('.cp-btn'));
-    if (!FA.clips[h]) return;
+    if (!h || !FA.clips[h]) return;
     const b = document.createElement('button');
     b.type = 'button';
     b.className = 'say fa-say';
@@ -510,7 +454,7 @@ else
     b.setAttribute('aria-label', 'شنیدن جملهٔ فارسی');
     b.innerHTML = `<i>${SPEAKER}</i>`;
     b.addEventListener('click', () => { b.classList.contains('on') ? stopFa() : playFa(i); });
-    acts.insertBefore(b, up);
+    acts.insertBefore(b, slot.querySelector('.cp-btn'));
   }
   (async () => {
     if (!DRILL_ID || !window.crypto?.subtle) return;
@@ -518,7 +462,6 @@ else
       await Promise.all(FLAT.map(async (f, n) => { FA.hashes[n] = await faHash(f.it.fa); }));
       const j = await fetch('../api/audio?d=' + encodeURIComponent(DRILL_ID)).then(r => r.json());
       FA.clips = j.clips || {};
-      FA.ready = true;
       if (active !== null) addFa(active);
     } catch(e){}
   })();
@@ -724,6 +667,7 @@ c{color:#8F8E8A;font-size:.85em}
 
     const reveal = () => {
       if (!ans.hidden) return;
+      if (document.activeElement === ta) ta.blur();   // no keyboard over the answer
       ans.hidden = false;
       revBtn.hidden = true;
       bring(ans.querySelector('.en-line'));
@@ -752,7 +696,6 @@ c{color:#8F8E8A;font-size:.85em}
       ans.hidden ? reveal() : next();
     });
 
-    ta.focus({ preventScroll: true });
     bring(null);
   }
 

@@ -12,7 +12,7 @@ used here. Models are downloaded once into ~/.cache/eboo-tts/fa/ (60 MB each).
     python3 scripts/fa-voices.py --drill teded/001-… --force            # redo clips that exist
 
 Needs `piper` (pip install piper-tts) and ffmpeg. An existing clip is kept, so a take you
-uploaded yourself is never replaced unless you pass --force. The clips are not in git; copy
+made yourself is never replaced unless you pass --force. The clips are not in git; copy
 them to the server with rsync (see the end of the output).
 """
 import argparse
