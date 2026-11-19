@@ -35,9 +35,12 @@ click once anywhere; that one click also switches the mic on. The voice is the s
 use. If it doesn't start (for example a Google network voice while offline), it is tried again with a local
 voice.
 
-**Auto mode** (P, ▶ Auto, "play"): opens a sentence (the Persian is never read aloud), waits the think time
+**Auto mode** (P, ▶ Auto, "play"): opens a sentence (the Persian is not synthesized; if it has an uploaded voice,
+that clip plays first, see “Your voice for the Persian”), waits the think time
 (10 s), opens the answer and reads the English aloud if 🔊 Read is on, waits a little (3 s), then goes to the next
-sentence. The big clock at the bottom right shows the step and its seconds: 💭 think, 🔊 reading, ⏭ the wait
+sentence. **Repeat each sentence** (⚙, Off / +1…+5) plays extra full rounds before it moves on: one round is
+Persian → think → English → wait, and the whole round starts again, not each half on its own; the answer is hidden
+again at the start of every round. The big clock at the bottom right shows the step and its seconds: 💭 think, 🔊 reading, ⏭ the wait
 after. The countdown only runs in quiet time: it waits while something is read aloud, while a panel (settings,
 lessons, help, words) is open and while you type in the typing box. Any move (next, previous, skip, repeat, a
 click on a sentence) starts the time of the new step afresh, and going to another sentence stops the reading of
@@ -47,8 +50,26 @@ answer cut off by the pause is read again. "stop" (or Esc, or ■) turns auto mo
 change the think time, "shorter" / "longer" (; / ') the wait after the answer; both are on the bar too.
 **⚙ Settings** (O, "settings"): time to think, extra time per English word (for long sentences), read the
 answer aloud on / off, how many times it is read (1–3), reading speed (0.75 by default, slower than the voice's
-own 1; the lesson's own 🔊 buttons read at this speed too), and the wait after the answer. "Try the speed"
+own 1; the lesson's own 🔊 buttons read at this speed too), the wait after the answer, and how many extra rounds of
+each sentence to play (+1…+5, or Off; Persian → English as one round). "Try the speed"
 reads a sample sentence; "Defaults" puts them all back. All of them are remembered.
+
+**Your voice for the Persian** (⬆ beside a sentence): the Persian of a sentence can be a recording of your own
+voice. Open a sentence; under its Persian, the dashed ⬆ button picks an audio file from the device (m4a, mp3, wav,
+ogg, webm…). The server trims it, normalizes the loudness and encodes it to **24 kHz mono AAC at 32 kbps** (~4 KB a
+second, about 1 MB for a 65-sentence TED-Ed exercise; the whole collection at ~19 hours is ~260 MB), then a 🔊 appears
+beside the Persian to play it. Uploading again for the same sentence replaces the file (no delete button). The button
+exists on every sentence of every exercise, including ⭐ starred (a starred sentence keeps its own voice in the starred
+exercise).
+
+A clip is kept as `audio/<collection>/<exercise>/<sha1(fa)>.m4a`, named by the Persian text rather than the sentence
+number, so reordering an exercise never plays the wrong voice and an edited sentence correctly asks for a new upload.
+Audio is not in git; `audio/` on the server is the only copy, and `?v=<mtime>` on the URL makes a replaced clip get
+fetched again. Uploading works from the https address (phone or laptop); at `127.0.0.1` it saves on the laptop.
+
+In auto mode the setting **“Play the Persian sentence”** (⚙) plays the clip as the sentence opens and the countdown
+waits for it, then the English answer is read as before. It is on by default; on a fresh page the browser needs one
+click or key before it may play sound, the same rule as the English voice.
 
 **⭐ Starred sentences** (the Anki deck, in the app): ☆ under any sentence (or **X**, or say "star") stars it, and
 a small ★ marks it in its exercise. Every starred sentence is in **⭐ ستاره‌دار → جمله‌های ستاره‌دار**, first in

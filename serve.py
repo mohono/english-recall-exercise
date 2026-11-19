@@ -13,14 +13,17 @@ give the microphone only to https or localhost.
 import functools
 import json
 import os
+import re
 import shutil
 import socket
 import subprocess
 import sys
 import threading
+import uuid
 import webbrowser
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+from urllib.parse import urlparse, parse_qs
 
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -28,10 +31,80 @@ import drill  # noqa: E402  (scripts/drill.py: the index of all exercises)
 
 PORT = int(sys.argv[sys.argv.index("--port") + 1]) if "--port" in sys.argv else 8080
 URL = f"http://127.0.0.1:{PORT}/app/"
-SERVED = ("/app/", "/data/")       # the view and the exercises; sources, scripts and .env are not served
+SERVED = ("/app/", "/data/", "/audio/")   # the view, the exercises and the uploaded voice; the rest is not served
 STARS = ROOT / "state" / "stars.json"   # ⭐ starred sentences of every device (not in git)
 STARS_LOCK = threading.Lock()
 MAX_BODY, MAX_STARS = 512 * 1024, 5000
+
+# ── voice: one m4a per Persian sentence, uploaded from the lesson (app/drill.html) ────────────────
+# Kept apart from data/ (not in git): a voice is uploaded, not written into the exercises.
+AUDIO = ROOT / "audio"
+AUDIO_TMP = AUDIO / ".tmp"
+MAX_AUDIO = 16 * 1024 * 1024          # a sentence is seconds long; 16 MB is already absurd
+FFMPEG, FFPROBE = shutil.which("ffmpeg"), shutil.which("ffprobe")
+DRILL_PATH = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]*/[A-Za-z0-9][A-Za-z0-9._-]*$")
+CLIP_HASH = re.compile(r"^[a-f0-9]{8,40}$")
+AUDIO_EXT = {"audio/webm": ".webm", "video/webm": ".webm", "audio/ogg": ".ogg", "audio/mp4": ".m4a",
+             "audio/x-m4a": ".m4a", "audio/aac": ".aac", "audio/wav": ".wav", "audio/x-wav": ".wav",
+             "audio/mpeg": ".mp3", "audio/flac": ".flac", "audio/x-flac": ".flac", "audio/opus": ".opus",
+             "application/octet-stream": ".bin"}
+AUDIO_FILTER = ("highpass=f=80,"
+                "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.10:detection=peak,"
+                "areverse,"
+                "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.10:detection=peak,"
+                "areverse,"
+                "loudnorm=I=-16:TP=-1.5:LRA=11")
+
+
+def audio_dir(name):
+    """audio/<collection>/<exercise>, refusing anything that is not exactly two plain segments."""
+    if not isinstance(name, str) or not DRILL_PATH.match(name):
+        raise ValueError("exercise")
+    p = (AUDIO / name).resolve()
+    if AUDIO.resolve() not in p.parents:
+        raise ValueError("path")
+    return p
+
+
+def clip_list(name):
+    """{hash: mtime} of the voices uploaded for one exercise (the mtime is a cache-buster)."""
+    p = audio_dir(name)
+    out = {}
+    if p.is_dir():
+        for f in p.glob("*.m4a"):
+            if CLIP_HASH.match(f.stem):
+                out[f.stem] = int(f.stat().st_mtime * 1000)   # ms: a re-take gets a new URL
+    return out
+
+
+def encode(raw):
+    """One canonical voice file: trimmed, 24 kHz mono, 32 kbps AAC — about 4 KB a second."""
+    if not FFMPEG:
+        raise RuntimeError("ffmpeg is not installed")
+    AUDIO_TMP.mkdir(parents=True, exist_ok=True)
+    out = AUDIO_TMP / (uuid.uuid4().hex + ".m4a")
+    cmd = [FFMPEG, "-hide_banner", "-loglevel", "error", "-y", "-i", str(raw), "-vn",
+           "-af", AUDIO_FILTER, "-ac", "1", "-ar", "24000",
+           "-c:a", "aac", "-b:a", "32k", "-movflags", "+faststart", "-f", "mp4", str(out)]
+    try:
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=90)
+        if r.returncode:
+            raise RuntimeError((r.stderr or "ffmpeg failed").strip()[-300:])
+        dur = 0.0
+        if FFPROBE:
+            p = subprocess.run([FFPROBE, "-v", "error", "-show_entries", "format=duration",
+                                "-of", "default=nw=1:nk=1", str(out)],
+                               capture_output=True, text=True)
+            try:
+                dur = float(p.stdout.strip())
+            except ValueError:
+                dur = 0.0
+        if dur and not 0.25 <= dur <= 120:
+            raise ValueError(f"duration {dur:.1f}s")
+        return out, dur
+    except Exception:
+        out.unlink(missing_ok=True)
+        raise
 
 
 def read_stars():
@@ -78,7 +151,10 @@ class Handler(SimpleHTTPRequestHandler):
         pass
 
     def end_headers(self):
-        self.send_header("Cache-Control", "no-cache")   # edited exercises show up on reload
+        if self.path.startswith("/audio/"):             # ?v=<mtime> makes each take a new URL
+            self.send_header("Cache-Control", "public, max-age=31536000, immutable")
+        else:
+            self.send_header("Cache-Control", "no-cache")   # edited exercises show up on reload
         super().end_headers()
 
     def send_json(self, data, code=200):
@@ -89,8 +165,76 @@ class Handler(SimpleHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(body)
 
+    def save_audio(self):
+        """POST /api/audio?d=<collection>/<exercise>&h=<hash>: one upload, transcoded and stored."""
+        if not FFMPEG:
+            self.send_error(503, "ffmpeg is not installed")
+            return
+        q = parse_qs(urlparse(self.path).query)
+        name, digest = (q.get("d") or [""])[0], (q.get("h") or [""])[0]
+        if not DRILL_PATH.match(name) or not CLIP_HASH.match(digest):
+            self.send_error(400)
+            return
+        n = int(self.headers.get("Content-Length") or 0)
+        if not 0 < n <= MAX_AUDIO:
+            self.send_error(413 if n else 400)
+            return
+        ctype = (self.headers.get("Content-Type") or "").split(";")[0].strip().lower()
+        suffix = AUDIO_EXT.get(ctype)
+        if not suffix:
+            self.send_error(415, "Send an audio recording")
+            return
+        raw = AUDIO_TMP / (uuid.uuid4().hex + suffix)
+        out = None
+        try:
+            AUDIO_TMP.mkdir(parents=True, exist_ok=True)
+            raw.write_bytes(self.rfile.read(n))
+            out, dur = encode(raw)
+            dest = audio_dir(name) / (digest + ".m4a")
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            os.replace(out, dest)
+            out = None
+            st = dest.stat()
+            self.send_json({"ok": True, "hash": digest, "bytes": st.st_size,
+                            "dur": round(dur, 2), "mtime": int(st.st_mtime * 1000)})
+        except ValueError as e:
+            self.send_error(422, str(e)[:200])
+        except (OSError, RuntimeError, subprocess.SubprocessError) as e:
+            self.send_error(422, str(e)[:200])
+        finally:
+            raw.unlink(missing_ok=True)
+            if out:
+                out.unlink(missing_ok=True)
+
+    def list_audio(self):
+        """GET /api/audio[?d=…]: the clips of one exercise, or how many every exercise has."""
+        q = parse_qs(urlparse(self.path).query)
+        name = (q.get("d") or [""])[0]
+        try:
+            if name:
+                self.send_json({"clips": clip_list(name)})
+                return
+            counts = {}
+            if AUDIO.is_dir():
+                for col in sorted(AUDIO.iterdir()):
+                    if not col.is_dir() or col.name.startswith("."):
+                        continue
+                    for ex in sorted(col.iterdir()):
+                        if not ex.is_dir() or ex.name.startswith("."):
+                            continue
+                        n = sum(1 for f in ex.glob("*.m4a") if CLIP_HASH.match(f.stem))
+                        if n:
+                            counts[f"{col.name}/{ex.name}"] = n
+            self.send_json({"counts": counts})
+        except ValueError:
+            self.send_error(400)
+
     def do_POST(self):
-        if self.path.split("?")[0] != "/api/stars":
+        path = self.path.split("?")[0]
+        if path == "/api/audio":
+            self.save_audio()
+            return
+        if path != "/api/stars":
             self.send_error(404)
             return
         n = int(self.headers.get("Content-Length") or 0)
@@ -106,6 +250,9 @@ class Handler(SimpleHTTPRequestHandler):
 
     def do_GET(self):
         path = self.path.split("?")[0]
+        if path == "/api/audio":
+            self.list_audio()
+            return
         if path == "/api/stars":
             with STARS_LOCK:
                 self.send_json(read_stars())

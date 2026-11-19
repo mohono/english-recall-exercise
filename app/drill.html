@@ -104,6 +104,14 @@
   .say.on svg path{stroke:#fff}
   .say:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
   .no-tts .say{display:none}
+  .no-tts .fa-say,.no-tts .fa-up{display:grid}
+  .acts .fa-say,.acts .fa-up{margin:0;width:40px;height:44px}
+  .fa-up i{border-style:dashed}
+  .fa-up.busy i{opacity:.45;cursor:progress}
+  .fa-up:disabled{cursor:progress}
+  .fa-msg{font-size:.8rem;line-height:1.7;color:var(--text-2);margin-top:.5rem}
+  .fa-msg:empty{display:none}
+  .fa-msg.err{color:var(--accent-deep)}
   .ipa{direction:ltr;text-align:left;unicode-bidi:isolate;
     font-family:"Noto Sans","Segoe UI","Lucida Sans Unicode","DejaVu Sans",Arial,sans-serif;
     font-size:.9rem;line-height:1.6;color:var(--text-2);margin-top:.35rem}
@@ -374,6 +382,7 @@ else
   };
   const speak = btn => {
     const again = playing === btn;
+    stopFa();
     hush();
     if (again) return;
     const u = new SpeechSynthesisUtterance(btn.dataset.say);
@@ -387,11 +396,142 @@ else
     pickVoice();
     speechSynthesis.addEventListener?.('voiceschanged', pickVoice);
   }
+
+  /* ── صدای فارسی: audio/<exercise>/<sha1(fa)>.m4a، آپلودشده از خود درس ──
+     هر جمله با متن فارسی شناسایی می‌شود، پس جابه‌جایی واحدها صدا را قاطی نمی‌کند. */
+  const FA = { clips: {}, hashes: {}, ready: false };
+  const SPEAKER = '<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.6 6.1h2.3L7.8 3v10L4.9 9.9H2.6z"/><path d="M9.9 5.6a3.2 3.2 0 010 4.8M11.7 3.8a5.8 5.8 0 010 8.4"/></svg>';
+  const UPLOAD = '<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M8 10V3M5 6l3-3 3 3"/><path d="M3 11v1.6c0 .8.6 1.4 1.4 1.4h7.2c.8 0 1.4-.6 1.4-1.4V11"/></svg>';
+  let faAudio = null, faToken = 0;
+  const faHash = async s => {
+    const d = await crypto.subtle.digest('SHA-1', new TextEncoder().encode(s));
+    return [...new Uint8Array(d)].slice(0, 6).map(b => b.toString(16).padStart(2, '0')).join('');
+  };
+  const faUrl = (i, v) => new URL('../audio/' + DRILL_ID + '/' + FA.hashes[i] + '.m4a?v=' + v, location.href).href;
+  function stopFa(){
+    faToken++;
+    if (faAudio){ try { faAudio.pause(); } catch(e){} faAudio = null; }
+    slot.querySelectorAll('.fa-say.on').forEach(b => b.classList.remove('on'));
+  }
+  function playFa(i){
+    const h = FA.hashes[i], v = h && FA.clips[h];
+    if (!v) return Promise.resolve(0);
+    stopFa();
+    const token = faToken, btn = active === i ? slot.querySelector('.fa-say') : null;
+    const a = faAudio = new Audio(faUrl(i, v));
+    if (btn) btn.classList.add('on');
+    return new Promise(res => {
+      let done = false;
+      const end = sec => {
+        if (done) return;
+        done = true;
+        if (token === faToken){ faAudio = null; if (btn) btn.classList.remove('on'); }
+        res(sec || 0);
+      };
+      a.addEventListener('ended', () => end(a.duration), { once: true });
+      a.addEventListener('error', () => end(0), { once: true });
+      a.play().catch(() => end(0));
+      setTimeout(() => end(a.duration), 180000);   // a browser that never fires "ended"
+    });
+  }
+  function faMsg(text, err = false){
+    const m = slot.querySelector('.fa-msg');
+    if (!m) return;
+    m.textContent = text;
+    m.classList.toggle('err', !!err);
+    clearTimeout(m._faTimer);
+    if (text && !err) m._faTimer = setTimeout(() => { if (m.textContent === text) m.textContent = ''; }, 4000);
+  }
+  function pickFile(i){
+    const inp = document.createElement('input');
+    inp.type = 'file';
+    inp.accept = 'audio/*,.m4a,.mp3,.wav,.ogg,.oga,.opus,.webm,.aac,.flac';
+    inp.style.display = 'none';
+    inp.addEventListener('change', () => {
+      const f = inp.files?.[0];
+      inp.remove();
+      if (f) uploadFa(i, f);
+    });
+    slot.append(inp);
+    inp.click();
+  }
+  async function uploadFa(i, file){
+    const h = FA.hashes[i];
+    if (!h) return;
+    if (file.size > 16 * 1024 * 1024) { faMsg('فایل بزرگ‌تر از ۱۶ مگابایت است', true); return; }
+    if (!/^audio\//.test(file.type) && !/\.(m4a|mp3|wav|ogg|oga|opus|webm|aac|flac)$/i.test(file.name)) {
+      faMsg('این فایل صوتی نیست', true); return;
+    }
+    const up = slot.querySelector('.fa-up');
+    if (up) { up.disabled = true; up.classList.add('busy'); }
+    faMsg('در حال آپلود…');
+    try {
+      const r = await fetch('../api/audio?d=' + encodeURIComponent(DRILL_ID) + '&h=' + h,
+        { method: 'POST', headers: { 'Content-Type': file.type || 'application/octet-stream' }, body: file });
+      if (!r.ok)
+        throw new Error((await r.text()).replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 140) || ('HTTP ' + r.status));
+      const j = await r.json();
+      FA.clips[h] = j.mtime;
+      if (active === i) addFa(i);
+      faMsg(`ذخیره شد (${Math.round((j.dur || 0) * 10) / 10} ثانیه)`);
+    } catch (e) {
+      if (active === i) addFa(i);
+      faMsg('آپلود نشد: ' + (e.message || e), true);
+    } finally {
+      const b = slot.querySelector('.fa-up');
+      if (b) { b.disabled = false; b.classList.remove('busy'); }
+    }
+  }
+  function addFa(i){
+    const acts = slot.querySelector('.acts');
+    if (!acts) return;
+    slot.querySelector('.fa-say')?.remove();
+    slot.querySelector('.fa-up')?.remove();
+    const h = FA.hashes[i];
+    if (!h) return;
+    if (!slot.querySelector('.fa-msg')){
+      const m = document.createElement('div');
+      m.className = 'fa-msg'; m.setAttribute('role', 'status');
+      slot.querySelector('.attempt').append(m);
+    }
+    const up = document.createElement('button');
+    up.type = 'button';
+    up.className = 'say fa-up';
+    up.title = FA.clips[h] ? 'جایگزینی صدای این جمله' : 'آپلود صدای این جمله';
+    up.setAttribute('aria-label', up.title);
+    up.innerHTML = `<i>${UPLOAD}</i>`;
+    up.addEventListener('click', () => pickFile(i));
+    acts.insertBefore(up, slot.querySelector('.cp-btn'));
+    if (!FA.clips[h]) return;
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'say fa-say';
+    b.title = 'شنیدن جملهٔ فارسی';
+    b.setAttribute('aria-label', 'شنیدن جملهٔ فارسی');
+    b.innerHTML = `<i>${SPEAKER}</i>`;
+    b.addEventListener('click', () => { b.classList.contains('on') ? stopFa() : playFa(i); });
+    acts.insertBefore(b, up);
+  }
+  (async () => {
+    if (!DRILL_ID || !window.crypto?.subtle) return;
+    try {
+      await Promise.all(FLAT.map(async (f, n) => { FA.hashes[n] = await faHash(f.it.fa); }));
+      const j = await fetch('../api/audio?d=' + encodeURIComponent(DRILL_ID)).then(r => r.json());
+      FA.clips = j.clips || {};
+      FA.ready = true;
+      if (active !== null) addFa(active);
+    } catch(e){}
+  })();
+  window.hasFa = i => { const h = FA.hashes[i]; return !!(h && FA.clips[h]); };
+  window.playFa = playFa;
+  window.stopFa = stopFa;
+  window.reopenAt = i => { if (i !== active) return false; open(i); return true; };   // auto mode: the same sentence again
+
   /* فوکِ کادر پاسخ نمی‌پرد تا Enter همچنان کار کند */
   slot.addEventListener('mousedown', e => { if (e.target.closest('.say, .anki-btn')) e.preventDefault(); });
   slot.addEventListener('click', e => {
     const b = e.target.closest('.say');
-    if (b && TTS) speak(b);
+    if (b && b.dataset.say && TTS) speak(b);
     const a = e.target.closest('.anki-btn');
     if (a && active !== null) addToAnki(active, a);
   });
@@ -542,6 +682,7 @@ c{color:#8F8E8A;font-size:.85em}
   }
 
   function close(animate){
+    stopFa();
     hush();
     if (active === null) return;
     spans[active].classList.remove('active');
@@ -572,6 +713,7 @@ c{color:#8F8E8A;font-size:.85em}
         <div class="answer" hidden>${answerHTML(FLAT[i].it)}</div>
       </div>`;
 
+    addFa(i);
     spans[i].classList.add('active');
     spans[i].after(drawer);
     requestAnimationFrame(() => { if (active === i) drawer.classList.add('open'); });

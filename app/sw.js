@@ -51,10 +51,12 @@ self.addEventListener("fetch", (e) => {
   const req = e.request;
   const url = new URL(req.url);
   if (req.method !== "GET" || url.origin !== location.origin) return;   // AnkiConnect, anything not ours
-  if (!url.pathname.startsWith("/app/") && !url.pathname.startsWith("/data/")) return;
+  if (!url.pathname.startsWith("/app/") && !url.pathname.startsWith("/data/")
+      && !url.pathname.startsWith("/audio/")) return;
   if (req.headers.has("range")) return;                                  // let the browser handle partial requests
   const k = key(url);
-  e.respondWith(FOREVER.test(url.pathname) ? cacheFirst(req, k) : networkFirst(req, k));
+  const forever = FOREVER.test(url.pathname) || url.pathname.startsWith("/audio/");   // ?v=<mtime>
+  e.respondWith(forever ? cacheFirst(req, k) : networkFirst(req, k));
 });
 
 // {cacheAll: [urls]} from the view: fetch every exercise not yet cached, a few at a time, and report back
