@@ -66,6 +66,9 @@ A clip is kept as `audio/<collection>/<exercise>/<sha1(fa)>.m4a`, named by the P
 number, so reordering an exercise never plays the wrong voice and an edited sentence correctly asks for a new upload.
 Audio is not in git; `audio/` on the server is the only copy, and `?v=<mtime>` on the URL makes a replaced clip get
 fetched again. Uploading works from the https address (phone or laptop); at `127.0.0.1` it saves on the laptop.
+A whole exercise can also be filled at once with `scripts/fa-voices.py --drill <collection>/<id>`: it voices every
+sentence with one of six Persian Piper voices (the free ones on eboo's "تبدیل متن به گفتار" page) and leaves clips
+that already exist alone unless `--force` is given.
 
 In auto mode the setting **“Play the Persian sentence”** (⚙) plays the clip as the sentence opens and the countdown
 waits for it, then the English answer is read as before. It is on by default; on a fresh page the browser needs one

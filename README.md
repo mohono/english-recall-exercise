@@ -35,6 +35,8 @@ pushes to GitHub and updates the server.
 - **Your voice for the Persian** is uploaded from the lesson itself: the ⬆ beside a sentence's Persian picks an
   audio file, and `serve.py` trims and encodes it to a 32 kbps m4a in `audio/<collection>/<exercise>/<sha1(fa)>`
   (not in git). A lesson plays it with the 🔊 beside the Persian, and auto mode can play it before the think time.
+  `scripts/fa-voices.py --drill <collection>/<id>` fills a whole exercise at once with one of the six Persian
+  Piper voices of eboo's free text-to-speech page (no API key; models are cached in `~/.cache/eboo-tts/`).
 - **`scripts/drill.py`** `build` turns the block a skill writes into a data file, `check` validates one (for
   TED-Ed also against the transcript), `check --all` validates everything, `index` rebuilds the index.
   **`scripts/add_ipa.py`** adds American IPA. **`scripts/fetch.py`** picks the next TED-Ed video and fetches
