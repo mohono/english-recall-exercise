@@ -1,54 +1,39 @@
 # The hands-free view
 
 Every exercise in `data/` on one page, for studying on a laptop monitor a little way off or on a phone: a
-sidebar of all exercises, big text, themes, keys, offline voice commands, an auto mode, touch and your place
+sidebar of all exercises, big text, themes, keys, an auto mode, touch and your place
 remembered. An exercise is only a data file; it runs in this view on the one shared engine, `drill.html`.
 
 **Start:** `python3 serve.py` serves the project on http://127.0.0.1:8080 and opens the view in a Chrome app
-window. It continues the last exercise at the sentence you were on. Turn the microphone on with 🎤 or **M**;
-Chrome asks for mic permission only the first time. (Port 8765 is left free for AnkiConnect, which the +Anki
-button uses.)
+window. It continues the last exercise at the sentence you were on. (Port 8765 is left free for AnkiConnect,
+which the +Anki button uses.)
 
-**One-time setup:** the speech files are not in git (47 MB). Copy them from the cityTrade reader:
-`mkdir -p app/vendor && cp ~/cityTrade/reader/vendor/* app/vendor/`
-
-**Voice (English, each said on its own with a short pause around it):**
-next · previous · answer / show · skip · repeat · pronounce · play / start / resume / continue ·
-pause / wait / hold · stop · faster · slower · shorter · longer · settings · bookmark · star · save card · next lesson · previous lesson ·
-bigger · smaller.
-**🗣 Words** (or **G**, or say "commands") opens a list of every word the mic listens for and what saying it
-does; while it is open, the row of each word it hears lights up, so you can practise them. The toast at the
-bottom left shows what it heard. A word followed by `?` was ignored (not sure enough, or
-run together with other speech). While the page reads an answer aloud the mic is deaf (the speakers would
-otherwise give commands), so wait for it to finish, or press Esc.
-
-**Keys:** Space/Enter/→/N next (answer first, then the next sentence) · Shift+Space/←/B previous · A answer ·
-S skip · R repeat · W pronounce the next target word · P auto mode play / pause · = / − less / more time to
-think · ; / ' shorter / longer wait after the answer · O auto-mode settings · C bookmark · X (or \*) star · \+ Anki · ] / [ lesson · . / , text size · V read the answer aloud
-on / off · E or L sidebar · T theme · F fullscreen · M mic · ? help · Esc stop (auto off) / close. ↑ ↓ PageUp PageDown scroll a long answer.
+**Keys:** Space/Enter/→/N next (answer first, then the next sentence) · Shift+Space/←/B previous ·
+P auto mode play / pause · = / − less / more time to think · ; / ' shorter / longer wait after the answer ·
+O auto-mode settings · C bookmark · X (or \*) star · \+ Anki · ] / [ lesson · . / , text size · V read the answer
+aloud on / off · E or L sidebar · T theme · F fullscreen · ? help · Esc stop (auto off) / close.
+↑ ↓ PageUp PageDown scroll a long answer.
 
 **Reading the answer aloud:** when the English answer shows, it is read aloud automatically, however you
-opened it (voice, keys, auto mode, the page's own «نمایش پاسخ» button or Enter in the typing box). The
+opened it (keys, auto mode, the page's own «نمایش پاسخ» button or Enter in the typing box). The
 **🔊 Read** button in the bar (or **V**) turns this on and off. Going back to a sentence, or reopening your
 place, does not read it again. Chrome lets a page speak only after one click or key press, so after starting,
-click once anywhere; that one click also switches the mic on. The voice is the same one the lesson pages
-use. If it doesn't start (for example a Google network voice while offline), it is tried again with a local
+click once anywhere. The voice is the same one the lesson pages use. If it doesn't start (for example a Google network voice while offline), it is tried again with a local
 voice.
 
-**Auto mode** (P, ▶ Auto, "play"): opens a sentence (the Persian is not synthesized; if it has an uploaded voice,
+**Auto mode** (P, ▶ Auto): opens a sentence (the Persian is not synthesized; if it has an uploaded voice,
 that clip plays first, see “Your voice for the Persian”), waits the think time
 (10 s), opens the answer and reads the English aloud if 🔊 Read is on, waits a little (3 s), then goes to the next
 sentence. **Repeat each sentence** (⚙, Off / +1…+5) plays extra full rounds before it moves on: one round is
 Persian → think → English → wait, and the whole round starts again, not each half on its own; the answer is hidden
 again at the start of every round. The big clock at the bottom right shows the step and its seconds: 💭 think, 🔊 reading, ⏭ the wait
 after. The countdown only runs in quiet time: it waits while something is read aloud, while a panel (settings,
-lessons, help, words) is open and while you type in the typing box. Any move (next, previous, skip, repeat, a
+lessons, help) is open and while you type in the typing box. Any move (next, previous, a
 click on a sentence) starts the time of the new step afresh, and going to another sentence stops the reading of
 the old one.
-"pause" / "wait" / "hold" (or P) pauses it where it is; "play" / "resume" / "continue" (or P) goes on, and an
-answer cut off by the pause is read again. "stop" (or Esc, or ■) turns auto mode off. "faster" / "slower" (= / −)
-change the think time, "shorter" / "longer" (; / ') the wait after the answer; both are on the bar too.
-**⚙ Settings** (O, "settings"): time to think, extra time per English word (for long sentences), read the
+P pauses it where it is; P again goes on, and an answer cut off by the pause is read again. Esc (or ■) turns auto
+mode off. = / − change the think time, ; / ' the wait after the answer; both are on the bar too.
+**⚙ Settings** (O): time to think, extra time per English word (for long sentences), read the
 answer aloud on / off, how many times it is read (1–3), reading speed (0.75 by default, slower than the voice's
 own 1; the lesson's own 🔊 buttons read at this speed too), the wait after the answer, and how many extra rounds of
 each sentence to play (+1…+5, or Off; Persian → English as one round). "Try the speed"
@@ -74,9 +59,9 @@ In auto mode the setting **“Play the Persian sentence”** (⚙) plays the cli
 waits for it, then the English answer is read as before. It is on by default; on a fresh page the browser needs one
 click or key before it may play sound, the same rule as the English voice.
 
-**⭐ Starred sentences** (the Anki deck, in the app): ☆ under any sentence (or **X**, or say "star") stars it, and
+**⭐ Starred sentences** (the Anki deck, in the app): ☆ under any sentence (or **X**) stars it, and
 a small ★ marks it in its exercise. Every starred sentence is in **⭐ ستاره‌دار → جمله‌های ستاره‌دار**, first in
-the sidebar: one exercise, drilled like any other (auto mode, voice, keys, earbuds, your place), in the order you
+the sidebar: one exercise, drilled like any other (auto mode, keys, earbuds, your place), in the order you
 starred them, each run under the title of the exercise it came from. It keeps a copy of the sentence with its
 words and grammar rows, so an edited data file does not change it. Taking the star away there dims the sentence;
 it is gone the next time the exercise opens. The stars are kept on the server (`state/stars.json`, not in git),
@@ -87,19 +72,19 @@ next start or when the network is back.
 grammar passages, grammar structures). A group opens and closes with a click on its name; the group you are in
 opens by itself. Each exercise shows your place in it, or ✓ once you have seen its last answer. Click one to
 switch to it, at your place in it. The » / « button at its top shrinks it to a narrow strip of numbers and
-expands it again; E goes expanded → shrunk → hidden. ] / [ and "next lesson" / "previous lesson" move through
+expands it again; E goes expanded → shrunk → hidden. ] / [ move through
 the same order. Auto mode never goes on into the next exercise: it turns itself off at the end of the one you
-are in, and "play" on a finished exercise starts it again from the top.
+are in, and P on a finished exercise starts it again from the top.
 
 **On a phone or a narrow window:** `python3 serve.py --lan` also serves it to devices on the same Wi-Fi
 and prints the address to open on the phone (without `--lan` only the laptop can reach it). The layout follows
 the width:
 - wider than 1250px: the full bar, as described above;
 - up to 1250px: the bar keeps ☰, the title, ◀ ▶, Auto and ■; **⋯** opens a sheet with every other control
-  (answer, skip, repeat, word, bookmark, +Anki, lesson / exercise, the auto-mode times, ⚙, 🔊 Read,
-  text size, theme, mic, help), so nothing needs a keyboard;
+  (bookmark, star, +Anki, lesson / exercise, the auto-mode times, ⚙, 🔊 Read,
+  text size, theme, help), so nothing needs a keyboard;
 - up to 700px (phone): ◀ ▶ Auto ■ become big buttons at the bottom, the sidebar becomes a drawer that
-  ☰ opens over the lesson (tap an exercise and it closes), settings, words and help fill the screen, and the
+  ☰ opens over the lesson (tap an exercise and it closes), settings and help fill the screen, and the
   text starts at 18px. Swiping the lesson sideways moves too: right = next (answer first), left = previous.
 - on a touch screen, **a tap anywhere on the lesson** that is not a sentence or a button is "next": the answer
   first, then the next sentence. Tapping a sentence still jumps to it.
@@ -113,13 +98,12 @@ the width:
   real earbuds.
 
 What a device cannot do is not shown on it. Opened from another device over plain http (`http://<laptop-ip>`
-or the old `http://91.107.173.6:8080`): no mic,
-mic picker, 🗣 Words or voice help (browsers give the microphone only to https or localhost), no **+ Anki**, in the
+or the old `http://91.107.173.6:8080`): no **+ Anki**, in the
 ⋯ sheet or in the lesson (AnkiConnect listens on the laptop's own 127.0.0.1:8765), and no ⛶ where the browser has
 no fullscreen (iPhone). The screen is not kept awake there either (that needs https too).
 
 Your place in every exercise (the sentence, and whether its answer was open), the furthest sentence reached
-(shown in the sidebar), text size, theme, the auto-mode settings and mic choice are remembered
+(shown in the sidebar), text size, theme and the auto-mode settings are remembered
 in this browser. The screen is kept awake while the view is open.
 
 ## Install and offline
@@ -132,8 +116,7 @@ On the first visit `sw.js` (the service worker) saves the view, the fonts and **
 (about 15 MB) and shows "Offline ready ✓" once. After that it opens and works with no network, at your last
 exercise and sentence. When online, everything is still fetched fresh (an edited or new exercise shows on the
 next reload) and the saved copy is refreshed; the saved copy is used only when the network is gone or slower than
-3 s. New exercises are saved on the next start. The 45 MB speech files are saved only the first time the mic is
-switched on.
+3 s. New exercises are saved on the next start.
 
 Saved places belong to one address, so progress on the old http address does not carry over by itself. Open
 `http://91.107.173.6:8080/app/export.html?to=https://91-107-173-6.sslip.io/app/` once on each device that has
@@ -158,23 +141,6 @@ progress there: it moves every saved place and setting to the new address.
   Fonts come from `fonts/`, not from the network.
 - `index.html`, `hands.js`, `hands.css` are the view. The exercise runs in a frame from the same address, and
   `hands.js` adds `frame.css` to it (size, full width, themes) and drives the engine through
-  its own elements: `span.s`, `.reveal`, `.say`, `.cp-btn`, `.anki-btn`. The mic and the speech model live in
-  the view, so they stay on from one exercise to the next.
+  its own elements: `span.s`, `.reveal`, `.say`, `.cp-btn`, `.anki-btn`.
 - A loading cover (`#boot`) is up from the first paint, already in the saved theme, until the exercise stands at
-  your place in the saved size and look; on a switch of exercise it covers only the lesson frame. It never waits
-  for the speech files: `vendor/vosk.js` is fetched only when the mic is switched on.
-- `vendor/vosk.js` (vosk-browser 0.0.8) and `vendor/vosk-model-small-en-us-0.15.tar.gz` do speech recognition
-  fully offline in the page; no audio leaves the laptop. The recognizer only listens for the command words,
-  plus "[unk]" for everything else. A word counts only when the recognizer is ≥ 0.85 sure of it and it has
-  ≥ 0.35 s of quiet on both sides.
-- "pause", "wait", "hold", "resume", "continue", "settings", "shorter" and "longer" were checked against the model (in its
-  vocabulary, and each recognized at 1.00 in three edge-tts voices); "unpause" is not in its vocabulary.
-- "anki" is not in the small model's vocabulary and a lone "word" is mostly heard as "[unk]", so those
-  commands are "save card" and "pronounce". "back", "again", "listen", "up" and "down" are left out because
-  they are common in the English answers you say aloud.
-- Tested headless with Chrome's fake microphone (`--use-file-for-fake-audio-capture`), with edge-tts voices:
-  every command was recognized in two voices, about 1–1.5 s after the word ends. The only misses were a
-  "pronounce" said while the page was still reading the answer aloud, which is the deliberate mute.
-  10 minutes of English answer sentences containing the command words (five voices), plus a minute of a
-  lesson MP3 (Persian and English), ran no commands. 10 commands said in the middle of that speech, with
-  under a second of pause around them, all ran.
+  your place in the saved size and look; on a switch of exercise it covers only the lesson frame.

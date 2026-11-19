@@ -1,8 +1,8 @@
 /* The service worker: keeps the view and every exercise on this device, so the app opens and works offline.
  *
  * The view, the engine and the exercises: network first (an edited exercise shows on the next reload), but a
- * copy from the cache when the network is gone or slower than NET_WAIT. Fonts and the speech files never
- * change: cache first. The view asks for every exercise to be cached with a {cacheAll: [urls]} message.
+ * copy from the cache when the network is gone or slower than NET_WAIT. Fonts and the audio clips never change:
+ * cache first. The view asks for every exercise to be cached with a {cacheAll: [urls]} message.
  * Its scope is /app/, and it also answers the fetches of /data/ made by the pages it controls. */
 const CACHE = "english-recall";
 const NET_WAIT = 3000;
@@ -14,7 +14,7 @@ const SHELL = [
   "icons/icon-192.png", "icons/icon-512.png", "icons/maskable-512.png", "icons/apple-touch-icon.png",
   "../data/index.json",
 ];
-const FOREVER = /\/app\/(fonts|vendor|icons)\//;     // these files never change
+const FOREVER = /\/app\/(fonts|icons)\//;          // these files never change
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));

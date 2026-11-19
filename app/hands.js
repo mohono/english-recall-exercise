@@ -1,9 +1,8 @@
 "use strict";
 // The hands-free view of every exercise in data/. An exercise runs in the frame on the one shared engine
 // (drill.html?d=<collection>/<id>), and this shell adds the sidebar of all exercises, big text, themes, keys,
-// offline voice commands (Vosk), auto mode, touch and a remembered place. It drives the engine only through
-// the engine's own elements (span.s, .reveal, .say, .cp-btn, .star-btn, .anki-btn). The mic and the speech model live
-// here, so they stay on from one exercise to the next.
+// auto mode, touch and a remembered place. It drives the engine only through
+// the engine's own elements (span.s, .reveal, .say, .cp-btn, .star-btn, .anki-btn).
 
 /* ---------- settings ---------- */
 const SIZES = [14, 16, 18, 20, 22, 24, 26, 28, 30, 33, 36, 40, 44];   // root font size of the lesson, px
@@ -17,59 +16,15 @@ const REPS = [0, 1, 2, 3, 4, 5];                                        // extra
 const RATES = [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 1, 1.1, 1.2];   // reading speed (1 = the voice's own)
 const DEFAULTS = { think: 10, perWord: 0, after: 3, speak: true, times: 1, rate: 0.75, faPlay: true, reps: 0 };
 const REPEAT_GAP = 900;              // ms between two readings of the same answer
-const MODEL_URL = new URL("vendor/vosk-model-small-en-us-0.15.tar.gz", location.href).href;
-const MIN_CONF = 0.85;               // ignore words the recognizer is not sure about
-const GAP = 0.35;                    // s of quiet needed between a command and other speech ([unk])
-const TTS_TAIL = 600;                // ms the mic stays deaf after the page stops reading aloud
-
-// voice phrase -> command. The recognizer listens only for these (plus "[unk]" for everything else).
-// Left out: "back", "again", "listen", "up", "down" (common in the English answers you say aloud) and short
-// words like "go" and "top" (background speech triggered them in the cityTrade reader). "anki" is not in the
-// model's vocabulary and a lone "word" is mostly heard as [unk], so those two are "save card" and "pronounce".
-const PHRASES = {
-  "next lesson": "nextLesson", "previous lesson": "prevLesson",
-  "next": "step", "previous": "prev", "answer": "answer", "show": "answer", "skip": "skip",
-  "repeat": "repeat", "pronounce": "word",
-  "play": "autoOn", "start": "autoOn", "resume": "autoOn", "continue": "autoOn",
-  "pause": "pause", "wait": "pause", "hold": "pause", "stop": "quiet",
-  "faster": "faster", "slower": "slower", "shorter": "shorterWait", "longer": "longerWait", "bigger": "bigger", "smaller": "smaller",
-  "bookmark": "bookmark", "star": "star", "save card": "anki", "settings": "settings", "commands": "words",
-};
-
-// what saying each command does, in the order of the voice dialog (🗣 Words, G, "commands")
-const DOES = {
-  step: "Show the answer; when it is shown, go to the next sentence",
-  answer: "Show the answer",
-  skip: "Next sentence, without showing the answer",
-  prev: "Previous sentence, with its answer shown",
-  repeat: "Read the English sentence aloud again",
-  word: "Read the next target word aloud (word 1, 2, … then again)",
-  autoOn: "Start auto mode, or go on after a pause",
-  pause: "Pause auto mode where it is (it waits for “play”)",
-  quiet: "Stop reading aloud, and turn auto mode off",
-  faster: "Auto mode: less time to think",
-  slower: "Auto mode: more time to think",
-  shorterWait: "Auto mode: shorter wait after the answer",
-  longerWait: "Auto mode: longer wait after the answer",
-  settings: "Open or close the auto-mode settings",
-  bookmark: "Bookmark 🔖 this sentence, or remove the bookmark",
-  star: "Star ⭐ this sentence (it goes into “Starred sentences”), or take the star away",
-  anki: "Add this sentence to Anki (deck “sentences”)",
-  nextLesson: "Go to the next exercise in the sidebar, at your place in it",
-  prevLesson: "Go to the previous exercise in the sidebar, at your place in it",
-  bigger: "Bigger text",
-  smaller: "Smaller text",
-  words: "Open or close this list",
-};
 
 // key -> command (Space is next, Shift+Space previous: see onKey). ↑ ↓ PageUp PageDown keep scrolling.
 const KEYS = {
   Enter: "step", ArrowRight: "step", n: "step", ArrowLeft: "prev", b: "prev",
-  a: "answer", s: "skip", r: "repeat", w: "word", p: "auto", "=": "faster", "-": "slower",
+  p: "auto", "=": "faster", "-": "slower",
   c: "bookmark", x: "star", "*": "star", "+": "anki", "]": "nextLesson", "[": "prevLesson", ".": "bigger", ",": "smaller",
-  v: "speakAnswers", l: "side", t: "theme", f: "fullscreen", m: "mic", g: "words", o: "settings", e: "side", ";": "shorterWait", "'": "longerWait", "?": "help",
+  v: "speakAnswers", l: "side", t: "theme", f: "fullscreen", o: "settings", e: "side", ";": "shorterWait", "'": "longerWait", "?": "help",
 };
-const MOVES = new Set(["step", "prev", "answer", "skip", "repeat", "word"]);   // these restart the auto countdown
+const MOVES = new Set(["step", "prev"]);   // these restart the auto countdown
 
 /* ---------- stored state (per browser; everything still works without it) ---------- */
 function load(key, dflt) {
@@ -79,8 +34,7 @@ function load(key, dflt) {
 function save(key, val) { try { localStorage.setItem("lhf." + key, JSON.stringify(val)); } catch { /* private window */ } }
 
 // what this device cannot do is not offered at all (a phone that opened the laptop's address over the Wi-Fi):
-// the mic (browsers give it only to https or localhost) and + Anki (AnkiConnect listens on the laptop's own 127.0.0.1)
-const CAN_VOICE = !!navigator.mediaDevices?.getUserMedia;
+// + Anki (AnkiConnect listens on the laptop's own 127.0.0.1)
 const CAN_ANKI = ["127.0.0.1", "localhost", "[::1]"].includes(location.hostname);
 const CAN_REMOTE = "mediaSession" in navigator;      // earbud / headset buttons
 const coarse = matchMedia("(pointer: coarse)");     // a touch screen is the main way in
@@ -94,7 +48,6 @@ const S = {
   side: load("side", true),          // the exercises sidebar (pages with more than one exercise)
   sideSmall: load("sideSmall", false),   // shrunk to a narrow strip of lesson numbers
   closed: load("closed", {}),        // sidebar groups: { collection: false } = open (closed until you open one)
-  micOn: load("micOn", false), micDev: load("micDev", ""),
   last: load("last", ""),            // path of the last lesson
 };
 
@@ -105,7 +58,7 @@ const STARRED = "starred/all";      // the exercise of every starred sentence (s
 let GROUPS = [];                     // data/index.json: [{ id, title, items: [{ id, title, units }] }]
 let LESSONS = [];                    // every exercise in sidebar order: [{ path, title, units, group }]
 let F = null;                        // the exercise in the frame: { win, doc, path, title, group, spans }
-let lastActive = -1, lastShown = false, wordAt = 0;
+let lastActive = -1, lastShown = false;
 let quietReveal = false;             // the next answer to open is not read aloud (going back, or it reads something else)
 
 /* ---------- the engine, seen from outside ---------- */
@@ -186,7 +139,7 @@ function play(btn, retry = true, times = 1) {   // read a 🔊 button's text fro
   u.lang = "en-US"; u.rate = S.rate;
   const v = retry && navigator.onLine ? voice : local;   // a network voice does not work offline
   if (v) u.voice = v;
-  // the mic is deaf only while a reading really sounds: Chrome may say "speaking" for one that never starts
+  // Chrome may say "speaking" for a reading that never starts
   u.onstart = () => { if (current === u) readingUntil = performance.now() + 2000 + 90 * text.length * 0.9 / S.rate; };
   u.onend = u.onerror = (e) => {
     if (current === u) {
@@ -209,37 +162,12 @@ function step() {
   if (a < 0) openPlace();
   else if (!shown()) reveal();
   else if (a + 1 < F.spans.length) open(a + 1);
-  else toast(CAN_VOICE ? "End of the exercise — say “next lesson”" : "End of the exercise", 4000);
+  else toast("End of the exercise", 4000);
 }
 function prev() {
   const a = active();
   if (a < 0) openPlace();
   else if (a > 0) open(a - 1, true);
-}
-function skip() {
-  const a = active();
-  if (a < 0) openPlace();
-  else if (a + 1 < F.spans.length) open(a + 1);
-  else toast("End of the exercise", 3000);
-}
-function answer() { if (active() < 0) openPlace(); reveal(); }
-function repeat() {
-  const p = panel();
-  if (!p) return;
-  reveal(true);
-  play(p.querySelector(".en-box .say"));
-}
-function word() {
-  const p = panel();
-  if (!p) return;
-  reveal(true);
-  const ws = [...p.querySelectorAll(".wentry")];
-  if (!ws.length) { toast("No target words in this sentence"); return; }
-  const k = wordAt++ % ws.length;
-  ws.forEach((w, j) => w.classList.toggle("hf-cur", j === k));
-  ws[k].scrollIntoView({ block: "nearest", behavior: "smooth" });
-  play(ws[k].querySelector(".say"));
-  toast(`Word ${k + 1} / ${ws.length}`);
 }
 function quiet() {
   F?.win.speechSynthesis?.cancel();
@@ -288,12 +216,12 @@ function anki() {
    A sentence opens → think time (+ per word) → the answer opens and is read aloud (if on, × times) → the wait
    after it → the same sentence again if it is set to repeat (Persian first, then English) → the next sentence.
    The countdown only runs while nothing is being read aloud, no panel is open and you are not typing, so the
-   time is always quiet time to think (or to read the answer). Any move, by voice, key, the bar or a click in
+   time is always quiet time to think (or to read the answer). Any move, by key, the bar or a click in
    the lesson, starts the countdown of the new step afresh; a pause keeps it. */
 let auto = false, paused = false, cutRead = false;   // cutRead: a pause stopped the answer being read
 let repLeft = 0;                     // extra rounds of this sentence left before the next one
 let left = 0, total = 0, lastTick = 0, ticker = 0;   // ms of the countdown, and its full length
-const overlayOpen = () => !$("#help").hidden || !$("#words").hidden || !$("#settings").hidden
+const overlayOpen = () => !$("#help").hidden || !$("#settings").hidden
   || document.body.classList.contains("more") || phone.matches && sideOpen;
 function enWords() {
   const p = panel();
@@ -363,7 +291,7 @@ function pause() {                   // P, the bar button, "pause" / "wait" / "h
   hush();
   paused = true;
   showClock();
-  toast(CAN_VOICE ? "⏸ Paused — say “play” or press P" : "⏸ Paused");
+  toast("⏸ Paused");
 }
 function play_() {                   // start auto mode, or go on after a pause
   if (!auto) { setAuto(true); toast(`▶ Auto · ${S.think}s to think`); return; }
@@ -530,7 +458,7 @@ $("#exercises").onclick = (e) => {
   if (gh) { setGroup(gh.parentElement, gh.parentElement.classList.contains("closed")); return; }
   const it = e.target.closest("[data-path]");
   if (!it) return;
-  showWords(false); showSettings(false); $("#help").hidden = true;
+  showSettings(false); $("#help").hidden = true;
   if (it.dataset.path !== F?.path) goLesson(it.dataset.path);
   if (sideOpen) { sideOpen = false; showSide(); }
 };
@@ -653,10 +581,9 @@ function changed() {                 // the engine opened, closed or revealed so
       // the answer of the sentence you left must not go on (or be read again) over the new one
       if (current || gapTimer || F.win.speechSynthesis?.speaking) { F.win.speechSynthesis?.cancel(); hush(); }
       stopFa();
-      lastActive = a; wordAt = 0; quietReveal = false;
+      lastActive = a; quietReveal = false;
       resetReps(a);                  // a new sentence: all of its rounds
       maybeFa(a);                    // before restart(), so the think time waits for the voice
-      F.doc.querySelectorAll(".wentry.hf-cur").forEach((w) => w.classList.remove("hf-cur"));
     } else if (sh && !lastShown) {   // the answer just opened: by a command, the engine's button or Enter
       if (S.speak && !quietReveal) readAnswer();
       quietReveal = false;
@@ -722,12 +649,11 @@ frame.addEventListener("load", () => {
   link.onload = go; link.onerror = go;               // open the sentence once the page has its final size
   watchSwipes(win);
   win.addEventListener("pointerdown", wakeRemote); win.addEventListener("keydown", wakeRemote);
-  if (wakeAudio) { win.addEventListener("pointerdown", wakeAudio, { once: true }); win.addEventListener("keydown", wakeAudio, { once: true }); }
 });
 
-/* ---------- commands: keys, voice and the bar buttons (data-cmd) all run these ---------- */
+/* ---------- commands: keys and the bar buttons (data-cmd) all run these ---------- */
 const COMMANDS = {
-  step, prev, answer, skip, repeat, word, quiet, bookmark, star, anki, pause,
+  step, prev, quiet, bookmark, star, anki, pause,
   auto: () => (auto && !paused ? pause() : play_()),   // P and the bar button: play / pause
   autoOn: play_,
   faster: () => setThink(-1),
@@ -744,7 +670,6 @@ const COMMANDS = {
   theme: () => setTheme(THEMES[(THEMES.indexOf(S.theme) + 1) % THEMES.length]),
   fullscreen: () => (document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen())
     .catch(() => toast("Fullscreen not allowed here")),
-  mic: () => (mic ? stopMic() : startMic()),
   remote: () => {
     S.remote = !S.remote; save("remote", S.remote);
     setRemote(S.remote);
@@ -761,22 +686,20 @@ const COMMANDS = {
     toast(!S.side ? "Sidebar hidden" : S.sideSmall ? "Sidebar shrunk" : "Sidebar expanded");
   },
   help: () => { $("#help").hidden = !$("#help").hidden; },
-  words: () => showWords($("#words").hidden),
 };
-const NEEDS_LESSON = new Set(["step", "prev", "answer", "skip", "repeat", "word", "bookmark", "star", "anki", "nextLesson", "prevLesson"]);
+const NEEDS_LESSON = new Set(["step", "prev", "bookmark", "star", "anki", "nextLesson", "prevLesson"]);
 
-// the voice list stays open while you try the words, and the settings while you change them by key or voice
+// the settings stay open while you change them by key or by their buttons
 const KEEPS_SETTINGS = new Set(["settings", "faster", "slower", "shorterWait", "longerWait", "speakAnswers", "auto", "autoOn", "pause", "quiet", "bigger", "smaller", "theme"]);
 const KEEPS_MORE = new Set(["more", "remote", "faster", "slower", "shorterWait", "longerWait", "bigger", "smaller", "theme", "speakAnswers"]);
-function run(cmd, byVoice = false) {
+function run(cmd) {
   if (!KEEPS_MORE.has(cmd)) setMore(false);            // the sheet stays open while you step a value
   if (cmd !== "side" && sideOpen) { sideOpen = false; showSide(); }
   if (cmd !== "help") $("#help").hidden = true;
-  if (cmd !== "words" && !byVoice) showWords(false);
   if (!KEEPS_SETTINGS.has(cmd)) showSettings(false);
   if (NEEDS_LESSON.has(cmd) && !F) return;
   COMMANDS[cmd]();
-  if (auto && MOVES.has(cmd)) restart();   // e.g. "repeat": the same step, its full time again
+  if (auto && MOVES.has(cmd)) restart();   // e.g. next: the same step, its full time again
   if (!$("#settings").hidden) buildSettings();
 }
 
@@ -784,7 +707,7 @@ function onKey(e) {                  // keys pressed in the shell or in the less
   const box = e.target.matches?.("textarea, input, select");
   if (e.key === "Escape") {
     if (box) e.target.blur();
-    if (overlayOpen()) { $("#help").hidden = true; closeDrawers(); showWords(false); showSettings(false); }
+    if (overlayOpen()) { $("#help").hidden = true; closeDrawers(); showSettings(false); }
     else run("quiet");
     return;
   }
@@ -808,155 +731,7 @@ function onLessonClick(e) {          // a sentence or a button of the engine
   const tapNext = (e.pointerType === "touch" || coarse.matches) && !overlayOpen() && !String(F.win.getSelection())
     && !e.target.closest(".s, button, a, textarea, input, select, label, .say, .toc, .jump");
   if (tapNext) { run("step"); return; }
-  closeDrawers(); showWords(false); showSettings(false); $("#help").hidden = true;
-}
-
-/* ---------- voice (Vosk, offline, only the phrases above) ---------- */
-let model = null, mic = null, wakeAudio = null;
-const GRAMMAR = JSON.stringify([...Object.keys(PHRASES), "[unk]"]);
-
-async function openMic() {
-  const audio = (dev) => ({ audio: { deviceId: dev ? { exact: dev } : undefined, channelCount: 1,
-    echoCancellation: true, noiseSuppression: true, autoGainControl: true } });
-  try { return await navigator.mediaDevices.getUserMedia(audio(S.micDev)); }
-  catch (err) {                      // the chosen mic is gone (earbuds off): fall back to the default one
-    if (!S.micDev || err.name !== "OverconstrainedError" && err.name !== "NotFoundError") throw err;
-    S.micDev = ""; save("micDev", "");
-    return navigator.mediaDevices.getUserMedia(audio(""));
-  }
-}
-
-let voskLoading = null;
-function loadVosk() {                // 5.8 MB: fetched only when the mic is switched on, never for the first paint
-  return voskLoading ??= new Promise((res, rej) => {
-    const s = document.createElement("script");
-    s.src = "vendor/vosk.js"; s.onload = res;
-    s.onerror = () => { voskLoading = null; s.remove(); rej(new Error("vendor/vosk.js did not load")); };
-    document.head.append(s);
-  });
-}
-
-async function startMic() {
-  if (!CAN_VOICE) {                  // browsers give the mic only to https or localhost
-    toast("The microphone only works on the laptop itself (127.0.0.1), not over the network", 7000); return;
-  }
-  if (location.protocol === "file:") { toast("Voice needs the local server: python3 serve.py", 6000); return; }
-  $("#mic").classList.add("loading");
-  try {
-    if (!model) { toast("Loading speech model…", 20000); await loadVosk(); model = await Vosk.createModel(MODEL_URL); }
-    const stream = await openMic();
-    const ctx = new AudioContext();
-    const rec = new model.KaldiRecognizer(ctx.sampleRate, GRAMMAR);
-    rec.setWords(true);
-    rec.on("result", (m) => heard(m.result));
-    const src = ctx.createMediaStreamSource(stream);
-    const proc = ctx.createScriptProcessor(4096, 1, 1);
-    let deafUntil = 0, silence = null;
-    proc.onaudioprocess = (e) => {
-      // while the page reads aloud (and a moment after), the recognizer hears silence, not the speakers
-      if (ttsBusy()) deafUntil = performance.now() + TTS_TAIL;
-      const buf = performance.now() < deafUntil
-        ? (silence ??= ctx.createBuffer(1, e.inputBuffer.length, e.inputBuffer.sampleRate)) : e.inputBuffer;
-      try { rec.acceptWaveform(buf); } catch { /* recognizer gone */ }
-    };
-    src.connect(proc); proc.connect(ctx.destination);
-    mic = { stream, ctx, rec, src, proc };
-    if (ctx.state !== "running") await ctx.resume().catch(() => {});
-    if (ctx.state !== "running") {   // Chrome wants a click or key before audio starts
-      toast("Click anywhere (or press a key) to switch the microphone on", 8000);
-      wakeAudio = () => { mic?.ctx.resume().then(() => { toast("🎤 Listening"); wordsStatus(); }); wakeAudio = null; };
-      for (const w of [window, F?.win]) {
-        w?.addEventListener("pointerdown", wakeAudio, { once: true }); w?.addEventListener("keydown", wakeAudio, { once: true });
-      }
-    } else toast("🎤 Listening — say “next”");
-    S.micOn = true; save("micOn", true);
-    $("#mic").classList.add("on");
-    listDevices();
-  } catch (err) {
-    toast(err.name === "NotFoundError"
-      ? "No microphone found. Turn on the laptop mic (sound card input profile) or the earbuds' headset (HFP) mode."
-      : "Microphone failed: " + (err.message || err), 9000);
-    console.error(err);
-  } finally {
-    $("#mic").classList.remove("loading");
-    wordsStatus();
-  }
-}
-
-function stopMic() {
-  if (mic) {
-    mic.stream.getTracks().forEach((t) => t.stop());
-    mic.proc.disconnect(); mic.src.disconnect(); mic.ctx.close(); mic.rec.remove(); mic = null;
-    toast("Microphone off");
-  }
-  S.micOn = false; save("micOn", false);
-  $("#mic").classList.remove("on");
-  wordsStatus();
-}
-
-function heard(r) {
-  // a command counts only when it is said on its own: sure, and not run together with other speech
-  const words = r.result || [];
-  const cmds = [], said = [];
-  for (let i = 0; i < words.length; i++) {
-    if (words[i].word === "[unk]") continue;
-    const two = words[i + 1] && words[i + 1].word !== "[unk]" && `${words[i].word} ${words[i + 1].word}`;
-    const j = two && PHRASES[two] ? i + 1 : i;
-    const phrase = j > i ? two : words[i].word;
-    const before = words[i - 1], after = words[j + 1];
-    const alone = (!before || words[i].start - before.end >= GAP) && (!after || after.start - words[j].end >= GAP);
-    const ok = PHRASES[phrase] && Math.min(words[i].conf, words[j].conf) >= MIN_CONF && alone;
-    said.push(ok ? phrase : `${phrase}?`);
-    if (ok) cmds.push(PHRASES[phrase]);
-    i = j;
-  }
-  if (!said.length) return;
-  console.info("[voice]", said.join(" "), "->", cmds.join(" ") || "-");
-  toast("🎤 " + said.join(" ") + (cmds.length ? "" : "  (not sure — ignored)"));
-  if (!$("#words").hidden) for (const c of cmds) {   // light up the row of what was heard
-    const tr = $(`#words .w[data-cmd="${c}"]`);
-    if (tr) { tr.classList.remove("hit"); void tr.offsetWidth; tr.classList.add("hit"); }
-  }
-  cmds.forEach((c) => run(c, true));
-}
-
-async function listDevices() {
-  try {
-    const devs = (await navigator.mediaDevices.enumerateDevices()).filter((d) =>
-      d.kind === "audioinput" && d.deviceId && d.deviceId !== "default" &&
-      !/^monitor of/i.test(d.label));                 // monitors hear the speakers, not you
-    $("#micDev").innerHTML = `<option value="">Default mic</option>` +
-      devs.map((d) => `<option value="${esc(d.deviceId)}">${esc(d.label || "Microphone")}</option>`).join("");
-    $("#micDev").value = devs.some((d) => d.deviceId === S.micDev) ? S.micDev : "";
-  } catch { /* no device list */ }
-}
-
-/* ---------- the voice dialog: every word the mic listens for, and what it does ---------- */
-const KEY_NAMES = { Enter: "Enter", ArrowRight: "→", ArrowLeft: "←", "=": "=", "-": "−" };
-function keysFor(cmd) {
-  const extra = { step: ["Space"], prev: ["Shift+Space"], quiet: ["Esc"] }[cmd] || [];
-  const own = Object.keys(KEYS).filter((k) => KEYS[k] === (cmd === "autoOn" || cmd === "pause" ? "auto" : cmd))
-    .map((k) => KEY_NAMES[k] || k.toUpperCase());
-  return [...extra, ...own];
-}
-function buildWords() {
-  const said = {};
-  for (const [phrase, cmd] of Object.entries(PHRASES)) (said[cmd] ??= []).push(phrase);
-  const order = [...new Set([...Object.keys(DOES), ...Object.keys(said)])].filter((c) => said[c]);
-  $("#wordsList").style.setProperty("--rows", Math.ceil(order.length / 2));   // two columns, top to bottom
-  $("#wordsList").innerHTML = order.map((c) => `<div class="w" data-cmd="${c}">` +
-    `<span class="phrase">${said[c].map((p) => `“${esc(p)}”`).join("<span class=\"or\"> or </span>")}</span>` +
-    `<span>${esc(DOES[c] || c)}</span><span class="keys">${keysFor(c).map((k) => `<kbd>${esc(k)}</kbd>`).join(" ")}</span></div>`).join("");
-}
-function wordsStatus() {
-  $("#wordsStatus").textContent = $("#mic").classList.contains("loading") ? "🎤 Loading the speech model…"
-    : !mic ? "🎤 The microphone is off: press M or click 🎤 to start listening."
-    : mic.ctx.state !== "running" ? "🎤 Click anywhere (or press a key) to start listening."
-    : "🎤 Listening for these words now.";
-}
-function showWords(on) {
-  $("#words").hidden = !on;
-  if (on) wordsStatus();
+  closeDrawers(); showSettings(false); $("#help").hidden = true;
 }
 
 /* ---------- auto-mode settings (⚙, O, "settings") ---------- */
@@ -1116,9 +891,8 @@ async function init() {
   if (!THEMES.includes(S.theme)) S.theme = "light";
   for (const s of SETTINGS) if (!s.list.includes(S[s.key])) S[s.key] = DEFAULTS[s.key];   // a stored value no longer offered
   applyLook();
-  // what this device cannot do is not offered: fullscreen (iPhone), the mic over plain http from another device
+  // what this device cannot do is not offered: fullscreen (iPhone), + Anki away from the laptop
   if (!document.fullscreenEnabled) $('[data-cmd="fullscreen"]').hidden = true;
-  if (!CAN_VOICE) { $("#micGroup").hidden = true; S.micOn = false; document.body.classList.add("no-voice"); }
   if (!CAN_ANKI) $('#more [data-cmd="anki"]').hidden = true;
   if (!CAN_REMOTE) $("#remote").parentElement.hidden = true;
   $("#remote").classList.toggle("on", S.remote && CAN_REMOTE);
@@ -1129,19 +903,9 @@ async function init() {
   document.addEventListener("keydown", onKey, true);
   document.addEventListener("click", onClick);
   $("#help").onclick = () => { $("#help").hidden = true; };
-  $("#words").onclick = () => showWords(false);
-  buildWords();
-  $("#micDev").onchange = () => {
-    $("#micDev").blur();
-    S.micDev = $("#micDev").value; save("micDev", S.micDev);
-    if (mic) { stopMic(); startMic(); }
-  };
-  navigator.mediaDevices?.addEventListener?.("devicechange", listDevices);
   document.addEventListener("visibilitychange", keepAwake);
   keepAwake();
-  listDevices();
   if (TTS) { pickVoice(); TTS.addEventListener?.("voiceschanged", pickVoice); }
-  if (S.micOn) startMic();
 
   try { GROUPS = await (await fetch("../data/index.json")).json(); }
   catch { bootDone(); toast("Start it with: python3 serve.py", 10000); return; }

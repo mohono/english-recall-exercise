@@ -50,5 +50,5 @@ The exercises were imported once with `scripts/import.py` from `lingemy-exercise
 `grammar-exercise`, which are left as they were. Do not run the import again after editing exercises here: it
 overwrites them. The audio / video tools and the Anki summary tool are still in `lingemy-exercise/tools`.
 
-Not in git: `.env`, `app/vendor/` (the offline speech model, 45 MB), `scripts/.venv/` and `scripts/.nltk_data/`
+Not in git: `.env`, `scripts/.venv/` and `scripts/.nltk_data/`
 (for `add_ipa.py`; setup is in its docstring), and `audio/` (the uploaded Persian voice — the server's copy).

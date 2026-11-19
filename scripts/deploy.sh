@@ -2,8 +2,7 @@
 # Push main to GitHub and update the server: https://91-107-173-6.sslip.io/app/ (Caddy -> port 8080)
 #   scripts/deploy.sh
 # The server folder is /root/hermes/hossein/english-recall-exercise, served by the systemd unit
-# english-recall.service (serve.py --no-open --lan, port 8080 open in ufw). app/vendor/ (the speech model) is
-# not in git; it was copied there once with rsync and git pull leaves it alone.
+# english-recall.service (serve.py --no-open --lan, port 8080 open in ufw).
 set -e
 cd "$(dirname "$0")/.."
 SERVER=root@91.107.173.6
