@@ -73,7 +73,7 @@ and prints the address to open on the phone (without `--lan` only the laptop can
 the width:
 - wider than 1250px: the full bar, as described above;
 - up to 1250px: the bar keeps ☰, the title, ◀ ▶, Auto and ■; **⋯** opens a sheet with every other control
-  (bookmark, star, +Anki, ⚙ settings, 🔊 Read, text size, theme, help), so nothing needs a keyboard;
+  (+Anki, ⚙ settings, 🔊 Read, text size, theme, help), so nothing needs a keyboard;
 - up to 700px (phone): ◀ ▶ Auto ■ become big buttons at the bottom, the sidebar becomes a drawer that
   ☰ opens over the lesson (tap an exercise and it closes), settings and help fill the screen, and the
   text starts at 18px. Swiping the lesson sideways moves too: right = next (answer first), left = previous.
