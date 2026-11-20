@@ -7,14 +7,14 @@
 /* ---------- settings ---------- */
 const SIZES = [14, 16, 18, 20, 22, 24, 26, 28, 30, 33, 36, 40, 44];   // root font size of the lesson, px
 const THEMES = ["light", "dark", "contrast"];
-// auto mode: what each setting can be (⚙, O, "settings"); the values themselves are stored, not their place here
+// auto mode: what each setting can be (⋯, O); the values themselves are stored, not their place here
 const THINKS = [1, 2, 3, 4, 5, 6, 7, 8, 10, 12, 15, 20, 25, 30, 40, 50, 60];   // s to think before the answer opens
 const PER_WORD = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.75, 1];                // extra s to think per word of the English
 const AFTERS = [0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 20, 30];            // s to wait once the answer has been read
 const TIMES = [1, 2, 3];                                                // times the answer is read aloud
 const REPS = [0, 1, 2, 3, 4, 5];                                        // extra full rounds of a sentence: Persian, then English
 const RATES = [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 1, 1.1, 1.2];   // reading speed (1 = the voice's own)
-const DEFAULTS = { think: 10, perWord: 0, after: 3, speak: true, times: 1, rate: 0.75, faPlay: true, reps: 0, typing: true };
+const DEFAULTS = { think: 10, perWord: 0, after: 3, speak: true, times: 1, rate: 0.75, reps: 0, typing: true };
 const REPEAT_GAP = 900;              // ms between two readings of the same answer
 
 // key -> command (Space is next, Shift+Space previous: see onKey). ↑ ↓ PageUp PageDown keep scrolling.
@@ -76,7 +76,7 @@ function stopFa() {
 }
 function maybeFa(a) {
   faUntil = 0;
-  if (!S.faPlay || !F?.win.hasFa?.(a) || !F.win.playFa) return;
+  if (!S.speak || !F?.win.hasFa?.(a) || !F.win.playFa) return;
   if (navigator.userActivation && !navigator.userActivation.hasBeenActive) return;   // no click or key yet
   faAt = a;
   faUntil = performance.now() + 60000;      // until the real end of the clip
@@ -219,7 +219,7 @@ function anki() {
 let auto = false, paused = false, cutRead = false;   // cutRead: a pause stopped the answer being read
 let repLeft = 0;                     // extra rounds of this sentence left before the next one
 let left = 0, total = 0, lastTick = 0, ticker = 0;   // ms of the countdown, and its full length
-const overlayOpen = () => !$("#help").hidden || !$("#settings").hidden
+const overlayOpen = () => !$("#help").hidden
   || document.body.classList.contains("more") || phone.matches && sideOpen;
 function enWords() {
   const p = panel();
@@ -450,14 +450,16 @@ $("#exercises").onclick = (e) => {
   if (gh) { setGroup(gh.parentElement, gh.parentElement.classList.contains("closed")); return; }
   const it = e.target.closest("[data-path]");
   if (!it) return;
-  showSettings(false); $("#help").hidden = true;
+  $("#help").hidden = true;
   if (it.dataset.path !== F?.path) goLesson(it.dataset.path);
   if (sideOpen) { sideOpen = false; showSide(); }
 };
 
-/* ---------- the ⋯ sheet (windows too narrow for the whole bar) and the backdrop behind sheet and drawers ---------- */
+/* ---------- the ⋯ sheet (every extra control and the auto-play settings) and the backdrop behind it ---------- */
 function setMore(on) {
   document.body.classList.toggle("more", on);
+  if (on) buildSettings();
+  else if (document.activeElement?.closest?.("#more")) document.activeElement.blur();   // no hidden button keeps the next Space
   $("#moreBtn").classList.toggle("on", on);
   updateBackdrop();
 }
@@ -613,11 +615,11 @@ const COMMANDS = {
   slower: () => setThink(1),
   shorterWait: () => setAfter(-1),
   longerWait: () => setAfter(1),
-  settings: () => showSettings($("#settings").hidden),
+  settings: () => setMore(!document.body.classList.contains("more")),
   bigger: () => stepSize(1), smaller: () => stepSize(-1),
   speakAnswers: () => {
-    toggle("speak", "🔊 Answers read aloud: on", "🔊 Answers read aloud: off");
-    if (!S.speak && speaking === panel()?.querySelector(".en-box .say")) hush();   // off: stop it now
+    toggle("speak", "🔊 Reading aloud: on", "🔊 Reading aloud: off");
+    if (!S.speak) hush();                 // off: stop the Persian clip and the English answer now
   },
   theme: () => setTheme(THEMES[(THEMES.indexOf(S.theme) + 1) % THEMES.length]),
   fullscreen: () => (document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen())
@@ -636,25 +638,24 @@ const COMMANDS = {
 };
 const NEEDS_LESSON = new Set(["step", "prev", "bookmark", "star", "anki"]);
 
-// the settings stay open while you change them by key or by their buttons
-const KEEPS_SETTINGS = new Set(["settings", "faster", "slower", "shorterWait", "longerWait", "speakAnswers", "auto", "autoOn", "pause", "quiet", "bigger", "smaller", "theme"]);
-const KEEPS_MORE = new Set(["more", "faster", "slower", "shorterWait", "longerWait", "bigger", "smaller", "theme", "speakAnswers"]);
+// the sheet stays open while you change it by key or by its own buttons
+const KEEPS_MORE = new Set(["more", "settings", "faster", "slower", "shorterWait", "longerWait", "speakAnswers",
+  "auto", "autoOn", "pause", "quiet", "bigger", "smaller", "theme"]);
 function run(cmd) {
-  if (!KEEPS_MORE.has(cmd)) setMore(false);            // the sheet stays open while you step a value
+  if (!KEEPS_MORE.has(cmd)) setMore(false);
   if (cmd !== "side" && sideOpen) { sideOpen = false; showSide(); }
   if (cmd !== "help") $("#help").hidden = true;
-  if (!KEEPS_SETTINGS.has(cmd)) showSettings(false);
   if (NEEDS_LESSON.has(cmd) && !F) return;
   COMMANDS[cmd]();
   if (auto && MOVES.has(cmd)) restart();   // e.g. next: the same step, its full time again
-  if (!$("#settings").hidden) buildSettings();
+  if (document.body.classList.contains("more")) buildSettings();
 }
 
 function onKey(e) {                  // keys pressed in the shell or in the lesson
   const box = e.target.matches?.("textarea, input, select");
   if (e.key === "Escape") {
     if (box) e.target.blur();
-    if (overlayOpen()) { $("#help").hidden = true; closeDrawers(); showSettings(false); }
+    if (overlayOpen()) { $("#help").hidden = true; closeDrawers(); }
     else run("quiet");
     return;
   }
@@ -678,12 +679,11 @@ function onLessonClick(e) {          // a sentence or a button of the engine
   const tapNext = (e.pointerType === "touch" || coarse.matches) && !overlayOpen() && !String(F.win.getSelection())
     && !e.target.closest(".s, button, a, textarea, input, select, label, .say, .toc, .jump");
   if (tapNext) { run("step"); return; }
-  closeDrawers(); showSettings(false); $("#help").hidden = true;
+  closeDrawers(); $("#help").hidden = true;
 }
 
 /* ---------- the phone / PWA Back button: close an open panel, else leave the app ---------- */
 function closeTopPanel() {
-  if (!$("#settings").hidden) { showSettings(false); return true; }
   if (!$("#help").hidden) { $("#help").hidden = true; return true; }
   if (phone.matches && sideOpen) { sideOpen = false; showSide(); return true; }
   if (document.body.classList.contains("more")) { setMore(false); return true; }
@@ -695,17 +695,16 @@ window.addEventListener("popstate", () => {
   history.back();                                // nothing open: leave (browser tab, or the PWA)
 });
 
-/* ---------- auto-mode settings (⚙, O, "settings") ---------- */
+/* ---------- auto-play settings, in the ⋯ sheet (O) ---------- */
 const SETTINGS = [
   { key: "typing", list: [false, true], label: "Typing box for your translation", say: (v) => v ? "On" : "Off" },
   { key: "think", list: THINKS, label: "Time to think before the answer", say: (v) => `${v} s` },
   { key: "perWord", list: PER_WORD, label: "Extra time to think, per English word", say: (v) => v ? `+${v} s` : "none" },
-  { key: "speak", list: [true, false], label: "Read the English answer aloud (V)", say: (v) => v ? "On" : "Off" },
+  { key: "speak", list: [false, true], label: "Read aloud: the Persian clip, then the English answer (V)", say: (v) => v ? "On" : "Off" },
   { key: "times", list: TIMES, label: "Times the answer is read", say: (v) => `${v}×` },
   { key: "rate", list: RATES, label: "Reading speed", say: (v) => `${v}×` },
   { key: "after", list: AFTERS, label: "Wait after the answer, then next", say: (v) => `${v} s` },
   { key: "reps", list: REPS, label: "Repeat each sentence (Persian, then English)", say: (v) => v ? `+${v}×` : "Off" },
-  { key: "faPlay", list: [true, false], label: "Play the Persian voice clip before the think time", say: (v) => v ? "On" : "Off" },
 ];
 function buildSettings() {
   const n = F && active() >= 0 ? enWords() : 12;
@@ -717,8 +716,9 @@ function buildSettings() {
       `<b>${esc(s.say(S[s.key]))}</b>` +
       `<button data-set="${s.key}" data-d="1"${i === s.list.length - 1 ? " disabled" : ""}>+</button></div>`;
   }).join("");
-  $("#setFlow").textContent = `This sentence (${n} words): ${think} s to think → answer` +
-    (S.speak ? ` read aloud ${S.times > 1 ? S.times + " times" : "once"}` : " shown") +
+  $("#setFlow").textContent = `This sentence (${n} words): ` + (S.speak ? "Persian clip → " : "") +
+    `${think} s to think → answer ` +
+    (S.speak ? `read aloud ${S.times > 1 ? S.times + " times" : "once"}` : "shown") +
     ` → ${S.after} s → ` +
     (S.reps > 0 ? `the same sentence ${S.reps} more time${S.reps > 1 ? "s" : ""} (Persian, then English), then next.` : "next sentence.") +
     (S.speak ? "" : " (Nothing is read aloud.)");
@@ -730,19 +730,14 @@ function changeSetting(key, d) {
   save(key, S[key]);
   if (key === "speak") {
     applyLook();
-    if (!S.speak && speaking === panel()?.querySelector(".en-box .say")) hush();
+    if (!S.speak) hush();                 // off: stop the Persian clip and the English answer now
   }
-  if (key === "faPlay" && !S.faPlay) stopFa();
   if (key === "typing") applyTyping();
   if (key === "reps" && repLeft > S.reps) repLeft = S.reps;   // fewer rounds from now on, never more
   if (auto && F && (key === "think" || key === "perWord" ? !shown() : key === "after" && shown())) restart();
   buildSettings();
 }
-function showSettings(on) {
-  $("#settings").hidden = !on;
-  if (on) buildSettings();
-}
-$("#settings").addEventListener("click", (e) => {
+$("#setPanel").addEventListener("click", (e) => {
   const b = e.target.closest("button");
   if (!b) return;
   b.blur();
@@ -754,7 +749,6 @@ $("#settings").addEventListener("click", (e) => {
     buildSettings();
     toast("Settings back to the defaults");
   } else if (b.id === "setTry") play(b, true, 1);   // its own sample sentence: never the hidden answer
-  else if (b.id === "setClose") showSettings(false);
 });
 
 let toastTimer = 0;
@@ -855,7 +849,7 @@ async function init() {
   applyLook();
   // what this device cannot do is not offered: fullscreen (iPhone), + Anki away from the laptop
   if (!document.fullscreenEnabled) $('[data-cmd="fullscreen"]').hidden = true;
-  if (!CAN_ANKI) $('#more [data-cmd="anki"]').hidden = true;
+  if (!CAN_ANKI) $('#more [data-cmd="anki"]').closest('.group').hidden = true;
   showSide();
   showClock();
   document.addEventListener("keydown", onKey, true);

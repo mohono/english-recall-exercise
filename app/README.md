@@ -10,34 +10,36 @@ which the +Anki button uses.)
 
 **Keys:** Space/Enter/→/N next (answer first, then the next sentence) · Shift+Space/←/B previous ·
 P auto mode play / pause · = / − less / more time to think · ; / ' shorter / longer wait after the answer ·
-O settings · C bookmark · X (or \*) star · \+ Anki · . / , text size · V read the answer
-aloud on / off · E or L sidebar · T theme · F fullscreen · ? help · Esc stop (auto off) / close.
+O the ⋯ sheet (settings) · C bookmark · X (or \*) star · \+ Anki · . / , text size · V read aloud
+on / off · E or L sidebar · T theme · F fullscreen · ? help · Esc stop (auto off) / close.
 ↑ ↓ PageUp PageDown scroll a long answer.
 
-**Reading the answer aloud:** when the English answer shows, it is read aloud automatically, however you
-opened it (keys, auto mode, the page's own «نمایش پاسخ» button or Enter in the typing box). The
-**🔊 Read** button in the bar (or **V**) turns this on and off. Going back to a sentence, or reopening your
-place, does not read it again. Chrome lets a page speak only after one click or key press, so after starting,
-click once anywhere. The voice is the same one the lesson pages use. If it doesn't start (for example a Google network voice while offline), it is tried again with a local
-voice.
+**Reading aloud:** the **🔊 Read** button in the bar (or **V**) is the one switch for both voices. On, a
+sentence plays its Persian clip as it opens, and its English answer is read aloud when it shows, however you
+opened it (keys, auto mode, the page's own «نمایش پاسخ» button or Enter in the typing box). Off, neither is
+started by the app; the lesson's own 🔊 buttons still play one thing at a time. Going back to a sentence, or
+reopening your place, does not read it again. Chrome lets a page speak only after one click or key press, so
+after starting, click once anywhere. The voice is the same one the lesson pages use. If it doesn't start (for
+example a Google network voice while offline), it is tried again with a local voice.
 
-**Auto mode** (P, ▶ Auto): opens a sentence (the Persian is not synthesized; if it has a voice clip,
-that clip plays first, see “Persian voice clips”), waits the think time
-(10 s), opens the answer and reads the English aloud if 🔊 Read is on, waits a little (3 s), then goes to the next
-sentence. **Repeat each sentence** (⚙, Off / +1…+5) plays extra full rounds before it moves on: one round is
+**Auto mode** (P, ▶ Auto): opens a sentence and, with 🔊 Read on, plays its Persian clip first (see “Persian
+voice clips”) while the countdown waits, waits the think time (10 s), opens the answer and reads the English
+aloud, waits a little (3 s), then goes to the next sentence. **Repeat each sentence** (⋯, Off / +1…+5) plays
+extra full rounds before it moves on: one round is
 Persian → think → English → wait, and the whole round starts again, not each half on its own; the answer is hidden
 again at the start of every round. The big clock at the bottom right shows the step and its seconds: 💭 think, 🔊 reading, ⏭ the wait
-after. The countdown only runs in quiet time: it waits while something is read aloud, while a panel (settings,
-lessons, help) is open and while you type in the typing box. Any move (next, previous, a
+after. The countdown only runs in quiet time: it waits while something is read aloud, while a panel (the ⋯
+sheet, lessons, help) is open and while you type in the typing box. Any move (next, previous, a
 click on a sentence) starts the time of the new step afresh, and going to another sentence stops the reading of
 the old one.
 P pauses it where it is; P again goes on, and an answer cut off by the pause is read again. Esc (or ■) turns auto
 mode off. = / − change the think time, ; / ' the wait after the answer.
-**⚙ Settings** (O): the typing box on / off, time to think, extra time per English word (for long sentences), read the
-answer aloud on / off, how many times it is read (1–3), reading speed (0.75 by default, slower than the voice's
-own 1; the lesson's own 🔊 buttons read at this speed too), the wait after the answer, how many extra rounds of
-each sentence to play (+1…+5, or Off; Persian → English as one round), and the Persian clip. "Try the speed"
-reads a sample sentence; "Defaults" puts them all back. All of them are remembered.
+**Settings**: there is no separate ⚙ window. **⋯** (or **O**) opens one sheet that holds every auto-play
+setting: the typing box on / off, read aloud on / off (the Persian clip and the English answer together), time to
+think, extra time per English word (for long sentences), how many times the answer is read (1–3), reading speed
+(0.75 by default, slower than the voice's own 1; the lesson's own 🔊 buttons read at this speed too), the wait
+after the answer, and how many extra rounds of each sentence to play (+1…+5, or Off; Persian → English as one
+round). "Try the speed" reads a sample sentence; "Defaults" puts them all back. All of them are remembered.
 
 **Persian voice clips:** a sentence whose Persian already has a clip shows a 🔊 beside it; a sentence without
 one shows nothing. The clips are made ahead of time with `scripts/fa-voices.py --drill <collection>/<id>`: it
@@ -48,9 +50,9 @@ sentence number, so reordering an exercise never plays the wrong voice and an ed
 Audio is not in git; `audio/` on the server is the only copy, and `?v=<mtime>` on the URL makes a replaced clip get
 fetched again. Copy it there with rsync after generating.
 
-In auto mode the setting **“Play the Persian sentence”** (⚙) plays the clip as the sentence opens and the countdown
-waits for it, then the English answer is read as before. It is on by default; on a fresh page the browser needs one
-click or key before it may play sound, the same rule as the English voice.
+With **🔊 Read** on, the clip plays as the sentence opens and the countdown waits for it, then the English
+answer is read as before. It is on by default; on a fresh page the browser needs one click or key before it may
+play sound, the same rule as the English voice.
 
 **⭐ Starred sentences** (the Anki deck, in the app): ☆ under any sentence (or **X**) stars it, and
 a small ★ marks it in its exercise. Every starred sentence is in **⭐ ستاره‌دار → جمله‌های ستاره‌دار**, first in
@@ -71,19 +73,19 @@ are in, and P on a finished exercise starts it again from the top.
 **On a phone or a narrow window:** `python3 serve.py --lan` also serves it to devices on the same Wi-Fi
 and prints the address to open on the phone (without `--lan` only the laptop can reach it). The layout follows
 the width:
-- wider than 1250px: the full bar, as described above;
-- up to 1250px: the bar keeps ☰, the title, ◀ ▶, Auto and ■; **⋯** opens a sheet with every other control
-  (+Anki, ⚙ settings, 🔊 Read, text size, theme, help), so nothing needs a keyboard;
+- at every width the top bar keeps ☰, the title, **🔊 Read** and **⋯**; the transport (◀ ▶, Auto, ■) is in the
+  bar too on a laptop and at the bottom on a phone. The ⋯ sheet holds every other control and all the
+  auto-play settings (+Anki, text size, theme, help), so nothing needs a keyboard;
 - up to 700px (phone): ◀ ▶ Auto ■ become big buttons at the bottom, the sidebar becomes a drawer that
-  ☰ opens over the lesson (tap an exercise and it closes), settings and help fill the screen, and the
-  text starts at 18px. Swiping the lesson sideways moves too: right = next (answer first), left = previous.
+  ☰ opens over the lesson (tap an exercise and it closes), the ⋯ sheet opens over the lesson, help fills the
+  screen, and the text starts at 18px. Swiping the lesson sideways moves too: right = next (answer first), left = previous.
 - on a touch screen, **a tap anywhere on the lesson** that is not a sentence or a button is "next": the answer
   first, then the next sentence. Tapping a sentence still jumps to it.
 - **while auto mode is on**, a tap on a sentence is "next" as well (on a phone the text fills the screen), so the
   whole lesson is one tap target; only the lesson's buttons (🔊, bookmark, + Anki) keep their own job. To jump to a
   sentence then, press and hold it for half a second.
-- **Back** (the phone / PWA button): closes an open panel first — settings, help, the sidebar drawer, ⋯ — and
-  leaves the app only when nothing is open. It does not move between sentences.
+- **Back** (the phone / PWA button): closes an open panel first — help, the sidebar drawer, the ⋯ sheet
+  (settings) — and leaves the app only when nothing is open. It does not move between sentences.
 
 What a device cannot do is not shown on it. Opened from another device over plain http (`http://<laptop-ip>`
 or the old `http://91.107.173.6:8080`): no **+ Anki**, in the
@@ -91,7 +93,7 @@ or the old `http://91.107.173.6:8080`): no **+ Anki**, in the
 no fullscreen (iPhone). The screen is not kept awake there either (that needs https too).
 
 Your place in every exercise (the sentence, and whether its answer was open), the furthest sentence reached
-(shown in the sidebar), text size, theme, the auto-mode settings and the typing box are remembered
+(shown in the sidebar), text size, theme, the auto-play settings and the typing box are remembered
 in this browser. The screen is kept awake while the view is open.
 
 ## Install and offline
@@ -125,7 +127,7 @@ progress there: it moves every saved place and setting to the new address.
 - `drill.html` is the engine: `drill.html?d=<collection>/<id>` loads `data/<collection>/<id>.js` and shows it
   sentence by sentence (answer panel, speaker buttons, IPA, bookmark, + Anki; vocabulary rows and grammar rows).
   Every sentence box can have a typing box for your own English translation before the answer shows; it is
-  never checked, stays until you move on, and never takes the keyboard by itself (⚙ turns it off).
+  never checked, stays until you move on, and never takes the keyboard by itself (⋯ turns it off).
   Fonts come from `fonts/`, not from the network.
 - `index.html`, `hands.js`, `hands.css` are the view. The exercise runs in a frame from the same address, and
   `hands.js` adds `frame.css` to it (size, full width, themes) and drives the engine through

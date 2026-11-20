@@ -32,17 +32,23 @@ try {
     <button id="auto" data-cmd="auto" title="Auto mode: play / pause (P)">▶ Auto</button>
     <button data-cmd="quiet" title="Stop auto mode and reading aloud (Esc)">■</button>
   </div>
-  <button id="moreBtn" data-cmd="more" title="More controls">⋯</button>
-  <!-- wide window: part of the bar. Narrower: the sheet that ⋯ opens -->
-  <div id="more">
-    <div class="group touch" data-label="This sentence">
+  <button id="speak" data-cmd="speakAnswers" title="Reading aloud — the Persian sentence and the English answer: on / off (V)">🔊 Read</button>
+  <button id="moreBtn" data-cmd="more" title="Settings and more controls">⋯</button>
+  <!-- the ⋯ sheet: the rest of the controls and every auto-play setting -->
+  <div id="more" role="dialog" aria-label="Settings and more controls">
+    <section id="setPanel" aria-label="Auto play">
+      <h3>Auto play</h3>
+      <div id="setList"></div>
+      <p id="setFlow"></p>
+      <p class="rules">The countdown waits while anything is read aloud, while this sheet is open, and while you
+        type. Any move restarts it; P pauses it and P again goes on.</p>
+      <div class="acts">
+        <button id="setTry" data-say="This is how fast the English answers are read aloud.">🔊 Try the speed</button>
+        <button id="setDefaults">Defaults</button>
+      </div>
+    </section>
+    <div class="group" data-label="This sentence">
       <button data-cmd="anki" title="Add the sentence to Anki (+)">+ Anki</button>
-    </div>
-    <div class="group" data-label="Settings">
-      <button data-cmd="settings" title="All settings: auto mode, reading, typing box (O)">⚙</button>
-    </div>
-    <div class="group" data-label="Answer">
-      <button id="speak" data-cmd="speakAnswers" title="Read the English answer aloud when it shows: on / off (V)">🔊 Read</button>
     </div>
     <div class="group" data-label="Look">
       <button data-cmd="smaller" title="Smaller text (,)">A−</button>
@@ -50,7 +56,9 @@ try {
       <button data-cmd="theme" title="Theme (T)">◐</button>
       <button data-cmd="fullscreen" title="Fullscreen (F)">⛶</button>
     </div>
-    <button data-cmd="help" title="Help (?)">?</button>
+    <div class="group" data-label="Help">
+      <button data-cmd="help" title="Help (?)">?</button>
+    </div>
   </div>
 </header>
 <div id="backdrop" hidden></div>
@@ -61,45 +69,30 @@ try {
 <div id="toast" dir="auto"></div>
 <div id="clock" hidden aria-live="off"><span class="icon"></span><span class="label"></span><i></i></div>
 
-<div id="settings" hidden role="dialog" aria-labelledby="setTitle">
-  <h2 id="setTitle">Settings</h2>
-  <div id="setList"></div>
-  <p id="setFlow"></p>
-  <p class="rules">The countdown waits while the answer is being read aloud, while a panel like this one is open, and
-    while you are typing in the typing box, so its time is always quiet time. Any move (next, previous, a click
-    on a sentence) starts the time of the new step afresh. Pause (P) keeps the step and its time; P again goes on.
-    The typing box can be turned off here; when it is on, it never takes the keyboard by itself.</p>
-  <div class="acts">
-    <button id="setTry" data-say="This is how fast the English answers are read aloud.">🔊 Try the speed</button>
-    <button id="setDefaults">Defaults</button>
-    <button id="setClose">Close (Esc)</button>
-  </div>
-</div>
-
 <div id="help" hidden>
   <h2>Keys and touch</h2>
   <table>
     <tr><th>Key</th><th>Does</th></tr>
     <tr><td>Space Enter → N</td><td>show the answer; when it is shown, go to the next sentence</td></tr>
     <tr><td>Shift+Space ← B</td><td>previous sentence, answer shown</td></tr>
-    <tr><td>P</td><td>auto mode: think time → answer read aloud → a short wait → next sentence. P pauses where it is; P again goes on</td></tr>
+    <tr><td>P</td><td>auto mode: Persian clip → think time → answer read aloud → a short wait → next sentence. P pauses where it is; P again goes on</td></tr>
     <tr><td>Esc</td><td>stop reading aloud and turn auto mode off</td></tr>
     <tr><td>= −</td><td>less / more time to think in auto mode</td></tr>
     <tr><td>; '</td><td>shorter / longer wait after the answer in auto mode</td></tr>
-    <tr><td>O</td><td>all settings: typing box, think time, per word, read aloud, times, speed, wait after, repeat, Persian voice</td></tr>
+    <tr><td>O</td><td>the ⋯ sheet: every setting — typing box, think time, per word, read aloud, times, speed, wait after, repeat</td></tr>
     <tr><td>C</td><td>checkpoint 🔖 on / off</td></tr>
     <tr><td>X *</td><td>star ⭐ on / off: every starred sentence is in “⭐ ستاره‌دار”, first in the sidebar, drilled like any exercise</td></tr>
     <tr><td>+</td><td>add the sentence to the Anki deck “sentences”</td></tr>
     <tr><td>. ,</td><td>text size</td></tr>
     <tr><td>↓ ↑ PageDown</td><td>scroll a long answer</td></tr>
-    <tr><td>V</td><td>read the English answer aloud when it shows: on / off (the “🔊 Read” button)</td></tr>
+    <tr><td>V</td><td>reading aloud (the Persian clip and the English answer): on / off (the “🔊 Read” button)</td></tr>
     <tr><td>T F</td><td>theme, fullscreen</td></tr>
     <tr><td>E L</td><td>sidebar of all exercises: expanded → shrunk to numbers → hidden. Click a group to open it, an exercise to switch to it; auto mode stops at the end of each exercise</td></tr>
-    <tr><td>Back</td><td>close an open panel (settings, help, sidebar on a phone, ⋯), otherwise leave the app</td></tr>
+    <tr><td>Back</td><td>close an open panel (the ⋯ sheet, help, sidebar on a phone), otherwise leave the app</td></tr>
   </table>
   <p class="touchHelp">By touch: tap anywhere on the lesson that is not a sentence or a button to show the answer, and
     again to go on. While auto mode is on, a tap on a sentence does the same (press and hold a sentence to jump to it). ◀ ▶ at the bottom do the same, and so does swiping sideways (right = next, left = previous).
-    ⋯ holds every other control, ☰ the list of all exercises. Tap here to close.
+    ⋯ holds the auto-play settings and every other control, ☰ the list of all exercises. Tap here to close.
     Your place in every lesson, text size and theme are remembered.</p>
 </div>
 

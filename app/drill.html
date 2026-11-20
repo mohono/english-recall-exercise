@@ -360,7 +360,7 @@ else
   drawer.innerHTML = '<div><div class="slot"></div></div>';
   const slot = drawer.querySelector('.slot');
 
-  /* کادر ترجمه: از صفحهٔ ⚙ روشن / خاموش می‌شود و هیچ‌وقت خودش فوکوس نمی‌گیرد */
+  /* کادر ترجمه: از شیت ⋯ روشن / خاموش می‌شود و هیچ‌وقت خودش فوکوس نمی‌گیرد */
   let typing = true;
   try { typing = localStorage.getItem('lhf.typing') !== 'false'; } catch(e){}
   const paintTyping = () => {
