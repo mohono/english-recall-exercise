@@ -27,15 +27,14 @@ voice clips”) while the countdown waits, waits the think time (10 s), opens th
 aloud, waits a little (3 s), then goes to the next sentence. **Repeat each sentence** (⋯, Off / +1…+5) plays
 extra full rounds before it moves on: one round is
 Persian → think → English → wait, and the whole round starts again, not each half on its own; the answer is hidden
-again at the start of every round. The big clock at the bottom right shows the step and its seconds: 💭 think, 🔊 reading, ⏭ the wait
+again at the start of every round. On a phone, the timer has its own strip above the bottom controls. On a laptop, the clock at the bottom right shows the step and its seconds: 💭 think, 🔊 reading, ⏭ the wait
 after. The countdown only runs in quiet time: it waits while something is read aloud, while a panel (the ⋯
 sheet, lessons, help) is open and while you type in the typing box. Any move (next, previous, a
 click on a sentence) starts the time of the new step afresh, and going to another sentence stops the reading of
 the old one.
 P pauses it where it is; P again goes on, and an answer cut off by the pause is read again. Esc (or ■) turns auto
 mode off. = / − change the think time, ; / ' the wait after the answer.
-**Settings**: there is no separate ⚙ window. **⋯** (or **O**) opens one sheet that holds every auto-play
-setting: the typing box on / off, read aloud on / off (the Persian clip and the English answer together), time to
+**Settings**: there is no separate ⚙ window. **⋯** (or **O**) opens the settings sheet. Text size, theme and the translation box come first. Expand **Auto playback** for read aloud on / off (the Persian clip and the English answer together), time to
 think, extra time per English word (for long sentences), how many times the answer is read (1–3), reading speed
 (0.75 by default, slower than the voice's own 1; the lesson's own 🔊 buttons read at this speed too), the wait
 after the answer, and how many extra rounds of each sentence to play (+1…+5, or Off; Persian → English as one
@@ -73,16 +72,18 @@ are in, and P on a finished exercise starts it again from the top.
 **On a phone or a narrow window:** `python3 serve.py --lan` also serves it to devices on the same Wi-Fi
 and prints the address to open on the phone (without `--lan` only the laptop can reach it). The layout follows
 the width:
-- at every width the top bar keeps ☰, the title, **🔊 Read** and **⋯**; the transport (◀ ▶, Auto, ■) is in the
+- at every width the top bar keeps ☰, the title, the **speaker** and **⋯**; the transport (◀ ▶, Auto, ■) is in the
   bar too on a laptop and at the bottom on a phone. The ⋯ sheet holds every other control and all the
   auto-play settings (+Anki, text size, theme, help), so nothing needs a keyboard;
-- up to 700px (phone): ◀ ▶ Auto ■ become big buttons at the bottom, the sidebar becomes a drawer that
+- up to 700px (phone): Previous, Reveal / Next, Auto and Stop sit at the bottom, the sidebar becomes a drawer that
   ☰ opens over the lesson (tap an exercise and it closes), the ⋯ sheet opens over the lesson, help fills the
   screen, and the text starts at 18px. Swiping the lesson sideways moves too: right = next (answer first), left = previous.
-- on a touch screen, **a tap anywhere on the lesson** that is not a sentence or a button is "next": the answer
-  first, then the next sentence. Tapping a sentence still jumps to it.
-- **while auto mode is on**, a tap on a sentence is "next" as well (on a phone the text fills the screen), so the
-  whole lesson is one tap target; only the lesson's buttons (🔊, bookmark, + Anki) keep their own job. To jump to a
+- the main phone button reads **نمایش پاسخ** until the answer opens, then **جملهٔ بعدی**. The English and pronunciation
+  appear first. Tap a Persian heading for vocabulary or grammar. Open headings are remembered across sentences and visits.
+- on a touch screen, tap the lesson background to reveal the answer or advance. The answer itself is for reading,
+  scrolling, selecting text and opening notes. Tapping a Persian sentence jumps to it.
+- **while auto mode is on**, a tap on a sentence is "next" as well (on a phone the text fills the screen), and the
+  answer panel and its controls keep their usual interactions. To jump to a
   sentence then, press and hold it for half a second.
 - **Back** (the phone / PWA button): closes an open panel first — help, the sidebar drawer, the ⋯ sheet
   (settings) — and leaves the app only when nothing is open. It does not move between sentences.

@@ -219,7 +219,7 @@ function anki() {
 let auto = false, paused = false, cutRead = false;   // cutRead: a pause stopped the answer being read
 let repLeft = 0;                     // extra rounds of this sentence left before the next one
 let left = 0, total = 0, lastTick = 0, ticker = 0;   // ms of the countdown, and its full length
-const overlayOpen = () => !$("#help").hidden
+const overlayOpen = () => $("#help").open
   || document.body.classList.contains("more") || phone.matches && sideOpen;
 function enWords() {
   const p = panel();
@@ -340,6 +340,9 @@ function showClock(why = auto && !paused ? holding() : "") {
     clockText = text;
     c.querySelector(".icon").textContent = icon;
     c.querySelector(".label").textContent = label;
+    c.querySelector(".phase").textContent = paused ? "Paused" : why === "read" ? "Reading aloud" :
+      why === "typing" ? "Typing" : why === "hold" ? "On hold" : why === "wait" ? "Waiting" :
+      `${ans ? "Next" : "Think"} · ${sec}s`;
   }
   c.classList.toggle("answer", ans);
   c.style.setProperty("--done", total ? (1 - left / total).toFixed(3) : 0);
@@ -349,6 +352,7 @@ function showClock(why = auto && !paused ? holding() : "") {
 function applyLook() {
   document.documentElement.dataset.theme = S.theme;
   $("#speak").classList.toggle("on", S.speak);
+  $("#speak").setAttribute("aria-pressed", S.speak);
   if (!F) return;
   const root = F.doc.documentElement;
   root.style.setProperty("--hf-size", S.size + "px");
@@ -420,6 +424,7 @@ function showSide() {               // docked beside the lesson; on a phone a dr
   document.body.classList.toggle("side", on && !drawer);
   document.body.classList.toggle("side-small", on && !drawer && S.sideSmall);
   $("#sideBtn").classList.toggle("on", drawer ? on : S.side);
+  $("#sideBtn").setAttribute("aria-expanded", on);
   updateBackdrop();
   const b = $("#sideSize");
   if (b) { b.textContent = S.sideSmall ? "«" : "»"; b.title = S.sideSmall ? "Expand the sidebar (E)" : "Shrink the sidebar (E)"; }
@@ -450,7 +455,7 @@ $("#exercises").onclick = (e) => {
   if (gh) { setGroup(gh.parentElement, gh.parentElement.classList.contains("closed")); return; }
   const it = e.target.closest("[data-path]");
   if (!it) return;
-  $("#help").hidden = true;
+  $("#help").close();
   if (it.dataset.path !== F?.path) goLesson(it.dataset.path);
   if (sideOpen) { sideOpen = false; showSide(); }
 };
@@ -461,6 +466,7 @@ function setMore(on) {
   if (on) buildSettings();
   else if (document.activeElement?.closest?.("#more")) document.activeElement.blur();   // no hidden button keeps the next Space
   $("#moreBtn").classList.toggle("on", on);
+  $("#moreBtn").setAttribute("aria-expanded", on);
   updateBackdrop();
 }
 function updateBackdrop() {          // catches a tap outside: the lesson is a frame, its taps do not reach this page
@@ -478,7 +484,7 @@ function watchSwipes(win) {
   let x = 0, y = 0, t = 0;
   win.addEventListener("touchstart", (e) => {
     const p = e.touches[0];
-    t = e.touches.length === 1 && !e.target.closest?.("textarea, button, .say") ? performance.now() : 0;
+    t = e.touches.length === 1 && !e.target.closest?.(".panel:has(.answer:not([hidden])), textarea, button, .say") ? performance.now() : 0;
     x = p.clientX; y = p.clientY;
   }, { passive: true });
   win.addEventListener("touchmove", (e) => {           // a sideways drag is ours: not the browser's "back", not a scroll
@@ -553,7 +559,11 @@ function changed() {                 // the engine opened, closed or revealed so
     }
     markSide(F.path);
     const at = !n ? 0 : a >= 0 ? a + 1 : place().i + 1;
-    const part = `<span class="arrow"> › </span><span class="part">${esc(F.title)}</span>`;
+    const stepButton = $('#transport [data-cmd="step"]');
+    stepButton.disabled = !n;
+    $("#stepLabel").textContent = a < 0 && n ? "ادامهٔ تمرین" : !sh ? "نمایش پاسخ" :
+      at === n ? "پایان تمرین" : "جملهٔ بعدی";
+    const part = `<span class="arrow"> › </span><bdi class="part">${esc(F.title)}</bdi>`;
     $("#where").innerHTML = `<span class="t"><b>${esc(F.group)}</b>${part}</span><span class="count">${at} / ${n}</span>`;
     $("#where").classList.toggle("multi", !!part);
     $("#progress div").style.width = (n ? 100 * at / n : 0) + "%";
@@ -634,7 +644,11 @@ const COMMANDS = {
     F ? keepPlace(showSide) : showSide();
     toast(!S.side ? "Sidebar hidden" : S.sideSmall ? "Sidebar shrunk" : "Sidebar expanded");
   },
-  help: () => { $("#help").hidden = !$("#help").hidden; },
+  help: () => {
+    const help = $("#help");
+    if (help.open) help.close();
+    else help.showModal();
+  },
 };
 const NEEDS_LESSON = new Set(["step", "prev", "bookmark", "star", "anki"]);
 
@@ -644,7 +658,7 @@ const KEEPS_MORE = new Set(["more", "settings", "faster", "slower", "shorterWait
 function run(cmd) {
   if (!KEEPS_MORE.has(cmd)) setMore(false);
   if (cmd !== "side" && sideOpen) { sideOpen = false; showSide(); }
-  if (cmd !== "help") $("#help").hidden = true;
+  if (cmd !== "help") $("#help").close();
   if (NEEDS_LESSON.has(cmd) && !F) return;
   COMMANDS[cmd]();
   if (auto && MOVES.has(cmd)) restart();   // e.g. next: the same step, its full time again
@@ -654,11 +668,17 @@ function run(cmd) {
 function onKey(e) {                  // keys pressed in the shell or in the lesson
   const box = e.target.matches?.("textarea, input, select");
   if (e.key === "Escape") {
+    e.preventDefault();
     if (box) e.target.blur();
-    if (overlayOpen()) { $("#help").hidden = true; closeDrawers(); }
+    if (overlayOpen()) { $("#help").close(); closeDrawers(); }
     else run("quiet");
     return;
   }
+  if ($("#help").open) {
+    if (e.key === "?") $("#help").close();
+    return;
+  }
+  if ((e.key === "Enter" || e.key === " ") && e.target.closest?.("button, summary")) return;
   if (e.ctrlKey || e.altKey || e.metaKey) return;
   // typing: only Space in an empty box means "next"; Enter and Shift+Enter stay with the engine
   if (box && !(e.key === " " && e.target.tagName === "TEXTAREA" && !e.target.value)) return;
@@ -677,14 +697,14 @@ function onLessonClick(e) {          // a sentence or a button of the engine
   e.target.closest("button")?.blur();
   // touch: a tap anywhere that is not a sentence or a control is "next" (answer first, then the next sentence)
   const tapNext = (e.pointerType === "touch" || coarse.matches) && !overlayOpen() && !String(F.win.getSelection())
-    && !e.target.closest(".s, button, a, textarea, input, select, label, .say, .toc, .jump");
+    && !e.target.closest(".panel:has(.answer:not([hidden])), .s, button, a, textarea, input, select, label, .say, .toc, .jump");
   if (tapNext) { run("step"); return; }
-  closeDrawers(); $("#help").hidden = true;
+  closeDrawers(); $("#help").close();
 }
 
 /* ---------- the phone / PWA Back button: close an open panel, else leave the app ---------- */
 function closeTopPanel() {
-  if (!$("#help").hidden) { $("#help").hidden = true; return true; }
+  if ($("#help").open) { $("#help").close(); return true; }
   if (phone.matches && sideOpen) { sideOpen = false; showSide(); return true; }
   if (document.body.classList.contains("more")) { setMore(false); return true; }
   return false;
@@ -709,12 +729,13 @@ const SETTINGS = [
 function buildSettings() {
   const n = F && active() >= 0 ? enWords() : 12;
   const think = Math.round((S.think + S.perWord * n) * 10) / 10;
-  $("#setList").innerHTML = SETTINGS.map((s) => {
+  $("#typingSetting").checked = S.typing;
+  $("#setList").innerHTML = SETTINGS.filter(s => s.key !== "typing").map((s) => {
     const i = s.list.indexOf(S[s.key]);
     return `<div class="row"><span>${esc(s.label)}</span>` +
-      `<button data-set="${s.key}" data-d="-1"${i === 0 ? " disabled" : ""}>−</button>` +
+      `<button data-set="${s.key}" data-d="-1" aria-label="Decrease ${esc(s.label)}"${i === 0 ? " disabled" : ""}>−</button>` +
       `<b>${esc(s.say(S[s.key]))}</b>` +
-      `<button data-set="${s.key}" data-d="1"${i === s.list.length - 1 ? " disabled" : ""}>+</button></div>`;
+      `<button data-set="${s.key}" data-d="1" aria-label="Increase ${esc(s.label)}"${i === s.list.length - 1 ? " disabled" : ""}>+</button></div>`;
   }).join("");
   $("#setFlow").textContent = `This sentence (${n} words): ` + (S.speak ? "Persian clip → " : "") +
     `${think} s to think → answer ` +
@@ -737,6 +758,7 @@ function changeSetting(key, d) {
   if (auto && F && (key === "think" || key === "perWord" ? !shown() : key === "after" && shown())) restart();
   buildSettings();
 }
+$("#typingSetting").addEventListener("change", e => changeSetting("typing", e.target.checked ? 1 : -1));
 $("#setPanel").addEventListener("click", (e) => {
   const b = e.target.closest("button");
   if (!b) return;
@@ -854,7 +876,6 @@ async function init() {
   showClock();
   document.addEventListener("keydown", onKey, true);
   document.addEventListener("click", onClick);
-  $("#help").onclick = () => { $("#help").hidden = true; };
   document.addEventListener("visibilitychange", keepAwake);
   keepAwake();
   if (TTS) { pickVoice(); TTS.addEventListener?.("voiceschanged", pickVoice); }

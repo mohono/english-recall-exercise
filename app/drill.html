@@ -206,6 +206,27 @@
     .row{display:grid;grid-template-columns:7rem 1fr;gap:0 1.1rem}
     .key{line-height:1.9;margin-bottom:0}
   }
+  @media (max-width:700px){
+    .panel{display:flex;flex-direction:column;padding:.95rem}
+    .panel .answer{order:-1;margin:0;padding:0;border:0}
+    .answer .en-box{margin:0;padding:0;border:0}
+    .en-line{font-size:1.22rem;line-height:1.45}
+    .en-box .ipa{margin:.4rem 0 0;color:var(--text-2);overflow-wrap:anywhere}
+    .answer .say{min-width:44px;min-height:44px;margin:0;zoom:1}
+    .answer .say-row{align-items:flex-start}
+    .answer .row{display:block;margin:0}
+    .answer .en-box + .row{border-top:1px solid var(--line);margin-top:.85rem;padding-top:.25rem}
+    .answer summary{display:list-item;cursor:pointer;line-height:1.6;padding:.5rem .1rem;min-height:44px;
+      color:var(--text-2);font-size:.88rem;font-weight:600;margin:0}
+    .answer summary::marker{color:var(--accent-deep);font-size:.8em}
+    .answer details[open] > summary{color:var(--text)}
+    .answer .val{padding:0 0 .8rem;min-width:0}
+    .answer .wentry{background:transparent;padding:.45rem 0;margin:0}
+    .answer .wentry + .wentry{margin-top:.4rem}
+    .panel:has(.answer:not([hidden])) .attempt{margin-top:.75rem}
+    .panel:has(.answer:not([hidden])) .attempt:has(textarea:placeholder-shown:not(:focus)) :is(label,textarea){display:none}
+    .acts{flex-wrap:wrap}
+  }
   @media (prefers-reduced-motion:reduce){*{transition:none !important}}
 </style>
 </head>
@@ -262,7 +283,18 @@ const TEXTS     = [{ title: DATA.title, items: DATA.items }];
 
 const STAR = '<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M8 1.6l1.95 4.1 4.45.55-3.3 3.05.87 4.4L8 11.5l-3.97 2.2.87-4.4L1.6 6.25l4.45-.55z"/></svg>';
 const BOOKMARK = '<svg viewBox="0 0 14 16" xmlns="http://www.w3.org/2000/svg"><path d="M2.2 1.4h9.6v13.2L7 11.2l-4.8 3.4z"/></svg>';
-const row = (k, v, c='') => `<div class="row ${c}"><div class="key">${k}</div><div class="val">${v}</div></div>`;
+const narrowAnswer = matchMedia('(max-width: 700px)');
+const openNotes = new Set();
+try {
+  const saved = JSON.parse(localStorage.getItem('lhf.openNotes'));
+  if (Array.isArray(saved)) saved.forEach(key => openNotes.add(key));
+} catch(e){}
+function row(key, heading, content, extraClass = ''){
+  if (narrowAnswer.matches) {
+    return `<details class="row ${extraClass}" data-note="${key}"${openNotes.has(key) ? ' open' : ''}><summary class="key">${heading}</summary><div class="val">${content}</div></details>`;
+  }
+  return `<div class="row ${extraClass}"><div class="key">${heading}</div><div class="val">${content}</div></div>`;
+}
 
 /* شماره‌گذاری سراسری واحدها در کل فایل */
 const FLAT = [];
@@ -281,11 +313,15 @@ const sayBtn = text => `<button class="say" type="button" data-say="${attr(text)
 const ipaLine = ipa => ipa ? `<div class="ipa">/${ipa}/</div>` : '';
 
 function answerHTML(it){
-  let b = `<div class="en-box">
+  return `<div class="en-box">
     <div class="say-row"><p class="en-line">${it.en}</p>${sayBtn(spoken(it.en))}</div>
     ${ipaLine(it.ipa)}
-  </div>`;
-  if (it.words?.length) b += row('واژه‌ها', `<div class="words">${it.words.map(w => `
+  </div>` + noteRows(it);
+}
+
+function noteRows(it){
+  let b = '';
+  if (it.words?.length) b += row('words', 'واژه‌ها', `<div class="words">${it.words.map(w => `
     <div class="wentry">
       <div class="say-row"><div class="w">${w.w}</div>${sayBtn(spoken(w.w, true))}</div>
       ${ipaLine(w.ipa)}
@@ -293,19 +329,19 @@ function answerHTML(it){
       ${w.fa  ? `<div class="wfa">${w.fa}</div>`   : ''}
       ${w.more? `<div class="wx">${w.more}</div>`  : ''}
     </div>`).join('')}</div>`);
-  if (it.note) b += row('نکته', it.note);
-  if (it.skeleton) b += row('اسکلت', `<div class="skeleton">${it.skeleton}</div>`);
-  if (it.why?.length) b += row(it.whyKey || 'چرا این شکل', it.why.map(p=>`<p>${p}</p>`).join(''));
-  if (it.trap) b += row('تلهٔ فارسی', it.trap, 'trap');
-  if (it.misses?.length) b += row('اگر این را نوشتی',
+  if (it.note) b += row('note', 'نکته', it.note);
+  if (it.skeleton) b += row('skeleton', 'اسکلت', `<div class="skeleton">${it.skeleton}</div>`);
+  if (it.why?.length) b += row('why', it.whyKey || 'چرا این شکل', it.why.map(p=>`<p>${p}</p>`).join(''));
+  if (it.trap) b += row('trap', 'تلهٔ فارسی', it.trap, 'trap');
+  if (it.misses?.length) b += row('misses', 'اگر این را نوشتی',
     `<ul class="misses">${it.misses.map(m=>`<li><span class="bad">${m.en}</span><em>${m.why}</em></li>`).join('')}</ul>`);
-  if (it.alt) b += row('هم قبول است', it.alt);
+  if (it.alt) b += row('alt', 'هم قبول است', it.alt);
   if (it.rule){
     let r = it.rule.intro ? `<p>${it.rule.intro}</p>` : '';
     if (it.rule.examples?.length)
       r += `<ul class="mini">${it.rule.examples.map(e=>`<li><en>${e.en}</en> <em>${e.fa||''}</em></li>`).join('')}</ul>`;
     if (it.rule.outro) r += `<p style="margin-top:.7rem">${it.rule.outro}</p>`;
-    b += row('قاعدهٔ کلی', r);
+    b += row('rule', 'قاعدهٔ کلی', r);
   }
   return b;
 }
@@ -359,6 +395,19 @@ else
   drawer.className = 'drawer';
   drawer.innerHTML = '<div><div class="slot"></div></div>';
   const slot = drawer.querySelector('.slot');
+  slot.addEventListener('toggle', e => {
+    const note = e.target;
+    if (!note.matches('details[data-note]') || note.open === openNotes.has(note.dataset.note)) return;
+    if (note.open) openNotes.add(note.dataset.note);
+    else openNotes.delete(note.dataset.note);
+    try { localStorage.setItem('lhf.openNotes', JSON.stringify([...openNotes])); } catch(e){}
+  }, true);
+  narrowAnswer.addEventListener('change', () => {
+    if (active === null) return;
+    const answer = slot.querySelector('.answer');
+    answer.querySelectorAll('.row').forEach(el => el.remove());
+    answer.insertAdjacentHTML('beforeend', noteRows(FLAT[active].it));
+  });
 
   /* کادر ترجمه: از شیت ⋯ روشن / خاموش می‌شود و هیچ‌وقت خودش فوکوس نمی‌گیرد */
   let typing = true;
@@ -643,8 +692,8 @@ c{color:#8F8E8A;font-size:.85em}
     slot.innerHTML = `
       <div class="panel">
         <div class="attempt">
-          <label>ترجمه‌ات را بنویس (اختیاری):</label>
-          <textarea spellcheck="false" autocomplete="off"></textarea>
+          <label for="translation">ترجمه‌ات را بنویس (اختیاری):</label>
+          <textarea id="translation" placeholder=" " spellcheck="false" autocomplete="off"></textarea>
           <div class="acts">
             <button class="reveal" type="button">نمایش پاسخ</button>
             <button class="cp-btn${isCP ? ' on' : ''}" type="button" aria-pressed="${isCP}" aria-label="چک‌پوینت"><i>${BOOKMARK}</i></button>

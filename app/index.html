@@ -23,42 +23,46 @@ try {
 <!-- covers the page until the exercise is at the saved place, in the saved size and theme (boot / bootDone) -->
 <div id="boot" class="first" role="status"><i class="ring"></i><b>English recall</b><span id="bootMsg" dir="auto">Loading…</span></div>
 <header id="bar">
-  <button id="sideBtn" data-cmd="side" title="All exercises: expand / shrink / hide the sidebar (E or L)">☰</button>
+  <button id="sideBtn" aria-label="Exercises" aria-controls="exercises" data-cmd="side" title="All exercises: expand / shrink / hide the sidebar (E or L)">☰</button>
   <div id="where" dir="rtl"></div>
   <!-- on a phone this group is the bar at the bottom of the screen -->
   <div class="group" id="transport">
-    <button data-cmd="prev" title="Previous sentence (Shift+Space)">◀</button>
-    <button data-cmd="step" title="Answer, then next sentence (Space)">▶</button>
+    <button data-cmd="prev" aria-label="Previous sentence" title="Previous sentence (Shift+Space)">◀</button>
+    <button data-cmd="step" title="Answer, then next sentence (Space)"><span class="stepArrow">▶</span><span id="stepLabel" lang="fa" dir="rtl">نمایش پاسخ</span></button>
     <button id="auto" data-cmd="auto" title="Auto mode: play / pause (P)">▶ Auto</button>
-    <button data-cmd="quiet" title="Stop auto mode and reading aloud (Esc)">■</button>
+    <button data-cmd="quiet" aria-label="Stop playback" title="Stop auto mode and reading aloud (Esc)">■</button>
   </div>
-  <button id="speak" data-cmd="speakAnswers" title="Reading aloud — the Persian sentence and the English answer: on / off (V)">🔊 Read</button>
-  <button id="moreBtn" data-cmd="more" title="Settings and more controls">⋯</button>
+  <button id="speak" aria-label="Read aloud" aria-pressed="true" data-cmd="speakAnswers" title="Reading aloud — the Persian sentence and the English answer: on / off (V)">
+    <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 9h4l5-4v14l-5-4H3z"/>
+      <path class="soundOn" d="M16 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/>
+      <path class="soundOff" d="m16 9 5 6m0-6-5 6"/>
+    </svg><span>Read</span>
+  </button>
+  <button id="moreBtn" aria-label="Settings" aria-controls="more" aria-expanded="false" data-cmd="more" title="Settings and more controls">⋯</button>
   <!-- the ⋯ sheet: the rest of the controls and every auto-play setting -->
   <div id="more" role="dialog" aria-label="Settings and more controls">
-    <section id="setPanel" aria-label="Auto play">
-      <h3>Auto play</h3>
+    <div class="group" data-label="Display">
+      <button data-cmd="smaller" aria-label="Smaller text" title="Smaller text (,)">A−</button>
+      <button data-cmd="bigger" aria-label="Larger text" title="Larger text (.)">A+</button>
+      <button data-cmd="theme" title="Change theme (T)">Theme</button>
+      <button data-cmd="fullscreen" title="Fullscreen (F)">Fullscreen</button>
+    </div>
+    <label class="typingSetting">Translation box <input id="typingSetting" type="checkbox"></label>
+    <details id="setPanel">
+      <summary>Auto playback</summary>
       <div id="setList"></div>
       <p id="setFlow"></p>
-      <p class="rules">The countdown waits while anything is read aloud, while this sheet is open, and while you
-        type. Any move restarts it; P pauses it and P again goes on.</p>
+      <p class="rules">The timer waits during playback, while settings are open, and while you type.</p>
       <div class="acts">
-        <button id="setTry" data-say="This is how fast the English answers are read aloud.">🔊 Try the speed</button>
+        <button id="setTry" data-say="This is how fast the English answers are read aloud.">Try the speed</button>
         <button id="setDefaults">Defaults</button>
       </div>
-    </section>
+    </details>
     <div class="group" data-label="This sentence">
       <button data-cmd="anki" title="Add the sentence to Anki (+)">+ Anki</button>
     </div>
-    <div class="group" data-label="Look">
-      <button data-cmd="smaller" title="Smaller text (,)">A−</button>
-      <button data-cmd="bigger" title="Bigger text (.)">A+</button>
-      <button data-cmd="theme" title="Theme (T)">◐</button>
-      <button data-cmd="fullscreen" title="Fullscreen (F)">⛶</button>
-    </div>
-    <div class="group" data-label="Help">
-      <button data-cmd="help" title="Help (?)">?</button>
-    </div>
+    <button data-cmd="help" title="Help (?)">Help</button>
   </div>
 </header>
 <div id="backdrop" hidden></div>
@@ -67,10 +71,17 @@ try {
 <iframe id="lesson" title="Lesson"></iframe>
 <nav id="exercises" hidden dir="rtl" aria-label="Exercises"></nav>
 <div id="toast" dir="auto"></div>
-<div id="clock" hidden aria-live="off"><span class="icon"></span><span class="label"></span><i></i></div>
+<div id="clock" hidden aria-live="off"><span class="icon"></span><span class="label"></span><span class="phase"></span><i></i></div>
 
-<div id="help" hidden>
-  <h2>Keys and touch</h2>
+<dialog id="help" aria-labelledby="helpTitle">
+  <header><h2 id="helpTitle">Practice help</h2><form method="dialog"><button autofocus>Close</button></form></header>
+  <ul class="touchHelp">
+    <li>Tap <b lang="fa">نمایش پاسخ</b> to reveal the answer, then <b lang="fa">جملهٔ بعدی</b> to continue.</li>
+    <li>Tap a Persian sentence to jump to it. In Auto, press and hold the sentence to jump.</li>
+    <li>Outside the answer, tap the lesson background to advance, or swipe right for next and left for previous.</li>
+    <li>Inside the answer, scroll, select text, or tap a heading to open its notes.</li>
+    <li>Use ☰ to switch exercises and ⋯ for settings. Back closes an open panel.</li>
+  </ul>
   <table>
     <tr><th>Key</th><th>Does</th></tr>
     <tr><td>Space Enter → N</td><td>show the answer; when it is shown, go to the next sentence</td></tr>
@@ -90,11 +101,7 @@ try {
     <tr><td>E L</td><td>sidebar of all exercises: expanded → shrunk to numbers → hidden. Click a group to open it, an exercise to switch to it; auto mode stops at the end of each exercise</td></tr>
     <tr><td>Back</td><td>close an open panel (the ⋯ sheet, help, sidebar on a phone), otherwise leave the app</td></tr>
   </table>
-  <p class="touchHelp">By touch: tap anywhere on the lesson that is not a sentence or a button to show the answer, and
-    again to go on. While auto mode is on, a tap on a sentence does the same (press and hold a sentence to jump to it). ◀ ▶ at the bottom do the same, and so does swiping sideways (right = next, left = previous).
-    ⋯ holds the auto-play settings and every other control, ☰ the list of all exercises. Tap here to close.
-    Your place in every lesson, text size and theme are remembered.</p>
-</div>
+</dialog>
 
 <script src="stars.js"></script>
 <script src="hands.js"></script>

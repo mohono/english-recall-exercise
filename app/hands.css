@@ -14,12 +14,12 @@
 }
 
 * { box-sizing: border-box; touch-action: manipulation; }
-:root { --bot: 0px; }   /* height of the bottom bar (phones) */
+:root { --bar-height: 52px; --bot: 0px; --timer: 0px; }   /* height of the bottom bar (phones) */
 html, body { height: 100%; overscroll-behavior: none; }   /* a sideways swipe is "next", not the browser's "back" */
 body { margin: 0; overflow: hidden; background: var(--bg); color: var(--fg); font-family: system-ui, sans-serif; }
 
 #bar {
-  position: fixed; inset: 0 0 auto 0; z-index: 20; height: 52px;
+  position: fixed; inset: 0 0 auto 0; z-index: 20; height: var(--bar-height);
   display: flex; align-items: center; gap: 10px; padding: 0 10px;
   background: var(--panel); border-bottom: 1px solid var(--line); font-size: 16px; line-height: 1;
 }
@@ -40,8 +40,8 @@ body { margin: 0; overflow: hidden; background: var(--bg); color: var(--fg); fon
 /* the ⋯ sheet: on every window width it holds the extra controls and the auto-play settings */
 #moreBtn { display: block; }
 #more {
-  display: none; position: fixed; top: 60px; right: 8px; z-index: 40;
-  width: min(460px, calc(100vw - 16px)); max-height: calc(100dvh - 68px - var(--bot));
+  display: none; position: fixed; top: calc(var(--bar-height) + 8px); right: 8px; z-index: 40;
+  width: min(460px, calc(100vw - 16px)); max-height: calc(100dvh - var(--bar-height) - 16px - var(--bot) - var(--timer));
   overflow: auto; flex-wrap: wrap; align-items: center; gap: 12px 10px;
   padding: 12px 14px 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
   box-shadow: 0 14px 44px rgba(0,0,0,.3);
@@ -57,12 +57,12 @@ body.more #more { display: flex; }
 #where b { color: var(--fg); }
 #where .count { direction: ltr; unicode-bidi: isolate; font-variant-numeric: tabular-nums; }
 #auto.on, #speak.on, #sideBtn.on { background: var(--accent); color: var(--bg); border-color: var(--accent); }
-#progress { position: fixed; top: 52px; left: 0; right: 0; height: 4px; z-index: 20; }
+#progress { position: fixed; top: var(--bar-height); left: 0; right: 0; height: 4px; z-index: 20; }
 #progress div { height: 100%; width: 0; background: var(--accent); }
 
 #lesson, #boot:not(.first) {
-  position: fixed; top: 56px; left: 0; width: 100%; border: 0; background: var(--bg);
-  height: calc(100% - 56px - var(--bot)); height: calc(100dvh - 56px - var(--bot));
+  position: fixed; top: calc(var(--bar-height) + 4px); left: 0; width: 100%; border: 0; background: var(--bg);
+  height: calc(100% - var(--bar-height) - 4px - var(--bot) - var(--timer)); height: calc(100dvh - var(--bar-height) - 4px - var(--bot) - var(--timer));
 }
 
 /* the loading cover: the whole window at the start (.first), later only the lesson frame while an exercise loads */
@@ -92,7 +92,7 @@ body.more #more { display: flex; }
 /* exercises sidebar: docked beside the lesson, for a page that holds several exercises */
 :root { --side: 300px; }
 #exercises {
-  position: fixed; top: 56px; bottom: 0; right: 0; width: var(--side); z-index: 10; overflow: auto;
+  position: fixed; top: calc(var(--bar-height) + 4px); bottom: 0; right: 0; width: var(--side); z-index: 10; overflow: auto;
   background: var(--panel); border-left: 1px solid var(--line); padding: 6px 8px 40px;
   font-family: "Vazirmatn", system-ui, sans-serif; font-size: 17px; line-height: 1.45;
 }
@@ -151,7 +151,14 @@ body.side #clock { right: calc(var(--side) + 26px); }
   background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 20px 28px;
   font-size: 17px; line-height: 1.5; box-shadow: 0 20px 60px rgba(0,0,0,.35);
 }
-#help[hidden] { display: none; }
+#help { margin: 0; color: var(--fg); }
+#help::backdrop { background: rgba(0,0,0,.4); }
+#help header { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
+#help header h2 { margin: 0; }
+#help button { min-height: 44px; padding: 0 14px; font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; }
+#help .touchHelp { display: none; padding-inline-start: 1.3em; }
+#help .touchHelp li { margin-bottom: .75em; }
+@media (pointer: coarse) { #help .touchHelp { display: block; } }
 #help h2 { margin: 0 0 .5em; font-size: 22px; }
 #help table { border-collapse: collapse; width: 100%; }
 #help th, #help td { text-align: left; padding: 5px 10px; border-bottom: 1px solid var(--line); }
@@ -159,7 +166,9 @@ body.side #clock { right: calc(var(--side) + 26px); }
 
 /* auto mode: the play / pause button, and a countdown big enough to read from across the room */
 #auto { min-width: 96px; }
-#speak { min-width: 92px; }
+#speak { min-width: 92px; display: inline-flex; align-items: center; justify-content: center; gap: 6px; }
+#speak svg { width: 21px; height: 21px; }
+#speak.on .soundOff, #speak:not(.on) .soundOn, #stepLabel, #clock .phase { display: none; }
 #auto.paused { border-color: var(--accent); color: var(--accent); border-width: 2px; }
 #clock {
   position: fixed; right: 26px; bottom: 26px; z-index: 25; display: flex; align-items: center; gap: 10px;
@@ -176,7 +185,11 @@ body.side #clock { right: calc(var(--side) + 26px); }
 
 /* auto-play settings, inside the ⋯ sheet */
 #setPanel { width: 100%; }
-#setPanel h3 { margin: 0 0 .35em; font-size: 13px; font-weight: 600; color: var(--muted); letter-spacing: .02em; }
+#setPanel { border-block: 1px solid var(--line); }
+#setPanel summary { padding: 14px 0; cursor: pointer; font-weight: 600; }
+#setPanel[open] { padding-bottom: 12px; }
+.typingSetting { width: 100%; min-height: 44px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; }
+.typingSetting input { width: 20px; height: 20px; accent-color: var(--accent); }
 #setPanel .row {
   display: grid; grid-template-columns: 1fr 40px 96px 40px; gap: 8px; align-items: center;
   padding: 6px 0; border-top: 1px solid var(--line); font-size: 15px; line-height: 1.35;
@@ -192,41 +205,54 @@ body.side #clock { right: calc(var(--side) + 26px); }
 
 /* ---------- phone: transport at the bottom, sidebar as a drawer, dialogs full screen ---------- */
 @media (max-width: 700px) {
-  :root { --bot: calc(62px + env(safe-area-inset-bottom, 0px)); }
-  #bar { gap: 6px; padding: 0 8px; }
-  #where { min-width: 0; font-size: 15px; gap: 8px; }
-  #where.multi b, #where.multi .arrow { display: none; }   /* the exercise's own title is enough */
-  #where.multi .part { color: var(--fg); font-weight: 700; }
-  #where .count { font-size: 13px; }
-  #transport {
-    position: fixed; left: 0; right: 0; bottom: 0; height: var(--bot); gap: 8px;
-    padding: 7px 10px calc(7px + env(safe-area-inset-bottom, 0px));
+  :root { --bar-height: calc(56px + env(safe-area-inset-top, 0px)); --bot: calc(64px + env(safe-area-inset-bottom, 0px)); }
+  body.auto { --timer: 28px; }
+  #bar { gap: 4px; padding: env(safe-area-inset-top, 0px) 8px 0; }
+  #bar > button { min-width: 44px; height: 44px; border-color: transparent; }
+  #bar #speak { min-width: 44px; }
+  #speak.on { color: var(--fg); background: transparent; }
+  #speak:not(.on) { color: var(--muted); }
+  #speak span, .stepArrow { display: none; }
+  #where { min-width: 0; align-items: center; gap: 6px; font-size: 15px; line-height: 1.45; }
+  #where .t, #exercises .title { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; white-space: normal; overflow-wrap: anywhere; }
+  #where.multi b, #where.multi .arrow { display: none; }
+  #where .part { color: var(--fg); font-weight: 700; }
+  #where .count { font-size: 12px; }
+  #bar #transport {
+    position: fixed; left: 0; right: 0; bottom: 0; height: var(--bot); display: grid;
+    grid-template-columns: 44px minmax(0, 1fr) 84px 44px; gap: 6px;
+    padding: 7px max(10px, env(safe-area-inset-right)) calc(7px + env(safe-area-inset-bottom)) max(10px, env(safe-area-inset-left));
     background: var(--panel); border-top: 1px solid var(--line);
   }
-  #transport button { flex: 1; height: 48px; min-width: 0; font-size: 19px; border-radius: 10px; }
-  #transport [data-cmd="step"] { flex: 2.2; background: var(--accent); color: var(--bg); border-color: var(--accent); font-size: 22px; }
-  #transport #auto { flex: 1.7; min-width: 0; font-size: 16px; }
-  #transport [data-cmd="quiet"] { flex: .8; }
+  #transport button { height: 48px; min-width: 0; border-radius: 10px; }
+  #transport [data-cmd="prev"], #transport [data-cmd="quiet"] { border-color: transparent; font-size: 16px; }
+  #transport [data-cmd="step"] { background: var(--accent); color: #141413; border-color: transparent; }
+  #stepLabel { display: inline; font: 700 17px/1.4 "Vazirmatn", system-ui, sans-serif; white-space: nowrap; }
+  #transport #auto { min-width: 0; padding: 0 4px; font-size: 14px; white-space: nowrap; }
+  #transport #auto.on, #transport #auto.paused { background: transparent; color: var(--fg); border: 2px solid var(--accent); }
   #backdrop { background: rgba(0,0,0,.4); }
-  #exercises { z-index: 16; width: min(340px, 86vw); bottom: var(--bot); font-size: 17px; box-shadow: -8px 0 30px rgba(0,0,0,.25); }
-  #exercises .head button { display: none; }             /* a drawer does not shrink */
-  #toast { left: 12px; right: 12px; bottom: calc(var(--bot) + 12px); max-width: none; font-size: 16px; padding: 9px 14px; }
-  body.auto #toast { right: 122px; }
-  #clock { bottom: calc(var(--bot) + 12px); right: 10px; min-width: 0; gap: 6px; padding: 7px 12px 11px; font-size: 22px; border-radius: 11px; opacity: .94; }
-  #clock .icon { font-size: 19px; }
-  #clock .label { font-size: 20px; }
+  #exercises { z-index: 16; width: min(340px, 86vw); bottom: calc(var(--bot) + var(--timer)); font-size: 17px; box-shadow: -8px 0 30px rgba(0,0,0,.25); }
+  #exercises .head button { display: none; }
+  #exercises .grp:not(.closed) .item { display: grid; grid-template-columns: minmax(0, 1fr) 7ch;
+    min-height: 44px; align-items: center; padding: 8px; border-inline-start: 3px solid transparent; }
+  #exercises .prog { text-align: left; }
+  #exercises .grp .item.cur { outline: none; background: var(--bg); background: color-mix(in srgb, var(--accent) 12%, var(--panel)); border-inline-start-color: var(--accent); }
+  #toast { left: 12px; right: 12px; bottom: calc(var(--bot) + var(--timer) + 8px); max-width: none; font-size: 16px; padding: 9px 14px; }
+  #clock { left: 0; right: 0; bottom: var(--bot); height: var(--timer); border: 0; border-top: 1px solid var(--line);
+    border-radius: 0; padding: 2px 12px 4px; box-shadow: none; justify-content: center; }
+  #clock .icon, #clock .label { display: none; }
+  #clock .phase { display: inline; font-size: 12px; font-weight: 600; }
+  #clock i { height: 2px; }
   #help {
-    top: 0; left: 0; transform: none; width: 100%; height: 100%; height: 100dvh; max-height: none;
-    border: 0; border-radius: 0; padding: 14px 16px calc(22px + env(safe-area-inset-bottom, 0px)); font-size: 15px;
+    top: 0; left: 0; transform: none; width: 100%; max-width: none; height: 100%; height: 100dvh; max-height: none;
+    border: 0; border-radius: 0; padding: calc(14px + env(safe-area-inset-top)) 16px calc(22px + env(safe-area-inset-bottom, 0px)); font-size: 15px;
   }
   #help h2 { font-size: 21px; }
-  #setPanel .row { grid-template-columns: 1fr 38px 76px 38px; gap: 5px; font-size: 14px; }
+  #setPanel .row { grid-template-columns: minmax(0,1fr) 44px 58px 44px; gap: 5px; font-size: 14px; }
   #setPanel .row b { font-size: 16px; }
-  #setPanel .row button { height: 34px; min-width: 34px; font-size: 19px; }
+  #setPanel .row button { height: 44px; min-width: 44px; font-size: 19px; }
   #setFlow { font-size: 13px; }
-  #help th:nth-child(2), #help td:nth-child(2), #help tr:has(td:first-child:empty) { display: none; }   /* no keys on a phone */
-  #help th, #help td { padding: 6px 6px; }
+  #help table { display: none; }
+  #help .touchHelp { display: block; }
 }
-#help .touchHelp { display: none; }
-@media (pointer: coarse) { #help .touchHelp { display: block; } }
 #bar [hidden] { display: none !important; }
