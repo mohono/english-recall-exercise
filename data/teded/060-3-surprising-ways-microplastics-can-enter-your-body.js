@@ -74,7 +74,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از راهِ هوا، از راهِ پوست، و از همه رایج‌تر، از راهِ چیزهایی که می‌خوریم و می‌نوشیم.",
+      "fa": "از راهِ هوا، از راهِ پوستمان و، رایج‌تر از همه، از راهِ آنچه می‌خوریم و می‌نوشیم.",
       "en": "through the air, through our skin, and most commonly, through what we eat and drink.",
       "ipa": "θru ði ɛr θru ˈaʊɚ skɪn ənd moʊst ˈkɑmənli θru wʌt wi it ənd drɪŋk",
       "words": [
@@ -131,14 +131,14 @@ DRILL({
           "w": "produce",
           "ipa": "ˈproʊdus",
           "m": "fruit and vegetables grown for sale",
-          "fa": "محصولاتِ کشاورزی، میوه و سبزی",
+          "fa": "میوه و سبزیِ تازه؛ محصولاتِ کشاورزی",
           "more": "fresh produce · to produce (v.)"
         }
       ],
       "note": "produce این‌جا اسم است با تکیه روی بخشِ اول (PRO-duce)، نه فعلِ «تولید کردن»."
     },
     {
-      "fa": "بسته‌بندیِ پلاستیکی به هر چیزی که با آن تماس دارد ذره پس می‌دهد —",
+      "fa": "بسته‌بندیِ پلاستیکی ذراتی از خود جدا می‌کند که واردِ هر چیزی می‌شوند که بسته‌بندی با آن تماس دارد؛",
       "en": "Plastic packaging sheds particles into whatever it touches—",
       "ipa": "ˈplæstɪk ˈpækɪdʒɪŋ ʃɛdz ˈpɑrtəkəlz ɪnˈtu ˌwʌˈtɛvɚ ɪt ˈtʌtʃəz",
       "words": [
@@ -153,7 +153,7 @@ DRILL({
           "w": "to shed",
           "ipa": "tə ʃɛd",
           "m": "to let something fall off or come away",
-          "fa": "ریختن، از خود جدا کردن",
+          "fa": "ذراتی از خود جدا و رها کردن؛ ریختنِ مو یا برگ",
           "more": "shed skin · shed leaves"
         }
       ]
@@ -167,7 +167,7 @@ DRILL({
           "w": "bottled water",
           "ipa": "ˈbɑtəld ˈwɔtɚ",
           "m": "drinking water sold in bottles",
-          "fa": "آبِ بطری‌شده، آبِ معدنی",
+          "fa": "آبِ بسته‌بندی‌شده در بطری",
           "more": "tap water"
         },
         {
@@ -180,7 +180,7 @@ DRILL({
       ]
     },
     {
-      "fa": "حتی قوطی‌های فلزی و لفاف‌های کاغذی هم اغلب پوشش‌های داخلیِ پلاستیکی را پنهان کرده‌اند.",
+      "fa": "حتی قوطی‌های فلزی و لفاف‌های کاغذی هم اغلب درونشان لایه‌ای پلاستیکی دارند که به چشم نمی‌آید.",
       "en": "Even metal cans and paper wrappers often hide plastic linings.",
       "ipa": "ˈivɪn ˈmɛtəl kænz ənd ˈpeɪpɚ ˈræpɚz ˈɔfən haɪd ˈplæstɪk ˈlaɪnɪŋz",
       "words": [
@@ -243,7 +243,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گرم کردنِ غذا در این ظرف‌ها با مایکروویو می‌تواند میلیون‌ها ذره را واردِ غذای باقی‌مانده‌تان کند.",
+      "fa": "گرم کردنِ غذا در این ظرف‌ها در مایکروویو می‌تواند میلیون‌ها ذره را در غذای باقی‌مانده از وعدهٔ قبل آزاد کند.",
       "en": "microwaving food in these can release millions of particles into your leftovers.",
       "ipa": "ˈmaɪkrəˌweɪvɪŋ fud ɪn ðiz kən riˈlis ˈmɪljənz əv ˈpɑrtəkəlz ɪnˈtu jɔr ˈlɛfˌtoʊvɚz",
       "words": [
@@ -264,7 +264,7 @@ DRILL({
           "w": "leftovers",
           "ipa": "ˈlɛfˌtoʊvɚz",
           "m": "food that remains after a meal and is eaten later",
-          "fa": "تهِ‌مانده، غذای مانده",
+          "fa": "غذای باقی‌مانده از وعدهٔ قبلی",
           "more": "left over (adj.)"
         }
       ]
@@ -382,7 +382,7 @@ DRILL({
       ]
     },
     {
-      "fa": "نانوپلاستیک‌ها وقتی وارد شدند، آن‌قدر کوچک‌اند که از بیشترِ غشاهای سلولی رد می‌شوند و در عمقِ بافت‌هایمان جا خوش می‌کنند.",
+      "fa": "نانوپلاستیک‌ها پس از ورود به بدن، آن‌قدر ریزند که می‌توانند از بیشترِ غشاهای سلولی بگذرند و در عمقِ بافت‌هایمان جا بگیرند.",
       "en": "Once inside, nanoplastics are small enough to pass through most cell membranes and settle deep in our tissues.",
       "ipa": "wʌns ɪnˈsaɪd ˌnænəˈpælɪtsɪz ɚ smɔl ɪˈnʌf tə pæs θru moʊst sɛl ˈmɛmˌbreɪnz ənd ˈsɛtəl dip ɪn ˈaʊɚ ˈtɪsˌjuz",
       "newPara": true,
@@ -405,7 +405,7 @@ DRILL({
           "w": "to settle",
           "ipa": "tə ˈsɛtəl",
           "m": "to come to rest and stay in a place",
-          "fa": "جا گرفتن، ته‌نشین شدن",
+          "fa": "در بافت جای گرفتن و ماندن؛ ته‌نشین شدن؛ حل‌وفصل کردن",
           "more": "settlement · lodge"
         },
         {
@@ -586,7 +586,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بدتر از آن، التهاب سیلی از خون را به این بافت‌ها می‌آورد،",
+      "fa": "از آن بدتر، التهاب باعثِ سرازیر شدنِ خون به این بافت‌ها می‌شود،",
       "en": "Worse still, inflammation brings an influx of blood to these tissues,",
       "ipa": "wɝs stɪl ˌɪnfləˈmeɪʃən brɪŋz ən ˈɪnˌflʌks əv blʌd tə ðiz ˈtɪsˌjuz",
       "words": [
@@ -601,13 +601,13 @@ DRILL({
           "w": "influx",
           "ipa": "ˈɪnˌflʌks",
           "m": "the arrival of a large amount of something",
-          "fa": "هجوم، سیل",
+          "fa": "ورودِ ناگهانیِ مقدارِ زیادی خون؛ هجوم یا ورودِ گسترده",
           "more": "inflow · flood"
         }
       ]
     },
     {
-      "fa": "که پلاستیک‌ها سوارش می‌شوند تا مجانی در سرتاسرِ بدن سفر کنند.",
+      "fa": "و ذراتِ پلاستیک از همین جریانِ خون سواری می‌گیرند تا به سراسرِ بدن بروند.",
       "en": "which plastics use to hitch a ride throughout the body.",
       "ipa": "wɪtʃ ˈplæstɪks juz tə hɪtʃ ə raɪd θruˈaʊt ðə ˈbɑdi",
       "words": [
@@ -615,7 +615,7 @@ DRILL({
           "w": "to hitch a ride",
           "ipa": "tə hɪtʃ ə raɪd",
           "m": "to get a free journey by travelling with someone or something else",
-          "fa": "مجانی سوار شدن، همراهِ دیگری سفر کردن",
+          "fa": "همراهِ جریانِ خون به جای دیگر منتقل شدن؛ از وسیلهٔ نقلیهٔ دیگری سواری گرفتن",
           "more": "hitchhike · get a lift"
         },
         {
@@ -628,7 +628,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این ذره‌ها در کبد، طحال، ماهیچه‌ها، استخوان‌ها و حتی مغزمان ردیابی شده‌اند.",
+      "fa": "ذراتِ پلاستیک در کبد، طحال، ماهیچه‌ها، استخوان‌ها و حتی مغزِ ما شناسایی شده‌اند.",
       "en": "Particles have been detected in our livers, spleens, muscles, bones, and even our brains.",
       "ipa": "ˈpɑrtəkəlz hæv bɪn dɪˈtɛktəd ɪn ˈaʊɚ ˈlɪvɚz splinz ˈmʌsəlz boʊnz ənd ˈivɪn ˈaʊɚ breɪnz",
       "words": [
@@ -636,7 +636,7 @@ DRILL({
           "w": "to detect",
           "ipa": "tə dɪˈtɛkt",
           "m": "to discover or notice something that is hard to see",
-          "fa": "ردیابی کردن، شناسایی کردن",
+          "fa": "وجودِ چیزی را تشخیص دادن، شناسایی کردن",
           "more": "detection · detector"
         },
         {
@@ -654,7 +654,7 @@ DRILL({
       ]
     },
     {
-      "fa": "سخت است دقیقاً بگوییم در یک فردِ خاص چقدر پلاستیک هست، ولی این ذره‌ها فقط نوکِ کوهِ یخ‌اند.",
+      "fa": "دشوار است که دقیقاً بگوییم در بدنِ هر فرد چقدر پلاستیک هست، اما این ذره‌ها فقط نوکِ کوه یخ‌اند.",
       "en": "It's hard to say exactly how much plastic is in any one person, but these particles are just the tip of the iceberg.",
       "ipa": "ɪts hɑrd tə seɪ ɪɡˈzæktli haʊ mʌtʃ ˈplæstɪk ɪz ɪn ˈɛni wʌn ˈpɝsən bət ðiz ˈpɑrtəkəlz ɚ dʒʌst ðə tɪp əv ði ˈaɪsbɚɡ",
       "newPara": true,
@@ -663,7 +663,7 @@ DRILL({
           "w": "the tip of the iceberg",
           "ipa": "ðə tɪp əv ði ˈaɪsbɚɡ",
           "m": "a small part of a much larger problem",
-          "fa": "نوکِ کوهِ یخ",
+          "fa": "بخشِ کوچکِ نمایان از مسئله‌ای بسیار بزرگ‌تر؛ در معنیِ لفظی، نوکِ کوه یخ",
           "more": "scratch the surface"
         }
       ]
@@ -694,7 +694,7 @@ DRILL({
       "ipa": "ənd wɛˈnɛvɚ ˈplæstɪk ˈɛntɚz jɔr ˈbɑdi sʌm əv ðiz ˈkɛmɪkəlz du tu"
     },
     {
-      "fa": "اکثرِ قریب به اتفاقِ آن‌ها اثرهایی بر سلامت دارند که هنوز نمی‌فهمیم،",
+      "fa": "اکثریتِ قریب به اتفاقِ این مواد بر سلامت اثرهایی دارند که هنوز آن‌ها را درک نمی‌کنیم،",
       "en": "The vast majority of these have health impacts we don’t yet understand,",
       "ipa": "ðə væst məˈdʒɔrəti əv ðiz hæv hɛlθ ˈɪmpækts wi doʊnt jɛt ˌʌndɚˈstænd",
       "words": [
@@ -793,7 +793,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به این شناخته می‌شوند که فعالیتِ هورمونی را تغییر می‌دهند و در سرتاسرِ بدن ویرانی به بار می‌آورند.",
+      "fa": "معلوم است که فعالیتِ هورمونی را تغییر می‌دهند و به این ترتیب در سراسرِ بدن اختلالِ گسترده ایجاد می‌کنند.",
       "en": "are known to alter hormonal activity, wreaking havoc across the body.",
       "ipa": "ɚ noʊn tə ˈɔltɚ ˈhɔrˌmoʊnəl ækˈtɪvəti ˈrikɪŋ ˈhævək əˈkrɔs ðə ˈbɑdi",
       "words": [
@@ -801,7 +801,7 @@ DRILL({
           "w": "to be known to",
           "ipa": "tə bi noʊn tu",
           "m": "to be generally recognized as doing something",
-          "fa": "شناخته‌شده بودن به اینکه",
+          "fa": "معلوم بودن که چیزی کاری می‌کند یا ویژگی‌ای دارد",
           "more": "be thought to"
         },
         {
@@ -856,7 +856,7 @@ DRILL({
           "w": "to hijack",
           "ipa": "tə ˈhaɪˌdʒæk",
           "m": "to take control of something for a different purpose",
-          "fa": "ربودن، به دست گرفتن (کنترل)",
+          "fa": "کنترلِ فرایندی را در دست گرفتن؛ ربودنِ وسیلهٔ نقلیه",
           "more": "hijacker · take over"
         },
         {
@@ -897,7 +897,7 @@ DRILL({
       ]
     },
     {
-      "fa": "می‌توانند ادای تستوسترون و استروژن را دربیاورند و تعادلِ هورمونیِ بدنمان را به هم بریزند.",
+      "fa": "این مواد می‌توانند مانندِ تستوسترون و استروژن عمل کنند و به این ترتیب تعادلِ هورمونیِ بدنمان را به هم بزنند.",
       "en": "They can mimic testosterone and estrogen, confusing our body’s hormonal balance.",
       "ipa": "ðeɪ kən ˈmɪmɪk ˌtɛˈstɑstəˌroʊn ənd ˈɛstrədʒən kənˈfjuzɪŋ ˈaʊɚ ˈbɑdiz ˈhɔrˌmoʊnəl ˈbæləns",
       "words": [
@@ -905,7 +905,7 @@ DRILL({
           "w": "to mimic",
           "ipa": "tə ˈmɪmɪk",
           "m": "to copy or behave like something else",
-          "fa": "تقلید کردن، ادای (چیزی) را درآوردن",
+          "fa": "اثری شبیه به اثرِ یک هورمون ایجاد کردن؛ تقلید کردن",
           "more": "imitate · mimicry"
         },
         {
@@ -925,7 +925,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در زنان، سطحِ بالای فتالات با عوارضِ بارداری ارتباط داده شده است.",
+      "fa": "در زنان، بالا بودنِ میزانِ فتالات‌ها با عوارضِ بارداری مرتبط دانسته شده است.",
       "en": "In women, high phthalate levels have been linked with pregnancy complications.",
       "ipa": "ɪn ˈwɪmən haɪ ˈfɛθəˌleɪt ˈlɛvəlz hæv bɪn lɪŋkt wɪð ˈprɛɡnənsi ˌkɑmpləˈkeɪʃənz",
       "words": [
@@ -946,7 +946,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و در مردان، قرار گرفتن در معرضِ مقدارِ زیادِ BPA با کاهشِ تعدادِ اسپرم مرتبط دانسته شده.",
+      "fa": "و در مردان، مواجههٔ زیاد با بی‌پی‌ای با پایین‌تر بودنِ تعدادِ اسپرم مرتبط دانسته شده است.",
       "en": "And in men, high BPA exposure has been connected to lower sperm count.",
       "ipa": "ənd ɪn mɛn haɪ ˌbiˌpiˈeɪ ɪkˈspoʊʒɚ hæz bɪn kəˈnɛktəd tə ˈloʊɚ spɝm kaʊnt",
       "words": [
@@ -1008,7 +1008,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پژوهشی روی بیش از ۳۰۰ نوجوانِ پیش از بلوغ نشان داد که قرار گرفتن در معرضِ EDCها در رحمِ مادر",
+      "fa": "پژوهشی روی بیش از سیصد کودک در سنینِ پیش از نوجوانی نشان داد که مواجهه با موادِ مختل‌کنندهٔ غددِ درون‌ریز در رحمِ مادر",
       "en": "A study on over 300 pre-teens found that exposure to EDCs in utero",
       "ipa": "ə ˈstʌdi ɑn ˈoʊvɚ θri ˈhʌndrəd ˌpriˈtinz faʊnd ðæt ɪkˈspoʊʒɚ tə ˌiˌdiˈsiz ɪn ˈjutəroʊ",
       "words": [
@@ -1016,7 +1016,7 @@ DRILL({
           "w": "pre-teen",
           "ipa": "ˌpriˈtin",
           "m": "a child of about 10–12 years old",
-          "fa": "پیش‌نوجوان",
+          "fa": "کودک در سال‌های پیش از نوجوانی",
           "more": "teenager · tween"
         },
         {
@@ -1029,7 +1029,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ممکن است بیش از یک دهه بعد، بر زمانِ رسیدنشان به بلوغ اثر گذاشته باشد.",
+      "fa": "ممکن است بر زمانِ ورودِ آن کودکان به بلوغ، بیش از یک دهه بعد، اثر گذاشته باشد.",
       "en": "may have impacted when they entered puberty over a decade later.",
       "ipa": "meɪ hæv ˈɪmˌpæktɪd wɛn ðeɪ ˈɛntɚd ˈpjubɚti ˈoʊvɚ ə dɛˈkeɪd ˈleɪtɚ",
       "words": [
@@ -1078,7 +1078,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از اینها گذشته، هیچ مداخلهٔ پزشکی‌ای برای بیرون آوردنِ این ماده از بدنمان وجود ندارد.",
+      "fa": "آخر هیچ مداخلهٔ پزشکی‌ای برای بیرون آوردنِ این ماده از بدنمان وجود ندارد.",
       "en": "After all, there are no medical interventions for getting this material out of our bodies.",
       "ipa": "ˈæftɚ ɔl ðɛr ɚ noʊ ˈmɛdəkəl ˌɪntɚˈvɛntʃənz fɚ ˈɡɛtɪŋ ðɪs məˈtɪriəl aʊt əv ˈaʊɚ ˈbɑdiz",
       "words": [
@@ -1086,7 +1086,7 @@ DRILL({
           "w": "after all",
           "ipa": "ˈæftɚ ɔl",
           "m": "used to give a reason for what was just said",
-          "fa": "از اینها گذشته، به هر حال",
+          "fa": "آخر، چون (برای توضیحِ دلیلِ گفتهٔ پیشین)؛ به هر حال",
           "more": "anyway · besides"
         },
         {
@@ -1154,7 +1154,7 @@ DRILL({
       ]
     },
     {
-      "fa": "موقعِ خریدِ لباس، دنبالِ تکه‌هایی بگردید که از الیافِ طبیعی و بدونِ موادِ شیمیاییِ سمی ساخته شده‌اند.",
+      "fa": "موقعِ خریدِ لباس، دنبالِ لباس‌هایی بگردید که از الیافِ طبیعی و بدونِ موادِ شیمیاییِ سمی ساخته شده باشند.",
       "en": "When buying clothes, look for pieces made from natural fibers without toxic chemicals.",
       "ipa": "wɛn ˈbaɪɪŋ kloʊðz lʊk fɚ ˈpisəz meɪd frəm ˈnætʃərəl ˈfaɪbɚz wɪˈθaʊt ˈtɑksɪk ˈkɛmɪkəlz",
       "words": [
@@ -1162,7 +1162,7 @@ DRILL({
           "w": "piece",
           "ipa": "pis",
           "m": "an item of clothing",
-          "fa": "تکه، قلم (لباس)",
+          "fa": "یک قلم لباس؛ قطعه یا تکه",
           "more": "garment · item"
         },
         {
@@ -1284,7 +1284,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس قانون‌گذاری در سطحِ محلی، ایالتی و کشوری لازم است",
+      "fa": "بنابراین به قانون‌گذاری در سطحِ محلی، ایالتی و ملی نیاز خواهد بود",
       "en": "So it’s going to take legislation on the local, state, and country level",
       "ipa": "soʊ ɪts ˈɡoʊɪŋ tə teɪk ˌlɛdʒəˈsleɪʃən ɑn ðə ˈloʊkəl steɪt ənd ˈkʌntri ˈlɛvəl",
       "words": [
@@ -1305,7 +1305,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا این ماده را ایمن‌تر کند و دقیقاً تنظیم کند که چقدر از آن را به دنیا و بدن‌هایمان راه می‌دهیم.",
+      "fa": "تا این ماده را ایمن‌تر کنیم و دقیقاً مشخص کنیم چه مقدار از آن را می‌توانیم واردِ محیطِ زندگی و بدنمان کنیم.",
       "en": "to make this material safer and regulate just how much of it we put into our world and our bodies.",
       "ipa": "tə meɪk ðɪs məˈtɪriəl ˈseɪfɚ ənd ˈrɛɡjəˌleɪt dʒʌst haʊ mʌtʃ əv ɪt wi pʊt ɪnˈtu ˈaʊɚ wɝld ənd ˈaʊɚ ˈbɑdiz",
       "words": [

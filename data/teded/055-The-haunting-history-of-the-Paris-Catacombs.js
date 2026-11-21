@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=ngarNTPMclE",
   "items": [
     {
-      "fa": "سالِ ۱۷۸۰ است در پاریس، و باران‌های سنگینِ بهاری زمین را کاملاً از آب اشباع کرده‌اند.",
+      "fa": "پاریس است و سالِ ۱۷۸۰؛ باران‌های شدیدِ بهاری دارند زمین را از آب اشباع می‌کنند.",
       "en": "It’s 1780 in Paris, and the heavy spring rains are saturating the earth.",
       "ipa": "ɪts ˌsɛvənˈtin ˈeɪti ɪn ˈpɛrɪs ənd ðə ˈhɛvi sprɪŋ reɪnz ɚ ˈsætʃəˌreɪtɪŋ ði ɝθ",
       "newPara": true,
@@ -97,7 +97,7 @@ DRILL({
           "w": "remains",
           "ipa": "rɪˈmeɪnz",
           "m": "the body or bones of a dead person",
-          "fa": "بقایا، باقی‌ماندهٔ جسد",
+          "fa": "بقایای پیکرِ مردگان؛ آنچه از چیزی باقی مانده است",
           "more": "human remains · remain"
         },
         {
@@ -166,7 +166,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با گورستانی بیش از حد شلوغ که نسل‌ها پاریسیِ مرده را در خود جا داده بود،",
+      "fa": "با توجه به اینکه گورستان بیش از ظرفیتش پُر شده و مردگانِ چندین نسل از پاریسی‌ها را در خود جای داده بود،",
       "en": "With the overcrowded cemetery housing generations of dead Parisians,",
       "ipa": "wɪð ði ˈoʊvɚˌkraʊdɪd ˈsɛməˌtɛri ˈhaʊzɪŋ ˌdʒɛnəˈreɪʃənz əv dɛd pəˈrɪsiənz",
       "words": [
@@ -181,7 +181,7 @@ DRILL({
           "w": "to house",
           "ipa": "tə haʊs",
           "m": "to provide a place for someone or something to stay",
-          "fa": "در خود جا دادن، اسکان دادن",
+          "fa": "در خود جای دادنِ مردگان؛ برای کسی مسکن فراهم کردن",
           "more": "housing · accommodate"
         },
         {
@@ -193,7 +193,7 @@ DRILL({
       ]
     },
     {
-      "fa": "نگرانیِ رو به افزایشی وجود داشت که کلِ شهر در خطرِ جدیِ بیمار شدن است.",
+      "fa": "این نگرانی روزبه‌روز بیشتر می‌شد که همهٔ شهر در معرضِ خطرِ جدیِ بیماری باشد.",
       "en": "there was a growing worry that the entire city was in grave danger of falling ill.",
       "ipa": "ðɛr wəz ə ˈɡroʊɪŋ ˈwɝi ðæt ði ɪnˈtaɪɚ ˈsɪti wəz ɪn ɡreɪv ˈdeɪndʒɚ əv ˈfɑlɪŋ ɪl",
       "words": [
@@ -272,7 +272,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در قرنِ نهم، کلیسا اجازه داد که تدفین مستقیماً در محوطهٔ خودِ کلیسا انجام شود.",
+      "fa": "در سدهٔ نهم، کلیسا شروع کرد به دادنِ اجازهٔ دفنِ مردگان در محوطهٔ خودِ کلیسا.",
       "en": "in the 9th century, the Church began allowing burials directly on its grounds.",
       "ipa": "ɪn ðə naɪnθ ˈsɛntʃəri ðə tʃɝtʃ bɪˈɡæn əˈlaʊɪŋ ˈbɛriəlz dəˈrɛktli ɑn ɪts ɡraʊndz",
       "words": [
@@ -287,13 +287,13 @@ DRILL({
           "w": "grounds",
           "ipa": "ɡraʊndz",
           "m": "the land around a building, such as a church or school",
-          "fa": "محوطه",
+          "fa": "محوطه و زمینِ متعلق به یک بنا؛ دلایل یا مبانی",
           "more": "premises"
         }
       ]
     },
     {
-      "fa": "وقتی این گورستان‌های شهریِ محله‌ای‌ِ کلیساها پر شدند، برخی کلیساها شروع کردند به ساختنِ نمازخانه‌های استخوان،",
+      "fa": "هم‌زمان با پُر شدنِ گورستان‌های حوزه‌های کلیسایی در شهرها، بعضی کلیساها شروع به ساختنِ نمازخانه‌هایی برای استخوان‌ها کردند،",
       "en": "As these urban parish cemeteries filled, some churches started creating bone chapels,",
       "ipa": "əz ðiz ˈɝbən ˈpærɪʃ ˈsɛməˌtɛriz fɪld sʌm ˈtʃɝtʃəz ˈstɑrtəd kriˈeɪtɪŋ boʊn ˈtʃæpəlz",
       "words": [
@@ -435,7 +435,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و در عوض باور داشتند که بیماری از راهِ «میاسما»، یعنی هوای بد، پخش می‌شود.",
+      "fa": "بلکه باورشان این بود که بیماری از طریقِ «میاسما» یا همان هوای بد پخش می‌شود.",
       "en": "believing instead that disease spread through “miasma,” or bad air.",
       "ipa": "bɪˈlivɪŋ ɪnˈstɛd ðæt dɪˈziz sprɛd θru miˈæzmə ɔr bæd ɛr",
       "words": [
@@ -471,7 +471,7 @@ DRILL({
           "w": "cadaverous",
           "ipa": "kəˈdævərəs",
           "m": "like a dead body",
-          "fa": "جسدمانند، مرده‌وار",
+          "fa": "مانندِ بوی جسد (در این جمله)؛ تکیده و رنگ‌پریده (چهره)",
           "more": "cadaver · corpse"
         },
         {
@@ -600,7 +600,7 @@ DRILL({
           "w": "quarry",
           "ipa": "ˈkwɔri",
           "m": "a place where stone is dug out of the ground",
-          "fa": "معدنِ سنگ",
+          "fa": "معدنِ سنگ؛ شکار یا طعمهٔ تعقیب‌شده",
           "more": "quarry (v.) · mine"
         },
         {
@@ -780,7 +780,7 @@ DRILL({
           "w": "crypt",
           "ipa": "krɪpt",
           "m": "a room under a church where people are buried",
-          "fa": "سردابه، دخمه",
+          "fa": "دخمه یا سردابهٔ زیرزمینیِ مخصوصِ تدفین",
           "more": "tomb · vault"
         },
         {
@@ -815,7 +815,7 @@ DRILL({
       ]
     },
     {
-      "fa": "چون در خطرِ از دست دادنِ درآمدِ تدفین‌ها و هزینه‌های نگهداریِ گورستان بود،",
+      "fa": "چون ممکن بود درآمدی را که از تدفین و از دریافتِ حقِ نگهداریِ گورستان داشت از دست بدهد،",
       "en": "as it stood to lose income from burials and cemetery maintenance fees,",
       "ipa": "əz ɪt stʊd tə luz ˈɪnˌkʌm frəm ˈbɛriəlz ənd ˈsɛməˌtɛri ˈmeɪntənəns fiz",
       "words": [
@@ -844,7 +844,7 @@ DRILL({
           "w": "fee",
           "ipa": "fi",
           "m": "an amount of money paid for a service",
-          "fa": "هزینه، حق‌الزحمه",
+          "fa": "مبلغِ دریافتی بابتِ خدمت، اینجا حقِ نگهداریِ گورستان",
           "more": "charge · payment"
         }
       ]
@@ -885,7 +885,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا رهگذران آزرده نشوند و مواجههٔ عموم با میاسما محدود بماند.",
+      "fa": "تا از ناراحت کردنِ رهگذران بپرهیزند و میزانِ مواجههٔ مردم با آن هوای بد را محدود کنند.",
       "en": "to avoid upsetting passersby and to limit public exposure to the miasma.",
       "ipa": "tə əˈvɔɪd əpˈsɛtɪŋ ˈpæsɚzbi ənd tə ˈlɪmət ˈpʌblɪk ɪkˈspoʊʒɚ tə ðə miˈæzmə",
       "words": [
@@ -1025,7 +1025,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گورستانِ «معصومان» بزرگ‌ترین منبع بود،",
+      "fa": "بیشترین بقایای انسانی از گورستانِ «معصومان» می‌آمد،",
       "en": "The Cemetery of the Innocents was the largest source,",
       "ipa": "ðə ˈsɛməˌtɛri əv ði ˈɪnəsənts wəz ðə ˈlɑrdʒəst sɔrs",
       "words": [
@@ -1039,7 +1039,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هرچند طولی نکشید که استخوان‌ها را از گورستان‌های سراسرِ شهر می‌آوردند.",
+      "fa": "هرچند اندکی بعد، از گورستان‌های سراسرِ شهر هم استخوان به آنجا آورده می‌شد.",
       "en": "though bones were soon brought from cemeteries throughout the city.",
       "ipa": "ðoʊ boʊnz wɚ sun brɔt frəm ˈsɛməˌtɛriz θruˈaʊt ðə ˈsɪti",
       "words": [
@@ -1096,7 +1096,7 @@ DRILL({
       ]
     },
     {
-      "fa": "البته دخمه‌ها جایی فراهم می‌کردند که جسدهای دردسرساز در آن ناپدید شوند.",
+      "fa": "البته دخمه‌ها واقعاً جایی در اختیار می‌گذاشتند که جسدهای دردسرساز می‌توانستند در آن ناپدید شوند.",
       "en": "Though the Catacombs did offer a space where inconvenient bodies could disappear.",
       "ipa": "ðoʊ ðə ˈkætəˌkoʊmz dɪd ˈɔfɚ ə speɪs wɛr ˌɪnkənˈvinjənt ˈbɑdiz kʊd ˌdɪsəˈpɪr",
       "words": [
@@ -1111,7 +1111,7 @@ DRILL({
       "note": "Though اینجا در آغازِ جمله به معنای «البته / با این حال» است؛ did هم تأکیدی است."
     },
     {
-      "fa": "برخی از بیش از ۱۰۰۰ زندانی‌ای که در کشتارهای سپتامبرِ ۱۷۹۲ ِ انقلاب اعدام شدند",
+      "fa": "از میانِ بیش از هزار زندانی که در کشتارهای سپتامبرِ ۱۷۹۲ در جریانِ انقلاب اعدام شدند، برخی",
       "en": "Some of the over 1,000 prisoners executed in the Revolution’s September Massacres of 1792",
       "ipa": "sʌm əv ði ˈoʊvɚ wʌn ˈθaʊzənd ˈprɪzənɚz ˈɛksəkˌjutəd ɪn ðə ˌrɛvəˈluʃənz sɛpˈtɛmbɚ ˈmæsɪkɚz əv ˌsɛvənˈtin ˈnaɪnti tu",
       "words": [
@@ -1126,7 +1126,7 @@ DRILL({
           "w": "to execute",
           "ipa": "tə ˈɛksəkˌjut",
           "m": "to kill someone as a legal or political punishment",
-          "fa": "اعدام کردن",
+          "fa": "اعدام کردن؛ اجرا کردنِ طرح یا دستور",
           "more": "execution · executioner"
         },
         {
@@ -1245,7 +1245,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دستور داد بخشِ کوچکی از این فضای آشفته سامان داده و به‌روی عموم باز شود.",
+      "fa": "دستور داد بخشِ کوچکی از آن فضای آشفته برای نمایش سامان داده شود و به روی عموم باز باشد.",
       "en": "ordered that a small section of the chaotic space be curated and open to the public.",
       "ipa": "ˈɔrdɚd ðæt ə smɔl ˈsɛkʃən əv ðə keɪˈɑtɪk speɪs bi ˈkjʊrətɪd ənd ˈoʊpən tə ðə ˈpʌblɪk",
       "words": [
@@ -1345,7 +1345,7 @@ DRILL({
           "w": "quote",
           "ipa": "kwoʊt",
           "m": "words taken from a writer or speaker",
-          "fa": "نقل‌قول، گفته",
+          "fa": "نقل‌قول، سخنی نقل‌شده از کسی؛ قیمتِ پیشنهادی",
           "more": "quotation · quote (v.)"
         },
         {
@@ -1365,7 +1365,7 @@ DRILL({
       ]
     },
     {
-      "fa": "باقیِ دخمه‌ها — که بقایای حدوداً ۶ میلیون پاریسی را در خود جا داده —",
+      "fa": "بقیهٔ دخمه‌ها، که بنا بر برآوردها بقایای شش میلیون پاریسی را در خود جای داده‌اند،",
       "en": "The rest of the Catacombs— housing the remains of an estimated 6 million Parisians—",
       "ipa": "ðə rɛst əv ðə ˈkætəˌkoʊmz ˈhaʊzɪŋ ðə rɪˈmeɪnz əv ən ˈɛstəˌmeɪtəd sɪks ˈmɪljən pəˈrɪsiənz",
       "words": [
@@ -1379,7 +1379,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دست‌نخورده بود و تا حدِ زیادی هنوز هم هست.",
+      "fa": "دست‌نخورده بود و هنوز هم تا حدِ زیادی دست‌نخورده مانده است.",
       "en": "was, and largely remains, untouched.",
       "ipa": "wəz ənd ˈlɑrdʒli rɪˈmeɪnz ənˈtʌtʃt",
       "words": [
@@ -1429,7 +1429,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گرچه تابلوها نشان می‌دادند استخوان‌ها از کدام گورستان آورده شده‌اند،",
+      "fa": "با اینکه تابلوها گورستانی را مشخص می‌کردند که استخوان‌ها از آنجا منتقل شده بودند،",
       "en": "While signs indicated the cemetery where the bones were moved from,",
       "ipa": "waɪl saɪnz ˈɪndəˌkeɪtəd ðə ˈsɛməˌtɛri wɛr ðə boʊnz wɚ muvd frʌm",
       "words": [
@@ -1470,7 +1470,7 @@ DRILL({
           "w": "to lie",
           "ipa": "tə laɪ",
           "m": "(of a dead person) to be buried or placed somewhere (past: lay)",
-          "fa": "آرمیدن، خوابیدن",
+          "fa": "آرمیدن، در جایی قرار داشتن؛ دروغ گفتن",
           "more": "lie–lay–lain"
         },
         {
@@ -1527,7 +1527,7 @@ DRILL({
           "w": "confused",
           "ipa": "kənˈfjuzd",
           "m": "(here) mixed up and disordered",
-          "fa": "درهم‌آمیخته، درهم‌ریخته",
+          "fa": "درهم‌آمیخته، بدونِ تمایزِ میان افراد؛ سردرگم",
           "more": "confusion · jumbled"
         },
         {
@@ -1540,7 +1540,7 @@ DRILL({
       ]
     },
     {
-      "fa": "منابع یکسان نیستند، اما برخی می‌گویند واپسین بقایا همین اواخر، در دههٔ ۱۹۳۰، جابه‌جا شدند.",
+      "fa": "منابع روایتِ یکسانی ندارند، اما به گفتهٔ برخی، آخرین بقایا تازه در دههٔ ۱۹۳۰ جابه‌جا شدند.",
       "en": "Sources vary, but some say the last remains were moved as recently as the 1930s.",
       "ipa": "ˈsɔrsəz ˈvɛri bət sʌm seɪ ðə læst rɪˈmeɪnz wɚ muvd əz ˈrisəntli əz ðə ˌnaɪnˈtin ˈθɝtiz",
       "newPara": true,

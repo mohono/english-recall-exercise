@@ -19,7 +19,7 @@ DRILL({
       ]
     },
     {
-      "fa": "داشت با پیچ‌های تند از شیب‌های کوهستانِ کسکِید پایین می‌آمد",
+      "fa": "داشت با پیچ‌های پیاپی روی دامنه‌های کوهستانِ کسکید اسکی می‌کرد",
       "en": "was carving through the slopes of the Cascade Mountains",
       "ipa": "wəz ˈkɑrvɪŋ θru ðə sloʊps əv ðə kæˈskeɪd ˈmaʊntənz",
       "words": [
@@ -27,7 +27,7 @@ DRILL({
           "w": "to carve",
           "ipa": "tə kɑrv",
           "m": "(in skiing) to make smooth curving turns on the snow",
-          "fa": "با پیچ‌های نرم و تند اسکی کردن",
+          "fa": "روی لبه‌های اسکی پیچیدن؛ حکاکی کردن، تراشیدن",
           "more": "carve out · carving"
         },
         {
@@ -67,7 +67,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پیش از آنکه دیواری ۵۰۰۰ تُنی از برف او را به‌کلی در خود فرو بَرَد،",
+      "fa": "پیش از آنکه کاملاً در دیواری پنج‌هزارتُنی از برف فرو برود،",
       "en": "Before she was fully engulfed by a 5,000-ton wall of snow,",
       "ipa": "bɪˈfɔr ʃi wəz ˈfʊli ɪnˈɡʌlft baɪ ə faɪv ˈθaʊzənd tʌn wɔl əv snoʊ",
       "words": [
@@ -151,7 +151,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بهمن یعنی پایین آمدنِ سریعِ برف، یخ، سنگ،",
+      "fa": "بهمن‌ها حاصلِ سرازیر شدنِ سریعِ برف، یخ، سنگ",
       "en": "Avalanches are the rapid descension of snow, ice, rock,",
       "ipa": "ˈævəˌlæntʃɪz ɚ ðə ˈræpəd dɪˈsɛnʃən əv snoʊ aɪs rɑk",
       "newPara": true,
@@ -174,7 +174,7 @@ DRILL({
       "note": "descension کم‌کاربرد است؛ واژهٔ رایج descent است."
     },
     {
-      "fa": "یا ترکیبی از این‌ها از روی یک شیب.",
+      "fa": "یا ترکیبی از این‌ها به پایینِ یک دامنه‌اند.",
       "en": "or a combination of these down a slope.",
       "ipa": "ɔr ə ˌkɑmbəˈneɪʃən əv ðiz daʊn ə sloʊp",
       "words": [
@@ -224,7 +224,7 @@ DRILL({
           "w": "alone",
           "ipa": "əˈloʊn",
           "m": "used after a noun to mean 'only', and that the total is even bigger",
-          "fa": "تنها، فقط",
+          "fa": "فقط، تنها در همین یک کشور؛ به‌تنهایی",
           "more": "in X alone"
         },
         {
@@ -329,7 +329,7 @@ DRILL({
           "w": "shallow",
           "ipa": "ˈʃæloʊ",
           "m": "(of a slope) not steep; only slightly sloping",
-          "fa": "ملایم، کم‌شیب",
+          "fa": "کم‌شیب، ملایم (دامنه)؛ کم‌عمق (آب)؛ سطحی (فکر)",
           "more": "gentle · steep (opp.)"
         },
         {
@@ -370,7 +370,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دوم، معمولاً به لایه‌ای از برفِ محکم نیاز دارند که روی لایه‌ای سست یا ناپایدار نشسته باشد،",
+      "fa": "دوم، بهمن‌ها معمولاً به لایه‌ای از برفِ محکم نیاز دارند که روی لایه‌ای ضعیف یا ناپایدار انباشته شده باشد،",
       "en": "Second, they typically need a layer of sturdy snow deposited over a weak or unstable layer,",
       "ipa": "ˈsɛkənd ðeɪ ˈtɪpɪkli nid ə ˈleɪɚ əv ˈstɝdi snoʊ dəˈpɑzɪtɪd ˈoʊvɚ ə wik ɔr ənˈsteɪbəl ˈleɪɚ",
       "newPara": true,
@@ -425,7 +425,7 @@ DRILL({
       ]
     },
     {
-      "fa": "جایی که توفان‌های سنگینِ اخیر تخته‌ای از برفِ تازه به عمقِ نزدیک به یک متر بر جا گذاشته بودند.",
+      "fa": "جایی که توفان‌های شدیدِ اخیر لایه‌ای یکپارچه از برفِ تازه به ضخامتِ نزدیک به یک متر بر جا گذاشتند.",
       "en": "where recent heavy storms deposited a nearly 1-meter-deep slab of fresh snow.",
       "ipa": "wɛr ˈrisənt ˈhɛvi stɔrmz dəˈpɑzɪtɪd ə ˈnɪrli wʌn ˈmitɚ dip slæb əv frɛʃ snoʊ",
       "words": [
@@ -447,7 +447,7 @@ DRILL({
           "w": "slab",
           "ipa": "slæb",
           "m": "a thick flat piece of something",
-          "fa": "تخته، قطعهٔ پهن و ضخیم",
+          "fa": "لایهٔ پهن و یکپارچهٔ برف؛ تخته‌سنگ یا قطعه‌ای ضخیم و تخت",
           "more": "a slab of stone"
         }
       ]
@@ -529,7 +529,7 @@ DRILL({
       ]
     },
     {
-      "fa": "سرانجام، بهمن‌ها به یک ماشهٔ آغازگر نیاز دارند،",
+      "fa": "سرانجام، بهمن‌ها به یک عاملِ آغازگر نیاز دارند،",
       "en": "Finally, avalanches need a trigger,",
       "ipa": "ˈfaɪnəli ˈævəˌlæntʃɪz nid ə ˈtrɪɡɚ",
       "newPara": true,
@@ -538,7 +538,7 @@ DRILL({
           "w": "trigger",
           "ipa": "ˈtrɪɡɚ",
           "m": "something that causes something else to start happening",
-          "fa": "ماشه، عاملِ آغازگر",
+          "fa": "عاملِ آغازگرِ بهمن، محرک؛ ماشه",
           "more": "trigger (v.) · set off"
         }
       ]
@@ -552,7 +552,7 @@ DRILL({
           "w": "to collapse",
           "ipa": "tə kəˈlæps",
           "m": "to (make something) fall down or fall in suddenly",
-          "fa": "فرو ریختن، از هم پاشاندن",
+          "fa": "باعثِ فروریختنِ چیزی شدن؛ فرو ریختن",
           "more": "collapse (n.) · cave in"
         },
         {
@@ -585,7 +585,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یا می‌توانند ساختهٔ دستِ انسان باشند، مثلِ ضربه‌ای که اسکی‌بازان یا موتورسوارانِ برف‌رو به سطحِ برف وارد می‌کنند.",
+      "fa": "یا ممکن است عامل‌های آغازگر منشأ انسانی داشته باشند، مثلِ ضربه‌ای که اسکی‌بازان یا برف‌موتورسواران به سطحِ برف وارد می‌کنند.",
       "en": "Or they can be human-caused, like the surface impact of skiers or snowmobilers.",
       "ipa": "ɔr ðeɪ kən bi ˈhjumən kɑzd laɪk ðə ˈsɝfəs ˈɪmpækt əv ˈskiɚz ɔr ˈsnoʊmoʊˌbɪlɚz",
       "words": [
@@ -593,7 +593,7 @@ DRILL({
           "w": "human-caused",
           "ipa": "ˈhjumən kɑzd",
           "m": "caused by people, not by nature",
-          "fa": "ساختهٔ دستِ انسان",
+          "fa": "ناشی از فعالیتِ انسان",
           "more": "man-made · human-made"
         },
         {
@@ -634,7 +634,7 @@ DRILL({
       ]
     },
     {
-      "fa": "عاملِ آغازگر ممکن است صدها متر دورتر سرچشمه بگیرد —",
+      "fa": "عامل‌های آغازگر می‌توانند صدها متر دورتر پدید آیند —",
       "en": "triggers can originate hundreds of meters away—",
       "ipa": "ˈtrɪɡɚz kən əˈrɪdʒəˌneɪt ˈhʌndrədz əv ˈmitɚz əˈweɪ",
       "words": [
@@ -676,7 +676,7 @@ DRILL({
       ]
     },
     {
-      "fa": "وقتی بهمن به حرکت افتاد، سرعتش بستگی دارد به میزانِ تندیِ شیب،",
+      "fa": "وقتی بهمن به حرکت درمی‌آید، اینکه با چه سرعتی پیش می‌رود بستگی دارد به تندیِ شیبِ دامنه،",
       "en": "Once in motion, how quickly an avalanche moves depends on the slope’s steepness,",
       "ipa": "wʌns ɪn ˈmoʊʃən haʊ ˈkwɪkli ən ˈævəˌlæntʃ muvz dɪˈpɛndz ɑn ðə sloʊps ˈstipnəs",
       "newPara": true,
@@ -712,7 +712,7 @@ DRILL({
       ]
     },
     {
-      "fa": "میزانِ بی‌پناهیِ آن یا پوششِ گیاهی‌اش، ناهمواریِ زمین،",
+      "fa": "میزانِ باز و در معرضِ باد و هوا بودنِ دامنه یا پوششِ گیاهیِ آن، ناهمواریِ زمین،",
       "en": "its exposure or vegetation cover, terrain roughness,",
       "ipa": "ɪts ɪkˈspoʊʒɚ ɔr ˌvɛdʒəˈteɪʃən ˈkʌvɚ təˈreɪn ˈrʌfnəs",
       "words": [
@@ -720,7 +720,7 @@ DRILL({
           "w": "exposure",
           "ipa": "ɪkˈspoʊʒɚ",
           "m": "the state of being open to wind and weather, without shelter",
-          "fa": "بی‌پناهی، در معرضِ باد و هوا بودن",
+          "fa": "میزانِ باز بودنِ دامنه و قرار گرفتنِ آن در معرضِ عواملِ جوی",
           "more": "exposed · expose"
         },
         {
@@ -761,7 +761,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برای نمونه، برفِ خشک، سبک و با پیوندِ سست معمولاً تند حرکت می‌کند",
+      "fa": "برای نمونه، برفِ خشک و سبکی که دانه‌هایش سست به هم چسبیده‌اند، معمولاً تند حرکت می‌کند",
       "en": "For example, dry, light, and loosely bonded snow tends to travel fast,",
       "ipa": "fɚ ɪɡˈzæmpəl draɪ laɪt ənd ˈlusli ˈbɑndəd snoʊ tɛndz tə ˈtrævəl fæst",
       "words": [
@@ -797,7 +797,7 @@ DRILL({
           "w": "powder",
           "ipa": "ˈpaʊdɚ",
           "m": "a dry substance made of very small grains; (skiing) light, dry snow",
-          "fa": "پودر، برفِ پودری",
+          "fa": "برفِ نرم و پودری؛ پودر",
           "more": "powdery · powder snow"
         }
       ]
@@ -852,7 +852,7 @@ DRILL({
       ]
     },
     {
-      "fa": "درخت‌ها را بشکنند، ساختمان‌ها را ویران کنند و جاده‌ها را زیرِ خود دفن کنند.",
+      "fa": "و در مسیرشان درخت‌ها را می‌شکنند، ساختمان‌ها را ویران می‌کنند و جاده‌ها را زیرِ برف مدفون می‌کنند.",
       "en": "breaking trees, destroying buildings, and burying roadways.",
       "ipa": "ˈbreɪkɪŋ triz dɪˈstrɔɪɪŋ ˈbɪldɪŋz ənd ˈbɛriɪŋ ˈroʊdˌweɪz",
       "words": [
@@ -949,7 +949,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یک شهرِ کاملِ پرو را در خود فرو برد و ۱۸۰۰۰ نفر را کشت.",
+      "fa": "به‌طوری که شهری را در پرو به‌تمامی در خود فرو برد و جانِ ۱۸ هزار نفر را گرفت.",
       "en": "engulfing an entire Peruvian town and killing 18,000 people.",
       "ipa": "ɪnˈɡʌlfɪŋ ən ɪnˈtaɪɚ pəˈruviən taʊn ənd ˈkɪlɪŋ eɪˈtin ˈθaʊzənd ˈpipəl",
       "words": [
@@ -969,7 +969,7 @@ DRILL({
       "newPara": true
     },
     {
-      "fa": "اما حتی بهمن‌های کوچک‌تر هم برای هر کسی که سرِ راهشان گیر بیفتد خطرناک‌اند.",
+      "fa": "اما حتی بهمن‌های کوچک‌تر هم می‌توانند برای هر کسی که در مسیرشان گرفتار شود خطرناک باشند.",
       "en": "but even smaller ones can be dangerous for anyone caught in their path.",
       "ipa": "bət ˈivɪn ˈsmɔlɚ wʌnz kən bi ˈdeɪndʒərəs fɚ ˈɛniˌwʌn kɑt ɪn ðɛr pæθ",
       "words": [
@@ -1040,7 +1040,7 @@ DRILL({
           "w": "front",
           "ipa": "frʌnt",
           "m": "the part of something that is furthest forward",
-          "fa": "جلو، پیشانی",
+          "fa": "جبههٔ پیش‌روندهٔ بهمن؛ بخشِ جلویی",
           "more": "at the front · in front of"
         },
         {
@@ -1103,7 +1103,7 @@ DRILL({
           "w": "property",
           "ipa": "ˈprɑpɚti",
           "m": "a quality or feature that a substance has",
-          "fa": "ویژگی، خاصیت",
+          "fa": "خاصیت، ویژگیِ ماده؛ دارایی یا مِلک",
           "more": "properties · characteristic"
         },
         {
@@ -1187,7 +1187,7 @@ DRILL({
       ]
     },
     {
-      "fa": "کارکنانِ بهمن خطر را با پایشِ پیوستهٔ هوا کاهش می‌دهند،",
+      "fa": "کارشناسانِ بهمن خطر را کاهش می‌دهند، آن هم با زیر نظر گرفتنِ مداومِ وضعِ هوا،",
       "en": "avalanche workers mitigate risk by continuously monitoring the weather,",
       "ipa": "ˈævəˌlæntʃ ˈwɝkɚz ˈmɪtəˌɡeɪt rɪsk baɪ kənˈtɪnjuəsli ˈmɑnətərɪŋ ðə ˈwɛðɚ",
       "words": [
@@ -1215,7 +1215,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پایداریِ تودهٔ برف و فعالیتِ انسان را.",
+      "fa": "پایداریِ تودهٔ برف و فعالیتِ انسان‌ها.",
       "en": "stability of the snowpack, and human activity.",
       "ipa": "stəˈbɪlɪti əv ðə ˈsnoʊˌpæk ənd ˈhjumən ækˈtɪvəti",
       "words": [
@@ -1229,7 +1229,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اگر تهدیدی شناسایی شود، منطقه را می‌بندند",
+      "fa": "اگر خطری شناسایی شود، آن محدوده را خواهند بست",
       "en": "If a threat is detected, they'll close terrain",
       "ipa": "ɪf ə θrɛt ɪz dɪˈtɛktəd ðeɪl kloʊs təˈreɪn",
       "words": [
@@ -1403,7 +1403,7 @@ DRILL({
           "w": "gear",
           "ipa": "ɡɪr",
           "m": "the equipment needed for an activity",
-          "fa": "تجهیزات",
+          "fa": "تجهیزات، وسایل؛ دندهٔ خودرو",
           "more": "equipment · kit"
         }
       ]
@@ -1459,7 +1459,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با این حال، آن منطقه بسیار بی‌پناه بود،",
+      "fa": "با این حال، آن منطقه بسیار باز و در معرضِ باد و هوا بود،",
       "en": "Yet the area was very exposed,",
       "ipa": "jɛt ði ˈɛriə wəz ˈvɛri ɪkˈspoʊzd",
       "words": [
@@ -1467,13 +1467,13 @@ DRILL({
           "w": "exposed",
           "ipa": "ɪkˈspoʊzd",
           "m": "not protected from wind, weather or danger",
-          "fa": "بی‌پناه، در معرض",
+          "fa": "باز و در معرضِ عواملِ جوی؛ بی‌حفاظ",
           "more": "exposure · sheltered (opp.)"
         }
       ]
     },
     {
-      "fa": "و در پیِ یک توفانِ بزرگ، سطحِ خطرِ بهمن در پیش‌بینی بالا رفته بود.",
+      "fa": "و پس از توفانی شدید، در پیش‌بینیِ بهمن برای آنجا سطحِ خطر بالا اعلام شده بود.",
       "en": "and following a large storm, the avalanche danger forecast was elevated.",
       "ipa": "ənd ˈfɑloʊɪŋ ə lɑrdʒ stɔrm ði ˈævəˌlæntʃ ˈdeɪndʒɚ ˈfɔrˌkæst wəz ˈɛləˌveɪtɪd",
       "words": [
@@ -1488,7 +1488,7 @@ DRILL({
           "w": "elevated",
           "ipa": "ˈɛləˌveɪtɪd",
           "m": "higher than normal",
-          "fa": "بالا رفته، افزایش‌یافته",
+          "fa": "بالا (سطحِ خطر)؛ مرتفع",
           "more": "elevate · raised"
         }
       ]
@@ -1530,7 +1530,7 @@ DRILL({
           "w": "to deploy",
           "ipa": "tə dɪˈplɔɪ",
           "m": "to open or bring something into use, especially equipment",
-          "fa": "باز کردن، به کار انداختن",
+          "fa": "باز و فعال کردنِ کیسهٔ هوا؛ مستقر کردنِ نیرو یا تجهیزات",
           "more": "deployment · release"
         },
         {
@@ -1576,7 +1576,7 @@ DRILL({
       "ipa": "jɛt kən kip ə ˈvɪktəm ˈkloʊzɚ tə ðə ˈsɝfəs"
     },
     {
-      "fa": "و اگر فاجعه رخ دهد، شانسِ نجاتش را بیشتر کنند.",
+      "fa": "و به این ترتیب احتمالِ نجات یافتنِ او را بیشتر می‌کنند، اگر فاجعه‌ای رخ دهد. <c>(شرطِ پایانی را با ساختِ وارونه و رسمی بیان کنید.)</c>",
       "en": "improving their chance of rescue should disaster strike.",
       "ipa": "ɪmˈpruvɪŋ ðɛr tʃæns əv ˈrɛskju ʃʊd dɪˈzæstɚ straɪk",
       "words": [

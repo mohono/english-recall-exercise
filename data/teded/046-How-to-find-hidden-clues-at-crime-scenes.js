@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=P8OEz3PvWZQ",
   "items": [
     {
-      "fa": "مأمور استون به متلِ کم‌نوری نزدیک می‌شود که برای تحقیق دربارهٔ آن احضارش کرده‌اند.",
+      "fa": "مأمور استون به متلِ کم‌نوری نزدیک می‌شود که برای تحقیق درباره‌اش به آنجا فراخوانده شده است.",
       "en": "Officer Stone approaches the dimly lit motel he’s been called to investigate.",
       "ipa": "ˈɔfəsɚ stoʊn əˈproʊtʃəz ðə ˈdɪmli lɪt moʊˈtɛl hiz bɪn kɔld tə ɪnˈvɛstəˌɡeɪt",
       "newPara": true,
@@ -67,7 +67,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که آخرین بار سه شب قبل دیده شده بود که داشت واردِ متل می‌شد.",
+      "fa": "کسی که آخرین بار سه شب پیش از آن، هنگامِ ورود به متل دیده شد.",
       "en": "who was last seen entering the motel three nights earlier.",
       "ipa": "hu wəz læst sin ˈɛntərɪŋ ðə moʊˈtɛl θri naɪts ˈɝliɚ",
       "words": [
@@ -80,7 +80,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با اینکه کارتر پاک‌ترین سابقه را ندارد،",
+      "fa": "با اینکه سابقهٔ کارتر چندان هم پاک نیست، <c>(با نفیِ صفتِ عالی بیان شده است.)</c>",
       "en": "While Carter doesn't have the cleanest record,",
       "ipa": "waɪl ˈkɑrtɚ ˈdʌzənt hæv ðə ˈklinəst ˈrɛkɚd",
       "words": [
@@ -88,7 +88,7 @@ DRILL({
           "w": "a clean record",
           "ipa": "ə klin ˈrɛkɚd",
           "m": "a history with no crimes or offences",
-          "fa": "سابقهٔ پاک",
+          "fa": "سابقهٔ عاری از جرم یا تخلف",
           "more": "criminal record"
         }
       ]
@@ -178,7 +178,7 @@ DRILL({
           "w": "track",
           "ipa": "træk",
           "m": "a mark left on the ground by a foot, shoe or wheel",
-          "fa": "رد، اثر",
+          "fa": "ردِ کفش؛ ردپا؛ مسیر یا مسیرِ مسابقه",
           "more": "footprint · trail"
         }
       ]
@@ -225,7 +225,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بعد از اینکه یک کارآگاه و یک تیمِ بررسیِ صحنهٔ جرم را به محل فرا می‌خوانند",
+      "fa": "پس از فراخواندنِ یک کارآگاه و یک گروهِ بررسیِ صحنهٔ جرم",
       "en": "After calling in a detective and a crime scene investigation team",
       "ipa": "ˈæftɚ ˈkɔlɪŋ ɪn ə dɪˈtɛktɪv ənd ə kraɪm sin ɪnˌvɛstəˈɡeɪʃən tim",
       "words": [
@@ -291,7 +291,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بازرس‌ها دربارهٔ قدمِ بعدی‌شان تصمیم می‌گیرند.",
+      "fa": "مأمورانِ تحقیق تصمیم می‌گیرند قدمِ بعدی‌شان چه باشد.",
       "en": "the investigators decide their next move.",
       "ipa": "ði ɪnˈvɛstəˌɡeɪtɚz dɪˈsaɪd ðɛr nɛkst muv",
       "words": [
@@ -364,13 +364,13 @@ DRILL({
           "w": "forensic",
           "ipa": "fəˈrɛnsɪk",
           "m": "using science to help solve crimes",
-          "fa": "پزشکیِ قانونی، جنایی",
+          "fa": "مربوط به بررسیِ علمیِ شواهد برای تحقیقاتِ قضایی",
           "more": "forensics · forensic evidence"
         }
       ]
     },
     {
-      "fa": "تقریباً یک دهه پیش‌تر، پژوهشی پی برده بود که",
+      "fa": "نزدیک به یک دهه پیش از آن، پژوهش‌ها نشان دادند که",
       "en": "Almost a decade earlier, research found that",
       "ipa": "ˈɔlˌmoʊst ə dɛˈkeɪd ˈɝliɚ riˈsɝtʃ faʊnd ðæt",
       "words": [
@@ -391,7 +391,7 @@ DRILL({
           "w": "solution",
           "ipa": "səˈluʃən",
           "m": "a liquid in which a substance has been mixed and dissolved",
-          "fa": "محلول"
+          "fa": "محلولِ شیمیایی؛ راه‌حل"
         },
         {
           "w": "agent",
@@ -445,7 +445,7 @@ DRILL({
           "w": "excited",
           "ipa": "ɪkˈsaɪtəd",
           "m": "(of atoms or molecules) holding extra energy",
-          "fa": "برانگیخته"
+          "fa": "برانگیخته، در حالتِ انرژیِ بالاتر (مولکول)؛ هیجان‌زده"
         }
       ],
       "note": "excited اینجا اصطلاحِ شیمی است: مولکول انرژیِ اضافه گرفته؛ نه «هیجان‌زده»."
@@ -573,7 +573,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این همان کاری است که مأمور استون، آن‌جا در متل، امیدوار است انجام دهد.",
+      "fa": "در متل، همان جایی که داستان را رها کردیم، مأمور استون امیدوار است درست همین کار را انجام دهد.",
       "en": "This is what Officer Stone is hoping to do back at the motel.",
       "ipa": "ðɪs ɪz wʌt ˈɔfəsɚ stoʊn ɪz ˈhoʊpɪŋ tə du bæk ət ðə moʊˈtɛl",
       "newPara": true,
@@ -974,7 +974,7 @@ DRILL({
           "w": "impression",
           "ipa": "ɪmˈprɛʃən",
           "m": "a mark left by pressing something into a surface",
-          "fa": "اثر، نقش"
+          "fa": "نقش یا ردِ به‌جامانده روی سطح؛ برداشتِ ذهنی"
         },
         {
           "w": "glowing",
@@ -1006,7 +1006,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بازرس‌ها با دنبال کردنِ رد از پایینِ تخت،",
+      "fa": "با دنبال کردنِ رد از پای تخت،",
       "en": "Following the trail from the foot of the bed,",
       "ipa": "ˈfɑloʊɪŋ ðə treɪl frəm ðə fʊt əv ðə bɛd",
       "words": [
@@ -1020,7 +1020,7 @@ DRILL({
       ]
     },
     {
-      "fa": "سر از پارکینگ درمی‌آورند،",
+      "fa": "مأمورانِ تحقیق سرانجام سر از محوطهٔ پارک خودروها درمی‌آورند،",
       "en": "the investigators end up in the parking lot,",
       "ipa": "ði ɪnˈvɛstəˌɡeɪtɚz ɛnd ʌp ɪn ðə ˈpɑrkɪŋ lɑt",
       "words": [
@@ -1041,7 +1041,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که حاکی از آن است که قربانی را داخلِ یک خودرو گذاشته‌اند.",
+      "fa": "و این نشان می‌دهد که احتمالاً قربانی داخلِ یک وسیلهٔ نقلیه گذاشته شده بود.",
       "en": "suggesting the victim was placed inside a vehicle.",
       "ipa": "səɡˈdʒɛstɪŋ ðə ˈvɪktəm wəz pleɪst ɪnˈsaɪd ə ˈvihɪkəl",
       "words": [
@@ -1066,7 +1066,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این لکه‌ها استدلالِ محکمی به نفعِ روایتی هستند که لومینول آشکار کرده است.",
+      "fa": "این لکه‌ها شواهدِ محکمی در تأییدِ روایتِ وقایعی فراهم می‌کنند که لومینول آشکار کرده است.",
       "en": "These stains make a strong case for the narrative revealed by luminol.",
       "ipa": "ðiz steɪnz meɪk ə strɔŋ keɪs fɚ ðə ˈnærətɪv rɪˈvild baɪ ˌlumɪˈnɔl",
       "words": [
@@ -1160,7 +1160,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به همین دلیل است که لومینول یک آزمایشِ احتمالیِ خون نامیده می‌شود.",
+      "fa": "به همین دلیل، آزمایش با لومینول از نوعی است که «آزمایشِ مقدماتیِ تشخیصِ خون» نامیده می‌شود.",
       "en": "This is why luminol is what's called a presumptive blood test.",
       "ipa": "ðɪs ɪz waɪ ˌlumɪˈnɔl ɪz wʌts kɔld ə priˈzʌmptɪv blʌd tɛst",
       "words": [
@@ -1168,7 +1168,7 @@ DRILL({
           "w": "presumptive",
           "ipa": "priˈzʌmptɪv",
           "m": "showing that something is probably true, but not proving it",
-          "fa": "احتمالی، اولیه",
+          "fa": "مقدماتی و نشان‌دهندهٔ احتمالِ وجودِ خون، نیازمندِ تأیید",
           "more": "presume · presumably"
         }
       ]
@@ -1250,7 +1250,7 @@ DRILL({
           "w": "to eliminate",
           "ipa": "tə ɪˈlɪməˌneɪt",
           "m": "to decide someone is not involved, so remove them from a list",
-          "fa": "کنار گذاشتن، حذف کردن",
+          "fa": "از فهرستِ مظنونان کنار گذاشتن؛ حذف کردن",
           "more": "rule out · elimination"
         },
         {
@@ -1269,7 +1269,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مأمور استون دقیقاً به همین منظور نمونه‌ای دی‌ان‌ای از متل تحویل داده بود،",
+      "fa": "مأمور استون دقیقاً به همین منظور نمونه‌ای از دی‌ان‌ایِ به‌دست‌آمده از متل را برای آزمایش فرستاد،",
       "en": "Officer Stone submitted a DNA sample from the motel for that exact purpose,",
       "ipa": "ˈɔfəsɚ stoʊn səbˈmɪtəd ə ˌdiˌɛnˈeɪ ˈsæmpəl frəm ðə moʊˈtɛl fɚ ðæt ɪɡˈzækt ˈpɝpəs",
       "words": [
@@ -1296,7 +1296,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و نتایج دقیقاً همان سرنخی را که لازم دارد پیدا کردند.",
+      "fa": "و نتایج درست همان سرنخی را به دست دادند که او اکنون به آن نیاز دارد.",
       "en": "and the results found exactly the clue he needs.",
       "ipa": "ənd ðə rɪˈzʌlts faʊnd ɪɡˈzæktli ðə klu hi nidz"
     },
@@ -1328,7 +1328,7 @@ DRILL({
       ]
     },
     {
-      "fa": "استون دارد روی این مدرکِ تازه فکر و سبک‌سنگین می‌کند که از یک مأمورِ پلیسِ راهِ ایالتِ محلی تماسی دریافت می‌کند.",
+      "fa": "استون دارد این شواهدِ تازه را سبک‌سنگین می‌کند که یکی از مأمورانِ پلیسِ ایالتیِ همان منطقه به او زنگ می‌زند.",
       "en": "Stone is mulling over this new evidence when he gets a call from a local state trooper.",
       "ipa": "stoʊn ɪz ˈmʌlɪŋ ˈoʊvɚ ðɪs nu ˈɛvədəns wɛn hi ɡɛts ə kɔl frəm ə ˈloʊkəl steɪt ˈtrupɚ",
       "newPara": true,
@@ -1344,13 +1344,13 @@ DRILL({
           "w": "state trooper",
           "ipa": "steɪt ˈtrupɚ",
           "m": "a member of a US state’s police force, often on highways",
-          "fa": "مأمورِ پلیسِ راهِ ایالتی",
+          "fa": "مأمورِ پلیسِ ایالتیِ آمریکا",
           "more": "trooper"
         }
       ]
     },
     {
-      "fa": "مأمور پس از نگه داشتنِ راننده‌ای که بی‌قاعده و نامنظم رانندگی می‌کرد،",
+      "fa": "پس از آنکه راننده‌ای را که نامنظم و غیرقابل‌پیش‌بینی می‌راند کنارِ جاده متوقف کرد،",
       "en": "After pulling over an erratic driver,",
       "ipa": "ˈæftɚ ˈpʊlɪŋ ˈoʊvɚ ən ɪˈrætɪk ˈdraɪvɚ",
       "words": [
@@ -1358,7 +1358,7 @@ DRILL({
           "w": "to pull over",
           "ipa": "tə pʊl ˈoʊvɚ",
           "m": "(of police) to make a driver stop at the side of the road",
-          "fa": "(ماشین را) کنار زدن، نگه داشتن"
+          "fa": "راننده‌ای را وادار کردن کنارِ جاده توقف کند؛ کنار زدن و ایستادنِ خودِ راننده"
         },
         {
           "w": "erratic",
@@ -1370,7 +1370,7 @@ DRILL({
       ]
     },
     {
-      "fa": "متوجهِ چیزی روی سپرِ عقب شد که به نظر می‌رسید لکهٔ خون باشد.",
+      "fa": "مأمور روی سپرِ عقب متوجهِ چیزهایی شد که به نظر می‌رسید لکه‌های خون باشند.",
       "en": "the trooper noticed what appeared to be bloodstains on the rear bumper.",
       "ipa": "ðə ˈtrupɚ ˈnoʊtəst wʌt əˈpɪrd tə bi ˈblʌdˌsteɪnz ɑn ðə rɪr ˈbʌmpɚ",
       "words": [
@@ -1405,7 +1405,7 @@ DRILL({
           "w": "trunk",
           "ipa": "trʌŋk",
           "m": "the space at the back of a car for bags (US)",
-          "fa": "صندوقِ عقب",
+          "fa": "صندوقِ عقبِ خودرو؛ تنهٔ درخت؛ خرطوم",
           "more": "boot (UK)"
         }
       ]
@@ -1424,7 +1424,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یک آزمایشِ دی‌ان‌ایِ دیگر بدگمانی‌های استون را تأیید می‌کند: قربانی کارتر بود.",
+      "fa": "یک آزمایشِ دی‌ان‌ایِ دیگر حدسِ استون را تأیید می‌کند؛ کارتر قربانی بود.",
       "en": "One more DNA test confirms Stone’s suspicions: Carter was the victim.",
       "ipa": "wʌn mɔr ˌdiˌɛnˈeɪ tɛst kənˈfɝmz stoʊnz səˈspɪʃənz ˈkɑrtɚ wəz ðə ˈvɪktəm",
       "words": [
@@ -1432,7 +1432,7 @@ DRILL({
           "w": "suspicion",
           "ipa": "səˈspɪʃən",
           "m": "a feeling that something is probably true, especially something bad",
-          "fa": "بدگمانی، ظن",
+          "fa": "حدس یا گمان دربارهٔ آنچه رخ داده؛ سوءظن به کسی",
           "more": "suspect · suspicious"
         }
       ]

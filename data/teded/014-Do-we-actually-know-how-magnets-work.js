@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=jG7ULeWUfDw",
   "items": [
     {
-      "fa": "در سال‌های آغازینِ دههٔ ۱۹۰۰، دو فیزیک‌دان، نیلز بور و هندریکا یوهانا فان لیوون، هرکدام جداگانه به چیزی تکان‌دهنده پی بردند.",
+      "fa": "در اوایل قرن بیستم، نیلز بور و هندریکا یوهانا فان لیوون، دو فیزیک‌دان، جدا از یکدیگر به کشفی تکان‌دهنده رسیدند.",
       "en": "In the early 1900s, physicists Niels Bohr and Hendrika Johanna van Leeuwen separately discovered something shocking.",
       "ipa": "ɪn ði ˈɝli ˌnaɪnˈtin ˈhʌndrədz ˈfɪzɪsɪsts nilz bɔr ənd ˈhɛndrɪkə dʒəˈhænə væn ˈluən ˈsɛpərətli dɪˈskʌvɚd ˈsʌmθɪŋ ˈʃɑkɪŋ",
       "newPara": true,
@@ -54,7 +54,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این یافته هیچ معنایی نداشت.",
+      "fa": "این یافته اصلاً با عقل جور درنمی‌آمد.",
       "en": "This finding made no sense.",
       "ipa": "ðɪs ˈfaɪndɪŋ meɪd noʊ sɛns",
       "words": [
@@ -75,7 +75,7 @@ DRILL({
       ]
     },
     {
-      "fa": "انسان‌ها هزار سال بود که به قطب‌نماهای مغناطیسی تکیه کرده بودند،",
+      "fa": "انسان‌ها تا آن زمان هزار سال بود که به قطب‌نماهای مغناطیسی تکیه داشتند،",
       "en": "Humans had relied on magnetic compasses for a thousand years,",
       "ipa": "ˈhjumənz hæd rɪˈlaɪd ɑn mæɡˈnɛtɪk kəmˈpæsɪz fɚ ə ˈθaʊzənd jɪrz",
       "words": [
@@ -116,7 +116,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که نیرویی نامرئی داشت بر آن‌ها عمل می‌کرد.",
+      "fa": "که نیرویی نامرئی داشت روی آن دو قطعه اثر می‌گذاشت.",
       "en": "that some invisible force was acting on them.",
       "ipa": "ðæt sʌm ɪnˈvɪzəbəl fɔrs wəz ˈæktɪŋ ɑn ðɛm",
       "words": [
@@ -187,7 +187,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آن‌ها می‌دانستند که هر جنسی از اتم‌ها ساخته شده است،",
+      "fa": "آن‌ها می‌دانستند که هر ماده‌ای از اتم‌ها ساخته شده است،",
       "en": "They knew that every material is made of atoms,",
       "ipa": "ðeɪ nu ðæt ˈɛvəri məˈtɪriəl ɪz meɪd əv ˈætəmz",
       "words": [
@@ -278,7 +278,7 @@ DRILL({
           "w": "property",
           "ipa": "ˈprɑpɚti",
           "m": "a quality that a substance naturally has",
-          "fa": "ویژگی، خاصیت",
+          "fa": "اینجا: خاصیت یا ویژگیِ یک ذره؛ در بافت دیگر: دارایی، مِلک",
           "more": "characteristic · feature"
         }
       ]
@@ -319,7 +319,7 @@ DRILL({
       ]
     },
     {
-      "fa": "منشأ این ویژگی‌های ذاتی همچنان معمایی باقی مانده که هنوز ادامه دارد.",
+      "fa": "منشأ این ویژگی‌های ذاتی همچنان معمایی حل‌نشده است.",
       "en": "The origin of these intrinsic properties remains an ongoing mystery.",
       "ipa": "ði ˈɔrədʒən əv ðiz ɪnˈtrɪnsɪk ˈprɑpɚtiz rɪˈmeɪnz ən ˈɑnˌɡoʊɪŋ ˈmɪstəri",
       "words": [
@@ -375,7 +375,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که درست مثل همتایانِ تمام‌قدّش کار می‌کند.",
+      "fa": "که درست مثل همتایانش در اندازه‌های معمولی کار می‌کند.",
       "en": "that works just like their full-size counterparts.",
       "ipa": "ðæt wɝks dʒʌst laɪk ðɛr fʊl saɪz ˈkaʊntɚˌpɑrts",
       "words": [
@@ -383,7 +383,7 @@ DRILL({
           "w": "full-size",
           "ipa": "fʊl saɪz",
           "m": "of the normal, complete size",
-          "fa": "تمام‌قد، در اندازهٔ واقعی",
+          "fa": "در اندازهٔ کامل یا معمول، در مقایسه با نمونهٔ مینیاتوری",
           "more": "full-scale · life-size"
         },
         {
@@ -629,7 +629,7 @@ DRILL({
           "w": "spin",
           "ipa": "spɪn",
           "m": "in physics, a basic property of a particle linked to its direction",
-          "fa": "اسپین، چرخش",
+          "fa": "در فیزیک: اسپین، ویژگیِ کوانتومیِ ذره؛ در زبان روزمره: چرخش",
           "more": "to spin · spinning"
         }
       ]
@@ -777,7 +777,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اگر شمارِ کافی از الکترون‌های یک جنس در یک جهت بچرخند،",
+      "fa": "اگر تعداد کافی از الکترون‌های یک ماده در یک جهت بچرخند،",
       "en": "If enough of a material's electrons spin in the same direction,",
       "ipa": "ɪf ɪˈnʌf əv ə məˈtɪriəlz ɪˈlɛktrɑnz spɪn ɪn ðə seɪm dəˈrɛkʃən"
     },
@@ -796,7 +796,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و آن جنس را به آهن‌ربایی بدل می‌کنند که میدانش رو به همان جهت است.",
+      "fa": "و در نتیجه، آن ماده به آهن‌ربایی تبدیل می‌شود که میدانش در همان جهت است.",
       "en": "turning the material into a magnet with a field pointing in that direction.",
       "ipa": "ˈtɝnɪŋ ðə məˈtɪriəl ɪnˈtu ə ˈmæɡnət wɪð ə fild ˈpɔɪntɪŋ ɪn ðæt dəˈrɛkʃən",
       "words": [
@@ -831,7 +831,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از سوی دیگر، اگر جنسی پر از الکترون‌هایی با اسپین‌های ناهمسو و رقیب باشد،",
+      "fa": "از سوی دیگر، اگر ماده‌ای پر از الکترون‌هایی باشد که جهتِ اسپینشان با هم در رقابت است،",
       "en": "On the other hand, if a material is full of electrons with competing spins",
       "ipa": "ɑn ði ˈʌðɚ hænd ɪf ə məˈtɪriəl ɪz fʊl əv ɪˈlɛktrɑnz wɪð kəmˈpitɪŋ spɪnz",
       "words": [
@@ -965,7 +965,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با این حال، می‌توان با برهم‌کنش با اتم‌های همسایه، آرام‌آرام آن‌ها را به سمتِ هم‌راستایی هُل داد.",
+      "fa": "با این حال، برهم‌کنش با اتم‌های مجاور می‌تواند این الکترون‌ها را به‌آرامی به سوی هم‌راستایی سوق دهد.",
       "en": "However, they can be nudged into alignment by interacting with neighboring atoms.",
       "ipa": "ˌhaʊˈɛvɚ ðeɪ kən bi nʌdʒd ɪnˈtu əˈlaɪnmənt baɪ ˌɪntəˈræktɪŋ wɪð ˈneɪbərɪŋ ˈætəmz",
       "words": [
@@ -1028,7 +1028,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یا با گرم و سرد کردنِ آن جنس درونِ میدانی مغناطیسیِ ضعیف‌تر.",
+      "fa": "یا با گرم و سرد کردنِ ماده درون یک میدان مغناطیسیِ ضعیف‌تر.",
       "en": "or by heating and cooling the material inside a weaker magnetic field.",
       "ipa": "ɔr baɪ ˈhitɪŋ ənd ˈkulɪŋ ðə məˈtɪriəl ɪnˈsaɪd ə ˈwikɚ mæɡˈnɛtɪk fild",
       "words": [
@@ -1148,7 +1148,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این فناوری از یک میدانِ مغناطیسیِ قوی استفاده می‌کند تا پروتون‌های یک جنس را موقتاً هم‌راستا کند،",
+      "fa": "این فناوری با استفاده از یک میدان مغناطیسیِ قوی، پروتون‌های یک ماده را موقتاً هم‌راستا می‌کند،",
       "en": "This technology uses a strong magnetic field to temporarily align a material's protons,",
       "ipa": "ðɪs tɛkˈnɑlədʒi ˈjuzɪz ə strɔŋ mæɡˈnɛtɪk fild tə ˌtɛmpəˈrɛrəli əˈlaɪn ə məˈtɪriəlz ˈproʊˌtɑnz",
       "words": [
@@ -1232,7 +1232,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و این به پژوهشگران امکان می‌دهد ساختارِ مولکولیِ آن جنس را نقشه‌برداری کنند.",
+      "fa": "و به این ترتیب پژوهشگران می‌توانند نقشهٔ ساختار مولکولیِ ماده را ترسیم کنند.",
       "en": "allowing researchers to map the material's molecular structure.",
       "ipa": "əˈlaʊɪŋ ˈrisɚtʃɚz tə mæp ðə məˈtɪriəlz məˈlɛkjəlɚ ˈstrʌktʃɚ",
       "words": [
@@ -1267,7 +1267,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این اختراع زمینه را برای دستگاه‌های <en>MRI</en> فراهم کرد،",
+      "fa": "این اختراع زمینه‌سازِ ساخت دستگاه‌های تصویربرداری با تشدید مغناطیسی شد،",
       "en": "This invention laid the groundwork for MRI machines,",
       "ipa": "ðɪs ɪnˈvɛnʃən leɪd ðə ˈɡraʊndˌwɝk fɚ ˌɛmˌɑrˈaɪ məˈʃinz",
       "words": [
@@ -1309,7 +1309,7 @@ DRILL({
       ]
     },
     {
-      "fa": "البته <en>NMR</en> و <en>MRI</en> تنها دو تا از فناوری‌های مدرنِ بی‌شماری‌اند که به مغناطیس متکی‌اند.",
+      "fa": "البته تشدید مغناطیسی هسته‌ای و تصویربرداری با تشدید مغناطیسی فقط دو نمونه از فناوری‌های نوینِ بی‌شماری هستند که به مغناطیس متکی‌اند.",
       "en": "Of course, NMR and MRI are just two of countless modern technologies that rely on magnetism.",
       "ipa": "əv kɔrs ˌɛnˌɛmˈɑr ənd ˌɛmˌɑrˈaɪ ɚ dʒʌst tu əv ˈkaʊntləs ˈmɑdɚn tɛkˈnɑlədʒiz ðæt rɪˈlaɪ ɑn ˈmæɡnəˌtɪzəm",
       "newPara": true
@@ -1386,7 +1386,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بلکه بررسیِ این پدیده همچنان بی‌پایان جذاب باقی می‌ماند.",
+      "fa": "بلکه مطالعهٔ این پدیده هم همچنان کششی بی‌پایان دارد.",
       "en": "but studying this phenomenon remains endlessly attractive.",
       "ipa": "bət ˈstʌdiɪŋ ðɪs fəˈnɑməˌnɑn rɪˈmeɪnz ˈɛndləsli əˈtræktɪv",
       "note": "بازی با کلمه: <en>attractive</en> هم «جذاب» است و هم «جاذب» (مثل آهن‌ربا).",
@@ -1409,7 +1409,7 @@ DRILL({
           "w": "attractive",
           "ipa": "əˈtræktɪv",
           "m": "interesting and pleasing; also, able to pull things toward it",
-          "fa": "جذاب، جاذب",
+          "fa": "جذاب، گیرا؛ اینجا «کشش» هم علاقهٔ آدم‌ها را تداعی می‌کند و هم جاذبهٔ آهن‌ربا را",
           "more": "attract · attraction"
         }
       ]

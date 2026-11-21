@@ -34,14 +34,14 @@ DRILL({
           "w": "reflection",
           "ipa": "rəˈflɛkʃən",
           "m": "careful, serious thought",
-          "fa": "اندیشه، تأمل",
+          "fa": "تأمل، اندیشیدن؛ بازتابِ نور یا تصویر",
           "more": "reflect · contemplation"
         }
       ],
       "note": "perch در اصل برای نشستنِ پرنده روی شاخه است؛ برای آدم یعنی روی لبه یا جای بلندی نشستن."
     },
     {
-      "fa": "اما این مجسمهٔ شاخص و جاافتاده فقط تجسمِ تأمل نیست.",
+      "fa": "اما این پیکره، که از آثارِ مرجعِ مجسمه‌سازی است، صرفاً تأملی نیست که تجسّم یافته باشد.",
       "en": "But this canonical sculpture isn't just contemplation incarnate.",
       "ipa": "bət ðɪs kəˈnɑnəkəl ˈskʌlptʃɚ ˈɪzənt dʒʌst ˌkɑntəmˈpleɪʃən ɪnˈkɑrnət",
       "words": [
@@ -127,7 +127,7 @@ DRILL({
           "w": "piece",
           "ipa": "pis",
           "m": "a work of art, music or writing",
-          "fa": "اثر",
+          "fa": "اثرِ هنری؛ قطعه یا تکه",
           "more": "artwork · masterpiece"
         },
         {
@@ -236,7 +236,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برای مدرسهٔ معتبرِ هنرهای زیبا درخواست داد و سه نوبتِ جداگانه رد شد.",
+      "fa": "برای پذیرش در مدرسهٔ معتبرِ هنرهای زیبا درخواست داد و سه بارِ جداگانه پذیرفته نشد.",
       "en": "applied to the esteemed school of fine arts, and was rejected three separate times.",
       "ipa": "əˈplaɪd tə ði ɪˈstimd skul əv faɪn ɑrts ənd wəz rɪˈdʒɛktɪd θri ˈsɛpərɪt taɪmz",
       "words": [
@@ -312,7 +312,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تازه در ۱۸۷۷ بود، وقتی ۳۵ ساله بود و تازه از سفری به ایتالیا برگشته بود،",
+      "fa": "تازه در سالِ ۱۸۷۷ بود، زمانی که ۳۵ سال داشت و تازه از سفرِ ایتالیا برگشته بود،",
       "en": "It wasn't until 1877, when he was 35 and fresh off a visit to Italy,",
       "ipa": "ɪt ˈwɑzənt ənˈtɪl eɪˈtin ˈsɛvənti ˈsɛvən wɛn hi wəz ˈθɝdi faɪv ənd frɛʃ ɔf ə ˈvɪzət tə ˈɪtəli",
       "words": [
@@ -333,7 +333,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و هنوز محوِ مجسمه‌های رنسانسیِ به‌نمایش‌گذاشته بود، که رودن نخستین اثرِ مهمش را تمام کرد.",
+      "fa": "مبهوتِ پیکره‌های دورهٔ رنسانس که در آنجا به نمایش درآمده بودند، که رودن نخستین اثرِ مهمش را به پایان رساند.",
       "en": "dazzled by the Renaissance sculptures on display, that Rodin completed his first major work.",
       "ipa": "ˈdæzəld baɪ ðə ˌrɛnəˈsɑns ˈskʌlptʃɚz ɑn dɪˈspleɪ ðæt ˈroʊdɪn kəmˈplitəd hɪz fɝst ˈmeɪdʒɚ wɝk",
       "words": [
@@ -424,7 +424,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما او چنین نکرده بود، و هنرمندانِ دیگر برایش ضمانت کردند و حرفش را تأیید کردند.",
+      "fa": "اما او چنین کاری نکرده بود و هنرمندانِ دیگر هم درستیِ گفته‌اش را تأیید کردند.",
       "en": "But he hadn’t, and other artists vouched for him.",
       "ipa": "bət hi ˈhædənt ənd ˈʌðɚ ˈɑrtəsts vaʊtʃt fɚ hɪm",
       "words": [
@@ -432,7 +432,7 @@ DRILL({
           "w": "to vouch for",
           "ipa": "tə vaʊtʃ fɔr",
           "m": "to say that you believe someone is honest or telling the truth",
-          "fa": "ضمانتِ کسی را کردن، شهادت دادن به نفعِ",
+          "fa": "درستیِ گفته یا کارِ کسی را از روی شناخت تأیید کردن؛ اعتبارِ کسی را تضمین کردن",
           "more": "back up · stand up for"
         }
       ]
@@ -550,7 +550,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پیشرفت‌های فناوریِ دوربین به‌تازگی امکانِ ثبتِ شباهتِ کامل را فراهم کرده بود،",
+      "fa": "پیشرفت در فناوریِ دوربین کمی پیش از آن ممکن ساخته بود که تصویری کاملاً شبیه به اصل ثبت شود،",
       "en": "Advances in camera technology had recently made it possible to capture perfect likeness,",
       "ipa": "ədˈvænsəz ɪn ˈkæmərə tɛkˈnɑlədʒi hæd ˈrisəntli meɪd ɪt ˈpɑsəbəl tə ˈkæptʃɚ ˈpɝˌfɪkt ˈlaɪknəs",
       "words": [
@@ -572,7 +572,7 @@ DRILL({
           "w": "likeness",
           "ipa": "ˈlaɪknəs",
           "m": "how similar a picture or sculpture is to the real person",
-          "fa": "شباهت",
+          "fa": "تصویری شبیه به شخصِ واقعی؛ شباهت",
           "more": "resemblance · alike"
         },
         {
@@ -585,7 +585,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما رودن استدلال می‌کرد که بازنمایی‌های هنری، گرچه دقتِ کمتری دارند، به حقیقت نزدیک‌ترند.",
+      "fa": "اما رودن استدلال می‌کرد که بازنمایی‌های هنری، هرچند دقتِ کمتری داشتند، به حقیقت نزدیک‌تر بودند.",
       "en": "but Rodin argued that artistic renderings, though less precise, were more truthful.",
       "ipa": "bət ˈroʊdɪn ˈɑrɡjud ðæt ɑrˈtɪstɪk ˈrɛndərɪŋz ðoʊ lɛs prɪˈsaɪs wɚ mɔr ˈtruθfəl",
       "words": [
@@ -707,7 +707,7 @@ DRILL({
           "w": "commission",
           "ipa": "kəˈmɪʃən",
           "m": "a formal request to an artist to create a piece of work, usually for payment",
-          "fa": "سفارش (اثر هنری)",
+          "fa": "سفارشِ ساختِ اثرِ هنری؛ کارمزد یا حقِ کمیسیون",
           "more": "commission (v.) · commissioned"
         }
       ]
@@ -734,7 +734,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که قرار بود طنین و یادآورِ «دروازه‌های بهشت» اثرِ لورنتسو گیبرتی، مجسمه‌سازِ رنسانس، باشد.",
+      "fa": "درگاهی که قرار بود «دروازه‌های بهشت»، اثرِ لورنتسو گیبرتیِ پیکرتراشِ دورهٔ رنسانس، را به یاد بیاورد.",
       "en": "intended to echo the “Gates of Paradise” by Renaissance sculptor Lorenzo Ghiberti.",
       "ipa": "ɪnˈtɛndəd tə ˈɛkoʊ ðə ɡeɪts əv ˈpɛrəˌdaɪs baɪ ˌrɛnəˈsɑns ˈskʌlptɚ ləˈrɛnzoʊ ɡɪˈbɝti",
       "words": [
@@ -742,7 +742,7 @@ DRILL({
           "w": "to echo",
           "ipa": "tə ˈɛkoʊ",
           "m": "to be similar to something earlier, so that it reminds people of it",
-          "fa": "یادآوری کردن، طنین‌انداز کردنِ",
+          "fa": "یادآورِ شکل یا سبکِ اثری دیگر بودن؛ طنین انداختن",
           "more": "echo (n.) · mirror · recall"
         },
         {
@@ -874,7 +874,7 @@ DRILL({
       ]
     },
     {
-      "fa": "رودن «دروازه‌ها» را با گِلِ رُس شروع کرد و پیکره‌های کوچکِ درهم‌قفل‌شده می‌تراشید،",
+      "fa": "رودن کار روی «دروازه‌ها» را با گِلِ رس آغاز کرد و پیکره‌های کوچکی شکل می‌داد که در هم چفت می‌شدند،",
       "en": "Rodin began “The Gates” in clay, sculpting small, interlocking figures,",
       "ipa": "ˈroʊdɪn bɪˈɡæn ðə ɡeɪts ɪn kleɪ ˈskʌlptɪŋ smɔl ˈɪntɚˌlɑkɪŋ ˈfɪɡjɚz",
       "newPara": true,
@@ -903,7 +903,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و کارگاهش پر می‌شد از تکه‌پاره‌هایی که قرار بود جابه‌جا شوند، با هم ترکیب شوند یا به‌صورتِ آثارِ مستقل بزرگ شوند.",
+      "fa": "در حالی که کارگاهش پر از قطعاتی می‌شد که قرار بود از نو چیده یا با هم ترکیب شوند یا در مقیاسی بزرگ‌تر به آثاری مستقل بدل شوند.",
       "en": "his studio filling with fragments to be rearranged, combined, or enlarged as independent works.",
       "ipa": "hɪz ˈstudiˌoʊ ˈfɪlɪŋ wɪð ˈfræɡmənts tə bi ˌriəˈreɪndʒd kəmˈbaɪnd ɔr ɛnˈlɑrdʒd əz ˌɪndɪˈpɛndənt wɝks",
       "words": [
@@ -945,7 +945,7 @@ DRILL({
       ]
     },
     {
-      "fa": "او با گسستن از سنت، ردِ پاهای پیدایی از فرایندِ خلاقانه را باقی گذاشت.",
+      "fa": "او برخلافِ سنتِ رایج، ردِ فرایندِ آفرینشِ اثر را آشکارا بر سطحِ آن باقی گذاشت.",
       "en": "Breaking with tradition, he left visible traces of the creative process.",
       "ipa": "ˈbreɪkɪŋ wɪð trəˈdɪʃən hi lɛft ˈvɪzəbəl ˈtreɪsəz əv ðə kriˈeɪtɪv ˈprɑˌsɛs",
       "words": [
@@ -1020,7 +1020,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما همین وسواس به بارِ آورندهٔ برخی از بزرگ‌ترین مجسمه‌های رودن شد —",
+      "fa": "اما این از آن دل‌مشغولی‌هایی بود که بعدها برخی از بزرگ‌ترین مجسمه‌های رودن را به بار آورد. <c>(راوی از گذشته به نتیجه‌ای نگاه می‌کند که آن زمان هنوز در آینده بود.)</c>",
       "en": "But it was one that would yield some of Rodin’s greatest sculptures—",
       "ipa": "bət ɪt wəz wʌn ðæt wʊd jild sʌm əv ˈroʊdɪnz ˈɡreɪtəst ˈskʌlptʃɚz",
       "words": [
@@ -1162,13 +1162,13 @@ DRILL({
           "w": "mold",
           "ipa": "moʊld",
           "m": "a hollow container into which liquid is poured to make a shape when it hardens",
-          "fa": "قالب",
+          "fa": "قالبِ شکل دادن به مجسمه؛ کپک",
           "more": "mould (UK) · cast"
         }
       ]
     },
     {
-      "fa": "که از گچ شروع می‌شد و به نسخه‌های بدلیِ توخالیِ مومی می‌رسید که روکش می‌کردند و حرارت می‌دادند،",
+      "fa": "از گچ شروع می‌کردند و بعد به نمونه‌های مومیِ توخالی می‌رسیدند که رویشان پوشش می‌کشیدند و حرارتشان می‌دادند،",
       "en": "beginning with plaster and moving into hollow wax replicas they’d coat and heat,",
       "ipa": "bɪˈɡɪnɪŋ wɪð ˈplæstɚ ənd ˈmuvɪŋ ɪnˈtu ˈhɑloʊ wæks ˈrɛpləkəz ðeɪd koʊt ənd hit",
       "words": [
@@ -1190,7 +1190,7 @@ DRILL({
           "w": "replica",
           "ipa": "ˈrɛplɪkə",
           "m": "an exact copy of something",
-          "fa": "نسخهٔ بدلی، کپیِ دقیق",
+          "fa": "نسخه‌ای که شکلِ نمونهٔ اصلی را بازسازی می‌کند، رونوشتِ دقیق",
           "more": "replicate · copy"
         },
         {
@@ -1203,7 +1203,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا موم آب شود و از میان برود، و سپس مفرغِ مذاب را درونش می‌ریختند.",
+      "fa": "تا موم ذوب شود و بیرون برود، و پس از آن مفرغِ مذاب را داخلِ قالب می‌ریختند.",
       "en": "melting away the wax, before pouring molten bronze in.",
       "ipa": "ˈmɛltɪŋ əˈweɪ ðə wæks bɪˈfɔr ˈpɔrɪŋ ˈmoʊltən brɑnz ɪn",
       "words": [
@@ -1273,7 +1273,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ترکیب‌بندی‌های پیچیده را تکه‌تکه قالب‌گیری می‌کردند و به هم لحیم می‌کردند.",
+      "fa": "ترکیب‌بندی‌های پیچیده در چند بخش ریخته‌گری می‌شدند و بخش‌ها به هم لحیم می‌شدند.",
       "en": "Complex compositions were cast in sections and soldered together.",
       "ipa": "ˈkɑmplɛks ˌkɑmpəˈzɪʃənz wɚ kæst ɪn ˈsɛkʃənz ənd ˈsɑdərəd təˈɡɛðɚ",
       "words": [
@@ -1560,7 +1560,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که دربارهٔ رنجِ پایین تأمل می‌کند و دام‌های بزرگِ سرشتِ بشر را از نظر می‌گذراند،",
+      "fa": "در حالِ اندیشیدن به رنجِ کسانی که پایینِ پایش بودند و سنجیدنِ لغزشگاه‌های بزرگِ سرشتِ انسان،",
       "en": "pondering the suffering below, considering human nature’s great pitfalls,",
       "ipa": "ˈpɑndərɪŋ ðə ˈsʌfərɪŋ bɪˈloʊ kənˈsɪdərɪŋ ˈhjumən ˈneɪtʃɚz ɡreɪt ˈpɪtˌfɔlz",
       "words": [
@@ -1595,7 +1595,7 @@ DRILL({
           "w": "pitfall",
           "ipa": "ˈpɪtˌfɔl",
           "m": "a hidden danger or a likely mistake",
-          "fa": "دام، چاله",
+          "fa": "لغزشگاه یا خطرِ پنهان؛ دام یا گودال",
           "more": "trap · hazard"
         }
       ]
@@ -1636,7 +1636,7 @@ DRILL({
       ]
     },
     {
-      "fa": "«متفکر» که نخستین بار در ۱۸۸۸ به‌تنهایی قالب‌گیری شد، سروصدای زیادی به پا کرد.",
+      "fa": "«متفکر» که نخستین بار در ۱۸۸۸ به‌عنوانِ اثری مستقل ریخته‌گری شد، توجهِ همگان را به خود جلب کرد.",
       "en": "First cast on its own in 1888, “The Thinker” became a sensation.",
       "ipa": "fɝst kæst ɑn ɪts oʊn ɪn eɪˈtin ˈeɪti eɪt ðə ˈθɪŋkɚ bɪˈkeɪm ə sɛnˈseɪʃən",
       "newPara": true,
@@ -1652,7 +1652,7 @@ DRILL({
           "w": "sensation",
           "ipa": "sɛnˈseɪʃən",
           "m": "something that causes great excitement and interest",
-          "fa": "پدیده، مایهٔ سروصدا",
+          "fa": "پدیده‌ای که توجهِ فراوان برمی‌انگیزد؛ حسِ بدنی",
           "more": "sensational · hit"
         }
       ]
@@ -1807,7 +1807,7 @@ DRILL({
           "w": "to overlook",
           "ipa": "tə ˈoʊvɚˌlʊk",
           "m": "to have a view of something from above",
-          "fa": "مُشرف بودن بر، رو به … بودن",
+          "fa": "مُشرف بودن بر؛ نادیده گرفتن یا از قلم انداختن",
           "more": "look out over"
         },
         {
@@ -1883,7 +1883,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با وجودِ ۳۷ سال کار، نخستین قالبِ مفرغیِ «دروازه‌ها» نزدیک به یک دهه پس از مرگِ او تکمیل شد.",
+      "fa": "با وجودِ ۳۷ سال کار، نخستین نسخهٔ مفرغیِ «دروازه‌ها» نزدیک به یک دهه پس از مرگِ رودن به پایان رسید.",
       "en": "Despite 37 years of work, the first bronze cast of “The Gates” was completed nearly a decade after his death.",
       "ipa": "dɪˈspaɪt ˈθɝdi ˈsɛvən jɪrz əv wɝk ðə fɝst brɑnz kæst əv ðə ɡeɪts wəz kəmˈplitəd ˈnɪrli ə dɛˈkeɪd ˈæftɚ hɪz dɛθ",
       "words": [
@@ -1898,7 +1898,7 @@ DRILL({
           "w": "cast",
           "ipa": "kæst",
           "m": "an object made by pouring liquid metal or plaster into a mold",
-          "fa": "قالب، نسخهٔ ریخته‌گری‌شده",
+          "fa": "نسخهٔ ریخته‌گری‌شدهٔ مجسمه؛ گروهِ بازیگران",
           "more": "to cast · casting"
         }
       ]

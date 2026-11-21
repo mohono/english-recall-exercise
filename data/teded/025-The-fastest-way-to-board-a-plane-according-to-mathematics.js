@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=-61qDRPG3to",
   "items": [
     {
-      "fa": "بعد از ساعت‌ها تأخیر، سوار شدن به پروازِ شبانه‌تان بالاخره شروع شده،",
+      "fa": "بعد از ساعت‌ها تأخیر، بالاخره دارند مسافرانِ پرواز شبانه‌تان را سوار می‌کنند،",
       "en": "After hours of delay, your red-eye flight is finally boarding,",
       "ipa": "ˈæftɚ ˈaʊɚz əv dɪˈleɪ jɔr ˈrɛdaɪ flaɪt ɪz ˈfaɪnəli ˈbɔrdɪŋ",
       "newPara": true,
@@ -20,7 +20,7 @@ DRILL({
           "w": "red-eye flight",
           "ipa": "ˈrɛdaɪ flaɪt",
           "m": "a flight that leaves late at night and arrives early in the morning",
-          "fa": "پروازِ شبانه",
+          "fa": "پروازی که شب حرکت می‌کند و معمولاً صبحِ روز بعد به مقصد می‌رسد",
           "more": "red-eye · overnight flight"
         },
         {
@@ -103,7 +103,7 @@ DRILL({
       ]
     },
     {
-      "fa": "فقط شما این‌طور فکر نمی‌کنید.",
+      "fa": "شما در این فکر تنها نیستید.",
       "en": "You are not alone.",
       "ipa": "ju ɚ nɑt əˈloʊn",
       "newPara": true,
@@ -112,7 +112,7 @@ DRILL({
           "w": "you are not alone",
           "ipa": "ju ɚ nɑt əˈloʊn",
           "m": "other people feel or think the same as you",
-          "fa": "فقط شما نیستید",
+          "fa": "در این تجربه یا احساس تنها نیستید؛ دیگران هم همین وضع را دارند",
           "more": "you're in good company · join the club"
         }
       ]
@@ -132,7 +132,7 @@ DRILL({
       ]
     },
     {
-      "fa": "طیفی از روش‌های گوناگونِ سوار کردن را ابداع کرده‌اند و با شبیه‌سازی‌های رایانه‌ای آزموده‌اند.",
+      "fa": "و در این مدت طیفی از روش‌های گوناگونِ سوار کردنِ مسافران را ابداع کرده‌اند و با شبیه‌سازی‌های رایانه‌ای آزموده‌اند.",
       "en": "devising a range of different boarding methods and testing them with computer simulations.",
       "ipa": "dɪˈvaɪzɪŋ ə reɪndʒ əv ˈdɪfərənt ˈbɔrdɪŋ ˈmɛθədz ənd ˈtɛstɪŋ ðɛm wɪð kəmˈpjutɚ ˌsɪmjuˈleɪʃənz",
       "words": [
@@ -167,7 +167,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این مدل‌ها برای در نظر گرفتنِ دو گلوگاهِ اصلیِ پر کردنِ هواپیما طراحی شده‌اند.",
+      "fa": "این مدل‌ها طوری طراحی شده‌اند که دو گلوگاهِ اصلی را که روندِ سوار کردن مسافران را کند می‌کنند در نظر بگیرند.",
       "en": "These models are designed to consider the two biggest plane loading bottlenecks.",
       "ipa": "ðiz ˈmɑdəlz ɚ dɪˈzaɪnd tə kənˈsɪdɚ ðə tu ˈbɪɡəst pleɪn ˈloʊdɪŋ ˈbɑtəlˌnɛks",
       "words": [
@@ -182,14 +182,14 @@ DRILL({
           "w": "loading",
           "ipa": "ˈloʊdɪŋ",
           "m": "the act of putting people or goods into a vehicle",
-          "fa": "پر کردن، بارگیری",
+          "fa": "اینجا: سوار کردنِ مسافران؛ دربارهٔ کالا: بارگیری",
           "more": "load · unload (opp.)"
         },
         {
           "w": "bottleneck",
           "ipa": "ˈbɑtəlˌnɛk",
           "m": "a narrow point that slows down the flow of people or work",
-          "fa": "گلوگاه",
+          "fa": "گلوگاه، جایی از فرایند که بقیهٔ کار به‌خاطر آن کند می‌شود؛ معنای تحت‌اللفظی: گردنِ بطری",
           "more": "choke point · holdup · jam"
         }
       ]
@@ -210,7 +210,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یعنی وقتی کسی که صندلی‌اش به پنجره نزدیک‌تر است، آدم‌هایی که از قبل در ردیفش نشسته‌اند راهش را بسته‌اند.",
+      "fa": "یعنی وقتی راهِ کسی را که صندلی‌اش به پنجره نزدیک‌تر است افرادی بسته‌اند که از قبل در همان ردیف نشسته‌اند.",
       "en": "when someone in a seat closer to the window is blocked by people already in their row.",
       "ipa": "wɛn ˈsʌmˌwʌn ɪn ə sit ˈkloʊzɚ tə ðə ˈwɪndoʊ ɪz blɑkt baɪ ˈpipəl ɔlˈrɛdi ɪn ðɛr roʊ",
       "words": [
@@ -344,7 +344,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اول قسمتِ عقبِ هواپیما را سوار کنید، تا مسافران برای رسیدن به صندلی‌شان لازم نباشد از کنارِ دیگران رد شوند.",
+      "fa": "اول مسافرانِ ردیف‌های عقب را سوار کنید تا لازم نباشد برای رسیدن به صندلی‌هایشان از کنارِ دیگران رد شوند.",
       "en": "Board the back of the plane first, so passengers don't need to pass others to reach their seats.",
       "ipa": "bɔrd ðə bæk əv ðə pleɪn fɝst soʊ ˈpæsəndʒɚz doʊnt nid tə pæs ˈʌðɚz tə ritʃ ðɛr sits",
       "words": [
@@ -377,7 +377,7 @@ DRILL({
       "ipa": "bæk tə frʌnt ˈbɔrdɪŋ teɪks əˈraʊnd ˈtwɛnti θri ˈmɪnəts"
     },
     {
-      "fa": "بد نیست، هرچند به‌زحمت از راهبردِ برعکس — یعنی سوار کردن از جلو به عقب — بهتر عمل می‌کند،",
+      "fa": "بد نیست، هرچند فقط اندکی بهتر از روشِ معکوس، یعنی سوار کردن از جلو به عقب، عمل می‌کند،",
       "en": "Not bad, though it barely outperforms the opposite strategy, boarding front-to-back,",
       "ipa": "nɑt bæd ðoʊ ɪt ˈbɛrli ˌaʊtpɚˈfɔrmz ði ˈɑpəzət ˈstrætədʒi ˈbɔrdɪŋ frʌnt tə bæk",
       "words": [
@@ -385,7 +385,7 @@ DRILL({
           "w": "barely",
           "ipa": "ˈbɛrli",
           "m": "only just; almost not",
-          "fa": "به‌زحمت",
+          "fa": "اینجا: فقط اندکی، با تفاوتی ناچیز؛ در توصیف توانایی انجام کاری: به‌زحمت",
           "more": "hardly · scarcely · only just"
         },
         {
@@ -426,7 +426,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برخی شرکت‌های هواپیمایی دیگر کوشیده‌اند با کنار گذاشتنِ کاملِ صندلیِ ازپیش‌تعیین‌شده، کارها را سریع‌تر کنند،",
+      "fa": "شرکت‌های هواپیماییِ دیگری کوشیده‌اند با کنار گذاشتنِ کاملِ تعیینِ صندلی از پیش، روندِ سوار شدن را سریع‌تر کنند،",
       "en": "Other airlines have tried to speed things up by ditching assigned seating altogether,",
       "ipa": "ˈʌðɚ ˈɛrˌlaɪnz hæv traɪd tə spid θɪŋz ʌp baɪ ˈdɪtʃɪŋ əˈsaɪnd ˈsitɪŋ ˌɔltəˈɡɛðɚ",
       "newPara": true,
@@ -511,7 +511,7 @@ DRILL({
       ]
     },
     {
-      "fa": "نشستنِ تصادفی چند دقیقه از زمانِ سوار کردنِ <en>A320</en> می‌تراشد، اما بی‌نقص نیست.",
+      "fa": "نشستنِ تصادفی چند دقیقه از زمانِ سوار شدنِ مسافرانِ ایرباس ۳۲۰ کم می‌کند، اما بی‌نقص نیست.",
       "en": "Random seating shaves a few minutes off boarding the A320, but it's not perfect.",
       "ipa": "ˈrændəm ˈsitɪŋ ʃeɪvz ə fju ˈmɪnəts ɔf ˈbɔrdɪŋ ði əˈθri ˈhʌndrəd ˈtwɛnti bət ɪts nɑt ˈpɝˌfɪkt",
       "words": [
@@ -526,7 +526,7 @@ DRILL({
           "w": "to shave … off",
           "ipa": "tə ʃeɪv … ɔf",
           "m": "to make something slightly smaller or shorter",
-          "fa": "تراشیدن از، کم کردن از",
+          "fa": "اینجا: اندکی از زمان یا مقدارِ چیزی کم کردن؛ در معنای فیزیکی: لایهٔ نازکی تراشیدن",
           "more": "cut · trim · knock off"
         }
       ]
@@ -595,7 +595,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ریاضیدان‌ها برای اینکه صندلیِ ازپیش‌تعیین‌شده را نگه دارند و تأخیرها را باز هم کم کنند،",
+      "fa": "برای حفظِ صندلی‌های ازپیش‌تعیین‌شده و کاهشِ بیشترِ تأخیرها،",
       "en": "To keep assigned seating and further reduce delays,",
       "ipa": "tə kip əˈsaɪnd ˈsitɪŋ ənd ˈfɝðɚ rəˈdus dɪˈleɪz",
       "newPara": true,
@@ -610,7 +610,7 @@ DRILL({
       ]
     },
     {
-      "fa": "روشِ «بیرون به درون» یا <en>WMA</en> را پروراندند،",
+      "fa": "ریاضی‌دان‌ها روشِ «از بیرون به درون» یا روشِ «پنجره، وسط، راهرو» را ابداع کردند،",
       "en": "mathematicians developed the outside-in or WMA method,",
       "ipa": "ˌmæθəməˈtɪʃənz dɪˈvɛləpt ði ˌaʊtˈsaɪd ɪn ɔr ˌˈdʌbəljuˌɛmˈeɪ ˈmɛθəd",
       "words": [
@@ -715,7 +715,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ترتیبِ او، که به‌جا «روشِ استفن» نام گرفته، می‌تواند <en>A320</en> را در فقط ۱۵ دقیقه کامل سوار کند.",
+      "fa": "ترتیبِ پیشنهادیِ او، که به‌درستی «روش استفن» نام گرفته، سوار کردنِ همهٔ مسافرانِ ایرباس ۳۲۰ را در تنها ۱۵ دقیقه ممکن می‌کند.",
       "en": "His order, aptly named the Steffen method, can fully board the A320 in just 15 minutes.",
       "ipa": "hɪz ˈɔrdɚ ˈæptli neɪmd ðə ˈstɛfən ˈmɛθəd kən ˈfʊli bɔrd ði əˈθri ˈhʌndrəd ˈtwɛnti ɪn dʒʌst fɪfˈtin ˈmɪnəts",
       "words": [
@@ -742,7 +742,7 @@ DRILL({
       "newPara": true
     },
     {
-      "fa": "خب، روشِ استفن از مسافران می‌خواهد با الگویی بسیار مشخص سوار شوند.",
+      "fa": "خب، روش استفن ایجاب می‌کند که مسافران طبقِ الگویی بسیار مشخص سوار شوند.",
       "en": "Well, Steffen's method requires passengers to load on in a very specific pattern.",
       "ipa": "wɛl ˈstɛfənz ˈmɛθəd riˈkwaɪɚz ˈpæsəndʒɚz tə loʊd ɑn ɪn ə ˈvɛri spəˈsɪfɪk ˈpætɚn",
       "words": [
@@ -750,7 +750,7 @@ DRILL({
           "w": "to require someone to",
           "ipa": "tə ˌriˈkwaɪɚ ˈsʌmˌwʌn tu",
           "m": "to make it necessary for someone to do something",
-          "fa": "از کسی خواستن که",
+          "fa": "ایجاب کردن که کسی کاری انجام دهد؛ کسی را ملزم به انجام کاری کردن",
           "more": "requirement · oblige · demand"
         },
         {
@@ -791,7 +791,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با ترکیبی از روشِ <en>WMA</en> و روشِ عقب به جلو.",
+      "fa": "با ترکیبی از روشِ «پنجره، وسط، راهرو» و روشِ سوار کردن از عقب به جلو.",
       "en": "using a combination of the WMA and back-to-front methods.",
       "ipa": "ˈjuzɪŋ ə ˌkɑmbəˈneɪʃən əv ðə ˌˈdʌbəljuˌɛmˈeɪ ənd bæk tə frʌnt ˈmɛθədz",
       "words": [
@@ -1002,7 +1002,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که طبقِ آن هواپیماها فرود بیایند، تخلیه شوند، مسافرِ تازه سوار کنند و عقب‌عقب از گیت جدا شوند، همه در کمتر از ۱۰ دقیقه.",
+      "fa": "که طبق آن، هواپیماها فرود می‌آمدند، مسافرانشان را پیاده می‌کردند، مسافران تازه را سوار می‌کردند و از گیت عقب کشیده می‌شدند؛ همه در کمتر از ده دقیقه.",
       "en": "where planes would land, unload, board, and push back all in under 10 minutes.",
       "ipa": "wɛr pleɪnz wʊd lænd ənˈloʊd bɔrd ənd pʊʃ bæk ɔl ɪn ˈʌndɚ tɛn ˈmɪnəts",
       "words": [
@@ -1027,7 +1027,8 @@ DRILL({
           "fa": "عقب‌عقب از گیت جدا شدن",
           "more": "pushback · taxi"
         }
-      ]
+      ],
+      "note": "در این روایت <en>would land, unload, board, and push back</en> کارهایی را بیان می‌کند که بارها طبق همان روال انجام می‌شدند."
     },
     {
       "fa": "همین که هواپیما به زمین می‌نشست، مهمانداران شروع می‌کردند به خالی کردنِ کیف‌ها در راهروها.",
@@ -1114,7 +1115,7 @@ DRILL({
       ]
     },
     {
-      "fa": "چنین نظامی با معیارهای امروزیِ هوانوردی پذیرفته نمی‌شود.",
+      "fa": "چنین روشی با معیارهای هوانوردیِ امروز پذیرفتنی نبود.",
       "en": "Such a system wouldn't fly by today's aviation standards.",
       "ipa": "sʌtʃ ə ˈsɪstəm ˈwʊdənt flaɪ baɪ təˈdeɪz ˌeɪviˈeɪʃən ˈstændɚdz",
       "words": [
@@ -1122,7 +1123,7 @@ DRILL({
           "w": "to fly",
           "ipa": "tə flaɪ",
           "m": "(informal) to be accepted or approved",
-          "fa": "پذیرفته شدن، جواب دادن",
+          "fa": "اینجا، در معنای اصطلاحی: پذیرفته شدن، عملی بودن؛ معنای اصلی: پرواز کردن",
           "more": "won't fly · be acceptable · pass"
         },
         {
@@ -1172,7 +1173,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پر کردنِ هواپیمایی با ۲۴۰ صندلی از دو در به‌جای یکی می‌تواند احتمالاً سوار شدن را ۵ دقیقه سریع‌تر کند.",
+      "fa": "سوار کردن مسافرانِ هواپیمایی ۲۴۰نفره از دو در به‌جای یک در، می‌تواند زمانِ سوار شدن را پنج دقیقه کم کند.",
       "en": "Loading a plane with 240 seats through two doors instead of one can potentially speed up boarding by 5 minutes.",
       "ipa": "ˈloʊdɪŋ ə pleɪn wɪð tu ˈhʌndrəd ˈfɔrti sits θru tu dɔrz ɪnˈstɛd əv wʌn kən pəˈtɛnʃəli spid ʌp ˈbɔrdɪŋ baɪ faɪv ˈmɪnəts",
       "words": [
@@ -1193,7 +1194,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پیشنهادِ دیگر، «صندلیِ کشوییِ پهلویی»، صندلیِ وسط را کمی عقب‌تر و پایین‌تر جا می‌دهد،",
+      "fa": "پیشنهاد دیگری به نام «صندلیِ کشوییِ جانبی»، صندلیِ وسط را کمی از راستای دو صندلیِ دیگر بیرون می‌برد،",
       "en": "Another proposal, the side-slip seat, offsets the middle seat,",
       "ipa": "əˈnʌðɚ prəˈpoʊzəl ðə saɪd slɪp sit ˈɔfˌsɛts ðə ˈmɪdəl sit",
       "words": [
@@ -1215,7 +1216,7 @@ DRILL({
           "w": "to offset",
           "ipa": "tə ɔfˈsɛt",
           "m": "to place something slightly out of line with other things",
-          "fa": "کمی جابه‌جا جا دادن",
+          "fa": "اینجا: چیزی را از راستای چیزِ دیگری جابه‌جا کردن؛ در بافتِ هزینه‌ها: جبران کردن",
           "more": "offset (n.) · shift · stagger"
         }
       ]
@@ -1377,7 +1378,7 @@ DRILL({
       ]
     },
     {
-      "fa": "حتی راهبردی که به بی‌نقص‌ترین شکل اجرا شود احتمالاً فقط حدودِ ۱۰ دقیقه در وقتمان صرفه‌جویی می‌کند.",
+      "fa": "حتی اگر روشِ سوار کردن مسافران به بی‌نقص‌ترین شکل اجرا می‌شد، احتمالاً فقط حدود ده دقیقه در وقتِ ما صرفه‌جویی می‌کرد.",
       "en": "Even the most perfectly executed boarding strategy would likely only save us about 10 minutes.",
       "ipa": "ˈivɪn ðə moʊst ˈpɝfəktli ˈɛksəkˌjutəd ˈbɔrdɪŋ ˈstrætədʒi wʊd ˈlaɪkli ˈoʊnli seɪv ʌs əˈbaʊt tɛn ˈmɪnəts",
       "words": [

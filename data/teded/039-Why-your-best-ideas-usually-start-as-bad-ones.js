@@ -26,7 +26,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما واقعاً، واقعاً همین‌طور است.",
+      "fa": "اما اشتباه‌ها و نقص‌ها واقعاً، واقعاً همین کار را می‌کنند.",
       "en": "but they really, really do.",
       "ipa": "bət ðeɪ ˈrɪli ˈrɪli du"
     },
@@ -59,7 +59,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و این یعنی خودت داری بهتر می‌شوی، چون احتمالاً دفعهٔ بعد صدایت آنجا نمی‌شکند —",
+      "fa": "و این یعنی خودت داری بهتر می‌شوی، چون احتمالاً دفعهٔ بعد صدایت در همان جای آهنگ نخواهد شکست؛",
       "en": "And it’s you getting better because your voice probably won’t crack there the next time—",
       "ipa": "ənd ɪts ju ˈɡɛtɪŋ ˈbɛtɚ bɪˈkɔz jɔr vɔɪs ˈprɑbəbli woʊnt kræk ðɛr ðə nɛkst taɪm",
       "words": [
@@ -119,7 +119,7 @@ DRILL({
       "ipa": "ɪz ðɛr ˈmjuzɪk ɪnˈsaɪd əv ju"
     },
     {
-      "fa": "ما نوازنده‌ها و موسیقی‌دان‌های شاغل را از سراسرِ این صنعت جذب کرده‌ایم تا کمکت کنند آن را بشنوی،",
+      "fa": "ما از سراسرِ صنعتِ موسیقی، موسیقی‌دان‌هایی را که در این حرفه کار می‌کنند به خدمت گرفته‌ایم تا کمکت کنند موسیقیِ درونت را بشنوی،",
       "en": "We’ve recruited working musicians from throughout the industry to help you hear it,",
       "ipa": "wiv rɪˈkrutɪd ˈwɝkɪŋ mjuˈzɪʃənz frəm θruˈaʊt ði ˈɪndəstri tə hɛlp ju hɪr ɪt",
       "words": [
@@ -218,7 +218,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و همچنین در اجرا، آماده بودن برای اینکه زمین بخوری و دستت کثیف شود یا اشتباه کنی.",
+      "fa": "و در اجرا هم یعنی حاضر باشی زمین بخوری و خاکی شوی یا اشتباه کنی.",
       "en": "and also in performance, being willing to fall down and get dirty or make mistakes.",
       "ipa": "ənd ˈɔlsoʊ ɪn pɚˈfɔrməns ˈbiɪŋ ˈwɪlɪŋ tə fɔl daʊn ənd ɡɛt ˈdɝti ɔr meɪk mɪˈsteɪks",
       "words": [
@@ -233,7 +233,7 @@ DRILL({
           "w": "to get dirty",
           "ipa": "tə ɡɛt ˈdɝti",
           "m": "(figurative) to do hard, messy work without worrying about looking perfect",
-          "fa": "دستِ خود را کثیف کردن",
+          "fa": "درگیرِ سختی و دردسرِ اجرا شدن؛ در معنیِ لفظی، کثیف یا خاکی شدن",
           "more": "get your hands dirty"
         }
       ]
@@ -254,7 +254,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما فکر می‌کنم فقط داشتم کم‌کم سر درمی‌آوردم.",
+      "fa": "اما فکر می‌کنم فقط داشتم کم‌کم می‌فهمیدم چطور باید این کار را بکنم.",
       "en": "but I think I was just kind of figuring it out.",
       "ipa": "bət aɪ θɪŋk aɪ wəz dʒʌst kaɪnd əv ˈfɪɡjərɪŋ ɪt aʊt",
       "words": [
@@ -268,7 +268,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و به معنای واقعیِ کلمه فقط شعرهایی را که نوشته بودم برمی‌داشتم،",
+      "fa": "و واقعاً، به معنای دقیقِ کلمه، فقط داشتم شعرهایی را که پیش‌تر نوشته بودم برمی‌داشتم،",
       "en": "And I was really literally just taking the poems that I had written,",
       "ipa": "ənd aɪ wəz ˈrɪli ˈlɪtərəli dʒʌst ˈteɪkɪŋ ðə ˈpoʊəmz ðæt aɪ hæd ˈrɪtən",
       "words": [
@@ -310,7 +310,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و رویشان ملودی می‌گذاشتم.",
+      "fa": "و داشتم آن شعرها را با ملودی‌ها همراه می‌کردم.",
       "en": "and putting them to melodies.",
       "ipa": "ənd ˈpʌtɪŋ ðɛm tə ˈmɛlədiz",
       "words": [
@@ -318,7 +318,7 @@ DRILL({
           "w": "to put (words) to music/a melody",
           "ipa": "tə pʊt (wɝdz) tə ˈmjuzɪk | ə ˈmɛlədi",
           "m": "to write music for words so they can be sung",
-          "fa": "رویِ … آهنگ گذاشتن",
+          "fa": "کلام یا شعر را با آهنگ یا ملودی همراه کردن",
           "more": "set to music · compose"
         },
         {
@@ -360,13 +360,13 @@ DRILL({
           "w": "outlet",
           "ipa": "ˈaʊtˌlɛt",
           "m": "a way of expressing or releasing strong feelings",
-          "fa": "راهِ تخلیه/بروزِ احساسات",
+          "fa": "راهی برای بیان یا تخلیهٔ احساسات؛ خروجی؛ پریز برق",
           "more": "release · vent · creative outlet"
         }
       ]
     },
     {
-      "fa": "و بعد کم‌وبیش یاد گرفتم چیزی بنویسم که برای دیگران قابل‌فهم‌تر باشد،",
+      "fa": "و بعدها کم‌وبیش یاد گرفتم چطور چیزی بنویسم که برای دیگران قابل‌فهم‌تر باشد،",
       "en": "And then later I sort of learned how to write something that was more accessible,",
       "ipa": "ənd ðɛn ˈleɪtɚ aɪ sɔrt əv lɝnd haʊ tə raɪt ˈsʌmθɪŋ ðæt wəz mɔr ækˈsɛsəbəl",
       "words": [
@@ -374,13 +374,13 @@ DRILL({
           "w": "accessible",
           "ipa": "ækˈsɛsəbəl",
           "m": "easy to understand or enjoy",
-          "fa": "قابل‌فهم، دم‌دستی",
+          "fa": "قابل‌فهم برای شنونده؛ در دسترس، دسترس‌پذیر",
           "more": "access · approachable"
         }
       ]
     },
     {
-      "fa": "که مردم بتوانند بفهمند حرفم از کجا می‌آید،",
+      "fa": "طوری که مردم می‌توانستند بفهمند از چه دیدگاهی حرف می‌زدم،",
       "en": "that people could understand where I was coming from,",
       "ipa": "ðæt ˈpipəl kʊd ˌʌndɚˈstænd wɛr aɪ wəz ˈkʌmɪŋ frʌm",
       "words": [
@@ -388,7 +388,7 @@ DRILL({
           "w": "where someone is coming from",
           "ipa": "wɛr ˈsʌmˌwʌn ɪz ˈkʌmɪŋ frʌm",
           "m": "(informal) the reasons for someone's feelings or opinions",
-          "fa": "حرفِ دلِ کسی، منظور و دیدگاهِ کسی",
+          "fa": "دیدگاه یا تجربه‌ای که باعث می‌شود کسی آن‌طور حرف بزند",
           "more": "point of view · perspective"
         }
       ]
@@ -444,7 +444,7 @@ DRILL({
       ]
     },
     {
-      "fa": "چیزی که از همکاری با ترانه‌سراها و نوازنده‌های دیگر دوست داشته‌ام این است",
+      "fa": "آنچه تا حالا در همکاری با ترانه‌سراها و موسیقی‌دان‌های دیگر دوست داشته‌ام",
       "en": "What I’ve loved about collaborating with other songwriters and musicians",
       "ipa": "wʌt aɪv lʌvd əˈbaʊt kəˈlæbəˌreɪtɪŋ wɪð ˈʌðɚ ˈsɔŋˌraɪtɚz ənd mjuˈzɪʃənz",
       "words": [
@@ -459,13 +459,13 @@ DRILL({
           "w": "songwriter",
           "ipa": "ˈsɔŋˌraɪtɚ",
           "m": "a person who writes songs",
-          "fa": "ترانه‌سرا، آهنگساز",
+          "fa": "ترانه‌نویس، کسی که شعر یا موسیقیِ ترانه را می‌نویسد",
           "more": "songwriting · lyricist"
         }
       ]
     },
     {
-      "fa": "که می‌بینم چند ایدهٔ نه‌چندان عالی و چند ایدهٔ واقعاً افتضاح به زبان می‌آورند.",
+      "fa": "این است که می‌شنوم ایده‌هایی نه‌چندان خوب، ایده‌هایی حسابی افتضاح، به زبان می‌آورند.",
       "en": "is I hear them come out with some not so great ideas, some pretty lousy ideas.",
       "ipa": "ɪz aɪ hɪr ðɛm kʌm aʊt wɪð sʌm nɑt soʊ ɡreɪt aɪˈdiəz sʌm ˈprɪti ˈlaʊzi aɪˈdiəz",
       "words": [
@@ -486,7 +486,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و فهمیدم که هشت ایدهٔ افتضاح یا حتی پانزده‌تا به ذهنشان می‌رسد،",
+      "fa": "و فهمیدم که آن‌ها معمولاً هشت ایدهٔ افتضاح، یا حتی مثلاً پانزده‌تا، از خودشان درمی‌آورند، <c>(رفتاری را توصیف می‌کند که از آن‌ها انتظار می‌رود.)</c>",
       "en": "And I realized that they will come up with eight lousy ideas or even like 15,",
       "ipa": "ənd aɪ ˈriˌlaɪzd ðæt ðeɪ wɪl kʌm ʌp wɪð eɪt ˈlaʊzi aɪˈdiəz ɔr ˈivɪn laɪk fɪfˈtin",
       "words": [
@@ -494,7 +494,7 @@ DRILL({
           "w": "to come up with",
           "ipa": "tə kʌm ʌp wɪð",
           "m": "to think of an idea or plan",
-          "fa": "به ذهن رسیدن، ارائه دادن (ایده)",
+          "fa": "ایده یا راه‌حلی پیدا یا مطرح کردن",
           "more": "think of · devise"
         }
       ]
@@ -514,12 +514,12 @@ DRILL({
       ]
     },
     {
-      "fa": "و شنونده هیچ‌وقت از آن سی ایدهٔ افتضاحِ دیگر خبردار نمی‌شود",
+      "fa": "و شنونده هرگز از آن سی ایدهٔ افتضاحِ دیگر باخبر نخواهد شد،",
       "en": "And the listener will never know of the other 30 lousy ideas",
       "ipa": "ənd ðə ˈlɪsənɚ wɪl ˈnɛvɚ noʊ əv ði ˈʌðɚ ˈθɝdi ˈlaʊzi aɪˈdiəz"
     },
     {
-      "fa": "که لازم بود تا سرانجام به حسی از وضوح برسیم و چیزی سرِ جایش قفل شود.",
+      "fa": "همان ایده‌هایی که لازم بود تا سرانجام همه‌چیز روشن شود و چیزی درست سرِ جایش بیفتد.",
       "en": "that it took to finally come to a sense of clarity and something locking in.",
       "ipa": "ðæt ɪt tʊk tə ˈfaɪnəli kʌm tə ə sɛns əv ˈklɛrəti ənd ˈsʌmθɪŋ ˈlɑkɪŋ ɪn",
       "words": [
@@ -541,13 +541,13 @@ DRILL({
           "w": "to lock in",
           "ipa": "tə lɑk ɪn",
           "m": "(informal) to fit perfectly into place; to become fixed",
-          "fa": "سرِ جایش قفل شدن، جا افتادن",
+          "fa": "درست جا افتادن و هماهنگ شدن؛ تثبیت کردن",
           "more": "click · fall into place"
         }
       ]
     },
     {
-      "fa": "این درست نیست. این درست نیست. این درست است! خودش است.",
+      "fa": "آن یکی درست نیست. آن یکی هم درست نیست. این یکی درست است! خودش است.",
       "en": "That’s not right. That’s not right. This is right! There it is.",
       "ipa": "ðæts nɑt raɪt ðæts nɑt raɪt ðɪs ɪz raɪt ðɛr ɪt ɪz",
       "words": [
@@ -582,7 +582,7 @@ DRILL({
           "w": "hit",
           "ipa": "hɪt",
           "m": "a very successful song, film, etc.",
-          "fa": "اثرِ موفق و پرفروش",
+          "fa": "ترانه یا اثرِ بسیار موفق؛ ضربه",
           "more": "smash hit · success · flop"
         }
       ]
@@ -603,18 +603,18 @@ DRILL({
           "w": "record",
           "ipa": "ˈrɛkɚd",
           "m": "a piece of recorded music",
-          "fa": "صفحه، اثرِ ضبط‌شده",
+          "fa": "اثرِ موسیقیِ ضبط‌شده؛ سابقه؛ رکورد",
           "more": "album · single · recording"
         }
       ]
     },
     {
-      "fa": "به معنای واقعیِ کلمه می‌توانی در هر سنی شروع کنی، می‌توانی حتی اصلاً خواندن بلد نباشی،",
+      "fa": "واقعاً می‌توانی در هر سنی شروع کنی؛ واقعاً ممکن است حتی نتوانی آواز بخوانی،",
       "en": "You could literally start at any age, you could literally not be able to sing,",
       "ipa": "ju kʊd ˈlɪtərəli stɑrt ət ˈɛni eɪdʒ ju kʊd ˈlɪtərəli nɑt bi ˈeɪbəl tə sɪŋ"
     },
     {
-      "fa": "اما تا وقتی بفهمی کارِ مخصوصِ خودت چیست،",
+      "fa": "اما به شرطی که بدانی کارِ خاصِ خودت چیست،",
       "en": "but as long as you understand what your thing is,",
       "ipa": "bət əz lɔŋ əz ju ˌʌndɚˈstænd wʌt jɔr θɪŋ ɪz",
       "words": [
@@ -622,7 +622,7 @@ DRILL({
           "w": "as long as",
           "ipa": "əz lɔŋ æz",
           "m": "only if; on condition that",
-          "fa": "تا وقتی که، به شرطِ اینکه",
+          "fa": "به شرطِ اینکه؛ در کاربردِ زمانی، تا وقتی که",
           "more": "provided that · so long as"
         },
         {
@@ -689,7 +689,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مارک دی. سندرز، ترانه‌سرایی در نشویل، یک بار به من گفت که ترانه‌سرایی مثلِ ماهیگیری است.",
+      "fa": "مارک دی. سندرز، او ترانه‌سرایی در نشویل است، یک بار به من گفت «ترانه‌سرایی مثلِ ماهیگیری است».",
       "en": "Mark D. Sanders, he’s a writer in Nashville, he said to me once, songwriting is like fishing.",
       "ipa": "mɑrk di ˈsændɚz hiz ə ˈraɪtɚ ɪn ˈnæʃvɪl hi sɛd tə mi wʌns ˈsɔŋˌraɪtɪŋ ɪz laɪk ˈfɪʃɪŋ",
       "newPara": true
@@ -709,7 +709,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یا می‌توانی چهار ثانیه در آب بایستی و بزرگ‌ترین ماهیِ عمرت را بگیری.",
+      "fa": "یا می‌توانی چهار ثانیه در آب بایستی و بزرگ‌ترین ماهی‌ای را بگیری که تا به حال در تمامِ عمرت گرفته‌ای.",
       "en": "Or you can stand in the water for four seconds and catch the biggest fish you’ve ever caught in your entire life.",
       "ipa": "ɔr ju kən stænd ɪn ðə ˈwɔtɚ fɚ fɔr ˈsɛkəndz ənd kætʃ ðə ˈbɪɡəst fɪʃ juv ˈɛvɚ kɑt ɪn jɔr ɪnˈtaɪɚ laɪf",
       "words": [
@@ -731,7 +731,7 @@ DRILL({
           "w": "to go",
           "ipa": "tə ɡoʊ",
           "m": "(informal, spoken) to say",
-          "fa": "می‌گوید (محاوره‌ای)",
+          "fa": "گفتن (در نقلِ گفتارِ محاوره‌ای)؛ رفتن",
           "more": "be like · say"
         },
         {
@@ -759,18 +759,18 @@ DRILL({
           "w": "expedition",
           "ipa": "ˌɛkspəˈdɪʃən",
           "m": "a journey organized for a particular purpose",
-          "fa": "سفرِ اکتشافی، اردو",
+          "fa": "سفر برای هدفی معین، اینجا ماهیگیری؛ سفرِ اکتشافی",
           "more": "trip · voyage · excursion"
         }
       ]
     },
     {
-      "fa": "ممکن است ساعت‌ها آنجا بنشینی و آن روز روزش نباشد.",
+      "fa": "ممکن است ساعت‌ها آن بیرون بنشینی و آخرش ببینی آن روز، روزِ این کار نبود.",
       "en": "you can sit out there for hours and it wasn’t the day for it.",
       "ipa": "ju kən sɪt aʊt ðɛr fɚ ˈaʊɚz ənd ɪt ˈwɑzənt ðə deɪ fɚ ɪt"
     },
     {
-      "fa": "یا ممکن است تقریباً هیچ زمانی آنجا ننشینی و روزِ فوق‌العاده‌ای داشته باشی.",
+      "fa": "یا ممکن است مدتِ خیلی کوتاهی آن بیرون بنشینی و آخرش ببینی چه روزِ فوق‌العاده‌ای داشتی.",
       "en": "Or you can sit out there for no time and you had a great day.",
       "ipa": "ɔr ju kən sɪt aʊt ðɛr fɚ noʊ taɪm ənd ju hæd ə ɡreɪt deɪ",
       "words": [
@@ -812,7 +812,7 @@ DRILL({
       ]
     },
     {
-      "fa": "وقتی جوان بودم، یادم هست آن آهنگ‌ها همین‌طوری می‌آمدند [بشکن می‌زند].",
+      "fa": "وقتی جوان بودم، واقعاً یادم هست که آن آهنگ‌ها همین‌طوری… [بشکن می‌زند].",
       "en": "When I was young, I do remember those songs just [snaps].",
       "ipa": "wɛn aɪ wəz jʌŋ aɪ du rɪˈmɛmbɚ ðoʊz sɔŋz dʒʌst snæps",
       "newPara": true,
@@ -833,7 +833,7 @@ DRILL({
       "ipa": "ənd ðɛrz əˈnʌðɚ ənd əˈnʌðɚ ənd əˈnʌðɚ ənd ɪt stɪl ˈhæpənz"
     },
     {
-      "fa": "اما بعد از نمی‌دانم چند صد آهنگ، ماجرا می‌شود «منِ تازه» در برابرِ «منِ قدیمی»",
+      "fa": "اما بعد از نوشتنِ خدا می‌داند چند صد آهنگ، ماجرا می‌شود «خودِ تازه‌ات» در برابرِ «خودِ قدیمی‌ات»،",
       "en": "But after however many hundreds of songs, it becomes new you versus old you",
       "ipa": "bət ˈæftɚ ˌhaʊˈɛvɚ ˈmɛni ˈhʌndrədz əv sɔŋz ɪt bɪˈkʌmz nu ju ˈvɝsəs oʊld ju",
       "words": [
@@ -854,7 +854,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که چیزی را که قبلاً گفته‌ای از زاویهٔ دیدی کاملاً متفاوت می‌گویی.",
+      "fa": "که حرفی را که پیش‌تر زده‌ای از زاویهٔ دیدی کاملاً متفاوت می‌زنی.",
       "en": "saying something that you’ve said from an entirely different perspective.",
       "ipa": "ˈseɪɪŋ ˈsʌmθɪŋ ðæt juv sɛd frəm ən ɪnˈtaɪɚli ˈdɪfərənt pɚˈspɛktɪv",
       "words": [
@@ -986,7 +986,7 @@ DRILL({
       "ipa": "bɪˈkɔz ðeɪ hæd tə tɛl mi wʌt ɪt ɪz"
     },
     {
-      "fa": "مجبور خواهی شد به حرفِ کسی گوش بدهی و از کسی نصیحت بپذیری.",
+      "fa": "لازم خواهد شد به حرفِ کسی گوش بدهی و لازم خواهد شد توصیهٔ کسی را هم بپذیری.",
       "en": "You're going to have to listen to somebody and you're going to have to take advice from someone.",
       "ipa": "jʊr ˈɡoʊɪŋ tə hæv tə ˈlɪsən tə ˈsʌmˌbɑdi ənd jʊr ˈɡoʊɪŋ tə hæv tə teɪk ædˈvaɪs frəm ˈsʌmˌwʌn",
       "words": [
@@ -994,7 +994,7 @@ DRILL({
           "w": "to take advice",
           "ipa": "tə teɪk ædˈvaɪs",
           "m": "to listen to and follow what someone suggests",
-          "fa": "نصیحت پذیرفتن، به توصیه عمل کردن",
+          "fa": "توصیه‌ای را پذیرفتن و به آن عمل کردن؛ مشورت گرفتن",
           "more": "follow advice · ignore advice"
         }
       ]

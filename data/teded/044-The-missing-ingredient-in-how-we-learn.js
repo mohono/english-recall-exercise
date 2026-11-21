@@ -32,7 +32,7 @@ DRILL({
       ]
     },
     {
-      "fa": "نافرمانی یاد بدهد و به شورشِ روستاییان بینجامد.",
+      "fa": "ممکن است نافرمانی را آموزش دهد و به شورشِ دهقانان بینجامد.",
       "en": "might teach disobedience and lead to peasant rebellion.",
       "ipa": "maɪt titʃ ˌdɪsəˈbidiəns ənd lɛd tə ˈpɛzənt rɪˈbɛljən",
       "words": [
@@ -53,7 +53,7 @@ DRILL({
           "w": "peasant",
           "ipa": "ˈpɛzənt",
           "m": "a poor farmer or farm worker of low social class",
-          "fa": "روستایی، دهقان"
+          "fa": "دهقان، کشاورزِ روستایی (در جامعهٔ تاریخی)"
         },
         {
           "w": "rebellion",
@@ -182,7 +182,7 @@ DRILL({
       "note": "در بریتانیا public school برعکس یعنی مدرسهٔ خصوصیِ گران."
     },
     {
-      "fa": "اما گرچه این باور شاید امروز سنتی به نظر برسد،",
+      "fa": "اما با اینکه شاید امروزه سنتی به نظر برسد،",
       "en": "But while it might seem traditional now,",
       "ipa": "bət waɪl ɪt maɪt sim trəˈdɪʃənəl naʊ",
       "newPara": true,
@@ -197,7 +197,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اینکه بازی و یادگیری با هم در تضادند، ایده‌ای نسبتاً تازه است.",
+      "fa": "این باور که بازی و یادگیری با یکدیگر ناسازگارند، اندیشه‌ای نسبتاً تازه است.",
       "en": "the belief that play and learning are at odds with each other is a relatively new idea.",
       "ipa": "ðə bɪˈlif ðæt pleɪ ənd ˈlɝnɪŋ ɚ ət ɑdz wɪð itʃ ˈʌðɚ ɪz ə ˈrɛlətɪvli nu aɪˈdiə",
       "words": [
@@ -228,7 +228,7 @@ DRILL({
       "ipa": "bɪˈfɔr ðə læst fju ˈsɛntʃəriz ˈtʃɪldrən əˈraʊnd ðə wɝld spɛnt moʊst əv ðɛr taɪm ˈlɝnɪŋ θru pleɪ"
     },
     {
-      "fa": "بزرگ‌ترها را تماشا می‌کردند و ادایشان را درمی‌آوردند، در اطرافشان پرسه می‌زدند، و آموخته‌هایشان را با دوستان و خانواده در میان می‌گذاشتند.",
+      "fa": "با مشاهده و تقلید از بزرگ‌ترها، گشت‌وگذار در محیطِ پیرامونشان و در میان گذاشتنِ آنچه یاد می‌گرفتند با دوستان و خانواده.",
       "en": "observing and mimicking adults, roaming their surroundings, and sharing what they learned with friends and family.",
       "ipa": "əbˈzɝvɪŋ ənd ˈmɪmɪkɪŋ əˈdʌlts ˈroʊmɪŋ ðɛr səˈraʊndɪŋz ənd ˈʃɛrɪŋ wʌt ðeɪ ˈlɝnɪd wɪð frɛndz ənd ˈfæməli",
       "words": [
@@ -243,7 +243,7 @@ DRILL({
           "w": "to mimic",
           "ipa": "tə ˈmɪmɪk",
           "m": "to copy the way someone acts or speaks",
-          "fa": "ادای … را درآوردن، تقلید کردن",
+          "fa": "با تقلید از رفتارِ بزرگ‌ترها یاد گرفتن؛ تقلید صدا یا ادای کسی را درآوردن",
           "more": "imitate · mimicry"
         },
         {
@@ -308,7 +308,7 @@ DRILL({
       ]
     },
     {
-      "fa": "فروبل در کودکستان‌هایش اسباب‌بازی‌هایی ویژه‌طراحی‌شده فراهم کرد",
+      "fa": "فروبل در کودکستان‌هایش اسباب‌بازی‌هایی در اختیارِ بچه‌ها می‌گذاشت که مخصوصِ این کار طراحی شده بودند",
       "en": "In his Kindergartens, Fröbel provided specially designed toys",
       "ipa": "ɪn hɪz ˈkɪndɚˌɡɑrtənz ˈfroʊbəl prəˈvaɪdəd ˈspɛʃəli dɪˈzaɪnd tɔɪz",
       "newPara": true,
@@ -337,7 +337,7 @@ DRILL({
           "w": "volume",
           "ipa": "ˈvɑljum",
           "m": "the amount of space that something fills",
-          "fa": "حجم"
+          "fa": "حجمِ یک جسم؛ بلندیِ صدا؛ جلدِ کتاب"
         },
         {
           "w": "density",
@@ -383,7 +383,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اسباب‌بازی‌های مونته‌سوری — یا به قولِ خودشان «مواد» — با دقتِ بسیار طراحی شده‌اند تا مفاهیمِ مشخصی را جدا کنند و آموزش دهند.",
+      "fa": "اسباب‌بازی‌های مونته‌سوری، یا «وسایلِ آموزشی» چنان‌که خودشان می‌نامندشان، با دقتِ بسیار طراحی می‌شوند تا مفاهیمِ معینی را از هم جدا کنند و آموزش دهند.",
       "en": "Montessori toys— or materials, as they call them— are rigorously designed to isolate and teach specific concepts.",
       "ipa": "ˌmɑntəˈsɔri tɔɪz ɔr məˈtɪriəlz əz ðeɪ kɔl ðɛm ɚ ˈrɪɡərəsli dɪˈzaɪnd tə ˈaɪsəˌleɪt ənd titʃ spəˈsɪfɪk ˈkɑnsɛpts",
       "words": [
@@ -409,7 +409,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مثلاً برای یادگیریِ ریاضی، نوزادان و نوپاها ممکن است ابعاد را با استوانه‌های چوبیِ چاق کشف کنند،",
+      "fa": "برای نمونه، نوزادان و کودکانِ نوپا ممکن است برای یادگیریِ ریاضی با استوانه‌های چوبیِ قطور مفهومِ بُعد را کشف کنند،",
       "en": "For example to learn math, babies and toddlers might explore dimension with fat wooden cylinders,",
       "ipa": "fɚ ɪɡˈzæmpəl tə lɝn mæθ ˈbeɪbiz ənd ˈtɑdlɚz maɪt ɪkˈsplɔr dɪˈmɛnʃən wɪð fæt ˈwʊdən ˈsɪləndɚz",
       "words": [
@@ -443,7 +443,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و سپس با مجموعه‌ای از قطعه‌های صورتیِ روی‌هم‌چیدنی، استدلالِ فضاییِ بیشتری را باز کنند.",
+      "fa": "سپس با مجموعه‌ای از قطعاتِ صورتی که می‌توان روی هم چید، تواناییِ استدلالِ فضایی‌شان را بیشتر پرورش دهند.",
       "en": "then unlock more spatial reasoning with a set of pink, stackable blocks.",
       "ipa": "ðɛn ənˈlɑk mɔr ˈspeɪʃəl ˈrizənɪŋ wɪð ə sɛt əv pɪŋk ˈstækəbəl blɑks",
       "words": [
@@ -451,7 +451,7 @@ DRILL({
           "w": "to unlock",
           "ipa": "tə ənˈlɑk",
           "m": "to make something available or possible",
-          "fa": "گشودن، فعال کردن"
+          "fa": "امکانِ رشد یا استفاده از توانایی‌ای را فراهم کردن؛ قفل را باز کردن"
         },
         {
           "w": "spatial reasoning",
@@ -478,7 +478,7 @@ DRILL({
           "w": "to tackle",
           "ipa": "tə ˈtækəl",
           "m": "to try to deal with a difficult task",
-          "fa": "سروکله زدن با، از پسِ … برآمدن"
+          "fa": "به سراغِ انجامِ کاری چالش‌برانگیز رفتن؛ در ورزش، تکل زدن"
         },
         {
           "w": "height",
@@ -539,7 +539,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و پیشنهادِ فعالیت‌هایی مخصوصِ همان مواد — مثلاً چیدنِ میله‌ها به ترتیبِ اندازه.",
+      "fa": "و با پیشنهادِ فعالیت‌هایی متناسب با هر وسیله، مثلِ چیدنِ میله‌ها به ترتیبِ اندازه.",
       "en": "and suggesting material specific activities— like arranging the rods in order of size.",
       "ipa": "ənd səɡˈdʒɛstɪŋ məˈtɪriəl spəˈsɪfɪk ækˈtɪvətiz laɪk əˈreɪndʒɪŋ ðə rɑdz ɪn ˈɔrdɚ əv saɪz",
       "words": [
@@ -566,7 +566,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما کلاس‌های مونته‌سوری بازه‌ای از سنین را هم کنارِ هم دارند و نسبتِ معلم به دانش‌آموز در آن‌ها پایین است",
+      "fa": "اما در کلاس‌های مونته‌سوری، دانش‌آموزانی از سنینِ گوناگون هم حضور دارند و نسبتِ تعداد معلمان به دانش‌آموزان پایین است",
       "en": "But Montessori classrooms also have a range of ages and low teacher to student ratios",
       "ipa": "bət ˌmɑntəˈsɔri ˈklæsˌrumz ˈɔlsoʊ hæv ə reɪndʒ əv ˈeɪdʒəz ənd loʊ ˈtitʃɚ tə ˈstudənt ˈreɪʃiˌoʊz",
       "words": [
@@ -585,7 +585,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا دانش‌آموزان را تشویق کنند مواد را با هم کشف کنند و از یکدیگر یاد بگیرند.",
+      "fa": "تا دانش‌آموزان تشویق شوند با هم این وسایلِ آموزشی را بررسی کنند و از یکدیگر یاد بگیرند.",
       "en": "to encourage students to explore the materials together and learn from each other.",
       "ipa": "tə ɛnˈkɝɪdʒ ˈstudənts tə ɪkˈsplɔr ðə məˈtɪriəlz təˈɡɛðɚ ənd lɝn frəm itʃ ˈʌðɚ",
       "words": [
@@ -699,7 +699,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از اینکه چطور ماکتِ کشتی‌ای را روی آب نگه دارند یا غرق کنند، تا اینکه چطور یک کارگاهِ هنری را تزئین کنند.",
+      "fa": "از اینکه چگونه می‌شود کاری کرد که یک کشتیِ ماکت شناور بماند یا فرو برود تا اینکه خودشان چطور باید کارگاهِ هنری را تزئین کنند.",
       "en": "from how to make a model ship float or sink to how they should decorate an art studio.",
       "ipa": "frəm haʊ tə meɪk ə ˈmɑdəl ʃɪp floʊt ɔr sɪŋk tə haʊ ðeɪ ʃʊd ˈdɛkəˌreɪt ən ɑrt ˈstudiˌoʊ",
       "words": [
@@ -707,7 +707,7 @@ DRILL({
           "w": "model",
           "ipa": "ˈmɑdəl",
           "m": "a small copy of something",
-          "fa": "ماکت"
+          "fa": "ماکت یا نمونهٔ کوچک‌شده؛ الگو"
         },
         {
           "w": "to float",
@@ -873,7 +873,7 @@ DRILL({
       ]
     },
     {
-      "fa": "معلم‌ها با انتخابِ اینکه مفاهیمِ هم‌پوشان را از راهِ پروژه‌های متعدد بکاوند،",
+      "fa": "با انتخابِ پروژه‌های متعدد برای کاوش در مفاهیمی که با هم هم‌پوشانی دارند،",
       "en": "By choosing to explore overlapping concepts through multiple projects,",
       "ipa": "baɪ ˈtʃuzɪŋ tə ɪkˈsplɔr ˈoʊvɚˌlæpɪŋ ˈkɑnsɛpts θru ˈmʌltəpəl ˈprɑdʒɛkts",
       "words": [
@@ -893,7 +893,7 @@ DRILL({
       ]
     },
     {
-      "fa": "می‌توانند کاربردهای عملیِ متفاوتی را نشان دهند که ایده‌های انتزاعی را ملموس و مفید جلوه می‌دهد.",
+      "fa": "معلم‌ها می‌توانند کاربردهای عملیِ گوناگونی را نشان دهند که ایده‌های انتزاعی را برای بچه‌ها ملموس و مفید می‌کنند.",
       "en": "teachers can show different practical applications that make abstract ideas feel concrete and useful.",
       "ipa": "ˈtitʃɚz kən ʃoʊ ˈdɪfərənt ˈpræktəkəl ˌæpləˈkeɪʃənz ðæt meɪk ˈæbˌstrækt aɪˈdiəz fil kənˈkrit ənd ˈjusfəl",
       "words": [
@@ -922,7 +922,7 @@ DRILL({
           "w": "concrete",
           "ipa": "kənˈkrit",
           "m": "real and definite; not just an idea",
-          "fa": "ملموس، عینی",
+          "fa": "عینی و ملموس؛ در نقش اسم، بتن",
           "more": "tangible"
         }
       ]
@@ -937,7 +937,7 @@ DRILL({
           "w": "agency",
           "ipa": "ˈeɪdʒənsi",
           "m": "the ability to make your own choices and act on them",
-          "fa": "اختیار، عاملیت",
+          "fa": "اختیارِ تصمیم‌گیری و هدایتِ کارِ خود؛ مؤسسه یا آژانس",
           "more": "autonomy"
         },
         {
@@ -963,7 +963,7 @@ DRILL({
           "w": "sensitive",
           "ipa": "ˈsɛnsətɪv",
           "m": "aware of other people's feelings and needs",
-          "fa": "حساس، باملاحظه",
+          "fa": "متوجه و پذیرای نیازهای دیگران؛ حساس به یک محرک",
           "more": "sensitivity · insensitive"
         },
         {
@@ -994,7 +994,7 @@ DRILL({
       ]
     },
     {
-      "fa": "معلم‌ها باید به تک‌تکِ دانش‌آموزان پاسخ دهند و در همان حال محیطی امن و بازیگوشانه برای همه حفظ کنند.",
+      "fa": "معلم‌ها باید به نیازِ هر دانش‌آموز پاسخ دهند و در عین حال محیطی امن و مناسبِ بازی برای همه حفظ کنند.",
       "en": "teachers need to respond to each student while maintaining a safe, playful environment for all.",
       "ipa": "ˈtitʃɚz nid tə rɪˈspɑnd tə itʃ ˈstudənt waɪl meɪnˈteɪnɪŋ ə seɪf ˈpleɪfəl ɪnˈvaɪrənmənt fɚ ɔl",
       "words": [
@@ -1021,7 +1021,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این کار به خروارها هوشِ هیجانی، زمانِ آماده‌سازی، و اعتمادِ والدین و مدیریتِ مدرسه نیاز دارد.",
+      "fa": "این کار هم هوشِ هیجانیِ فراوان می‌خواهد، هم وقت برای آماده‌سازی، و هم اعتمادِ والدین و مسئولانِ مدرسه.",
       "en": "This requires buckets of emotional intelligence, prep time, and trust from both parents and their school’s administration.",
       "ipa": "ðɪs riˈkwaɪɚz ˈbʌkəts əv ɪˈmoʊʃənəl ɪnˈtɛlədʒəns prɛp taɪm ənd trʌst frəm boʊθ ˈpɛrənts ənd ðɛr skulz ædˌmɪnɪˈstreɪʃən",
       "words": [
@@ -1055,7 +1055,7 @@ DRILL({
           "w": "administration",
           "ipa": "ædˌmɪnɪˈstreɪʃən",
           "m": "the people who manage an organization",
-          "fa": "مدیریت، دستگاهِ اداری",
+          "fa": "مسئولان و مدیریتِ مدرسه؛ ادارهٔ امور",
           "more": "administrator"
         }
       ]
@@ -1256,7 +1256,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا اصولِ طراحی و استدلالِ فضایی‌شان را صیقل دهند —",
+      "fa": "تا در به‌کارگیریِ اصولِ طراحی و در استدلالِ فضایی ورزیده‌تر شوند،",
       "en": "to hone their design principles and spatial reasoning—",
       "ipa": "tə hoʊn ðɛr dɪˈzaɪn ˈprɪnsəpəlz ənd ˈspeɪʃəl ˈrizənɪŋ",
       "words": [
@@ -1264,7 +1264,7 @@ DRILL({
           "w": "to hone",
           "ipa": "tə hoʊn",
           "m": "to improve a skill through practice",
-          "fa": "صیقل دادن، تیز کردن",
+          "fa": "تقویت و دقیق‌تر کردنِ یک مهارت؛ تیز کردنِ تیغه",
           "more": "sharpen · refine"
         }
       ]

@@ -40,7 +40,7 @@ DRILL({
       ]
     },
     {
-      "fa": "چون این مسابقات قهرمانیِ جهانیِ جهت‌یابی بود،",
+      "fa": "دلیلش این است که این رقابت، مسابقات قهرمانیِ جهان در رشتهٔ جهت‌یابی بود،",
       "en": "That's because it was the World Orienteering Championships,",
       "ipa": "ðæts bɪˈkɔz ɪt wəz ðə wɝld ˌɔriˈɛntərɪŋ ˈtʃæmpiənˌʃɪps",
       "words": [
@@ -88,7 +88,7 @@ DRILL({
       ]
     },
     {
-      "fa": "انتظار می‌رفت با سرعتِ بالا میانِ ایستگاه‌های بازرسیِ دوردست راهشان را پیدا کنند،",
+      "fa": "انتظار می‌رفت با سرعت بالا راهشان را بین ایستگاه‌های کنترلِ دور از هم پیدا کنند،",
       "en": "were expected to find their way between far-off checkpoints at high speeds,",
       "ipa": "wɚ ɪkˈspɛktəd tə faɪnd ðɛr weɪ bɪˈtwin fɑr ɔf ˈtʃɛkˌpɔɪnts ət haɪ spidz",
       "words": [
@@ -117,7 +117,7 @@ DRILL({
           "w": "checkpoint",
           "ipa": "ˈtʃɛkˌpɔɪnt",
           "m": "a place on a route where people must stop or be checked",
-          "fa": "ایستگاهِ بازرسی",
+          "fa": "در مسابقه: نقطهٔ مشخصی که شرکت‌کننده باید از آن بگذرد؛ در جاده یا مرز: ایست بازرسی",
           "more": "control point · station"
         }
       ]
@@ -222,7 +222,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مغزتان سامانهٔ ناوبریِ درون‌ساختی دارد که مهارت‌های فضایی را آسان می‌کند،",
+      "fa": "مغزتان یک سامانهٔ مسیریابیِ درونی دارد که به شما کمک می‌کند مهارت‌های فضایی‌تان را به کار بگیرید،",
       "en": "your brain has a built-in navigation system that facilitates spatial skills,",
       "ipa": "jɔr breɪn hæz ə bɪlt ɪn ˌnævəˈɡeɪʃən ˈsɪstəm ðæt fəˈsɪləˌteɪts ˈspeɪʃəl skɪlz",
       "words": [
@@ -306,7 +306,7 @@ DRILL({
       ]
     },
     {
-      "fa": "جسمِ مخطط از دروندادهای حسی، مثلِ نشانه‌های بارزِ اطراف، باخبر است.",
+      "fa": "جسم مخطط به اطلاعاتی که از راه حواس می‌رسند، مثل نشانه‌های شاخصِ اطراف، توجه دارد.",
       "en": "The striatum is clued into sensory inputs, like nearby landmarks.",
       "ipa": "ðə ˈstraɪtəm ɪz klud ɪnˈtu ˈsɛnsəri ˈɪnˌpʊts laɪk ˌnɪrˈbaɪ ˈlændˌmɑrks",
       "newPara": true,
@@ -329,7 +329,7 @@ DRILL({
           "w": "input",
           "ipa": "ˈɪnˌpʊt",
           "m": "information that is put into a system",
-          "fa": "درونداد",
+          "fa": "اینجا: اطلاعاتی که از راه حواس دریافت می‌شود؛ در رایانه: دادهٔ ورودی؛ در گفت‌وگو: نظر یا پیشنهاد",
           "more": "output · data"
         },
         {
@@ -440,7 +440,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مثلاً وقتی در راهِ خانه خودبه‌خود همان رشته پیچ‌ها را یکی‌یکی می‌پیچید.",
+      "fa": "مثلاً وقتی در راه خانه، بی‌آنکه به آن فکر کنید، همیشه همان پیچ‌ها را به همان ترتیب می‌پیچید.",
       "en": "for example, when you automatically take the same sequence of turns on your way home.",
       "ipa": "fɚ ɪɡˈzæmpəl wɛn ju ˌɔtəˈmætɪkli teɪk ðə seɪm ˈsikwəns əv tɝnz ɑn jɔr weɪ hoʊm",
       "words": [
@@ -553,7 +553,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پژوهشگران در دههٔ ۷۰ به اهمیتِ هیپوکامپ در نقشه‌برداریِ ذهنی پی بردند،",
+      "fa": "پژوهشگران در دههٔ ۱۹۷۰ به اهمیتِ هیپوکامپ در نقشه‌سازیِ ذهنی پی بردند،",
       "en": "Researchers realized the hippocampus’ importance in mental mapping in the 70s,",
       "ipa": "ˈrisɚtʃɚz ˈriˌlaɪzd ðə ˌhɪpoʊˈkæmpəs ɪmˈpɔrtəns ɪn ˈmɛntəl ˈmæpɪŋ ɪn ðə ˈsɛvəntiz",
       "newPara": true,
@@ -603,7 +603,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که نورون‌های مشخصی در هیپوکامپ وقتی موش‌ها در فضاهای معینی بودند شلیک می‌کردند.",
+      "fa": "که وقتی موش‌ها در مکان‌های معینی بودند، نورون‌های مشخصی در هیپوکامپ پیامِ عصبی می‌فرستادند.",
       "en": "that specific neurons in the hippocampus fired when the rats were in certain spaces.",
       "ipa": "ðæt spəˈsɪfɪk ˈnʊrɑnz ɪn ðə ˌhɪpoʊˈkæmpəs ˈfaɪɚd wɛn ðə ræts wɚ ɪn ˈsɝtən ˈspeɪsəz",
       "words": [
@@ -618,7 +618,7 @@ DRILL({
           "w": "to fire",
           "ipa": "tə ˈfaɪɚ",
           "m": "of a nerve cell: to send an electrical signal",
-          "fa": "شلیک کردن (نورون)",
+          "fa": "دربارهٔ نورون: فعال شدن و پیام الکتریکی فرستادن؛ دربارهٔ سلاح: شلیک کردن",
           "more": "firing · signal"
         },
         {
@@ -772,7 +772,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از جمله «یاخته‌های شبکه‌ای»، که هنگامِ حرکتِ آدم با الگویی منظم شلیک می‌کنند،",
+      "fa": "از جمله «سلول‌های شبکه‌ای» که وقتی فرد حرکت می‌کند، طبق الگویی منظم پیامِ عصبی می‌فرستند،",
       "en": "This includes “grid cells,” which fire in a regular pattern as one moves,",
       "ipa": "ðɪs ɪnˈkludz ɡrɪd sɛlz wɪtʃ ˈfaɪɚ ɪn ə ˈrɛɡjəlɚ ˈpætɚn əz wʌn muvz",
       "words": [
@@ -919,7 +919,7 @@ DRILL({
       ]
     },
     {
-      "fa": "باز هم در یافتنِ راهمان دست‌وپنجه نرم می‌کنیم.",
+      "fa": "باز هم پیدا کردن راهمان برایمان دشوار است.",
       "en": "we still struggle to find our ways.",
       "ipa": "wi stɪl ˈstrʌɡəl tə faɪnd ˈaʊɚ weɪz",
       "words": [
@@ -954,7 +954,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آدم‌ها معمولاً خطاهای کوچکی می‌کنند که آن‌ها را از مسیر بیرون می‌اندازد و به دور خود می‌چرخاند.",
+      "fa": "آدم‌ها معمولاً خطاهای کوچکی می‌کنند که باعث می‌شود از مسیر منحرف شوند و در مسیری دایره‌ای راه بروند.",
       "en": "people tend to make small errors that send them off course and into circles.",
       "ipa": "ˈpipəl tɛnd tə meɪk smɔl ˈɛrɚz ðæt sɛnd ðɛm ɔf kɔrs ənd ɪnˈtu ˈsɝkəlz",
       "words": [
@@ -983,7 +983,7 @@ DRILL({
           "w": "to go in circles",
           "ipa": "tə ɡoʊ ɪn ˈsɝkəlz",
           "m": "to move around without getting anywhere",
-          "fa": "به دورِ خود چرخیدن",
+          "fa": "اینجا: در مسیری دایره‌ای پیش رفتن و به همان حوالی برگشتن؛ مجازی: بی‌نتیجه دور خود چرخیدن",
           "more": "go round in circles"
         }
       ]
@@ -1010,7 +1010,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بیشترِ آدم‌ها از پسِ مسیری جاافتاده و پرتمرین که متکی به جسمِ مخطط است برمی‌آیند؛",
+      "fa": "بیشتر آدم‌ها از پسِ مسیری که بارها تمرینش کرده‌اند و پیمودنش عمدتاً به جسم مخطط متکی است برمی‌آیند؛",
       "en": "Most people can handle a striatum-centric, well-practiced route;",
       "ipa": "moʊst ˈpipəl kən ˈhændəl ə ˈstraɪtəm ˈsɛntrɪk wɛl ˈpræktəst rut",
       "words": [
@@ -1032,13 +1032,13 @@ DRILL({
           "w": "well-practiced",
           "ipa": "wɛl ˈpræktəst",
           "m": "done many times so that it is easy",
-          "fa": "پرتمرین، جاافتاده",
+          "fa": "بارها تمرین‌شده؛ دربارهٔ شخص: باتجربه در انجامِ کاری",
           "more": "practised · familiar · routine"
         }
       ]
     },
     {
-      "fa": "اما کسانی که بیشتر به جهت‌یابیِ خودکارِ متکی به هیپوکامپ تکیه دارند، معمولاً به‌عنوانِ مسیریاب برجسته می‌شوند.",
+      "fa": "اما کسانی که برای تشخیصِ موقعیتِ خود بیشتر به هیپوکامپ تکیه می‌کنند، معمولاً در مسیریابی از دیگران متمایز می‌شوند.",
       "en": "but those who lean more on hippocampus-forward self-orienting tend to stand out as navigators.",
       "ipa": "bət ðoʊz hu lin mɔr ɑn ˌhɪpoʊˈkæmpəs ˈfɔrwɚd sɛlf ˈjɔrintɪŋ tɛnd tə stænd aʊt əz ˈnævəˌɡeɪtɚz",
       "words": [
@@ -1080,7 +1080,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پژوهش‌هایی روی دوقلوها نشان می‌دهد ژنتیک حدودِ ۶۰ درصد از گوناگونیِ توانایی‌های مسیریابی‌مان را توضیح می‌دهد.",
+      "fa": "پژوهش‌های انجام‌شده روی دوقلوها حاکی از آن‌اند که عوامل ژنتیکی حدود ۶۰ درصدِ تفاوت میان توانایی‌های ما در مسیریابی را توضیح می‌دهند.",
       "en": "Twin studies suggest that genetics account for around 60% of the variation in our navigation abilities.",
       "ipa": "twɪn ˈstʌdiz səɡˈdʒɛst ðæt dʒəˈnɛtɪks əˈkaʊnt fɚ əˈraʊnd ˈsɪksti pɚˈsɛnt əv ðə ˌvɛriˈeɪʃən ɪn ˈaʊɚ ˌnævəˈɡeɪʃən əˈbɪlətiz",
       "newPara": true,
@@ -1398,7 +1398,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که شاملِ مسیرها و نشانه‌های گسترده‌ای در سراسرِ هزارتوی خیابان‌های این شهر است که پیچیدگی‌اش زبانزد است.",
+      "fa": "این «دانش» مسیرهای بسیار و نشانه‌های شاخصِ سراسر شهر را در بر می‌گیرد، در هزارتویی از خیابان‌ها که به پیچیدگی شهره است.",
       "en": "which consists of extensive routes and landmarks across the city’s infamously complex maze of streets.",
       "ipa": "wɪtʃ kənˈsɪsts əv ɪkˈstɛnsɪv ruts ənd ˈlændˌmɑrks əˈkrɔs ðə ˈsɪtiz ˈɪnfəmˌjusli ˈkɑmplɛks meɪz əv strits",
       "words": [
@@ -1490,7 +1490,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با اینکه دستگاه‌های <en>GPS</en> به‌طور قابلِ اعتمادی ما را به هر جا می‌برند،",
+      "fa": "با اینکه برای رفت‌وآمد می‌توانیم روی دستگاه‌های موقعیت‌یاب حساب کنیم،",
       "en": "While GPS devices reliably get us around,",
       "ipa": "waɪl ˌdʒiˌpiˈɛs dɪˈvaɪsəz rɪˈlaɪəbli ɡɛt ʌs əˈraʊnd",
       "words": [
@@ -1581,7 +1581,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ممکن است سامانهٔ ناوبریِ هیپوکامپ را فرسوده کند و حسِ جهت‌یابیِ درونیِ خودمان را مختل کند.",
+      "fa": "موقعیت‌یاب ماهواره‌ای ممکن است سامانهٔ مسیریابیِ هیپوکامپ را تضعیف کند و به حسِ جهت‌یابیِ درونیِ خودمان آسیب بزند.",
       "en": "GPS may degrade the hippocampal navigation system and impair our own internal sense of direction.",
       "ipa": "ˌdʒiˌpiˈɛs meɪ dɪˈɡreɪd ðə hɪˈpɑkəmpəl ˌnævəˈɡeɪʃən ˈsɪstəm ənd ɪmˈpɛr ˈaʊɚ oʊn ɪnˈtɝnəl sɛns əv dəˈrɛkʃən",
       "words": [
@@ -1609,7 +1609,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس برای کمک به بهتر کردنش، می‌توانید در مسیرهای آشناتر <en>GPS</en> را کنار بگذارید",
+      "fa": "پس برای تقویت این حس، می‌توانید این روش را امتحان کنید که در مسیرهای آشناتر موقعیت‌یابتان را کنار بگذارید",
       "en": "So, to help improve it, you can try putting your GPS away on more familiar routes",
       "ipa": "soʊ tə hɛlp ɪmˈpruv ɪt ju kən traɪ ˈpʌtɪŋ jɔr ˌdʒiˌpiˈɛs əˈweɪ ɑn mɔr fəˈmɪljɚ ruts",
       "newPara": true,
@@ -1652,7 +1652,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به‌جای راهنماییِ پیچ‌به‌پیچ، آزمودنِ نقشهٔ کاغذی را در نظر بگیرید",
+      "fa": "به‌جای استفاده از راهنمایی‌هایی که تک‌تکِ پیچ‌ها را نشان می‌دهند، به این فکر کنید که کار با یک نقشهٔ کاغذی را امتحان کنید",
       "en": "Instead of using turn-by-turn directions, consider experimenting with a paper map",
       "ipa": "ɪnˈstɛd əv ˈjuzɪŋ tɝn baɪ tɝn dəˈrɛkʃənz kənˈsɪdɚ ɛkˈspɛrəˌmɛntɪŋ wɪð ə ˈpeɪpɚ mæp",
       "words": [
@@ -1687,7 +1687,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و پیاده جاهای تازه را بگردید، چون حرکتِ بدنی به مغز کمک می‌کند اطلاعاتِ فضایی را رمزگذاری کند.",
+      "fa": "و جاهای تازه را پیاده بگردید، چون حرکتِ بدن به مغز کمک می‌کند اطلاعاتِ فضایی را رمزگذاری کند.",
       "en": "and exploring new places on foot, since physical movement helps the brain encode spatial information.",
       "ipa": "ənd ɪkˈsplɔrɪŋ nu ˈpleɪsəz ɑn fʊt sɪns ˈfɪzɪkəl ˈmuvmənt hɛlps ðə breɪn ɛnˈkoʊd ˈspeɪʃəl ˌɪnfɚˈmeɪʃən",
       "words": [

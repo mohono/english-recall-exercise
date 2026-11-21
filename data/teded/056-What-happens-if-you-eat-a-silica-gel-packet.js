@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=QWCHnR53oIw",
   "items": [
     {
-      "fa": "از میانِ چیزهای بسیار بسیار زیادی که قرار نیست به‌عنوانِ خوراکیِ میان‌وعده سراغشان برویم،",
+      "fa": "از میانِ آن همه، آن همه چیزی که نباید به‌عنوانِ میان‌وعده بخوریم،",
       "en": "Of the many, many things we’re not supposed to snack on,",
       "ipa": "əv ðə ˈmɛni ˈmɛni θɪŋz wɪr nɑt səˈpoʊzd tə snæk ɑn",
       "newPara": true,
@@ -75,7 +75,7 @@ DRILL({
           "w": "case",
           "ipa": "keɪs",
           "m": "a box or container for keeping or carrying something",
-          "fa": "جعبه، کیف، قاب",
+          "fa": "جعبه یا کیفِ محافظِ گیتار؛ مورد؛ پرونده",
           "more": "guitar case · pencil case"
         },
         {
@@ -88,12 +88,12 @@ DRILL({
       ]
     },
     {
-      "fa": "پس چرا سیلیکاژل همه‌جا هست، و اگر آن را بخوری واقعاً چه اتفاقی می‌افتد؟",
+      "fa": "پس چرا سیلیکاژل همه‌جا هست و اگر فرضاً آن را می‌خوردی، واقعاً چه اتفاقی می‌افتاد؟",
       "en": "So why is silica gel everywhere, and what would actually happen if you ate it?",
       "ipa": "soʊ waɪ ɪz ˈsɪləkə dʒɛl ˈɛvriˌwɛr ənd wʌt wʊd ˈæktʃəwəli ˈhæpən ɪf ju eɪt ɪt"
     },
     {
-      "fa": "سیلیس — که به آن سیلیکون‌دی‌اکسید هم می‌گویند — در پوستهٔ زمین یافت می‌شود",
+      "fa": "سیلیس که در پوستهٔ زمین یافت می‌شود و دی‌اکسیدِ سیلیسیم هم نامیده می‌شود،",
       "en": "Found in the Earth’s crust, silica, also called silicon dioxide,",
       "ipa": "faʊnd ɪn ði ɝθs krʌst ˈsɪləkə ˈɔlsoʊ kɔld ˈsɪləkən daɪˈɑkˌsaɪd",
       "newPara": true,
@@ -102,13 +102,13 @@ DRILL({
           "w": "crust",
           "ipa": "krʌst",
           "m": "the hard outer layer of the Earth",
-          "fa": "پوسته (ی زمین)",
+          "fa": "پوستهٔ زمین؛ پوستهٔ سفتِ نان",
           "more": "the Earth’s crust · mantle · core"
         }
       ]
     },
     {
-      "fa": "و معمولاً به شکلِ ماسهٔ خامِ سیلیسی استخراج می‌شود،",
+      "fa": "معمولاً به‌شکلِ ماسهٔ سیلیسیِ خام از معدن استخراج می‌شود،",
       "en": "is typically mined as raw silica sand,",
       "ipa": "ɪz ˈtɪpɪkli maɪnd əz rɑ ˈsɪləkə sænd",
       "words": [
@@ -157,7 +157,7 @@ DRILL({
       ]
     },
     {
-      "fa": "وقتی تولیدکننده‌ها مطمئن شدند که همهٔ دانه‌ها یکدست‌اند،",
+      "fa": "به‌محض اینکه تولیدکنندگان اطمینان پیدا می‌کنند تک‌تکِ دانه‌ها یکدست‌اند،",
       "en": "Once manufacturers ensure each grain is uniform,",
       "ipa": "wʌns ˌmænjəˈfæktʃərɚz ɛnˈʃʊr itʃ ɡreɪn ɪz ˈjunəˌfɔrm",
       "words": [
@@ -179,7 +179,7 @@ DRILL({
           "w": "grain",
           "ipa": "ɡreɪn",
           "m": "a very small hard piece of something, e.g. sand",
-          "fa": "دانه، ذره",
+          "fa": "یک دانهٔ ماسه؛ دانهٔ غله؛ بافتِ چوب",
           "more": "a grain of sand · grain of rice"
         },
         {
@@ -256,7 +256,7 @@ DRILL({
           "w": "matrix",
           "ipa": "ˈmeɪtrɪks",
           "m": "a structure in which smaller parts are held together",
-          "fa": "ماتریس، شبکهٔ درهم‌تنیده",
+          "fa": "شبکه یا چارچوبِ به‌هم‌پیوسته‌ای که ذرات در آن جای می‌گیرند؛ ماتریسِ ریاضی",
           "more": "matrices (pl.) · network"
         }
       ]
@@ -290,7 +290,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ساختاری که بعد از شسته‌شدن و خشک‌شدن و تبدیل‌شدن به دانه‌های سخت و شیشه‌ای، پایدار می‌ماند.",
+      "fa": "ساختاری که حتی بعد از آنکه ماده شسته و خشک می‌شود و به صورتِ دانه‌هایی سخت و شیشه‌مانند درمی‌آید، پایدار می‌ماند.",
       "en": "which stays stable after being washed and dried into hard, glassy beads.",
       "ipa": "wɪtʃ steɪz ˈsteɪbəl ˈæftɚ ˈbiɪŋ wɑʃt ənd draɪd ɪnˈtu hɑrd ˈɡlæsi bidz",
       "words": [
@@ -305,7 +305,7 @@ DRILL({
           "w": "glassy",
           "ipa": "ˈɡlæsi",
           "m": "smooth and shiny like glass",
-          "fa": "شیشه‌ای، شیشه‌مانند"
+          "fa": "شیشه‌مانند از نظرِ ظاهر؛ بی‌فروغ یا بی‌حالت (نگاه)"
         },
         {
           "w": "bead",
@@ -379,7 +379,7 @@ DRILL({
       "note": "جملهٔ انگلیسی وارونه است: اول مکان (Inside each … bead)، بعد فعل، بعد فاعل."
     },
     {
-      "fa": "این، سطحِ مؤثرِ هر دانه را به‌شکلِ چشمگیری بالا می‌برد،",
+      "fa": "این شبکه مساحتِ سطحِ هر دانه را به‌طرزِ چشمگیری افزایش می‌دهد،",
       "en": "This dramatically increases the surface area of each bead,",
       "ipa": "ðɪs drəˈmætɪkli ˌɪnˈkrisɪz ðə ˈsɝfəs ˈɛriə əv itʃ bid",
       "words": [
@@ -410,7 +410,7 @@ DRILL({
       "ipa": "bət ðɪs speɪs ˈdʌzənt steɪ ˈɛmpti fɚ lɔŋ"
     },
     {
-      "fa": "مولکول‌های سیلیکون‌دی‌اکسید که ژل از آن‌ها تشکیل شده",
+      "fa": "مولکول‌های دی‌اکسیدِ سیلیسیم که ژل را تشکیل می‌دهند",
       "en": "The silicon dioxide molecules that make up the gel",
       "ipa": "ðə ˈsɪləkən daɪˈɑkˌsaɪd ˈmɑləkˌjulz ðæt meɪk ʌp ðə dʒɛl",
       "newPara": true,
@@ -426,7 +426,7 @@ DRILL({
           "w": "to make up",
           "ipa": "tə meɪk ʌp",
           "m": "to form the whole of something",
-          "fa": "تشکیل دادن",
+          "fa": "اجزای سازندهٔ چیزی بودن؛ از خود ساختن؛ آشتی کردن",
           "more": "consist of · compose"
         }
       ]
@@ -480,7 +480,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس وقتی سیلیکاژل را در محیطی مرطوب بگذارند،",
+      "fa": "پس وقتی سیلیکاژل در محیطی مرطوب قرار داده می‌شود،",
       "en": "So when silica gel is placed in a humid environment,",
       "ipa": "soʊ wɛn ˈsɪləkə dʒɛl ɪz pleɪst ɪn ə ˈhjuməd ɪnˈvaɪrənmənt",
       "words": [
@@ -565,13 +565,13 @@ DRILL({
           "w": "condensation",
           "ipa": "ˌkɑndənˈseɪʃən",
           "m": "the process of a gas turning into a liquid",
-          "fa": "میعان، تقطیر",
+          "fa": "میعان، تبدیلِ بخار به مایع؛ خلاصه‌سازی",
           "more": "to condense · evaporation"
         }
       ]
     },
     {
-      "fa": "هر دانه می‌تواند تا ۴۰ درصدِ وزنِ خودش آب نگه دارد،",
+      "fa": "هر دانه می‌تواند به اندازهٔ حداکثر ۴۰ درصدِ وزنِ خودش آب در خود نگه دارد،",
       "en": "Each grain can hold up to 40% of its own weight in water,",
       "ipa": "itʃ ɡreɪn kən hoʊld ʌp tə ˈfɔrti pɚˈsɛnt əv ɪts oʊn weɪt ɪn ˈwɔtɚ",
       "words": [
@@ -695,7 +695,7 @@ DRILL({
       "ipa": "ə taɪp əv ˈsʌbstəns juzd tə kip θɪŋz draɪ"
     },
     {
-      "fa": "اما این دانه‌ها می‌توانند چیزی بیش از آب را هم به خودشان بکشند.",
+      "fa": "اما این دانه‌ها می‌توانند علاوه بر آب موادِ دیگری را هم به خود بکشند.",
       "en": "But these beads can suck up more than just water.",
       "ipa": "bət ðiz bidz kən sʌk ʌp mɔr ðən dʒʌst ˈwɔtɚ",
       "newPara": true,
@@ -815,7 +815,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در هر دو صورت، دانه‌های سیلیکاژل عملاً تا ابد کار می‌کنند،",
+      "fa": "در هر دو حالت، دانه‌های سیلیکاژل عملاً تا ابد دوام می‌آورند،",
       "en": "Either way, silica gel beads functionally last forever",
       "ipa": "ˈiðɚ weɪ ˈsɪləkə dʒɛl bidz ˈfʌŋkʃənəli læst fəˈrɛvɚ",
       "words": [
@@ -872,7 +872,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آن را به محبوب‌ترین خشک‌کنندهٔ تجاریِ این سیاره تبدیل کرده‌اند",
+      "fa": "آن را به پرکاربردترین رطوبت‌گیرِ تجاریِ کرهٔ زمین تبدیل کرده‌اند،",
       "en": "have made it the planet’s most popular commercial desiccant",
       "ipa": "hæv meɪd ɪt ðə ˈplænəts moʊst ˈpɑpjəlɚ kəˈmɝʃəl dɪˈsikənt",
       "words": [
@@ -923,13 +923,13 @@ DRILL({
           "w": "shelf life",
           "ipa": "ʃɛlf laɪf",
           "m": "how long a product can be kept before it goes bad",
-          "fa": "ماندگاری، تاریخِ مصرف",
+          "fa": "مدتی که خوراکی قابلِ نگهداری و مصرف می‌ماند، مدتِ ماندگاری",
           "more": "expiry date · best before"
         }
       ]
     },
     {
-      "fa": "مطمئن می‌شود که قرص‌ها و ویتامین‌ها خشک بمانند،",
+      "fa": "باعث می‌شود قرص‌ها و ویتامین‌ها خشک بمانند،",
       "en": "ensures pills and vitamins stay dry,",
       "ipa": "ɛnˈʃʊrz pɪlz ənd ˈvaɪtəmənz steɪ draɪ",
       "words": [
@@ -1035,7 +1035,7 @@ DRILL({
           "w": "mold",
           "ipa": "moʊld",
           "m": "a soft green or grey growth on old food or damp things",
-          "fa": "کپک",
+          "fa": "کپک؛ قالب",
           "more": "mouldy · mould (UK) · fungus"
         }
       ]
@@ -1110,12 +1110,12 @@ DRILL({
           "w": "back home",
           "ipa": "bæk hoʊm",
           "m": "in the place where you live or come from",
-          "fa": "در وطن، در خانه (این‌جا: روی زمین)"
+          "fa": "روی زمین، در برابرِ فضای بیرونی؛ در خانه یا در وطن"
         }
       ]
     },
     {
-      "fa": "ولی اگر موفق شوی یک بسته را قورت بدهی، سیلیکاژل با خودِ تو چه می‌کند؟",
+      "fa": "اما اگر واقعاً می‌توانستی یک بسته را قورت بدهی، آن وقت سیلیکاژل چه اثری بر بدنت می‌گذاشت؟",
       "en": "But what about what silica gel would do to you if you successfully swallowed a packet?",
       "ipa": "bət wʌt əˈbaʊt wʌt ˈsɪləkə dʒɛl wʊd du tə ju ɪf ju səkˈsɛsfəli ˈswɑloʊd ə ˈpækət",
       "newPara": true,
@@ -1205,7 +1205,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که حتی اگر آن بسته واقعاً آن ۲ گرمِ استاندارد را هم از تو جذب کند،",
+      "fa": "حتی اگر آن بسته واقعاً همان دو گرمِ معمولِ مایع را هم جذب می‌کرد،",
       "en": "even if the packet did suck up the standard 2 grams,",
       "ipa": "ˈivɪn ɪf ðə ˈpækət dɪd sʌk ʌp ðə ˈstændɚd tu ɡræmz",
       "note": "did در این‌جا تأکیدی است: «حتی اگر واقعاً جذب کند»."
@@ -1233,13 +1233,13 @@ DRILL({
           "w": "inert",
           "ipa": "ɪˈnɝt",
           "m": "(of a chemical) not reacting with other substances",
-          "fa": "بی‌اثر، واکنش‌ناپذیر",
+          "fa": "از نظرِ شیمیایی واکنش‌ناپذیر؛ بی‌تحرک",
           "more": "inactive · unreactive"
         }
       ]
     },
     {
-      "fa": "بدنت ژل را تجزیه نمی‌کند و به چیزی سمی تبدیلش نمی‌کند.",
+      "fa": "بدنت ژل را به ماده‌ای سمی تجزیه نخواهد کرد.",
       "en": "your body won’t break the gel down into something toxic.",
       "ipa": "jɔr ˈbɑdi woʊnt breɪk ðə dʒɛl daʊn ɪnˈtu ˈsʌmθɪŋ ˈtɑksɪk",
       "words": [
@@ -1260,7 +1260,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با این همه، یکجا بالا انداختنِ مقدارهای بیشتری از سیلیکاژل ناخوشایند خواهد بود.",
+      "fa": "با این همه، اگر مقدارِ بیشتری سیلیکاژل را یک‌جا قورت می‌دادی، تجربهٔ ناخوشایندی بود.",
       "en": "That said, downing larger quantities of silica gel would be unpleasant.",
       "ipa": "ðæt sɛd ˈdaʊnɪŋ ˈlɑrdʒɚ ˈkwɑntətiz əv ˈsɪləkə dʒɛl wʊd bi ənˈplɛzənt",
       "newPara": true,
@@ -1325,7 +1325,7 @@ DRILL({
           "w": "to irritate",
           "ipa": "tə ˈɪrɪˌteɪt",
           "m": "to make a part of the body painful, red or sore",
-          "fa": "آزردن، تحریک کردن (پوست و…)",
+          "fa": "تحریک کردنِ بافت و ایجادِ سوزش؛ کلافه یا عصبانی کردن",
           "more": "irritation · irritated"
         },
         {
@@ -1374,7 +1374,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بدتر از آن، روی بعضی سیلیس‌ها کبالت کلرید می‌کشند تا میزانِ رطوبت را نشان دهد،",
+      "fa": "از آن بدتر، مقداری از سیلیکاژل با کلریدِ کبالت پوشانده می‌شود تا میزانِ رطوبت را نشان دهد،",
       "en": "Worse still, some silica is coated with cobalt chloride to indicate moisture levels,",
       "ipa": "wɝs stɪl sʌm ˈsɪləkə ɪz ˈkoʊtəd wɪð ˈkoʊˌbɔlt ˈklɔraɪd tə ˈɪndəˌkeɪt ˈmɔɪstʃɚ ˈlɛvəlz",
       "words": [
@@ -1445,7 +1445,7 @@ DRILL({
       ]
     },
     {
-      "fa": "باید از این مصیبت جانِ سالم به در ببری.",
+      "fa": "انتظار می‌رود از این تجربهٔ سخت جانِ سالم به در ببری.",
       "en": "you should survive the ordeal.",
       "ipa": "ju ʃʊd sɚˈvaɪv ði ɔrˈdil",
       "words": [

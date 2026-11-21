@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=NOaeKRft-gc",
   "items": [
     {
-      "fa": "در ۱۹۲۰، پزشکِ مجارستانی، بلا شیک، آزمایشی به‌شدت مشکوک انجام داد:",
+      "fa": "در سالِ ۱۹۲۰، بِلا شیک، پزشکِ مجارستانی، آزمایشی انجام داد که اعتبارش بسیار جای تردید داشت:",
       "en": "In 1920, Hungarian physician Béla Schick ran a highly questionable experiment:",
       "ipa": "ɪn ˌnaɪnˈtin ˈtwɛnti həŋˈɡɛriən fəˈzɪʃən ˈbɛlə ʃɪk ræn ə ˈhaɪli ˈkwɛstʃənəbəl ɪkˈspɛrəmənt",
       "newPara": true,
@@ -34,13 +34,13 @@ DRILL({
           "w": "questionable",
           "ipa": "ˈkwɛstʃənəbəl",
           "m": "probably not honest, correct or reliable",
-          "fa": "مشکوک، محلِ تردید",
+          "fa": "تردیدبرانگیز، با اعتبارِ مشکوک؛ قابلِ اعتراض",
           "more": "dubious · to question"
         }
       ]
     },
     {
-      "fa": "از چند زن، که بعضی‌شان در دورهٔ قاعدگی بودند، خواست کوتاه‌مدت چند گل را در دست نگه دارند.",
+      "fa": "از چند زن، که بعضی‌شان در دورهٔ قاعدگی بودند، خواست برای مدتِ کوتاهی گل‌هایی را در دست بگیرند.",
       "en": "he asked several women, some on their periods, to briefly hold flowers.",
       "ipa": "hi æskt ˈsɛvrəl ˈwɪmən sʌm ɑn ðɛr ˈpɪriədz tə ˈbrifli hoʊld ˈflaʊɚz",
       "words": [
@@ -55,13 +55,13 @@ DRILL({
           "w": "briefly",
           "ipa": "ˈbrifli",
           "m": "for a short time",
-          "fa": "کوتاه‌مدت، برای مدتِ کوتاهی",
+          "fa": "برای مدتی کوتاه؛ به‌اختصار",
           "more": "brief · momentarily"
         }
       ]
     },
     {
-      "fa": "بعد، بدونِ گروهِ کنترلِ درست و تنها با تکیه بر مشاهده‌های خودش،",
+      "fa": "سپس، بدونِ استفاده از شاهدهای مناسب برای مقایسه و تنها با اتکا به مشاهداتِ خودش،",
       "en": "Then, without proper controls and relying solely on his own observations,",
       "ipa": "ðɛn wɪˈθaʊt ˈprɑpɚ kənˈtroʊlz ənd riˈlaɪɪŋ ˈsoʊlli ɑn hɪz oʊn ˌɑbzɚˈveɪʃənz",
       "words": [
@@ -76,7 +76,7 @@ DRILL({
           "w": "control",
           "ipa": "kənˈtroʊl",
           "m": "(in an experiment) a group or test used for comparison",
-          "fa": "گروهِ کنترل، شاهد",
+          "fa": "شاهدِ آزمایش، گروه یا آزمونی برای مقایسه؛ کنترل، مهار",
           "more": "control group"
         },
         {
@@ -104,7 +104,7 @@ DRILL({
       "note": "control در آزمایش یعنی «گروهِ شاهد» برای مقایسه."
     },
     {
-      "fa": "ادعا کرد گل‌هایی که زنانِ در حالِ قاعدگی در دست گرفته بودند زودتر پژمرده شدند.",
+      "fa": "ادعا کرد گل‌هایی که زنانِ در حالِ قاعدگی در دست گرفته بودند سریع‌تر پژمرده شدند.",
       "en": "he claimed that the blooms held by the menstruating women wilted more quickly.",
       "ipa": "hi kleɪmd ðæt ðə blumz hɛld baɪ ðə ˈmɛnstruˌteɪbɪŋ ˈwɪmən ˈwɪltɪd mɔr ˈkwɪkli",
       "words": [
@@ -132,7 +132,7 @@ DRILL({
       ]
     },
     {
-      "fa": "توضیحِ شیک برای این قضیه نه تنها غیرعلمی بود، بلکه به افسانه‌های کهن دربارهٔ قاعدگی هم دامن می‌زد.",
+      "fa": "توضیحِ شیک برای این اتفاق نه‌تنها غیرعلمی بود، بلکه به باورهای نادرست و دیرینه دربارهٔ قاعدگی نیز دامن می‌زد.",
       "en": "Schick’s explanation for this was not only unscientific, but also played into age-old myths about periods.",
       "ipa": "ʃɪks ˌɛkspləˈneɪʃən fɚ ðɪs wəz nɑt ˈoʊnli ənˌsaɪənˈtɪfɪk bət ˈɔlsoʊ pleɪd ɪnˈtu eɪdʒ oʊld mɪθs əˈbaʊt ˈpɪriədz",
       "words": [
@@ -161,13 +161,13 @@ DRILL({
           "w": "myth",
           "ipa": "mɪθ",
           "m": "a widely believed idea that is false",
-          "fa": "افسانه، باورِ غلط",
+          "fa": "باورِ نادرستِ رایج؛ افسانه، اسطوره",
           "more": "mythical · misconception"
         }
       ]
     },
     {
-      "fa": "او نتیجه گرفت که بدنِ زنانِ در حالِ قاعدگی سموم آزاد می‌کند، سمومی که از راهِ عرق و خون دفع می‌شوند و می‌توانند گیاه را بکشند.",
+      "fa": "او نتیجه گرفت که بدنِ زنان هنگامِ قاعدگی سم‌هایی آزاد می‌کند که از راهِ عرق و خون دفع می‌شوند و می‌توانند گیاهان را از بین ببرند.",
       "en": "He concluded that menstruating women’s bodies released toxins, excreted in sweat and blood, that can kill plants.",
       "ipa": "hi kənˈkludəd ðæt ˈmɛnstruˌteɪbɪŋ ˈwɪmənz ˈbɑdiz riˈlist ˈtɑksənz ɪkˈskritəd ɪn swɛt ənd blʌd ðæt kən kɪl plænts",
       "words": [
@@ -209,7 +209,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اگرچه متأسفانه چند دهه طول کشید تا به‌اصطلاح فرضیهٔ سمِ قاعدگیِ شیک رد شود،",
+      "fa": "اگرچه متأسفانه دهه‌ها طول کشید تا نادرستیِ فرضیهٔ شیک دربارهٔ آنچه «سمِ قاعدگی» می‌نامید روشن شود،",
       "en": "While it unfortunately took decades to debunk Schick’s so-called menstrual toxin hypothesis,",
       "ipa": "waɪl ɪt ənˈfɔrtʃənətli tʊk dɛˈkeɪdz tə dɪˈbʌŋk ʃɪks ˌsoʊˈkɑld ˈmɛnstruəl ˈtɑksən haɪˈpɑθəsəs",
       "newPara": true,
@@ -218,7 +218,7 @@ DRILL({
           "w": "to debunk",
           "ipa": "tə dɪˈbʌŋk",
           "m": "to show that a belief or idea is false",
-          "fa": "رد کردن، باطل کردن",
+          "fa": "نادرستیِ باور یا ادعایی را نشان دادن",
           "more": "to disprove · to refute"
         },
         {
@@ -232,7 +232,7 @@ DRILL({
           "w": "menstrual",
           "ipa": "ˈmɛnstruəl",
           "m": "connected with periods",
-          "fa": "قاعدگی",
+          "fa": "مربوط به قاعدگی",
           "more": "menstruation · to menstruate"
         },
         {
@@ -245,7 +245,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این کار واقعاً یک فایدهٔ خوب داشت —",
+      "fa": "این پژوهش واقعاً فایده‌ای هم داشت؛",
       "en": "some good did come from this work—",
       "ipa": "sʌm ɡʊd dɪd kʌm frəm ðɪs wɝk",
       "words": [
@@ -260,7 +260,7 @@ DRILL({
       "note": "did ِ قبل از come تأکیدی است: «واقعاً فایده‌ای داشت»."
     },
     {
-      "fa": "این ایده باعث شد پژوهش‌هایی دربارهٔ ترکیبِ خونِ قاعدگی انجام شود،",
+      "fa": "این ایده پژوهش‌هایی را دربارهٔ ترکیبِ مایعِ قاعدگی برانگیخت،",
       "en": "the idea prompted investigations into the composition of menstrual fluid,",
       "ipa": "ði aɪˈdiə ˈprɑmptəd ɪnˌvɛstəˈɡeɪʃənz ɪnˈtu ðə ˌkɑmpəˈzɪʃən əv ˈmɛnstruəl ˈfluəd",
       "words": [
@@ -282,14 +282,14 @@ DRILL({
           "w": "composition",
           "ipa": "ˌkɑmpəˈzɪʃən",
           "m": "the different parts that something is made of",
-          "fa": "ترکیب",
+          "fa": "ترکیبِ اجزای تشکیل‌دهنده؛ آهنگسازی، نگارش",
           "more": "to compose · makeup"
         },
         {
           "w": "fluid",
           "ipa": "ˈfluəd",
           "m": "a liquid, especially in the body",
-          "fa": "مایع، سیال",
+          "fa": "مایعِ بدن؛ مایع، سیال",
           "more": "bodily fluid"
         }
       ]
@@ -323,7 +323,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هر جایی بینِ ۵۰ تا ۹۰٪ِ کسانی که قاعده می‌شوند در دورهٔ قاعدگی با گرفتگی‌های دردناکِ شکم یا لگن دست‌وپنجه نرم می‌کنند،",
+      "fa": "بینِ ۵۰ تا ۹۰ درصدِ کسانی که قاعده می‌شوند، در دورانِ قاعدگی با گرفتگی‌های دردناکِ شکم یا لگن دست‌وپنجه نرم می‌کنند،",
       "en": "Anywhere from 50 to 90% of people who menstruate deal with painful abdominal or pelvic cramps during their period,",
       "ipa": "ˈɛniˌwɛr frəm ˈfɪfti tə ˈnaɪnti pɚˈsɛnt əv ˈpipəl hu ˈmɛnstruˌeɪt dil wɪð ˈpeɪnfəl æbˈdɑmənəl ɔr ˈpɛlvɪk kræmps ˈdʊrɪŋ ðɛr ˈpɪriəd",
       "newPara": true,
@@ -332,7 +332,7 @@ DRILL({
           "w": "anywhere from … to",
           "ipa": "ˈɛniˌwɛr frʌm … tu",
           "m": "used to give a wide range of possible numbers",
-          "fa": "هر جایی بینِ … تا",
+          "fa": "بینِ … تا …، در بازه‌ای از … تا …",
           "more": "somewhere between · ranging from"
         },
         {
@@ -380,7 +380,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تجربه‌های فردی می‌تواند متفاوت باشد، از ناراحتیِ خفیف، تا دردهای تپنده،",
+      "fa": "تجربهٔ این عارضه می‌تواند از فردی به فردِ دیگر متفاوت باشد، از ناراحتیِ خفیف گرفته تا دردهای ضربان‌دار،",
       "en": "Individual experiences can vary, from mild discomfort, to throbbing aches,",
       "ipa": "ˌɪndəˈvɪdʒəwəl ɪkˈspɪriənsɪz kən ˈvɛri frəm maɪld dɪˈskʌmfɚt tə ˈθrɑbɪŋ eɪks",
       "words": [
@@ -416,20 +416,20 @@ DRILL({
           "w": "throbbing",
           "ipa": "ˈθrɑbɪŋ",
           "m": "(of pain) beating strongly and regularly",
-          "fa": "تپنده، ضربان‌دار",
+          "fa": "ضربان‌دار (درد)؛ تپنده",
           "more": "to throb · pounding"
         },
         {
           "w": "ache",
           "ipa": "eɪk",
           "m": "a continuous, dull pain",
-          "fa": "درد",
+          "fa": "دردِ مداوم و مبهم",
           "more": "to ache · headache · aching"
         }
       ]
     },
     {
-      "fa": "تا گرفتگی‌هایی شبیهِ انقباض که با دردِ زایمان پهلو می‌زنند.",
+      "fa": "تا گرفتگی‌هایی شبیهِ انقباض‌های زایمانی که در شدت با دردِ زایمان برابری می‌کنند.",
       "en": "to contraction-like cramps that rival the pain of labor.",
       "ipa": "tə kənˈtrækʃən laɪk kræmps ðæt ˈraɪvəl ðə peɪn əv ˈleɪbɚ",
       "words": [
@@ -451,14 +451,14 @@ DRILL({
           "w": "labor",
           "ipa": "ˈleɪbɚ",
           "m": "the process of giving birth to a baby",
-          "fa": "زایمان، دردِ زایمان",
+          "fa": "زایمان؛ کار، نیروی کار",
           "more": "to go into labor · childbirth"
         }
       ],
       "note": "labor این‌جا یعنی «زایمان»، نه «کار»."
     },
     {
-      "fa": "گرفتگی می‌تواند تا کمر و ران‌ها گسترش یابد، و با نفخ، حالتِ تهوع و حتی استفراغ همراه باشد.",
+      "fa": "گرفتگی‌ها می‌توانند به کمر و ران‌ها هم کشیده شوند و با نفخ، حالتِ تهوع و حتی استفراغ همراه باشند.",
       "en": "Cramping can extend into the back and thighs, and be accompanied by bloating, nausea, and even vomiting.",
       "ipa": "ˈkræmpɪŋ kən ɪkˈstɛnd ɪnˈtu ðə bæk ənd θaɪz ənd bi əˈkʌmpənid baɪ ˈbloʊtɪŋ ˈnɔziə ənd ˈivɪn ˈvɑmətɪŋ",
       "words": [
@@ -565,14 +565,14 @@ DRILL({
           "w": "primary",
           "ipa": "ˈpraɪˌmɛri",
           "m": "(medicine) not caused by another illness",
-          "fa": "اولیه",
+          "fa": "اولیه (عارضه‌ای که ناشی از بیماریِ دیگری نیست)؛ اصلی، نخستین",
           "more": "primarily · secondary"
         },
         {
           "w": "secondary",
           "ipa": "ˈsɛkənˌdɛri",
           "m": "(medicine) caused by another illness or condition",
-          "fa": "ثانویه",
+          "fa": "ثانویه (ناشی از عارضه‌ای دیگر)؛ فرعی",
           "more": "primary"
         }
       ]
@@ -656,7 +656,7 @@ DRILL({
           "w": "growth",
           "ipa": "ɡroʊθ",
           "m": "a lump that grows in or on the body",
-          "fa": "توده",
+          "fa": "توده یا زائده در بدن؛ رشد",
           "more": "tumor · lump"
         }
       ]
@@ -702,7 +702,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مثلاً اندومتریوز می‌تواند به جای زخم و التهاب منجر شود،",
+      "fa": "برای نمونه، اندومتریوز می‌تواند به تشکیلِ بافتِ جوشگاه و ایجادِ التهاب بینجامد،",
       "en": "For example, endometriosis can lead to scarring and inflammation,",
       "ipa": "fɚ ɪɡˈzæmpəl ˌɛndoʊˌmɛtriˈoʊsɪs kən lɛd tə ˈskɑrɪŋ ənd ˌɪnfləˈmeɪʃən",
       "words": [
@@ -710,7 +710,7 @@ DRILL({
           "w": "scarring",
           "ipa": "ˈskɑrɪŋ",
           "m": "marks left on the skin or inside the body after an injury heals",
-          "fa": "جای زخم، بافتِ اسکار",
+          "fa": "تشکیلِ بافتِ جوشگاه، به‌جا ماندنِ اثرِ زخم",
           "more": "scar · to scar"
         },
         {
@@ -723,7 +723,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و فیبروم‌های رحمی می‌توانند به اندام‌های دیگر فشار بیاورند، که هر دو می‌توانند باعثِ ناراحتی شوند.",
+      "fa": "و فیبروم‌های رحمی می‌توانند به اندام‌های دیگر فشار بیاورند؛ هر دوی این وضعیت‌ها ممکن است باعثِ ناراحتی شوند.",
       "en": "and uterine fibroids can push against other organs, both of which can cause discomfort.",
       "ipa": "ənd ˈjutərən ˈfaɪbrɔɪdz kən pʊʃ əˈɡɛnst ˈʌðɚ ˈɔrɡənz boʊθ əv wɪtʃ kən kɑz dɪˈskʌmfɚt",
       "words": [
@@ -744,7 +744,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با این حال، شدتِ دردِ گرفتگی همیشه با وخامتِ این عوامل جور درنمی‌آید.",
+      "fa": "با این حال، شدتِ دردِ ناشی از گرفتگی همیشه با شدتِ این عوامل هم‌خوانی ندارد.",
       "en": "Yet the intensity of cramp pain doesn’t always match the severity of these factors.",
       "ipa": "jɛt ði ɪnˈtɛnsəti əv kræmp peɪn ˈdʌzənt ˈɔlˌweɪz mætʃ ðə sɪˈvɛrɪti əv ðiz ˈfæktɚz",
       "words": [
@@ -766,7 +766,7 @@ DRILL({
           "w": "severity",
           "ipa": "sɪˈvɛrɪti",
           "m": "how bad or serious something is",
-          "fa": "وخامت، شدت",
+          "fa": "شدت، وخامت",
           "more": "severe · seriousness"
         },
         {
@@ -779,7 +779,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و چون این عارضه‌ها این‌قدر متغیرند، درمان هم همین‌طور است.",
+      "fa": "و چون این عارضه‌ها از موردی به موردِ دیگر تا این اندازه متفاوت‌اند، درمانشان هم به همان اندازه فرق می‌کند.",
       "en": "And because the conditions are so variable, so is the treatment.",
       "ipa": "ənd bɪˈkɔz ðə kənˈdɪʃənz ɚ soʊ ˈvɛriəbəl soʊ ɪz ðə ˈtritmənt",
       "words": [
@@ -787,7 +787,7 @@ DRILL({
           "w": "variable",
           "ipa": "ˈvɛriəbəl",
           "m": "likely to change; different in different cases",
-          "fa": "متغیر",
+          "fa": "متفاوت از موردی به موردِ دیگر؛ متغیر، تغییرپذیر",
           "more": "to vary · variation"
         }
       ],
@@ -822,7 +822,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آزمایش‌های شیک با همهٔ گمراهی‌شان، راهی به سوی فهمِ بهترِ این درد گشودند.",
+      "fa": "آزمایش‌های شیک با وجودِ اینکه تا این حد بر پایهٔ تصوری نادرست بودند، راه را برای شناختِ بهترِ این درد باز کردند.",
       "en": "Despite how misguided Schick's experiments were, they set a path toward better understanding this pain.",
       "ipa": "dɪˈspaɪt haʊ mɪsˈɡaɪdɪd ʃɪks ɪkˈspɛrəmənts wɚ ðeɪ sɛt ə pæθ təˈwɔrd ˈbɛtɚ ˌʌndɚˈstændɪŋ ðɪs peɪn",
       "newPara": true,
@@ -831,7 +831,7 @@ DRILL({
           "w": "misguided",
           "ipa": "mɪsˈɡaɪdɪd",
           "m": "based on wrong ideas or bad judgment",
-          "fa": "گمراه، نادرست",
+          "fa": "مبتنی بر تصور یا قضاوتی نادرست",
           "more": "misled · mistaken"
         },
         {
@@ -844,7 +844,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اگرچه پژوهشگرانِ اولیه طبعاً هیچ‌وقت سمِ قاعدگی پیدا نکردند، در دهه‌های ۱۹۶۰ و ۷۰،",
+      "fa": "اگرچه پژوهشگرانِ اولیه طبعاً هرگز سمی مربوط به قاعدگی پیدا نکردند، در دهه‌های ۱۹۶۰ و ۱۹۷۰",
       "en": "While early researchers obviously never found a menstrual toxin in the 1960s and 70s,",
       "ipa": "waɪl ˈɝli ˈrisɚtʃɚz ˈɑbviəsli ˈnɛvɚ faʊnd ə ˈmɛnstruəl ˈtɑksən ɪn ðə ˌnaɪnˈtin ˈsɪkstiz ənd ˈsɛvəntiz",
       "words": [
@@ -858,7 +858,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دانشمندانی که خونِ قاعدگی را بررسی می‌کردند واقعاً وجودِ ترکیب‌هایی به نامِ پروستاگلاندین را کشف کردند.",
+      "fa": "دانشمندانی که مایعِ قاعدگی را بررسی می‌کردند به‌راستی به وجودِ ترکیباتی به نامِ پروستاگلاندین‌ها پی بردند.",
       "en": "scientists studying menstrual fluid did discover the presence of compounds called prostaglandins.",
       "ipa": "ˈsaɪəntɪsts ˈstʌdiɪŋ ˈmɛnstruəl ˈfluəd dɪd dɪˈskʌvɚ ðə ˈprɛzəns əv ˈkɑmpaʊndz kɔld proʊstæˈɡlændɪnz",
       "words": [
@@ -873,14 +873,14 @@ DRILL({
           "w": "compound",
           "ipa": "ˈkɑmpaʊnd",
           "m": "a chemical substance made of two or more elements",
-          "fa": "ترکیب، مادهٔ مرکب",
+          "fa": "ترکیبِ شیمیایی؛ چیزِ مرکب",
           "more": "chemical compound"
         }
       ],
       "note": "did ِ قبل از discover تأکیدی است."
     },
     {
-      "fa": "و پژوهش‌های بعدی نشان داد که خیلی از کسانی که گرفتگی‌های دردناکِ قاعدگی دارند اغلب سطحِ پروستاگلاندین بالاتری در خونِ قاعدگی‌شان دارند.",
+      "fa": "و پژوهش‌های بیشتر نشان داد که بسیاری از افرادِ دچارِ گرفتگی‌های دردناکِ قاعدگی، اغلب در مایعِ قاعدگیِ خود میزانِ بالاتری از پروستاگلاندین‌ها داشتند.",
       "en": "And further research showed that many people with painful period cramps often had higher levels of prostaglandins in their menstrual fluid.",
       "ipa": "ənd ˈfɝðɚ riˈsɝtʃ ʃoʊd ðæt ˈmɛni ˈpipəl wɪð ˈpeɪnfəl ˈpɪriəd kræmps ˈɔfən hæd ˈhaɪɚ ˈlɛvəlz əv proʊstæˈɡlændɪnz ɪn ðɛr ˈmɛnstruəl ˈfluəd",
       "words": [
@@ -888,20 +888,20 @@ DRILL({
           "w": "further",
           "ipa": "ˈfɝðɚ",
           "m": "more; additional",
-          "fa": "بیشتر، بعدی",
+          "fa": "بیشتر، تکمیلی؛ دورتر",
           "more": "furthermore · additional"
         },
         {
           "w": "level",
           "ipa": "ˈlɛvəl",
           "m": "the amount of something",
-          "fa": "سطح، میزان",
+          "fa": "میزان یا غلظتِ یک ماده؛ سطح، مرتبه",
           "more": "high levels of · low levels of"
         }
       ]
     },
     {
-      "fa": "یکی از نقش‌های مهمِ پروستاگلاندین‌ها تحریکِ عضله‌های رحم به منقبض شدن است،",
+      "fa": "یکی از نقش‌های مهمِ پروستاگلاندین‌ها این است که عضلاتِ رحم را تحریک می‌کنند تا منقبض شوند،",
       "en": "One important role of prostaglandins is to stimulate the muscles of the uterus to contract,",
       "ipa": "wʌn ɪmˈpɔrtənt roʊl əv proʊstæˈɡlændɪnz ɪz tə ˈstɪmjəˌleɪt ðə ˈmʌsəlz əv ðə ˈjutərəs tə ˈkɑnˌtrækt",
       "newPara": true,
@@ -930,7 +930,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که گامی ضروری در ریختنِ پوشش داخلیِ رحم در دورهٔ قاعدگی است.",
+      "fa": "که گامی ضروری برای ریزشِ پوششِ داخلیِ رحم هنگامِ قاعدگی است.",
       "en": "an essential step in shedding the uterine lining during a period.",
       "ipa": "ən ɪˈsɛnʃəl stɛp ɪn ˈʃɛdɪŋ ðə ˈjutərən ˈlaɪnɪŋ ˈdʊrɪŋ ə ˈpɪriəd",
       "words": [
@@ -945,13 +945,13 @@ DRILL({
           "w": "to shed",
           "ipa": "tə ʃɛd",
           "m": "to let something fall off as part of a natural process",
-          "fa": "ریختن، جدا کردن",
+          "fa": "پوششِ داخلیِ رحم را دفع کردن؛ ریختنِ برگ یا مو",
           "more": "to shed skin · to shed leaves"
         }
       ]
     },
     {
-      "fa": "پس گمان می‌رود که زیادیِ پروستاگلاندین‌ها ممکن است این انقباض‌ها را شدیدتر کند و درد ایجاد کند.",
+      "fa": "بنابراین گمان می‌رود که مقدارِ بیش از حدِ پروستاگلاندین‌ها ممکن است این انقباض‌ها را تشدید کند و از این راه باعثِ درد شود.",
       "en": "So it’s thought that an excess of prostaglandins may intensify these contractions, causing pain.",
       "ipa": "soʊ ɪts θɔt ðæt ən ˈɛkˌsɛs əv proʊstæˈɡlændɪnz meɪ ɪnˈtɛnsəˌfaɪ ðiz kənˈtrækʃənz ˈkɑzɪŋ peɪn",
       "words": [
@@ -966,7 +966,7 @@ DRILL({
           "w": "excess",
           "ipa": "ˈɛkˌsɛs",
           "m": "an amount that is more than needed",
-          "fa": "زیادی، مقدارِ اضافه",
+          "fa": "مقدارِ بیش از حد؛ مازاد",
           "more": "excessive · to exceed"
         },
         {
@@ -1000,7 +1000,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که جریانِ اکسیژن را کم می‌کند و مواد شیمیایی‌ای آزاد می‌کند که گیرنده‌های درد را فعال می‌کنند.",
+      "fa": "و از این راه جریانِ اکسیژن را کاهش دهد و باعثِ آزاد شدنِ موادی شیمیایی شود که گیرنده‌های درد را فعال می‌کنند.",
       "en": "reducing the flow of oxygen and releasing chemicals that activate pain receptors.",
       "ipa": "rəˈdusɪŋ ðə floʊ əv ˈɑksədʒən ənd riˈlisɪŋ ˈkɛmɪkəlz ðæt ˈæktəˌveɪt peɪn rəˈsɛptɚz",
       "words": [
@@ -1057,7 +1057,7 @@ DRILL({
       ]
     },
     {
-      "fa": "می‌توانند دردِ بعضی از کسانی را که دردِ قاعدگی دارند تسکین دهند.",
+      "fa": "این داروها می‌توانند دردِ قاعدگی را در برخی افراد تسکین دهند.",
       "en": "they can provide relief for some people with period pain.",
       "ipa": "ðeɪ kən prəˈvaɪd rɪˈlif fɚ sʌm ˈpipəl wɪð ˈpɪriəd peɪn",
       "words": [
@@ -1065,13 +1065,13 @@ DRILL({
           "w": "relief",
           "ipa": "rɪˈlif",
           "m": "the reduction of pain or worry",
-          "fa": "تسکین، آرامش",
+          "fa": "تسکینِ درد؛ آسودگی",
           "more": "to relieve · pain relief"
         }
       ]
     },
     {
-      "fa": "بعضی‌های دیگر داروهای پیشگیریِ هورمونی را مفید می‌دانند که پوشش داخلیِ رحم را نازک می‌کنند",
+      "fa": "افرادِ دیگری روش‌های هورمونیِ پیشگیری از بارداری را که پوششِ داخلیِ رحم را نازک می‌کنند",
       "en": "Others find hormone-based contraceptives that thin the uterine lining",
       "ipa": "ˈʌðɚz faɪnd ˈhɔrˌmoʊn beɪst ˌkɑntrəˈsɛptɪvz ðæt θɪn ðə ˈjutərən ˈlaɪnɪŋ",
       "words": [
@@ -1093,7 +1093,7 @@ DRILL({
           "w": "contraceptive",
           "ipa": "ˌkɑntrəˈsɛptɪv",
           "m": "a drug or device that prevents pregnancy",
-          "fa": "داروی پیشگیری از بارداری",
+          "fa": "دارو یا وسیلهٔ پیشگیری از بارداری",
           "more": "contraception · birth control"
         },
         {
@@ -1106,7 +1106,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و در نتیجه تولیدِ پروستاگلاندین را کم می‌کنند.",
+      "fa": "و به‌دنبالِ آن تولیدِ پروستاگلاندین‌ها را کاهش می‌دهند، مفید می‌دانند.",
       "en": "and, in turn, reduce prostaglandin production to be helpful.",
       "ipa": "ənd ɪn tɝn rəˈdus proʊstæˈɡlændɪn prəˈdʌkʃən tə bi ˈhɛlpfəl",
       "words": [
@@ -1128,7 +1128,7 @@ DRILL({
       "note": "ساختارِ جمله «find … contraceptives … to be helpful» است: آن‌ها را مفید می‌دانند."
     },
     {
-      "fa": "اما با اینکه پژوهش روی پروستاگلاندین بنیادی بود و شیوهٔ فهمِ ما از دردِ قاعدگی را شکل داد،",
+      "fa": "اما با اینکه پژوهش دربارهٔ پروستاگلاندین‌ها نقشِ بنیادی داشت و درکِ ما از دردِ قاعدگی را شکل داد،",
       "en": "But while prostaglandin research was foundational and shaped the way we understand menstrual pain,",
       "ipa": "bət waɪl proʊstæˈɡlændɪn riˈsɝtʃ wəz faʊnˈdeɪʃənəl ənd ʃeɪpt ðə weɪ wi ˌʌndɚˈstænd ˈmɛnstruəl peɪn",
       "newPara": true,
@@ -1178,7 +1178,7 @@ DRILL({
       ]
     },
     {
-      "fa": "احتمالاً عواملِ دیگرِ زیادی در گرفتگیِ دردناک سهم دارند، از جمله هورمون‌ها، التهاب، مسیرهای مغزی، و شاید حتی میکروبیوم.",
+      "fa": "احتمالاً عواملِ بسیارِ دیگری نیز در ایجادِ گرفتگی‌های دردناک نقش دارند، از جمله هورمون‌ها، التهاب، مسیرهای عصبیِ مغز و شاید حتی میکروبیوم.",
       "en": "Many other factors likely contribute to painful cramping, including hormones, inflammation, brain pathways, and perhaps even the microbiome.",
       "ipa": "ˈmɛni ˈʌðɚ ˈfæktɚz ˈlaɪkli kənˈtrɪbjut tə ˈpeɪnfəl ˈkræmpɪŋ ɪnˈkludɪŋ ˈhɔrˌmoʊnz ˌɪnfləˈmeɪʃən breɪn ˈpæθˌweɪz ənd pɚˈhæps ˈivɪn ðə ˌmaɪkroʊbiˈmoʊ",
       "words": [
@@ -1200,14 +1200,14 @@ DRILL({
           "w": "pathway",
           "ipa": "ˈpæθˌweɪ",
           "m": "a chain of connections in the body or brain",
-          "fa": "مسیر",
+          "fa": "مسیرِ عصبی در مغز؛ مسیر، گذرگاه",
           "more": "path · neural pathway"
         },
         {
           "w": "microbiome",
           "ipa": "ˌmaɪkroʊbiˈmoʊ",
           "m": "all the tiny living things, like bacteria, living in the body",
-          "fa": "میکروبیوم",
+          "fa": "میکروبیوم، مجموعهٔ میکروب‌های ساکنِ محیطی مانند بدن",
           "more": "microbe · gut bacteria"
         }
       ]
@@ -1257,13 +1257,13 @@ DRILL({
           "w": "taboo",
           "ipa": "tæˈbu",
           "m": "something you must not talk about or do because of social rules",
-          "fa": "تابو",
+          "fa": "تابو؛ چیزی که جامعه گفتن یا انجام دادنش را ناپذیرفتنی می‌داند",
           "more": "forbidden · off-limits"
         }
       ]
     },
     {
-      "fa": "و این باعث می‌شود خیلی‌ها حس کنند که باید فقط با این درد بسازند.",
+      "fa": "و این باعث می‌شود خیلی‌ها احساس کنند چاره‌ای جز تحملِ درد ندارند.",
       "en": "leading many people to feel that they have to simply put up with the pain.",
       "ipa": "ˈlidɪŋ ˈmɛni ˈpipəl tə fil ðæt ðeɪ hæv tə ˈsɪmpli pʊt ʌp wɪð ðə peɪn",
       "words": [
@@ -1277,7 +1277,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما رنج کشیدنِ مداوم از گرفتگی‌های شدید ابداً بی‌خطر نیست.",
+      "fa": "اما اینکه کسی مرتب از گرفتگی‌های شدید رنج ببرد، به‌هیچ‌وجه بی‌ضرر نیست.",
       "en": "But regularly suffering from severe cramping is far from benign.",
       "ipa": "bət ˈrɛɡjəlɚli ˈsʌfərɪŋ frəm səˈvɪr ˈkræmpɪŋ ɪz fɑr frəm bɪˈnaɪn",
       "words": [
@@ -1292,7 +1292,7 @@ DRILL({
           "w": "far from",
           "ipa": "fɑr frʌm",
           "m": "not at all",
-          "fa": "ابداً، به هیچ وجه",
+          "fa": "به‌هیچ‌وجه (برای نفیِ یک ویژگی)؛ دور از",
           "more": "anything but · by no means"
         },
         {
@@ -1340,7 +1340,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و فرد را در برابرِ ابتلا به دردهای مزمن آسیب‌پذیر کند.",
+      "fa": "و فرد را مستعدِ ابتلا به عارضه‌هایی کند که با دردِ مزمن همراه‌اند.",
       "en": "leaving a person vulnerable to developing chronic pain conditions.",
       "ipa": "ˈlivɪŋ ə ˈpɝsən ˈvʌlnərəbəl tə dɪˈvɛləpɪŋ ˈkrɑnɪk peɪn kənˈdɪʃənz",
       "words": [
@@ -1369,7 +1369,7 @@ DRILL({
       "note": "develop این‌جا یعنی «مبتلا شدن به بیماری»، نه «توسعه دادن»."
     },
     {
-      "fa": "برای همین است که پژوهشِ بیشتری لازم است تا عواملِ پیچیدهٔ این تجربهٔ به‌طرزِ شگفت‌آوری رایج گره‌گشایی شود",
+      "fa": "به همین دلیل، به پژوهشِ بیشتری نیاز است تا عواملِ پیچیدهٔ دخیل در این تجربه را که به‌طرزِ شگفت‌آوری شایع است از هم بازشناسیم",
       "en": "That's why more research is needed to untangle the complex drivers of this surprisingly common experience",
       "ipa": "ðæts waɪ mɔr riˈsɝtʃ ɪz ˈnidəd tə ənˈtæŋɡəl ðə ˈkɑmplɛks ˈdraɪvɚz əv ðɪs sɚˈpraɪzɪŋli ˈkɑmən ɪkˈspɪriəns",
       "words": [
@@ -1377,7 +1377,7 @@ DRILL({
           "w": "to untangle",
           "ipa": "tə ənˈtæŋɡəl",
           "m": "to make something complicated clear and understandable",
-          "fa": "گره‌گشایی کردن، باز کردنِ کلاف",
+          "fa": "عواملِ درهم‌تنیده را از هم بازشناختن؛ گره باز کردن",
           "more": "tangled · to unravel"
         },
         {
@@ -1391,7 +1391,7 @@ DRILL({
           "w": "driver",
           "ipa": "ˈdraɪvɚ",
           "m": "something that causes something to happen",
-          "fa": "عامل، محرک",
+          "fa": "عاملِ پدیدآورنده یا مؤثر؛ راننده",
           "more": "to drive · driving force"
         },
         {
@@ -1404,7 +1404,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و درمان‌های بهتری ساخته شود.",
+      "fa": "و درمان‌های بهتری ابداع کنیم.",
       "en": "and to develop better treatments.",
       "ipa": "ənd tə dɪˈvɛləp ˈbɛtɚ ˈtritmənts",
       "words": [
@@ -1412,13 +1412,13 @@ DRILL({
           "w": "to develop (a treatment)",
           "ipa": "tə dɪˈvɛləp (ə ˈtritmənt)",
           "m": "to create something new over time",
-          "fa": "ساختن، توسعه دادن",
+          "fa": "ابداع و تکمیل کردنِ یک روشِ درمانی",
           "more": "development"
         }
       ]
     },
     {
-      "fa": "این کار می‌تواند با پذیرفتنِ این شروع شود که دردِ قاعدگی واقعی است، و صدها میلیون نفر را درگیر می‌کند.",
+      "fa": "این کار می‌تواند با به رسمیت شناختنِ این واقعیت آغاز شود که دردِ قاعدگی واقعی است و بر زندگیِ صدها میلیون نفر اثر می‌گذارد.",
       "en": "That work can start with recognizing that period pain is real, and it affects hundreds of millions of people.",
       "ipa": "ðæt wɝk kən stɑrt wɪð ˈrɛkəɡˌnaɪzɪŋ ðæt ˈpɪriəd peɪn ɪz ril ənd ɪt əˈfɛkts ˈhʌndrədz əv ˈmɪljənz əv ˈpipəl",
       "words": [

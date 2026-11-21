@@ -74,7 +74,7 @@ DRILL({
       "note": "arrived to find: «رسیدند و دیدند که …» — یعنی پس از رسیدن با چیزی غیرمنتظره روبه‌رو شدند."
     },
     {
-      "fa": "در حالی که در گِل‌ولای دست‌وپا می‌زدند،",
+      "fa": "در حالی که با لجن و گِل دست‌وپنجه نرم می‌کردند،",
       "en": "Struggling against muck and mud,",
       "ipa": "ˈstrʌɡəlɪŋ əˈɡɛnst mʌk ənd mʌd",
       "words": [
@@ -109,7 +109,7 @@ DRILL({
           "w": "husk",
           "ipa": "hʌsk",
           "m": "the dry outer covering of some seeds and fruits",
-          "fa": "پوسته (دانه)",
+          "fa": "پوششِ بیرونیِ بلال؛ پوستِ بیرونیِ دانه یا میوه",
           "more": "shell · corn husk"
         }
       ]
@@ -136,7 +136,7 @@ DRILL({
       ]
     },
     {
-      "fa": "سپس رابرت دستور داد برجِ محاصرهٔ عظیمی بسازند،",
+      "fa": "سپس رابرت فرمانِ ساختِ یک برجِ محاصرهٔ عظیم را داد،",
       "en": "Then Robert ordered the construction of a massive siege tower,",
       "ipa": "ðɛn ˈrɑbɚt ˈɔrdɚd ðə kənˈstrʌkʃən əv ə ˈmæsɪv sidʒ ˈtaʊɚ",
       "words": [
@@ -213,7 +213,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با بارانِ تیرهای انگلیسی بر سرِ اسکاتلندی‌های خیس‌آب پایان یافت.",
+      "fa": "با باریدنِ تیرهای انگلیسی‌ها بر سرِ اسکاتلندی‌های سرتاپا خیس پایان گرفت.",
       "en": "ended with English arrows raining down on the sodden Scots.",
       "ipa": "ˈɛndəd wɪð ˈɪŋɡlɪʃ ˈæroʊz ˈreɪnɪŋ daʊn ɑn ðə ˈsɑdən skɑts",
       "words": [
@@ -235,7 +235,7 @@ DRILL({
           "w": "sodden",
           "ipa": "ˈsɑdən",
           "m": "extremely wet",
-          "fa": "خیس‌آب، آب‌کشیده",
+          "fa": "سرتاپا خیس، خیسِ آب",
           "more": "soaked · drenched · soggy"
         }
       ]
@@ -340,7 +340,7 @@ DRILL({
       ]
     },
     {
-      "fa": "نمادهای قدرت بودند، اقامتگاه‌های خصوصی،",
+      "fa": "آن‌ها نمادهای قدرت، اقامتگاه‌های خصوصی",
       "en": "they were symbols of power, private residences,",
       "ipa": "ðeɪ wɚ ˈsɪmbəlz əv ˈpaʊɚ ˈpraɪvət ˈrɛzɪdənsɪz",
       "words": [
@@ -361,7 +361,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و کانون‌های حکمرانی که قرار بود چشم‌ها را خیره کنند و بترسانند.",
+      "fa": "و مراکزِ حکمرانی بودند که قرار بود مردم را تحت‌تأثیر قرار دهند و مرعوب کنند.",
       "en": "and hubs of governance intended to impress and intimidate.",
       "ipa": "ənd hʌbz əv ˈɡʌvɚnəns ɪnˈtɛndəd tə ɪmˈprɛs ənd ɪnˈtɪmɪˌdeɪt",
       "words": [
@@ -418,7 +418,7 @@ DRILL({
           "w": "offensive",
           "ipa": "əˈfɛnsɪv",
           "m": "used for attacking",
-          "fa": "تهاجمی",
+          "fa": "تهاجمی (در کاربردِ نظامی)؛ توهین‌آمیز، آزاردهنده",
           "more": "offense · defensive (opp.)"
         },
         {
@@ -508,7 +508,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گرچه ارگ‌ها و کاخ‌های باروبندی‌شده از همان سدهٔ هشتمِ پیش از میلاد پیدا می‌شدند،",
+      "fa": "گرچه حتی در سدهٔ هشتمِ پیش از میلاد هم می‌شد ارگ‌ها و کاخ‌های دارای استحکامات یافت،",
       "en": "While citadels and fortified palaces could be found as early as the 8th century BCE,",
       "ipa": "waɪl ˈsɪtəˌdɛlz ənd ˈfɔrtəˌfaɪd ˈpæləsəz kʊd bi faʊnd əz ˈɝli əz ði eɪtθ ˈsɛntʃəri ˌbiˌsiˈi",
       "newPara": true,
@@ -538,7 +538,7 @@ DRILL({
           "w": "as early as",
           "ipa": "əz ˈɝli æz",
           "m": "used to show that something happened surprisingly long ago",
-          "fa": "از همان، از … به بعد",
+          "fa": "از همان زمانِ دور، حتی در زمانی به آن زودی",
           "more": "as long ago as · as far back as"
         }
       ]
@@ -549,7 +549,7 @@ DRILL({
       "ipa": "ˌjʊrəˈpiən ˈkæsəlz əz wi θɪŋk əv ðɛm"
     },
     {
-      "fa": "در اواخرِ سدهٔ نهمِ میلادی به تعدادِ زیاد پدیدار شدند.",
+      "fa": "در اواخرِ سدهٔ نهمِ میلادی کم‌کم در شمارِ زیاد پدیدار شدند.",
       "en": "started appearing in large numbers in the late 9th century CE.",
       "ipa": "ˈstɑrtəd əˈpɪrɪŋ ɪn lɑrdʒ ˈnʌmbɚz ɪn ðə leɪt naɪnθ ˈsɛntʃəri ˌsiˈi",
       "words": [
@@ -613,7 +613,7 @@ DRILL({
           "w": "realm",
           "ipa": "rɛlm",
           "m": "a country ruled by a king or queen",
-          "fa": "قلمرو",
+          "fa": "قلمروِ فرمانروا؛ حوزه یا عرصهٔ فعالیت",
           "more": "kingdom · domain"
         },
         {
@@ -660,7 +660,7 @@ DRILL({
       "newPara": true
     },
     {
-      "fa": "که ویژگی‌اش برجی مرکزی بود که بر فرازِ تپه‌ای پرشیب ساخته می‌شد",
+      "fa": "و برجی مرکزی داشتند که بر فرازِ تپه‌ای پرشیب ساخته شده بود،",
       "en": "featuring a central tower built atop a steep mound",
       "ipa": "ˈfitʃərɪŋ ə ˈsɛntrəl ˈtaʊɚ bɪlt əˈtɑp ə stip maʊnd",
       "words": [
@@ -695,7 +695,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و حیاطی محصور با دیوار در پایینِ آن.",
+      "fa": "با حیاطی دیوارکشیده در پای تپه.",
       "en": "with a walled yard at the base.",
       "ipa": "wɪð ə wɔld jɑrd ət ðə beɪs",
       "words": [
@@ -717,7 +717,7 @@ DRILL({
           "w": "base",
           "ipa": "beɪs",
           "m": "the lowest part of something",
-          "fa": "پایه، پایین",
+          "fa": "پایِ تپه، قسمتِ پایین؛ پایه؛ پایگاه",
           "more": "at the base of"
         }
       ]
@@ -733,7 +733,7 @@ DRILL({
       "ipa": "əz ˈkæsəlz bɪˈkeɪm ˈsɛntɚz əv ˈsoʊʃəl ˈkʌltʃərəl ˈmɪləˌtɛri ənd pəˈlɪtəkəl laɪf"
     },
     {
-      "fa": "طرح‌هایشان متنوع‌تر و پیچیده‌تر شد.",
+      "fa": "طرح‌هایشان رفته‌رفته متنوع‌تر و پیچیده‌تر شد.",
       "en": "their designs grew more varied and complex.",
       "ipa": "ðɛr dɪˈzaɪnz ɡru mɔr ˈvɛrid ənd ˈkɑmplɛks",
       "words": [
@@ -741,7 +741,7 @@ DRILL({
           "w": "to grow",
           "ipa": "tə ɡroʊ",
           "m": "to gradually become",
-          "fa": "رفته‌رفته شدن",
+          "fa": "به‌تدریج حالتی پیدا کردن؛ رشد کردن؛ پرورش دادن",
           "more": "grow more · become"
         },
         {
@@ -865,7 +865,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که خاکستریِ سنگی‌شان را با طیفی از رنگ‌مایه‌های رنگارنگ می‌پوشاند.",
+      "fa": "و به این ترتیب، خاکستریِ سنگ‌ها زیرِ طیفی از رنگ‌مایه‌های گوناگون پنهان می‌شد.",
       "en": "covering their stony grey with a range of colorful tones.",
       "ipa": "ˈkʌvərɪŋ ðɛr ˈstoʊni ɡreɪ wɪð ə reɪndʒ əv ˈkʌlɚfəl toʊnz",
       "words": [
@@ -887,7 +887,7 @@ DRILL({
           "w": "tone",
           "ipa": "toʊn",
           "m": "a shade of a colour",
-          "fa": "رنگ‌مایه، سایه‌رنگ",
+          "fa": "رنگ‌مایه؛ لحنِ صدا",
           "more": "shade · hue"
         }
       ]
@@ -909,7 +909,7 @@ DRILL({
           "w": "scale",
           "ipa": "skeɪl",
           "m": "the size or extent of something",
-          "fa": "ابعاد، اندازه",
+          "fa": "ابعاد و بزرگیِ بنا؛ مقیاس؛ ترازو",
           "more": "large-scale · on a grand scale"
         },
         {
@@ -937,7 +937,7 @@ DRILL({
           "w": "band",
           "ipa": "bænd",
           "m": "a line or strip of colour or material that is different from what is around it",
-          "fa": "نوار، باریکه",
+          "fa": "نوار یا ردیفِ سنگ؛ دسته یا گروهِ موسیقی",
           "more": "stripe · strip"
         }
       ]
@@ -992,7 +992,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما همچنان که قلعه‌های اروپایی فراگیرتر شدند، فناوری‌های شکست دادنشان هم فراگیرتر شد.",
+      "fa": "اما هرچه قلعه‌های اروپایی فراگیرتر شدند، فناوری‌های غلبه بر آن‌ها نیز به همان ترتیب گسترش یافتند.",
       "en": "But as European castles became more widespread, so did technologies to defeat them.",
       "ipa": "bət əz ˌjʊrəˈpiən ˈkæsəlz bɪˈkeɪm mɔr ˌwaɪdˈsprɛd soʊ dɪd tɛkˈnɑlədʒiz tə dɪˈfit ðɛm",
       "newPara": true,
@@ -1015,7 +1015,7 @@ DRILL({
       "note": "so did …: «… هم همین‌طور» — فعلِ became تکرار نمی‌شود."
     },
     {
-      "fa": "آتش از دیرباز قلعه‌های چوبیِ «تپه و حیاط» را تهدید می‌کرد،",
+      "fa": "تا آن زمان، آتش از دیرباز قلعه‌های چوبیِ «تپه و حیاط» را تهدید کرده بود،",
       "en": "Fire had long threatened wooden motte and baileys,",
       "ipa": "ˈfaɪɚ hæd lɔŋ ˈθrɛtənd ˈwʊdən mɑt ənd ˈbeɪliz",
       "words": [
@@ -1238,7 +1238,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این شیوه، با حلقه‌های متعددِ دیوارهای دفاعی گردِ یک برجِ مرکزی،",
+      "fa": "با داشتنِ حلقه‌های متعددی از دیوارهای دفاعی گردِ یک برجِ مرکزی،",
       "en": "Featuring numerous rings of defensive walls around a central tower,",
       "ipa": "ˈfitʃərɪŋ ˈnumərəs rɪŋz əv dɪˈfɛnsɪv wɔlz əˈraʊnd ə ˈsɛntrəl ˈtaʊɚ",
       "words": [
@@ -1259,7 +1259,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دژی دایره‌ای پدید آورد با لایه‌های چندگانهٔ امنیت در برابرِ محاصره.",
+      "fa": "این شیوه دژی دایره‌ای پدید آورد که در برابرِ محاصره چندین لایهٔ حفاظتی داشت.",
       "en": "this approach created a circular fortress with multiple layers of siege security.",
       "ipa": "ðɪs əˈproʊtʃ kriˈeɪtəd ə ˈsɝkjəlɚ ˈfɔrtrəs wɪð ˈmʌltəpəl ˈleɪɚz əv sidʒ sɪˈkjʊrəti",
       "words": [
@@ -1316,13 +1316,13 @@ DRILL({
           "w": "to reign supreme",
           "ipa": "tə reɪn səˈprim",
           "m": "to be the best or most important, with no rival",
-          "fa": "بی‌رقیب فرمان راندن، یکه‌تاز بودن",
+          "fa": "از همه برتر و رایج‌تر بودن؛ فرمانرواییِ بی‌رقیب داشتن",
           "more": "reign · dominate"
         }
       ]
     },
     {
-      "fa": "و حتی در برابرِ توپ‌های کوچکی که در سراسرِ اروپا رواج یافته بودند تاب می‌آورد.",
+      "fa": "و حتی در برابرِ توپ‌های کوچکی که تازه شروع به گسترش در سراسرِ اروپا کرده بودند تاب می‌آورد.",
       "en": "even standing up to the small cannons that had begun spreading across Europe.",
       "ipa": "ˈivɪn ˈstændɪŋ ʌp tə ðə smɔl ˈkænənz ðæt hæd bɪˈɡʌn ˈsprɛdɪŋ əˈkrɔs ˈjʊrəp",
       "words": [
@@ -1421,7 +1421,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این نوع ساخت‌وساز چنان گران بود که از توانِ بیشترِ مردم خارج بود.",
+      "fa": "هزینهٔ این نوع ساخت‌وساز آن‌قدر زیاد بود که عملاً مانعِ انجامش می‌شد.",
       "en": "this kind of construction was prohibitively expensive.",
       "ipa": "ðɪs kaɪnd əv kənˈstrʌkʃən wəz proʊˈhɪbətɪvli ɪkˈspɛnsɪv",
       "words": [
@@ -1456,7 +1456,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و به فرمانروایانِ نیرومندِ متمرکز وابسته شدند",
+      "fa": "و به فرمانروایانِ قدرتمندی وابسته شدند که قدرت را در دستِ خود متمرکز کرده بودند",
       "en": "and became reliant on strong centralized rulers",
       "ipa": "ənd bɪˈkeɪm rɪˈlaɪənt ɑn strɔŋ ˈsɛntrəˌlaɪzd ˈrulɚz",
       "words": [
@@ -1471,7 +1471,7 @@ DRILL({
           "w": "centralized",
           "ipa": "ˈsɛntrəˌlaɪzd",
           "m": "controlled from one central place",
-          "fa": "متمرکز",
+          "fa": "دارای قدرتِ متمرکز، تحتِ فرمانِ یک مرکز",
           "more": "centralize · decentralized (opp.)"
         },
         {
@@ -1484,7 +1484,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که توانِ مالیِ پشتیبانی از دفاع‌های امروزی و ارتش‌های بزرگِ دائمی را داشتند.",
+      "fa": "و از عهدهٔ هزینهٔ نگهداریِ استحکاماتِ پیشرفتهٔ آن زمان و ارتش‌های بزرگِ دائمی برمی‌آمدند.",
       "en": "who could afford to support modern defenses and large standing armies.",
       "ipa": "hu kʊd əˈfɔrd tə səˈpɔrt ˈmɑdɚn dɪˈfɛnsəz ənd lɑrdʒ ˈstændɪŋ ˈɑrmiz",
       "words": [
@@ -1581,7 +1581,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و امروز بسیاری از آن‌ها همچنان جاذبهٔ گردشگری و املاکِ خصوصی‌اند.",
+      "fa": "و امروزه بسیاری از آن‌ها همچنان به‌عنوانِ جاذبه‌های گردشگری و املاکِ خصوصی به کار می‌روند.",
       "en": "and today many still serve as tourist attractions and private estates.",
       "ipa": "ənd təˈdeɪ ˈmɛni stɪl sɝv əz ˈtʊrəst əˈtrækʃənz ənd ˈpraɪvət ɪˈsteɪts",
       "words": [
@@ -1596,7 +1596,7 @@ DRILL({
           "w": "estate",
           "ipa": "ɪˈsteɪt",
           "m": "a large area of land in the country with a large house on it",
-          "fa": "ملک، املاک",
+          "fa": "ملکِ شخصیِ بزرگ؛ داراییِ به‌جامانده از فردِ درگذشته",
           "more": "real estate · property"
         }
       ]
@@ -1638,13 +1638,13 @@ DRILL({
           "w": "authority",
           "ipa": "əˈθɔrəti",
           "m": "the power to give orders and make people obey",
-          "fa": "اقتدار، اختیار",
+          "fa": "اقتدار و قدرتِ فرمانروایی؛ اختیارِ قانونی؛ مرجعِ صاحب‌نظر",
           "more": "authoritative · authorities"
         }
       ]
     },
     {
-      "fa": "که قلعه‌های قرونِ وسطا را سده‌ها چنین کارآمد کرده بود.",
+      "fa": "که قرن‌ها قلعه‌های قرون وسطایی را تا این حد کارآمد می‌کرد.",
       "en": "that made medieval castles so effective for centuries.",
       "ipa": "ðæt meɪd mɪˈdivəl ˈkæsəlz soʊ ɪˈfɛktɪv fɚ ˈsɛntʃəriz",
       "words": [

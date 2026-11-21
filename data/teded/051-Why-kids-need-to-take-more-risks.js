@@ -19,7 +19,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که بچه‌های محله‌اش عاشقِ بازی در ساختمان‌های نیمه‌کارهٔ قدیمی‌اند.",
+      "fa": "که بچه‌های محله‌اش عاشقِ بازی کردن در محوطه‌های قدیمیِ ساخت‌وساز بودند.",
       "en": "that his neighborhood’s children loved playing in old building sites.",
       "ipa": "ðæt hɪz ˈneɪbɚˌhʊdz ˈtʃɪldrən lʌvd ˈpleɪɪŋ ɪn oʊld ˈbɪldɪŋ saɪts",
       "words": [
@@ -27,13 +27,13 @@ DRILL({
           "w": "building site",
           "ipa": "ˈbɪldɪŋ saɪt",
           "m": "a place where a building is being built",
-          "fa": "محلِ ساخت‌وساز، ساختمانِ در حالِ ساخت",
+          "fa": "محوطه یا زمینِ ساخت‌وساز",
           "more": "construction site"
         }
       ]
     },
     {
-      "fa": "تماشای بچه‌ها که از تیرآهن‌های بیرون‌زده تاب می‌خوردند، دنبالِ تکه‌های به‌دردبخورِ ضایعات می‌گشتند،",
+      "fa": "دیدنِ بچه‌هایی که از تیرهای بی‌پوشش تاب می‌خوردند، میانِ دورریختنی‌ها دنبالِ مصالحِ به‌دردبخور می‌گشتند",
       "en": "Watching kids swing from exposed beams, scavenge for scrap materials,",
       "ipa": "ˈwɑtʃɪŋ kɪdz swɪŋ frəm ɪkˈspoʊzd bimz ˈskævəndʒ fɚ skræp məˈtɪriəlz",
       "words": [
@@ -55,7 +55,7 @@ DRILL({
           "w": "beam",
           "ipa": "bim",
           "m": "a long, heavy piece of wood or metal that supports a building",
-          "fa": "تیر، تیرآهن",
+          "fa": "تیرِ سازه؛ پرتوِ نور",
           "more": "girder"
         },
         {
@@ -75,7 +75,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و با چکش پل سرهم می‌کردند، او را برانگیخت که یک مجتمعِ مسکونیِ متروکه را به زمینِ بازیِ ضایعاتیِ مخصوص تبدیل کند.",
+      "fa": "و با چکش برای خودشان پل می‌ساختند، به او الهام داد تا یک مجتمعِ مسکونیِ متروک را به محوطه‌ای مخصوصِ بازی با وسایلِ دورریختنی تبدیل کند.",
       "en": "and hammer together bridges inspired him to transform an abandoned housing estate into a dedicated junk playground.",
       "ipa": "ənd ˈhæmɚ təˈɡɛðɚ ˈbrɪdʒəz ɪnˈspaɪɚd hɪm tə trænˈsfɔrm ən əˈbændənd ˈhaʊzɪŋ ɪˈsteɪt ɪnˈtu ə ˈdɛdəkeɪtəd dʒʌŋk ˈpleɪˌɡraʊnd",
       "words": [
@@ -125,7 +125,7 @@ DRILL({
           "w": "junk",
           "ipa": "dʒʌŋk",
           "m": "old things that are not wanted or have little value",
-          "fa": "آت‌وآشغال، خرت‌وپرت",
+          "fa": "وسایلِ دورریختنی و خرده‌ریزهایی که اینجا برای بازی استفاده می‌شوند",
           "more": "junkyard · rubbish"
         }
       ],
@@ -146,7 +146,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از کارگاه‌های ساختمانیِ مخروبه و حتی محل‌های بمباران‌شدهٔ جنگ جهانی اول که دیگر آن کاربرد را نداشتند، زمینِ بازی درست می‌کردند.",
+      "fa": "داشتند از محوطه‌های ساختمانیِ متروک و حتی زمین‌هایی که در جنگِ جهانیِ اول بمباران شده بودند، زمینِ بازی می‌ساختند.",
       "en": "were making playgrounds out of derelict building yards and even former World War I bomb sites.",
       "ipa": "wɚ ˈmeɪkɪŋ ˈpleɪˌɡraʊndz aʊt əv ˈdɛrəˌlɪkt ˈbɪldɪŋ jɑrdz ənd ˈivɪn ˈfɔrmɚ wɝld wɔr aɪ bɑm saɪts",
       "words": [
@@ -293,7 +293,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ساختنِ بازی و پیروی از قواعد به آموختنِ حل‌مسئله کمک می‌کند.",
+      "fa": "ابداعِ بازی‌ها و رعایتِ قواعدشان به آموزشِ مهارتِ حلِ مسئله کمک می‌کند.",
       "en": "Creating games and following rules helps teach problem solving.",
       "ipa": "kriˈeɪtɪŋ ɡeɪmz ənd ˈfɑloʊɪŋ rulz hɛlps titʃ ˈprɑbləm ˈsɑlvɪŋ",
       "words": [
@@ -307,7 +307,7 @@ DRILL({
       ]
     },
     {
-      "fa": "جابه‌جا کردنِ بدن روی زمین‌های گوناگون به ما کمک می‌کند کنترلِ حرکتی‌مان را صیقل بدهیم.",
+      "fa": "حرکت دادنِ بدنمان روی زمین‌هایی با پستی‌وبلندی‌های گوناگون کمک می‌کند حرکاتمان را دقیق‌تر کنترل کنیم.",
       "en": "Moving our bodies through varied terrain helps hone our motor control.",
       "ipa": "ˈmuvɪŋ ˈaʊɚ ˈbɑdiz θru ˈvɛrid təˈreɪn hɛlps hoʊn ˈaʊɚ ˈmoʊtɚ kənˈtroʊl",
       "words": [
@@ -470,7 +470,7 @@ DRILL({
           "w": "agency",
           "ipa": "ˈeɪdʒənsi",
           "m": "the power to make your own choices and act on them",
-          "fa": "اختیار، عاملیت",
+          "fa": "اختیارِ کودک در انتخاب و هدایتِ بازی؛ مؤسسه یا نمایندگی",
           "more": "autonomy · independence"
         },
         {
@@ -561,7 +561,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گرچه همهٔ ما از کمی وقتِ بیشتر برای بازی بدمان نمی‌آید،",
+      "fa": "با اینکه وقتِ بیشتر برای بازی به کارِ همهٔ ما می‌آید،",
       "en": "While we could all use more time to play,",
       "ipa": "waɪl wi kʊd ɔl juz mɔr taɪm tə pleɪ",
       "words": [
@@ -569,7 +569,7 @@ DRILL({
           "w": "could use something",
           "ipa": "kʊd juz ˈsʌmθɪŋ",
           "m": "(informal) would like or would benefit from having something",
-          "fa": "بدمان نمی‌آید داشته باشیم، لازم داریم"
+          "fa": "چیزی به کارِ کسی می‌آید یا به آن نیاز دارد"
         }
       ]
     },
@@ -631,7 +631,7 @@ DRILL({
           "w": "hardly",
           "ipa": "ˈhɑrdli",
           "m": "almost not; certainly not",
-          "fa": "به‌سختی، اصلاً نه",
+          "fa": "تقریباً به هیچ‌وجه، بعید است بتوان … دانست",
           "more": "barely · scarcely"
         },
         {
@@ -651,7 +651,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این وسایل «قابلیتِ کاربردیِ» نسبتاً پایینی هم دارند —",
+      "fa": "این وسایل از نظرِ کارهای متفاوتی هم که می‌توان با آن‌ها کرد، امکاناتِ نسبتاً محدودی دارند؛",
       "en": "They also have relatively low affordance—",
       "ipa": "ðeɪ ˈɔlsoʊ hæv ˈrɛlətɪvli loʊ əˈfɔrdəns",
       "words": [
@@ -666,13 +666,13 @@ DRILL({
           "w": "affordance",
           "ipa": "əˈfɔrdəns",
           "m": "(technical) the ways in which an object can be used, as suggested by its design",
-          "fa": "قابلیتِ کاربرد، کارپذیری"
+          "fa": "امکان‌هایی که شکل و طراحیِ یک وسیله برای بازی یا کار با آن در اختیارِ فرد می‌گذارد"
         }
       ],
       "note": "affordance اصطلاحِ طراحی است و ربطی به afford به معنای «پولِ چیزی را داشتن» ندارد."
     },
     {
-      "fa": "اصطلاحی که پژوهشگرانِ بازی به کار می‌برند تا نشان دهند طراحیِ یک شیء چقدر باز و بی‌محدودیت است.",
+      "fa": "این اصطلاح را پژوهشگرانِ بازی به کار می‌برند تا بگویند طراحیِ یک وسیله تا چه حد راه را برای استفاده‌های مختلف باز می‌گذارد.",
       "en": "a term used by play researchers to indicate how open-ended an object’s design is.",
       "ipa": "ə tɝm juzd baɪ pleɪ ˈrisɚtʃɚz tə ˈɪndəˌkeɪt haʊ ˈoʊpən ˈɛndəd ən ˈɑbdʒɛkts dɪˈzaɪn ɪz",
       "words": [
@@ -694,13 +694,13 @@ DRILL({
           "w": "open-ended",
           "ipa": "ˈoʊpən ˈɛndəd",
           "m": "without fixed limits, allowing many possible results or uses",
-          "fa": "باز، بی‌محدودیت",
+          "fa": "باز به روی استفاده‌های مختلف؛ دربارهٔ سؤال، بدونِ پاسخی از پیش تعیین‌شده",
           "more": "flexible · unstructured"
         }
       ]
     },
     {
-      "fa": "با وسایلی که قابلیتِ کاربردیِ بالایی دارند، مثل جعبه‌شن، می‌شود به شکل‌های گوناگون تعامل کرد.",
+      "fa": "با وسایلی که امکان‌های فراوانی برای بازی می‌دهند، مثلِ محوطهٔ شن‌بازی، می‌توان به شکل‌های گوناگون بازی کرد.",
       "en": "Items with high affordance, like a sandbox, can be interacted with in many ways.",
       "ipa": "ˈaɪtəmz wɪð haɪ əˈfɔrdəns laɪk ə ˈsændˌbɑks kən bi ˌɪntəˈræktəd wɪð ɪn ˈmɛni weɪz",
       "words": [
@@ -721,7 +721,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در مقابل، اشیایی که قابلیتِ کاربردیِ پایینی دارند، مثل سرسره، فقط با در نظر داشتنِ یک کاربرد طراحی شده‌اند.",
+      "fa": "در مقابل، وسایلی که امکان‌های محدودی برای بازی می‌دهند، مثلِ سرسره، با در نظر گرفتنِ یک کاربردِ واحد طراحی شدند.",
       "en": "Meanwhile, objects with low affordance, like a slide, were designed with a single use in mind.",
       "ipa": "ˈminˌwaɪl ˈɑbdʒɛkts wɪð loʊ əˈfɔrdəns laɪk ə slaɪd wɚ dɪˈzaɪnd wɪð ə ˈsɪŋɡəl jus ɪn maɪnd",
       "words": [
@@ -749,7 +749,7 @@ DRILL({
       ]
     },
     {
-      "fa": "حتی وقتی بچه‌ها آن‌قدر خلاق‌اند که برای وسایلِ کم‌کاربرد کاربردهای تازه پیدا کنند،",
+      "fa": "حتی وقتی بچه‌ها آن‌قدر خلاق‌اند که برای وسایلی با کاربردهای محدود استفاده‌های تازه‌ای پیدا کنند،",
       "en": "Even when kids are creative enough to find new uses for low affordance objects,",
       "ipa": "ˈivɪn wɛn kɪdz ɚ kriˈeɪtɪv ɪˈnʌf tə faɪnd nu ˈjusɪz fɚ loʊ əˈfɔrdəns ˈɑbdʒɛkts",
       "words": [
@@ -763,7 +763,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این‌ها باز هم اسباب‌بازی‌هایی محدودترند.",
+      "fa": "خودِ آن وسایل باز هم بازیچه‌های محدودتری هستند.",
       "en": "they're still more limited playthings.",
       "ipa": "ðɛr stɪl mɔr ˈlɪmətəd ˈpleɪˌθɪŋz",
       "words": [
@@ -820,7 +820,7 @@ DRILL({
       ]
     },
     {
-      "fa": "فضاهای بزرگ و بازی پر از سازه‌های بسیار کاربردپذیر و امکان‌های بازیِ آزاد.",
+      "fa": "فضاهایی بزرگ و باز، پر از سازه‌هایی که می‌توان به شیوه‌های گوناگون با آن‌ها بازی کرد و فرصت‌هایی برای بازیِ آزاد.",
       "en": "big, open spaces full of high affordance structures and free play possibilities.",
       "ipa": "bɪɡ ˈoʊpən ˈspeɪsəz fʊl əv haɪ əˈfɔrdəns ˈstrʌktʃɚz ənd fri pleɪ ˌpɑsəˈbɪlətiz",
       "words": [
@@ -849,7 +849,7 @@ DRILL({
           "w": "to manipulate",
           "ipa": "tə məˈnɪpjəˌleɪt",
           "m": "to handle or move something with your hands in a skilful way",
-          "fa": "دست‌کاری کردن، با دست کار کردن روی",
+          "fa": "با دست چیزی را جابه‌جا کردن یا تغییر شکل دادن؛ کسی را زیرِ نفوذ گرفتن",
           "more": "manipulation · handle"
         },
         {
@@ -944,7 +944,7 @@ DRILL({
       "newPara": true
     },
     {
-      "fa": "پژوهشگرانِ بازی مثل الن ساندستر می‌گویند این به‌اصطلاح «بازیِ پرمخاطره» ضروری است.",
+      "fa": "پژوهشگرانِ بازی مثلِ الن ساندستر در پاسخ می‌گفتند که این به‌اصطلاح «بازیِ پرخطر» ضروری است.",
       "en": "play researchers like Ellen Sandseter would say this so-called risky play is essential.",
       "ipa": "pleɪ ˈrisɚtʃɚz laɪk ˈɛlən ˈsændˌsɪtɚ wʊd seɪ ðɪs ˌsoʊˈkɑld ˈrɪski pleɪ ɪz ɪˈsɛnʃəl",
       "words": [
@@ -1041,7 +1041,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یک پژوهش حتی دریافت که احتمالِ آسیبِ جدی دیدنِ بچه‌ها در زمین‌بازی‌های سنتی بیشتر است —",
+      "fa": "حتی یک پژوهش نشان داد که در زمین‌های بازیِ سنتی احتمالِ اینکه بچه‌ها به‌شدت آسیب ببینند بیشتر بود؛",
       "en": "One study even found that kids were more likely to get seriously injured in traditional playgrounds—",
       "ipa": "wʌn ˈstʌdi ˈivɪn faʊnd ðæt kɪdz wɚ mɔr ˈlaɪkli tə ɡɛt ˈsɪriəsli ˈɪndʒɚd ɪn trəˈdɪʃənəl ˈpleɪˌɡraʊndz",
       "words": [
@@ -1106,7 +1106,7 @@ DRILL({
           "w": "dose",
           "ipa": "doʊs",
           "m": "an amount of something, especially of a medicine; (figurative) an amount of an experience",
-          "fa": "مقدار، دوز",
+          "fa": "مقداری اندک از یک تجربه؛ مقدارِ مصرفِ دارو",
           "more": "a dose of · dosage"
         },
         {
@@ -1126,7 +1126,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و کمکشان می‌کند تا سال‌ها بعد اضطراب را بهتر مدیریت کنند.",
+      "fa": "و کمکشان می‌کند در سال‌های پیشِ رو اضطرابشان را بهتر مدیریت کنند.",
       "en": "helping them better manage anxiety for years to come.",
       "ipa": "ˈhɛlpɪŋ ðɛm ˈbɛtɚ ˈmænədʒ æŋˈzaɪəti fɚ jɪrz tə kʌm",
       "words": [
@@ -1237,7 +1237,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و زمین‌بازیِ ساحلیِ اوماها در نبراسکا نواری از کف‌پوشِ چندلایه را به‌شکلِ ستون‌فقراتِ زمینِ بازی به کار می‌برد،",
+      "fa": "و زمینِ بازیِ کرانهٔ رود در اوماهای نبراسکا از یک نوارِ کف‌سازیِ چندلایه به‌عنوانِ محورِ اصلیِ بازی استفاده می‌کند،",
       "en": "and Nebraska’s Omaha Riverfront Playground uses a ribbon of multi-layered decking as a play spine,",
       "ipa": "ənd nəˈbræskəz ˈoʊməˌhɑ ˈrɪvɚˌfrʌnt ˈpleɪˌɡraʊnd ˈjuzɪz ə ˈrɪbən əv ˌmʌltiˈleɪɚd ˈdɛkɪŋ əz ə pleɪ spaɪn",
       "words": [
@@ -1273,7 +1273,7 @@ DRILL({
           "w": "spine",
           "ipa": "spaɪn",
           "m": "(figurative) the main central part that the rest is built around",
-          "fa": "ستون‌فقرات، محورِ اصلی",
+          "fa": "محورِ اصلیِ زمینِ بازی؛ ستونِ فقرات",
           "more": "backbone"
         }
       ],
@@ -1337,7 +1337,7 @@ DRILL({
       ]
     },
     {
-      "fa": "زمین‌بازی‌هایی که از گسترهٔ وسیعی از فعالیت‌ها پشتیبانی می‌کنند و سرگرمی، اختیارِ عمل و چاشنی‌ای از عدمِ قطعیت را تقویت می‌کنند —",
+      "fa": "زمین‌هایی که جا برای فعالیت‌های گوناگون فراهم می‌کنند؛ فعالیت‌هایی که لذتِ بازی، اختیارِ عمل و چاشنیِ کوچکی از پیش‌بینی‌ناپذیری به همراه دارند",
       "en": "supporting a wide range of activities that promote fun, agency, and a dash of uncertainty—",
       "ipa": "səˈpɔrtɪŋ ə waɪd reɪndʒ əv ækˈtɪvətiz ðæt prəˈmoʊt fʌn ˈeɪdʒənsi ənd ə dæʃ əv ənˈsɝtənti",
       "words": [
@@ -1372,7 +1372,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و بچه‌ها را دعوت می‌کنند تا خودشان جاهای خالیِ امکان‌ها را پر کنند.",
+      "fa": "و بچه‌ها را دعوت می‌کنند تا خودشان به امکان‌های بازی شکل بدهند.",
       "en": "inviting kids to fill in the possibilities.",
       "ipa": "ɪnˈvaɪtɪŋ kɪdz tə fɪl ɪn ðə ˌpɑsəˈbɪlətiz",
       "words": [
@@ -1387,7 +1387,7 @@ DRILL({
           "w": "to fill in",
           "ipa": "tə fɪl ɪn",
           "m": "to complete something by adding what is missing",
-          "fa": "پر کردن (جاهای خالی)",
+          "fa": "خود جزئیاتِ چیزی را کامل کردن؛ جای خالی یا فرم را پر کردن",
           "more": "fill in the gaps · complete"
         }
       ]

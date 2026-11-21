@@ -41,7 +41,7 @@ DRILL({
       "note": "فعل پیش از فاعل آمده (Deep in … lurks a creature) — ساختارِ ادبیِ وارونه پس از قیدِ مکان."
     },
     {
-      "fa": "با دندان‌های تیز و نیشی زهرآگین: لوریسِ کُند.",
+      "fa": "با دندان‌هایی تیز و گازی زهرآگین؛ این جانور یک لوریسِ کُند است.",
       "en": "with sharp teeth and a venomous bite: a slow loris.",
       "ipa": "wɪð ʃɑrp tiθ ənd ə ˈvɛnəməs baɪt ə sloʊ ˈlɔrɪs",
       "words": [
@@ -56,13 +56,13 @@ DRILL({
           "w": "bite",
           "ipa": "baɪt",
           "m": "the act of cutting into something with the teeth",
-          "fa": "نیش، گاز",
+          "fa": "گاز، گازگرفتگی؛ لقمه",
           "more": "bite (v.) · bitten"
         }
       ]
     },
     {
-      "fa": "به‌رغمِ چهرهٔ چشم‌درشت و معصومشان،",
+      "fa": "با وجودِ ظاهرِ چشم‌درشتشان،",
       "en": "Despite their wide-eyed looks,",
       "ipa": "dɪˈspaɪt ðɛr waɪd aɪd lʊks",
       "words": [
@@ -83,7 +83,7 @@ DRILL({
       ]
     },
     {
-      "fa": "داستانشان بسیار درنده‌خوتر از آن است که شاید تصور کنید.",
+      "fa": "سرگذشتشان بسیار خشن‌تر از آن چیزی است که شاید تصور کنید.",
       "en": "their story is much fiercer than you might imagine.",
       "ipa": "ðɛr ˈstɔri ɪz mʌtʃ ˈfɪrsɚ ðən ju maɪt ɪˈmædʒən",
       "words": [
@@ -91,13 +91,13 @@ DRILL({
           "w": "fierce",
           "ipa": "fɪrs",
           "m": "violent, aggressive and frightening",
-          "fa": "درنده‌خو، خشن",
+          "fa": "خشن، پر از درگیری؛ درنده‌خو (جانور)؛ شدید (رقابت)",
           "more": "fiercely · ferocious · aggressive"
         }
       ]
     },
     {
-      "fa": "لوریس‌ها از همان ۷۰ میلیون سال پیش از دیگر نخستی‌ها جدا شدند،",
+      "fa": "جداییِ لوریس‌ها از دیگر نخستی‌ها به زمانی به دوریِ ۷۰ میلیون سال پیش برمی‌گردد،",
       "en": "Lorises split off from other primates as far back as 70 million years ago,",
       "ipa": "ˈlɔrɪsɪz splɪt ɔf frəm ˈʌðɚ ˈpraɪˌmeɪts əz fɑr bæk əz ˈsɛvənti ˈmɪljən jɪrz əˈɡoʊ",
       "newPara": true,
@@ -113,7 +113,7 @@ DRILL({
           "w": "primate",
           "ipa": "ˈpraɪˌmeɪt",
           "m": "a member of the group of animals that includes monkeys, apes and humans",
-          "fa": "نخستی (پستاندارِ راستهٔ میمون‌ها)",
+          "fa": "نخستی، عضوی از گروهِ پستاندارانِ شاملِ انسان، میمون‌ها و لوریس‌ها",
           "more": "ape · monkey"
         },
         {
@@ -161,7 +161,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هر عصر نزدیکِ غروب، لوریس‌ها جنب‌وجوششان را آغاز می‌کنند،",
+      "fa": "هر روز عصر نزدیکِ غروب، لوریس‌ها فعال می‌شوند،",
       "en": "Around sunset each evening, lorises get active,",
       "ipa": "əˈraʊnd ˈsʌnˌsɛt itʃ ˈivnɪŋ ˈlɔrɪsɪz ɡɛt ˈæktɪv",
       "words": [
@@ -183,7 +183,7 @@ DRILL({
           "w": "deliberately",
           "ipa": "dɪˈlɪbərətli",
           "m": "slowly and carefully",
-          "fa": "سنجیده، با دقت",
+          "fa": "سنجیده، با دقت؛ عمداً",
           "more": "deliberate · carefully"
         },
         {
@@ -272,7 +272,7 @@ DRILL({
       ]
     },
     {
-      "fa": "لوریس‌های کُند سهمِ بیشتری از تارهای ماهیچه‌ایِ کُندانقباض دارند،",
+      "fa": "در بدنِ لوریس‌های کُند، نسبتِ تارهای عضلانیِ کُندانقباض بیشتر است،",
       "en": "slow lorises have a higher proportion of slow-twitch muscle fibers,",
       "ipa": "sloʊ ˈlɔrɪsɪz hæv ə ˈhaɪɚ prəˈpɔrʃən əv sloʊ twɪtʃ ˈmʌsəl ˈfaɪbɚz",
       "words": [
@@ -294,7 +294,7 @@ DRILL({
       "note": "slow-twitch: تارهای ماهیچه‌ای که آهسته منقبض می‌شوند و دیر خسته می‌شوند (اصطلاحِ ورزش و زیست)."
     },
     {
-      "fa": "که برای تقلای طولانی و نفس‌گیر مناسب‌ترند تا برای جهش‌های تند و کوتاه.",
+      "fa": "تارهایی که برای فعالیتِ بدنیِ طولانی مناسب‌ترند تا برای حرکت‌های سریع و کوتاه.",
       "en": "which are favored for long-winded exertion versus speedy spurts.",
       "ipa": "wɪtʃ ɚ ˈfeɪvɚd fɚ lɔŋ ˈwɪndɪd ɪɡˈzɝʃən ˈvɝsəs ˈspidi spɝts",
       "words": [
@@ -309,7 +309,7 @@ DRILL({
           "w": "long-winded",
           "ipa": "lɔŋ ˈwɪndɪd",
           "m": "lasting a long time (usually: too long, of speech or writing)",
-          "fa": "طولانی",
+          "fa": "طولانی و مداوم (اینجا فعالیتِ بدنی)؛ درازگو یا بیش‌ازحد مفصل (سخن)",
           "more": "lengthy · drawn-out"
         },
         {
@@ -357,7 +357,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در صورتِ نیاز، لوریس‌های کُند می‌توانند ساعت‌ها بی‌حرکت بمانند و به یک شاخه چنگ بزنند،",
+      "fa": "لوریس‌های کُند در صورتِ نیاز می‌توانند ساعت‌ها بی‌حرکت بمانند، در حالی که یک شاخهٔ درخت را محکم گرفته‌اند،",
       "en": "When needed, slow lorises can stay still, gripped to one tree branch for hours,",
       "ipa": "wɛn ˈnidəd sloʊ ˈlɔrɪsɪz kən steɪ stɪl ɡrɪpt tə wʌn tri bræntʃ fɚ ˈaʊɚz",
       "words": [
@@ -385,7 +385,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و شبکه‌های اضافیِ رگ‌های خونی در دست‌وپایشان",
+      "fa": "و شبکه‌های اضافیِ رگ‌های خونی در اندام‌هایشان",
       "en": "extra blood vessel networks in their limbs",
       "ipa": "ˈɛkstrə blʌd ˈvɛsəl ˈnɛtˌwɝks ɪn ðɛr lɪmz",
       "words": [
@@ -406,7 +406,7 @@ DRILL({
       ]
     },
     {
-      "fa": "نمی‌گذارد ناتوان یا کرخت شوند.",
+      "fa": "مانع از آن می‌شوند که دست‌وپایشان ضعیف یا بی‌حس شود.",
       "en": "preventing them from weakening or becoming numb.",
       "ipa": "prɪˈvɛntɪŋ ðɛm frəm ˈwikənɪŋ ɔr bɪˈkʌmɪŋ nʌm",
       "words": [
@@ -414,7 +414,7 @@ DRILL({
           "w": "to prevent someone from",
           "ipa": "tə prɪˈvɛnt ˈsʌmˌwʌn frʌm",
           "m": "to stop someone from doing something or something from happening",
-          "fa": "نگذاشتن که، جلوگیری کردن از",
+          "fa": "مانعِ انجامِ کار یا دچار شدن به حالتی شدن",
           "more": "prevention · stop from"
         },
         {
@@ -513,7 +513,7 @@ DRILL({
           "w": "unsuspecting",
           "ipa": "ˌʌnsəˈspɛktɪŋ",
           "m": "not knowing that something bad is about to happen",
-          "fa": "ناآگاه، بی‌خبر",
+          "fa": "بی‌خبر از خطر، غافل",
           "more": "suspect · unaware"
         },
         {
@@ -526,7 +526,7 @@ DRILL({
       ]
     },
     {
-      "fa": "لوریس‌های کُند همه‌چیزخوارند و به سراغِ کلی حشره و جانورانِ کوچکِ دیگر می‌روند،",
+      "fa": "لوریس‌های کُند همه‌چیزخوارانی هستند که سراغِ حشراتِ فراوان و جانورانِ کوچکِ دیگر می‌روند،",
       "en": "Slow lorises are omnivores that go after lots of insects and other small animals,",
       "ipa": "sloʊ ˈlɔrɪsɪz ɚ ˈɑmnivɚz ðæt ɡoʊ ˈæftɚ lɑts əv ˈɪnˌsɛkts ənd ˈʌðɚ smɔl ˈænəməlz",
       "newPara": true,
@@ -597,7 +597,7 @@ DRILL({
           "w": "gum",
           "ipa": "ɡʌm",
           "m": "a sticky substance produced by some trees",
-          "fa": "صمغ",
+          "fa": "صمغِ درخت؛ آدامس؛ لثه",
           "more": "resin"
         },
         {
@@ -610,7 +610,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و پوستِ درخت را با ردیفی از دندان‌های ویژه‌ای که «شانهٔ دندانی» نام دارد می‌خراشند.",
+      "fa": "و با ردیفی از دندان‌های تخصص‌یافته که «شانهٔ دندانی» نامیده می‌شود، پوستِ درخت را می‌خراشند.",
       "en": "scratching at tree bark with a row of specialized teeth called a “toothcomb.”",
       "ipa": "ˈskrætʃɪŋ ət tri bɑrk wɪð ə roʊ əv ˈspɛʃəˌlaɪzd tiθ kɔld ə ˈtuθkəm",
       "words": [
@@ -625,7 +625,7 @@ DRILL({
           "w": "bark",
           "ipa": "bɑrk",
           "m": "the hard outer covering of a tree",
-          "fa": "پوستِ درخت"
+          "fa": "پوستِ درخت؛ پارسِ سگ"
         },
         {
           "w": "row",
@@ -644,7 +644,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گرچه گوارشِ این مواد گیاهی سخت است،",
+      "fa": "با اینکه هضمِ این موادِ گیاهی دشوار است،",
       "en": "Though these plant substances are tough to digest,",
       "ipa": "ðoʊ ðiz plænt ˈsʌbstənsəz ɚ tʌf tə daɪˈdʒɛst",
       "words": [
@@ -666,13 +666,13 @@ DRILL({
           "w": "to digest",
           "ipa": "tə daɪˈdʒɛst",
           "m": "to break down food in the stomach so the body can use it",
-          "fa": "گوارش کردن، هضم کردن",
+          "fa": "هضم کردنِ غذا؛ درک و جذب کردنِ اطلاعات",
           "more": "digestion · digestive"
         }
       ]
     },
     {
-      "fa": "به نظر می‌رسد لوریس‌های کُند برای سم‌زدایی از آن‌ها به‌خوبی تجهیز شده‌اند.",
+      "fa": "به نظر می‌رسد لوریس‌های کُند تواناییِ خوبی برای سم‌زدایی از آن مواد دارند.",
       "en": "slow lorises seem to be well-equipped to detoxify them.",
       "ipa": "sloʊ ˈlɔrɪsɪz sim tə bi wɛl ɪˈkwɪpt tə dɪˈtɑksəˌfaɪ ðɛm",
       "words": [
@@ -764,7 +764,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و گمان می‌رود دستگاهِ زهرشان یکی از پیچیده‌ترین‌ها در قلمروِ جانوران باشد.",
+      "fa": "و گمان می‌رود دستگاهِ زهرِ آن‌ها یکی از پیچیده‌ترین دستگاه‌های زهر در قلمروِ جانوران باشد.",
       "en": "And their venom system is thought to be one of the most complex in the animal kingdom.",
       "ipa": "ənd ðɛr ˈvɛnəm ˈsɪstəm ɪz θɔt tə bi wʌn əv ðə moʊst ˈkɑmplɛks ɪn ði ˈænəməl ˈkɪŋdəm",
       "words": [
@@ -799,7 +799,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این دستگاه دوبخشی کار می‌کند و از ترکیبِ دو ترشحِ جداگانه.",
+      "fa": "این دستگاه در دو بخش کار می‌کند، با ترکیبِ دو ترشحِ جداگانه.",
       "en": "It works in two parts, with the combination of two separate secretions.",
       "ipa": "ɪt wɝks ɪn tu pɑrts wɪð ðə ˌkɑmbəˈneɪʃən əv tu ˈsɛpərɪt səˈkriʃənz",
       "words": [
@@ -835,7 +835,7 @@ DRILL({
           "w": "to assume",
           "ipa": "tə əˈsum",
           "m": "to take a particular position or form",
-          "fa": "به خود گرفتن (حالت)",
+          "fa": "به خود گرفتنِ حالتِ بدنی؛ فرض کردن؛ بر عهده گرفتن",
           "more": "assume a pose · adopt"
         },
         {
@@ -1016,7 +1016,7 @@ DRILL({
           "w": "coat",
           "ipa": "koʊt",
           "m": "the fur or hair covering an animal's body",
-          "fa": "پوشش‌مو، پوستین",
+          "fa": "پوششِ موی جانور؛ پالتو؛ لایهٔ رنگ",
           "more": "fur · coat (clothing)"
         },
         {
@@ -1071,7 +1071,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و شاید در برابرِ تهدیدهای بزرگ‌تر هم محافظت کند.",
+      "fa": "و چه‌بسا این روغن در برابرِ تهدیدهای بزرگ‌تر هم از آن‌ها محافظت کند.",
       "en": "And it may also be protective against bigger threats.",
       "ipa": "ənd ɪt meɪ ˈɔlsoʊ bi prəˈtɛktɪv əˈɡɛnst ˈbɪɡɚ θrɛts",
       "words": [
@@ -1106,7 +1106,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شاید برای اینکه شکارچیان را منصرف کنند.",
+      "fa": "شاید برای اینکه به دور نگه داشتنِ شکارچیان کمک کند.",
       "en": "perhaps to help deter predators.",
       "ipa": "pɚˈhæps tə hɛlp dɪˈtɝ ˈprɛdətɚz",
       "words": [
@@ -1170,7 +1170,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دانشمندان با ردگیریِ یک جمعیت در طولِ هشت سال،",
+      "fa": "در جریانِ زیر نظر گرفتنِ یک جمعیت از این جانوران طی هشت سال،",
       "en": "Tracking one population over the course of eight years,",
       "ipa": "ˈtrækɪŋ wʌn ˌpɑpjəˈleɪʃən ˈoʊvɚ ðə kɔrs əv eɪt jɪrz",
       "words": [
@@ -1185,7 +1185,7 @@ DRILL({
           "w": "population",
           "ipa": "ˌpɑpjəˈleɪʃən",
           "m": "all the animals of one type living in an area",
-          "fa": "جمعیت",
+          "fa": "گروهی از افرادِ یک گونه در یک ناحیه؛ جمعیت",
           "more": "populate · populated"
         },
         {
@@ -1198,7 +1198,7 @@ DRILL({
       ]
     },
     {
-      "fa": "فقط مرگِ یک لوریسِ کُند را بر اثرِ شکار شدنِ طبیعی ثبت کردند.",
+      "fa": "دانشمندان فقط یک مورد ثبت کردند که در آن یک لوریسِ کُند بر اثرِ شکار شدن در طبیعت جان باخت.",
       "en": "scientists only recorded one slow loris dying from natural predation.",
       "ipa": "ˈsaɪəntɪsts ˈoʊnli rəˈkɔrdəd wʌn sloʊ ˈlɔrɪs ˈdaɪɪŋ frəm ˈnætʃərəl prəˈdeɪʃən",
       "words": [
@@ -1219,7 +1219,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما ۲۰ درصدشان را لوریس‌های کُندِ دیگر گاز گرفتند،",
+      "fa": "اما ۲۰ درصد از آن‌ها از سوی لوریس‌های کُندِ دیگر گاز گرفته شدند،",
       "en": "But 20% of them got bitten by other slow lorises,",
       "ipa": "bət ˈtwɛnti pɚˈsɛnt əv ðɛm ɡɑt ˈbɪtən baɪ ˈʌðɚ sloʊ ˈlɔrɪsɪz"
     },
@@ -1358,7 +1358,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که در آن یک گونهٔ خطرناک از اینکه ویژگی‌های خاصی را با گونه‌ای دیگر شریک است سود می‌برد،",
+      "fa": "که در آن یک گونهٔ خطرناک از داشتنِ برخی ویژگی‌های مشترک با گونه‌ای دیگر سود می‌برد،",
       "en": "where one dangerous species benefits from sharing certain characteristics with another,",
       "ipa": "wɛr wʌn ˈdeɪndʒərəs ˈspiʃiz ˈbɛnəfɪts frəm ˈʃɛrɪŋ ˈsɝtən ˌkɛrəktəˈrɪstɪks wɪð əˈnʌðɚ",
       "words": [
@@ -1422,7 +1422,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گویا ما پیام را نگرفته‌ایم.",
+      "fa": "انگار ما هنوز متوجهِ پیامی که به ما می‌دهند نمی‌شویم.",
       "en": "we don't seem to be getting the memo.",
       "ipa": "wi doʊnt sim tə bi ˈɡɛtɪŋ ðə ˈmɛˌmoʊ",
       "words": [
@@ -1430,7 +1430,7 @@ DRILL({
           "w": "to get the memo",
           "ipa": "tə ɡɛt ðə ˈmɛˌmoʊ",
           "m": "(informal) to understand something that others know or are trying to tell you",
-          "fa": "پیام را گرفتن، متوجه شدن",
+          "fa": "متوجهِ پیام یا منظور شدن (اصطلاح)؛ در معنیِ لفظی، یادداشت را دریافت کردن",
           "more": "get the message · catch on"
         }
       ]
@@ -1444,7 +1444,7 @@ DRILL({
           "w": "threatened",
           "ipa": "ˈθrɛtənd",
           "m": "(of a species) in danger of dying out",
-          "fa": "در معرضِ تهدید",
+          "fa": "در معرضِ خطرِ انقراض؛ تهدیدشده",
           "more": "endangered · at risk"
         }
       ]
@@ -1471,7 +1471,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در حالی که از سازوکارهای دفاعیِ طبیعی‌شان محروم شده‌اند و دندان‌هایشان را بریده یا کشیده‌اند.",
+      "fa": "در حالی که از دفاعِ طبیعی‌شان محروم شده‌اند و دندان‌هایشان بریده یا کشیده شده است.",
       "en": "stripped of their natural defenses, their teeth cut or pulled.",
       "ipa": "strɪpt əv ðɛr ˈnætʃərəl dɪˈfɛnsəz ðɛr tiθ kʌt ɔr pʊld",
       "words": [
@@ -1492,7 +1492,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دیگر خیلی وقت است که باید نشانه‌هایی را که می‌فرستند بفهمیم",
+      "fa": "خیلی وقت است که باید نشانه‌هایی را که آن‌ها پیوسته برایمان فرستاده‌اند دریابیم",
       "en": "It’s well past time to pick up on the signals they’ve been sending",
       "ipa": "ɪts wɛl pæst taɪm tə pɪk ʌp ɑn ðə ˈsɪɡnəlz ðeɪv bɪn ˈsɛndɪŋ",
       "words": [
@@ -1520,7 +1520,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و لوریسِ کُندِ درنده‌خو — و جنگل‌هایش — را به حالِ خود بگذاریم.",
+      "fa": "و لوریسِ کُندِ درنده‌خو و جنگل‌هایی را که این جانوران در آن‌ها زندگی می‌کنند به حالِ خود بگذاریم.",
       "en": "and leave the fierce slow loris— and their forests— alone.",
       "ipa": "ənd liv ðə fɪrs sloʊ ˈlɔrɪs ənd ðɛr ˈfɔrəsts əˈloʊn",
       "words": [

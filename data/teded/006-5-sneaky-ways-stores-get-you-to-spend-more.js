@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=a_4eFB8pPwI",
   "items": [
     {
-      "fa": "می‌خواهید یک هدفونِ ارزان از سبدِ حراجی‌ها بخرید که چشمتان به یک جنسِ واقعاً به‌صرفه می‌افتد.",
+      "fa": "درست وقتی می‌خواهید یک هدفون از سبدِ اجناس حراجی بخرید، چشمتان به یک خریدِ واقعاً به‌صرفه می‌افتد.",
       "en": "You're about to buy some bargain bin headphones when you spot a real bargain.",
       "ipa": "jʊr əˈbaʊt tə baɪ sʌm ˈbɑrɡən bɪn ˈhɛdˌfoʊnz wɛn ju spɑt ə ril ˈbɑrɡən",
       "newPara": true,
@@ -13,7 +13,7 @@ DRILL({
           "w": "to be about to",
           "ipa": "tə bi əˈbaʊt tu",
           "m": "to be going to do something very soon",
-          "fa": "در آستانهٔ … بودن، می‌خواستید که…"
+          "fa": "در آستانهٔ انجام کاری بودن، درست در شُرُفِ انجام آن بودن"
         },
         {
           "w": "bargain bin",
@@ -79,7 +79,7 @@ DRILL({
           "w": "to fall for",
           "ipa": "tə fɔl fɔr",
           "m": "to be tricked into believing something that is not true",
-          "fa": "گولِ (چیزی) را خوردن",
+          "fa": "اینجا: گولِ ترفندی را خوردن؛ دربارهٔ شخص: دل‌باختهٔ او شدن",
           "more": "be taken in by"
         },
         {
@@ -221,7 +221,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در عین حال در برابرِ خریدهای هوسی، فروشنده‌های زبل،",
+      "fa": "در برابر خریدهای آنی و از روی هوس و فروشنده‌های کاربلد هم آسیب‌پذیرند،",
       "en": "they’re also vulnerable to impulse purchases, savvy salespeople,",
       "ipa": "ðɛr ˈɔlsoʊ ˈvʌlnərəbəl tə ˈɪmpəls ˈpɝtʃəsəz ˈsævi ˈseɪlzˌpipəl",
       "words": [
@@ -256,7 +256,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و دیگر عواملِ بیرونی‌ای که آن‌ها را، خب، غیرمنطقی می‌کنند.",
+      "fa": "و همین‌طور در برابر دیگر عواملِ بیرونی که آن‌ها را، خب، غیرمنطقی می‌کنند.",
       "en": "and other external factors that make them, well, irrational.",
       "ipa": "ənd ˈʌðɚ ɪkˈstɝnəl ˈfæktɚz ðæt meɪk ðɛm wɛl ɪˈræʃənəl",
       "words": [
@@ -327,7 +327,7 @@ DRILL({
           "w": "to inform",
           "ipa": "tə ɪnˈfɔrm",
           "m": "to influence or shape something",
-          "fa": "پایه و مبنای (چیزی) شدن، شکل دادن به"
+          "fa": "اینجا: به چیزی شکل دادن، مبنای آن قرار گرفتن؛ در کاربرد روزمره: خبر دادن، آگاه کردن"
         },
         {
           "w": "birth",
@@ -502,7 +502,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به گفتهٔ اقتصاددانانِ رفتاری، به‌جای استفاده از منطق، به «هیوریستیک‌ها» (قاعده‌های سرانگشتی) پناه می‌بریم —",
+      "fa": "اقتصاددانان رفتاری می‌گویند به‌جای استفاده از منطق، به قاعده‌های سرانگشتی متوسل می‌شویم —",
       "en": "Rather than using logic, behavioral economists say we fall back on heuristics—",
       "ipa": "ˈræðɚ ðən ˈjuzɪŋ ˈlɑdʒɪk bɪˈheɪvjərəl ɪˈkɑnəmɪsts seɪ wi fɔl bæk ɑn hjʊˈrɪstɪks",
       "words": [
@@ -553,7 +553,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برای مثال، هیوریستیکِ «لنگراندازی» می‌گوید",
+      "fa": "برای نمونه، قاعدهٔ سرانگشتیِ «لنگراندازی» حاکی از این است",
       "en": "For example, the anchoring heuristic suggests",
       "ipa": "fɚ ɪɡˈzæmpəl ði ˈæŋkərɪŋ hjʊˈrɪstɪk səɡˈdʒɛsts",
       "words": [
@@ -573,7 +573,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که اولین اطلاعاتی که به دستتان می‌رسد، مبنای تصمیم‌گیری‌های بعدی‌تان می‌شود.",
+      "fa": "که نخستین داده‌ای که به دست می‌آورید، مبنای تصمیم‌گیری‌های بعدی‌تان می‌شود.",
       "en": "that the first piece of information you get becomes your baseline for future decision making.",
       "ipa": "ðæt ðə fɝst pis əv ˌɪnfɚˈmeɪʃən ju ɡɛt bɪˈkʌmz jɔr ˈbeɪˌslaɪn fɚ ˈfjutʃɚ dɪˈsɪʒən ˈmeɪkɪŋ",
       "words": [
@@ -618,7 +618,7 @@ DRILL({
       ]
     },
     {
-      "fa": "روان‌شناسانی مانند دنیل کانمن معتقد بودند هیوریستیک‌ها بسیاری از انتخاب‌های مصرف‌کنندگان را پیش‌بینی می‌کنند —",
+      "fa": "روان‌شناسانی مثل دنیل کانمن معتقد بودند قاعده‌های سرانگشتی بسیاری از انتخاب‌های مصرف‌کنندگان را پیش‌بینی می‌کنند —",
       "en": "Psychologists like Daniel Kahneman thought heuristics predict many consumer choices—",
       "ipa": "saɪˈkɑlədʒəsts laɪk ˈdænjəl ˈkɑnɪmən θɔt hjʊˈrɪstɪks prɪˈdɪkt ˈmɛni kənˈsumɚ ˈtʃɔɪsəz",
       "newPara": true,
@@ -699,7 +699,7 @@ DRILL({
       ]
     },
     {
-      "fa": "لنگراندازی فقط یکی از هیوریستیک‌های فراوانی است که خرده‌فروشان از آن‌ها سوءاستفاده می‌کنند.",
+      "fa": "لنگراندازی فقط یکی از قاعده‌های سرانگشتیِ فراوانی است که خرده‌فروشان از آن‌ها بهره‌برداری می‌کنند.",
       "en": "Anchoring is just one of many heuristics retailers exploit.",
       "ipa": "ˈæŋkərɪŋ ɪz dʒʌst wʌn əv ˈmɛni hjʊˈrɪstɪks ˈriˌteɪlɚz ˈɛkˌsplɔɪt",
       "words": [
@@ -707,7 +707,7 @@ DRILL({
           "w": "to exploit",
           "ipa": "tə ˈɛkˌsplɔɪt",
           "m": "to use something unfairly for your own advantage",
-          "fa": "سوءاستفاده کردن از، بهره‌کشی کردن",
+          "fa": "اینجا: به نفع خود به کار گرفتن، از چیزی بهره بردن؛ دربارهٔ افراد: استثمار کردن",
           "more": "exploitation"
         }
       ]
@@ -796,7 +796,8 @@ DRILL({
           "fa": "جذاب",
           "more": "appeal"
         }
-      ]
+      ],
+      "note": "در نوشتار معیار، وقتی انتخاب واژه‌ها و قیمت‌گذاری را دو عامل جدا می‌گیری، فعل جمع می‌آید: <en>careful language and pricing make one more appealing</en>."
     },
     {
       "fa": "این همان «اثرِ قاب‌بندی» است (تأثیرِ شیوهٔ ارائه بر انتخاب)،",
@@ -844,7 +845,7 @@ DRILL({
       "ipa": "hɪrz ən ɪɡˈzæmpəl əv əˈnʌðɚ"
     },
     {
-      "fa": "برخی خواربارفروشی‌های آمریکایی امتحان کردند مشتری‌ها را به آوردنِ کیسه‌های خریدِ قابلِ استفادهٔ دوباره تشویق کنند،",
+      "fa": "برخی خواربارفروشی‌های آمریکایی این روش را امتحان کردند که مشتری‌ها را به آوردنِ کیسه‌های خریدِ چندبارمصرف تشویق کنند،",
       "en": "some American grocery stores tried encouraging customers to bring reusable shopping bags",
       "ipa": "sʌm əˈmɛrəkən ˈɡroʊsəri stɔrz traɪd ɛnˈkɝɪdʒɪŋ ˈkʌstəmɚz tə brɪŋ riˈuzəbəl ˈʃɑpɪŋ bæɡz",
       "words": [
@@ -878,7 +879,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با دادنِ ۵ سنت اعتبار (تخفیف).",
+      "fa": "آن هم با پیشنهادِ پنج سنت اعتبارِ خرید.",
       "en": "by offering a 5 cent credit.",
       "ipa": "baɪ ˈɔfərɪŋ ə faɪv sɛnt ˈkrɛdət",
       "words": [
@@ -977,7 +978,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و خرده‌فروشان این ترسِ از دست دادنِ ارزش را با تأکید بر کمیابیِ حراج یا مهلتی که دارد سر می‌رسد برمی‌انگیزند.",
+      "fa": "و خرده‌فروشان با تأکید بر کمیاب بودنِ یک فرصتِ حراج یا نزدیک بودنِ پایانِ مهلتِ آن، این ترس از دست دادنِ ارزش را برمی‌انگیزند.",
       "en": "and retailers trigger this fear of losing value by emphasizing a sale’s scarcity or looming deadline.",
       "ipa": "ənd ˈriˌteɪlɚz ˈtrɪɡɚ ðɪs fɪr əv ˈluzɪŋ ˈvælju baɪ ˈɛmfəˌsaɪzɪŋ ə seɪlz ˈskɛrsɪti ɔr ˈlumɪŋ ˈdɛdˌlaɪn",
       "words": [
@@ -1150,7 +1151,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما در واقعیت فقط سه بطری را چشیده بودند،",
+      "fa": "اما در واقع فقط شرابِ سه بطری را چشیدند،",
       "en": "But in reality they only tasted three bottles,",
       "ipa": "bət ɪn riˈæləti ðeɪ ˈoʊnli ˈteɪstəd θri ˈbɑtəlz",
       "words": [
@@ -1163,7 +1164,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و دو تا از ارزان‌ترها دو نقش داشتند: جای دو تا از گران‌ترین‌ها را هم پر می‌کردند.",
+      "fa": "و دو بطریِ ارزان‌تر از همه، نقشِ دو بطریِ گران‌تر از همه را هم بازی می‌کردند.",
       "en": "with the two cheapest pulling double duty as the two priciest.",
       "ipa": "wɪð ðə tu ˈtʃipəst ˈpʊlɪŋ ˈdʌbəl ˈduti əz ðə tu ˌpraɪsiɪst",
       "words": [
@@ -1341,7 +1342,7 @@ DRILL({
       "ipa": "fɝst ʃɑp ˈsloʊɚ"
     },
     {
-      "fa": "تصمیم‌گیریِ مبتنی بر هیوریستیک سریع و غریزی است،",
+      "fa": "تصمیم‌گیری بر پایهٔ قاعده‌های سرانگشتی، سریع و غریزی است،",
       "en": "Heuristic-based decision making is quick and instinctive,",
       "ipa": "hjʊˈrɪstɪk beɪst dɪˈsɪʒən ˈmeɪkɪŋ ɪz kwɪk ənd ɪnˈstɪŋktɪv",
       "words": [
@@ -1361,7 +1362,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس آهسته کردن و حساب‌وکتاب کردن می‌تواند از حقیقتِ یک پیشنهادِ پرزرق‌وبرق پرده بردارد.",
+      "fa": "پس اگر آهسته‌تر پیش بروید و حساب‌وکتاب کنید، ممکن است از واقعیتِ پشتِ یک پیشنهاد پرزرق‌وبرق پرده بردارید.",
       "en": "so slowing down to run the numbers can pull back the curtain on a flashy deal.",
       "ipa": "soʊ ˈsloʊɪŋ daʊn tə rʌn ðə ˈnʌmbɚz kən pʊl bæk ðə ˈkɝtən ɑn ə ˈflæʃi dil",
       "words": [
@@ -1398,7 +1399,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اینکه پیش از خرید تصمیم بگیرید یک محصول برای شما چقدر می‌ارزد، کمک می‌کند لنگرِ خودتان را خودتان بیندازید.",
+      "fa": "اگر پیش از خرید تعیین کنید کالایی برای خودتان چقدر می‌ارزد، راحت‌تر می‌توانید نقطه‌های اتکای خودتان را تعیین کنید.",
       "en": "Deciding what a product is worth to you before shopping can help set your own anchors.",
       "ipa": "dəˈsaɪdɪŋ wʌt ə ˈprɑdəkt ɪz wɝθ tə ju bɪˈfɔr ˈʃɑpɪŋ kən hɛlp sɛt jɔr oʊn ˈæŋkɚz",
       "words": [

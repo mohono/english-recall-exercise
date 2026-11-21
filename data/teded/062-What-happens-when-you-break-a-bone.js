@@ -26,7 +26,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما چه علتش چیزی به پیش‌پاافتادگیِ لیز خوردن روی یخ باشد،",
+      "fa": "اما چه علتِ شکستگی چیزی پیش‌پاافتاده مثلِ سُر خوردن روی یخ باشد،",
       "en": "But whether the cause is as mundane as a slip on the ice",
       "ipa": "bət ˈwɛðɚ ðə kɑz ɪz əz mənˈdeɪn əz ə slɪp ɑn ði aɪs",
       "words": [
@@ -48,13 +48,13 @@ DRILL({
           "w": "slip",
           "ipa": "slɪp",
           "m": "an accident in which your foot slides and you fall",
-          "fa": "لیز خوردن، سُر خوردن",
+          "fa": "سُر خوردن، لغزش؛ اشتباهِ سهوی",
           "more": "to slip · slippery"
         }
       ]
     },
     {
-      "fa": "چه به پرهیجانیِ حادثه‌ای در بندبازی، استخوان‌های شکسته معمولاً به یک شکل جوش می‌خورند.",
+      "fa": "چه اتفاقی چشمگیر مثلِ حادثه‌ای هنگامِ بندبازی، استخوان‌های شکسته معمولاً به یک شکل جوش می‌خورند.",
       "en": "or as dramatic as a tightrope-walking accident, broken bones tend to heal the same way.",
       "ipa": "ɔr əz drəˈmætɪk əz ə ˈtaɪˌtroʊp ˈwɔkɪŋ ˈæksədənt ˈbroʊkən boʊnz tɛnd tə hil ðə seɪm weɪ",
       "words": [
@@ -62,7 +62,7 @@ DRILL({
           "w": "dramatic",
           "ipa": "drəˈmætɪk",
           "m": "exciting and impressive; sudden and noticeable",
-          "fa": "پرهیجان، چشمگیر",
+          "fa": "چشمگیر، پرماجرا؛ نمایشی",
           "more": "drama · dramatically"
         },
         {
@@ -83,7 +83,7 @@ DRILL({
           "w": "to heal",
           "ipa": "tə hil",
           "m": "to become healthy again after an injury",
-          "fa": "خوب شدن، جوش خوردن، التیام یافتن",
+          "fa": "جوش خوردنِ استخوان، التیام یافتن، خوب شدن",
           "more": "healing · to recover"
         }
       ]
@@ -111,7 +111,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که متخصصانِ پزشکی آن‌ها را استخوان‌های کوتاه، استخوان‌های بلند، استخوان‌های پهن",
+      "fa": "که متخصصانِ پزشکی برایشان این نام‌ها را به کار می‌برند: استخوان‌های کوتاه، استخوان‌های بلند، استخوان‌های پهن",
       "en": "referred to by medical professionals as short bones, long bones, flat bones,",
       "ipa": "rəˈfɝd tə baɪ ˈmɛdəkəl prəˈfɛʃənəlz əz ʃɔrt boʊnz lɔŋ boʊnz flæt boʊnz",
       "words": [
@@ -132,7 +132,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و ردهٔ همه‌چیزدرخودِ استخوان‌های نامنظم می‌نامند.",
+      "fa": "و دسته‌ای برای همهٔ مواردِ دیگر به نامِ استخوان‌های نامنظم.",
       "en": "and the catch-all category of irregular bones.",
       "ipa": "ənd ðə ˈkæˌtʃɔl ˈkætəˌɡɔri əv ɪˈrɛɡjəlɚ boʊnz",
       "words": [
@@ -140,7 +140,7 @@ DRILL({
           "w": "catch-all",
           "ipa": "ˈkæˌtʃɔl",
           "m": "a group or term that includes everything not covered by others",
-          "fa": "همه‌چیزدرخود، فراگیر",
+          "fa": "فراگیر، شاملِ همهٔ مواردِ باقی‌مانده",
           "more": "umbrella term · miscellaneous"
         },
         {
@@ -195,7 +195,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که از زمینه‌ای پروتئینی تشکیل شده که جای‌جای آن سلول‌های استخوانی پخش‌اند",
+      "fa": "که از بستری پروتئینی تشکیل شده است؛ سلول‌های استخوانی در جای‌جای این بستر پراکنده‌اند",
       "en": "composed of a protein matrix that’s dotted with bone cells",
       "ipa": "kəmˈpoʊzd əv ə ˈproʊˌtin ˈmeɪtrɪks ðæts ˈdɑtəd wɪð boʊn sɛlz",
       "words": [
@@ -217,7 +217,7 @@ DRILL({
           "w": "to be dotted with",
           "ipa": "tə bi ˈdɑtəd wɪð",
           "m": "to have many small things spread across it",
-          "fa": "جای‌جایش پر از … بودن",
+          "fa": "چیزی را به‌صورتِ پراکنده در جای‌جای خود داشتن",
           "more": "scattered with · sprinkled with"
         }
       ]
@@ -251,7 +251,7 @@ DRILL({
       ]
     },
     {
-      "fa": "درونِ این پوسته‌های سفت مغزِ استخوانِ اسفنجی هست،",
+      "fa": "درونِ این پوسته‌های سفت، مغزِ اسفنجیِ استخوان قرار دارد،",
       "en": "Inside these stiff exteriors is spongy marrow,",
       "ipa": "ɪnˈsaɪd ðiz stɪf ɛkˈstɪriɚz ɪz ˈspʌndʒi ˈmɛroʊ",
       "words": [
@@ -266,7 +266,7 @@ DRILL({
           "w": "exterior",
           "ipa": "ɪkˈstɪriɚ",
           "m": "the outside part of something",
-          "fa": "بیرون، پوستهٔ بیرونی",
+          "fa": "پوسته یا بخشِ بیرونی، نمای بیرونی",
           "more": "interior · outer"
         },
         {
@@ -404,7 +404,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برای همین هنوز دقیقاً نمی‌دانیم چرا استخوانِ شکسته این‌قدر درد دارد.",
+      "fa": "برای همین هنوز دقیقاً نمی‌دانیم چرا استخوان‌های شکسته این‌قدر درد دارند.",
       "en": "so we still don't know exactly why broken bones hurt so much.",
       "ipa": "soʊ wi stɪl doʊnt noʊ ɪɡˈzæktli waɪ ˈbroʊkən boʊnz hɝt soʊ mʌtʃ"
     },
@@ -415,7 +415,7 @@ DRILL({
       "note": "do این‌جا تأکیدی است: «این را واقعاً می‌دانیم»."
     },
     {
-      "fa": "چون اغلب بیشترین فشارِ ضربهٔ افتادن را تحمل می‌کنند.",
+      "fa": "چون هنگامِ زمین خوردن اغلب بیشترین شدتِ ضربه را همین استخوان‌ها تحمل می‌کنند.",
       "en": "since they often take the brunt of the impact from a fall.",
       "ipa": "sɪns ðeɪ ˈɔfən teɪk ðə brʌnt əv ði ˈɪmpækt frəm ə fɔl",
       "words": [
@@ -436,7 +436,7 @@ DRILL({
       ]
     },
     {
-      "fa": "چه حادثه به شکستگیِ تمیز منجر شود چه به ترکی ریزریزکننده،",
+      "fa": "چه حادثه باعثِ شکستگیِ صاف و یکدست شود، چه تَرَکی که استخوان را خُرد می‌کند،",
       "en": "Whether an accident causes a clean break or a splintering crack,",
       "ipa": "ˈwɛðɚ ən ˈæksədənt ˈkɑzəz ə klin breɪk ɔr ə ˈsplɪntərɪŋ kræk",
       "newPara": true,
@@ -445,14 +445,14 @@ DRILL({
           "w": "clean break",
           "ipa": "klin breɪk",
           "m": "(of a bone) a break in one straight line, without small pieces",
-          "fa": "شکستگیِ تمیز/ساده",
+          "fa": "شکستگیِ صاف و یکدست، بدونِ خُردشدگی",
           "more": "a clean break (fig.: a complete separation)"
         },
         {
           "w": "to splinter",
           "ipa": "tə ˈsplɪntɚ",
           "m": "to break into small sharp pieces",
-          "fa": "ریزریز شدن، تراشه‌تراشه شدن",
+          "fa": "خُرد و چندپاره شدن، تراشه‌تراشه شدن",
           "more": "splinter (n.) · to shatter"
         },
         {
@@ -529,7 +529,7 @@ DRILL({
           "w": "healing",
           "ipa": "ˈhilɪŋ",
           "m": "the process of becoming healthy again",
-          "fa": "بهبود، التیام",
+          "fa": "جوش خوردنِ استخوان؛ التیام، بهبود",
           "more": "to heal"
         },
         {
@@ -542,7 +542,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در یک هفتهٔ بعد، بدن محلِ آسیب را پر از سلول‌های ایمنی می‌کند",
+      "fa": "در طولِ هفتهٔ بعد، بدن محلِ آسیب را پر از سلول‌های ایمنی می‌کند",
       "en": "For the next week, the body floods the injury site with immune cells",
       "ipa": "fɚ ðə nɛkst wik ðə ˈbɑdi flʌdz ði ˈɪndʒəri saɪt wɪð ɪˈmjun sɛlz",
       "words": [
@@ -620,18 +620,18 @@ DRILL({
           "w": "to recruit",
           "ipa": "tə rəˈkrut",
           "m": "to get someone to come and join or help",
-          "fa": "فراخواندن، به خدمت گرفتن",
+          "fa": "به محل فراخواندنِ سلول‌ها؛ به خدمت گرفتن، جذبِ نیرو کردن",
           "more": "recruitment · to enlist"
         }
       ]
     },
     {
-      "fa": "این سلول‌های بنیادی وقتی می‌رسند، به کندروسیت تمایز پیدا می‌کنند.",
+      "fa": "این سلول‌های بنیادی با رسیدن به آن ناحیه، تمایز می‌یابند و به کندروسیت تبدیل می‌شوند.",
       "en": "As they arrive, these stem cells differentiate into chondrocytes.",
       "ipa": "əz ðeɪ əˈraɪv ðiz stɛm sɛlz ˌdɪfəˈrɛnʃiˌeɪt ɪnˈtu ˈkɑndrəˌsaɪts"
     },
     {
-      "fa": "این سلول‌ها خونِ لخته‌شده در محلِ شکستگی را داربستی می‌کنند",
+      "fa": "این سلول‌ها از خونِ لخته‌شده در محلِ شکستگی به‌عنوانِ داربست استفاده می‌کنند",
       "en": "These cells use the clotted blood at the break site as a scaffold",
       "ipa": "ðiz sɛlz juz ðə ˈklɑtəd blʌd ət ðə breɪk saɪt əz ə ˈskæfəld",
       "words": [
@@ -646,13 +646,13 @@ DRILL({
           "w": "scaffold",
           "ipa": "ˈskæfəld",
           "m": "a frame that supports something while it is being built",
-          "fa": "داربست",
+          "fa": "داربست، تکیه‌گاهی برای رشدِ بافت",
           "more": "scaffolding · framework"
         }
       ]
     },
     {
-      "fa": "تا پینه‌ای از جنسِ غضروف بسازند.",
+      "fa": "تا کالوسی از جنسِ غضروف بسازند.",
       "en": "to build callus made of cartilage.",
       "ipa": "tə bɪld ˈkæləs meɪd əv ˈkɑrtələdʒ",
       "words": [
@@ -660,7 +660,7 @@ DRILL({
           "w": "callus",
           "ipa": "ˈkæləs",
           "m": "a hard area that forms on skin or around a healing bone",
-          "fa": "پینه، کالوس",
+          "fa": "کالوس، بافتِ ترمیمیِ محلِ شکستگی؛ پینهٔ پوست",
           "more": "callused"
         },
         {
@@ -673,7 +673,7 @@ DRILL({
       ]
     },
     {
-      "fa": "غضروف خیلی سریع رشد می‌کند و همین آن را وصله‌ای موقت و به‌دردبخور می‌کند.",
+      "fa": "غضروف می‌تواند خیلی سریع رشد کند و به همین دلیل وصلهٔ موقتِ مناسبی است.",
       "en": "Cartilage can grow very quickly, making it a useful temporary patch.",
       "ipa": "ˈkɑrtələdʒ kən ɡroʊ ˈvɛri ˈkwɪkli ˈmeɪkɪŋ ɪt ə ˈjusfəl ˈtɛmpəˌrɛri pætʃ",
       "words": [
@@ -722,7 +722,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که می‌توانند پینهٔ استخوانیِ محکم‌تری بسازند.",
+      "fa": "که می‌توانند کالوسِ استخوانیِ محکم‌تری بسازند.",
       "en": "that can create a stronger bony callus.",
       "ipa": "ðæt kən kriˈeɪt ə ˈstrɔŋɚ ˈboʊni ˈkæləs",
       "words": [
@@ -737,7 +737,7 @@ DRILL({
       "note": "bony برای آدم معمولاً یعنی «لاغر و استخوانی»؛ این‌جا یعنی «از جنسِ استخوان»."
     },
     {
-      "fa": "وقتی پینهٔ استخوانی کامل شد، مرحلهٔ بازسازی می‌تواند شروع شود.",
+      "fa": "همین‌که کالوسِ استخوانی کامل شود، مرحلهٔ بازسازی می‌تواند آغاز شود.",
       "en": "Once the bony callus is complete, the remodeling phase can begin.",
       "ipa": "wʌns ðə ˈboʊni ˈkæləs ɪz kəmˈplit ðə rɪˈmɑdəlɪŋ feɪz kən bɪˈɡɪn",
       "newPara": true,
@@ -759,7 +759,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در چند ماهِ بعد، نوعِ دیگری از سلول پینهٔ استخوانی را کم‌کم می‌خورد",
+      "fa": "در طولِ چند ماهِ بعد، نوعِ دیگری از سلول کم‌کم کالوسِ استخوانی را تجزیه می‌کند",
       "en": "Over the next few months, another type of cell eats away at the bony callus",
       "ipa": "ˈoʊvɚ ðə nɛkst fju mʌnθs əˈnʌðɚ taɪp əv sɛl its əˈweɪ ət ðə ˈboʊni ˈkæləs",
       "words": [
@@ -767,13 +767,13 @@ DRILL({
           "w": "to eat away at",
           "ipa": "tə it əˈweɪ æt",
           "m": "to gradually destroy or remove something",
-          "fa": "کم‌کم خوردن، آرام‌آرام از بین بردن",
+          "fa": "کم‌کم تحلیل بردن یا از بین بردن، ذره‌ذره خوردن",
           "more": "to erode · to wear away"
         }
       ]
     },
     {
-      "fa": "در حالی که استئوبلاست‌ها بافتِ استخوانیِ تازه را لایه‌لایه می‌سازند.",
+      "fa": "و هم‌زمان استئوبلاست‌ها بافتِ استخوانیِ تازه می‌سازند.",
       "en": "as osteoblasts lay down new bone tissue.",
       "ipa": "əz ˈɑstəbəstəlz leɪ daʊn nu boʊn ˈtɪsˌju",
       "words": [
@@ -781,7 +781,7 @@ DRILL({
           "w": "to lay down",
           "ipa": "tə leɪ daʊn",
           "m": "to build or form a layer of something",
-          "fa": "بنا کردن، لایه‌لایه ساختن",
+          "fa": "ساختن و بر جای گذاشتنِ بافت؛ بر زمین گذاشتن",
           "more": "to deposit · to build up"
         }
       ]
@@ -813,7 +813,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما جدولِ زمانیِ بهبود خیلی متفاوت است",
+      "fa": "اما مدتِ لازم برای جوش خوردن بسیار متفاوت است،",
       "en": "But the healing timeline varies widely",
       "ipa": "bət ðə ˈhilɪŋ ˈtaɪmlaɪn ˈvɛriz ˈwaɪdli",
       "words": [
@@ -821,7 +821,7 @@ DRILL({
           "w": "timeline",
           "ipa": "ˈtaɪmlaɪn",
           "m": "the time over which a series of events happens",
-          "fa": "جدولِ زمانی، بازهٔ زمانی",
+          "fa": "مدت یا سیرِ زمانیِ بهبود، جدولِ زمانی",
           "more": "schedule · time frame"
         },
         {
@@ -834,7 +834,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و بستگی دارد به رژیمِ غذاییِ بیمار، اینکه چقدر استراحت می‌کند، و شکستگی چقدر درهم‌ریخته است.",
+      "fa": "بسته به رژیمِ غذاییِ بیمار، میزانِ استراحتش و اینکه شکستگی چقدر پیچیده است.",
       "en": "depending on a patient's diet, how much rest they’re getting, and how messy the break is.",
       "ipa": "dɪˈpɛndɪŋ ɑn ə ˈpeɪʃənts ˈdaɪət haʊ mʌtʃ rɛst ðɛr ˈɡɛtɪŋ ənd haʊ ˈmɛsi ðə breɪk ɪz",
       "words": [
@@ -862,13 +862,13 @@ DRILL({
           "w": "messy",
           "ipa": "ˈmɛsi",
           "m": "not neat; complicated and difficult",
-          "fa": "درهم‌ریخته، نامرتب",
+          "fa": "پیچیده و نامنظم (دربارهٔ شکستگی)، درهم‌ریخته",
           "more": "mess"
         }
       ]
     },
     {
-      "fa": "شکستگیِ تمیز معمولاً از همه زودتر خوب می‌شود،",
+      "fa": "شکستگیِ صاف و یکدست معمولاً از همه سریع‌تر جوش می‌خورد،",
       "en": "A clean break generally heals the fastest,",
       "ipa": "ə klin breɪk ˈdʒɛnərəli hilz ðə ˈfæstəst"
     },
@@ -901,7 +901,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما اگر استخوان خرد شده و به تکه‌های ریز تبدیل شده باشد و حسابی از جایش در رفته باشد،",
+      "fa": "اما اگر استخوان به تکه‌های ریز خُرد شده باشد و به‌میزانِ قابل‌توجهی جابه‌جا شده باشد،",
       "en": "But if the bone has been splintered into tiny fragments and significantly displaced,",
       "ipa": "bət ɪf ðə boʊn hæz bɪn ˈsplɪntɚd ɪnˈtu ˈtaɪni ˈfræɡmənts ənd sɪɡˈnɪfɪkəntli dɪˈspleɪst",
       "words": [
@@ -957,7 +957,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و اگر استخوانی کج و ناهم‌راستا جوش بخورد، جراح باید دوباره آن را بشکند و هم‌راستایش کند،",
+      "fa": "و اگر استخوان در همان حالتِ ناهم‌راستا جوش بخورد، لازم می‌شود جراح دوباره آن را بشکند، در راستای درست قرار دهد",
       "en": "And if a bone does heal while misaligned, a surgeon would need to refracture it, realign it,",
       "ipa": "ənd ɪf ə boʊn dʌz hil waɪl mɪsəˈlaɪnd ə ˈsɝdʒən wʊd nid tə riˈfræktʃɚ ɪt riəˈlaɪn ɪt",
       "words": [
@@ -986,7 +986,7 @@ DRILL({
       "note": "پیشوندِ re- یعنی «دوباره»: refracture = دوباره شکستن."
     },
     {
-      "fa": "و بعد با میله، صفحه یا پیچ استخوان را سرِ هم نگه دارد.",
+      "fa": "و بعد با پین، پلاک یا پیچ، قطعاتِ استخوان را کنارِ هم نگه دارد.",
       "en": "and then use pins, plates, or screws to hold the bone together.",
       "ipa": "ənd ðɛn juz pɪnz pleɪts ɔr skruz tə hoʊld ðə boʊn təˈɡɛðɚ",
       "words": [
@@ -994,7 +994,7 @@ DRILL({
           "w": "pin",
           "ipa": "pɪn",
           "m": "a thin piece of metal used to hold bones together",
-          "fa": "میله، پین",
+          "fa": "پینِ جراحی، میلهٔ باریک؛ سنجاق",
           "more": "to pin"
         },
         {
@@ -1008,7 +1008,7 @@ DRILL({
           "w": "to hold together",
           "ipa": "tə hoʊld təˈɡɛðɚ",
           "m": "to keep the parts of something joined",
-          "fa": "سرِ هم نگه داشتن",
+          "fa": "کنارِ هم نگه داشتن، مانعِ جدا شدنِ قطعات شدن",
           "more": "to keep together"
         }
       ]
@@ -1029,7 +1029,7 @@ DRILL({
           "w": "bump",
           "ipa": "bʌmp",
           "m": "a small raised area on a surface",
-          "fa": "برآمدگی، قلمبگی",
+          "fa": "برآمدگی، برجستگی؛ ضربهٔ خفیف",
           "more": "bumpy · lump"
         }
       ],
@@ -1086,7 +1086,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و اصلاً احتمالِ شکستنِ استخوان در جمعیت‌های مسن‌تر بیشتر است،",
+      "fa": "از همان ابتدا هم افرادِ مسن‌تر بیشتر در معرضِ شکستگیِ استخوان‌اند،",
       "en": "And older populations are more likely to break their bones in the first place,",
       "ipa": "ənd ˈoʊldɚ ˌpɑpjəˈleɪʃənz ɚ mɔr ˈlaɪkli tə breɪk ðɛr boʊnz ɪn ðə fɝst pleɪs",
       "words": [
@@ -1094,7 +1094,7 @@ DRILL({
           "w": "population",
           "ipa": "ˌpɑpjəˈleɪʃən",
           "m": "a particular group of people",
-          "fa": "جمعیت",
+          "fa": "گروهِ جمعیتی، جمعیت",
           "more": "populate"
         },
         {
@@ -1107,7 +1107,7 @@ DRILL({
       ]
     },
     {
-      "fa": "چون تراکمِ استخوان با بالا رفتنِ سن کم می‌شود.",
+      "fa": "چون با بالا رفتنِ سن، تراکمِ استخوان معمولاً کاهش می‌یابد.",
       "en": "since bone density tends to decrease with age.",
       "ipa": "sɪns boʊn ˈdɛnsəti tɛndz tə dɪˈkris wɪð eɪdʒ",
       "words": [
@@ -1156,7 +1156,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ولی خوشبختانه بهترین راهِ محکم نگه‌داشتنِ استخوان‌ها را از همین حالا می‌دانیم.",
+      "fa": "ولی خوشبختانه همین حالا هم بهترین راهِ محکم نگه داشتنِ استخوان‌ها را می‌دانیم.",
       "en": "but fortunately, we already know the best way to keep bones strong.",
       "ipa": "bət ˈfɔrtʃənətli wi ɔlˈrɛdi noʊ ðə bɛst weɪ tə kip boʊnz strɔŋ",
       "words": [
@@ -1184,7 +1184,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و تراکم و استحکامشان را با مقدارِ نیرویی که معمولاً زیرِ آن هستند تنظیم می‌کنند.",
+      "fa": "و تراکم و استحکامشان را متناسب با مقدارِ نیرویی تنظیم می‌کنند که معمولاً به آن‌ها وارد می‌شود.",
       "en": "adjusting their density and strength to the amount of force they’re typically under.",
       "ipa": "əˈdʒʌstɪŋ ðɛr ˈdɛnsəti ənd strɛŋkθ tə ði əˈmaʊnt əv fɔrs ðɛr ˈtɪpɪkli ˈʌndɚ",
       "words": [
@@ -1199,7 +1199,7 @@ DRILL({
           "w": "to be under (force/pressure)",
           "ipa": "tə bi ˈʌndɚ (fɔrs | ˈprɛʃɚ)",
           "m": "to be affected by a force or pressure",
-          "fa": "زیرِ (نیرو/فشار) بودن",
+          "fa": "در معرضِ نیرو بودن، زیرِ فشار بودن",
           "more": "under pressure · under stress"
         }
       ]
@@ -1254,7 +1254,7 @@ DRILL({
       ]
     },
     {
-      "fa": "چون استخوانِ بازوی شکسته هیچ چیزِ خنده‌داری ندارد.",
+      "fa": "چون شکستنِ استخوانِ بازو هیچ چیزِ خنده‌داری ندارد.",
       "en": "because there’s nothing humorous about a broken humerus.",
       "ipa": "bɪˈkɔz ðɛrz ˈnʌθɪŋ ˈhjumərəs əˈbaʊt ə ˈbroʊkən ˈhjumərəs",
       "words": [

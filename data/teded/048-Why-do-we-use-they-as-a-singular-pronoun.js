@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=65I_1sgTMLE",
   "items": [
     {
-      "fa": "در ۱۹۵۴، سیگارِ وینستون آگهی‌ای به راه انداخت که آن‌قدر جنجالی بود که شبکه‌های پخش حاضر نشدند آن را روی آنتن بگویند.",
+      "fa": "در سالِ ۱۹۵۴، شرکتِ سیگارِ وینستون آگهی‌ای منتشر کرد که آن‌قدر جنجالی بود که گویندگان حاضر نشدند متنش را روی آنتن بخوانند.",
       "en": "In 1954, Winston Cigarettes launched an ad so controversial broadcasters refused to say it on the air.",
       "ipa": "ɪn ˌnaɪnˈtin ˈfɪfti fɔr ˈwɪnstən ˌsɪɡəˈrɛts lɔntʃt ən æd soʊ ˌkɑntrəˈvɝʃəl ˈbrɔdˌkæstɚz rəˈfjuzd tə seɪ ɪt ɑn ði ɛr",
       "newPara": true,
@@ -34,7 +34,7 @@ DRILL({
           "w": "broadcaster",
           "ipa": "ˈbrɔdˌkæstɚ",
           "m": "a company or person that sends out programs on TV or radio",
-          "fa": "شبکهٔ پخش، گوینده",
+          "fa": "گویندهٔ رادیو یا تلویزیون؛ سازمانِ پخش",
           "more": "to broadcast"
         },
         {
@@ -54,7 +54,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما این هیاهو هیچ ربطی به محصولِ خطرناکی که تبلیغ می‌شد نداشت—",
+      "fa": "اما این غوغا هیچ ربطی به محصولِ خطرناکی که داشت تبلیغ می‌شد نداشت؛",
       "en": "But the uproar had nothing to do with the dangerous product being advertised—",
       "ipa": "bət ði ˈʌˌprɔr hæd ˈnʌθɪŋ tə du wɪð ðə ˈdeɪndʒərəs ˈprɑdəkt ˈbiɪŋ ˈædvɚˌtaɪzd",
       "words": [
@@ -95,7 +95,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به‌طورِ مشخص، به کار بردنِ <en>like</en> به‌عنوانِ حرفِ ربط به‌جای <en>as</en>.",
+      "fa": "دقیق‌تر بگوییم، به کار بردنِ واژهٔ «مثلِ» در نقشِ حرفِ ربط به‌جای «همان‌طور که».",
       "en": "Specifically, using “like” as a conjunction instead of “as.”",
       "ipa": "spəˈsɪfɪkli ˈjuzɪŋ laɪk əz ə kənˈdʒʌŋkʃən ɪnˈstɛd əv æz",
       "words": [
@@ -182,7 +182,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و کدامشان، اگر اصلاً یکی‌شان، واقعاً اهمیت دارد؟",
+      "fa": "و اگر اصلاً قاعده‌ای در میانشان اهمیت دارد، واقعاً کدامشان است؟",
       "en": "And which, if any, actually matter?",
       "ipa": "ənd wɪtʃ ɪf ˈɛni ˈæktʃəwəli ˈmætɚ",
       "words": [
@@ -190,7 +190,7 @@ DRILL({
           "w": "if any",
           "ipa": "ɪf ˈɛni",
           "m": "used to say there may be none at all",
-          "fa": "اگر اصلاً باشد"
+          "fa": "اگر اصلاً موردی وجود داشته باشد"
         }
       ]
     },
@@ -242,12 +242,12 @@ DRILL({
       ]
     },
     {
-      "fa": "حروفِ اضافه واژه‌هایی کوچک و رایج‌اند، مثلِ <en>with</en>، <en>on</en>، <en>for</en> یا <en>to</en>، که اغلب پیش از اسم‌ها می‌آیند.",
+      "fa": "حروفِ اضافه واژه‌هایی کوتاه و رایج‌اند، مثلِ «با»، «رویِ»، «برایِ» یا «به»، که اغلب پیش از اسم می‌آیند.",
       "en": "Prepositions are small, common words like with, on, for, or to, that often come before nouns.",
       "ipa": "ˌprɛpəˈzɪʃənz ɚ smɔl ˈkɑmən wɝdz laɪk wɪð ɑn fɚ ɔr tə ðæt ˈɔfən kʌm bɪˈfɔr naʊnz"
     },
     {
-      "fa": "پس مثلاً کسی که در دستورِ زبان سخت‌گیر و وسواسی است، جملهٔ «این قاعده از کجا می‌آید؟» (با حرفِ اضافه در آخر) را نادرست می‌داند",
+      "fa": "پس مثلاً کسی که خیلی سخت به قواعدِ دستور زبان پایبند است، پرسشِ «این قاعده از کجا می‌آید؟» را نادرست می‌دانست، <c>(در پرسشِ نقل‌شده، حرفِ اضافه در پایان است.)</c>",
       "en": "So, for example, a grammar stickler would consider “where does this rule come from?” incorrect,",
       "ipa": "soʊ fɚ ɪɡˈzæmpəl ə ˈɡræmɚ ˈstɪkəlɚ wʊd kənˈsɪdɚ wɛr dʌz ðɪs rul kʌm frəm ɪnkəˈrɛkt",
       "words": [
@@ -267,7 +267,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و در عوض ترجیح می‌دهد بگوید «از کجا این قاعده می‌آید؟» (با حرفِ اضافه در اول).",
+      "fa": "و در عوض این صورت را ترجیح می‌داد «از کجا می‌آید این قاعده؟» <c>(این بار حرفِ اضافه در آغازِ پرسش می‌آید.)</c>",
       "en": "preferring instead, “from where does this rule come?”",
       "ipa": "prɪˈfɝɪŋ ɪnˈstɛd frəm wɛr dʌz ðɪs rul kʌm",
       "words": [
@@ -364,7 +364,7 @@ DRILL({
           "w": "scholarship",
           "ipa": "ˈskɑlɚˌʃɪp",
           "m": "serious study and academic work",
-          "fa": "پژوهشِ علمی، کارِ دانشگاهی",
+          "fa": "کارِ علمی و پژوهشی؛ بورسِ تحصیلی",
           "more": "scholar · scholarly"
         }
       ],
@@ -385,7 +385,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و تحمیلِ قواعدش به گفتار، کم‌ترین چیزی که می‌شود گفت این است که ناشیانه و ناجور بود.",
+      "fa": "و تحمیلِ قواعدِ آن زبان به گفتارِ روزمره، اگر بخواهیم ملایم گفته باشیم، ناجور بود.",
       "en": "and imposing its rules on speech was awkward to say the least.",
       "ipa": "ənd ɪmˈpoʊzɪŋ ɪts rulz ɑn spitʃ wəz ˈɑkwɚd tə seɪ ðə list",
       "words": [
@@ -407,7 +407,7 @@ DRILL({
           "w": "to say the least",
           "ipa": "tə seɪ ðə list",
           "m": "used to say something is even worse than your words suggest",
-          "fa": "کم‌ترین چیزی که می‌شود گفت"
+          "fa": "اگر بخواهیم خیلی ملایم بگوییم (یعنی می‌شد تعبیرِ تندتری به کار برد)"
         }
       ]
     },
@@ -506,7 +506,7 @@ DRILL({
       ]
     },
     {
-      "fa": "قواعدِ دیگری هستند که ریشه‌شان شاید کمتر دلبخواهی باشد، ولی به‌مراتب حقیرانه‌تر و جزئی‌نگرانه‌تر است.",
+      "fa": "برخی قواعدِ دیگر ریشه‌هایی دارند که شاید کمتر دلبخواهی باشند، اما به‌مراتب بیشتر از خرده‌گیری بر سرِ جزئیات سرچشمه می‌گیرند.",
       "en": "Other rules have origins that are perhaps less arbitrary, but significantly more petty.",
       "ipa": "ˈʌðɚ rulz hæv ˈɔrədʒɪnz ðæt ɚ pɚˈhæps lɛs ˈɑrbəˌtrɛri bət sɪɡˈnɪfɪkəntli mɔr ˈpɛti",
       "newPara": true,
@@ -535,13 +535,13 @@ DRILL({
           "w": "petty",
           "ipa": "ˈpɛti",
           "m": "caring too much about small, unimportant things",
-          "fa": "حقیرانه، جزئی‌نگرانه",
+          "fa": "ناشی از خرده‌گیری بر سرِ مسائلِ کم‌اهمیت؛ پیش‌پاافتاده",
           "more": "trivial · small-minded"
         }
       ]
     },
     {
-      "fa": "این فکر را در نظر بگیرید که برای اسم‌های قابلِ شمارش— مثلِ بطری‌های آب— باید <en>fewer</en> به کار برد",
+      "fa": "این باور را در نظر بگیرید که هنگامِ اشاره به اسم‌های شمارش‌پذیر، مثلِ بطری‌های آب، باید واژهٔ «کمتر» به معنای «تعدادِ کمتر» را به کار ببرید،",
       "en": "Consider the idea that you should use “fewer” when referring to countable nouns— like water bottles—",
       "ipa": "kənˈsɪdɚ ði aɪˈdiə ðæt ju ʃʊd juz ˈfjuɚ wɛn rɪˈfɝɪŋ tə ˈkaʊntəbəl naʊnz laɪk ˈwɔtɚ ˈbɑtəlz",
       "words": [
@@ -567,7 +567,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و برای اسم‌هایی که نمی‌شماریم— مثلِ آب— <en>less</en>.",
+      "fa": "و هنگامِ اشاره به اسم‌هایی که نمی‌شماریم، مثلِ آب، واژهٔ «کمتر» به معنای «مقدارِ کمتر» را.",
       "en": "and “less” when referring to nouns we don’t count— like water.",
       "ipa": "ənd lɛs wɛn rɪˈfɝɪŋ tə naʊnz wi doʊnt kaʊnt laɪk ˈwɔtɚ"
     },
@@ -577,7 +577,7 @@ DRILL({
       "ipa": "ðɪs rul kʌmz frəm əˈnʌðɚ eɪˈtinθ ˈsɛntʃəri ɡrəˈmɪriən kɔld ˈrɑbɚt ˈbeɪkɚ"
     },
     {
-      "fa": "که به دلایلی نامعلوم، معتقد بود <en>less</en> وقتی با اسم‌های قابلِ شمارش بیاید زشت و ناخوشایند است.",
+      "fa": "که به دلایلی نامعلوم، معتقد بود به کار بردنِ «کمتر» به معنای «مقدارِ کمتر» با اسم‌های شمارش‌پذیر از ظرافتِ بیان به دور است.",
       "en": "who, for reasons unknown, believed “less” was inelegant when used with countable nouns.",
       "ipa": "hu fɚ ˈrizənz ənˈnoʊn bɪˈlivd lɛs wəz ɪˈnɛlɪɡənt wɛn juzd wɪð ˈkaʊntəbəl naʊnz",
       "words": [
@@ -597,7 +597,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شاید عجیب به نظر برسد، اما مردمِ امروز هم علیهِ به‌اصطلاح زبانِ پست‌تر، مثلِ <en>like</en> یا <en>literally</en>، جنگ‌های مشابهی به راه می‌اندازند.",
+      "fa": "این شاید عجیب به نظر برسد، اما امروزه هم مردم علیهِ تعبیرهایی که به‌اصطلاح کم‌ارزش‌ترند، مثلِ «مثلاً» یا «به معنای واقعیِ کلمه»، جنگ‌های مشابهی به راه می‌اندازند.",
       "en": "This might seem strange, but people today wage similar wars on so-called lesser language, such as “like” or “literally.”",
       "ipa": "ðɪs maɪt sim streɪndʒ bət ˈpipəl təˈdeɪ weɪdʒ ˈsɪməlɚ wɔrz ɑn ˌsoʊˈkɑld ˈlɛsɚ ˈlæŋɡwədʒ sʌtʃ əz laɪk ɔr ˈlɪtərəli",
       "words": [
@@ -657,7 +657,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا قرن‌ها پس از فتحِ نورمن‌ها در ۱۰۶۶، فرانسوی زبانِ اشراف در انگلستان بود،",
+      "fa": "تا چندین سده پس از فتحِ انگلستان به دستِ نورمن‌ها در ۱۰۶۶، زبانِ طبقهٔ اشراف در انگلستان فرانسوی بود،",
       "en": "For centuries after the Norman Conquest in 1066, French was the language of nobility in England,",
       "ipa": "fɚ ˈsɛntʃəriz ˈæftɚ ðə ˈnɔrmən ˈkɑŋkwɛst ɪn tɛn ˈsɪksti sɪks frɛntʃ wəz ðə ˈlæŋɡwədʒ əv noʊˈbɪləti ɪn ˈɪŋɡlənd",
       "words": [
@@ -725,7 +725,7 @@ DRILL({
           "w": "insecurity",
           "ipa": "ˌɪnsɪˈkjʊrɪti",
           "m": "a feeling of not being confident or good enough",
-          "fa": "احساسِ ناامنی، عدمِ اعتمادبه‌نفس",
+          "fa": "تردید به اعتبار و ارزشِ زبانِ خود؛ احساسِ ناامنی",
           "more": "insecure"
         },
         {
@@ -759,7 +759,7 @@ DRILL({
           "w": "letters",
           "ipa": "ˈlɛtɚz",
           "m": "literature and learning",
-          "fa": "ادبیات، ادب"
+          "fa": "ادب و ادبیات؛ نامه‌ها؛ حروفِ الفبا"
         },
         {
           "w": "official",
@@ -770,7 +770,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یعنی ده مقام بیشتر از آنچه در نگهبانِ دستورِ زبانِ فرانسه— فرهنگستانِ فرانسه— به کار گرفته شده بودند.",
+      "fa": "این یعنی ده نفر بیشتر از شمارِ مقام‌هایی که در نهادِ پاسدارِ دستورِ زبانِ فرانسه، یعنی «فرهنگستانِ فرانسه»، به کار گرفته شده بودند.",
       "en": "That’s ten more officials than were employed in France’s grammar guard— L’Académie Française.",
       "ipa": "ðæts tɛn mɔr əˈfɪʃəlz ðən wɚ ɛmˈplɔɪd ɪn ˈfrænsɪz ˈɡræmɚ ɡɑrd ˌlækəˈdɛmi frɑnˈsɛz",
       "words": [
@@ -803,7 +803,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مثلِ تلاش‌ها برای متمایز کردنِ <en>over</en> از <en>more than</en>، یا دلبستگی‌مان به جمع‌های لاتین مثلِ <en>fungi</en> و <en>formulae</en>.",
+      "fa": "مثلِ تلاش برای فرق گذاشتن میانِ «بالایِ» یک مقدار و «بیش از» آن، یا دلبستگیِ ما به صورت‌های جمعِ لاتینیِ واژه‌هایی مانند «قارچ‌ها» و «فرمول‌ها».",
       "en": "such as efforts to distinguish “over” from “more than,” or our attachment to Latin plurals like fungi and formulae.",
       "ipa": "sʌtʃ əz ˈɛfɚts tə dɪˈstɪŋɡwɪʃ ˈoʊvɚ frəm mɔr ðən ɔr ˈaʊɚ əˈtætʃmənt tə ˈlætən ˈplʊrəlz laɪk ˈfʌndʒaɪ ənd ˈfɔrmjələ",
       "words": [
@@ -859,7 +859,7 @@ DRILL({
           "w": "academic",
           "ipa": "ˌækəˈdɛmɪk",
           "m": "not important in real life; only theoretical",
-          "fa": "نظری، صرفاً دانشگاهی",
+          "fa": "صرفاً نظری و کم‌اثر در عمل؛ مربوط به دانشگاه یا پژوهش",
           "more": "theoretical"
         }
       ],
@@ -892,7 +892,7 @@ DRILL({
       ]
     },
     {
-      "fa": "قرن‌هاست که <en>they</en> در ادبیاتِ کلاسیک و گفتارِ روزمره هم به‌عنوانِ ضمیرِ جمع و هم مفرد به کار رفته است.",
+      "fa": "قرن‌هاست که ضمیرِ «آن‌ها» در ادبیاتِ کلاسیک و گفتارِ روزمره هم به‌عنوانِ ضمیرِ جمع و هم به‌عنوانِ ضمیرِ مفرد به کار رفته است.",
       "en": "For centuries, “they” has been used in classic literature and everyday speech as both a plural and a singular pronoun.",
       "ipa": "fɚ ˈsɛntʃəriz ðeɪ hæz bɪn juzd ɪn ˈklæsɪk ˈlɪtərətʃɚ ənd ˌɛvriˈdeɪ spitʃ əz boʊθ ə ˈplʊrəl ənd ə ˈsɪŋɡjəlɚ ˈproʊnaʊn",
       "words": [
@@ -917,7 +917,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و امروز، بسیاری از افرادِ نان‌باینری و ترنس ترجیح می‌دهند برای اشاره به خودشان <en>they/them</en> را به‌عنوانِ ضمیرِ مفرد به کار ببرند.",
+      "fa": "و امروزه بسیاری از افرادِ نادودویی و تراجنسیتی ترجیح می‌دهند برای اشاره به خودشان از صورت‌های فاعلی و مفعولیِ ضمیرِ «آن‌ها» در معنیِ مفرد استفاده کنند.",
       "en": "And today, many non-binary and transgender individuals prefer to use “they/them” as singular pronouns to refer to themselves.",
       "ipa": "ənd təˈdeɪ ˈmɛni ˌnɑnˈbɪrəni ənd ˌtrænzˈdʒɛndɚ ˌɪndəˈvɪdʒəwəlz prəˈfɝ tə juz ðeɪ | ðɛm əz ˈsɪŋɡjəlɚ ˈproʊnaʊnz tə rəˈfɝ tə ðɛmˈsɛlvz",
       "words": [
@@ -925,7 +925,7 @@ DRILL({
           "w": "non-binary",
           "ipa": "ˌnɑnˈbɪrəni",
           "m": "not identifying as only male or only female",
-          "fa": "نان‌باینری"
+          "fa": "نادودویی؛ کسی که هویتِ جنسیتی‌اش منحصراً زن یا مرد نیست"
         },
         {
           "w": "transgender",
@@ -942,7 +942,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ولی دستورنویس‌های قرنِ نوزدهم معتقد بودند <en>they</en> باید منحصراً ضمیرِ جمع باشد.",
+      "fa": "با این حال، دستورنویسانِ سدهٔ نوزدهم معتقد بودند که «آن‌ها» باید منحصراً ضمیرِ جمع باشد.",
       "en": "19th century grammarians, however, believed that “they” should be an exclusively plural pronoun.",
       "ipa": "ˌnaɪnˈtinθ ˈsɛntʃəri ɡrəˈmɪriənz ˌhaʊˈɛvɚ bɪˈlivd ðæt ðeɪ ʃʊd bi ən ɪksˈklusɪvli ˈplʊrəl ˈproʊnaʊn",
       "words": [
@@ -956,7 +956,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به‌علاوه، در مواردی که <en>they</en> می‌توانست ضمیرِ مفرد به کار رود، استدلال می‌کردند که این واژه باید با <en>he</en> ِ عام عوض شود.",
+      "fa": "افزون بر این، استدلال می‌کردند که هر جا «آن‌ها» می‌تواند به‌صورتِ ضمیرِ مفرد به کار رود، باید آن را با ضمیرِ عامِ «او» در صورتِ مذکر جایگزین کرد.",
       "en": "Furthermore, in cases where “they” could be used as a singular pronoun, they argued the word should be swapped for the generic “he.”",
       "ipa": "ˈfɝðɚˌmɔr ɪn ˈkeɪsəz wɛr ðeɪ kʊd bi juzd əz ə ˈsɪŋɡjəlɚ ˈproʊnaʊn ðeɪ ˈɑrɡjud ðə wɝd ʃʊd bi swɑpt fɚ ðə dʒəˈnɛrɪk hi",
       "words": [
@@ -984,12 +984,12 @@ DRILL({
           "w": "generic",
           "ipa": "dʒəˈnɛrɪk",
           "m": "general; not specific to one person or thing",
-          "fa": "عام، کلی"
+          "fa": "عام، اینجا ضمیری که قرار است به هر فردی فارغ از جنسیت اشاره کند؛ کلی، غیراختصاصی"
         }
       ]
     },
     {
-      "fa": "این تصمیمی آشکارا مردسالارانه بود، و در دههٔ ۱۹۷۰ فعالان سرانجام بعضی از راهنماهای کاربرد را قانع کردند",
+      "fa": "این تصمیم آشکارا مردسالارانه بود و در دههٔ ۱۹۷۰ فعالان سرانجام برخی راهنماهای کاربردِ زبان را متقاعد کردند",
       "en": "This was an obviously patriarchal decision, and during the 1970s, activists eventually convinced some usage guides",
       "ipa": "ðɪs wəz ən ˈɑbviəsli ˌpeɪtriˈɑrkəl dɪˈsɪʒən ənd ˈdʊrɪŋ ðə ˌnaɪnˈtin ˈsɛvəntiz ˈæktəvəsts ɪˈvɛntʃəwəli kənˈvɪnst sʌm ˈjusədʒ ɡaɪdz",
       "words": [
@@ -1029,7 +1029,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که شروع به استفاده از <en>he or she</en> کنند.",
+      "fa": "که شروع کنند به گفتنِ «او یا او»، با آوردنِ نخست ضمیرِ مذکر و سپس ضمیرِ مؤنث.",
       "en": "to begin using “he or she.”",
       "ipa": "tə bɪˈɡɪn ˈjuzɪŋ hi ɔr ʃi"
     },
@@ -1055,7 +1055,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با اینکه بیشترِ راهنماهای رسمیِ دستورِ زبان <en>they</en> را هم به‌عنوانِ ضمیرِ مفرد و هم جمع پذیرفته‌اند.",
+      "fa": "با اینکه بیشترِ راهنماهای رسمیِ دستورِ زبان «آن‌ها» را هم به‌عنوانِ ضمیرِ مفرد و هم به‌عنوانِ ضمیرِ جمع پذیرفته‌اند.",
       "en": "even though most official grammar guides have accepted “they” as both a singular and plural pronoun.",
       "ipa": "ˈivɪn ðoʊ moʊst əˈfɪʃəl ˈɡræmɚ ɡaɪdz hæv ækˈsɛptɪd ðeɪ əz boʊθ ə ˈsɪŋɡjəlɚ ənd ˈplʊrəl ˈproʊnaʊn",
       "words": [
@@ -1084,12 +1084,12 @@ DRILL({
       ]
     },
     {
-      "fa": "قرن‌ها <en>you</en> هم منحصراً ضمیرِ جمع دانسته می‌شد،",
+      "fa": "قرن‌ها ضمیرِ خطاب «شما» هم ضمیری منحصراً جمع به شمار می‌رفت،",
       "en": "For centuries, “you” was also considered an exclusively plural pronoun,",
       "ipa": "fɚ ˈsɛntʃəriz ju wəz ˈɔlsoʊ kənˈsɪdɚd ən ɪksˈklusɪvli ˈplʊrəl ˈproʊnaʊn"
     },
     {
-      "fa": "و با این حال امروز در موقعیت‌های مفرد کاملاً پذیرفته شده است.",
+      "fa": "و با وجودِ این، امروزه کاربردش برای خطاب به یک نفر کاملاً پذیرفته شده است.",
       "en": "and yet today it's completely accepted in singular situations.",
       "ipa": "ənd jɛt təˈdeɪ ɪts kəmˈplitli ækˈsɛptɪd ɪn ˈsɪŋɡjəlɚ ˌsɪtʃuˈeɪʃənz",
       "words": [

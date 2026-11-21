@@ -20,7 +20,7 @@ DRILL({
           "w": "ivory",
           "ipa": "ˈaɪvəri",
           "m": "the hard white material from an elephant's tusks",
-          "fa": "عاج",
+          "fa": "از جنسِ عاج؛ عاج؛ به رنگِ سفیدِ مایل به کرم",
           "more": "tusk · bone"
         }
       ]
@@ -40,7 +40,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با مفصل‌هایی در بازوها، پاها، زانوها و آرنج‌ها، و انبوهی لباس و لوازمِ جانبیِ مینیاتوری.",
+      "fa": "با مفصل‌هایی در بازوها، پاها، زانوها و آرنج‌هایش و مجموعهٔ بزرگی از لباس‌ها و لوازمِ جانبیِ کوچکِ عروسکی.",
       "en": "with joints at her arms, legs, knees, and elbows, and a bevy of miniature clothes and accessories.",
       "ipa": "wɪð dʒɔɪnts ət hɚ ɑrmz lɛɡz niz ənd ˈɛlˌboʊz ənd ə ˈbɛvi əv ˈmɪniəˌtʃʊr kloʊðz ənd ækˈsɛsəriz",
       "words": [
@@ -48,7 +48,7 @@ DRILL({
           "w": "joint",
           "ipa": "dʒɔɪnt",
           "m": "a place where two parts are joined so they can bend",
-          "fa": "مفصل",
+          "fa": "مفصلِ متحرکِ عروسک؛ محلِ اتصالِ دو قطعه",
           "more": "jointed · hinge"
         },
         {
@@ -82,7 +82,7 @@ DRILL({
       ]
     },
     {
-      "fa": "جولیا با عروسکی در دست، مهمانی‌های شامِ پرتجمل برگزار می‌کند،",
+      "fa": "جولیا در حالی که عروسکش را در دست دارد، مهمانی‌های شامِ مفصل ترتیب می‌دهد،",
       "en": "With her doll in hand, Julia hosts elaborate dinner parties,",
       "ipa": "wɪð hɚ dɑl ɪn hænd ˈdʒuljə hoʊsts ɪˈlæbrət ˈdɪnɚ ˈpɑrtiz",
       "words": [
@@ -166,7 +166,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هرچند رایج‌ترین وسایلِ بازیِ دورانِ باستان احتمالاً چوب و سنگ بوده‌اند،",
+      "fa": "هرچند به احتمال زیاد رایج‌ترین وسایلِ بازی در دورانِ باستان تکه‌های چوب و سنگ بوده‌اند، <c>(حدس دربارهٔ گذشته است.)</c>",
       "en": "While the most common ancient playthings would likely have been sticks and rocks,",
       "ipa": "waɪl ðə moʊst ˈkɑmən ˈeɪntʃənt ˈpleɪˌθɪŋz wʊd ˈlaɪkli hæv bɪn stɪks ənd rɑks",
       "newPara": true,
@@ -181,7 +181,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شواهدِ استفاده از آن‌ها برای بازی از دیدِ باستان‌شناسی ناپیداست.",
+      "fa": "از نظرِ باستان‌شناسی نمی‌توان ردّی از کاربردِ آن‌ها برای بازی دید.",
       "en": "evidence of their use for play is archaeologically invisible.",
       "ipa": "ˈɛvədəns əv ðɛr jus fɚ pleɪ ɪz ˌɑrkiəˈlɑdʒɪkli ɪnˈvɪzəbəl",
       "words": [
@@ -224,7 +224,7 @@ DRILL({
           "w": "material",
           "ipa": "məˈtɪriəl",
           "m": "made of physical objects",
-          "fa": "مادی",
+          "fa": "ملموس و فیزیکی (شواهدِ به‌جامانده)؛ در نقش اسم، ماده یا جنس",
           "more": "physical · tangible"
         },
         {
@@ -265,7 +265,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به دستِ بچه‌های پرانرژی در خاک‌وخل مسابقه می‌دادند.",
+      "fa": "به دستِ بچه‌های پرانرژی با سرعت روی خاک پیش می‌رفتند.",
       "en": "raced through the dirt at the hands of energetic youngsters.",
       "ipa": "reɪst θru ðə dɝt ət ðə hændz əv ˌɛnɚˈdʒɛtɪk ˈjʌŋstɚz",
       "words": [
@@ -273,7 +273,7 @@ DRILL({
           "w": "to race",
           "ipa": "tə reɪs",
           "m": "to move very fast, or to compete in speed",
-          "fa": "مسابقه دادن، به‌سرعت رفتن",
+          "fa": "با سرعت پیش رفتن؛ مسابقه دادن",
           "more": "race (n.) · speed"
         },
         {
@@ -342,7 +342,7 @@ DRILL({
       ]
     },
     {
-      "fa": "صدایی که سوتِ سفالیِ کبوتری‌شکلش درمی‌آورد.",
+      "fa": "صدایی که با سوتِ سفالیِ کبوترشکلِ همان کودک ایجاد می‌شد.",
       "en": "created by their dove-shaped terracotta whistle.",
       "ipa": "kriˈeɪtəd baɪ ðɛr dʌv ʃeɪpt ˌtɛrəˈtɑkə ˈwɪsəl",
       "words": [
@@ -434,12 +434,12 @@ DRILL({
       ]
     },
     {
-      "fa": "شاید اسباب‌بازیِ کودکان بوده‌اند،",
+      "fa": "ممکن است اسباب‌بازیِ کودکان بوده باشند،",
       "en": "may have been children’s toys,",
       "ipa": "meɪ hæv bɪn ˈtʃɪldrənz tɔɪz"
     },
     {
-      "fa": "دیگران معتقدند آن‌ها بت‌های مقدسِ باروری بوده‌اند.",
+      "fa": "عده‌ای دیگر آن پیکرک‌ها را بت‌های مقدسِ باروری می‌دانند.",
       "en": "others believe them to be sacred fertility idols.",
       "ipa": "ˈʌðɚz bɪˈliv ðɛm tə bi ˈseɪkrəd fɚˈtɪləti ˈaɪdəlz",
       "words": [
@@ -468,13 +468,13 @@ DRILL({
           "w": "idol",
           "ipa": "ˈaɪdəl",
           "m": "a statue or image that is worshipped as a god",
-          "fa": "بت",
+          "fa": "بت یا پیکرهٔ مقدس؛ شخصی که بسیار ستایش می‌شود",
           "more": "idolize · statue"
         }
       ]
     },
     {
-      "fa": "اما مطمئنیم که عروسک‌هایی مثلِ پومپئیا در یونان و روم محبوب بودند،",
+      "fa": "اما این را به‌یقین می‌دانیم که عروسک‌هایی مثلِ پومپئیا در یونان و روم محبوب بودند،",
       "en": "But we do know dolls like Pompeia were popular in Greece and Rome,",
       "ipa": "bət wi du noʊ dɑlz laɪk ˈpɑmpiə wɚ ˈpɑpjəlɚ ɪn ɡris ənd roʊm"
     },
@@ -528,7 +528,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که از چوب یا عاجِ شیرماهی تراشیده شده بودند.",
+      "fa": "که از چوب یا عاجِ گرازِ دریایی تراشیده شده بودند.",
       "en": "carved of wood or walrus tusk.",
       "ipa": "kɑrvd əv wʊd ɔr ˈwɔlrəs tʌsk",
       "words": [
@@ -543,7 +543,7 @@ DRILL({
           "w": "walrus",
           "ipa": "ˈwɔlrəs",
           "m": "a large sea animal with two long teeth, living in the Arctic",
-          "fa": "شیرماهی، گرازِ دریایی",
+          "fa": "گرازِ دریایی (والروس)",
           "more": "seal · sea lion"
         },
         {
@@ -605,7 +605,7 @@ DRILL({
           "w": "palm",
           "ipa": "pɑm",
           "m": "a tropical tree with large leaves at the top",
-          "fa": "نخل",
+          "fa": "درختِ نخل؛ کفِ دست",
           "more": "palm tree · date palm"
         },
         {
@@ -632,7 +632,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با این حال، شاید بعضی بچه‌ها از بازی‌های بزرگسالانی تقلید می‌کردند که بیشتر درباره‌شان می‌دانیم.",
+      "fa": "با این حال، ممکن است بعضی از بچه‌ها از آن دسته از بازی‌های بزرگسالان که درباره‌شان بیشتر می‌دانیم تقلید کرده باشند.",
       "en": "however some kids may have imitated adult games we know more about.",
       "ipa": "ˌhaʊˈɛvɚ sʌm kɪdz meɪ hæv ˈɪməˌteɪtɪd əˈdʌlt ɡeɪmz wi noʊ mɔr əˈbaʊt",
       "words": [
@@ -646,12 +646,12 @@ DRILL({
       ]
     },
     {
-      "fa": "برای نمونه، کودکانِ یونانِ باستان شاید اپیسکوروس بازی می‌کردند،",
+      "fa": "برای نمونه، ممکن است کودکانِ یونانِ باستان اپیسکوروس بازی کرده باشند،",
       "en": "For example, ancient Greek children might have played episkuros,",
       "ipa": "fɚ ɪɡˈzæmpəl ˈeɪntʃənt ɡrik ˈtʃɪldrən maɪt hæv pleɪd ɪpɪˈskɔroʊs"
     },
     {
-      "fa": "ورزشی گروهی که بازیکنان در آن رقابت می‌کردند حریفانشان را به بیرونِ زمین برانند",
+      "fa": "یک ورزشِ تیمی که در آن بازیکنان رقابت می‌کردند تا حریفانشان را به بیرونِ زمین برانند،",
       "en": "a team sport where players competed to push their opponents outside the pitch",
       "ipa": "ə tim spɔrt wɛr ˈpleɪɚz kəmˈpitɪd tə pʊʃ ðɛr əˈpoʊnənts ˌaʊtˈsaɪd ðə pɪtʃ",
       "words": [
@@ -673,13 +673,13 @@ DRILL({
           "w": "pitch",
           "ipa": "pɪtʃ",
           "m": "an area of ground for playing a sport",
-          "fa": "زمینِ بازی",
+          "fa": "زمینِ بازی؛ زیر و بمیِ صدا",
           "more": "field · court"
         }
       ]
     },
     {
-      "fa": "با پرتابِ توپ با تمامِ قدرت به دورترین نقطهٔ ممکن.",
+      "fa": "آن هم با پرتابِ پُرقدرتِ توپ تا دورترین فاصلهٔ ممکن.",
       "en": "by hurling the ball as far as possible.",
       "ipa": "baɪ ˈhɝlɪŋ ðə bɔl əz fɑr əz ˈpɑsəbəl",
       "words": [
@@ -700,7 +700,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در همین حال، بچه‌های میان‌آمریکایی شاید بازی‌ای می‌کردند که بازیکنان در آن می‌کوشیدند",
+      "fa": "در همین حال، ممکن است بچه‌های میان‌آمریکا بازی‌ای کرده باشند که در آن بازیکنان تلاش می‌کنند",
       "en": "Meanwhile, Mesoamerican kids might have played a game where players try",
       "ipa": "ˈminˌwaɪl ˌmɛsoʊˈmɛrɪkən kɪdz maɪt hæv pleɪd ə ɡeɪm wɛr ˈpleɪɚz traɪ",
       "words": [
@@ -714,7 +714,7 @@ DRILL({
       ]
     },
     {
-      "fa": "فقط با استفاده از کفلشان یک توپِ لاستیکی را از میانِ یک حلقه رد کنند.",
+      "fa": "فقط با ضربهٔ لگن یک توپِ لاستیکی را از میانِ حلقه‌ای رد کنند.",
       "en": "to hit a rubber ball through a hoop using only their hips.",
       "ipa": "tə hɪt ə ˈrʌbɚ bɔl θru ə hup ˈjuzɪŋ ˈoʊnli ðɛr hɪps",
       "words": [
@@ -763,7 +763,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس ممکن است آن بچه‌ها از این ورزشِ مقدس دوری می‌کردند.",
+      "fa": "پس ممکن است آن بچه‌ها از این ورزشِ مقدس دوری کرده باشند.",
       "en": "so it's possible those children steered clear of this sacred sport.",
       "ipa": "soʊ ɪts ˈpɑsəbəl ðoʊz ˈtʃɪldrən stɪrd klɪr əv ðɪs ˈseɪkrəd spɔrt",
       "words": [
@@ -841,7 +841,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دخترانِ اسپارتی، حدودِ ۴۰۰ میلادی، در همان فعالیت‌های بدنیِ سخت و طاقت‌فرسای پسرها شرکت می‌کردند،",
+      "fa": "دخترانِ اسپارتی حدودِ سالِ ۴۰۰ میلادی واقعاً در همان فعالیت‌های بدنیِ سنگینِ پسرها شرکت می‌کردند،",
       "en": "Spartan girls circa 400 CE did engage in the same rigorous physical activities as boys,",
       "ipa": "ˈspɑrtən ɡɝlz ˈsɝkə fɔr ˈhʌndrəd ˌsiˈi dɪd ɛnˈɡeɪdʒ ɪn ðə seɪm ˈrɪɡərəs ˈfɪzɪkəl ækˈtɪvətiz əz bɔɪz",
       "words": [
@@ -862,7 +862,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما عمدتاً به این دلیل که بزرگ‌ترها باور داشتند این کار بدنشان را برای بچه‌آوردن قوی می‌کند.",
+      "fa": "اما عمدتاً به این دلیل که بزرگ‌ترها باور داشتند این کار بدنِ دختران را برای فرزندآوری قوی‌تر خواهد کرد.",
       "en": "but largely because adults believed it would strengthen their bodies for childbearing.",
       "ipa": "bət ˈlɑrdʒli bɪˈkɔz əˈdʌlts bɪˈlivd ɪt wʊd ˈstrɛŋθən ðɛr ˈbɑdiz fɚ ˈtʃaɪldˌbɛrɪŋ",
       "words": [
@@ -926,7 +926,7 @@ DRILL({
           "w": "to observe",
           "ipa": "tə əbˈzɝv",
           "m": "to notice something and make a remark about it",
-          "fa": "توجه کردن و گفتن، مشاهده کردن",
+          "fa": "نکته‌ای را خاطرنشان کردن؛ با دقت مشاهده کردن",
           "more": "observation · remark · note"
         },
         {
@@ -946,7 +946,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ابزارهای مفیدی برای یادگیریِ مهارت‌های لازم در بزرگسالی‌اند.",
+      "fa": "ابزارهایی مفید برای یادگیریِ مهارت‌هایی بودند که در بزرگسالی لازم می‌شدند.",
       "en": "were useful tools for learning the skills needed in adulthood.",
       "ipa": "wɚ ˈjusfəl tulz fɚ ˈlɝnɪŋ ðə skɪlz ˈnidəd ɪn əˈdʌltˌhʊd",
       "words": [
@@ -982,7 +982,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یک اصطلاحِ رایجِ رومی وقتی کودکی مسئولیت‌های بزرگسالی‌اش را بر عهده می‌گرفت، می‌گفت او «گردوها را کنار گذاشته»،",
+      "fa": "در تعبیری رایج در روم، کودکی را که داشت مسئولیت‌های بزرگسالی‌اش را بر عهده می‌گرفت این‌طور توصیف می‌کردند که «گردوهایش را کنار می‌گذارد»،",
       "en": "A common Roman phrase described a child “giving up nuts” when taking up their adult responsibilities",
       "ipa": "ə ˈkɑmən ˈroʊmən freɪz dɪˈskraɪbd ə tʃaɪld ˈɡɪvɪŋ ʌp nʌts wɛn ˈteɪkɪŋ ʌp ðɛr əˈdʌlt riˌspɑnsəˈbɪlətiz",
       "words": [
@@ -1031,7 +1031,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و دخترانِ جوانِ رومی در آستانهٔ ازدواج، به‌عنوانِ بخشی از آماده شدن برای عروسی، عروسک‌هایشان را به‌عنوانِ نذر برای خدایان می‌گذاشتند.",
+      "fa": "و دخترانِ جوانِ رومی در جریانِ آماده شدن برای عروسی‌شان، عروسک‌های خود را به‌عنوانِ پیشکش برای خدایان می‌گذاشتند.",
       "en": "And young Roman girls left their dolls as offerings to the gods as part of preparing for their wedding.",
       "ipa": "ənd jʌŋ ˈroʊmən ɡɝlz lɛft ðɛr dɑlz əz ˈɔfərɪŋz tə ðə ɡɑdz əz pɑrt əv priˈpɛrɪŋ fɚ ðɛr ˈwɛdɪŋ",
       "words": [
@@ -1066,7 +1066,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یکی از آن‌ها، به نامِ قاب‌بازی، در سراسرِ مدیترانهٔ باستان محبوب بود.",
+      "fa": "یکی از آن بازی‌ها که «قاپ‌بازی» نام داشت، در سراسرِ منطقهٔ مدیترانه در دورانِ باستان محبوب بود.",
       "en": "One, called knucklebones, was popular across the ancient Mediterranean.",
       "ipa": "wʌn kɔld ˈnʌkəlˌboʊnz wəz ˈpɑpjəlɚ əˈkrɔs ði ˈeɪntʃənt ˌmɛdətəˈreɪniən",
       "words": [
@@ -1074,7 +1074,7 @@ DRILL({
           "w": "knucklebones",
           "ipa": "ˈnʌkəlˌboʊnz",
           "m": "a game played by throwing and catching small bones",
-          "fa": "قاب‌بازی، بازی با قاپ",
+          "fa": "قاپ‌بازی، بازی با استخوان‌های کوچکِ مچ پای جانوران",
           "more": "jacks · knuckle"
         }
       ]
@@ -1101,7 +1101,7 @@ DRILL({
       ]
     },
     {
-      "fa": "می‌شد از آن‌ها به‌عنوانِ یِه‌قل‌دوقل یا تاس استفاده کرد، و هر رویِ آن امتیازِ متفاوتی داشت.",
+      "fa": "می‌شد از آن‌ها به‌جای مهره‌های یک‌قل‌دوقل یا تاس استفاده کرد و هر رویِ استخوان امتیازِ متفاوتی نصیبِ بازیکن می‌کرد.",
       "en": "they could be used as jacks or dice, with different faces earning different point values.",
       "ipa": "ðeɪ kʊd bi juzd əz dʒæks ɔr daɪs wɪð ˈdɪfərənt ˈfeɪsəz ˈɝnɪŋ ˈdɪfərənt pɔɪnt ˈvæljuz",
       "words": [
@@ -1109,7 +1109,7 @@ DRILL({
           "w": "jacks",
           "ipa": "dʒæks",
           "m": "a children's game of throwing and picking up small objects",
-          "fa": "یه‌قل‌دوقل",
+          "fa": "مهره‌های بازیِ یک‌قل‌دوقل؛ خودِ بازی",
           "more": "knucklebones · fivestones"
         },
         {
@@ -1123,14 +1123,14 @@ DRILL({
           "w": "face",
           "ipa": "feɪs",
           "m": "one of the flat surfaces of an object",
-          "fa": "رو، وجه",
+          "fa": "وجه یا رویِ تاس یا قاپ؛ صورت",
           "more": "side · surface"
         },
         {
           "w": "to earn",
           "ipa": "tə ɝn",
           "m": "to get something because of what you have done",
-          "fa": "کسب کردن، به دست آوردن",
+          "fa": "امتیاز نصیبِ بازیکن کردن؛ به دست آوردن، درآمد کسب کردن",
           "more": "gain · win"
         }
       ]
@@ -1172,7 +1172,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که شاید از همان دورانِ کودکی با آن‌ها آشنا شده بودند.",
+      "fa": "بازی‌هایی که ممکن است در همان دورانِ کودکی به این افراد معرفی شده باشند.",
       "en": "which may have been introduced during childhood.",
       "ipa": "wɪtʃ meɪ hæv bɪn ˌɪntrəˈdust ˈdʊrɪŋ ˈtʃaɪldˌhʊd",
       "words": [
@@ -1186,7 +1186,7 @@ DRILL({
       ]
     },
     {
-      "fa": "چند نمونه که به‌خوبی ثبت شده‌اند عبارت‌اند از بازیِ شاهانهٔ اور در بین‌النهرینِ باستان، گو در چین، سِنِت در مصر،",
+      "fa": "از نمونه‌هایی که به‌ویژه خوب ثبت و مستند شده‌اند می‌توان به این‌ها اشاره کرد: بازیِ شاهانهٔ اور در بین‌النهرینِ باستان، گو در چین، سِنِت در مصر،",
       "en": "Some particularly well-recorded examples include the Royal Game of Ur in ancient Mesopotamia, Go in China, Senet in Egypt,",
       "ipa": "sʌm ˌpɑrˈtɪkjəlɚli wɛl rəˈkɔrdəd ɪɡˈzæmpəlz ɪnˈklud ðə ˈrɔɪəl ɡeɪm əv ɝ ɪn ˈeɪntʃənt ˌmɛsəpəˈteɪmiə ɡoʊ ɪn ˈtʃaɪnə ˈsɛnət ɪn ˈidʒəpt",
       "words": [
@@ -1249,7 +1249,7 @@ DRILL({
           "w": "to make up",
           "ipa": "tə meɪk ʌp",
           "m": "to invent something such as a story or game",
-          "fa": "از خود درآوردن، ساختن",
+          "fa": "از خود ساختن، ابداع کردنِ بازی؛ آشتی کردن؛ تشکیل دادن",
           "more": "invent · make-believe"
         },
         {
@@ -1262,7 +1262,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و ماشین‌های اسباب‌بازی را روی زمین سُر می‌دهند که تند و تق‌تق‌کنان بدوند.",
+      "fa": "و ماشین‌های اسباب‌بازی‌شان را راه می‌اندازند تا تند و سبک روی کفِ اتاق سُر بخورند.",
       "en": "and send toy cars skittering across the floor.",
       "ipa": "ənd sɛnd tɔɪ kɑrz ˈskɪtərɪŋ əˈkrɔs ðə flɔr",
       "words": [
@@ -1291,7 +1291,7 @@ DRILL({
           "w": "to get old",
           "ipa": "tə ɡɛt oʊld",
           "m": "(informal) to become boring because it happens too often",
-          "fa": "کهنه شدن، تکراری شدن",
+          "fa": "تکراری یا خسته‌کننده شدن، از تازگی افتادن؛ پیر شدن",
           "more": "wear thin · never gets old"
         }
       ]

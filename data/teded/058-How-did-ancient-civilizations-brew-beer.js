@@ -47,7 +47,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به او خوشامد می‌گویند، او را به مهمان‌سرایی شلوغ راهنمایی می‌کنند،",
+      "fa": "از او استقبال می‌شود، به مهمان‌سرایی شلوغ راهنمایی می‌شود",
       "en": "He’s welcomed, guided to a crowded guesthouse,",
       "ipa": "hiz ˈwɛlkəmd ˈɡaɪdəd tə ə ˈkraʊdəd ˈɡɛstˌhaʊs",
       "words": [
@@ -75,7 +75,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و بی‌معطلی غذای ویژهٔ آن دیر را جلویش می‌گذارند: یک لیوانِ بلندِ آبجو.",
+      "fa": "و بی‌درنگ با نوشیدنیِ ویژهٔ دیر از او پذیرایی می‌شود؛ یک لیوانِ بلندِ آبجو.",
       "en": "and promptly served the abbey’s specialty: a tall glass of beer.",
       "ipa": "ənd ˈprɑmptli sɝvd ði ˈæbiz ˈspɛʃəlti ə tɔl ɡlæs əv bɪr",
       "words": [
@@ -104,13 +104,13 @@ DRILL({
           "w": "specialty",
           "ipa": "ˈspɛʃəlti",
           "m": "a food or product that a place is famous for",
-          "fa": "غذا یا محصولِ ویژه، تخصص",
+          "fa": "نوشیدنیِ ویژهٔ این دیر؛ خوراکِ مخصوصِ یک محل؛ حوزهٔ تخصص",
           "more": "speciality (UK) · signature dish"
         }
       ]
     },
     {
-      "fa": "قرن‌ها صومعه‌ها در سرتاسرِ اروپای امروزی تولیدکنندگانِ اصلی و بزرگ‌مقیاسِ آبجو بودند.",
+      "fa": "برای سده‌ها، صومعه‌ها در سراسرِ سرزمینی که امروز اروپا می‌نامیم، تولیدکنندگانِ اصلیِ آبجو در مقیاسِ وسیع بودند.",
       "en": "For centuries, monasteries across modern-day Europe were the primary large-scale brewers of beer.",
       "ipa": "fɚ ˈsɛntʃəriz ˈmɑnəˌstɛriz əˈkrɔs ˈmɑdɚn deɪ ˈjʊrəp wɚ ðə ˈpraɪˌmɛri lɑrdʒ skeɪl ˈbruɚz əv bɪr",
       "words": [
@@ -153,7 +153,7 @@ DRILL({
           "w": "hardly",
           "ipa": "ˈhɑrdli",
           "m": "almost not; certainly not",
-          "fa": "به‌سختی، به‌هیچ‌وجه",
+          "fa": "به هیچ وجه، اصلاً (در ردِ خاستگاهِ نوشیدنی)؛ به‌زحمت",
           "more": "barely · scarcely"
         }
       ]
@@ -250,7 +250,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما کارشناسان بر این باورند که این نوشیدنی در سرتاسرِ جهان مستقل از هم پدید آمد.",
+      "fa": "اما کارشناسان معتقدند این نوشیدنی در نقاطِ گوناگونِ جهان، مستقل از یکدیگر، شکل گرفت.",
       "en": "but experts believe the drink developed independently across the world.",
       "ipa": "bət ˈɛkspɚts bɪˈliv ðə drɪŋk dɪˈvɛləpt ˌɪndɪˈpɛndəntli əˈkrɔs ðə wɝld",
       "words": [
@@ -278,7 +278,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در هر یک از این مناطق، ترکیبش را غلاتِ بومیِ همان‌جا شکل می‌دادند.",
+      "fa": "در هر یک از این مناطق، ترکیبِ نوشیدنی تحتِ تأثیرِ غلاتِ بومیِ همان‌جا شکل می‌گرفت.",
       "en": "In each of these regions, its composition was shaped by native grains.",
       "ipa": "ɪn itʃ əv ðiz ˈridʒənz ɪts ˌkɑmpəˈzɪʃən wəz ʃeɪpt baɪ ˈneɪtɪv ɡreɪnz",
       "words": [
@@ -321,7 +321,7 @@ DRILL({
           "w": "cloudy",
           "ipa": "ˈklaʊdi",
           "m": "(of a liquid) not clear",
-          "fa": "کدر، ابری",
+          "fa": "کدر و غیرشفاف (نوشیدنی)؛ ابری (هوا)",
           "more": "murky · clear"
         }
       ]
@@ -347,7 +347,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در منطقهٔ آند در آمریکای جنوبی، سفالینه‌هایی با قدمتِ ۵٬۰۰۰ سال",
+      "fa": "در ناحیهٔ آند در آمریکای جنوبی، سفالینه‌هایی با قدمتِ پنج هزار سال",
       "en": "In the Andean region of South America, 5,000-year-old pottery",
       "ipa": "ɪn ði ˈændiən ˈridʒən əv saʊθ əˈmɛrəkə faɪv ˈθaʊzənd jɪr oʊld ˈpɑtəri",
       "words": [
@@ -361,7 +361,7 @@ DRILL({
       ]
     },
     {
-      "fa": "نشان می‌دهند که «چیچا» تولید می‌شده، نوشیدنیِ دم‌کرده‌ای از ذرتِ تخمیرشده.",
+      "fa": "حاکی از آن‌اند که «چیچا» تولید می‌شده است، نوشیدنی‌ای که از تخمیرِ ذرت به دست می‌آمد.",
       "en": "suggests production of chicha, a brew of fermented maize.",
       "ipa": "səɡˈdʒɛsts prəˈdʌkʃən əv ˈtʃitʃə ə bru əv fɚˈmɛntəd meɪz",
       "words": [
@@ -383,7 +383,7 @@ DRILL({
           "w": "brew",
           "ipa": "bru",
           "m": "a drink made by brewing",
-          "fa": "نوشیدنیِ دم‌کرده یا تخمیری",
+          "fa": "نوشیدنیِ حاصل از تخمیر، اینجا آبجوی ذرت؛ نوشیدنیِ دم‌کرده",
           "more": "home brew"
         },
         {
@@ -529,7 +529,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بی‌آنکه آبجوسازانِ آن زمان خبر داشته باشند، مخمرِ وحشی راهش را به درونِ مخلوط پیدا می‌کرد —",
+      "fa": "بی‌آنکه آبجوسازانِ آن دوران از ماجرا خبر داشته باشند، مخمرِ وحشی به درونِ مخلوط راه پیدا می‌کرد،",
       "en": "Unbeknownst to brewers at the time, wild yeast found its way into the mixture—",
       "ipa": "ənbiˈnoʊnst tə ˈbruɚz ət ðə taɪm waɪld jist faʊnd ɪts weɪ ɪnˈtu ðə ˈmɪkstʃɚ",
       "words": [
@@ -537,7 +537,7 @@ DRILL({
           "w": "unbeknownst to",
           "ipa": "ənbiˈnoʊnst tu",
           "m": "without someone knowing",
-          "fa": "بی‌خبر از، بدونِ اطلاعِ",
+          "fa": "بی‌آنکه شخصِ موردِ اشاره خبر داشته باشد",
           "more": "unbeknown to · without sb’s knowledge"
         },
         {
@@ -564,7 +564,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از راهِ هوا، روی میوه، یا از طریقِ ابزارهای دوباره‌استفاده‌شده‌ای که هنوز مخمرهایی از دفعه‌های قبلیِ آبجوسازی در خود داشتند.",
+      "fa": "و از راهِ هوا، روی میوه یا به‌وسیلهٔ ابزارهایی حمل می‌شد که دوباره به کار می‌رفتند و هنوز مخمرهای نوبت‌های پیشینِ آبجوسازی را در خود داشتند.",
       "en": "carried through the air, on fruit, or via reused tools still harboring yeasts from prior brews.",
       "ipa": "ˈkærid θru ði ɛr ɑn frut ɔr ˈvaɪə riˈuzd tulz stɪl ˈhɑrbərɪŋ jists frəm ˈpraɪɚ bruz",
       "words": [
@@ -579,7 +579,7 @@ DRILL({
           "w": "to harbor",
           "ipa": "tə ˈhɑrbɚ",
           "m": "to have or hold something, especially something harmful, inside",
-          "fa": "در خود جا دادن، پناه دادن",
+          "fa": "هنوز چیزی را در خود داشتن، اینجا مخمر؛ پناه دادن؛ در دل نگه داشتنِ احساسی",
           "more": "harbour (UK) · contain"
         },
         {
@@ -592,7 +592,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با گذشتِ زمان و انبار شدن، مخمرها بخشی از این قندها را به الکل تبدیل می‌کردند و در همان حال دی‌اکسید کربن آزاد می‌کردند.",
+      "fa": "در مدتِ نگهداریِ مخلوط و با گذشتِ زمان، مخمرها مقداری از این قندها را به الکل تبدیل و هم‌زمان دی‌اکسید کربن آزاد می‌کردند.",
       "en": "With time and storage, yeasts converted some of these sugars into alcohol while releasing carbon dioxide.",
       "ipa": "wɪð taɪm ənd ˈstɔrədʒ jists kənˈvɝtɪd sʌm əv ðiz ˈʃʊɡɚz ɪnˈtu ˈælkəˌhɑl waɪl riˈlisɪŋ ˈkɑrbən daɪˈɑkˌsaɪd",
       "words": [
@@ -702,7 +702,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و آن را برای نوشیدن از دیگر منابعِ آبِ در دسترس سالم‌تر می‌کرد.",
+      "fa": "و در نتیجه نوشیدنِ آن کم‌خطرتر از نوشیدنِ آب از دیگر منابعِ در دسترس بود.",
       "en": "making it safer to drink than other available water sources.",
       "ipa": "ˈmeɪkɪŋ ɪt ˈseɪfɚ tə drɪŋk ðən ˈʌðɚ əˈveɪləbəl ˈwɔtɚ ˈsɔrsəz",
       "words": [
@@ -739,7 +739,7 @@ DRILL({
           "w": "recipe",
           "ipa": "ˈrɛsəpi",
           "m": "a set of instructions for making food or drink",
-          "fa": "دستورِ پخت، دستورِ تهیه"
+          "fa": "دستورِ تهیهٔ نوشیدنی؛ دستورِ پختِ غذا"
         }
       ]
     },
@@ -787,7 +787,7 @@ DRILL({
           "w": "code",
           "ipa": "koʊd",
           "m": "a set of laws or rules",
-          "fa": "قانون‌نامه، مجموعه‌قوانین",
+          "fa": "قانون‌نامه، مجموعهٔ قوانین؛ رمز یا کد",
           "more": "legal code · code of conduct"
         },
         {
@@ -814,7 +814,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و هر آبجوسازی که به خاطرِ زیادی گرفتنِ پول برای یک لیوان آبجو گیر می‌افتاد، به مرگ با غرق کردن محکوم می‌شد.",
+      "fa": "و هر آبجوسازی که هنگامِ گرفتنِ پولِ اضافی بابتِ یک پاینت آبجو گیر می‌افتاد، به اعدام از راهِ غرق کردن محکوم می‌شد.",
       "en": "And any brewer caught overcharging for a pint was condemned to death by drowning.",
       "ipa": "ənd ˈɛni ˈbruɚ kɑt ˌoʊvɚˈtʃɑrdʒɪŋ fɚ ə paɪnt wəz kənˈdɛmd tə dɛθ baɪ ˈdraʊnɪŋ",
       "words": [
@@ -938,7 +938,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا قرنِ بیستمِ پیش از میلاد، آبجو از مصر به یونان سرریز شده بود، هرچند به‌اندازهٔ شراب محبوب نبود.",
+      "fa": "تا سدهٔ بیستمِ پیش از میلاد، آبجو از مصر به یونان هم راه یافته بود، هرچند به اندازهٔ شراب محبوب نبود.",
       "en": "By the 20th century BCE, beer had spilled over from Egypt into Greece, though it wasn't as popular as wine.",
       "ipa": "baɪ ðə ˈtwɛntiəθ ˈsɛntʃəri ˌbiˌsiˈi bɪr hæd spɪld ˈoʊvɚ frəm ˈidʒəpt ɪnˈtu ɡris ðoʊ ɪt ˈwɑzənt əz ˈpɑpjəlɚ əz waɪn",
       "words": [
@@ -946,7 +946,7 @@ DRILL({
           "w": "to spill over",
           "ipa": "tə spɪl ˈoʊvɚ",
           "m": "to spread from one place to another",
-          "fa": "سرریز شدن، به جای دیگر سرایت کردن",
+          "fa": "به سرزمینی دیگر گسترش یافتن؛ از لبهٔ ظرف سرریز شدن",
           "more": "spillover · spread"
         }
       ]
@@ -1140,7 +1140,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که در سالِ ۱۵۱۶ یک دوکِ باواریایی قانونِ خلوصِ آبجو را صادر کرد،",
+      "fa": "که در سالِ ۱۵۱۶ یک دوکِ باواریایی قانونی برای خلوصِ آبجو وضع کرد،",
       "en": "that in 1516, a Bavarian duke issued a beer purity law,",
       "ipa": "ðæt ɪn fɪfˈtin sɪkˈstin ə bəˈvɛriən duk ˈɪʃud ə bɪr ˈpjʊrəti lɔ",
       "words": [
@@ -1259,7 +1259,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با این کار، یکی از موادِ کلیدیِ آبجو بالاخره دیدنی شد.",
+      "fa": "با این کشف، سرانجام یکی از اجزای اصلیِ آبجو که تا آن زمان از نظرها پنهان بود آشکار شد.",
       "en": "With this, a key beer ingredient was finally made visible.",
       "ipa": "wɪð ðɪs ə ki bɪr ɪnˈɡridiənt wəz ˈfaɪnəli meɪd ˈvɪzəbəl",
       "words": [
@@ -1267,7 +1267,7 @@ DRILL({
           "w": "visible",
           "ipa": "ˈvɪzəbəl",
           "m": "able to be seen",
-          "fa": "مرئی، دیدنی",
+          "fa": "آشکار و شناخته‌شده؛ در معنای لفظی، قابلِ دیدن",
           "more": "invisible · visibility"
         }
       ]
@@ -1353,7 +1353,7 @@ DRILL({
       "ipa": "ˈleɪɡɚz wɪtʃ ɪnˈklud ˈpɪlznɚz ənd bɑks ɚ fɚˈmɛntəd wɪð jists"
     },
     {
-      "fa": "که در دماهای سردتر رشد خوبی دارند و در تهِ ظرف‌های تخمیر زندگی می‌کنند.",
+      "fa": "که در دماهای پایین‌تر خوب رشد می‌کنند و در تهِ ظرف‌های تخمیر زندگی می‌کنند.",
       "en": "that thrive at colder temperatures and live at the bottom of fermentation vessels.",
       "ipa": "ðæt θraɪv ət ˈkoʊldɚ ˈtɛmprətʃɚz ənd laɪv ət ðə ˈbɑtəm əv ˌfɝmənˈteɪʃən ˈvɛsəlz",
       "words": [
@@ -1368,7 +1368,7 @@ DRILL({
           "w": "vessel",
           "ipa": "ˈvɛsəl",
           "m": "(formal) a container for liquids",
-          "fa": "ظرف، مخزن",
+          "fa": "ظرف یا مخزنِ تخمیر؛ کشتی؛ رگ",
           "more": "container · tank"
         }
       ]
@@ -1417,7 +1417,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مثلاً کُلش‌ها با مخمرِ ایل شروع می‌شوند، ولی مثلِ لاگرها در دماهای سردتر به پایان می‌رسند.",
+      "fa": "برای نمونه، ساختِ کُلش با مخمرِ ایل آغاز می‌شود، اما مرحلهٔ پایانی‌اش مثلِ لاگر در دماهای پایین‌تر انجام می‌شود.",
       "en": "Kölsches, for example, start with ale yeast, but are finished at colder temperatures like lagers.",
       "ipa": "ˈkoʊlʃəz fɚ ɪɡˈzæmpəl stɑrt wɪð eɪl jist bət ɚ ˈfɪnɪʃt ət ˈkoʊldɚ ˈtɛmprətʃɚz laɪk ˈleɪɡɚz"
     },
@@ -1541,7 +1541,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و اگر تاریخ نشانه‌ای باشد، داستانِ آبجو تا سال‌های سالِ آینده همچنان دم خواهد کشید.",
+      "fa": "و اگر تاریخ نشانه‌ای از آینده به ما بدهد، داستانِ آبجو در سال‌های پیشِ رو همچنان در حالِ شکل‌گیری خواهد بود. <c>(فعلِ پایانی به ساختنِ خودِ نوشیدنی هم اشاره دارد.)</c>",
       "en": "And if history is any indication, beer's story will continue brewing for many years to come.",
       "ipa": "ənd ɪf ˈhɪstəri ɪz ˈɛni ˌɪndəˈkeɪʃən bɪrz ˈstɔri wɪl kənˈtɪnju ˈbruɪŋ fɚ ˈmɛni jɪrz tə kʌm",
       "words": [
@@ -1556,7 +1556,7 @@ DRILL({
           "w": "to brew",
           "ipa": "tə bru",
           "m": "(of something) to develop or continue to grow",
-          "fa": "دم کشیدن، در حالِ شکل‌گیری بودن",
+          "fa": "به‌تدریج شکل گرفتن (اینجا داستانِ آبجو)؛ آبجو ساختن؛ چای یا قهوه دم کردن",
           "more": "trouble is brewing"
         },
         {

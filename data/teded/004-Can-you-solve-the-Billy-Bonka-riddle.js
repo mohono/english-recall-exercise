@@ -40,7 +40,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که یک پیچِ اشتباه، وقتی دنبال دستشویی می‌گردید،",
+      "fa": "که در جست‌وجوی دستشویی، یک پیچِ اشتباه",
       "en": "when a wrong turn searching for the restroom",
       "ipa": "wɛn ə rɔŋ tɝn ˈsɝtʃɪŋ fɚ ðə ˈrɛˌstrum",
       "words": [
@@ -61,7 +61,7 @@ DRILL({
       ]
     },
     {
-      "fa": "کارتان را به آزمایشگاهِ «فوق‌سریِ» آب‌نبات می‌کشاند.",
+      "fa": "کارتان را به آزمایشگاهِ فوق‌سریِ آب‌نبات می‌کشاند.",
       "en": "lands you in the TOP SECRET candy laboratory.",
       "ipa": "lændz ju ɪn ðə ˌtiˌoʊˈpi ˌɛsˌiˌsiˌɑrˌiˈti ˈkændi ˈlæbrəˌtɔri",
       "words": [
@@ -88,7 +88,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بانکا که از ورودِ بی‌اجازه‌تان به خشم آمده،",
+      "fa": "خشمگین از اینکه بی‌اجازه وارد شده‌اید،",
       "en": "Enraged at your trespassing,",
       "ipa": "ɛnˈreɪdʒd ət jɔr ˈtrɛˌspæsɪŋ",
       "words": [
@@ -109,7 +109,7 @@ DRILL({
       ]
     },
     {
-      "fa": "توضیح می‌دهد که عواقبش ساده است: باید بازی‌اش را بکنید.",
+      "fa": "بانکا توضیح می‌دهد که پیامدِ کارتان روشن است: باید بازیِ او را انجام دهید.",
       "en": "Bonka explains that the consequences are simple: you must play his game.",
       "ipa": "ˈbɑŋkə ɪkˈspleɪnz ðæt ðə ˈkɑnsəkˌwɛnsəz ɚ ˈsɪmpəl ju mʌst pleɪ hɪz ɡeɪm",
       "words": [
@@ -151,7 +151,7 @@ DRILL({
           "w": "as good as",
           "ipa": "əz ɡʊd æz",
           "m": "almost; very nearly",
-          "fa": "عملاً، تقریباً",
+          "fa": "در این تعبیر: عملاً، در حکمِ؛ در مقایسهٔ معمولی: به‌خوبیِ",
           "more": "as good as dead · as good as new"
         },
         {
@@ -164,7 +164,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بانکا از تازه‌ترین اختراعش رونمایی می‌کند: آب‌نبات‌هایی که در یک آن رنگ مو را عوض می‌کنند.",
+      "fa": "بانکا از تازه‌ترین اختراعش رونمایی می‌کند: آب‌نبات‌هایی که فوراً رنگ مویتان را عوض می‌کنند.",
       "en": "Bonka unveils his latest invention: candies that instantly change your hair color.",
       "ipa": "ˈbɑŋkə ənˈveɪlz hɪz ˈleɪtəst ɪnˈvɛnʃən ˈkændiz ðæt ˈɪnstəntli tʃeɪndʒ jɔr hɛr ˈkʌlɚ",
       "newPara": true,
@@ -207,7 +207,7 @@ DRILL({
           "w": "drop",
           "ipa": "drɑp",
           "m": "a small round sweet",
-          "fa": "آب‌نبات (گرد و کوچک)",
+          "fa": "اینجا: یک آب‌نبات کوچک؛ معنی رایج دیگر: قطره",
           "more": "fruit drops · cough drops"
         }
       ]
@@ -285,7 +285,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هر پنج نفرتان چشم‌بسته یکی از هفت آب‌نبات را برمی‌دارید،",
+      "fa": "هر پنج نفرتان، هرکدام بدون نگاه کردن، یکی از آن هفت آب‌نبات را برمی‌دارید،",
       "en": "All five of you blindly take one of the seven drops,",
       "ipa": "ɔl faɪv əv ju ˈblaɪndli teɪk wʌn əv ðə ˈsɛvən drɑps",
       "words": [
@@ -319,7 +319,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هر کس در صف می‌تواند تغییرِ موی کسانی را که جلویش هستند ببیند،",
+      "fa": "هرکس در صف می‌تواند تغییرِ رنگِ موی افرادی را که جلوی او هستند ببیند،",
       "en": "Everyone in line can see the hair transformations of those in front of them,",
       "ipa": "ˈɛvriˌwʌn ɪn laɪn kən si ðə hɛr ˌtrænsfɚˈmeɪʃənz əv ðoʊz ɪn frʌnt əv ðɛm",
       "words": [
@@ -489,7 +489,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پاسخ تا ۳ ثانیهٔ دیگر … ۲ … ۱",
+      "fa": "پاسخ تا سه شمارهٔ دیگر… پاسخ تا دو شمارهٔ دیگر… پاسخ تا یک شمارهٔ دیگر…",
       "en": "Answer in 3 Answer in 2 Answer in 1",
       "ipa": "ˈænsɚ ɪn θri ˈænsɚ ɪn tu ˈænsɚ ɪn wʌn"
     },
@@ -623,7 +623,7 @@ DRILL({
           "w": "to tell",
           "ipa": "tə tɛl",
           "m": "to know or recognize something for certain",
-          "fa": "تشخیص دادن، فهمیدن",
+          "fa": "اینجا: تشخیص دادن، فرق گذاشتن؛ در کاربرد دیگر: گفتن، خبر دادن",
           "more": "tell the difference · can't tell"
         },
         {
@@ -688,7 +688,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس می‌توانیم آن ترکیبِ رنگ مو را کنار بگذاریم و حذف کنیم",
+      "fa": "پس می‌توانیم آن ترکیبِ رنگ مو را حذف کنیم",
       "en": "So we can eliminate that hair color combination",
       "ipa": "soʊ wi kən ɪˈlɪməˌneɪt ðæt hɛr ˈkʌlɚ ˌkɑmbəˈneɪʃən",
       "words": [
@@ -797,7 +797,7 @@ DRILL({
       ]
     },
     {
-      "fa": "می‌توانیم آنچه از پروفا-بومپای ۱ یاد گرفتیم را برداریم و احتمال‌های باقی‌مانده را یکی‌یکی بررسی کنیم.",
+      "fa": "می‌توانیم از آنچه از پروفا-بومپای ۱ فهمیدیم استفاده کنیم و حالت‌های باقی‌مانده را یکی‌یکی بررسی کنیم.",
       "en": "We can take what we learned from Proofa-Boompa 1 and work through the remaining possibilities.",
       "ipa": "wi kən teɪk wʌt wi ˈlɝnɪd frəm ˈprufə ˈbumpə wʌn ənd wɝk θru ðə rɪˈmeɪnɪŋ ˌpɑsəˈbɪlətiz",
       "words": [
@@ -901,7 +901,7 @@ DRILL({
       ]
     },
     {
-      "fa": "می‌بینیم که بیشترشان ابهام باقی می‌گذارند و در نتیجه پروفا-بومپای ۲ را به گفتنِ «نه» وامی‌دارند.",
+      "fa": "خواهیم دید که بیشترِ این حالت‌ها هنوز جای ابهام می‌گذارند و بنابراین باعث می‌شدند پروفا-بومپای ۲ جواب «نه» بدهد.",
       "en": "we’ll find that most leave ambiguity, and would therefore lead Proofa-Boompa 2 to say no.",
       "ipa": "wil faɪnd ðæt moʊst liv ˌæmbɪɡˈjuəti ənd wʊd ˈðɛrˌfɔr lɛd ˈprufə ˈbumpə tu tə seɪ noʊ",
       "words": [
@@ -923,7 +923,7 @@ DRILL({
           "w": "to lead somebody to do",
           "ipa": "tə lɛd ˈsʌmˌbɑdi tə du",
           "m": "to cause someone to do or think something",
-          "fa": "کسی را به … واداشتن",
+          "fa": "باعث شدن کسی کاری بکند، کسی را به انجام کاری سوق دادن",
           "more": "lead to"
         }
       ]
@@ -960,7 +960,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اگر اینجا آبی بود، یا اینجا سفید، آن‌وقت پروفا-بومپای ۱ «بله» می‌گفت.",
+      "fa": "اگر رنگ مویش در این حالت آبی بود، یا در آن یکی حالت سفید بود، پروفا-بومپای ۱ تا آن موقع جواب «بله» داده بود.",
       "en": "If it were blue here, or white here, then Proofa-Boompa 1 would have said yes.",
       "ipa": "ɪf ɪt wɚ blu hɪr ɔr waɪt hɪr ðɛn ˈprufə ˈbumpə wʌn wʊd hæv sɛd jɛs"
     },
@@ -1044,7 +1044,7 @@ DRILL({
           "w": "to apply",
           "ipa": "tə əˈplaɪ",
           "m": "to be true or relevant for a particular situation",
-          "fa": "صدق کردن، مصداق داشتن",
+          "fa": "اینجا: صدق کردن، مصداق داشتن؛ با مفعول: به کار بستنِ یک قاعده یا روش",
           "more": "apply to"
         }
       ]

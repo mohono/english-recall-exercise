@@ -54,7 +54,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما فکری در سر داشت که امیدوار بود ورقِ بختش را برگرداند.",
+      "fa": "اما ایده‌ای داشت که امیدوار بود وضعِ مالی‌اش را از این رو به آن رو کند.",
       "en": "But she had an idea she hoped would turn her fortunes around.",
       "ipa": "bət ʃi hæd ən aɪˈdiə ʃi hoʊpt wʊd tɝn hɚ ˈfɔrtʃənz əˈraʊnd",
       "words": [
@@ -69,7 +69,7 @@ DRILL({
           "w": "fortunes",
           "ipa": "ˈfɔrtʃənz",
           "m": "the good and bad things that happen to a person",
-          "fa": "بخت، اقبال، وضعِ مالی",
+          "fa": "اوضاعِ مالی و بخت‌واقبالِ شخص؛ در بافت‌های دیگر، ثروت‌های کلان",
           "more": "fortune · fortunate"
         }
       ]
@@ -117,7 +117,7 @@ DRILL({
       ]
     },
     {
-      "fa": "او را متقاعد کرد که دنیا به راهِ بهتری برای شستنِ ظرف نیاز دارد.",
+      "fa": "او را به این نتیجه رساند که دنیا به روشی بهتر برای تمیز کردنِ ظرف‌ها نیاز داشت.",
       "en": "convinced her the world needed a better way to clean dishes.",
       "ipa": "kənˈvɪnst hɚ ðə wɝld ˈnidəd ə ˈbɛtɚ weɪ tə klin ˈdɪʃəz",
       "words": [
@@ -181,7 +181,7 @@ DRILL({
           "w": "fair",
           "ipa": "fɛr",
           "m": "a large public event where goods and inventions are shown",
-          "fa": "نمایشگاه",
+          "fa": "نمایشگاه؛ در نقش صفت، منصفانه یا عادلانه",
           "more": "world's fair · trade fair"
         }
       ]
@@ -264,13 +264,13 @@ DRILL({
           "w": "cycle",
           "ipa": "ˈsaɪkəl",
           "m": "one complete series of steps in a machine's process",
-          "fa": "چرخه، دور",
+          "fa": "مرحله یا دوری از برنامهٔ ماشین؛ چرخه",
           "more": "wash cycle · cyclical"
         }
       ]
     },
     {
-      "fa": "یک پمپِ گردشی آب را با فشارِ بالا به درونِ بازوهای افشانه می‌فرستد،",
+      "fa": "یک پمپِ گردشِ آب، آبِ پرفشار را به سمت بالا و به درونِ بازوهای آب‌پاش می‌فرستد،",
       "en": "A circulation pump sends high-pressure water up into spray arms,",
       "ipa": "ə ˈsɝkjəˌleɪʃən pʌmp sɛndz haɪ ˈprɛʃɚ ˈwɔtɚ ʌp ɪnˈtu spreɪ ɑrmz",
       "words": [
@@ -298,7 +298,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که از نازل‌های کج بیرون می‌جهد و بازوها را به چرخش درمی‌آورد.",
+      "fa": "جایی که آب از دهانه‌های زاویه‌دار با فشار بیرون می‌زند و بازوها را به چرخش درمی‌آورد.",
       "en": "where it shoots out of angled nozzles, propelling the arms to spin.",
       "ipa": "wɛr ɪt ʃuts aʊt əv ˈæŋɡəld ˈnɑzəlz prəˈpɛlɪŋ ði ɑrmz tə spɪn",
       "words": [
@@ -348,7 +348,7 @@ DRILL({
           "w": "to recollect",
           "ipa": "tə ˌrɛkəˈlɛkt",
           "m": "(of liquid) to gather again in one place",
-          "fa": "دوباره جمع شدن",
+          "fa": "دوباره در جایی جمع شدن (آب)؛ به یاد آوردن",
           "more": "collect · gather"
         }
       ],
@@ -390,7 +390,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با دیدنِ اینکه چه مقدار نور از آن می‌گذرد.",
+      "fa": "از راهِ سنجیدنِ اینکه چه مقدار نور از آب عبور می‌کند.",
       "en": "by seeing how much light passes through it.",
       "ipa": "baɪ ˈsiɪŋ haʊ mʌtʃ laɪt ˈpæsəz θru ɪt"
     },
@@ -480,7 +480,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و آبِ تمیز، که تا ۶۸ درجهٔ سانتی‌گراد — حتی داغ‌تر — گرم شده،",
+      "fa": "و آبِ تمیز، که تا دمایی حتی بالاتر، یعنی ۶۸ درجهٔ سانتی‌گراد، گرم شده است،",
       "en": "and clean water, heated to an even hotter 68°C,",
       "ipa": "ənd klin ˈwɔtɚ ˈhitəd tə ən ˈivɪn ˈhɑtɚ ˈsɪksti eɪt si"
     },
@@ -623,7 +623,7 @@ DRILL({
           "w": "pod",
           "ipa": "pɑd",
           "m": "a small sealed packet containing a measured amount of something",
-          "fa": "قرصِ کپسولی، بستهٔ کوچک",
+          "fa": "کپسولِ تک‌دوزِ شوینده؛ غلافِ دانه",
           "more": "capsule · tablet"
         }
       ]
@@ -685,12 +685,12 @@ DRILL({
       ]
     },
     {
-      "fa": "و با سرِ دیگر به سمتِ آب می‌کشند.",
+      "fa": "و با سرِ دیگر آن پس‌ماندها را به طرفِ آب می‌کشند.",
       "en": "and pulling towards the water with the other.",
       "ipa": "ənd ˈpʊlɪŋ təˈwɔrdz ðə ˈwɔtɚ wɪð ði ˈʌðɚ"
     },
     {
-      "fa": "سورفکتانت را در مایعِ ظرف‌شوییِ معمولی هم پیدا می‌کنید، اما شوینده‌های ماشین یک قدم جلوتر می‌روند.",
+      "fa": "موادِ فعالِ سطحی را در مایعِ ظرف‌شوییِ معمولی هم پیدا خواهید کرد، اما شوینده‌های ماشین از این هم فراتر می‌روند.",
       "en": "You'll also find surfactants in regular dish soap, but detergents go further.",
       "ipa": "jul ˈɔlsoʊ faɪnd ˈsɝfəˌkænts ɪn ˈrɛɡjəlɚ dɪʃ soʊp bət dɪˈtɝdʒənts ɡoʊ ˈfɝðɚ",
       "words": [
@@ -829,7 +829,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و این امکان را می‌دهند که در کنارِ سفیدکنندهٔ پودری کار کنند.",
+      "fa": "و به این ترتیب به آنزیم‌ها امکان می‌دهند در کنارِ سفیدکنندهٔ پودری عمل کنند.",
       "en": "allowing them to work alongside powdered bleach.",
       "ipa": "əˈlaʊɪŋ ðɛm tə wɝk əˌlɔŋˈsaɪd ˈpaʊdɚd blitʃ",
       "words": [
@@ -843,7 +843,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما از آن هم مؤثرترند قرص‌های کپسولیِ ظرف‌شویی",
+      "fa": "اما از این هم مؤثرتر، کپسول‌های شویندهٔ ماشین ظرف‌شویی‌اند",
       "en": "But even more effective are dishwasher pods",
       "ipa": "bət ˈivɪn mɔr ɪˈfɛktɪv ɚ ˈdɪʃˌwɑʃɚ pɑdz",
       "words": [
@@ -872,7 +872,7 @@ DRILL({
           "w": "film",
           "ipa": "fɪlm",
           "m": "a thin layer of something",
-          "fa": "لایهٔ نازک، فیلم",
+          "fa": "لایهٔ بسیار نازک (اینجا پلاستیکی)؛ فیلمِ سینمایی",
           "more": "plastic film · thin film"
         }
       ]
@@ -906,7 +906,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برخی پژوهش‌ها ادعا می‌کنند که این پلاستیک ظرفِ دو سه ماه زیست‌تخریب می‌شود،",
+      "fa": "برخی پژوهش‌ها مدعی‌اند که پلاستیک ظرفِ یکی دو ماه به‌طور طبیعی تجزیه می‌شود،",
       "en": "some studies claim the plastic biodegrades in a couple of months,",
       "ipa": "sʌm ˈstʌdiz kleɪm ðə ˈplæstɪk ˈbaɪəˌdɛɡəlz ɪn ə ˈkʌpəl əv mʌnθs",
       "words": [
@@ -928,13 +928,13 @@ DRILL({
           "w": "a couple of",
           "ipa": "ə ˈkʌpəl ʌv",
           "m": "two, or a small number",
-          "fa": "دو سه تا، یکی دو تا",
+          "fa": "دو تا، حدودِ دو تا",
           "more": "a few"
         }
       ]
     },
     {
-      "fa": "در حالی که برخی دیگر درمی‌یابند که مدتی بسیار طولانی‌تر باقی می‌ماند.",
+      "fa": "در حالی که پژوهش‌های دیگر نشان می‌دهند پلاستیک مدتِ بسیار بیشتری باقی می‌ماند.",
       "en": "while others find it persists for much longer.",
       "ipa": "waɪl ˈʌðɚz faɪnd ɪt pɚˈsɪsts fɚ mʌtʃ ˈlɔŋɡɚ",
       "words": [
@@ -957,7 +957,7 @@ DRILL({
           "w": "to treat",
           "ipa": "tə trit",
           "m": "to behave towards or deal with something in a particular way",
-          "fa": "رفتار کردن با",
+          "fa": "با چیزی رفتار کردن؛ درمان کردن",
           "more": "treatment · handle"
         }
       ]
@@ -1005,7 +1005,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا خیال کند ظرف‌ها کثیف‌تر از آن چیزی‌اند که هستند،",
+      "fa": "طوری که حسگر تصور کند ظرف‌ها از آنچه واقعاً هستند کثیف‌ترند،",
       "en": "into thinking dishes are dirtier than they are,",
       "ipa": "ɪnˈtu ˈθɪŋkɪŋ ˈdɪʃəz ɚ ˈdɝtiɚ ðən ðeɪ ɑr"
     },
@@ -1066,7 +1066,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اگر ظرف‌ها خوب آبکشی شده باشند، حسگرِ کدورت کم‌ترین چرک را تشخیص می‌دهد",
+      "fa": "اگر ظرف‌ها خوب آبکشی شده باشند، حسگرِ کدورت فقط مقدارِ بسیار اندکی چرک تشخیص خواهد داد",
       "en": "If dishes are well rinsed, the turbidity sensor will detect minimal grime",
       "ipa": "ɪf ˈdɪʃəz ɚ wɛl rɪnst ðə tɚˈbɪdəti ˈsɛnsɚ wɪl dɪˈtɛkt ˈmɪnəməl ɡraɪm",
       "words": [
@@ -1081,7 +1081,7 @@ DRILL({
           "w": "minimal",
           "ipa": "ˈmɪnəməl",
           "m": "very small in amount",
-          "fa": "بسیار اندک، کم‌ترین",
+          "fa": "بسیار اندک، ناچیز",
           "more": "minimum · minimize"
         },
         {
@@ -1094,7 +1094,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و یک چرخهٔ شست‌وشوی کوتاه را به راه می‌اندازد،",
+      "fa": "و یک چرخهٔ کوتاهِ شست‌وشو را به راه خواهد انداخت،",
       "en": "and trigger a short wash cycle,",
       "ipa": "ənd ˈtrɪɡɚ ə ʃɔrt wɑʃ ˈsaɪkəl",
       "words": [
@@ -1108,7 +1108,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که شاید برای تجزیهٔ پوستهٔ سفت و چسبیده‌ای که به‌آسانی کنده نمی‌شود کافی نباشد.",
+      "fa": "که ممکن است برای تجزیهٔ هر ته‌ماندهٔ سفت‌وسختی که به ظرف چسبیده کافی نباشد.",
       "en": "which may not be enough to break down any stubborn stuck-on crust.",
       "ipa": "wɪtʃ meɪ nɑt bi ɪˈnʌf tə breɪk daʊn ˈɛni ˈstʌbɚn stʌk ɑn krʌst",
       "words": [
@@ -1116,7 +1116,7 @@ DRILL({
           "w": "stubborn",
           "ipa": "ˈstʌbɚn",
           "m": "(of dirt, a stain, etc.) difficult to remove",
-          "fa": "سرسخت، سمج",
+          "fa": "سخت‌پاک‌شونده (ته‌ماندهٔ غذا)؛ لجباز (شخص)",
           "more": "persistent · obstinate"
         },
         {
@@ -1157,7 +1157,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس بهترین روش این است که پیش از چیدنِ ظرف‌ها فقط تهِ ظرف‌ها را بتراشید و خالی کنید.",
+      "fa": "پس بهترین کار این است که پیش از چیدنِ ظرف‌ها در ماشین، فقط ته‌ماندهٔ غذا را از رویشان بتراشید.",
       "en": "so the best practice is to simply scrape your dishes before loading.",
       "ipa": "soʊ ðə bɛst ˈpræktəs ɪz tə ˈsɪmpli skreɪp jɔr ˈdɪʃəz bɪˈfɔr ˈloʊdɪŋ",
       "words": [
@@ -1179,13 +1179,13 @@ DRILL({
           "w": "to load",
           "ipa": "tə loʊd",
           "m": "to put things into a machine or vehicle",
-          "fa": "چیدن، بار زدن",
+          "fa": "ظرف‌ها را در ماشین چیدن؛ بار زدن",
           "more": "load (n.) · unload (opp.)"
         }
       ]
     },
     {
-      "fa": "از آن مهم‌تر، اگر بگذارید ظرف‌شویی همهٔ کار را بکند، در مصرفِ آب هم صرفه‌جویی می‌کنید.",
+      "fa": "به‌علاوه، با سپردنِ تمامِ کار به ماشین ظرف‌شویی، در مصرفِ آب هم صرفه‌جویی خواهید کرد.",
       "en": "What’s more, by letting the dishwasher do all the work, you'll also save water.",
       "ipa": "wʌts mɔr baɪ ˈlɛtɪŋ ðə ˈdɪʃˌwɑʃɚ du ɔl ðə wɝk jul ˈɔlsoʊ seɪv ˈwɔtɚ",
       "newPara": true,
@@ -1194,7 +1194,7 @@ DRILL({
           "w": "what's more",
           "ipa": "wʌts mɔr",
           "m": "used to add something more important or surprising",
-          "fa": "از آن مهم‌تر، تازه",
+          "fa": "به‌علاوه، گذشته از این",
           "more": "moreover · furthermore · besides"
         },
         {
@@ -1255,12 +1255,12 @@ DRILL({
       ]
     },
     {
-      "fa": "پس اگر فکر می‌کنید شستنِ دستیِ ظرف‌هایتان بیشتر از این طول می‌کشد،",
+      "fa": "پس اگر فکر می‌کنید شستنِ ظرف‌هایتان با دست ممکن است بیش از آن طول بکشد،",
       "en": "So if you think handwashing your dishes might take longer than that,",
       "ipa": "soʊ ɪf ju θɪŋk ˈhændˌwɔʃɪŋ jɔr ˈdɪʃəz maɪt teɪk ˈlɔŋɡɚ ðən ðæt"
     },
     {
-      "fa": "شاید بیارزد که خیلی ساده یک دور ظرف‌شویی را روشن کنید.",
+      "fa": "شاید بیارزد که به‌سادگی یک دور ماشینِ ظرف‌شویی را با ظرف‌ها روشن کنید.",
       "en": "it might be worth just running a load.",
       "ipa": "ɪt maɪt bi wɝθ dʒʌst ˈrʌnɪŋ ə loʊd",
       "words": [
@@ -1275,7 +1275,7 @@ DRILL({
           "w": "load",
           "ipa": "loʊd",
           "m": "an amount of things washed together in one go",
-          "fa": "یک دور (ماشینِ لباس‌شویی یا ظرف‌شویی)",
+          "fa": "مقدارِ ظرفی که ماشین در یک نوبت می‌شوید؛ بار",
           "more": "a load of washing · run a load"
         }
       ]
@@ -1317,7 +1317,7 @@ DRILL({
           "w": "to warp",
           "ipa": "tə wɔrp",
           "m": "to bend or twist out of shape, usually because of heat or water",
-          "fa": "تاب برداشتن، کج کردن",
+          "fa": "تاب دادن، کج کردن؛ تاب برداشتن",
           "more": "warped · bend · distort"
         },
         {
@@ -1345,7 +1345,7 @@ DRILL({
           "w": "seal",
           "ipa": "sil",
           "m": "a rubber part that stops liquid or air getting in or out",
-          "fa": "واشر، درزگیر",
+          "fa": "واشر یا بخشِ آب‌بندیِ ظرف؛ مُهر؛ فُکِ دریایی",
           "more": "seal (v.) · sealed"
         },
         {
@@ -1379,7 +1379,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یا حتی خودشان به ظرف‌شویی آسیب بزنند.",
+      "fa": "یا حتی ممکن است خودِ چاقوها به ماشینِ ظرف‌شویی آسیب بزنند.",
       "en": "or they can even damage the dishwasher itself.",
       "ipa": "ɔr ðeɪ kən ˈivɪn ˈdæmədʒ ðə ˈdɪʃˌwɑʃɚ ɪtˈsɛlf"
     },
@@ -1419,7 +1419,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که روشن گذاشتنِ تلویزیون به مدتِ ۱۲ ساعت.",
+      "fa": "که اگر تلویزیونتان را ۱۲ ساعت روشن بگذارید مصرف می‌شود.",
       "en": "as leaving your TV on for 12 hours.",
       "ipa": "əz ˈlivɪŋ jɔr ˌtiˈvi ɑn fɚ twɛlv ˈaʊɚz"
     },
@@ -1446,7 +1446,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما اگر با ظرف‌های به‌جامانده از یک مهمانیِ شامِ کامل روبه‌رو شدید،",
+      "fa": "اما اگر با ظرف‌هایی به اندازهٔ ظرف‌های یک مهمانیِ شام روبه‌رو باشید،",
       "en": "But if you’re faced with a dinner party’s worth of dishes,",
       "ipa": "bət ɪf jʊr feɪst wɪð ə ˈdɪnɚ ˈpɑrtiz wɝθ əv ˈdɪʃəz",
       "words": [
@@ -1482,7 +1482,7 @@ DRILL({
           "w": "reprieve",
           "ipa": "riˈpriv",
           "m": "a short break from something unpleasant",
-          "fa": "فرجه، رهاییِ موقت",
+          "fa": "آسودگیِ موقت از یک کار یا گرفتاری؛ مهلت یا تعویقِ اجرای حکم",
           "more": "respite · relief"
         }
       ]

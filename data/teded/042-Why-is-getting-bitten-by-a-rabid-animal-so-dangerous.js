@@ -19,7 +19,7 @@ DRILL({
       ]
     },
     {
-      "fa": "او جان سالم به در برد — اما مادرش فهمید که احتمالاً حالا به هاری مبتلا شده است،",
+      "fa": "پسر جان سالم به در برد، اما مادرش فهمید که او حالا به احتمال زیاد به هاری مبتلا شده است،",
       "en": "He survived— but his mother realized he was probably now infected with rabies,",
       "ipa": "hi sɚˈvaɪvd bət hɪz ˈmʌðɚ ˈriˌlaɪzd hi wəz ˈprɑbəbli naʊ ɪnˈfɛktəd wɪð ˈreɪbiz",
       "words": [
@@ -53,7 +53,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که تقریباً حکمِ مرگی قطعی بود.",
+      "fa": "چیزی که تقریباً به‌معنای حکمِ قطعیِ مرگ بود.",
       "en": "an almost certain death sentence.",
       "ipa": "ən ˈɔlˌmoʊst ˈsɝtən dɛθ ˈsɛntəns",
       "words": [
@@ -61,12 +61,12 @@ DRILL({
           "w": "death sentence",
           "ipa": "dɛθ ˈsɛntəns",
           "m": "(figurative) something that will almost surely cause death",
-          "fa": "حکمِ مرگ"
+          "fa": "اینجا سرنوشتی که تقریباً حتماً به مرگ می‌انجامد؛ در دادگاه، حکمِ اعدام"
         }
       ]
     },
     {
-      "fa": "او با شتاب پسرش را به پاریس رساند، چون می‌دانست جانش در گروِ دارویی آزمایشی است که شایعه‌اش بر سرِ زبان‌ها بود.",
+      "fa": "او پسرش را به‌شتاب به پاریس رساند، چون می‌دانست جانِ پسر به دارویی آزمایشی بستگی دارد که فقط خبرهایی تأییدنشده درباره‌اش شنیده می‌شد.",
       "en": "She rushed him to Paris, knowing his life depended on a rumored experimental medicine.",
       "ipa": "ʃi rʌʃt hɪm tə ˈpɛrɪs ˈnoʊɪŋ hɪz laɪf dɪˈpɛndəd ɑn ə ˈrumɚd ɪkˌspɛrɪˈmɛntəl ˈmɛdəsən",
       "words": [
@@ -86,7 +86,7 @@ DRILL({
           "w": "rumored",
           "ipa": "ˈrumɚd",
           "m": "talked about by people but not known to be true",
-          "fa": "شایعه‌شده، که شایعه‌اش هست",
+          "fa": "که خبرِ تأییدنشده‌ای درباره‌اش شنیده می‌شود، شایعه‌شده",
           "more": "rumor · reportedly"
         },
         {
@@ -99,7 +99,7 @@ DRILL({
       ]
     },
     {
-      "fa": "امروز، بدونِ درمانِ به‌موقع و درست، هاری تقریباً در همهٔ موارد همچنان کشنده است،",
+      "fa": "امروزه، بدونِ مداخلهٔ پزشکیِ مناسب، هاری همچنان تقریباً در همهٔ موارد کشنده است،",
       "en": "Today, without proper intervention, rabies remains deadly in almost all cases,",
       "ipa": "təˈdeɪ wɪˈθaʊt ˈprɑpɚ ˌɪntɚˈvɛntʃən ˈreɪbiz rɪˈmeɪnz ˈdɛdli ɪn ˈɔlˌmoʊst ɔl ˈkeɪsəz",
       "newPara": true,
@@ -135,7 +135,7 @@ DRILL({
       "note": "intervention اینجا یعنی اقدامِ پزشکی، نه دخالت."
     },
     {
-      "fa": "و همین آن را مرگبارترین بیماریِ واگیردار می‌کند.",
+      "fa": "که همین امر آن را به مرگبارترین بیماریِ عفونی تبدیل می‌کند.",
       "en": "making it the most lethal infectious disease.",
       "ipa": "ˈmeɪkɪŋ ɪt ðə moʊst ˈliθəl ɪnˈfɛkʃəs dɪˈziz",
       "words": [
@@ -150,7 +150,7 @@ DRILL({
           "w": "infectious",
           "ipa": "ɪnˈfɛkʃəs",
           "m": "able to pass from one person or animal to another",
-          "fa": "واگیردار، عفونی",
+          "fa": "عفونی، ناشی از عاملِ عفونت‌زا؛ در کاربردِ مجازی، مسری (مثل خنده)",
           "more": "contagious"
         }
       ]
@@ -170,7 +170,7 @@ DRILL({
           "w": "to afford",
           "ipa": "tə əˈfɔrd",
           "m": "(formal) to give or provide something",
-          "fa": "بخشیدن، فراهم کردن",
+          "fa": "فراهم کردن، امکانِ چیزی را دادن؛ از عهدهٔ هزینه برآمدن",
           "more": "provide · grant"
         },
         {
@@ -183,7 +183,7 @@ DRILL({
       "note": "afford اینجا یعنی «دادن، فراهم کردن»، نه «توانِ پرداخت داشتن»."
     },
     {
-      "fa": "که هاری را این‌قدر خطرناک و در برابرِ درمان مقاوم می‌کنند، و بهترین روش‌های نجاتِ جان را آشکار کرده‌اند.",
+      "fa": "که هاری را تا این حد خطرناک و مقاوم به درمان می‌کنند؛ همین پیشرفت‌ها بهترین راه‌های نجاتِ جانِ انسان‌ها را نیز آشکار کرده‌اند.",
       "en": "that make rabies so dangerous and treatment-resistant, and have revealed the best methods to save lives.",
       "ipa": "ðæt meɪk ˈreɪbiz soʊ ˈdeɪndʒərəs ənd ˈtritmənt rɪˈzɪstənt ənd hæv rɪˈvild ðə bɛst ˈmɛθədz tə seɪv lɪvz",
       "words": [
@@ -736,7 +736,7 @@ DRILL({
           "w": "to register",
           "ipa": "tə ˈrɛdʒɪstɚ",
           "m": "to show or be noticed",
-          "fa": "خود را نشان دادن، بروز کردن"
+          "fa": "خود را به صورتِ نشانه‌ای نشان دادن؛ ثبت کردن یا ثبت‌نام کردن"
         },
         {
           "w": "-like",
@@ -845,7 +845,7 @@ DRILL({
           "w": "vacant",
           "ipa": "ˈveɪkənt",
           "m": "showing no interest or understanding",
-          "fa": "بی‌حالت، تهی",
+          "fa": "بی‌حالت یا بی‌فروغ (چهره یا نگاه)؛ خالی، بی‌سکنه",
           "more": "blank · empty"
         },
         {
@@ -1043,7 +1043,7 @@ DRILL({
       ]
     },
     {
-      "fa": "صرف‌نظر از اینکه سرایتی رخ بدهد یا نه، این دورهٔ بیماریِ حاد تقریباً همیشه به اغما و مرگ می‌انجامد.",
+      "fa": "چه انتقالی رخ دهد چه ندهد، پس از این دورهٔ بیماریِ حاد تقریباً همیشه اغما و مرگ فرا می‌رسد.",
       "en": "Regardless of whether transmission occurs, this period of acute illness is almost always followed by coma and death.",
       "ipa": "rəˈɡɑrdləs əv ˈwɛðɚ trænˈsmɪʃən əˈkɝz ðɪs ˈpɪriəd əv əˈkjut ˈɪlnəs ɪz ˈɔlˌmoʊst ˈɔlˌweɪz ˈfɑloʊd baɪ ˈkoʊmə ənd dɛθ",
       "words": [
@@ -1064,7 +1064,7 @@ DRILL({
           "w": "acute",
           "ipa": "əˈkjut",
           "m": "(of an illness) severe and coming on quickly",
-          "fa": "حاد",
+          "fa": "حاد (بیماری)؛ شدید؛ تیز (زاویه)",
           "more": "chronic"
         },
         {
@@ -1082,7 +1082,7 @@ DRILL({
       ]
     },
     {
-      "fa": "وقتی نشانه‌ها آغاز شد، در حالِ حاضر هیچ درمانِ قطعی‌ای برای هاری وجود ندارد.",
+      "fa": "وقتی نشانه‌ها شروع شده باشند، در حالِ حاضر هیچ علاجِ قطعی‌ای برای هاری وجود ندارد.",
       "en": "Once symptoms have begun, there is currently no cure for rabies.",
       "ipa": "wʌns ˈsɪmptəmz hæv bɪˈɡʌn ðɛr ɪz ˈkɝəntli noʊ kjʊr fɚ ˈreɪbiz",
       "newPara": true,
@@ -1103,7 +1103,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با این حال، روش‌های پیشگیرانهٔ بسیار مؤثری واقعاً داریم، به شرطِ آنکه به‌قدرِ کافی زود به بیمار برسند —",
+      "fa": "با این حال، ما واقعاً روش‌های پیشگیرانهٔ بسیار مؤثری در اختیار داریم، به شرطِ آنکه به‌قدرِ کافی زود به کار گرفته شوند —",
       "en": "However, we do have highly effective preventative methods if they’re delivered early enough—",
       "ipa": "ˌhaʊˈɛvɚ wi du hæv ˈhaɪli ɪˈfɛktɪv priˈvɛntətɪv ˈmɛθədz ɪf ðɛr dɪˈlɪvɚd ˈɝli ɪˈnʌf",
       "words": [
@@ -1222,7 +1222,7 @@ DRILL({
       "ipa": "ˈmaɪstɚz ˈmʌðɚ ɡɑt hɪm tə pəˈstʊr tu deɪz ˈæftɚ ði əˈtæk"
     },
     {
-      "fa": "او یک دوره مایه‌کوبی دریافت کرد، و گرچه این روند پرخطر بود،",
+      "fa": "پسر یک دوره مایه‌کوبی دریافت کرد و با اینکه این اقدامِ پزشکی خطر داشت،",
       "en": "He received a course of inoculations, and though the procedure was risky,",
       "ipa": "hi rəˈsivd ə kɔrs əv ɪˌnɑkjəˈleɪʃənz ənd ðoʊ ðə prəˈsidʒɚ wəz ˈrɪski",
       "words": [
@@ -1230,7 +1230,7 @@ DRILL({
           "w": "course",
           "ipa": "kɔrs",
           "m": "a series of medical treatments",
-          "fa": "دوره (درمان)"
+          "fa": "دوره‌ای از چند نوبت درمان یا مایه‌کوبی؛ دورهٔ آموزشی؛ مسیر"
         },
         {
           "w": "inoculation",
@@ -1254,7 +1254,7 @@ DRILL({
       ]
     },
     {
-      "fa": "او برخلافِ همهٔ احتمال‌ها جان به در برد و نخستین واکسینه‌شدهٔ هاری بود که زنده ماند.",
+      "fa": "با وجودِ بختِ اندکش جان به در برد و به این ترتیب نخستین کسی شد که واکسن هاری دریافت کرد و زنده ماند.",
       "en": "he beat the odds, becoming the first rabies-vaccinated person to survive.",
       "ipa": "hi bit ði ɑdz bɪˈkʌmɪŋ ðə fɝst ˈreɪbiz ˈvæksəneɪtɪd ˈpɝsən tə sɚˈvaɪv",
       "words": [
@@ -1262,7 +1262,7 @@ DRILL({
           "w": "to beat the odds",
           "ipa": "tə bit ði ɑdz",
           "m": "to succeed although failure was very likely",
-          "fa": "برخلافِ همهٔ احتمال‌ها موفق شدن"
+          "fa": "با وجودِ شانسِ اندک موفق شدن"
         },
         {
           "w": "vaccinated",
@@ -1341,7 +1341,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آن معدود کسانی که می‌دانیم پس از آغازِ نشانه‌ها از هاری جان به در برده‌اند",
+      "fa": "آن شمارِ بسیار اندک از کسانی که می‌دانیم پس از شروعِ نشانه‌ها از هاری جان به در برده‌اند،",
       "en": "The very few people known to have survived rabies after the onset of symptoms",
       "ipa": "ðə ˈvɛri fju ˈpipəl noʊn tə hæv sɚˈvaɪvd ˈreɪbiz ˈæftɚ ði ˈɑnˌsɛt əv ˈsɪmptəmz",
       "words": [
@@ -1354,7 +1354,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به لطفِ مراقبت‌های ویژه زنده مانده‌اند، و معمولاً در این میان آسیبِ عصبی برداشته‌اند.",
+      "fa": "به دلیلِ مراقبت‌های ویژه توانسته‌اند زنده بمانند، در حالی که معمولاً در این فرایند دچارِ آسیبِ عصبی شده‌اند.",
       "en": "have done so due to intensive care, usually sustaining neurological damage in the process.",
       "ipa": "hæv dʌn soʊ du tə ɪnˈtɛnsɪv kɛr ˈjuʒəwəli səˈsteɪnɪŋ ˌnʊrəˈlɑdʒɪkəl ˈdæmədʒ ɪn ðə ˈprɑˌsɛs",
       "words": [
@@ -1374,7 +1374,7 @@ DRILL({
           "w": "to sustain",
           "ipa": "tə səˈsteɪn",
           "m": "to suffer an injury or damage",
-          "fa": "(آسیب) دیدن، متحمل شدن"
+          "fa": "آسیب دیدن، متحملِ آسیب شدن؛ حفظ کردن یا دوام بخشیدن"
         },
         {
           "w": "in the process",
@@ -1412,7 +1412,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هرچند متأسفانه گمان می‌رود این شمار بیشتر باشد، چون در مناطقِ گرفتارِ هاری دسترسیِ پزشکی ناکافی است.",
+      "fa": "هرچند متأسفانه گمان می‌رود رقمِ واقعی بالاتر باشد، چون در مناطقِ درگیرِ هاری دسترسی به خدماتِ پزشکی کافی نیست.",
       "en": "though the number is sadly suspected to be higher due to insufficient medical access in rabies-burdened areas.",
       "ipa": "ðoʊ ðə ˈnʌmbɚ ɪz ˈsædli səˈspɛktəd tə bi ˈhaɪɚ du tə ɪnsəˈfɪʃənt ˈmɛdəkəl ˈækˌsɛs ɪn ˈreɪbiz ˈbɝdənd ˈɛriəz",
       "words": [
@@ -1508,7 +1508,7 @@ DRILL({
           "w": "measure",
           "ipa": "ˈmɛʒɚ",
           "m": "an action taken to deal with a problem",
-          "fa": "تدبیر، اقدام"
+          "fa": "اقدام یا تدبیرِ پیشگیرانه؛ اندازه یا معیار"
         },
         {
           "w": "essential",
@@ -1551,7 +1551,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در حالی که خواب بوده — ایجاب می‌کند که موضوع به‌طورِ جدی از نظرِ پزشکی بررسی شود.",
+      "fa": "در مدتی که آن فرد خواب بوده است — بررسیِ پزشکیِ جدی را ایجاب می‌کنند.",
       "en": "while they’ve been sleeping— warrant serious medical investigation.",
       "ipa": "waɪl ðeɪv bɪn ˈslipɪŋ ˈwɔrənt ˈsɪriəs ˈmɛdəkəl ɪnˌvɛstəˈɡeɪʃən",
       "words": [
@@ -1559,7 +1559,7 @@ DRILL({
           "w": "to warrant",
           "ipa": "tə ˈwɔrənt",
           "m": "to make something necessary or right",
-          "fa": "ایجاب کردن، توجیه کردن",
+          "fa": "ضرورتِ کاری را توجیه کردن، ایجاب کردن",
           "more": "justify · call for"
         },
         {

@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=MBir652KZPE",
   "items": [
     {
-      "fa": "روندِ ترانه‌نوشتنِ من، پیش از هر چیز، این است که اول زیادی فکر کنم،",
+      "fa": "روشِ من برای نوشتنِ متنِ ترانه این است که پیش از هر چیز، زیادی فکر کنم",
       "en": "My lyric process is, first and foremost, to overthink,",
       "ipa": "maɪ ˈlɪrɪk ˈprɑˌsɛs ɪz fɝst ənd ˈfɔrˌmoʊst tə ˈoʊvɚˌθɪŋk",
       "newPara": true,
@@ -48,7 +48,7 @@ DRILL({
           "w": "nerd",
           "ipa": "nɝd",
           "m": "a person who is too interested in study or technical things and seems not cool",
-          "fa": "خرخون، آدمِ بیش از حد درس‌خوان",
+          "fa": "اینجا کسی که چنان غرقِ فکر و جزئیات می‌شود که حرفش از حالتِ طبیعی درمی‌آید؛ خرخوان، شیفتهٔ یک موضوع",
           "more": "nerdy · geek"
         }
       ]
@@ -65,7 +65,7 @@ DRILL({
       "ipa": "ɪz ðɛr ˈmjuzɪk ɪnˈsaɪd əv ju"
     },
     {
-      "fa": "ما نوازنده‌ها و موسیقی‌دان‌های فعال را از سرتاسرِ این صنعت به خدمت گرفته‌ایم",
+      "fa": "ما موسیقی‌دان‌هایی را که در این حرفه کار می‌کنند از سراسرِ صنعتِ موسیقی به همکاری دعوت کرده‌ایم",
       "en": "We’ve recruited working musicians from throughout the industry",
       "ipa": "wiv rɪˈkrutɪd ˈwɝkɪŋ mjuˈzɪʃənz frəm θruˈaʊt ði ˈɪndəstri",
       "words": [
@@ -100,7 +100,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا کمکت کنند آن را بشنوی، نگهش داری، و با این دنیای وحشی و شگفت‌انگیز در میان بگذاری.",
+      "fa": "تا کمکت کنند موسیقیِ درونت را بشنوی، نگهش داری و با این دنیای عجیب و شگفت‌انگیز در میانش بگذاری.",
       "en": "to help you hear it, hold it, and share it with this wild and wonderful world.",
       "ipa": "tə hɛlp ju hɪr ɪt hoʊld ɪt ənd ʃɛr ɪt wɪð ðɪs waɪld ənd ˈwʌndɚfəl wɝld",
       "words": [
@@ -108,19 +108,19 @@ DRILL({
           "w": "wild",
           "ipa": "waɪld",
           "m": "(here) exciting, strange and full of energy",
-          "fa": "وحشی، دیوانه‌وار",
+          "fa": "عجیب و پرشور (دنیا)؛ وحشی، رام‌نشده",
           "more": "wildly · wilderness"
         }
       ]
     },
     {
-      "fa": "به نظرم یک ترانهٔ عالی، دو کار می‌کند:",
+      "fa": "به نظرم یک متنِ ترانهٔ عالی دو کار می‌کند؛",
       "en": "I think a great lyric, it does two things:",
       "ipa": "aɪ θɪŋk ə ɡreɪt ˈlɪrɪk ɪt dʌz tu θɪŋz",
       "newPara": true
     },
     {
-      "fa": "یک، به نظرم کمک می‌کند که متنِ ترانه‌ات بی‌همتا باشد،",
+      "fa": "اول اینکه به نظرم منحصربه‌فرد بودنِ متنِ ترانه‌ات کمک می‌کند،",
       "en": "one, I think it helps if your lyric is unique,",
       "ipa": "wʌn aɪ θɪŋk ɪt hɛlps ɪf jɔr ˈlɪrɪk ɪz juˈnik",
       "words": [
@@ -149,12 +149,12 @@ DRILL({
       "note": "be like در گفتارِ محاوره‌ای یعنی «گفتن» یا «فکر کردن»."
     },
     {
-      "fa": "خب، این ترانه‌ای است که قبلاً نشنیده‌ام،",
+      "fa": "«خب، این متنِ ترانه‌ای است که تا حالا نشنیده‌ام»،",
       "en": "okay, this is a lyric that I have not heard before,",
       "ipa": "ˌoʊˈkeɪ ðɪs ɪz ə ˈlɪrɪk ðæt aɪ hæv nɑt hɝd bɪˈfɔr"
     },
     {
-      "fa": "یا برداشتی از چیزی که تا حالا این‌طوری به آن فکر نکرده بودم.",
+      "fa": "یا برداشتی از موضوعی است که تا حالا از این زاویه به آن فکر نکرده‌ام.",
       "en": "or a take on something that I have not considered in this way.",
       "ipa": "ɔr ə teɪk ɑn ˈsʌmθɪŋ ðæt aɪ hæv nɑt kənˈsɪdɚd ɪn ðɪs weɪ",
       "words": [
@@ -175,7 +175,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ولی از طرفِ دیگر، به نظرم یک ترانهٔ عالی صادق هم هست.",
+      "fa": "از طرفی، به نظرم یک متنِ ترانهٔ عالی صادقانه هم هست.",
       "en": "But then I also think a great lyric is honest.",
       "ipa": "bət ðɛn aɪ ˈɔlsoʊ θɪŋk ə ɡreɪt ˈlɪrɪk ɪz ˈɑnəst",
       "words": [
@@ -211,7 +211,7 @@ DRILL({
       ]
     },
     {
-      "fa": "حس می‌کنم آدم‌ها واقعاً به اسم‌ها می‌چسبند و اسم‌ها می‌توانند حسابی در ذهن بمانند.",
+      "fa": "حس می‌کنم آدم‌ها واقعاً به اسم‌ها می‌چسبند و خودِ این اسم‌ها هم می‌توانند حسابی در ذهن بمانند.",
       "en": "I feel like people really hold on to nouns and they can be really sticky.",
       "ipa": "aɪ fil laɪk ˈpipəl ˈrɪli hoʊld ɑn tə naʊnz ənd ðeɪ kən bi ˈrɪli ˈstɪki",
       "words": [
@@ -226,7 +226,7 @@ DRILL({
           "w": "sticky",
           "ipa": "ˈstɪki",
           "m": "(informal) easy to remember; staying in your mind",
-          "fa": "ماندگار، به‌یادماندنی",
+          "fa": "ماندگار در ذهن؛ چسبناک",
           "more": "catchy · memorable"
         }
       ],
@@ -252,7 +252,7 @@ DRILL({
       "ipa": "ənd aɪ laɪk tə fil laɪk wɛn ju si ðə ˈtaɪtəl ju kən ɪˈmædʒən ðə ˈmjuzɪk ˈvɪdioʊ"
     },
     {
-      "fa": "با همهٔ این حرف‌ها، می‌توانی چیزی هم بنویسی که کمی ذهنی‌تر باشد،",
+      "fa": "با این همه، می‌توانی چیزی هم بنویسی که کمی بیشتر ذهن را درگیر کند،",
       "en": "That being said, you can also write something that’s a little headier,",
       "ipa": "ðæt ˈbiɪŋ sɛd ju kən ˈɔlsoʊ raɪt ˈsʌmθɪŋ ðæts ə ˈlɪtəl ˈhɛdiɚ",
       "words": [
@@ -267,13 +267,13 @@ DRILL({
           "w": "heady",
           "ipa": "ˈhɛdi",
           "m": "(here) intellectual; more about ideas than concrete things",
-          "fa": "ذهنی، فکری",
+          "fa": "ذهنی و فکربرانگیز؛ مست‌کننده یا سرمست‌کننده",
           "more": "cerebral · abstract"
         }
       ]
     },
     {
-      "fa": "که کمی بیشتر صرفاً احساسی یا درونی باشد.",
+      "fa": "چیزی که کمی بیشتر فقط به احساس یا دنیای درون مربوط باشد.",
       "en": "that’s a little more just emotional or internal.",
       "ipa": "ðæts ə ˈlɪtəl mɔr dʒʌst ɪˈmoʊʃənəl ɔr ɪnˈtɝnəl",
       "words": [
@@ -328,7 +328,7 @@ DRILL({
       ]
     },
     {
-      "fa": "می‌شود گفت مثالِ موردِ علاقه‌ام از این کار اشاره‌ای است به استیوی — «Living For The City».",
+      "fa": "می‌شود گفت نمونهٔ محبوبم از این کار، اثری از استیوی است که به آن اشاره می‌کنم؛ «زندگی برای شهر».",
       "en": "I would say my favorite example of that is a Stevie reference— “Living For The City.”",
       "ipa": "aɪ wʊd seɪ maɪ ˈfeɪvərɪt ɪɡˈzæmpəl əv ðæt ɪz ə ˈstivi ˈrɛfərəns ˈlɪvɪŋ fɚ ðə ˈsɪti",
       "words": [
@@ -372,7 +372,7 @@ DRILL({
           "w": "to crunch up",
           "ipa": "tə krʌntʃ ʌp",
           "m": "to crush or squeeze something into a smaller shape",
-          "fa": "مچاله کردن",
+          "fa": "اینجا تعبیرِ آشنا را فشرده و دگرگون کردن؛ مچاله کردن",
           "more": "to crumple · to crush"
         },
         {
@@ -425,7 +425,7 @@ DRILL({
       "note": "do ِ قبل از feel تأکیدی است."
     },
     {
-      "fa": "پس اگر چیزی باشد که واقعاً در من طنین داشته باشد، خیلی سخت است که درباره‌اش ننویسم.",
+      "fa": "پس اگر چیزی واقعاً از نظرِ عاطفی به دلم بنشیند، خیلی سخت است درباره‌اش ننویسم.",
       "en": "So if there’s something that feels really resonant, it’s really hard not to write about it.",
       "ipa": "soʊ ɪf ðɛrz ˈsʌmθɪŋ ðæt filz ˈrɪli ˈrɛzənənt ɪts ˈrɪli hɑrd nɑt tə raɪt əˈbaʊt ɪt",
       "words": [
@@ -433,13 +433,13 @@ DRILL({
           "w": "resonant",
           "ipa": "ˈrɛzənənt",
           "m": "having a strong emotional effect; seeming meaningful",
-          "fa": "طنین‌انداز، اثرگذار",
+          "fa": "اثرگذار از نظرِ عاطفی، طنین‌انداز در دل؛ پُرطنین (صدا)",
           "more": "to resonate · resonance"
         }
       ]
     },
     {
-      "fa": "به نظرم نوشتن دربارهٔ آنچه دارم از سر می‌گذرانم واقعاً پالاینده و درمانگر است،",
+      "fa": "نوشتن دربارهٔ آنچه خودم دارم از سر می‌گذرانم واقعاً برایم مایهٔ سبکی و آرامش است و اثرِ درمانی دارد،",
       "en": "I find it really cathartic and therapeutic to write about what it is that I’m going through,",
       "ipa": "aɪ faɪnd ɪt ˈrɪli kəˈθɑrtɪk ənd ˌθɛrəˈpjutɪk tə raɪt əˈbaʊt wʌt ɪt ɪz ðæt aɪm ˈɡoʊɪŋ θru",
       "words": [
@@ -447,7 +447,7 @@ DRILL({
           "w": "cathartic",
           "ipa": "kəˈθɑrtɪk",
           "m": "helping you release strong feelings and feel better",
-          "fa": "پالاینده، تخلیه‌کنندهٔ احساس",
+          "fa": "سبک‌کننده از راهِ بیرون ریختنِ احساسات، رهایی‌بخش",
           "more": "catharsis"
         },
         {
@@ -510,7 +510,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و می‌خواهی چیزی باشد که همه بتوانند یه‌جورایی با آن مشت‌هایشان را بالا ببرند و همراهش بخوانند.",
+      "fa": "و دلت می‌خواهد آهنگ طوری باشد که همه بتوانند با ضربش مشت‌هایشان را از هیجان بالا و پایین ببرند و با آن هم‌صدا شوند.",
       "en": "and you want it to be something that everyone can kind of like pump their fists to and sing along to.",
       "ipa": "ənd ju wɑnt ɪt tə bi ˈsʌmθɪŋ ðæt ˈɛvriˌwʌn kən kaɪnd əv laɪk pʌmp ðɛr fɪsts tə ənd sɪŋ əˈlɔŋ tu",
       "words": [
@@ -518,7 +518,7 @@ DRILL({
           "w": "to pump your fist",
           "ipa": "tə pʌmp jɔr fɪst",
           "m": "to move your closed hand up and down in the air with excitement",
-          "fa": "مشت را بالا بردن (از هیجان)",
+          "fa": "مشت را از هیجان پیاپی بالا و پایین بردن",
           "more": "fist pump"
         },
         {
@@ -557,7 +557,7 @@ DRILL({
       ]
     },
     {
-      "fa": "«Driver’s License» ِ اولیویا رودریگو نمونهٔ عالیِ آهنگی دربارهٔ دل‌شکستگی است که چیزهای کوچکِ خیلی مشخصی دارد.",
+      "fa": "ترانهٔ «گواهینامهٔ رانندگی» از اولیویا رودریگو نمونهٔ بسیار خوبی از آهنگِ دل‌شکستگی است که جزئیاتِ کوچک و کاملاً مشخصی دارد.",
       "en": "Olivia Rodrigo’s ”Driver’s License” is a great example of a heartbreak song that has really specific little things.",
       "ipa": "oʊˈlɪviə rɑˈdriɡoʊz ˈdraɪvɚz ˈlaɪsəns ɪz ə ɡreɪt ɪɡˈzæmpəl əv ə ˈhɑrtˌbreɪk sɔŋ ðæt hæz ˈrɪli spəˈsɪfɪk ˈlɪtəl θɪŋz",
       "words": [
@@ -578,7 +578,7 @@ DRILL({
       ]
     },
     {
-      "fa": "جزئیاتِ چیزهایی که دلت برایشان در کسی تنگ می‌شود یا چیزهایی که تو را یادِ کسی می‌اندازند.",
+      "fa": "جزئیاتِ آن چیزهایی در یک نفر که دلت برایشان تنگ می‌شود، یا چیزهایی که تو را به یادِ کسی می‌اندازند.",
       "en": "The details of the things that you miss about someone or the things that remind you of someone.",
       "ipa": "ðə dɪˈteɪlz əv ðə θɪŋz ðæt ju mɪs əˈbaʊt ˈsʌmˌwʌn ɔr ðə θɪŋz ðæt riˈmaɪnd ju əv ˈsʌmˌwʌn",
       "words": [
@@ -612,7 +612,7 @@ DRILL({
       "note": "everyday (یک کلمه) صفت است؛ every day (دو کلمه) یعنی «هر روز»."
     },
     {
-      "fa": "و به زمانی از زندگی‌ات برگردی و فکر کنی که همین حس را داشتی.",
+      "fa": "و به یاد بیاوری زمانی را در زندگی‌ات که چنین حسی داشتی.",
       "en": "and think back to a time in your life when you were feeling that way.",
       "ipa": "ənd θɪŋk bæk tə ə taɪm ɪn jɔr laɪf wɛn ju wɚ ˈfilɪŋ ðæt weɪ",
       "words": [
@@ -703,7 +703,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اگر تو حسش کرده‌ای، میلیاردها نفرِ دیگر هم هستند که دقیقاً همان چیز را حس کرده‌اند.",
+      "fa": "اگر تو چنین حسی داشتی، میلیاردها نفر دیگر هم هستند که دقیقاً همان را تجربه کرده‌اند.",
       "en": "if you felt it, there’s billions of other people who have felt that same exact thing.",
       "ipa": "ɪf ju fɛlt ɪt ðɛrz ˈbɪljənz əv ˈʌðɚ ˈpipəl hu hæv fɛlt ðæt seɪm ɪɡˈzækt θɪŋ",
       "words": [
@@ -717,7 +717,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما آنچه تازه می‌شود، شیوهٔ تو برای بیانِ آن احساس است.",
+      "fa": "اما آنچه واقعاً بدیع می‌شود، شیوهٔ خودت برای بیانِ آن احساس است.",
       "en": "But what does become original is your way of expressing that feeling.",
       "ipa": "bət wʌt dʌz bɪˈkʌm əˈrɪdʒənəl ɪz jɔr weɪ əv ɪkˈsprɛsɪŋ ðæt ˈfilɪŋ",
       "words": [
@@ -731,12 +731,12 @@ DRILL({
       ]
     },
     {
-      "fa": "اینکه یک نفر چطور می‌گوید دوستت دارم با نفرِ بعدی خیلی فرق دارد.",
+      "fa": "شیوه‌ای که یک نفر با آن می‌گوید «دوستت دارم» با شیوهٔ نفرِ بعدی خیلی فرق دارد.",
       "en": "How one person says I love you is very different than the next person.",
       "ipa": "haʊ wʌn ˈpɝsən sɛz aɪ lʌv ju ɪz ˈvɛri ˈdɪfərənt ðən ðə nɛkst ˈpɝsən"
     },
     {
-      "fa": "تا جایی که به من مربوط است، تجربه، صداقت و تخیل چیزهایی‌اند که ترانه‌ها را عالی می‌کنند.",
+      "fa": "از نظرِ من، آنچه متنِ ترانه را عالی می‌کند تجربه و صداقت و تخیل است.",
       "en": "Experience, sincerity, imagination are what make lyrics great, as far as I’m concerned.",
       "ipa": "ɪkˈspɪriəns sɪnˈsɛrəti ɪˌmædʒəˈneɪʃən ɚ wʌt meɪk ˈlɪrɪks ɡreɪt əz fɑr əz aɪm kənˈsɝnd",
       "newPara": true,
@@ -793,7 +793,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به نظرم وقتی می‌فهمم به چیزی رسیده‌ام که از نظرِ احساسی تارِ دلم را بلرزاند،",
+      "fa": "فکر می‌کنم وقتی چیزی از نظرِ عاطفی در من طنین می‌اندازد، می‌فهمم که به ایدهٔ خوبی رسیده‌ام؛",
       "en": "I think I know I’m onto something when it strikes a chord in me emotionally,",
       "ipa": "aɪ θɪŋk aɪ noʊ aɪm ˈɑntu ˈsʌmθɪŋ wɛn ɪt straɪks ə kɔrd ɪn mi ɪˈmoʊʃnəli",
       "words": [
@@ -801,7 +801,7 @@ DRILL({
           "w": "to be onto something",
           "ipa": "tə bi ˈɑntu ˈsʌmθɪŋ",
           "m": "to have found something that may be important or successful",
-          "fa": "به چیزی رسیدن، سرِ نخ را پیدا کردن",
+          "fa": "به ایده یا سرنخِ امیدوارکننده‌ای رسیدن",
           "more": "to be on the right track"
         },
         {
@@ -833,7 +833,7 @@ DRILL({
       ]
     },
     {
-      "fa": "چون این حس را داشته‌ام، فردایش دوباره گوش داده‌ام،",
+      "fa": "چون پیش آمده که چنین حسی داشته‌ام، بعد فردایش دوباره به آهنگ گوش می‌دهم",
       "en": "because I’ve had that feeling, relisten the next day,",
       "ipa": "bɪˈkɔz aɪv hæd ðæt ˈfilɪŋ rɪˈlɪsən ðə nɛkst deɪ",
       "words": [
@@ -847,7 +847,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و از خودم پرسیده‌ام آخر داشتم به چه فکر می‌کردم که تصور کرده بودم این خوب است.",
+      "fa": "و از خودم می‌پرسم آخر داشتم به چه فکر می‌کردم که خیال کرده بودم این کار خوب است.",
       "en": "and I question what on Earth I was thinking to have imagined this being good.",
       "ipa": "ənd aɪ ˈkwɛstʃən wʌt ɑn ɝθ aɪ wəz ˈθɪŋkɪŋ tə hæv ɪˈmædʒənd ðɪs ˈbiɪŋ ɡʊd",
       "words": [
@@ -888,7 +888,7 @@ DRILL({
       "newPara": true
     },
     {
-      "fa": "تمامِ مدت دارم شک می‌کنم، و می‌نویسم، و می‌نوازم و مدام — این‌ور و آن‌ور می‌روم.",
+      "fa": "تمامِ مدت دارم شک می‌کنم و می‌نویسم و می‌نوازم، و مدام بینِ پسندیدن و نپسندیدنِ کار دودلم.",
       "en": "the entire time I’m questioning, and I’m writing, I’m playing going—back and forth.",
       "ipa": "ði ɪnˈtaɪɚ taɪm aɪm ˈkwɛstʃənɪŋ ənd aɪm ˈraɪtɪŋ aɪm ˈpleɪɪŋ ˈɡoʊɪŋ bæk ənd fɔrθ",
       "words": [
@@ -945,7 +945,7 @@ DRILL({
           "w": "to cut both ways",
           "ipa": "tə kʌt boʊθ weɪz",
           "m": "to have both good and bad effects; to be true in both directions",
-          "fa": "شمشیرِ دولبه بودن، از دو طرف صدق کردن",
+          "fa": "در هر دو جهت صدق کردن؛ هم به سود و هم به زیانِ کسی تمام شدن",
           "more": "double-edged"
         },
         {
@@ -964,7 +964,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و بدان که هیچ‌کس قرار نیست حرفی را که تو داری بزنی، به شیوه‌ای که تو باید بگویی، بگوید.",
+      "fa": "و بدان هیچ‌کس حرفی را که تو برای گفتن داری، به آن شیوه‌ای که تو باید بیانش کنی نخواهد گفت.",
       "en": "And know that no one is going to say what you have to say, the way you have to say it.",
       "ipa": "ənd noʊ ðæt noʊ wʌn ɪz ˈɡoʊɪŋ tə seɪ wʌt ju hæv tə seɪ ðə weɪ ju hæv tə seɪ ɪt"
     },
@@ -1006,7 +1006,7 @@ DRILL({
           "w": "authenticity",
           "ipa": "ˌɔθənˈtɪsɪti",
           "m": "the quality of being real and true",
-          "fa": "اصالت، واقعی بودن",
+          "fa": "اصالت و صداقتِ بیان (ترانه)؛ اصیل بودنِ یک اثر یا شیء",
           "more": "authentic · genuineness"
         }
       ]
@@ -1053,12 +1053,12 @@ DRILL({
       ]
     },
     {
-      "fa": "به نظرم ترانه‌ها وقتی عالی‌اند که حسِ شعرِ طبیعی بدهند؛",
+      "fa": "به نظرم متنِ ترانه وقتی عالی است که مثلِ شعری به گوش برسد که خودبه‌خود شکل گرفته؛",
       "en": "I think lyrics are great when they feel like natural poetry;",
       "ipa": "aɪ θɪŋk ˈlɪrɪks ɚ ɡreɪt wɛn ðeɪ fil laɪk ˈnætʃərəl ˈpoʊətri"
     },
     {
-      "fa": "وقتی حس کنی آن‌ها را نساخته‌ای و پرداخته‌ای، فقط همین‌طوری بودند.",
+      "fa": "وقتی انگار واژه‌هایش را تو نساخته و نپرداخته‌ای، همین‌طوری از قبل وجود داشته‌اند.",
       "en": "when they feel like you didn’t craft them, they just were.",
       "ipa": "wɛn ðeɪ fil laɪk ju ˈdɪdənt kræft ðɛm ðeɪ dʒʌst wɚ",
       "words": [
@@ -1072,7 +1072,7 @@ DRILL({
       ]
     },
     {
-      "fa": "همیشه حس کرده‌ام زندگی به همان اندازه که زیسته می‌شود، نگاشته هم می‌شود.",
+      "fa": "همیشه حس کرده‌ام که زندگی همان‌قدر که در حالِ زیسته شدن بود، در حالِ نوشته شدن هم بود.",
       "en": "I've always felt that life was as much being lived as being inscribed.",
       "ipa": "aɪv ˈɔlˌweɪz fɛlt ðæt laɪf wəz əz mʌtʃ ˈbiɪŋ laɪvd əz ˈbiɪŋ ɪnˈskraɪbd",
       "newPara": true,
@@ -1102,7 +1102,7 @@ DRILL({
           "w": "recognition",
           "ipa": "ˌrɛkəɡˈnɪʃən",
           "m": "the act of understanding that something is true",
-          "fa": "پی بردن، درک",
+          "fa": "پی بردن به یک واقعیت؛ بازشناسی؛ به‌رسمیت‌شناختن",
           "more": "to recognize · realization"
         }
       ]
@@ -1140,7 +1140,7 @@ DRILL({
       ]
     },
     {
-      "fa": "من همیشه «Make You Feel My Love» ِ باب دیلن را مثال می‌زنم،",
+      "fa": "همیشه از باب دیلن و ترانه‌اش «کاری کنم عشقم را حس کنی» به‌عنوانِ مثال استفاده می‌کنم،",
       "en": "I always use Bob Dylan, “Make You Feel My Love,” as an example,",
       "ipa": "aɪ ˈɔlˌweɪz juz bɑb ˈdɪlən meɪk ju fil maɪ lʌv əz ən ɪɡˈzæmpəl",
       "newPara": true
@@ -1198,7 +1198,7 @@ DRILL({
       "ipa": "ɪt dʒʌst filz laɪk ə θɪŋ ðæt ɪɡˈzɪstəd raɪt"
     },
     {
-      "fa": "حس نمی‌کنی باب دیلن نوشته باشدش، جز اینکه خب، نوشته.",
+      "fa": "به نظر نمی‌رسد باب دیلن آن را نوشته باشد، با اینکه واقعاً خودش نوشته است.",
       "en": "It doesn’t feel like Bob Dylan wrote it, except he did.",
       "ipa": "ɪt ˈdʌzənt fil laɪk bɑb ˈdɪlən roʊt ɪt ɪkˈsɛpt hi dɪd"
     },
@@ -1251,7 +1251,7 @@ DRILL({
           "w": "go-to",
           "ipa": "ˈɡoʊˌtu",
           "m": "(adj.) the one you always use or ask first because it is reliable",
-          "fa": "همیشگی، دمِ دستی",
+          "fa": "چیزی که معمولاً اول به سراغش می‌رویم و به آن تکیه می‌کنیم",
           "more": "go-to person · favorite"
         },
         {
@@ -1269,7 +1269,7 @@ DRILL({
       "ipa": "soʊ aɪ ˈɔlˌweɪz hæv ˈfreɪzəz ənd wɝdz ðæt aɪm ˈθɪŋkɪŋ əˈbaʊt"
     },
     {
-      "fa": "در زندگی، کسی چیزی می‌گوید و ناگهان مرا یادِ یک ترانه یا ایدهٔ یک آهنگ می‌اندازد",
+      "fa": "در زندگیِ روزمره، کسی حرفی می‌زند و ناگهان آن حرف یک سطرِ ترانه یا ایده‌ای برای یک آهنگ به ذهنم می‌آورد",
       "en": "In life, someone says something and suddenly it’ll make me think of a lyric or think of a song idea",
       "ipa": "ɪn laɪf ˈsʌmˌwʌn sɛz ˈsʌmθɪŋ ənd ˈsʌdənli ˈɪtəl meɪk mi θɪŋk əv ə ˈlɪrɪk ɔr θɪŋk əv ə sɔŋ aɪˈdiə"
     },
@@ -1304,7 +1304,7 @@ DRILL({
       "newPara": true
     },
     {
-      "fa": "هر وقت در هواپیما هستم، این‌طور به آن نگاه می‌کنم که در این موشکِ کوچکی که از عرضِ آسمان می‌گذرد حبس شده‌ام.",
+      "fa": "هر وقت در هواپیما هستم، این‌طور تصورش می‌کنم که توی موشکِ کوچکی حبس شده‌ام که به‌سرعت آسمان را می‌پیماید.",
       "en": "Whenever I'm on an airplane, I think of it as, I’m locked in in this little missile shooting across the sky.",
       "ipa": "wɛˈnɛvɚ aɪm ɑn ən ˈɛrˌpleɪn aɪ θɪŋk əv ɪt əz aɪm lɑkt ɪn ɪn ðɪs ˈlɪtəl ˈmɪsəl ˈʃutɪŋ əˈkrɔs ðə skaɪ",
       "words": [
@@ -1380,7 +1380,7 @@ DRILL({
           "w": "in the trenches",
           "ipa": "ɪn ðə ˈtrɛntʃɪz",
           "m": "doing the hard, practical, everyday work of something",
-          "fa": "در دلِ کار، در بطنِ ماجرا",
+          "fa": "در دلِ کار و درگیرِ دشواری‌های واقعیِ آن؛ در سنگرها",
           "more": "trench · hands-on"
         }
       ]
@@ -1474,7 +1474,7 @@ DRILL({
       "newPara": true
     },
     {
-      "fa": "اگر به «Since You’ve Been Gone» فکر کنی، نه؟",
+      "fa": "مثلاً اگر به عنوانِ «از وقتی که رفته‌ای» فکر کنی، خب؟",
       "en": "If you think about, “Since You’ve Been Gone,“ right?",
       "ipa": "ɪf ju θɪŋk əˈbaʊt sɪns juv bɪn ɡɔn raɪt"
     },
@@ -1494,7 +1494,7 @@ DRILL({
           "w": "to be over someone",
           "ipa": "tə bi ˈoʊvɚ ˈsʌmˌwʌn",
           "m": "to no longer love or be upset about someone",
-          "fa": "از کسی گذشتن، فراموشش کردن",
+          "fa": "از نظرِ عاطفی از رابطه با کسی عبور کردن",
           "more": "to get over"
         },
         {
@@ -1521,7 +1521,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ولی می‌توانست یک تصنیفِ دلخراشِ عاشقانه باشد.",
+      "fa": "اما همین آهنگ می‌توانست یک ترانهٔ آرام و دل‌شکن از کار دربیاید. <c>(امکانی در گذشته که عملی نشد.)</c>",
       "en": "But it could have been a heartbreaking ballad.",
       "ipa": "bət ɪt kʊd hæv bɪn ə ˈhɑrtˌbreɪkɪŋ ˈbæləd",
       "words": [
@@ -1556,7 +1556,7 @@ DRILL({
       ]
     },
     {
-      "fa": "کلی راهِ مختلف هست که یک عنوانِ واحد را به سمت‌های مختلف بچرخانی.",
+      "fa": "می‌شود یک عنوانِ واحد را به شکل‌های بسیار متفاوتی روایت کرد.",
       "en": "There’s so many different ways to spin the same title.",
       "ipa": "ðɛrz soʊ ˈmɛni ˈdɪfərənt weɪz tə spɪn ðə seɪm ˈtaɪtəl",
       "words": [
@@ -1564,7 +1564,7 @@ DRILL({
           "w": "to spin",
           "ipa": "tə spɪn",
           "m": "to present something in a particular way to give it a different meaning",
-          "fa": "جهت دادن، با زاویهٔ خاصی ارائه دادن",
+          "fa": "با برداشت یا زاویه‌ای خاص روایت کردن؛ چرخاندن",
           "more": "spin (n.) · to twist"
         }
       ]
@@ -1598,7 +1598,7 @@ DRILL({
       "note": "go این‌جا محاوره‌ای و به معنای «گفتن» است."
     },
     {
-      "fa": "قرار است یک آلبوم بنویسم — فقط خودش می‌آید.",
+      "fa": "«می‌خواهم یک اثرِ موسیقی بنویسم.» آهنگ خودش هست. <c>(نقل‌قول ادامهٔ چیزی است که گوینده در بخشِ قبل گفت به خودش نمی‌گوید.)</c>",
       "en": "I’m going to write a record— it just is.",
       "ipa": "aɪm ˈɡoʊɪŋ tə raɪt ə ˈrɛkɚd ɪt dʒʌst ɪz"
     },
@@ -1608,7 +1608,7 @@ DRILL({
       "ipa": "ɪts dʒʌst ˈɔlˌweɪz ˈbiɪŋ ˈrɪtən ˈɔlˌweɪz"
     },
     {
-      "fa": "همین است که ترانه‌سرایی را این‌قدر جذاب و جالب می‌کند، اینکه هیچ فرمولِ واقعی‌ای ندارد.",
+      "fa": "چیزی که ترانه‌نویسی را این‌قدر لذت‌بخش و جالب می‌کند همین است که واقعاً دستورِ ثابتی ندارد.",
       "en": "That’s what makes songwriting so fun and so interesting is there is no real formula.",
       "ipa": "ðæts wʌt meɪks ˈsɔŋˌraɪtɪŋ soʊ fʌn ənd soʊ ˈɪntrəstɪŋ ɪz ðɛr ɪz noʊ ril ˈfɔrmjələ",
       "words": [
@@ -1637,7 +1637,7 @@ DRILL({
           "w": "to land",
           "ipa": "tə lænd",
           "m": "(informal) to be successful with an audience",
-          "fa": "گرفتن، جا افتادن",
+          "fa": "با مخاطب ارتباط برقرار کردن، گرفتنِ آهنگ؛ فرود آمدن",
           "more": "to catch on · to take off"
         }
       ],

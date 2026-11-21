@@ -25,7 +25,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آن یک ایده‌ای که بیشتر از همه دوست دارید در ذهن دیگران پخش کنید چیست؟",
+      "fa": "آن یک ایده که بیش از همه دلتان می‌خواست در ذهنِ دیگران گسترش بدهید، چیست؟",
       "en": "what’s the one idea you’d most love to spread to other people’s minds?",
       "ipa": "wʌts ðə wʌn aɪˈdiə jud moʊst lʌv tə sprɛd tə ˈʌðɚ ˈpipəlz maɪndz",
       "words": [
@@ -33,7 +33,7 @@ DRILL({
           "w": "to spread",
           "ipa": "tə sprɛd",
           "m": "to make something reach more and more people or places",
-          "fa": "پخش کردن، گسترش دادن",
+          "fa": "گسترش دادن، اشاعه دادنِ یک ایده؛ در کاربرد فیزیکی: پخش یا پهن کردن",
           "more": "spread (n.) · widespread"
         }
       ]
@@ -180,7 +180,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در قرن بیست‌ویکم، می‌توانیم با فناوری‌های فراوانی چیزهایی به حرف‌هایمان (کلامِ گفتاری) اضافه کنیم —",
+      "fa": "در قرن بیست‌ویکم می‌توانیم به کمک فناوری‌های گوناگون، چیزی به کلامِ گفتاری بیفزاییم —",
       "en": "In the 21st century, we can add to the spoken word with many technologies—",
       "ipa": "ɪn ðə ˈtwɛnti fɝst ˈsɛntʃəri wi kən æd tə ðə ˈspoʊkən wɝd wɪð ˈmɛni tɛkˈnɑlədʒiz",
       "newPara": true,
@@ -326,7 +326,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اگر سخنرانی‌تان به ارتباطِ شخصی، شوخ‌طبعی یا داستان متکی است،",
+      "fa": "اگر سخنرانی‌تان به ارتباط شخصی با مخاطب، طنز یا داستان‌ها تکیه دارد،",
       "en": "If your talk relies on personal connection, humor, or stories,",
       "ipa": "ɪf jɔr tɔk rɪˈlaɪz ɑn ˈpɝsɪnɪl kəˈnɛkʃən ˈhjumɚ ɔr ˈstɔriz",
       "words": [
@@ -403,7 +403,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گاهی همین عناصر بصری‌اند که سخنرانی را موفق می‌کنند.",
+      "fa": "گاهی همین عناصر بصری‌اند که سخنرانی را به یک موفقیت تبدیل می‌کنند.",
       "en": "Sometimes, the visuals make the talk a success.",
       "ipa": "səmˈtaɪmz ðə ˈvɪʒwəlz meɪk ðə tɔk ə səkˈsɛs",
       "words": [
@@ -480,7 +480,7 @@ DRILL({
           "w": "appeal",
           "ipa": "əˈpil",
           "m": "(noun) a quality that makes people like or want something",
-          "fa": "جذابیت، گیرایی",
+          "fa": "اینجا: جذابیت، گیرایی؛ در بافت دیگر: درخواستِ کمک یا تقاضای تجدیدنظر",
           "more": "appealing · broad appeal"
         }
       ]
@@ -508,7 +508,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ادیت ویدر عضو تیمی بود که برای اولین بار اسکوئیدِ (ماهی مرکبِ) غول‌پیکر را با ویدیو ثبت کرد.",
+      "fa": "ادیت ویدر عضو تیمی بود که برای اولین بار از ماهی مرکبِ غول‌پیکر فیلم گرفت.",
       "en": "Edith Widder was part of the team that first captured the giant squid on video.",
       "ipa": "ˈidɪθ ˈwɪdɚ wəz pɑrt əv ðə tim ðæt fɝst ˈkæptʃɚd ðə ˈdʒaɪənt skwɪd ɑn ˈvɪdioʊ",
       "words": [
@@ -628,7 +628,7 @@ DRILL({
           "w": "to run",
           "ipa": "tə rʌn",
           "m": "to show or play a film, video, etc.",
-          "fa": "پخش کردن، اجرا کردن"
+          "fa": "اینجا: پخش یا اجرا کردن؛ در ترکیب‌های دیگر: اداره کردنِ یک مجموعه، کار کردنِ یک دستگاه"
         },
         {
           "w": "full screen",
@@ -778,7 +778,7 @@ DRILL({
       ]
     },
     {
-      "fa": "سخنران باید توجه را هدایت کند تا اسلایدها فقط پشتیبانِ حرف‌هایش باشند.",
+      "fa": "سخنران باید توجه مخاطب را هدایت کند تا اسلایدها پشتیبانِ سخنرانی باشند.",
       "en": "A speaker must direct attention so slides support.",
       "ipa": "ə ˈspikɚ mʌst dəˈrɛkt əˈtɛnʃən soʊ slaɪdz səˈpɔrt",
       "note": "به نظر می‌رسد در کپشن ادامهٔ این جمله (احتمالاً چیزی مثل <en>not compete</en>) افتاده است؛ جمله همان‌طور که در ترنسکریپت آمده نگه داشته شده.",
@@ -855,7 +855,7 @@ DRILL({
       ]
     },
     {
-      "fa": "عنوان‌هایی که زیرشان بندهای نقطه‌دارِ طولانی آمده، اغلب توجه را از دست می‌دهند —",
+      "fa": "عنوان‌هایی که زیرشان نکته‌های طولانی به‌صورت فهرست آمده است اغلب توجهِ مخاطب را از دست می‌دهند —",
       "en": "Headlines with long bullet points often lose attention—",
       "ipa": "ˈhɛdˌlaɪnz wɪð lɔŋ ˈbʊlət pɔɪnts ˈɔfən luz əˈtɛnʃən",
       "words": [
@@ -881,7 +881,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بندها را به اسلایدهای جداگانه تبدیل کنید، عبارت‌ها را کمتر کنید، یا تصویر را جایگزینشان کنید.",
+      "fa": "هر نکتهٔ فهرست را به اسلایدی جدا تبدیل کنید، عبارت‌ها را کوتاه کنید یا آن‌ها را با تصویر عوض کنید.",
       "en": "turn bullets into separate slides, reduce phrases, or replace them with images.",
       "ipa": "tɝn ˈbʊləts ɪnˈtu ˈsɛpərɪt slaɪdz rəˈdus ˈfreɪzəz ɔr ˌriˈpleɪs ðɛm wɪð ˈɪmədʒəz",
       "words": [
@@ -902,7 +902,7 @@ DRILL({
           "w": "to reduce",
           "ipa": "tə rəˈdus",
           "m": "to make something smaller or less",
-          "fa": "کم کردن، کاهش دادن",
+          "fa": "اینجا: کوتاه کردن، مختصر کردنِ عبارت؛ به‌طور کلی: کاهش دادن",
           "more": "reduction · cut down"
         },
         {
@@ -1035,7 +1035,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از آن‌ها برای نشان دادنِ چیزی استفاده کنید که گفتار نمی‌تواند: عکس، ویدیو، انیمیشن یا داده.",
+      "fa": "از آن‌ها برای به‌اشتراک گذاشتنِ چیزهایی استفاده کنید که گفتار از انتقالشان عاجز است: عکس، ویدیو، پویانمایی یا داده.",
       "en": "Use them to share what speech can’t: photographs, video, animation, or data.",
       "ipa": "juz ðɛm tə ʃɛr wʌt spitʃ kænt ˈfoʊtəˌɡræfs ˈvɪdioʊ ˌænəˈmeɪʃən ɔr ˈdeɪtə",
       "words": [
@@ -1085,7 +1085,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اسلایدهایی که چشم‌نوازند می‌توانند تأثیرِ سخنرانی را چند برابر کنند.",
+      "fa": "اسلایدهای چشم‌نواز می‌توانند تأثیرِ یک سخنرانی را تقویت کنند.",
       "en": "Visually appealing slides can amplify a talk's impact.",
       "ipa": "ˈvɪʒwəli əˈpilɪŋ slaɪdz kən ˈæmpləˌfaɪ ə tɔks ˈɪmpækt",
       "words": [
@@ -1100,7 +1100,7 @@ DRILL({
           "w": "to amplify",
           "ipa": "tə ˈæmpləˌfaɪ",
           "m": "to make something stronger or greater",
-          "fa": "تقویت کردن، چند برابر کردن",
+          "fa": "تقویت کردن، شدت یا دامنهٔ اثر چیزی را بیشتر کردن؛ برای صدا: بلندتر کردن",
           "more": "amplifier · boost"
         },
         {

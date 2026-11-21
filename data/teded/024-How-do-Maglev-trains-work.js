@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=2A1IEBFt6Xg",
   "items": [
     {
-      "fa": "برای اینکه هم‌زمان با المپیکِ ۱۹۶۴ توکیو باشد،",
+      "fa": "برای اینکه راه‌اندازیِ قطار با المپیک ۱۹۶۴ توکیو هم‌زمان شود،",
       "en": "To coincide with the 1964 Tokyo Olympics,",
       "ipa": "tə ˌkoʊɪnˈsaɪd wɪð ðə ˌnaɪnˈtin ˈsɪksti fɔr ˈtoʊkiˌoʊ oʊˈlɪmpɪks",
       "newPara": true,
@@ -136,7 +136,7 @@ DRILL({
       "ipa": "bət kʊd ðiz treɪnz ɡoʊ ˈivɪn ˈfæstɚ"
     },
     {
-      "fa": "و مسافران را تندتر از نرم‌ترین پرواز به مقصدشان برسانند؟",
+      "fa": "و مسافران را حتی زودتر از بی‌تکان‌ترین پرواز به مقصدشان برسانند؟",
       "en": "whisking passengers to their destinations quicker than the smoothest flight?",
       "ipa": "ˈwɪskɪŋ ˈpæsəndʒɚz tə ðɛr ˌdɛstəˈneɪʃənz ˈkwɪkɚ ðən ðə ˈsmuðəst flaɪt",
       "words": [
@@ -165,7 +165,7 @@ DRILL({
           "w": "smooth",
           "ipa": "smuð",
           "m": "moving evenly, without sudden shakes",
-          "fa": "نرم، بی‌تکان",
+          "fa": "دربارهٔ پرواز: روان و بی‌تکان؛ دربارهٔ سطح: صاف؛ دربارهٔ یک فرایند: بی‌دردسر",
           "more": "smoothly · bumpy (opp.)"
         }
       ]
@@ -440,7 +440,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بدنهٔ قطارهای گلوله‌ای را آیرودینامیک هم طراحی می‌کنند تا با کمترین مقاومت هوا را بشکافد.",
+      "fa": "قطارهای گلوله‌ای علاوه بر این، با بدنه‌هایی آیرودینامیکی طراحی می‌شوند که هوا را با مقاومتی ناچیز می‌شکافند.",
       "en": "bullet trains are also designed with aerodynamic bodies that slice through air with minimal resistance.",
       "ipa": "ˈbʊlət treɪnz ɚ ˈɔlsoʊ dɪˈzaɪnd wɪð ˌɛroʊdaɪˈnæmɪk ˈbɑdiz ðæt slaɪs θru ɛr wɪð ˈmɪnəməl rɪˈzɪstəns",
       "words": [
@@ -475,7 +475,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مهندسان می‌توانستند این طراحی‌های صیقلی‌تر را روی واگن‌های قطارهای سنتی هم به کار ببرند.",
+      "fa": "مهندسان می‌توانند همین طرح‌های صاف‌تر و خوش‌تراش‌تر را در واگن‌های معمولی هم به کار ببرند.",
       "en": "Engineers could use these slicker designs on traditional train cars.",
       "ipa": "ˌɛndʒəˈnɪrz kʊd juz ðiz ˈslɪkɚ dɪˈzaɪnz ɑn trəˈdɪʃənəl treɪn kɑrz",
       "words": [
@@ -510,7 +510,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما هرچند ارتقا یافتن به موتورهای برقی قطارهای کم‌سرعت را کارآمدتر می‌کرد،",
+      "fa": "اما اگر قطارهای کم‌سرعت به موتورهای برقی مجهز می‌شدند، هرچند کارآمدتر می‌شدند،",
       "en": "But while upgrading to electric engines would make low-speed trains more efficient,",
       "ipa": "bət waɪl əpˈɡreɪdɪŋ tə ɪˈlɛktrɪk ˈɛndʒənz wʊd meɪk loʊ spid treɪnz mɔr ɪˈfɪʃənt",
       "words": [
@@ -531,7 +531,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از این طراحی‌های آیرودینامیک سودِ چندانی نمی‌بردند",
+      "fa": "از این طرح‌های آیرودینامیکی سود چندانی نمی‌بردند،",
       "en": "they wouldn't get much benefit from these aerodynamic designs",
       "ipa": "ðeɪ ˈwʊdənt ɡɛt mʌtʃ ˈbɛnəfɪt frəm ðiz ˌɛroʊdaɪˈnæmɪk dɪˈzaɪnz",
       "words": [
@@ -614,7 +614,7 @@ DRILL({
       ]
     },
     {
-      "fa": "قطارها باید پیاپی از سرعتشان کم کنند تا بی‌خطر از پیچ‌ها و چهارراه‌ها بگذرند.",
+      "fa": "قطارها باید بارها سرعت کم کنند تا پیچ‌ها و تقاطع‌ها را با ایمنی پشت سر بگذارند.",
       "en": "trains need to frequently decelerate to safely hit turns and crossroads.",
       "ipa": "treɪnz nid tə ˈfrikwəntli dɪˈsɛləˌreɪt tə ˈseɪfli hɪt tɝnz ənd ˈkrɔsˌroʊdz",
       "words": [
@@ -698,7 +698,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این سه تفاوت به قطارهای پرسرعت امکان می‌دهد به بیشینه‌سرعت‌هایی برسند که بیش از دو برابرِ همتایانِ سنتی‌شان است.",
+      "fa": "این سه تفاوت به قطارهای پرسرعت امکان می‌دهد به حداکثرِ سرعتی بیش از دو برابرِ حداکثرِ سرعتِ همتایانِ معمولی‌شان برسند.",
       "en": "These three differences allow high-speed trains to reach top speeds over double their traditional counterparts.",
       "ipa": "ðiz θri ˈdɪfərənsɪz əˈlaʊ ˈhaɪˌspid treɪnz tə ritʃ tɑp spidz ˈoʊvɚ ˈdʌbəl ðɛr trəˈdɪʃənəl ˈkaʊntɚˌpɑrts",
       "newPara": true,
@@ -798,7 +798,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مهندسان برای از میان بردنِ اصطکاک میانِ ریل‌ها و چرخ‌ها،",
+      "fa": "برای از میان بردنِ اصطکاک بین ریل و چرخ،",
       "en": "To eliminate friction between rails and wheels,",
       "ipa": "tə ɪˈlɪməˌneɪt ˈfrɪkʃən bɪˈtwin reɪlz ənd wilz",
       "words": [
@@ -812,7 +812,7 @@ DRILL({
       ]
     },
     {
-      "fa": "قطارهای تازه‌ای با شناوریِ مغناطیسی، یا مگلو، ساخته‌اند.",
+      "fa": "مهندسان قطارهای تازه‌ای ساخته‌اند که با شناوری مغناطیسی کار می‌کنند و «مگلو» هم نامیده می‌شوند.",
       "en": "engineers have developed new magnetic levitation, or maglev, trains.",
       "ipa": "ˌɛndʒəˈnɪrz hæv dɪˈvɛləpt nu mæɡˈnɛtɪk ˌlɛvɪˈteɪʃən ɔr ˈmæˌɡlɛv treɪnz",
       "words": [
@@ -854,7 +854,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در تعلیقِ الکترومغناطیسی، بازوهای آهن‌ربایی‌شده زیرِ ریل دور می‌زنند و قطار را بالا می‌کشند.",
+      "fa": "در تعلیقِ الکترومغناطیسی، بازوهای مغناطیسی دورِ ریل خم می‌شوند و تا زیرِ آن می‌رسند و قطار را بالا می‌کشند.",
       "en": "In electromagnetic suspension, magnetized arms wrap under the track and pull the train up.",
       "ipa": "ɪn ɪˌlɛktroʊmæɡˈnɛtɪk səˈspɛnʃən ˈmæɡnɪˌtaɪzd ɑrmz ræp ˈʌndɚ ðə træk ənd pʊl ðə treɪn ʌp",
       "words": [
@@ -876,7 +876,7 @@ DRILL({
           "w": "to wrap under",
           "ipa": "tə ræp ˈʌndɚ",
           "m": "to curve around and go beneath something",
-          "fa": "دور زدن به زیرِ",
+          "fa": "از کنارِ چیزی خم شدن و تا زیرِ آن امتداد پیدا کردن",
           "more": "wrap around · curl under"
         }
       ]
@@ -1052,7 +1052,7 @@ DRILL({
           "w": "runway",
           "ipa": "ˈrʌnˌweɪ",
           "m": "(figurative) the space or time needed to build up speed",
-          "fa": "مسیرِ شتاب‌گیری",
+          "fa": "اینجا: مسیرِ در دسترس برای شتاب‌گیری؛ در فرودگاه: باندِ پرواز",
           "more": "runway (airport) · room · leeway"
         },
         {
@@ -1079,7 +1079,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در کمتر از ۷ ساعت طی کنند.",
+      "fa": "در عرضِ تنها هفت ساعت طی کنند.",
       "en": "in as little as 7 hours.",
       "ipa": "ɪn əz ˈlɪtəl əz ˈsɛvən ˈaʊɚz",
       "words": [
@@ -1087,7 +1087,7 @@ DRILL({
           "w": "in as little as",
           "ipa": "ɪn əz ˈlɪtəl æz",
           "m": "used to say how short the time could be",
-          "fa": "در کمتر از، فقط در",
+          "fa": "تنها در …، در عرضِ فقط …؛ برای تأکید بر کوتاهیِ زمانِ ذکرشده",
           "more": "as few as · as much as"
         }
       ]
@@ -1176,7 +1176,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مثلاً گذاشتنِ قطارهای مگلو در محیط‌هایی تقریباً بی‌هوا.",
+      "fa": "مثلِ قرار دادنِ قطارهای مگلو در محیط‌هایی نزدیک به خلأ.",
       "en": "such as putting Maglevs in near vacuum environments.",
       "ipa": "sʌtʃ əz ˈpʌtɪŋ ˈmæɡləvz ɪn nɪr ˈvækjum ɪnˈvaɪrənmənts",
       "words": [
@@ -1428,7 +1428,7 @@ DRILL({
           "w": "on the right track",
           "ipa": "ɑn ðə raɪt træk",
           "m": "doing something in a way that will lead to success",
-          "fa": "در مسیرِ درست",
+          "fa": "در مسیر درست بودن؛ در این جمله «مسیر» هم راهِ درستِ پیشرفت را تداعی می‌کند و هم خطِ آهن را",
           "more": "on track · off track (opp.) · get back on track"
         }
       ],

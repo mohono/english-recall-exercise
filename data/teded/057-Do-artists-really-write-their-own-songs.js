@@ -20,13 +20,13 @@ DRILL({
           "w": "songwriter",
           "ipa": "ˈsɔŋˌraɪtɚ",
           "m": "a person who writes the words or music of songs",
-          "fa": "ترانه‌سرا، آهنگساز",
+          "fa": "کسی که کلام یا موسیقیِ ترانه را می‌نویسد، ترانه‌نویس",
           "more": "songwriting · lyricist · composer"
         }
       ]
     },
     {
-      "fa": "باز هم می‌گویم، من همیشه با آدم‌هایی کار می‌کنم — آدم‌های درخشانی با آهنگ‌های پرفروشِ عظیم — که هیچ سازی نمی‌زنند.",
+      "fa": "باز هم می‌گویم، من مدام با آدم‌هایی کار می‌کنم، آدم‌های درخشانی که آهنگ‌های بسیار موفقی دارند و هیچ سازی نمی‌زنند.",
       "en": "Again, I work with people, brilliant people with huge hits all the time that don't play an instrument.",
       "ipa": "əˈɡɛn aɪ wɝk wɪð ˈpipəl ˈbrɪljənt ˈpipəl wɪð hjudʒ hɪts ɔl ðə taɪm ðæt doʊnt pleɪ ən ˈɪnstrəmənt",
       "words": [
@@ -41,7 +41,7 @@ DRILL({
           "w": "hit",
           "ipa": "hɪt",
           "m": "a song or film that is very popular and successful",
-          "fa": "اثرِ پرطرفدار، آهنگِ موفق",
+          "fa": "آهنگی که مخاطبانِ فراوان پیدا کرده؛ اثرِ پرفروش؛ ضربه",
           "more": "a smash hit · a big hit · flop"
         },
         {
@@ -108,7 +108,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا کمکت کنند آن را بشنوی، نگهش داری، و با این دنیای وحشی و شگفت‌انگیز سهیمش کنی.",
+      "fa": "تا کمکت کنند موسیقیِ درونت را بشنوی، نگهش داری و با این دنیای عجیب و شگفت‌انگیز در میانش بگذاری.",
       "en": "to help you hear it, hold it, and share it with this wild and wonderful world.",
       "ipa": "tə hɛlp ju hɪr ɪt hoʊld ɪt ənd ʃɛr ɪt wɪð ðɪs waɪld ənd ˈwʌndɚfəl wɝld"
     },
@@ -135,12 +135,12 @@ DRILL({
       ]
     },
     {
-      "fa": "که هنرمندهایی که دوستشان داشتم و به آهنگ‌هایشان گوش می‌دادم، همهٔ موسیقی‌شان را خودشان نوشته‌اند.",
+      "fa": "که هنرمندهایی که دوستشان داشتم و به کارشان گوش می‌دادم، تمامِ موسیقی‌شان را خودشان می‌نوشتند.",
       "en": "that the artists that I loved and listened to wrote all of their own music.",
       "ipa": "ðæt ði ˈɑrtəsts ðæt aɪ lʌvd ənd ˈlɪsənd tə roʊt ɔl əv ðɛr oʊn ˈmjuzɪk"
     },
     {
-      "fa": "نمی‌دانستم که آدم‌های دیگری هم پشتِ صحنه هستند،",
+      "fa": "نمی‌دانستم آدم‌های دیگری هم پشتِ صحنه بودند،",
       "en": "I didn't realize that there were other people behind the scenes,",
       "ipa": "aɪ ˈdɪdənt ˈriˌlaɪz ðæt ðɛr wɚ ˈʌðɚ ˈpipəl bɪˈhaɪnd ðə sinz",
       "words": [
@@ -190,7 +190,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اولین هنرمندی که می‌دانستم هم برای خودش آهنگ می‌نوشت",
+      "fa": "اولین هنرمندی که سراغ داشتم که برای خودش آهنگ می‌نوشت",
       "en": "The first artist that I was aware of that wrote songs for themselves",
       "ipa": "ðə fɝst ˈɑrtəst ðæt aɪ wəz əˈwɛr əv ðæt roʊt sɔŋz fɚ ðɛmˈsɛlvz",
       "newPara": true,
@@ -205,12 +205,12 @@ DRILL({
       ]
     },
     {
-      "fa": "و هم برای دیگران، کارول کینگ بود.",
+      "fa": "و برای آدم‌های دیگر هم آهنگ می‌نوشت، کارول کینگ بود.",
       "en": "and also wrote songs for other people, was Carole King.",
       "ipa": "ənd ˈɔlsoʊ roʊt sɔŋz fɚ ˈʌðɚ ˈpipəl wəz ˈkærəl kɪŋ"
     },
     {
-      "fa": "بعد شنیدم که پیش از آنکه خودش خواننده شود، یک دورهٔ کاریِ کامل داشته",
+      "fa": "و بعد شنیدم که او یک دورهٔ کاملِ زندگیِ حرفه‌ای را پشت سر گذاشته بود،",
       "en": "And then I heard that she had had a whole career",
       "ipa": "ənd ðɛn aɪ hɝd ðæt ʃi hæd hæd ə hoʊl kəˈrɪr",
       "words": [
@@ -224,7 +224,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که در آن برای دیگران آهنگ می‌نوشته.",
+      "fa": "پیش از آنکه خودش هنرمندِ اجراکننده باشد؛ حرفه‌اش نوشتنِ آهنگ برای دیگران بود.",
       "en": "before she was an artist of writing songs for other people.",
       "ipa": "bɪˈfɔr ʃi wəz ən ˈɑrtəst əv ˈraɪtɪŋ sɔŋz fɚ ˈʌðɚ ˈpipəl",
       "note": "در گفتار، «of writing songs …» به «a whole career» برمی‌گردد که جمله پیش‌تر گفته بود."
@@ -283,7 +283,7 @@ DRILL({
       "ipa": "ðæts səmˈtaɪmz ðə dʒɑb əv ə ˈsɔŋˌraɪtɚ"
     },
     {
-      "fa": "که مطمئن شود حسِ آهنگ این است که انگار از دلِ خوانندهٔ محبوبت بیرون آمده.",
+      "fa": "اینکه کاری کند حس کنی انگار آن آهنگ از خودِ هنرمندِ محبوبت آمده است.",
       "en": "is to make sure that it feels like it came from your favorite artist.",
       "ipa": "ɪz tə meɪk ʃʊr ðæt ɪt filz laɪk ɪt keɪm frəm jɔr ˈfeɪvərɪt ˈɑrtəst"
     },
@@ -358,7 +358,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس در موسیقیِ پاپ دو راه هست که آهنگ‌ها — بیایید اسمش را بگذاریم — به یک خواننده می‌رسند و جا می‌افتند.",
+      "fa": "پس در موسیقیِ پاپ دو راه هست که آهنگ‌ها، بگذار اسمش را این بگذاریم، برای اجرای یک هنرمند انتخاب شوند.",
       "en": "So there are two ways that in pop music that songs, let’s call it getting placed.",
       "ipa": "soʊ ðɛr ɚ tu weɪz ðæt ɪn pɑp ˈmjuzɪk ðæt sɔŋz lɛts kɔl ɪt ˈɡɛtɪŋ pleɪst",
       "words": [
@@ -366,7 +366,7 @@ DRILL({
           "w": "to get placed",
           "ipa": "tə ɡɛt pleɪst",
           "m": "(of a song) to be accepted and recorded by an artist",
-          "fa": "(آهنگ) به خواننده سپرده شدن، جا افتادن",
+          "fa": "برای اجرا یا ضبط از سوی یک هنرمند انتخاب شدن (آهنگِ پیشنهادی)",
           "more": "placement · to place a song"
         }
       ]
@@ -413,7 +413,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در اصل داری کمک می‌کنی که تصوری که در سرشان دارند جان بگیرد.",
+      "fa": "در اصل داری کمک می‌کنی، داری به آنچه همان هنرمند در ذهن دارد جان می‌بخشی.",
       "en": "You are basically helping, bringing their vision to life.",
       "ipa": "ju ɚ ˈbeɪsɪkli ˈhɛlpɪŋ ˈbrɪŋɪŋ ðɛr ˈvɪʒən tə laɪf",
       "words": [
@@ -428,7 +428,7 @@ DRILL({
           "w": "vision",
           "ipa": "ˈvɪʒən",
           "m": "an idea or picture in your mind of what something should be like",
-          "fa": "تصور، چشم‌انداز",
+          "fa": "تصویر یا ایدهٔ هنری‌ای که هنرمند می‌خواهد عملی کند؛ بینایی",
           "more": "visionary · creative vision"
         },
         {
@@ -512,7 +512,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و بعد آن آهنگ به یک هنرمند یا چند هنرمند عرضه می‌شود",
+      "fa": "و بعد آن آهنگ را، بله، بعد به یک هنرمند یا چند هنرمند پیشنهاد می‌کنند",
       "en": "And then that song then gets pitched to an artist or multiple artists",
       "ipa": "ənd ðɛn ðæt sɔŋ ðɛn ɡɛts pɪtʃt tə ən ˈɑrtəst ɔr ˈmʌltəpəl ˈɑrtəsts",
       "words": [
@@ -526,7 +526,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا ببینند چیزی هست که دلشان بخواهد خودشان بخوانند و امیدواریم منتشرش کنند.",
+      "fa": "تا ببینند آیا از آن آهنگ‌هایی است که دلشان بخواهد خودشان بخوانند و اگر کار خوب پیش برود منتشرش کنند.",
       "en": "to see if it is something that they would like to sing themselves and hopefully release.",
       "ipa": "tə si ɪf ɪt ɪz ˈsʌmθɪŋ ðæt ðeɪ wʊd laɪk tə sɪŋ ðɛmˈsɛlvz ənd ˈhoʊpfəli riˈlis",
       "words": [
@@ -534,7 +534,7 @@ DRILL({
           "w": "hopefully",
           "ipa": "ˈhoʊpfəli",
           "m": "used to say what you hope will happen",
-          "fa": "امیدوارانه، ان‌شاءالله"
+          "fa": "به این امید که، اگر کار خوب پیش برود؛ با امیدواری"
         },
         {
           "w": "to release",
@@ -599,14 +599,14 @@ DRILL({
           "w": "label",
           "ipa": "ˈleɪbəl",
           "m": "a company that records and sells music",
-          "fa": "شرکتِ ضبط، لیبل",
+          "fa": "شرکتِ ضبط و انتشارِ موسیقی؛ برچسب",
           "more": "record label · sign with a label"
         },
         {
           "w": "brief",
           "ipa": "brif",
           "m": "a short set of instructions about a job",
-          "fa": "شرحِ خلاصهٔ کار، دستورالعملِ کوتاه",
+          "fa": "شرحِ کوتاهِ آنچه برای آهنگ خواسته‌اند؛ در نقشِ صفت، مختصر",
           "more": "to brief · briefing"
         }
       ]
@@ -633,7 +633,7 @@ DRILL({
       ]
     },
     {
-      "fa": "جا انداختنِ یک آهنگِ پیشنهادی یک‌جورهایی مثلِ این است که سراغِ کمدِ لباست بروی،",
+      "fa": "اینکه یک آهنگِ پیشنهادی برای اجرا انتخاب شود، یک‌جورهایی مثلِ این است که سراغِ کمدِ لباست بروی",
       "en": "Placing a pitch song, it’s kind of like going in your closet,",
       "ipa": "ˈpleɪsɪŋ ə pɪtʃ sɔŋ ɪts kaɪnd əv laɪk ˈɡoʊɪŋ ɪn jɔr ˈklɑzət",
       "newPara": true,
@@ -705,13 +705,13 @@ DRILL({
           "w": "key",
           "ipa": "ki",
           "m": "(in music) a set of notes based on one main note",
-          "fa": "گام، کلید (موسیقی)",
+          "fa": "گام یا تونالیتهٔ قطعهٔ موسیقی؛ کلید؛ راهِ حل",
           "more": "in the key of C · change key"
         }
       ]
     },
     {
-      "fa": "به محدودهٔ صدای این هنرمند فکر می‌کنی.",
+      "fa": "شروع می‌کنی به فکر کردن دربارهٔ محدودهٔ صدای همین هنرمند.",
       "en": "You start to think about the vocal range of this artist.",
       "ipa": "ju stɑrt tə θɪŋk əˈbaʊt ðə ˈvoʊkəl reɪndʒ əv ðɪs ˈɑrtəst",
       "words": [
@@ -733,7 +733,7 @@ DRILL({
           "w": "run",
           "ipa": "rʌn",
           "m": "(in singing) a fast series of notes sung on one word",
-          "fa": "تحریر، رانِ آوازی",
+          "fa": "تحریرِ آوازی، اجرای سریعِ چند نتِ پی‌درپی؛ دویدن",
           "more": "riff · vocal runs"
         }
       ],
@@ -777,7 +777,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و ببینم که دارند جدایی از کسی را از سر می‌گذرانند یا از یک‌جور پیشینهٔ خاص آمده‌اند،",
+      "fa": "و ببینم که او دارد جداییِ عاطفی را از سر می‌گذراند یا از محیط و پیشینهٔ خاصی آمده است،",
       "en": "and I see that they’re going through a breakup or they came from a certain kind of a background,",
       "ipa": "ənd aɪ si ðæt ðɛr ˈɡoʊɪŋ θru ə ˈbreɪˌkʌp ɔr ðeɪ keɪm frəm ə ˈsɝtən kaɪnd əv ə ˈbækˌɡraʊnd",
       "words": [
@@ -958,13 +958,13 @@ DRILL({
           "w": "hot",
           "ipa": "hɑt",
           "m": "(informal) very popular right now",
-          "fa": "داغ، پرطرفدار",
+          "fa": "بسیار پرطرفدار و پرشنونده (آهنگ)؛ داغ",
           "more": "trending"
         }
       ]
     },
     {
-      "fa": "چون معنایش فقط همین است —",
+      "fa": "چون تمامِ معنای آن رتبه همین است؛",
       "en": "because that’s all that that means—",
       "ipa": "bɪˈkɔz ðæts ɔl ðæt ðæt minz"
     },
@@ -1033,7 +1033,7 @@ DRILL({
           "w": "bridge",
           "ipa": "brɪdʒ",
           "m": "(in a song) a different part that comes before the last chorus",
-          "fa": "پل (بخشِ میانیِ آهنگ)",
+          "fa": "بخشِ متفاوتی از آهنگ که میان بخش‌های دیگر می‌آید؛ پل",
           "more": "verse · chorus"
         }
       ]
@@ -1157,7 +1157,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در برابرِ آدمی که می‌خواهد یک بیانیهٔ هنری بدهد.",
+      "fa": "در مقایسه با کسی که می‌خواهد از طریقِ هنرش حرفی بزند.",
       "en": "Versus the person who is wanting to make an artistic statement.",
       "ipa": "ˈvɝsəs ðə ˈpɝsən hu ɪz ˈwɑntɪŋ tə meɪk ən ɑrˈtɪstɪk ˈsteɪtmənt",
       "newPara": true,
@@ -1296,13 +1296,13 @@ DRILL({
       ]
     },
     {
-      "fa": "بیشترِ تجربه‌های اولیهٔ ترانه‌سرایی‌ام در این صنعت",
+      "fa": "بسیاری از تجربه‌های اولیهٔ من در نوشتنِ آهنگ در این صنعت",
       "en": "A lot of my early songwriting experiences in the industry",
       "ipa": "ə lɑt əv maɪ ˈɝli ˈsɔŋˌraɪtɪŋ ɪkˈspɪriənsɪz ɪn ði ˈɪndəstri",
       "newPara": true
     },
     {
-      "fa": "در اتاق‌هایی بود که کسی یک قطعهٔ ضبط‌شده پخش می‌کرد.",
+      "fa": "در اتاق‌هایی بود که معمولاً کسی در آن‌ها یک قطعهٔ ضبط‌شده پخش می‌کرد.",
       "en": "were in rooms where someone would play a track.",
       "ipa": "wɚ ɪn rumz wɛr ˈsʌmˌwʌn wʊd pleɪ ə træk",
       "words": [
@@ -1310,13 +1310,13 @@ DRILL({
           "w": "track",
           "ipa": "træk",
           "m": "a piece of recorded music, often without singing",
-          "fa": "ترک، قطعهٔ ضبط‌شده",
+          "fa": "قطعهٔ ضبط‌شدهٔ موسیقی؛ مسیر یا رد",
           "more": "backing track · soundtrack"
         }
       ]
     },
     {
-      "fa": "و بعد نویسنده‌های حاضر در اتاق همه می‌رفتند داخلِ اتاقکِ ضبط",
+      "fa": "و بعد ترانه‌نویس‌های حاضر در اتاق، طبقِ روال، همگی واردِ اتاقکِ ضبط می‌شوند",
       "en": "And then, the writers in the room will all go into the booth",
       "ipa": "ənd ðɛn ðə ˈraɪtɚz ɪn ðə rum wɪl ɔl ɡoʊ ɪnˈtu ðə buθ",
       "words": [
@@ -1330,7 +1330,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و بداهه کلی ملودی می‌خواندند، و بعد آهنگ را از همان‌جا می‌سازی.",
+      "fa": "و چندین ملودی را بداهه می‌خوانند و بعد تو آهنگ را از همان‌جا می‌سازی.",
       "en": "and freestyle a bunch of melodies, and then you build the song from there.",
       "ipa": "ənd ˈfriˌstaɪl ə bʌntʃ əv ˈmɛlədiz ənd ðɛn ju bɪld ðə sɔŋ frəm ðɛr",
       "words": [
@@ -1351,7 +1351,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ولی پنج سالِ گذشته را در نشویل زندگی کرده‌ام،",
+      "fa": "اما حالا پنج سال است که در نشویل زندگی می‌کنم،",
       "en": "But the last five years now I've been living in Nashville,",
       "ipa": "bət ðə læst faɪv jɪrz naʊ aɪv bɪn ˈlɪvɪŋ ɪn ˈnæʃvɪl"
     },
@@ -1446,7 +1446,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و ساختار را بررسی کنی و به الگوی قافیه‌ها و پویاییِ بینِ بخش‌های مختلف فکر کنی،",
+      "fa": "و ساختارِ آهنگ‌ها را بررسی کنی و به الگوی قافیه‌ها و تغییرِ شدتِ صدا و انرژی میانِ بخش‌های مختلف فکر کنی،",
       "en": "and to study the structure and think about rhyme scheme and dynamics between the different parts,",
       "ipa": "ənd tə ˈstʌdi ðə ˈstrʌktʃɚ ənd θɪŋk əˈbaʊt raɪm skim ənd daɪˈnæmɪks bɪˈtwin ðə ˈdɪfərənt pɑrts",
       "words": [
@@ -1461,7 +1461,7 @@ DRILL({
           "w": "dynamics",
           "ipa": "daɪˈnæmɪks",
           "m": "(in music) changes in how loud or soft and how strong music is",
-          "fa": "پویایی، دینامیک",
+          "fa": "تغییرِ شدت و انرژیِ موسیقی میانِ بخش‌ها؛ شیوهٔ تعاملِ اجزا",
           "more": "dynamic"
         }
       ]
@@ -1502,12 +1502,12 @@ DRILL({
       ]
     },
     {
-      "fa": "هیچ‌کس نمی‌فهمد در آن اتاق کی چه چیزی را نوشته.",
+      "fa": "هیچ‌کس قرار نیست بداند در آن اتاق چه کسی کدام قسمت را نوشت.",
       "en": "Nobody’s going to know who wrote what in the room.",
       "ipa": "ˈnoʊˌbɑˌdiz ˈɡoʊɪŋ tə noʊ hu roʊt wʌt ɪn ðə rum"
     },
     {
-      "fa": "هیچ‌کس نمی‌فهمد این را کی به فکرش رسید و آن را کی. برای هیچ‌کس هم مهم نیست.",
+      "fa": "هیچ‌کس قرار نیست بداند فکرِ این یکی را چه کسی داد و فکرِ آن یکی را چه کسی. برای کسی هم مهم نیست.",
       "en": "Nobody’s going to know who came up with this and who came up with that. Nobody cares.",
       "ipa": "ˈnoʊˌbɑˌdiz ˈɡoʊɪŋ tə noʊ hu keɪm ʌp wɪð ðɪs ənd hu keɪm ʌp wɪð ðæt ˈnoʊˌbɑˌdi kɛrz",
       "words": [
@@ -1608,7 +1608,7 @@ DRILL({
       "ipa": "ənd ðə tu əv ju təˈɡɛðɚ kən meɪk ˈsʌmθɪŋ ɡreɪt"
     },
     {
-      "fa": "توصیهٔ من به هرکسی که می‌خواهد حرفه‌اش ترانه‌سرایی یا تهیه‌کنندگی باشد",
+      "fa": "اگر بخواهم به کسی که می‌خواهد ترانه‌نویسی یا تهیه‌کنندگیِ موسیقی را حرفه‌اش کند توصیه‌ای بکنم،",
       "en": "My advice for anybody that wants a career as a songwriter or a producer",
       "ipa": "maɪ ædˈvaɪs fɚ ˈɛnibədi ðæt wɑnts ə kəˈrɪr əz ə ˈsɔŋˌraɪtɚ ɔr ə prəˈdusɚ",
       "newPara": true,
@@ -1623,7 +1623,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این است که خیلی، خیلی، خیلی سخت رویش کار کنند. فقط به کار کردن ادامه بده.",
+      "fa": "توصیه‌ام این است که خیلی، خیلی، خیلی برایش زحمت بکشد. فقط به کار کردن ادامه بده.",
       "en": "would be to work very, very, very hard at it. Just keep on working.",
       "ipa": "wʊd bi tə wɝk ˈvɛri ˈvɛri ˈvɛri hɑrd ət ɪt dʒʌst kip ɑn ˈwɝkɪŋ",
       "words": [
@@ -1681,7 +1681,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و از نظرِ موسیقایی سر از جایی درمی‌آوری که احتمالاً حتی نمی‌دانستی وجود دارد.",
+      "fa": "و سرانجام از نظرِ موسیقایی به جایی خواهی رسید که احتمالاً حتی نمی‌دانستی چنین جایی وجود دارد.",
       "en": "and you will end up in a place musically that you probably didn’t even know existed.",
       "ipa": "ənd ju wɪl ɛnd ʌp ɪn ə pleɪs ˈmjuzɪkli ðæt ju ˈprɑbəbli ˈdɪdənt ˈivɪn noʊ ɪɡˈzɪstəd",
       "words": [

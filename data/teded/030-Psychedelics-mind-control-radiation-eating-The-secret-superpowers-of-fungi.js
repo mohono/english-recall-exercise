@@ -103,7 +103,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این DNA به جاندارانی ناپیدا تعلق دارد که اغلب «قارچ‌های تاریک» خوانده می‌شوند،",
+      "fa": "این دی‌اِن‌اِی به جاندارانی تعلق دارد که شناسایی‌شان دشوار است و اغلب آن‌ها را «قارچ‌های تاریک» می‌نامند،",
       "en": "This DNA belongs to cryptic organisms, often referred to as “dark fungi,”",
       "ipa": "ðɪs ˌdiˌɛnˈeɪ bɪˈlɔŋz tə ˈkrɪptɪk ˈɔrɡəˌnɪzəmz ˈɔfən rəˈfɝd tə əz dɑrk ˈfʌndʒaɪ",
       "words": [
@@ -118,7 +118,7 @@ DRILL({
           "w": "cryptic",
           "ipa": "ˈkrɪptɪk",
           "m": "hidden and difficult to see or understand",
-          "fa": "ناپیدا، مرموز",
+          "fa": "اینجا: پنهان یا دشوار برای شناسایی؛ دربارهٔ پیام یا نوشته: مبهم، رمزآلود",
           "more": "cryptically · mysterious · obscure"
         },
         {
@@ -138,7 +138,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که مانندِ مادهٔ تاریک و انرژیِ تاریک، هم‌زمان همه‌جا دورِ ما هستند و با این حال از چنگِ کشف می‌گریزند.",
+      "fa": "که مانند مادهٔ تاریک و انرژی تاریک، هم‌زمان همه‌جا پیرامون ما حضور دارند و با این حال از چشمِ جویندگانشان پنهان می‌مانند.",
       "en": "which, like dark matter and dark energy, are simultaneously all around us and yet elude discovery.",
       "ipa": "wɪtʃ laɪk dɑrk ˈmætɚ ənd dɑrk ˈɛnɚdʒi ɚ ˌsaɪməlˈteɪniəsli ɔl əˈraʊnd ʌs ənd jɛt ɪˈlud dɪˈskʌvəri",
       "words": [
@@ -250,7 +250,7 @@ DRILL({
       ]
     },
     {
-      "fa": "قلمروِ گوناگونِ قارچ‌ها، که همه‌چیز از مخمرِ نانوایی تا قارچ‌های خوراکی تا عفونت‌های پا را دربر می‌گیرد،",
+      "fa": "فرمانرویِ متنوعِ قارچ‌ها که از مخمرِ نانوایی تا قارچ‌های خوراکی و حتی عواملِ عفونت‌های پا را در بر می‌گیرد،",
       "en": "The diverse fungal kingdom, which includes everything from baker's yeast to edible mushrooms to foot infections,",
       "ipa": "ðə daɪˈvɝs ˈfʌŋɡəl ˈkɪŋdəm wɪtʃ ɪnˈkludz ˈɛvriˌθɪŋ frəm ˈbeɪkɚz jist tə ˈɛdəbəl ˈmʌʃrumz tə fʊt ɪnˈfɛkʃənz",
       "newPara": true,
@@ -266,7 +266,7 @@ DRILL({
           "w": "kingdom",
           "ipa": "ˈkɪŋdəm",
           "m": "one of the major groups into which living things are divided",
-          "fa": "فرمانرو، قلمرو (زیستی)",
+          "fa": "در رده‌بندیِ زیستی: فرمانرو، گروه بزرگی مانند قارچ‌ها یا جانوران؛ در سیاست: پادشاهی",
           "more": "animal kingdom · plant kingdom"
         },
         {
@@ -342,7 +342,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به دلایلی که خودشان می‌گفتند موجه است:",
+      "fa": "به دلایلی که به باورِ خودشان می‌شد از موجه بودنشان دفاع کرد:",
       "en": "for what they’d argue were good reasons:",
       "ipa": "fɚ wʌt ðeɪd ˈɑrɡju wɚ ɡʊd ˈrizənz",
       "words": [
@@ -405,7 +405,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برخلافِ گیاهان که انرژی را از خورشید مهار می‌کنند،",
+      "fa": "برخلاف گیاهان که انرژیِ خورشید را می‌گیرند و به کار می‌اندازند،",
       "en": "Unlike plants that harness energy from the Sun,",
       "ipa": "ənˈlaɪk plænts ðæt ˈhɑrnəs ˈɛnɚdʒi frəm ðə sʌn",
       "words": [
@@ -420,7 +420,7 @@ DRILL({
           "w": "to harness",
           "ipa": "tə ˈhɑrnəs",
           "m": "to control and use the natural power of something",
-          "fa": "مهار کردن، به کار گرفتن",
+          "fa": "اینجا: از یک منبعِ انرژی بهره گرفتن؛ دربارهٔ حیوان: یراق بستن",
           "more": "harness (n.) · exploit · utilize"
         }
       ]
@@ -552,7 +552,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و نیای مشترکی دارند که نخستین بار بیش از یک میلیارد سال پیش پدید آمد.",
+      "fa": "و با جانوران نیای مشترکی دارند که نخستین بار بیش از یک میلیارد سال پیش پدید آمد.",
       "en": "sharing a common ancestor which first appeared over 1 billion years ago.",
       "ipa": "ˈʃɛrɪŋ ə ˈkɑmən ˈænˌsɛstɚ wɪtʃ fɝst əˈpɪrd ˈoʊvɚ wʌn ˈbɪljən jɪrz əˈɡoʊ",
       "words": [
@@ -700,7 +700,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گروهِ دیگری، به نامِ قارچ‌های مایکوریزای آربوسکولار، حتی تا آنجا پیش می‌روند",
+      "fa": "گروه دیگری از قارچ‌ها، به نام قارچ‌های میکوریزای آربوسکولار، حتی تا آنجا پیش می‌رود",
       "en": "Another guild, called arbuscular mycorrhizal fungi, goes so far as",
       "ipa": "əˈnʌðɚ ɡɪld kɔld ɑrbɑkˈsʊrəl ˌmaɪkɚˈhɪrəz ˈfʌndʒaɪ ɡoʊz soʊ fɑr æz",
       "words": [
@@ -708,7 +708,7 @@ DRILL({
           "w": "guild",
           "ipa": "ɡɪld",
           "m": "a group of species that use resources in a similar way; a group of people with the same job",
-          "fa": "گروه، صنف",
+          "fa": "در بوم‌شناسی: گروهی از جانداران با شیوه‌ای مشابه در استفاده از منابع؛ دربارهٔ حرفه‌ها: صنف",
           "more": "association · group"
         },
         {
@@ -721,7 +721,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که مثلِ نِی یاخته‌های ریشهٔ گیاه را سوراخ می‌کنند تا به این مبادله کمک کنند.",
+      "fa": "که مانند نی، سلول‌های ریشهٔ گیاه را سوراخ می‌کند تا به این مبادله کمک کند.",
       "en": "puncturing plant root cells like straws to aid in this exchange.",
       "ipa": "ˈpʌŋktʃərɪŋ plænt rut sɛlz laɪk strɔz tə eɪd ɪn ðɪs ɪksˈtʃeɪndʒ",
       "words": [
@@ -756,7 +756,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این رابطه به گیاهان امکان داد ۴۷۰ میلیون سال پیش خشکی را تصرف کنند،",
+      "fa": "این رابطه به گیاهان امکان داد ۴۷۰ میلیون سال پیش در خشکی مستقر شوند و گسترش پیدا کنند،",
       "en": "This relationship enabled plants to colonize land 470 million years ago,",
       "ipa": "ðɪs riˈleɪʃənˌʃɪp ɛˈneɪbəld plænts tə ˈkɑləˌnaɪz lænd fɔr ˈhʌndrəd ˈsɛvənti ˈmɪljən jɪrz əˈɡoʊ",
       "words": [
@@ -771,7 +771,7 @@ DRILL({
           "w": "to colonize",
           "ipa": "tə ˈkɑləˌnaɪz",
           "m": "(of plants or animals) to start living in a new area",
-          "fa": "تصرف کردن، ساکن شدن در",
+          "fa": "در بوم‌شناسی: در زیستگاهی تازه مستقر شدن و گسترش یافتن؛ در تاریخ و سیاست: مستعمره کردن",
           "more": "colony · colonization · settle"
         }
       ]
@@ -944,7 +944,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هرچند سیلوسایبین احتمالاً برای فراری دادنِ حلزون‌ها و لیسه‌های گرسنه تکامل یافته است.",
+      "fa": "هرچند سیلوسایبین احتمالاً برای بازداشتنِ لیسه‌ها یا حلزون‌های گرسنه تکامل یافته است.",
       "en": "though psilocybin likely evolved to deter hungry slugs or snails.",
       "ipa": "ðoʊ ˌsaɪləˈsaɪbən ˈlaɪkli ɪˈvɑlvd tə dɪˈtɝ ˈhʌŋɡri slʌɡz ɔr sneɪlz",
       "words": [
@@ -1329,7 +1329,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما برخی فقط پرتو را تاب نمی‌آورند — آن را می‌خورند.",
+      "fa": "اما بعضی از آن‌ها به تحملِ پرتو بسنده نمی‌کنند؛ آن را می‌خورند.",
       "en": "But some don’t just endure radiation— they eat it.",
       "ipa": "bət sʌm doʊnt dʒʌst ɛndˈjʊr ˌreɪdiˈeɪʃən ðeɪ it ɪt",
       "words": [
@@ -1441,7 +1441,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پیامدهای این ناوگانِ کارکردهای قارچی در مقیاسِ کلِ سیاره هنوز دارد آشکار می‌شود.",
+      "fa": "پیامدهای این مجموعهٔ بزرگ از کارکردهای قارچ‌ها در مقیاسِ کلِ سیاره هنوز دارند خود را نشان می‌دهند.",
       "en": "The planet-wide consequences of this fleet of fungal functions are still making themselves known.",
       "ipa": "ðə ˈplænət waɪd ˈkɑnsəkˌwɛnsəz əv ðɪs flit əv ˈfʌŋɡəl ˈfʌŋkʃənz ɚ stɪl ˈmeɪkɪŋ ðɛmˈsɛlvz noʊn",
       "newPara": true,
@@ -1464,7 +1464,7 @@ DRILL({
           "w": "fleet",
           "ipa": "flit",
           "m": "a group of ships or vehicles; (fig.) a large set",
-          "fa": "ناوگان، مجموعهٔ بزرگ",
+          "fa": "اینجا مجازی: مجموعه‌ای بزرگ؛ دربارهٔ کشتی‌ها: ناوگان",
           "more": "fleet of cars"
         },
         {
@@ -1512,7 +1512,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که به گیاهان کمک می‌کند زمستان‌های سخت را تاب بیاورند، و در همان حال کربنِ جوّ را انبار می‌کند.",
+      "fa": "و به گیاهان کمک می‌کنند زمستان‌های سخت را تاب بیاورند و در همان حال کربنِ جو را ذخیره می‌کنند.",
       "en": "helping plants survive the harsh winters, while stockpiling carbon from the atmosphere.",
       "ipa": "ˈhɛlpɪŋ plænts sɚˈvaɪv ðə hɑrʃ ˈwɪntɚz waɪl ˈstɑkˌpaɪlɪŋ ˈkɑrbən frəm ði ˈætməˌsfɪr",
       "words": [
@@ -1661,7 +1661,7 @@ DRILL({
       ]
     },
     {
-      "fa": "کسی چه می‌داند چه شگفتی‌های دیگری شاید درست کمی آن‌سوترِ دیدِ ما در حالِ رشد باشند.",
+      "fa": "کسی چه می‌داند چه شگفتی‌های دیگری ممکن است درست بیرون از محدودهٔ دیدِ ما در حال رشد باشند؟",
       "en": "Who knows what other wonders might be growing just beyond our view.",
       "ipa": "hu noʊz wʌt ˈʌðɚ ˈwʌndɚz maɪt bi ˈɡroʊɪŋ dʒʌst bɪˈɑnd ˈaʊɚ vju",
       "words": [

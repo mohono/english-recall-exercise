@@ -34,7 +34,7 @@ DRILL({
           "w": "the morning-after pill",
           "ipa": "ðə ˈmɔrnɪŋ ˈæftɚ pɪl",
           "m": "a pill a woman can take after sex to stop pregnancy",
-          "fa": "قرصِ اورژانسیِ پیشگیری، قرصِ روزِ بعد",
+          "fa": "«قرصِ صبحِ روزِ بعد»، نامِ رایجِ قرصِ اورژانسیِ پیشگیری از بارداری",
           "more": "emergency contraception"
         }
       ]
@@ -68,7 +68,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پیشگیری‌های اورژانسی را اغلب درست نمی‌فهمند.",
+      "fa": "اغلب دربارهٔ روش‌های اورژانسیِ پیشگیری از بارداری برداشتِ نادرستی وجود دارد.",
       "en": "Emergency contraceptives are often misunderstood.",
       "ipa": "ɪˈmɝdʒənsi ˌkɑntrəˈsɛptɪvz ɚ ˈɔfən ˌmɪsəndɚˈstʊd",
       "words": [
@@ -76,14 +76,14 @@ DRILL({
           "w": "emergency",
           "ipa": "ɪˈmɝdʒənsi",
           "m": "a sudden dangerous situation that needs fast action",
-          "fa": "اورژانس، وضعیتِ اضطراری",
+          "fa": "اضطراری، اورژانسی؛ وضعیتِ اضطراری",
           "more": "emergency room · urgent"
         },
         {
           "w": "contraceptive",
           "ipa": "ˌkɑntrəˈsɛptɪv",
           "m": "a drug or device used to prevent pregnancy",
-          "fa": "داروی/وسیلهٔ پیشگیری از بارداری",
+          "fa": "دارو یا وسیلهٔ پیشگیری از بارداری",
           "more": "contraception · birth control"
         },
         {
@@ -151,7 +151,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اول، گروهی از تخمک‌های نابالغ شروع می‌کنند به رشدِ کیسه‌هایی محافظ و پر از مایع به نامِ فولیکول.",
+      "fa": "ابتدا گروهی از تخمک‌های نابالغ شروع به تشکیلِ کیسه‌هایی محافظ و پُر از مایع به نامِ فولیکول در اطرافِ خود می‌کنند.",
       "en": "First, a group of immature eggs start to grow protective, fluid-filled sacs called follicles.",
       "ipa": "fɝst ə ɡrup əv ˌɪmətˈjʊr ɛɡz stɑrt tə ɡroʊ prəˈtɛktɪv ˈfluəd fɪld sæks kɔld ˈfɑlɪkəlz",
       "words": [
@@ -187,7 +187,7 @@ DRILL({
           "w": "follicle",
           "ipa": "ˈfɑləkəl",
           "m": "a small sac in the ovary in which an egg develops",
-          "fa": "فولیکول"
+          "fa": "فولیکولِ تخمدان، کیسهٔ حاوی تخمک؛ فولیکولِ مو"
         }
       ]
     },
@@ -220,7 +220,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در این مرحله، مغز به غدهٔ هیپوفیز علامت می‌دهد که هورمونِ لوتئینی‌کننده بسازد که اغلب فقط <en>LH</en> می‌نامندش.",
+      "fa": "در این مرحله، مغز به غدهٔ هیپوفیز پیام می‌دهد که هورمونِ لوتئینی‌کننده تولید کند؛ هورمونی که اغلب به‌اختصار <en>LH</en> نامیده می‌شود.",
       "en": "At this point, the brain signals the pituitary gland to produce luteinizing hormone, often just called LH.",
       "ipa": "ət ðɪs pɔɪnt ðə breɪn ˈsɪɡnəlz ðə pəˈtuəˌtɛri ɡlænd tə prəˈdus ˈlutəˌnaɪzɪŋ ˈhɔrˌmoʊn ˈɔfən dʒʌst kɔld ˌɛlˈeɪtʃ",
       "words": [
@@ -255,7 +255,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یک جهشِ بزرگ در <en>LH</en> به فولیکولِ غالب می‌گوید پاره شود و تخمک را آزاد کند.",
+      "fa": "افزایشِ ناگهانی و شدیدِ <en>LH</en> به فولیکولِ غالب پیام می‌دهد که پاره شود و در نتیجه تخمک آزاد می‌شود.",
       "en": "A big surge in LH tells the dominant follicle to rupture, releasing the egg.",
       "ipa": "ə bɪɡ sɝdʒ ɪn ˌɛlˈeɪtʃ tɛlz ðə ˈdɑmənənt ˈfɑləkəl tə ˈrʌptʃɚ riˈlisɪŋ ði ɛɡ",
       "words": [
@@ -263,7 +263,7 @@ DRILL({
           "w": "surge",
           "ipa": "sɝdʒ",
           "m": "a sudden large increase",
-          "fa": "جهش، افزایشِ ناگهانی",
+          "fa": "افزایشِ ناگهانی، جهش؛ موج",
           "more": "to surge · spike"
         },
         {
@@ -298,7 +298,7 @@ DRILL({
           "w": "tube",
           "ipa": "tub",
           "m": "a long narrow hollow part of the body or a pipe",
-          "fa": "لوله",
+          "fa": "لوله (اینجا لولهٔ رحم)، مجرا",
           "more": "tubular"
         }
       ]
@@ -342,7 +342,7 @@ DRILL({
           "w": "to stimulate",
           "ipa": "tə ˈstɪmjəˌleɪt",
           "m": "to make something more active",
-          "fa": "تحریک کردن",
+          "fa": "تحریک کردن، به فعالیت واداشتن",
           "more": "stimulus"
         },
         {
@@ -355,7 +355,7 @@ DRILL({
       ]
     },
     {
-      "fa": "وقتی پروژسترون به گیرنده‌های مشخصی متصل می‌شود، این هم به علامت دادن برای تخمک‌گذاری کمک می‌کند.",
+      "fa": "وقتی پروژسترون به گیرنده‌های مشخصی متصل می‌شود، این اتصال هم به ارسالِ پیامِ تخمک‌گذاری کمک می‌کند.",
       "en": "When progesterone binds at specific receptors, this also helps to signal ovulation.",
       "ipa": "wɛn proʊˈdʒɛstəˌroʊn baɪndz ət spəˈsɪfɪk rəˈsɛptɚz ðɪs ˈɔlsoʊ hɛlps tə ˈsɪɡnəl ˌoʊvjəˈleɪʃən",
       "words": [
@@ -382,7 +382,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و سطحِ بالای پروژسترون برای آماده کردنِ دیوارهٔ رحم حیاتی است",
+      "fa": "و بالا بودنِ سطحِ پروژسترون برای آماده‌سازیِ پوششِ داخلیِ رحم حیاتی است",
       "en": "And high levels of progesterone are vital for preparing the uterine lining",
       "ipa": "ənd haɪ ˈlɛvəlz əv proʊˈdʒɛstəˌroʊn ɚ ˈvaɪtəl fɚ priˈpɛrɪŋ ðə ˈjutərən ˈlaɪnɪŋ",
       "words": [
@@ -404,13 +404,13 @@ DRILL({
           "w": "lining",
           "ipa": "ˈlaɪnɪŋ",
           "m": "a layer that covers the inside of something",
-          "fa": "دیواره، لایهٔ داخلی",
+          "fa": "پوششِ داخلیِ رحم، لایهٔ داخلی؛ آستر",
           "more": "to line"
         }
       ]
     },
     {
-      "fa": "تا لانه‌گزینیِ احتمالیِ یک تخمکِ بارورشده را پشتیبانی کند.",
+      "fa": "تا این پوشش بتواند زمینه را برای لانه‌گزینیِ احتمالیِ یک تخمکِ بارورشده فراهم کند.",
       "en": "to support the possible implantation of a fertilized egg.",
       "ipa": "tə səˈpɔrt ðə ˈpɑsəbəl ɪmplænˈteɪʃən əv ə ˈfɝtəˌlaɪzd ɛɡ",
       "words": [
@@ -439,7 +439,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پیشگیری‌های اورژانسی قرصِ سقطِ جنین نیستند.",
+      "fa": "داروهای اورژانسیِ پیشگیری از بارداری قرصِ سقطِ جنین نیستند.",
       "en": "Emergency contraceptives are not abortion pills.",
       "ipa": "ɪˈmɝdʒənsi ˌkɑntrəˈsɛptɪvz ɚ nɑt əˈbɔrʃən pɪlz",
       "words": [
@@ -453,7 +453,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در عوض، خیلی زودتر در این فرایند و پیش از بارداری عمل می‌کنند، با مختل کردن یا به تأخیر انداختنِ تخمک‌گذاری.",
+      "fa": "در عوض، آن‌ها خیلی زودتر در این فرایند، پیش از بارداری، با مختل کردن یا به تأخیر انداختنِ تخمک‌گذاری عمل می‌کنند.",
       "en": "Instead, they work much earlier in the process before pregnancy, by disrupting or delaying ovulation.",
       "ipa": "ɪnˈstɛd ðeɪ wɝk mʌtʃ ˈɝliɚ ɪn ðə ˈprɑˌsɛs bɪˈfɔr ˈprɛɡnənsi baɪ dɪsˈrʌptɪŋ ɔr dɪˈleɪɪŋ ˌoʊvjəˈleɪʃən",
       "words": [
@@ -549,12 +549,12 @@ DRILL({
       ]
     },
     {
-      "fa": "چون <en>LH</en> جهش نمی‌کند، تخمک‌گذاری‌ای هم در کار نیست.",
+      "fa": "چون سطحِ <en>LH</en> ناگهان بالا نمی‌رود، تخمک‌گذاری هم رخ نمی‌دهد.",
       "en": "Because LH doesn’t surge, there’s no ovulation.",
       "ipa": "bɪˈkɔz ˌɛlˈeɪtʃ ˈdʌzənt sɝdʒ ðɛrz noʊ ˌoʊvjəˈleɪʃən"
     },
     {
-      "fa": "با این حساب، <en>Plan B</en> باید پیش از جهشِ <en>LH</en> مصرف شود.",
+      "fa": "با این حال، <en>Plan B</en> باید پیش از جهشِ <en>LH</en> مصرف شود.",
       "en": "That said, Plan B needs to be taken before an LH surge.",
       "ipa": "ðæt sɛd plæn bi nidz tə bi ˈteɪkən bɪˈfɔr ən ˌɛlˈeɪtʃ sɝdʒ",
       "words": [
@@ -568,7 +568,7 @@ DRILL({
       ]
     },
     {
-      "fa": "وقتی <en>LH</en> شروع به بالا رفتن کرد، دیگر نمی‌تواند جلوی تخمک‌گذاری را بگیرد.",
+      "fa": "همین‌که سطحِ <en>LH</en> شروع به بالا رفتن کند، این قرص دیگر نمی‌تواند جلوی تخمک‌گذاری را بگیرد.",
       "en": "It can’t prevent ovulation once LH starts rising.",
       "ipa": "ɪt kænt prɪˈvɛnt ˌoʊvjəˈleɪʃən wʌns ˌɛlˈeɪtʃ stɑrts ˈraɪzɪŋ",
       "words": [
@@ -616,12 +616,12 @@ DRILL({
       ]
     },
     {
-      "fa": "اولیپریستال استات حتی اگر <en>LH</en> شروع به بالا رفتن کرده باشد هم اثر دارد،",
+      "fa": "اولیپریستال استات حتی اگر افزایشِ سطحِ <en>LH</en> از قبل آغاز شده باشد هم اثر می‌کند،",
       "en": "Ulipristal acetate works even if LH has already begun to rise,",
       "ipa": "əˈlɪprɪstəpəl ˈæsəˌteɪt wɝks ˈivɪn ɪf ˌɛlˈeɪtʃ hæz ɔlˈrɛdi bɪˈɡʌn tə raɪz"
     },
     {
-      "fa": "یعنی در بازهٔ زمانیِ وسیع‌تری از <en>Plan B</en> مؤثر است.",
+      "fa": "یعنی بازهٔ زمانی‌ای که در آن مؤثر است از بازهٔ اثرِ <en>Plan B</en> طولانی‌تر است.",
       "en": "which means it’s effective in a wider window of time than Plan B.",
       "ipa": "wɪtʃ minz ɪts ɪˈfɛktɪv ɪn ə ˈwaɪdɚ ˈwɪndoʊ əv taɪm ðən plæn bi",
       "words": [
@@ -635,7 +635,7 @@ DRILL({
       ]
     },
     {
-      "fa": "چون هر دو قرص با جلوگیری یا تأخیر در تخمک‌گذاری عمل می‌کنند، نامِ «قرصِ صبحِ روزِ بعد» می‌تواند گمراه‌کننده باشد.",
+      "fa": "چون هر دو قرص با جلوگیری از تخمک‌گذاری یا به تأخیر انداختنِ آن عمل می‌کنند، نامِ «قرصِ صبحِ روزِ بعد» می‌تواند گمراه‌کننده باشد.",
       "en": "Since both pills work by blocking or delaying ovulation, the name “the morning-after pill” can be misleading.",
       "ipa": "sɪns boʊθ pɪlz wɝk baɪ ˈblɑkɪŋ ɔr dɪˈleɪɪŋ ˌoʊvjəˈleɪʃən ðə neɪm ðə ˈmɔrnɪŋ ˈæftɚ pɪl kən bi mɪˈslidɪŋ",
       "newPara": true,
@@ -650,7 +650,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پیشگیری‌های اورژانسی وقتی بیشترین تأثیر را دارند که هرچه زودتر بعد از رابطهٔ جنسی مصرف شوند،",
+      "fa": "قرص‌های اورژانسیِ پیشگیری از بارداری وقتی بیشترین اثر را دارند که هرچه زودتر پس از رابطهٔ جنسی مصرف شوند،",
       "en": "Emergency contraceptives are most effective when taken as soon as possible after sex,",
       "ipa": "ɪˈmɝdʒənsi ˌkɑntrəˈsɛptɪvz ɚ moʊst ɪˈfɛktɪv wɛn ˈteɪkən əz sun əz ˈpɑsəbəl ˈæftɚ sɛks",
       "words": [
@@ -672,7 +672,7 @@ DRILL({
           "w": "to better",
           "ipa": "tə ˈbɛtɚ",
           "m": "(formal) to improve something",
-          "fa": "بهتر کردن، بالا بردن",
+          "fa": "بالا بردنِ احتمال، بهتر کردن",
           "more": "to improve · to increase"
         },
         {
@@ -721,7 +721,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با این همه، پیشگیری‌های اورژانسی شاید حتی اگر ۳ تا ۵ روز بعد از رابطه مصرف شوند هم جلوی بارداری را بگیرند، بسته به نوعِ قرص.",
+      "fa": "با این همه، بسته به نوعِ قرص، حتی اگر قرصِ اورژانسی ۳ تا ۵ روز پس از رابطهٔ جنسی مصرف شود، باز هم ممکن است جلوی بارداری را بگیرد.",
       "en": "Yet emergency contraceptives may still prevent pregnancy even if they’re taken 3 to 5 days after sex, depending on the pill.",
       "ipa": "jɛt ɪˈmɝdʒənsi ˌkɑntrəˈsɛptɪvz meɪ stɪl prɪˈvɛnt ˈprɛɡnənsi ˈivɪn ɪf ðɛr ˈteɪkən θri tə faɪv deɪz ˈæftɚ sɛks dɪˈpɛndɪŋ ɑn ðə pɪl",
       "words": [
@@ -771,13 +771,13 @@ DRILL({
           "w": "unprotected",
           "ipa": "ˌʌnprəˈtɛktɪd",
           "m": "(of sex) done without a condom or other protection",
-          "fa": "بدونِ محافظت",
+          "fa": "محافظت‌نشده (دربارهٔ رابطهٔ جنسی)، بی‌حفاظ",
           "more": "protected · protection"
         }
       ]
     },
     {
-      "fa": "چون سخت است دقیقاً بدانیم کسی در کجای چرخه‌اش است، بهتر است پیشگیری‌های اورژانسی را هرچه زودتر مصرف کرد.",
+      "fa": "چون تشخیصِ اینکه فرد دقیقاً در کدام مرحلهٔ چرخه‌اش است دشوار است، بهتر است قرصِ اورژانسی هرچه زودتر مصرف شود.",
       "en": "Since it's difficult to know exactly where someone is in their cycle, it’s best to take emergency contraceptives as soon as possible.",
       "ipa": "sɪns ɪts ˈdɪfəkəlt tə noʊ ɪɡˈzæktli wɛr ˈsʌmˌwʌn ɪz ɪn ðɛr ˈsaɪkəl ɪts bɛst tə teɪk ɪˈmɝdʒənsi ˌkɑntrəˈsɛptɪvz əz sun əz ˈpɑsəbəl",
       "words": [
@@ -785,7 +785,7 @@ DRILL({
           "w": "cycle",
           "ipa": "ˈsaɪkəl",
           "m": "a series of events that repeat in the same order",
-          "fa": "چرخه",
+          "fa": "چرخهٔ قاعدگی؛ چرخه، دور",
           "more": "menstrual cycle · cyclical"
         },
         {
@@ -798,7 +798,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما شاید رایج‌ترین برداشتِ نادرست دربارهٔ این قرص‌ها این باشد که به باروریِ آیندهٔ آدم آسیب می‌زنند.",
+      "fa": "اما شاید رایج‌ترین تصورِ نادرست دربارهٔ این قرص‌ها این باشد که می‌توانند به توانِ باروریِ فرد در آینده آسیب بزنند.",
       "en": "But perhaps the most widely held misconception about these pills is that they can harm a person’s future fertility.",
       "ipa": "bət pɚˈhæps ðə moʊst ˈwaɪdli hɛld mɪskənˈsɛpʃən əˈbaʊt ðiz pɪlz ɪz ðæt ðeɪ kən hɑrm ə ˈpɝsənz ˈfjutʃɚ fɚˈtɪləti",
       "newPara": true,
@@ -834,7 +834,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دهه‌ها پژوهش نشان داده که چنین نیست، حتی اگر پیشگیری‌های اورژانسی چند بار مصرف شوند.",
+      "fa": "دهه‌ها پژوهش نشان داده است که چنین نیست، حتی اگر قرص‌های اورژانسی چندین بار مصرف شوند.",
       "en": "Decades of research have shown that this isn’t the case, even if emergency contraceptives are taken multiple times.",
       "ipa": "dɛˈkeɪdz əv riˈsɝtʃ hæv ʃoʊn ðæt ðɪs ˈɪzənt ðə keɪs ˈivɪn ɪf ɪˈmɝdʒənsi ˌkɑntrəˈsɛptɪvz ɚ ˈteɪkən ˈmʌltəpəl taɪmz",
       "words": [
@@ -861,7 +861,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در واقع، اثرِ هر دو قرص کوتاه‌مدت است و محافظتِ ادامه‌دار ایجاد نمی‌کنند.",
+      "fa": "در واقع، اثراتِ هر دو قرص کوتاه‌مدت‌اند و این قرص‌ها محافظتِ مداوم ایجاد نمی‌کنند.",
       "en": "In fact, the effects of both pills are short lived, and they don't provide continued protection.",
       "ipa": "ɪn fækt ði ɪˈfɛkts əv boʊθ pɪlz ɚ ʃɔrt laɪvd ənd ðeɪ doʊnt prəˈvaɪd kənˈtɪnjud prəˈtɛkʃən",
       "words": [
@@ -910,12 +910,12 @@ DRILL({
       ]
     },
     {
-      "fa": "و اگر دوباره رابطهٔ بدونِ محافظت داشت، باز هم مصرف را تکرار کند.",
+      "fa": "و اگر دوباره رابطهٔ جنسیِ محافظت‌نشده داشت، مصرفِ قرص را تکرار کند.",
       "en": "and if they have unprotected sex again, then repeat use.",
       "ipa": "ənd ɪf ðeɪ hæv ˌʌnprəˈtɛktɪd sɛks əˈɡɛn ðɛn rɪˈpit jus"
     },
     {
-      "fa": "البته قرص‌های پیشگیریِ اورژانسی خطاناپذیر نیستند.",
+      "fa": "البته قرص‌های اورژانسیِ پیشگیری از بارداری همیشه موفق عمل نمی‌کنند.",
       "en": "Of course, emergency contraceptive pills aren’t failproof.",
       "ipa": "əv kɔrs ɪˈmɝdʒənsi ˌkɑntrəˈsɛptɪv pɪlz ˈɑrənt ˈfaɪlˌpruf",
       "words": [
@@ -923,7 +923,7 @@ DRILL({
           "w": "failproof",
           "ipa": "ˈfaɪlˌpruf",
           "m": "certain to work; never failing",
-          "fa": "خطاناپذیر، بی‌نقص",
+          "fa": "مطمئن و بی‌خطا، بدونِ احتمالِ شکست",
           "more": "foolproof · fail-safe"
         }
       ]
@@ -950,7 +950,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اگر کسی تخمک‌گذاری کرده باشد یا جهشِ <en>LH</en> به اوجش رسیده باشد، این قرص‌ها بی‌اثرند.",
+      "fa": "اگر فرد از قبل تخمک‌گذاری کرده باشد یا جهشِ <en>LH</en> پیش‌تر به اوج رسیده باشد، این قرص‌ها بی‌اثرند.",
       "en": "these pills are ineffective if someone has already ovulated, or the LH surge has already peaked.",
       "ipa": "ðiz pɪlz ɚ ɪnɪˈfɛktɪv ɪf ˈsʌmˌwʌn hæz ɔlˈrɛdi ˈoʊvjəˌleɪtəd ɔr ði ˌɛlˈeɪtʃ sɝdʒ hæz ɔlˈrɛdi pikt",
       "words": [
@@ -971,7 +971,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با این حال، گزینهٔ سومی هست که می‌تواند از بارداری محافظت کند، حتی اگر فرد تخمک‌گذاری کرده باشد.",
+      "fa": "با این حال، گزینهٔ سومی هست که حتی اگر فرد از قبل تخمک‌گذاری کرده باشد، می‌تواند جلوی بارداری را بگیرد.",
       "en": "However, there is a third option that can protect against pregnancy, even if a person has already ovulated.",
       "ipa": "ˌhaʊˈɛvɚ ðɛr ɪz ə θɝd ˈɑpʃən ðæt kən prəˈtɛkt əˈɡɛnst ˈprɛɡnənsi ˈivɪn ɪf ə ˈpɝsən hæz ɔlˈrɛdi ˈoʊvjəˌleɪtəd",
       "newPara": true,
@@ -987,13 +987,13 @@ DRILL({
           "w": "to protect against",
           "ipa": "tə prəˈtɛkt əˈɡɛnst",
           "m": "to keep someone safe from something",
-          "fa": "محافظت کردن در برابرِ",
+          "fa": "از بارداری پیشگیری کردن، در برابرِ چیزی محافظت کردن",
           "more": "protection"
         }
       ]
     },
     {
-      "fa": "خیلی‌ها آی‌یو‌دی‌های مسی، یعنی وسیله‌های داخلِ رحمی، را به‌عنوانِ روشی بلندمدت برای پیشگیری از بارداری می‌شناسند،",
+      "fa": "خیلی‌ها وسایلِ داخل‌رحمیِ مسی، یا همان آی‌یودی‌های مسی، را به‌عنوانِ روشی بلندمدت برای پیشگیری از بارداری می‌شناسند،",
       "en": "Many people know copper intrauterine devices, or IUDs, as a form of long-term birth control,",
       "ipa": "ˈmɛni ˈpipəl noʊ ˈkɑpɚ ˌɪntrəˈjutərɪn dɪˈvaɪsəz ɔr ˌaɪˌjuˈdiz əz ə fɔrm əv ˈlɔŋˌtɝm bɝθ kənˈtroʊl",
       "words": [
@@ -1028,7 +1028,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ولی اگر کمی بعد از رابطهٔ بدونِ محافظت گذاشته شوند، برای جلوگیری از بارداری هم کار می‌کنند.",
+      "fa": "اما اگر این وسایل مدتِ کوتاهی پس از رابطهٔ جنسیِ محافظت‌نشده در رحم گذاشته شوند، برای پیشگیری از بارداری هم مؤثرند.",
       "en": "but they also work to prevent pregnancy if inserted soon after unprotected sex.",
       "ipa": "bət ðeɪ ˈɔlsoʊ wɝk tə prɪˈvɛnt ˈprɛɡnənsi ɪf ɪnˈsɝtəd sun ˈæftɚ ˌʌnprəˈtɛktɪd sɛks",
       "words": [
@@ -1036,7 +1036,7 @@ DRILL({
           "w": "to insert",
           "ipa": "tə ˌɪnˈsɝt",
           "m": "to put something into something else",
-          "fa": "وارد کردن، گذاشتن",
+          "fa": "در رحم قرار دادنِ وسیله؛ وارد کردن، گنجاندن",
           "more": "insertion"
         }
       ]
@@ -1056,7 +1056,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مس برای اسپرم سمی است و محیطی در رحم می‌سازد که لانه‌گزینی را بعید می‌کند.",
+      "fa": "مس برای اسپرم سمی است و در رحم محیطی ایجاد می‌کند که احتمالِ لانه‌گزینی را کم می‌کند.",
       "en": "Copper is toxic to sperm and creates a uterine environment that makes implantation unlikely.",
       "ipa": "ˈkɑpɚ ɪz ˈtɑksɪk tə spɝm ənd kriˈeɪts ə ˈjutərən ɪnˈvaɪrənmənt ðæt meɪks ɪmplænˈteɪʃən ənˈlaɪkli",
       "words": [
@@ -1084,7 +1084,7 @@ DRILL({
       ]
     },
     {
-      "fa": "البته در وضعیتِ اضطراری شاید دسترسی به آی‌یو‌دیِ مسی کمتر باشد —",
+      "fa": "البته در وضعیتِ اضطراری شاید دسترسی به آی‌یودی‌های مسی دشوارتر باشد —",
       "en": "Of course, copper IUDs might be less accessible in an emergency situation—",
       "ipa": "əv kɔrs ˈkɑpɚ ˌaɪˌjuˈdiz maɪt bi lɛs ækˈsɛsəbəl ɪn ən ɪˈmɝdʒənsi ˌsɪtʃuˈeɪʃən",
       "words": [
@@ -1098,7 +1098,7 @@ DRILL({
       ]
     },
     {
-      "fa": "باید یک ارائه‌دهندهٔ خدماتِ درمانیِ آموزش‌دیده آن را بگذارد.",
+      "fa": "چرا که این وسایل را باید یکی از اعضای آموزش‌دیدهٔ کادرِ درمان در رحم قرار دهد.",
       "en": "they must be inserted by a trained healthcare provider.",
       "ipa": "ðeɪ mʌst bi ɪnˈsɝtəd baɪ ə treɪnd ˈhɛlθˌkɛr prəˈvaɪdɚ",
       "words": [
@@ -1112,7 +1112,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما حسنش این است که تا وقتی سرِ جایش است، دست‌کم ۱۰ سال جلوی بارداری را می‌گیرد.",
+      "fa": "اما حسنشان این است که تا وقتی سرِ جایشان باشند، دست‌کم تا ۱۰ سال به پیشگیری از بارداری ادامه می‌دهند.",
       "en": "But on the upside, they continue to prevent pregnancy for at least 10 years while in place.",
       "ipa": "bət ɑn ði ˌʌpˈsaɪd ðeɪ kənˈtɪnju tə prɪˈvɛnt ˈprɛɡnənsi fɚ ət list tɛn jɪrz waɪl ɪn pleɪs",
       "words": [
@@ -1132,13 +1132,13 @@ DRILL({
       ]
     },
     {
-      "fa": "بیشترِ ارائه‌دهندگانِ خدماتِ درمانی متفق‌اند که مؤثرتر است،",
+      "fa": "بیشترِ اعضای کادرِ درمان هم‌نظرند که این کار مؤثرتر است،",
       "en": "Most healthcare providers agree that it's more effective,",
       "ipa": "moʊst ˈhɛlθˌkɛr prəˈvaɪdɚz əˈɡri ðæt ɪts mɔr ɪˈfɛktɪv",
       "newPara": true
     },
     {
-      "fa": "و همچنین ارزان‌تر، که وقتی می‌خواهید از بارداری پرهیز کنید از یک روشِ همیشگیِ پیشگیری استفاده کنید.",
+      "fa": "و هزینهٔ کمتری هم دارد: اینکه وقتی می‌خواهید از بارداری جلوگیری کنید، از یک روشِ معمولِ پیشگیری استفاده کنید.",
       "en": "as well as less expensive, to use a regular form of birth control when trying to avoid pregnancy.",
       "ipa": "əz wɛl əz lɛs ɪkˈspɛnsɪv tə juz ə ˈrɛɡjəlɚ fɔrm əv bɝθ kənˈtroʊl wɛn ˈtraɪɪŋ tə əˈvɔɪd ˈprɛɡnənsi",
       "words": [
@@ -1153,7 +1153,7 @@ DRILL({
           "w": "regular",
           "ipa": "ˈrɛɡjəlɚ",
           "m": "done or used often, as a normal habit",
-          "fa": "همیشگی، منظم",
+          "fa": "معمول، همیشگی؛ منظم",
           "more": "regularly"
         },
         {
@@ -1165,7 +1165,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما اگر یا هر وقت لازمش داشتید، پیشگیری‌های اورژانسی گزینه‌ای بی‌خطر برای استفاده‌اند.",
+      "fa": "اما اگر یا هر وقت به پیشگیریِ اورژانسی نیاز پیدا کردید، استفاده از روش‌های اورژانسی گزینهٔ ایمنی است.",
       "en": "But if or when you need it, emergency contraceptives are a safe option to use.",
       "ipa": "bət ɪf ɔr wɛn ju nid ɪt ɪˈmɝdʒənsi ˌkɑntrəˈsɛptɪvz ɚ ə seɪf ˈɑpʃən tə juz"
     }

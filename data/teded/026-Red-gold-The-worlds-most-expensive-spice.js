@@ -131,7 +131,7 @@ DRILL({
           "w": "stigma",
           "ipa": "ˈstɪɡmə",
           "m": "the part of a flower that receives pollen",
-          "fa": "کلاله (گل)",
+          "fa": "در گل: کلاله، بخشی از مادگی که گرده روی آن قرار می‌گیرد؛ در جامعه: انگ، داغِ ننگ",
           "more": "stigma (= social shame) · stigmatize"
         }
       ]
@@ -158,7 +158,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گونه‌های مختلفِ کروکوس اینجا و آنجای روستاهای سراسرِ اوراسیا و شمالِ آفریقا پراکنده‌اند،",
+      "fa": "گونه‌های مختلفِ کروکوس در گوشه‌وکنارِ نواحیِ روستاییِ سراسر اوراسیا و شمال آفریقا دیده می‌شوند،",
       "en": "Different crocus species dot countrysides across Eurasia and North Africa,",
       "ipa": "ˈdɪfərənt ˈkroʊkəs ˈspiʃiz dɑt ˈkʌntriˌsaɪdz əˈkrɔs jʊˈreɪʒə ənd nɔrθ ˈæfrəkə",
       "words": [
@@ -180,7 +180,7 @@ DRILL({
           "w": "countryside",
           "ipa": "ˈkʌntriˌsaɪd",
           "m": "land outside towns and cities, with fields and farms",
-          "fa": "روستا، حومه، طبیعتِ بیرونِ شهر",
+          "fa": "نواحی روستایی و طبیعت بیرونِ شهرها",
           "more": "rural area · the country"
         }
       ]
@@ -221,7 +221,7 @@ DRILL({
       ]
     },
     {
-      "fa": "نقاشی‌های غارِ باستانی در جایی که امروز عراق است، رنگ‌هایشان را از رنگدانه‌های کروکوس گرفته بودند.",
+      "fa": "نقاشی‌های باستانیِ غارها در سرزمینی که امروز عراق است، رنگ‌هایشان را از رنگدانه‌های کروکوس می‌گرفتند.",
       "en": "Ancient cave paintings in what's now Iraq derived colors from crocus pigments.",
       "ipa": "ˈeɪntʃənt keɪv ˈpeɪntɪŋz ɪn wʌts naʊ ɪˈrɑk dəˈraɪvd ˈkʌlɚz frəm ˈkroʊkəs ˈpɪɡmənts",
       "words": [
@@ -289,7 +289,7 @@ DRILL({
       ]
     },
     {
-      "fa": "وقتی یک کروکوسِ وحشی دانه‌ای تولید کرد که یک دستِ اضافهٔ کروموزوم داشت.",
+      "fa": "زمانی که یک بوتهٔ کروکوسِ وحشی بذری تولید کرد که حاملِ یک مجموعهٔ اضافه از کروموزوم‌ها بود.",
       "en": "when a single wild crocus produced a seed carrying an extra set of chromosomes.",
       "ipa": "wɛn ə ˈsɪŋɡəl waɪld ˈkroʊkəs prəˈdust ə sid ˈkæriɪŋ ən ˈɛkstrə sɛt əv ˈkroʊməˌzoʊmz",
       "words": [
@@ -374,7 +374,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که رنگِ پُرجلای زعفران را به آن می‌بخشد و رنگرزِ خوبی است،",
+      "fa": "که رنگ زنده و درخشانِ زعفران را به آن می‌بخشد و مادهٔ مؤثری هم برای رنگرزی است،",
       "en": "which lends saffron its vibrant hue and makes an effective dye,",
       "ipa": "wɪtʃ lɛndz ˈsæfrən ɪts ˈvaɪbrənt hju ənd meɪks ən ɪˈfɛktɪv daɪ",
       "words": [
@@ -410,7 +410,7 @@ DRILL({
           "w": "dye",
           "ipa": "daɪ",
           "m": "a substance used to change the colour of cloth or hair",
-          "fa": "رنگ (رنگرزی)",
+          "fa": "اینجا اسم است: مادهٔ رنگزا برای رنگرزی؛ به‌صورت فعل: رنگ کردن",
           "more": "dye (v.) · natural dye"
         }
       ],
@@ -431,7 +431,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و سافرانال، که بوی شبیهِ علفِ خشکِ آن را به آن می‌دهد.",
+      "fa": "و سافرانال که رایحه‌ای شبیه علفِ خشک به زعفران می‌دهد.",
       "en": "and saffronal, which imparts its hay-like aroma.",
       "ipa": "ənd ˈsæfrənəl wɪtʃ ɪmˈpɑrts ɪts heɪ laɪk əˈroʊmə",
       "words": [
@@ -482,7 +482,7 @@ DRILL({
           "w": "sterile",
           "ipa": "ˈstɛrəl",
           "m": "unable to produce young or seeds",
-          "fa": "نازا، عقیم",
+          "fa": "دربارهٔ گیاه یا جانور: نازا، عقیم؛ دربارهٔ محیط یا ابزار: عاری از میکروب، استریل",
           "more": "sterility · infertile · sterile (= very clean)"
         }
       ]
@@ -572,7 +572,7 @@ DRILL({
       ]
     },
     {
-      "fa": "می‌توانست از راهِ پیازِ خود تکثیر شود؛ اندامی زیرزمینی شبیهِ ساقه",
+      "fa": "می‌توانست از طریقِ بُنه‌اش تکثیر شود، اندامی زیرزمینی و شبیه ساقه",
       "en": "it could spread through its corm, an underground stem-like plant organ",
       "ipa": "ɪt kʊd sprɛd θru ɪts kɔrm ən ˈʌndɚˌɡraʊnd ˈstɛmˌlaɪk plænt ˈɔrɡən",
       "words": [
@@ -603,6 +603,13 @@ DRILL({
           "m": "a part of a living thing with a special job",
           "fa": "اندام، عضو",
           "more": "organism · organic"
+        },
+        {
+          "w": "corm",
+          "ipa": "kɔrm",
+          "m": "a short, swollen underground stem that stores food for a plant",
+          "fa": "بُنه؛ ساقهٔ کوتاه و متورمِ زیرزمینی که مواد غذاییِ گیاه را ذخیره می‌کند",
+          "more": "underground stem · bulb (a different structure)"
         }
       ]
     },
@@ -628,7 +635,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ظاهراً مردم خودشان شروع به تکثیرِ آن کردند و پیازچه‌های تازه را جدا می‌کردند و می‌کاشتند.",
+      "fa": "به نظر می‌رسد مردم خودشان شروع به تکثیرِ آن کردند؛ بُنه‌های تازه‌روییده را جدا می‌کردند و می‌پروراندند.",
       "en": "It seems people began propagating it themselves, separating and cultivating new corm growths.",
       "ipa": "ɪt simz ˈpipəl bɪˈɡæn ˈprɑpəˌɡeɪtɪŋ ɪt ðɛmˈsɛlvz ˈsɛpəˌreɪtɪŋ ənd ˈkʌltɪˌveɪtɪŋ nu kɔrm ɡroʊθs",
       "words": [
@@ -649,7 +656,7 @@ DRILL({
       ]
     },
     {
-      "fa": "زعفرانِ تجاریِ امروز از کروکوس‌هایی می‌آید که همه در عمل دوقلوهایی از همین یک تبارِ همسانه‌اند.",
+      "fa": "زعفران تجاریِ امروز از گل‌های کروکوسی به دست می‌آید که همگی از همین یک تبارِ حاصل از تکثیرِ غیرجنسی‌اند و در عمل دوقلوی یکدیگرند.",
       "en": "Today's commercial saffron comes from crocuses that are all functionally twins from this single clonal line.",
       "ipa": "təˈdeɪz kəˈmɝʃəl ˈsæfrən kʌmz frəm ˈkroʊkjusɪz ðæt ɚ ɔl ˈfʌŋkʃənəli twɪnz frəm ðɪs ˈsɪŋɡəl ˈkloʊnəl laɪn",
       "words": [
@@ -713,7 +720,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دقیقاً کِی، روشن نیست، اما دیوارنگاره‌های یونانیِ بیش از ۳۵۰۰ سال‌قدمت",
+      "fa": "دقیقاً چه زمانی روشن نیست، اما دیوارنگاره‌هایی یونانی که بیش از ۳۵۰۰ سال قدمت دارند،",
       "en": "Exactly when is unclear, but over 3,500 year-old Greek frescos",
       "ipa": "ɪɡˈzæktli wɛn ɪz ənˈklɪr bət ˈoʊvɚ θri ˈθaʊzənd faɪv ˈhʌndrəd jɪr oʊld ɡrik ˈfrɛskoʊz",
       "words": [
@@ -769,7 +776,7 @@ DRILL({
       ]
     },
     {
-      "fa": "طولی نکشید که ایرانیانِ باستان این ادویه را در غذاها هم می‌زدند،",
+      "fa": "طولی نکشید که ایرانیان باستان این ادویه را به غذاهایشان اضافه می‌کردند و هم می‌زدند،",
       "en": "Before long, ancient Persian people were stirring the spice into foods,",
       "ipa": "bɪˈfɔr lɔŋ ˈeɪntʃənt ˈpɝʒən ˈpipəl wɚ ˈstɝɪŋ ðə spaɪs ɪnˈtu fudz",
       "words": [
@@ -846,15 +853,15 @@ DRILL({
       ]
     },
     {
-      "fa": "یونانیانِ باستان بوی شهوت‌انگیزِ این ادویه را در دربارها، تماشاخانه‌ها و گرمابه‌ها می‌پراکندند.",
+      "fa": "یونانیان باستان رایحهٔ دل‌انگیز و حس‌نوازِ این ادویه را در دربارها، تماشاخانه‌ها و گرمابه‌ها می‌پراکندند.",
       "en": "Ancient Greeks spread the spice's sensuous smell in courts, theaters, and baths.",
       "ipa": "ˈeɪntʃənt ɡriks sprɛd ðə ˈspaɪsəz ˈsɛntʃəwəs smɛl ɪn kɔrts ˈθiətɚz ənd bæðz",
       "words": [
         {
           "w": "sensuous",
           "ipa": "ˈsɛntʃəwəs",
-          "m": "giving pleasure to the senses, often in a sexual way",
-          "fa": "شهوت‌انگیز، حس‌برانگیز",
+          "m": "giving pleasure to the senses, here to the sense of smell",
+          "fa": "برای حواس خوشایند و لذت‌بخش، حس‌نواز",
           "more": "sensual · sensory"
         },
         {
@@ -1015,7 +1022,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پزشکِ ایرانی ابن‌سینا حدودِ سالِ ۱۰۲۵ زعفران را در «قانون» خود گنجاند",
+      "fa": "ابن‌سینا، پزشکِ ایرانی، حدودِ سالِ ۱۰۲۵ زعفران را در کتابش «قانون در طب» گنجاند،",
       "en": "Persian physician Ibn Sina included saffron in his Canon of Medicine circa 1025",
       "ipa": "ˈpɝʒən fəˈzɪʃən ˈɪbən ˈsinə ɪnˈkludəd ˈsæfrən ɪn hɪz ˈkænən əv ˈmɛdəsən ˈsɝkə tɛn ˈtwɛnti faɪv",
       "words": [
@@ -1119,7 +1126,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در اروپای سدهٔ چهاردهم، زعفران پادزهرِ ادعاییِ طاعون بود.",
+      "fa": "در اروپای قرن چهاردهم، ادعا می‌شد که زعفران پادزهری برای طاعون است.",
       "en": "In 1300s Europe, saffron was a purported antidote to the plague.",
       "ipa": "ɪn ˌθɝˈtin ˈhʌndrədz ˈjʊrəp ˈsæfrən wəz ə pɚˈpɔrtɪd ˈæntɪˌdoʊt tə ðə pleɪɡ",
       "words": [
@@ -1301,15 +1308,15 @@ DRILL({
       ]
     },
     {
-      "fa": "در حالی که در اوایلِ سدهٔ هجدهم، مهاجرانِ ساکن‌شده زعفران را به آمریکای شمالی بردند،",
+      "fa": "و در اوایلِ سدهٔ هجدهم، مهاجرانی که برای سکونت آمده بودند زعفران را به آمریکای شمالی بردند،",
       "en": "While in the early 1700s, settlers brought saffron to North America,",
       "ipa": "waɪl ɪn ði ˈɝli ˌsɛvənˈtin ˈhʌndrədz ˈsɛtlɚz brɔt ˈsæfrən tə nɔrθ əˈmɛrəkə",
       "words": [
         {
           "w": "settler",
           "ipa": "ˈsɛtəlɚ",
-          "m": "a person who goes to live in a new place where few people live",
-          "fa": "مهاجرِ ساکن‌شده، کوچنشین",
+          "m": "someone who moves to a new place to live there permanently",
+          "fa": "مهاجری که در جای تازه‌ای ساکن می‌شود و آنجا زندگی می‌کند",
           "more": "settle · settlement · colonist"
         }
       ]
@@ -1510,7 +1517,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مقدارِ کمی‌اش برای مدتِ زیادی کافی است، آن هم در غذاهایی که امروز از غذاهای شاخصِ زعفران شده‌اند:",
+      "fa": "در بعضی غذاهایی که به غذاهای شاخصِ زعفرانی تبدیل شده‌اند، مقدارِ کمی زعفران هم اثرِ زیادی می‌گذارد؛",
       "en": "A little goes a long way in what have become some of saffron's signature dishes,",
       "ipa": "ə ˈlɪtəl ɡoʊz ə lɔŋ weɪ ɪn wʌt hæv bɪˈkʌm sʌm əv ˈsæfrənz ˈsɪɡnətʃɚ ˈdɪʃəz",
       "newPara": true,
@@ -1679,7 +1686,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و برداشتِ کم‌بازده و پُرزحمتِ کلاله‌هایشان هم همین‌طور.",
+      "fa": "همین‌طور هم محصولِ اندکِ کلاله‌هایشان که به دست آوردنش کارِ زیادی می‌برد.",
       "en": "as have their labor-intensive, low stigma yields.",
       "ipa": "əz hæv ðɛr ˈleɪbɚ ɪnˈtɛnsɪv loʊ ˈstɪɡmə jildz",
       "words": [

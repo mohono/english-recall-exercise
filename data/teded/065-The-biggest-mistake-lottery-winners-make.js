@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=wxf_pKCOCBo",
   "items": [
     {
-      "fa": "در ژانویهٔ ۲۰۱۶، پاوربالِ آمریکا با اهدای نخستین جکپاتی که از یک میلیارد دلار فراتر می‌رفت، تاریخ‌ساز شد.",
+      "fa": "در ژانویهٔ ۲۰۱۶، پاوربالِ آمریکا با اهدای نخستین جایزهٔ بزرگی که مبلغش از یک میلیارد دلار گذشت، تاریخ‌ساز شد.",
       "en": "In January 2016, the US Powerball made history by awarding the first jackpot to exceed $1 billion.",
       "ipa": "ɪn ˈdʒænjuˌɛri ˈtwɛnti sɪkˈstin ðə ˌjuˈɛs ˈpaʊɚˌbɔl meɪd ˈhɪstəri baɪ əˈwɔrdɪŋ ðə fɝst ˈdʒækˌpɑt tə ɪkˈsid wʌn ˈdɑlɚ ˈbɪljən",
       "newPara": true,
@@ -27,7 +27,7 @@ DRILL({
           "w": "jackpot",
           "ipa": "ˈdʒækˌpɑt",
           "m": "the largest prize in a lottery or game",
-          "fa": "جکپات، جایزهٔ بزرگ",
+          "fa": "جایزهٔ بزرگِ بخت‌آزمایی، جکپات",
           "more": "to hit the jackpot"
         },
         {
@@ -40,7 +40,7 @@ DRILL({
       ]
     },
     {
-      "fa": "سه نفری که بلیتِ برنده داشتند به‌طرزِ باورنکردنی خوش‌شانس بودند، با احتمالی تقریباً یک در ۳۰۰ میلیون.",
+      "fa": "سه دارندهٔ بلیت‌های برنده به‌طرزِ باورنکردنی‌ای خوش‌شانس بودند؛ احتمالِ بردشان تقریباً یک در ۳۰۰ میلیون بود.",
       "en": "The three winning ticket holders were incredibly lucky, with odds of roughly 1 in 300 million.",
       "ipa": "ðə θri ˈwɪnɪŋ ˈtɪkət ˈhoʊldɚz wɚ ɪnˈkrɛdəbli ˈlʌki wɪð ɑdz əv ˈrʌfli wʌn ɪn θri ˈhʌndrəd ˈmɪljən",
       "words": [
@@ -62,7 +62,7 @@ DRILL({
           "w": "odds",
           "ipa": "ɑdz",
           "m": "how likely it is that something will happen",
-          "fa": "احتمال، شانس",
+          "fa": "احتمال یا شانسِ برد؛ نسبتِ احتمالِ وقوع به عدمِ وقوع",
           "more": "against all odds · the odds are"
         },
         {
@@ -74,7 +74,7 @@ DRILL({
       ]
     },
     {
-      "fa": "طبقِ بعضی برآوردها، از نظرِ آماری احتمالِ اینکه با برخوردِ یک شهاب‌سنگ در همان نزدیکی کشته شوید بیشتر است.",
+      "fa": "طبقِ بعضی برآوردها، از نظرِ آماری احتمالِ اینکه بر اثرِ برخوردِ شهاب‌سنگی در نزدیکی‌تان کشته شوید، بیشتر است.",
       "en": "By some estimates, you’re statistically more likely to be killed by a nearby meteor strike.",
       "ipa": "baɪ sʌm ˈɛstəməts jʊr stəˈtɪstɪkəli mɔr ˈlaɪkli tə bi kɪld baɪ ə ˌnɪrˈbaɪ ˈmitiɚ straɪk",
       "words": [
@@ -96,7 +96,7 @@ DRILL({
           "w": "meteor",
           "ipa": "ˈmitiɚ",
           "m": "a piece of rock from space that burns as it enters the atmosphere",
-          "fa": "شهاب، شهاب‌سنگ",
+          "fa": "شهاب؛ در ترکیبِ «برخوردِ شهاب‌سنگ»، جرمِ آسمانیِ برخوردکننده",
           "more": "meteorite · asteroid"
         },
         {
@@ -109,7 +109,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بعد از بردنِ چنین جکپاتِ عظیمی، شاید فرض کنید زندگی‌تان فوراً ساده‌تر می‌شود.",
+      "fa": "بعد از بردنِ چنین جایزهٔ هنگفتی، شاید گمان کنید که زندگی‌تان بلافاصله ساده‌تر خواهد شد.",
       "en": "After winning such a huge jackpot, you might assume your life would immediately become simpler.",
       "ipa": "ˈæftɚ ˈwɪnɪŋ sʌtʃ ə hjudʒ ˈdʒækˌpɑt ju maɪt əˈsum jɔr laɪf wʊd ɪˈmidiətli bɪˈkʌm ˈsɪmpəlɚ",
       "words": [
@@ -152,13 +152,13 @@ DRILL({
           "w": "to navigate",
           "ipa": "tə ˈnævəˌɡeɪt",
           "m": "to deal successfully with a difficult situation",
-          "fa": "از پسِ … برآمدن، راهِ خود را پیدا کردن در",
+          "fa": "از پسِ چالش برآمدن؛ مسیریابی کردن",
           "more": "navigation · to handle"
         }
       ]
     },
     {
-      "fa": "اول، بیشترِ کارشناسان توصیه می‌کنند وکیلی استخدام کنید تا شما را از کلاهبرداری، آزار و اذیت و دیگر خطرهای حقوقی محافظت کند.",
+      "fa": "اول از همه، بیشترِ کارشناسان توصیه می‌کنند وکیل بگیرید تا از شما در برابرِ کلاهبرداری، آزار و اذیت و دیگر خطرهای حقوقی محافظت کند.",
       "en": "First, most experts advise hiring a lawyer to protect you from fraud, harassment, and other legal risks.",
       "ipa": "fɝst moʊst ˈɛkspɚts ædˈvaɪz ˈhaɪrɪŋ ə ˈlɔjɚ tə prəˈtɛkt ju frəm frɔd həˈræsmənt ənd ˈʌðɚ ˈliɡəl rɪsks",
       "newPara": true,
@@ -208,7 +208,7 @@ DRILL({
       ]
     },
     {
-      "fa": "همچنین خیلی مهم است که خودتان را در برابرِ خرج کردنِ بی‌حساب و هوسی ایمن کنید،",
+      "fa": "همچنین بسیار مهم است که خودتان را از خرج کردنِ نسنجیده و از روی هوس حفظ کنید،",
       "en": "It’s also critical to safeguard yourself against impulsive spending,",
       "ipa": "ɪts ˈɔlsoʊ ˈkrɪtɪkəl tə ˈseɪfˌɡɑrd jɚˈsɛlf əˈɡɛnst ɪmˈpʌlsɪv ˈspɛndɪŋ",
       "words": [
@@ -223,14 +223,14 @@ DRILL({
           "w": "to safeguard against",
           "ipa": "tə ˈseɪfˌɡɑrd əˈɡɛnst",
           "m": "to protect someone from harm or danger",
-          "fa": "ایمن کردن در برابرِ، حفاظت کردن از",
+          "fa": "از … در برابرِ خطر محافظت کردن",
           "more": "safeguard (n.) · to protect"
         },
         {
           "w": "impulsive",
           "ipa": "ɪmˈpʌlsɪv",
           "m": "acting suddenly without thinking carefully",
-          "fa": "هوسی، بی‌فکر، تکانشی",
+          "fa": "نسنجیده و از روی هوس، تکانشی",
           "more": "impulse · on impulse"
         }
       ]
@@ -265,13 +265,13 @@ DRILL({
           "w": "take (as an example)",
           "ipa": "teɪk (əz ən ɪɡˈzæmpəl)",
           "m": "used to introduce an example",
-          "fa": "… را در نظر بگیرید",
+          "fa": "برای نمونه … را در نظر بگیرید",
           "more": "for instance · consider"
         }
       ]
     },
     {
-      "fa": "آن‌قدر خریدهای ولخرجانه کرد که ظرفِ سه ماه ۵۰۰٬۰۰۰ دلار بدهکار شد.",
+      "fa": "آن‌قدر خریدهای پرخرج کرد که در عرضِ سه ماه کارش به جایی رسید که ۵۰۰٬۰۰۰ دلار بدهکار شد.",
       "en": "made so many extravagant purchases that he ended up in $500,000 of debt within three months.",
       "ipa": "meɪd soʊ ˈmɛni ɪkˈstrævəɡənt ˈpɝtʃəsəz ðæt hi ˈɛndəd ʌp ɪn faɪv ˈhʌndrəd ˈθaʊzənd ˈdɑlɚz əv dɛt wɪˈðɪn θri mʌnθs",
       "words": [
@@ -279,7 +279,7 @@ DRILL({
           "w": "extravagant",
           "ipa": "ɪkˈstrævəɡənt",
           "m": "spending or costing much more money than is sensible",
-          "fa": "ولخرجانه، گزاف",
+          "fa": "پرخرج و ولخرجانه؛ افراطی",
           "more": "extravagance · lavish"
         },
         {
@@ -313,7 +313,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و باید یک تصمیمِ دیگر هم بگیرید — تصمیمی که می‌تواند مسیرِ آیندهٔ مالی‌تان را به‌شدت شکل دهد.",
+      "fa": "و باید یک تصمیمِ دیگر هم بگیرید؛ تصمیمی که می‌تواند تأثیرِ چشمگیری بر مسیرِ آیندهٔ مالی‌تان بگذارد.",
       "en": "And you’ll need to make one more decision— one that could dramatically shape the course of your financial future.",
       "ipa": "ənd jul nid tə meɪk wʌn mɔr dɪˈsɪʒən wʌn ðæt kʊd drəˈmætɪkli ʃeɪp ðə kɔrs əv jɔr fəˈnænʃəl ˈfjutʃɚ",
       "words": [
@@ -321,7 +321,7 @@ DRILL({
           "w": "dramatically",
           "ipa": "drəˈmætɪkli",
           "m": "suddenly and to a very large degree",
-          "fa": "به‌شدت، به‌طورِ چشمگیر",
+          "fa": "به‌طورِ چشمگیر؛ به شکلی نمایشی",
           "more": "dramatic · significantly"
         },
         {
@@ -348,7 +348,7 @@ DRILL({
       ]
     },
     {
-      "fa": "جایزه‌های بخت‌آزمایی معمولاً به یکی از دو شکل پرداخت می‌شوند:",
+      "fa": "پولی که در بخت‌آزمایی می‌برید معمولاً به یکی از دو روش پرداخت می‌شود:",
       "en": "Lottery winnings are typically paid out in one of two ways:",
       "ipa": "ˈlɑtəri ˈwɪnɪŋz ɚ ˈtɪpɪkli peɪd aʊt ɪn wʌn əv tu weɪz",
       "newPara": true,
@@ -357,7 +357,7 @@ DRILL({
           "w": "winnings",
           "ipa": "ˈwɪnɪŋz",
           "m": "money that you win in a game or competition",
-          "fa": "پولِ بردشده، جایزه",
+          "fa": "پولی که در بازی یا بخت‌آزمایی برده‌اید",
           "more": "prize money"
         },
         {
@@ -377,7 +377,7 @@ DRILL({
       ]
     },
     {
-      "fa": "می‌توانید کلِ مبلغِ جکپات را انتخاب کنید، که در قسط‌های سالانه طیِ ۳۰ سال پرداخت می‌شود.",
+      "fa": "می‌توانید دریافتِ کلِ مبلغِ جایزهٔ بزرگ را انتخاب کنید که طیِ ۳۰ سال به‌صورتِ اقساطِ سالانه پرداخت می‌شود.",
       "en": "you can choose the full jackpot amount, paid out in annual installments over 30 years.",
       "ipa": "ju kən tʃuz ðə fʊl ˈdʒækˌpɑt əˈmaʊnt peɪd aʊt ɪn ˈænjuəl ɪnˈstɔlmənts ˈoʊvɚ ˈθɝdi jɪrz",
       "words": [
@@ -399,7 +399,7 @@ DRILL({
           "w": "installment",
           "ipa": "ɪnˈstɔlmənt",
           "m": "one of several payments made over time",
-          "fa": "قسط",
+          "fa": "قسط، یکی از چند پرداختِ متوالی؛ قسمتِ یک مجموعه",
           "more": "instalment (UK) · in installments"
         }
       ]
@@ -419,7 +419,7 @@ DRILL({
           "w": "annuity",
           "ipa": "əˈnuəti",
           "m": "a fixed amount of money paid to someone every year",
-          "fa": "مستمری، پرداختِ سالانه",
+          "fa": "مستمری، مجموعه‌ای از پرداخت‌های منظم طیِ چند سال",
           "more": "pension"
         },
         {
@@ -432,7 +432,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یا می‌توانید مبلغِ یکجای خیلی کمتری بگیرید که فوراً پرداخت می‌شود.",
+      "fa": "یا می‌توانید مبلغی بسیار کمتر را یکجا بگیرید که فوراً پرداخت می‌شود.",
       "en": "Or you can take a much smaller lump sum paid out immediately.",
       "ipa": "ɔr ju kən teɪk ə mʌtʃ ˈsmɔlɚ lʌmp sʌm peɪd aʊt ɪˈmidiətli",
       "words": [
@@ -454,7 +454,7 @@ DRILL({
           "w": "implication",
           "ipa": "ˌɪmpləˈkeɪʃən",
           "m": "a possible effect or result of something",
-          "fa": "پیامد",
+          "fa": "پیامد؛ مفهومِ ضمنی",
           "more": "to imply · consequence"
         },
         {
@@ -475,7 +475,7 @@ DRILL({
       "note": "«To better understand» — to و فعل را قید (better) از هم جدا کرده."
     },
     {
-      "fa": "با این فرض که شما تنها برندهٔ یک جکپاتِ ۳ میلیون دلاری هستید.",
+      "fa": "با این فرض که شما تنها برندهٔ یک جایزهٔ بزرگِ ۳ میلیون دلاری هستید.",
       "en": "assuming you’re the sole winner of a $3 million jackpot.",
       "ipa": "əˈsumɪŋ jʊr ðə soʊl ˈwɪnɚ əv ə θri ˈdɑlɚz ˈmɪljən ˈdʒækˌpɑt",
       "words": [
@@ -496,12 +496,12 @@ DRILL({
       ]
     },
     {
-      "fa": "مستمری سالِ اول تقریباً ۵۰٬۰۰۰ دلار می‌پردازد.",
+      "fa": "در این صورت، مستمری در سالِ اول حدودِ ۵۰٬۰۰۰ دلار به شما می‌پرداخت.",
       "en": "The annuity would pay roughly $50,000 the first year.",
       "ipa": "ði əˈnuəti wʊd peɪ ˈrʌfli ˈfɪfti ˈθaʊzənd ˈdɑlɚz ðə fɝst jɪr"
     },
     {
-      "fa": "بعد در ۳۰ سالِ بعد پرداخت‌های سالانه‌ای می‌گیرید که هر سال بیشتر می‌شوند، تا جمعِ کل به ۳ میلیون برسد.",
+      "fa": "بعد، در ۳۰ سالِ آینده، هر سال مبلغِ بیشتری دریافت می‌کردید تا مجموعِ کلِ پرداخت‌ها به ۳ میلیون برسد.",
       "en": "You'd then receive increasing annual payments for the next 30 years, reaching a grand total of 3 million.",
       "ipa": "jud ðɛn rəˈsiv ɪnˈkrisɪŋ ˈænjuəl ˈpeɪmənts fɚ ðə nɛkst ˈθɝdi jɪrz ˈritʃɪŋ ə ɡrænd ˈtoʊtəl əv θri ˈmɪljən",
       "words": [
@@ -516,13 +516,13 @@ DRILL({
           "w": "grand total",
           "ipa": "ɡrænd ˈtoʊtəl",
           "m": "the final total after everything is added",
-          "fa": "جمعِ کل",
+          "fa": "مجموعِ نهاییِ همهٔ مبلغ‌ها، جمعِ کل",
           "more": "total · sum"
         }
       ]
     },
     {
-      "fa": "در کوتاه‌مدت، شاید منطقی باشد که هر بدهیِ پربهره‌ای را تسویه کنید،",
+      "fa": "در کوتاه‌مدت، شاید منطقی باشد هر بدهی‌ای را که بهرهٔ بالایی دارد تسویه کنید،",
       "en": "In the short term, it might make sense to pay off any high-interest debts,",
       "ipa": "ɪn ðə ʃɔrt tɝm ɪt maɪt meɪk sɛns tə peɪ ɔf ˈɛni haɪ ˈɪntrəst dɛts",
       "newPara": true,
@@ -552,13 +552,13 @@ DRILL({
           "w": "interest",
           "ipa": "ˈɪntrəst",
           "m": "money paid for borrowing money",
-          "fa": "بهره، سود",
+          "fa": "بهرهٔ وام یا سرمایه؛ علاقه",
           "more": "interest rate · high-interest"
         }
       ]
     },
     {
-      "fa": "مثلِ کارتِ اعتباری، وامِ خودرو، وامِ دانشجویی یا وامِ مسکن.",
+      "fa": "مثلِ بدهیِ کارت‌های اعتباری، وام‌های خودرو، وام‌های دانشجویی یا وام‌های مسکن.",
       "en": "like credit cards, auto loans, student loans, or mortgages.",
       "ipa": "laɪk ˈkrɛdət kɑrdz ˈɔtoʊ loʊnz ˈstudənt loʊnz ɔr ˈmɔrɡədʒəz",
       "words": [
@@ -586,7 +586,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در سالِ ۲۰۲۴، یک آمریکاییِ معمولی در مجموعِ این دسته‌ها حدودِ ۱۰۰٬۰۰۰ دلار بدهی داشت —",
+      "fa": "در سالِ ۲۰۲۴، آمریکایی‌ها به‌طورِ متوسط بابتِ مجموعِ این موارد حدودِ ۱۰۰٬۰۰۰ دلار بدهکار بودند؛",
       "en": "In 2024, the average American owed around $100,000 across these categories—",
       "ipa": "ɪn ˈtwɛnti ˈtwɛnti fɔr ði ˈævərɪdʒ əˈmɛrəkən oʊd əˈraʊnd wʌn ˈhʌndrəd ˈθaʊzənd ˈdɑlɚz əˈkrɔs ðiz ˈkætəˌɡɔriz",
       "words": [
@@ -594,7 +594,7 @@ DRILL({
           "w": "the average American",
           "ipa": "ði ˈævərɪdʒ əˈmɛrəkən",
           "m": "a typical person from the US",
-          "fa": "آمریکاییِ معمولی/متوسط",
+          "fa": "یک آمریکایی به‌طورِ متوسط، آمریکاییِ معمولی",
           "more": "the average person"
         },
         {
@@ -608,7 +608,7 @@ DRILL({
           "w": "across",
           "ipa": "əˈkrɔs",
           "m": "in each of; covering all of",
-          "fa": "در مجموعِ، در همهٔ",
+          "fa": "در مجموعِ دسته‌های مختلف؛ از یک سو به سوی دیگر",
           "more": "across the board"
         },
         {
@@ -621,7 +621,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس چند پرداختِ اولِ مستمری می‌تواند بخشِ زیادی از آن را صاف کند.",
+      "fa": "پس با چند قسطِ اولِ مستمری می‌شد بخشِ زیادی از این بدهی را تسویه کرد.",
       "en": "so the first few annuity payments could clear much of it.",
       "ipa": "soʊ ðə fɝst fju əˈnuəti ˈpeɪmənts kʊd klɪr mʌtʃ əv ɪt",
       "words": [
@@ -635,7 +635,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یا اینکه پرداخت‌های اولیه می‌تواند صرفِ ساختنِ یک صندوقِ اضطراری شود،",
+      "fa": "راهِ دیگر این بود که پرداخت‌های اولیه صرفِ فراهم کردنِ پس‌اندازی برای روزِ مبادا شوند،",
       "en": "Alternatively, initial payments could go towards building an emergency fund,",
       "ipa": "ɔlˈtɝnətɪvli ɪˈnɪʃəl ˈpeɪmənts kʊd ɡoʊ təˈwɔrdz ˈbɪldɪŋ ən ɪˈmɝdʒənsi fʌnd",
       "words": [
@@ -657,14 +657,14 @@ DRILL({
           "w": "to go towards",
           "ipa": "tə ɡoʊ təˈwɔrdz",
           "m": "to be used to pay for part of something",
-          "fa": "صرفِ … شدن",
+          "fa": "صرف شدن برای، کمک به تأمینِ هزینهٔ …",
           "more": "to put towards"
         },
         {
           "w": "emergency fund",
           "ipa": "ɪˈmɝdʒənsi fʌnd",
           "m": "money saved for unexpected costs",
-          "fa": "صندوقِ اضطراری، پس‌اندازِ اضطراری",
+          "fa": "پس‌اندازِ کنارگذاشته‌شده برای روزِ مبادا",
           "more": "rainy-day fund"
         }
       ]
@@ -685,7 +685,7 @@ DRILL({
           "w": "to cover",
           "ipa": "tə ˈkʌvɚ",
           "m": "to be enough money to pay for something",
-          "fa": "پوشش دادن، کفایت کردن",
+          "fa": "برای پرداختِ هزینه‌ها کافی بودن؛ پوشاندن",
           "more": "coverage"
         },
         {
@@ -698,7 +698,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این شما را از بیشترِ آمریکایی‌ها جلو می‌اندازد:",
+      "fa": "با این کار از بیشترِ آمریکایی‌ها جلو می‌افتادید:",
       "en": "This would put you ahead of most Americans:",
       "ipa": "ðɪs wʊd pʊt ju əˈhɛd əv moʊst əˈmɛrəkənz",
       "words": [
@@ -727,7 +727,7 @@ DRILL({
           "w": "funds",
           "ipa": "fʌndz",
           "m": "money available to spend",
-          "fa": "پول، وجوه",
+          "fa": "پولِ موجود، وجوه",
           "more": "fund · to fund"
         },
         {
@@ -740,7 +740,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گرفتنِ جایزه‌تان قطره‌قطره شاید به هیجان‌انگیزیِ سیلِ ناگهانیِ پول نقد نباشد.",
+      "fa": "اینکه پولی را که برده‌اید کم‌کم و قطره‌قطره بگیرید شاید به اندازهٔ موجِ عظیمی از پولِ نقد که همان لحظه به دستتان می‌رسد هیجان‌انگیز نباشد.",
       "en": "Receiving your winnings in a slow drip might not be as thrilling as an immediate tidal wave of cash.",
       "ipa": "rəˈsivɪŋ jɔr ˈwɪnɪŋz ɪn ə sloʊ drɪp maɪt nɑt bi əz ˈθrɪlɪŋ əz ən ɪˈmidiət ˈtaɪdəl weɪv əv kæʃ",
       "newPara": true,
@@ -749,7 +749,7 @@ DRILL({
           "w": "drip",
           "ipa": "drɪp",
           "m": "a small drop of liquid falling slowly",
-          "fa": "قطره، چکه",
+          "fa": "چکیدنِ آهسته، چکه",
           "more": "to drip · drip by drip"
         },
         {
@@ -763,13 +763,13 @@ DRILL({
           "w": "tidal wave",
           "ipa": "ˈtaɪdəl weɪv",
           "m": "a very large wave; (fig.) a sudden huge amount of something",
-          "fa": "سیل، موجِ عظیم",
+          "fa": "موجِ عظیم؛ در اینجا، حجمِ عظیمِ پول که یکباره می‌رسد",
           "more": "flood · tsunami"
         }
       ]
     },
     {
-      "fa": "با این حال، مستمری اگر عاقلانه خرج شود، می‌تواند از همان ابتدا ثباتِ مالی بدهد،",
+      "fa": "با این حال، اگر عاقلانه از مستمری استفاده کنید، می‌تواند از همان ابتدا برایتان ثباتِ مالی فراهم کند",
       "en": "However, when used wisely, the annuity can provide financial stability from the start,",
       "ipa": "ˌhaʊˈɛvɚ wɛn juzd ˈwaɪzli ði əˈnuəti kən prəˈvaɪd fəˈnænʃəl stəˈbɪlɪti frəm ðə stɑrt",
       "words": [
@@ -797,7 +797,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و در عینِ حال جریانِ درآمدِ پیوسته‌ای برای آینده تضمین کند.",
+      "fa": "و در عینِ حال جریانِ درآمدی منظمی را برای آینده تضمین کند.",
       "en": "while ensuring a steady income stream for the future.",
       "ipa": "waɪl ɛnˈʃʊrɪŋ ə ˈstɛdi ˈɪnˌkʌm strim fɚ ðə ˈfjutʃɚ",
       "words": [
@@ -819,13 +819,13 @@ DRILL({
           "w": "income stream",
           "ipa": "ˈɪnˌkʌm strim",
           "m": "a source of money that comes in regularly",
-          "fa": "جریانِ درآمد",
+          "fa": "جریانِ درآمد، پولی که پیوسته دریافت می‌شود",
           "more": "income · revenue"
         }
       ]
     },
     {
-      "fa": "اما شاید هدفتان صرفاً این باشد که بیشترین پول را از جایزه‌تان دربیاورید.",
+      "fa": "اما شاید هدفتان صرفاً این باشد که پولی را که برده‌اید به حداکثر برسانید.",
       "en": "But maybe your goal is strictly to maximize your winnings.",
       "ipa": "bət ˈmeɪbi jɔr ɡoʊl ɪz ˈstrɪktli tə ˈmæksəˌmaɪz jɔr ˈwɪnɪŋz",
       "words": [
@@ -846,7 +846,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در آن صورت، مبلغِ یکجای نقد شاید در واقع انتخابِ بهتری باشد،",
+      "fa": "در آن صورت، دریافتِ یکجای پول در همان ابتدا شاید واقعاً انتخابِ بهتری باشد،",
       "en": "In that case, the upfront lump sum might actually be the better choice,",
       "ipa": "ɪn ðæt keɪs ði ˈʌpˌfrʌnt lʌmp sʌm maɪt ˈæktʃəwəli bi ðə ˈbɛtɚ tʃɔɪs",
       "words": [
@@ -861,13 +861,13 @@ DRILL({
           "w": "upfront",
           "ipa": "ˈʌpˌfrʌnt",
           "m": "paid at the beginning, before other things happen",
-          "fa": "پیش‌پرداخت، نقد از اول",
+          "fa": "در همان ابتدا پرداخت‌شده، از پیش؛ صریح و بی‌پرده",
           "more": "in advance · up front"
         }
       ]
     },
     {
-      "fa": "با اینکه حدودِ نیمی از جکپاتِ اعلام‌شده را از دست می‌دهید و اغلب نرخِ مالیاتِ بالاتری بر آن تعلق می‌گیرد.",
+      "fa": "هرچند حدودِ نیمی از جایزهٔ بزرگِ اعلام‌شده را از دست خواهید داد و مبلغِ یکجا هم اغلب مشمولِ نرخِ مالیاتیِ بالاتری است.",
       "en": "even though you’ll forfeit about half the advertised jackpot and it’s often subject to a higher tax rate.",
       "ipa": "ˈivɪn ðoʊ jul ˈfɔrfɪt əˈbaʊt hæf ði ˈædvɚˌtaɪzd ˈdʒækˌpɑt ənd ɪts ˈɔfən ˈsʌbdʒɪkt tə ə ˈhaɪɚ tæks reɪt",
       "words": [
@@ -882,7 +882,7 @@ DRILL({
           "w": "advertised",
           "ipa": "ˈædvɚˌtaɪzd",
           "m": "announced publicly to attract people",
-          "fa": "اعلام‌شده، تبلیغ‌شده",
+          "fa": "به‌طورِ عمومی اعلام‌شده، تبلیغ‌شده",
           "more": "to advertise · advertisement"
         },
         {
@@ -902,7 +902,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یک جکپاتِ ۳ میلیون دلاری شاید بعد از همهٔ این کسورات فقط ۸۵۰٬۰۰۰ دلار برایتان بگذارد.",
+      "fa": "پس از همهٔ این کسورات، شاید از یک جایزهٔ بزرگِ ۳ میلیون دلاری فقط ۸۵۰٬۰۰۰ دلار برایتان بماند.",
       "en": "A $3 million jackpot might leave you with just $850,000 after all these deductions.",
       "ipa": "ə θri ˈdɑlɚz ˈmɪljən ˈdʒækˌpɑt maɪt liv ju wɪð dʒʌst eɪt ˈhʌndrəd ˈfɪfti ˈθaʊzənd ˈdɑlɚz ˈæftɚ ɔl ðiz dɪˈdʌkʃənz",
       "words": [
@@ -917,13 +917,13 @@ DRILL({
           "w": "deduction",
           "ipa": "dɪˈdʌkʃən",
           "m": "an amount taken away from a total",
-          "fa": "کسر، کسورات",
+          "fa": "مبلغِ کسرشده، کسورات؛ استنتاج",
           "more": "to deduct"
         }
       ]
     },
     {
-      "fa": "با این همه، با کمی صبر، اگر از نیروی بهرهٔ مرکب بهره ببرید می‌توانید در نهایت پولِ بیشتری داشته باشید.",
+      "fa": "با این همه، اگر از قدرتِ بهرهٔ مرکب استفاده کنید، با کمی صبر ممکن است در نهایت پولِ بیشتری داشته باشید.",
       "en": "Still, with some patience, you could end up with more money if you utilize the power of compound interest.",
       "ipa": "stɪl wɪð sʌm ˈpeɪʃəns ju kʊd ɛnd ʌp wɪð mɔr ˈmʌni ɪf ju ˈjutəˌlaɪz ðə ˈpaʊɚ əv ˈkɑmpaʊnd ˈɪntrəst",
       "words": [
@@ -967,7 +967,7 @@ DRILL({
           "w": "to build",
           "ipa": "tə bɪld",
           "m": "to increase gradually",
-          "fa": "بزرگ شدن، انباشته شدن",
+          "fa": "به‌تدریج بیشتر شدن، انباشته شدن؛ ساختن",
           "more": "to build up"
         },
         {
@@ -980,7 +980,7 @@ DRILL({
       ]
     },
     {
-      "fa": "روی سرمایه‌گذاریِ اولیه‌تان بهره می‌گیرید و بعد شروع می‌کنید روی همان بهره هم بهره بگیرید.",
+      "fa": "از سرمایه‌گذاریِ اولیه‌تان بهره می‌گیرید و بعد از خودِ آن بهره هم شروع به کسبِ بهره می‌کنید.",
       "en": "You earn interest on your original investment and then start earning interest on that interest.",
       "ipa": "ju ɝn ˈɪntrəst ɑn jɔr əˈrɪdʒənəl ɪnˈvɛstmənt ənd ðɛn stɑrt ˈɝnɪŋ ˈɪntrəst ɑn ðæt ˈɪntrəst",
       "words": [
@@ -988,7 +988,7 @@ DRILL({
           "w": "to earn",
           "ipa": "tə ɝn",
           "m": "to get money for work or from an investment",
-          "fa": "به دست آوردن، کسب کردن",
+          "fa": "بهره یا درآمد به دست آوردن؛ استحقاق پیدا کردن",
           "more": "earnings"
         },
         {
@@ -1008,7 +1008,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بنجامین فرانکلین به شکلی معروف این را نشان داد: در سالِ ۱۷۹۰ فقط ۱۰۰۰ پوند در دو حساب گذاشت",
+      "fa": "نمونهٔ معروفِ آن کارِ بنجامین فرانکلین است که در سالِ ۱۷۹۰ فقط ۱۰۰۰ پوند در دو حساب به جا گذاشت،",
       "en": "Benjamin Franklin famously illustrated this by leaving just £1,000 in two accounts in 1790,",
       "ipa": "ˈbɛndʒəmən ˈfræŋklɪn ˈfeɪməsli ˈɪləˌstreɪtəd ðɪs baɪ ˈlivɪŋ dʒʌst wʌn ˈθaʊzənd paʊndz ɪn tu əˈkaʊnts ɪn ˌsɛvənˈtin ˈnaɪnti",
       "words": [
@@ -1016,7 +1016,7 @@ DRILL({
           "w": "famously",
           "ipa": "ˈfeɪməsli",
           "m": "in a way that is well known",
-          "fa": "به شکلی معروف",
+          "fa": "چنان‌که معروف است، به شکلی که شهرت یافته",
           "more": "famous · notably"
         },
         {
@@ -1029,7 +1029,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و دستور داد بگذارند سودِ مرکبش جمع شود.",
+      "fa": "با این دستور که بگذارند آن پول با بهرهٔ مرکب رشد کند.",
       "en": "with instructions to let it compound.",
       "ipa": "wɪð ɪnˈstrʌkʃənz tə lɛt ɪt kəmˈpaʊnd",
       "words": [
@@ -1044,7 +1044,7 @@ DRILL({
           "w": "to compound",
           "ipa": "tə kəmˈpaʊnd",
           "m": "(of interest) to grow by adding interest to interest",
-          "fa": "مرکب شدن، روی هم انباشته شدن",
+          "fa": "با تعلقِ بهره به اصل و بهرهٔ قبلی رشد کردن؛ تشدید کردن",
           "more": "compound interest"
         }
       ]
@@ -1104,7 +1104,7 @@ DRILL({
           "w": "index fund",
           "ipa": "ˈɪndɛks fʌnd",
           "m": "an investment that follows a group of companies on the stock market",
-          "fa": "صندوقِ شاخصی",
+          "fa": "صندوقِ سرمایه‌گذاریِ شاخصی",
           "more": "fund · index"
         },
         {
@@ -1145,7 +1145,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در طولِ تاریخ، به‌طورِ میانگین سالی ۱۰٫۵ درصد بازده داشته است.",
+      "fa": "در گذشته، این صندوق سالانه به‌طورِ میانگین ۱۰٫۵ درصد بازده داشته است.",
       "en": "Historically, it's returned an average of 10.5% per year.",
       "ipa": "hɪˈstɔrɪkəli ɪts rɪˈtɝnd ən ˈævərɪdʒ əv tɛn pɔɪnt faɪv pɚˈsɛnt pɝ jɪr",
       "words": [
@@ -1160,7 +1160,7 @@ DRILL({
           "w": "to return",
           "ipa": "tə rɪˈtɝn",
           "m": "(of an investment) to produce a profit",
-          "fa": "بازده داشتن، سود دادن",
+          "fa": "بازده یا سود دادن؛ بازگشتن",
           "more": "return (n.) · returns"
         },
         {
@@ -1204,7 +1204,7 @@ DRILL({
           "w": "to come down to",
           "ipa": "tə kʌm daʊn tu",
           "m": "to depend mainly on one thing",
-          "fa": "برگشتن به، خلاصه شدن در",
+          "fa": "در نهایت به … بستگی داشتن، خلاصه شدن در",
           "more": "to boil down to"
         },
         {
@@ -1217,7 +1217,7 @@ DRILL({
       ]
     },
     {
-      "fa": "راضی هستید دهه‌ها صبر کنید تا ثروتتان جمع شود؟",
+      "fa": "راضی هستید دهه‌ها صبر کنید و در این مدت ثروتتان به‌تدریج بیشتر شود؟",
       "en": "Are you content to wait decades as your fortune builds?",
       "ipa": "ɚ ju kənˈtɛnt tə weɪt dɛˈkeɪdz əz jɔr ˈfɔrtʃən bɪldz",
       "words": [
@@ -1232,7 +1232,7 @@ DRILL({
           "w": "fortune",
           "ipa": "ˈfɔrtʃən",
           "m": "a very large amount of money",
-          "fa": "ثروت",
+          "fa": "ثروتِ کلان؛ بخت و اقبال",
           "more": "fortunate · to make a fortune"
         }
       ]
@@ -1253,7 +1253,7 @@ DRILL({
           "w": "paycheck",
           "ipa": "ˈpeɪˌtʃɛk",
           "m": "the money you are paid for your job",
-          "fa": "حقوق، دستمزد",
+          "fa": "حقوقِ دریافتی، چکِ حقوق",
           "more": "salary · wages"
         },
         {
@@ -1267,7 +1267,7 @@ DRILL({
           "w": "payout",
           "ipa": "ˈpeɪˌaʊt",
           "m": "a large amount of money paid to someone",
-          "fa": "پرداخت، مبلغِ پرداختی",
+          "fa": "مبلغِ پرداختیِ جایزه؛ پرداخت",
           "more": "to pay out"
         }
       ]
@@ -1278,7 +1278,7 @@ DRILL({
       "ipa": "wʌt kaɪnd əv laɪf du ju wɑnt tə laɪv"
     },
     {
-      "fa": "شناختنِ ارزش‌هایتان همچنین کمک می‌کند آگاهانه و با نیت خرج کنید و از خریدهای هوسی دوری کنید.",
+      "fa": "شناختنِ ارزش‌هایتان همچنین باعث می‌شود راحت‌تر هدفمند خرج کنید و از خریدهای نسنجیده دوری کنید.",
       "en": "Understanding your values also makes it easier to spend with intention and avoid impulsive buys.",
       "ipa": "ˌʌndɚˈstændɪŋ jɔr ˈvæljuz ˈɔlsoʊ meɪks ɪt ˈiziɚ tə spɛnd wɪð ɪnˈtɛntʃən ənd əˈvɔɪd ɪmˈpʌlsɪv baɪz",
       "words": [
@@ -1293,7 +1293,7 @@ DRILL({
           "w": "with intention",
           "ipa": "wɪð ɪnˈtɛntʃən",
           "m": "with a clear purpose",
-          "fa": "با نیت، آگاهانه",
+          "fa": "هدفمند و آگاهانه، با قصدِ قبلی",
           "more": "intentionally · deliberately"
         },
         {
@@ -1306,13 +1306,13 @@ DRILL({
           "w": "buy",
           "ipa": "baɪ",
           "m": "(n.) something that you buy",
-          "fa": "خرید",
+          "fa": "خرید؛ چیزی که خریداری می‌شود",
           "more": "a good buy · purchase"
         }
       ]
     },
     {
-      "fa": "و این طرزِ فکر فقط به‌دردِ برندگانِ بخت‌آزمایی نمی‌خورد.",
+      "fa": "و این طرزِ فکر فقط مخصوصِ برندگانِ بخت‌آزمایی نیست.",
       "en": "And this mindset isn't just for lottery winners.",
       "ipa": "ənd ðɪs ˈmaɪndˌsɛt ˈɪzənt dʒʌst fɚ ˈlɑtəri ˈwɪnɚz",
       "words": [
@@ -1348,7 +1348,7 @@ DRILL({
       "note": "say این‌جا یعنی «فرض کنید»، نه «بگویید»."
     },
     {
-      "fa": "اگر در ۱۸ سالگی به‌جایش تصمیم گرفته بودید آن پول را مدام و منظم سرمایه‌گذاری کنید،",
+      "fa": "اگر در ۱۸ سالگی به‌جای این کار تصمیم گرفته بودید آن پول را به‌طورِ منظم سرمایه‌گذاری کنید،",
       "en": "If at 18, you had instead chosen to invest that money consistently,",
       "ipa": "ɪf ət eɪˈtin ju hæd ɪnˈstɛd ˈtʃoʊzən tə ɪnˈvɛst ðæt ˈmʌni kənˈsɪstəntli",
       "words": [
@@ -1356,7 +1356,7 @@ DRILL({
           "w": "consistently",
           "ipa": "kənˈsɪstəntli",
           "m": "always in the same way, regularly",
-          "fa": "مدام و منظم، پیوسته",
+          "fa": "به‌طورِ منظم و پیوسته",
           "more": "consistent · regularly"
         }
       ]
@@ -1382,7 +1382,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به عبارتِ دیگر، با اینکه برندگانِ بخت‌آزمایی کمیاب‌اند،",
+      "fa": "به عبارتِ دیگر، هرچند کسانی که در بخت‌آزمایی برنده می‌شوند کمیاب‌اند،",
       "en": "In other words, while lottery winners are rare,",
       "ipa": "ɪn ˈʌðɚ wɝdz waɪl ˈlɑtəri ˈwɪnɚz ɚ rɛr",
       "words": [
@@ -1403,7 +1403,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ساختنِ جکپاتِ یک‌میلیون‌دلاریِ خودتان لازم نیست کمیاب باشد.",
+      "fa": "لازم نیست جمع کردنِ تدریجیِ جایزهٔ بزرگِ یک‌میلیون‌دلاریِ خودتان هم اتفاقِ نادری باشد.",
       "en": "building up your own million-dollar jackpot doesn’t have to be.",
       "ipa": "ˈbɪldɪŋ ʌp jɔr oʊn ˈmɪljən ˈdɑlɚ ˈdʒækˌpɑt ˈdʌzənt hæv tə bi",
       "words": [
@@ -1411,7 +1411,7 @@ DRILL({
           "w": "to build up",
           "ipa": "tə bɪld ʌp",
           "m": "to increase something gradually over time",
-          "fa": "کم‌کم ساختن، انباشتن",
+          "fa": "به‌تدریج جمع کردن، انباشتن",
           "more": "build-up (n.) · to accumulate"
         }
       ],

@@ -40,13 +40,13 @@ DRILL({
           "w": "edition",
           "ipa": "əˈdɪʃən",
           "m": "one copy or printing of a newspaper or book",
-          "fa": "شماره، نسخه",
+          "fa": "شمارهٔ روزنامه؛ ویرایش یا نوبتِ چاپِ کتاب",
           "more": "issue"
         }
       ]
     },
     {
-      "fa": "اما همهٔ خواننده‌ها دنبالِ خبرهای به‌روز نبودند.",
+      "fa": "اما این‌طور نبود که همهٔ خوانندگان دنبالِ خبرهای روز باشند.",
       "en": "But not all readers were looking for timely news.",
       "ipa": "bət nɑt ɔl ˈridɚz wɚ ˈlʊkɪŋ fɚ ˈtaɪmli nuz",
       "words": [
@@ -60,7 +60,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بسیاری داستانی را دنبال می‌کردند که صدها سال پیش اتفاق می‌افتاد—",
+      "fa": "بسیاری داشتند داستانی را دنبال می‌کردند که زمانِ وقوعش به صدها سال پیش برمی‌گشت،",
       "en": "Many were following a story set hundreds of years in the past—",
       "ipa": "ˈmɛni wɚ ˈfɑloʊɪŋ ə ˈstɔri sɛt ˈhʌndrədz əv jɪrz ɪn ðə pæst",
       "words": [
@@ -95,7 +95,7 @@ DRILL({
           "w": "intrigue",
           "ipa": "ɪnˈtriɡ",
           "m": "secret plans to harm someone or gain power",
-          "fa": "دسیسه، توطئه",
+          "fa": "دسیسه و توطئه؛ در نقشِ فعل، کنجکاویِ کسی را برانگیختن",
           "more": "plot · scheme"
         },
         {
@@ -114,7 +114,7 @@ DRILL({
       ]
     },
     {
-      "fa": "«افسانهٔ قهرمانانِ کرکس» نوشتهٔ جین یونگ که از ۱۹۵۷ تا ۱۹۵۹ به‌صورتِ پاورقی منتشر شد،",
+      "fa": "«افسانهٔ قهرمانانِ کرکس» اثرِ جین یونگ، که از ۱۹۵۷ تا ۱۹۵۹ به‌صورتِ دنباله‌دار منتشر شد،",
       "en": "Serialized from 1957 to 1959, Jin Yong’s “Legend of the Condor Heroes”",
       "ipa": "ˈsɪriəˌlaɪzd frəm ˌnaɪnˈtin ˈfɪfti ˈsɛvən tə ˌnaɪnˈtin ˈfɪfti naɪn dʒɪn jɔŋz ˈlɛdʒənd əv ðə ˈkɑndɚ ˈhɪroʊz",
       "words": [
@@ -200,7 +200,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و یکی از بهترین داستان‌های ووشیایی که تا به حال نوشته شده است.",
+      "fa": "و از بهترین داستان‌های ووشیاست که تا به حال نوشته شده‌اند.",
       "en": "and one of the finest wuxia stories ever written.",
       "ipa": "ənd wʌn əv ðə ˈfaɪnəst ˈwʌksiə ˈstɔriz ˈɛvɚ ˈrɪtən",
       "words": [
@@ -261,7 +261,7 @@ DRILL({
       ]
     },
     {
-      "fa": "داستان‌های ووشیا عموماً بر رزمی‌کارانِ خانه‌به‌دوشی تمرکز دارند که به یک آیینِ شرافتمندانهٔ جوانمردی پایبندند.",
+      "fa": "داستان‌های ووشیا عموماً به رزمی‌کارانِ سیّاری می‌پردازند که خود را به آیینِ شرافتمندانهٔ جوانمردی متعهد می‌دانند.",
       "en": "Wuxia stories generally focus on nomadic martial artists bound to an honorable code of chivalry.",
       "ipa": "ˈwʌksiə ˈstɔriz ˈdʒɛnərəli ˈfoʊkəs ɑn noʊˈmædɪk ˈmɑrʃəl ˈɑrtəsts baʊnd tə ən ˈɑnərəbəl koʊd əv ˈʃɪvəlri",
       "words": [
@@ -295,7 +295,7 @@ DRILL({
           "w": "code",
           "ipa": "koʊd",
           "m": "a set of rules about how people should behave",
-          "fa": "آیین، مرام‌نامه",
+          "fa": "مجموعهٔ اصولِ رفتاری، آیینِ جوانمردی؛ رمز؛ کدِ رایانه‌ای",
           "more": "code of conduct"
         },
         {
@@ -308,7 +308,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این قهرمانان در نسخه‌ای اسطوره‌ای‌شده از چینِ باستان به نامِ جیانگ‌هو سفر می‌کنند،",
+      "fa": "این قهرمانان در روایتی اسطوره‌ای از چینِ باستان سفر می‌کنند که «جیانگ‌هو» نامیده می‌شود،",
       "en": "These heroes travel through a mythologized version of ancient China called jianghu,",
       "ipa": "ðiz ˈhɪroʊz ˈtrævəl θru ə ˈmjʌθələˌdʒaɪzd ˈvɝʒən əv ˈeɪntʃənt ˈtʃaɪnə kɔld dʒəˈwɑn",
       "words": [
@@ -334,7 +334,7 @@ DRILL({
       ]
     },
     {
-      "fa": "سرزمینی پر از فرمانروایانِ قدرتمند، راهزنانِ آواره و اشیای باستانیِ رازآلود.",
+      "fa": "سرزمینی پر از رهبرانِ قدرتمند، راهزنانِ در گشت‌وگذار و اشیای دست‌ساختهٔ اسرارآمیز.",
       "en": "full of powerful leaders, roaming bandits, and mystical artifacts.",
       "ipa": "fʊl əv ˈpaʊɚfəl ˈlidɚz ˈroʊmɪŋ ˈbændəts ənd ˈmɪstɪkəl ˈɑrtəˌfækts",
       "words": [
@@ -363,13 +363,13 @@ DRILL({
           "w": "artifact",
           "ipa": "ˈɑrtəˌfækt",
           "m": "an object made by people long ago",
-          "fa": "شیءِ باستانی، دست‌ساخته",
+          "fa": "شیءِ ساختهٔ دستِ انسان، اینجا شیئی با ویژگی‌های اسرارآمیز؛ اثرِ باستانی",
           "more": "artefact (UK) · relic"
         }
       ]
     },
     {
-      "fa": "قهرمانانِ ووشیا برای رویارویی با این چالش‌ها باید کارهای رزمیِ فرابشری را",
+      "fa": "قهرمانانِ ووشیا برای روبه‌رو شدن با این چالش‌ها باید فنونی فراتر از توانِ انسانی در هنرهای رزمی بیاموزند،",
       "en": "To face these challenges, wuxia heroes must learn superhuman feats of martial arts",
       "ipa": "tə feɪs ðiz ˈtʃæləndʒɪz ˈwʌksiə ˈhɪroʊz mʌst lɝn ˌsupɚˈhjumən fits əv ˈmɑrʃəl ɑrts",
       "words": [
@@ -395,7 +395,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از طومارهای باستانی و استادانِ جاودانهٔ گوشه‌نشین بیاموزند.",
+      "fa": "از طومارهای باستانی و از استادانی گوشه‌نشین و نامیرا.",
       "en": "from ancient scrolls and reclusive immortal masters.",
       "ipa": "frəm ˈeɪntʃənt skroʊlz ənd rɪˈklusɪv ɪˈmɔrtəl ˈmæstɚz",
       "words": [
@@ -508,7 +508,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مغول‌ها هر دو امپراتوری را تهدید می‌کنند که سرنگونشان کنند،",
+      "fa": "این خطر وجود دارد که مغول‌ها هر دو امپراتوری را سرنگون کنند،",
       "en": "The Mongols threaten to topple both empires,",
       "ipa": "ðə ˈmɑŋɡəlz ˈθrɛtən tə ˈtɑpəl boʊθ ˈɛmpaɪɚz",
       "words": [
@@ -516,7 +516,7 @@ DRILL({
           "w": "to threaten to",
           "ipa": "tə ˈθrɛtən tu",
           "m": "to seem likely to do something bad",
-          "fa": "تهدید کردن که"
+          "fa": "خطرِ انجام دادن یا رخ دادنِ کاری را پیش آوردن؛ تهدید به کاری کردن"
         },
         {
           "w": "to topple",
@@ -548,7 +548,7 @@ DRILL({
           "w": "party",
           "ipa": "ˈpɑrti",
           "m": "one of the people or groups involved in a conflict or agreement",
-          "fa": "طرف"
+          "fa": "یکی از طرف‌های درگیر؛ حزبِ سیاسی؛ مهمانی"
         },
         {
           "w": "to wreak havoc",
@@ -565,7 +565,7 @@ DRILL({
       ]
     },
     {
-      "fa": "رمان در روستایی هان آغاز می‌شود، جایی که دو پدرِ چشم‌به‌راهِ فرزند، بچه‌های به‌دنیانیامده‌شان را برادرخوانده می‌کنند.",
+      "fa": "رمان در روستایی از قومِ هان آغاز می‌شود، جایی که دو مرد در آستانهٔ پدر شدن دارند میانِ فرزندانِ هنوز زاده‌نشده‌شان پیمانِ برادری می‌بندند.",
       "en": "The novel begins in a Han village, where two expecting fathers are binding their unborn children as blood brothers.",
       "ipa": "ðə ˈnɑvəl bɪˈɡɪnz ɪn ə hɑn ˈvɪlədʒ wɛr tu ɪkˈspɛktɪŋ ˈfɑðɚz ɚ ˈbaɪndɪŋ ðɛr ˌʌnˈbɔrn ˈtʃɪldrən əz blʌd ˈbrʌðɚz",
       "newPara": true,
@@ -574,7 +574,7 @@ DRILL({
           "w": "expecting",
           "ipa": "ɪkˈspɛktɪŋ",
           "m": "waiting for a baby to be born",
-          "fa": "چشم‌به‌راهِ فرزند، باردار",
+          "fa": "در آستانهٔ پدر شدن (در این عبارت)؛ در انتظارِ فرزند، باردار",
           "more": "expectant"
         },
         {
@@ -594,12 +594,12 @@ DRILL({
           "w": "blood brother",
           "ipa": "blʌd ˈbrʌðɚ",
           "m": "a man who promises loyalty to another as if they were brothers",
-          "fa": "برادرخوانده، برادرِ خونی"
+          "fa": "برادرِ پیمانی، کسی که با دیگری پیمانِ برادری بسته است"
         }
       ]
     },
     {
-      "fa": "نامِ بچه‌ها— گوئو جینگ و یانگ کانگ— روی یک جفت دشنه حک شده بود.",
+      "fa": "نام‌های آن دو کودک، گوئو جینگ و یانگ کانگ، روی یک جفت خنجر حک شدند.",
       "en": "The children’s names— Guo Jing and Yang Kang— were engraved on a pair of daggers.",
       "ipa": "ðə ˈtʃɪldrənz neɪmz ɡoʊ dʒɪŋ ənd jæŋ kæŋ wɚ ɪnˈɡreɪvd ɑn ə pɛr əv ˈdæɡɚz",
       "words": [
@@ -674,7 +674,7 @@ DRILL({
           "w": "royalty",
           "ipa": "ˈrɔɪəlti",
           "m": "members of a royal family",
-          "fa": "خاندانِ سلطنتی"
+          "fa": "اعضای خاندانِ سلطنتی؛ حقِ امتیازِ اثر"
         },
         {
           "w": "to raise",
@@ -741,7 +741,7 @@ DRILL({
       ]
     },
     {
-      "fa": "سفرشان آن‌ها را به پایتختِ پرجنب‌وجوشِ سونگ، هانگژو، به استپ‌های خشن و بی‌رحمِ مغول،",
+      "fa": "سفرشان آن دو را به هانگژو، پایتختِ پرجنب‌وجوشِ دودمانِ سونگ، به علفزارهای وسیع و طاقت‌فرسای سرزمینِ مغول‌ها،",
       "en": "Their journey takes them to the bustling Song capital of Hangzhou, the harsh Mongol steppes,",
       "ipa": "ðɛr ˈdʒɝni teɪks ðɛm tə ðə ˈbʌsəlɪŋ sɔŋ ˈkæpətəl əv ˈhæŋˌhaʊs ðə hɑrʃ ˈmɑŋɡəl stɛps",
       "words": [
@@ -773,7 +773,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و به شهرِ بازارِ افسانه‌ایِ سمرقند می‌برد.",
+      "fa": "و به شهرِ بازرگانیِ پرآوازهٔ سمرقند می‌برد.",
       "en": "and the fabled market city of Samarkand.",
       "ipa": "ənd ðə ˈfeɪbəld ˈmɑrkət ˈsɪti əv ˈsæmɑrˌkænd",
       "words": [
@@ -781,13 +781,13 @@ DRILL({
           "w": "fabled",
           "ipa": "ˈfeɪbəld",
           "m": "famous and talked about in many stories",
-          "fa": "افسانه‌ای، پرآوازه",
+          "fa": "پرآوازه و مشهور در داستان‌ها؛ افسانه‌ای",
           "more": "legendary · fabulous"
         }
       ]
     },
     {
-      "fa": "قهرمانانِ ما جیانگ‌هو را درمی‌نوردند، با شخصیت‌های رنگارنگ روبه‌رو می‌شوند و شاهدِ رویدادهای تاریخیِ مهمی می‌شوند.",
+      "fa": "قهرمانانِ ما جیانگ‌هو را درمی‌نوردند و در راه با شخصیت‌هایی به‌یادماندنی روبه‌رو می‌شوند و رویدادهای مهمِ تاریخی را به چشم می‌بینند.",
       "en": "Our heroes traverse through jianghu, encountering colorful characters, and witnessing key historical events.",
       "ipa": "ˈaʊɚ ˈhɪroʊz ˈtrævɚs θru dʒəˈwɑn ɛnˈkaʊntərɪŋ ˈkʌlɚfəl ˈkærɪktɚz ənd ˈwɪtnəsɪŋ ki hɪˈstɔrɪkəl ɪˈvɛnts",
       "words": [
@@ -809,7 +809,7 @@ DRILL({
           "w": "colorful",
           "ipa": "ˈkʌlɚfəl",
           "m": "interesting and full of personality",
-          "fa": "رنگارنگ، جالب"
+          "fa": "جذاب و به‌یادماندنی (شخصیت)؛ رنگارنگ"
         },
         {
           "w": "to witness",
@@ -1100,7 +1100,7 @@ DRILL({
           "w": "to cover",
           "ipa": "tə ˈkʌvɚ",
           "m": "to report on an event in the news",
-          "fa": "پوشش دادن (خبری)",
+          "fa": "دربارهٔ رویدادی گزارش تهیه کردن؛ پوشاندن",
           "more": "coverage"
         },
         {
@@ -1140,7 +1140,7 @@ DRILL({
       ]
     },
     {
-      "fa": "«افسانهٔ قهرمانانِ کرکس» با کاویدنِ فرهنگ و تاریخِ چین با انسانیتی صمیمی، هویتِ چینی را گرامی می‌دارد.",
+      "fa": "«افسانهٔ قهرمانانِ کرکس» هویتِ چینی را می‌ستاید؛ با نگاهی از نزدیک و انسانی به کاوش در فرهنگ و تاریخِ چین می‌پردازد.",
       "en": "“Legend of the Condor Heroes” celebrates Chinese identity by exploring China’s culture and history with intimate humanity.",
       "ipa": "ˈlɛdʒənd əv ðə ˈkɑndɚ ˈhɪroʊz ˈsɛləˌbreɪts tʃaɪˈniz aɪˈdɛntəti baɪ ɪkˈsplɔrɪŋ ˈtʃaɪnəz ˈkʌltʃɚ ənd ˈhɪstəri wɪð ˈɪntəmət hjuˈmænɪti",
       "words": [
@@ -1202,7 +1202,7 @@ DRILL({
           "w": "bootleg",
           "ipa": "ˈbutˌlɛɡ",
           "m": "made and sold illegally",
-          "fa": "قاچاق، غیرمجاز",
+          "fa": "به‌طورِ غیرمجاز تکثیر یا توزیع‌شده؛ قاچاق",
           "more": "pirated · illegal"
         },
         {
@@ -1228,7 +1228,7 @@ DRILL({
           "w": "to relax",
           "ipa": "tə rɪˈlæks",
           "m": "to make rules less strict",
-          "fa": "تعدیل کردن، سهل‌تر کردن",
+          "fa": "از سخت‌گیریِ یک سیاست کاستن؛ استراحت کردن",
           "more": "ease · loosen"
         },
         {
@@ -1253,7 +1253,7 @@ DRILL({
       ]
     },
     {
-      "fa": "امروز آثارِ جین یونگ به فیلم، تلویزیون و بازی‌های ویدیویی برگردانده شده‌اند.",
+      "fa": "تا امروز از آثارِ جین یونگ برای سینما، تلویزیون و بازی‌های ویدیویی اقتباس شده است.",
       "en": "Today, Jin Yong’s works have been adapted into film, television, and video games.",
       "ipa": "təˈdeɪ dʒɪn jɔŋz wɝks hæv bɪn əˈdæptəd ɪnˈtu fɪlm ˈtɛləˌvɪʒən ənd ˈvɪdioʊ ɡeɪmz",
       "newPara": true,
@@ -1268,7 +1268,7 @@ DRILL({
       ]
     },
     {
-      "fa": "رمان‌هایش آن‌قدر محبوب‌اند که گفته‌اند: «هر جا چینی‌ها باشند، داستان‌های جین یونگ هم حتماً هست.»",
+      "fa": "رمان‌هایش چنان محبوب‌اند که گفته شده است «هر جا مردمِ چین باشند، حتماً داستان‌های جین یونگ هم آنجا هست.»",
       "en": "His novels are so beloved it has been said, “where there are Chinese people, there must be Jin Yong’s fiction.”",
       "ipa": "hɪz ˈnɑvəlz ɚ soʊ bɪˈlʌvd ɪt hæz bɪn sɛd wɛr ðɛr ɚ tʃaɪˈniz ˈpipəl ðɛr mʌst bi dʒɪn jɔŋz ˈfɪkʃən"
     },
@@ -1288,7 +1288,7 @@ DRILL({
           "w": "titan",
           "ipa": "ˈtaɪtən",
           "m": "a very important and powerful person in a field",
-          "fa": "غول، بزرگ"
+          "fa": "چهره‌ای بزرگ و اثرگذار؛ غول"
         },
         {
           "w": "relatively",
@@ -1299,7 +1299,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به خاطرِ دشواری‌های ترجمه و سطحِ بالای دانشِ فرهنگیِ چینی که آثارش می‌طلبند.",
+      "fa": "به دلیلِ دشواری‌های ترجمه و شناختِ عمیقی از فرهنگِ چین که خواندنِ آثارش می‌طلبد.",
       "en": "due to the difficulties of translation and the high level of Chinese cultural knowledge his works demand.",
       "ipa": "du tə ðə ˈdɪfəkəltiz əv trænzˈleɪʃən ənd ðə haɪ ˈlɛvəl əv tʃaɪˈniz ˈkʌltʃərəl ˈnɑlədʒ hɪz wɝks dɪˈmænd",
       "words": [

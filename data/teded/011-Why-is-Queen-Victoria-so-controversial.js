@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=JjhrN0FcHpM",
   "items": [
     {
-      "fa": "نظم را رعایت کنید، نظم! امروز چه کسی در جایگاه است؟",
+      "fa": "نظم! نظم! امروز چه کسی را در جایگاه شهادت داریم؟",
       "en": "Order, order! Who do we have on the stand today?",
       "ipa": "ˈɔrdɚ ˈɔrdɚ hu du wi hæv ɑn ðə stænd təˈdeɪ",
       "newPara": true,
@@ -20,7 +20,7 @@ DRILL({
           "w": "on the stand",
           "ipa": "ɑn ðə stænd",
           "m": "in the place in a court where a person sits to answer questions",
-          "fa": "در جایگاه (دادگاه)",
+          "fa": "در جایگاه شهادتِ دادگاه، مشغول ادای شهادت",
           "more": "witness stand · take the stand"
         }
       ]
@@ -132,7 +132,7 @@ DRILL({
           "w": "popularly",
           "ipa": "ˈpɑpjəlɚli",
           "m": "by most ordinary people",
-          "fa": "در میان عموم، به‌طور عامیانه",
+          "fa": "اینجا: در میان عموم، به نامی رایج؛ دربارهٔ انتخاب یک مقام: با رأی مردم",
           "more": "commonly · widely"
         }
       ]
@@ -202,7 +202,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و با به زیرِ سلطه کشیدنِ ملت‌های مستعمره — که همه را فضیلت‌های به‌اصطلاحِ ملکه ویکتوریا تقویت می‌کرد.",
+      "fa": "و با به سلطه کشیدنِ مردمانِ مستعمرات؛ و آنچه همهٔ این‌ها را تقویت کرد، همان به‌اصطلاح فضیلت‌های ملکه ویکتوریا بود.",
       "en": "and the subjugation of colonized peoples— all reinforced by Queen Victoria's so-called virtues.",
       "ipa": "ənd ðə ˌsʌbdʒəˈɡeɪʃən əv ˈkɑləˌnaɪzd ˈpipəlz ɔl ˌriɪnˈfɔrst baɪ kwin vɪkˈtɔriəz ˌsoʊˈkɑld ˈvɝtʃuz",
       "words": [
@@ -251,7 +251,7 @@ DRILL({
       ]
     },
     {
-      "fa": "رویکردِ اخلاق‌گرایانهٔ او به پادشاهی بیشتر دغدغهٔ این را داشت که امپراتوریِ بریتانیا را خانواده‌ای بزرگ و شاد جلوه دهد",
+      "fa": "در رویکردِ موعظه‌گرانه‌اش به سلطنت، بیشتر در پی این بود که امپراتوری بریتانیا را مثل یک خانوادهٔ بزرگ و خوشبخت جلوه دهد",
       "en": "Her moralistic approach to monarchy was more concerned with making the British Empire look like a big happy family",
       "ipa": "hɚ ˌmɔrəˈlɪstɪk əˈproʊtʃ tə ˈmɑnɑrki wəz mɔr kənˈsɝnd wɪð ˈmeɪkɪŋ ðə ˈbrɪtɪʃ ˈɛmpaɪɚ lʊk laɪk ə bɪɡ ˈhæpi ˈfæməli",
       "words": [
@@ -890,7 +890,7 @@ DRILL({
       ]
     },
     {
-      "fa": "او جایگاهش را در مقامِ زنی قدرتمند حاصلِ بختِ تولد می‌دانست، نه الگویی برای هم‌جنسانش.",
+      "fa": "او جایگاهش را به‌عنوان زنی قدرتمند حاصلِ تصادفِ تولدش در آن خانواده می‌دانست، نه الگویی برای زنان دیگر.",
       "en": "She viewed her position as a powerful woman as an accident of birth, not as a model for her gender.",
       "ipa": "ʃi vjud hɚ pəˈzɪʃən əz ə ˈpaʊɚfəl ˈwʊmən əz ən ˈæksədənt əv bɝθ nɑt əz ə ˈmɑdəl fɚ hɚ ˈdʒɛndɚ",
       "words": [
@@ -912,12 +912,12 @@ DRILL({
           "w": "an accident of birth",
           "ipa": "ən ˈæksədənt əv bɝθ",
           "m": "something you have only because of the family you were born into",
-          "fa": "بختِ تولد، تصادفِ تولد"
+          "fa": "موقعیتی که صرفاً به‌خاطر خانواده یا شرایطی که در آن به دنیا آمده‌ای نصیبت شده است"
         }
       ]
     },
     {
-      "fa": "خب، این چندان هم الهام‌بخش‌ترین پیام نیست.",
+      "fa": "خب، نمی‌شود گفت این الهام‌بخش‌ترین پیام دنیاست.",
       "en": "Well, that's not exactly the most inspiring message.",
       "ipa": "wɛl ðæts nɑt ɪɡˈzæktli ðə moʊst ɪnˈspaɪrɪŋ ˈmɛsədʒ",
       "newPara": true,
@@ -976,7 +976,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در مقامِ پادشاهی مشروطه، از ملکه انتظار می‌رفت بر اساسِ توصیهٔ نخست‌وزیرش عمل کند.",
+      "fa": "در مقامِ فرمانروایی مشروطه، از ملکه انتظار می‌رفت بر اساس توصیهٔ نخست‌وزیرش عمل کند.",
       "en": "As a constitutional monarch, the Queen was expected to act on the advice of her Prime Minister.",
       "ipa": "əz ə ˌkɑnstəˈtuʃənəl ˈmɑˌnɑrk ðə kwin wəz ɪkˈspɛktəd tə ækt ɑn ði ædˈvaɪs əv hɚ praɪm ˈmɪnəstɚ",
       "words": [
@@ -984,7 +984,7 @@ DRILL({
           "w": "constitutional monarch",
           "ipa": "ˌkɑnstəˈtuʃənəl ˈmɑˌnɑrk",
           "m": "a king or queen whose power is limited by law",
-          "fa": "پادشاه مشروطه",
+          "fa": "فرمانروای مشروطه؛ پادشاه یا ملکه‌ای که اختیاراتش را قانون اساسی تعیین می‌کند",
           "more": "constitution · monarchy"
         },
         {
@@ -1220,7 +1220,7 @@ DRILL({
       ]
     },
     {
-      "fa": "او در واقع به‌خوبی آگاه بود که زندگیِ رعایایش چقدر سخت است.",
+      "fa": "اتفاقاً خوب می‌دانست زندگی برای اتباعش چقدر دشوار بود.",
       "en": "She was actually very aware of how difficult her subjects’ lives were.",
       "ipa": "ʃi wəz ˈæktʃəwəli ˈvɛri əˈwɛr əv haʊ ˈdɪfəkəlt hɚ ˈsʌbdʒɪkts lɪvz wɚ",
       "newPara": true,
@@ -1236,13 +1236,13 @@ DRILL({
           "w": "subject",
           "ipa": "ˈsʌbdʒɪkt",
           "m": "a person who lives in a country ruled by a king or queen",
-          "fa": "رعیت، تبعه",
+          "fa": "اینجا: فردِ تابعِ یک پادشاه یا ملکه؛ در بافت‌های دیگر: موضوعِ بحث، فاعلِ جمله",
           "more": "citizen · British subject"
         }
       ]
     },
     {
-      "fa": "در کودکی، مادرش او را به سفرهایی در سراسرِ بریتانیا می‌برد تا ببیند مردم چطور زندگی می‌کنند.",
+      "fa": "وقتی ویکتوریا کودک بود، مادرش او را به گشت‌وگذار در سراسرِ پادشاهی متحد می‌برد تا ببیند مردم چگونه زندگی می‌کنند.",
       "en": "As a child, her mother took her on tours around the UK to see how people lived.",
       "ipa": "əz ə tʃaɪld hɚ ˈmʌðɚ tʊk hɚ ɑn tʊrz əˈraʊnd ðə ˌjuˈkeɪ tə si haʊ ˈpipəl laɪvd",
       "words": [
@@ -1270,7 +1270,7 @@ DRILL({
       ]
     },
     {
-      "fa": "او از اصلاحاتِ اجتماعی‌ای چون تأسیسِ مدرسه‌های عمومیِ دولتی پشتیبانی کرد",
+      "fa": "او از اصلاحات اجتماعی حمایت می‌کرد، از جمله تأسیس مدرسه‌های عمومی با بودجهٔ دولت",
       "en": "She backed social reforms like the establishment of state-funded public schools",
       "ipa": "ʃi bækt ˈsoʊʃəl rəˈfɔrmz laɪk ði ɪˈstæblɪʃmənt əv steɪt ˈfʌndəd ˈpʌblɪk skulz",
       "words": [
@@ -1362,7 +1362,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ویکتوریا اغلب شهروندانِ آن‌سوی مرزش را نادیده می‌گرفت که بی‌شمار بیشتر بودند.",
+      "fa": "ویکتوریا بارها شهروندانِ قلمروهای خارج از بریتانیا را نادیده می‌گرفت، حال آنکه تعدادشان به‌مراتب بیشتر بود.",
       "en": "Victoria frequently ignored her countless more international citizens.",
       "ipa": "vɪkˈtɔriə ˈfrikwəntli ɪɡˈnɔrd hɚ ˈkaʊntləs mɔr ˌɪntɚˈnæʃənəl ˈsɪtəzənz",
       "words": [
@@ -1431,7 +1431,7 @@ DRILL({
       ]
     },
     {
-      "fa": "درست است — ویکتوریا زادهٔ زمانهٔ خودش بود و به سرنوشتِ امپراتوری‌وارِ بریتانیا ایمان داشت.",
+      "fa": "درست است؛ ویکتوریا پروردهٔ زمانهٔ خود بود و باور داشت که امپراتوری شدن سرنوشتِ بریتانیاست.",
       "en": "It’s true— Victoria was a product of her time and believed in Britain’s imperial destiny.",
       "ipa": "ɪts tru vɪkˈtɔriə wəz ə ˈprɑdəkt əv hɚ taɪm ənd bɪˈlivd ɪn ˈbrɪtənz ɪmˈpɪriəl ˈdɛstəni",
       "newPara": true,
@@ -1627,7 +1627,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که مُهرِ خود را بر گسترشِ مستعمراتیِ بریتانیا زده بود.",
+      "fa": "که از ویژگی‌های بارزِ گسترشِ استعمارِ بریتانیا بود.",
       "en": "that marked Britain's colonial expansion.",
       "ipa": "ðæt mɑrkt ˈbrɪtənz kəˈloʊniəl ɪkˈspænʃən",
       "words": [

@@ -64,7 +64,7 @@ DRILL({
       ]
     },
     {
-      "fa": "وقتی کوهنوردها کنار مسیرهای پیاده‌روی حسابی عرق می‌کردند یا قضای حاجت می‌کردند،",
+      "fa": "وقتی طبیعت‌گردها در طول مسیر با فعالیت بدنی عرق می‌کردند یا کنار راه قضای حاجت می‌کردند،",
       "en": "As hikers worked up a sweat or relieved themselves along trails,",
       "ipa": "əz ˈhaɪkɚz wɝkt ʌp ə swɛt ɔr rɪˈlivd ðɛmˈsɛlvz əˈlɔŋ treɪlz",
       "words": [
@@ -79,7 +79,7 @@ DRILL({
           "w": "to work up a sweat",
           "ipa": "tə wɝk ʌp ə swɛt",
           "m": "to exercise or work hard enough to start sweating",
-          "fa": "حسابی عرق کردن"
+          "fa": "بر اثر فعالیت بدنی به عرق افتادن؛ مجازی: حسابی زحمت کشیدن"
         },
         {
           "w": "to relieve yourself",
@@ -97,7 +97,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برای این حیواناتِ گرسنهٔ نمک، جاذبه‌ای مقاومت‌ناپذیر درست می‌کردند.",
+      "fa": "برای این جانورانِ تشنهٔ نمک جاذبه‌ای ایجاد می‌کردند که نمی‌شد در برابرش مقاومت کرد.",
       "en": "they created an irresistible draw for these salt-hungry animals.",
       "ipa": "ðeɪ kriˈeɪtəd ən ˌɪrɪˈzɪstəbəl drɔ fɚ ðiz sɔlt ˈhʌŋɡri ˈænəməlz",
       "words": [
@@ -182,7 +182,7 @@ DRILL({
           "w": "exceptional",
           "ipa": "ɪkˈsɛpʃənəl",
           "m": "very unusual; not typical",
-          "fa": "استثنایی",
+          "fa": "اینجا: غیرعادی، کم‌نظیر؛ در توصیف کیفیت: فوق‌العاده",
           "more": "exception · exceptionally"
         }
       ]
@@ -216,7 +216,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برای مثال، ورود ناگهانیِ سدیم همان تلنگری است که باعث می‌شود سلول‌های عصبی فعال شوند (به اصطلاح «شلیک کنند») و پیام‌ها را به هم برسانند.",
+      "fa": "مثلاً ورودِ مقدار زیادی سدیم همان محرکی است که باعث می‌شود سلول‌های عصبی تکانهٔ عصبی تولید کنند و پیام‌ها را انتقال دهند.",
       "en": "An influx of sodium, for example, is the trigger that causes nerve cells to fire and relay messages.",
       "ipa": "ən ˈɪnˌflʌks əv ˈsoʊdiəm fɚ ɪɡˈzæmpəl ɪz ðə ˈtrɪɡɚ ðæt ˈkɑzəz nɝv sɛlz tə ˈfaɪɚ ənd ˌriˈleɪ ˈmɛsədʒəz",
       "words": [
@@ -224,7 +224,7 @@ DRILL({
           "w": "influx",
           "ipa": "ˈɪnˌflʌks",
           "m": "a sudden arrival of a large number of people or a large amount of something",
-          "fa": "ورود ناگهانیِ مقدار زیاد",
+          "fa": "ورود یا سرازیر شدنِ مقدار زیادی از چیزی؛ برای آدم‌ها: هجوم، ورود دسته‌جمعی",
           "more": "an influx of tourists · inflow"
         },
         {
@@ -313,7 +313,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به همان اندازه به هر دری زده‌اند تا «دوزِ» نمکِ خودشان را جور کنند.",
+      "fa": "به همان اندازه به هر دری زده‌اند تا هوسِ نمکِ خودشان را هم فروبنشانند.",
       "en": "have gone to similarly great lengths to feed their own salt fixes.",
       "ipa": "hæv ɡɔn tə ˈsɪməlɚli ɡreɪt lɛŋkθs tə fid ðɛr oʊn sɔlt ˈfɪksɪz",
       "note": "<en>fix</en> در زبان محاوره یعنی همان مقداری که آدمِ معتاد هر بار نیاز دارد («دوز»)؛ اینجا نیازِ انسان به نمک به اعتیاد تشبیه شده است.",
@@ -343,7 +343,7 @@ DRILL({
           "w": "fix",
           "ipa": "fɪks",
           "m": "(informal) an amount of something that you need and want very strongly, like a drug",
-          "fa": "دوز (آنچه معتاد هر بار نیاز دارد)",
+          "fa": "اینجا: سهم یا «دوزی» که هوس آدم را فرو می‌نشاند؛ در بافتی دیگر: راه‌حل، تعمیر",
           "more": "get your fix · a caffeine fix"
         }
       ]
@@ -517,7 +517,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آب رود را در دیگ‌های بزرگ می‌جوشاندند تا آبش بخار شود و بلورهای نمک را برداشت کنند.",
+      "fa": "آب رودخانه را در دیگ‌های بزرگ می‌جوشاندند تا آب را تبخیر کنند و بلورهای نمک را برداشت کنند.",
       "en": "boiled river water in vats to evaporate the water and harvest the salt crystals.",
       "ipa": "bɔɪld ˈrɪvɚ ˈwɔtɚ ɪn væts tə ɪˈvæpəˌreɪt ðə ˈwɔtɚ ənd ˈhɑrvəst ðə sɔlt ˈkrɪstəlz",
       "words": [
@@ -692,7 +692,8 @@ DRILL({
           "fa": "میکروب، ریزاندامگان",
           "more": "microorganism · microbial"
         }
-      ]
+      ],
+      "note": "در نوشتار معیار، چون صحبت از چند میکروب است، مالکیت جمع را با <en>these microbes’ cells</en> می‌نویسیم. تلفظِ شکل ملکی در اینجا عوض نمی‌شود."
     },
     {
       "fa": "و نمک به این خاطر هم که مزهٔ غذا را بهتر می‌کرد، خیلی ارزشمند شمرده می‌شد.",
@@ -772,7 +773,7 @@ DRILL({
           "w": "pour",
           "ipa": "pɔr",
           "m": "(noun) an amount of something poured at one time",
-          "fa": "(مقدارِ) ریختن",
+          "fa": "مقدارِ چیزی که یک‌باره می‌ریزند؛ به‌عنوان فعل: ریختن",
           "more": "a heavy pour · pour (v.)"
         },
         {
@@ -819,7 +820,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس هر جا نمک فراوان بود، انسان‌ها آن را برداشت می‌کردند تا با مناطقی که گرسنهٔ نمک بودند دادوستد کنند.",
+      "fa": "پس هرجا نمک فراوان بود، مردم آن را برداشت می‌کردند تا با مناطقی که سخت خواهان نمک بودند دادوستد کنند.",
       "en": "So wherever salt was plentiful, humans harvested it to trade with salt-hungry regions.",
       "ipa": "soʊ wɛˈrɛvɚ sɔlt wəz ˈplɛntəfəl ˈhjumənz ˈhɑrvəstəd ɪt tə treɪd wɪð sɔlt ˈhʌŋɡri ˈridʒənz",
       "newPara": true,
@@ -871,7 +872,8 @@ DRILL({
           "m": "a group of people and animals travelling together, especially across a desert",
           "fa": "کاروان"
         }
-      ]
+      ],
+      "note": "برای یک هزاره از مفرد استفاده کن: <en>the first millennium CE</en>. شکلِ <en>millennia</en> که در زیرنویس آمده جمع است."
     },
     {
       "fa": "قالب‌های تخت و بزرگِ نمک را که در صحرای آفریقا استخراج شده بود، به غرب آفریقا می‌بردند.",
@@ -991,7 +993,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و شاید به همین دلیل است که واژهٔ <en>salary</en> بخشِ <en>sal</en> را در خود دارد، که ریشهٔ لاتینِ واژهٔ نمک است.",
+      "fa": "و شاید به همین دلیل باشد که واژهٔ انگلیسیِ «حقوق» جزءِ «سال» را در خود دارد؛ همان ریشهٔ لاتینِ واژهٔ «نمک».",
       "en": "which may be why the word salary contains “sal,” the Latin root for salt.",
       "ipa": "wɪtʃ meɪ bi waɪ ðə wɝd ˈsæləri kənˈteɪnz sæl ðə ˈlætən rut fɚ sɔlt",
       "words": [
@@ -999,7 +1001,7 @@ DRILL({
           "w": "salary",
           "ipa": "ˈsæləri",
           "m": "a fixed amount of money paid to a worker, usually every month",
-          "fa": "حقوق (ماهانه)",
+          "fa": "حقوق ثابتِ شغلی (معمولاً به‌صورت مبلغ سالانه یا ماهانه بیان می‌شود)",
           "more": "wage · income"
         },
         {
@@ -1047,7 +1049,7 @@ DRILL({
           "w": "salt cellar",
           "ipa": "sɔlt ˈsɛlɚ",
           "m": "a small open dish or container for salt on a table",
-          "fa": "نمکدان",
+          "fa": "ظرف کوچکِ نمکِ سر میز، به‌ویژه نمکدانِ روباز",
           "more": "salt shaker"
         },
         {
@@ -1129,7 +1131,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و افراد کم‌اهمیت‌تر «پایینِ» آن.",
+      "fa": "و آن‌هایی که اهمیت کمتری داشتند، پایینِ نمکدان می‌نشستند.",
       "en": "and the less important sat below it.",
       "ipa": "ənd ðə lɛs ɪmˈpɔrtənt sæt bɪˈloʊ ɪt"
     },
@@ -1189,7 +1191,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که اشراف از پرداختش معاف بودند — به شعله‌ور شدنِ انقلاب فرانسه دامن زد.",
+      "fa": "که اشراف از پرداختش معاف بودند، به شکل‌گیری انقلاب فرانسه شتاب بخشید.",
       "en": "which nobility was exempt from paying, helped spur the French Revolution.",
       "ipa": "wɪtʃ noʊˈbɪləti wəz ɪɡˈzɛmpt frəm ˈpeɪɪŋ hɛlpt spɝ ðə frɛntʃ ˌrɛvəˈluʃən",
       "words": [
@@ -1296,7 +1298,7 @@ DRILL({
           "w": "the turn of the century",
           "ipa": "ðə tɝn əv ðə ˈsɛntʃəri",
           "m": "the time when one century ends and the next begins",
-          "fa": "آغاز قرن، اوایل قرن"
+          "fa": "مقطع گذار از یک قرن به قرن بعد؛ اینجا: حوالی آغاز قرن بیستم"
         },
         {
           "w": "industrialization",
@@ -1364,7 +1366,7 @@ DRILL({
       ]
     },
     {
-      "fa": "طولی نکشید که تولیدکنندگان نمک هر سال میلیون‌ها تن نمک برداشت می‌کردند،",
+      "fa": "طولی نکشید که تولیدکنندگان نمک هر سال میلیون‌ها تُنِ متریک نمک برداشت می‌کردند،",
       "en": "Soon, salt producers were harvesting millions of metric tons of salt every year,",
       "ipa": "sun sɔlt prəˈdusɚz wɚ ˈhɑrvəstɪŋ ˈmɪljənz əv ˈmɛtrɪk tʌnz əv sɔlt ˈɛvəri jɪr",
       "words": [
@@ -1384,7 +1386,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با همان روش‌هایی که طیِ هزاران سال کم‌کم کامل‌تر و دقیق‌تر شده بودند،",
+      "fa": "با همان روش‌هایی که طی هزاران سال صیقل خورده‌اند،",
       "en": "using the same methods that have been honed for thousands of years,",
       "ipa": "ˈjuzɪŋ ðə seɪm ˈmɛθədz ðæt hæv bɪn hoʊnd fɚ ˈθaʊzəndz əv jɪrz",
       "words": [
@@ -1398,7 +1400,7 @@ DRILL({
           "w": "to hone",
           "ipa": "tə hoʊn",
           "m": "to improve a skill or method over time until it is very good",
-          "fa": "(روش یا مهارت را) کم‌کم کامل کردن، صیقل دادن",
+          "fa": "به‌تدریج بهتر و دقیق‌تر کردنِ روش یا مهارت؛ در معنای فیزیکی: تیز کردنِ تیغه",
           "more": "refine · perfect"
         }
       ]
@@ -1495,7 +1497,7 @@ DRILL({
       ]
     },
     {
-      "fa": "حالا که نمک می‌توانست آزادانه جریان پیدا کند، اختراع نمک‌پاش و فلفل‌پاش هم پشت سرش آمد.",
+      "fa": "حالا که نمک به‌راحتی بیرون می‌ریخت، در پی آن نمک‌پاش و فلفل‌پاش هم اختراع شدند.",
       "en": "With salt free to flow, the invention of salt and pepper shakers followed.",
       "ipa": "wɪð sɔlt fri tə floʊ ði ɪnˈvɛnʃən əv sɔlt ənd ˈpɛpɚ ˈʃeɪkɚz ˈfɑloʊd",
       "words": [
@@ -1556,7 +1558,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و همیشه زینت‌بخشِ میزها در سراسر آمریکای شمالی و اروپا بودند.",
+      "fa": "و مرتب زینت‌بخشِ میزها در سراسر آمریکای شمالی و اروپا بودند.",
       "en": "regularly adorning tabletops across North America and Europe.",
       "ipa": "ˈrɛɡjəlɚli əˈdɔrnɪŋ ˈteɪbəltˌpɑps əˈkrɔs nɔrθ əˈmɛrəkə ənd ˈjʊrəp",
       "words": [

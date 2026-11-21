@@ -26,7 +26,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شاید شبیهِ معما به نظر برسد، اما در دنیای «مار مار را می‌خورد» ِ ما، این دوراهیِ عملیِ واقعی است.",
+      "fa": "این شاید شبیهِ چیستان به گوش برسد، اما در دنیای ما که مار هم مار می‌خورد، مشکلی است که در عمل پیش می‌آید.",
       "en": "This might sound like a riddle, but it’s a practical dilemma in our snake-eat-snake world.",
       "ipa": "ðɪs maɪt saʊnd laɪk ə ˈrɪdəl bət ɪts ə ˈpræktəkəl dɪˈlɛmə ɪn ˈaʊɚ sneɪk it sneɪk wɝld",
       "words": [
@@ -48,7 +48,7 @@ DRILL({
           "w": "dilemma",
           "ipa": "dɪˈlɛmə",
           "m": "a difficult situation in which you must make a hard choice or solve a hard problem",
-          "fa": "دوراهی، مخمصه",
+          "fa": "مشکلِ دشواری که باید حل شود؛ دوراهی میان دو انتخابِ دشوار",
           "more": "predicament · quandary"
         },
         {
@@ -84,7 +84,7 @@ DRILL({
           "w": "possibly",
           "ipa": "ˈpɑsəbli",
           "m": "used for emphasis in questions to show surprise that something could happen",
-          "fa": "اصلاً، به هیچ وجه",
+          "fa": "در این پرسشِ تعجبی، «اصلاً چطور ممکن است»؛ در حالتِ خبری، شاید",
           "more": "possible · conceivably"
         },
         {
@@ -104,7 +104,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این فقط یکی از دوراهی‌های شکارگرانهٔ بی‌شماری است که مارها حلشان کرده‌اند.",
+      "fa": "این فقط یکی از مشکلاتِ بی‌شماری است که مارها هنگامِ شکار با آن روبه‌رو شده و حل کرده‌اند.",
       "en": "This is just one of countless predatory dilemmas snakes have solved.",
       "ipa": "ðɪs ɪz dʒʌst wʌn əv ˈkaʊntləs ˈprɛdəˌtɔri dəˈlɛməz sneɪks hæv sɑlvd",
       "words": [
@@ -155,14 +155,14 @@ DRILL({
           "w": "some",
           "ipa": "sʌm",
           "m": "(before a number) about; approximately",
-          "fa": "حدودِ، در حدودِ",
+          "fa": "پیش از عدد، حدودِ؛ مقداری یا برخی",
           "more": "around · roughly"
         }
       ],
       "note": "some پیش از عدد یعنی «حدودِ»؛ slithering onto the scene بازی با «پا به صحنه گذاشتن» است، به سبکِ مار."
     },
     {
-      "fa": "و با تکامل از شکل‌های مارمولکیِ نیاکانشان، درازی و بی‌دست‌وپایی را به دست آوردند،",
+      "fa": "و در مسیرِ تکامل از نیاکانِ مارمولک‌مانندشان به بدنی دراز و بدونِ دست‌وپا رسیدند،",
       "en": "evolving length and limblessness out of their ancestral lizard forms,",
       "ipa": "ɪˈvɑlvɪŋ lɛŋkθ ənd ˈlɪmbləsnəs aʊt əv ðɛr ænˈsɛstrəl ˈlɪzɚd fɔrmz",
       "words": [
@@ -184,7 +184,7 @@ DRILL({
           "w": "limbless",
           "ipa": "ˈlɪmləs",
           "m": "having no arms or legs",
-          "fa": "بی‌دست‌وپا",
+          "fa": "فاقدِ اندام‌های حرکتی، بدونِ دست‌وپا",
           "more": "limb"
         },
         {
@@ -204,7 +204,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مارها به‌سرعت گونه‌گون شدند و شاخه‌شاخه شدند.",
+      "fa": "مارها به‌سرعت به گونه‌های گوناگون منشعب شده‌اند.",
       "en": "snakes have diversified rapidly.",
       "ipa": "sneɪks hæv daɪˈvɝsəˌfaɪd ˈræpədli",
       "words": [
@@ -254,7 +254,7 @@ DRILL({
           "w": "novel",
           "ipa": "ˈnɑvəl",
           "m": "new and different",
-          "fa": "تازه، نو",
+          "fa": "تازه و پیش‌تر تجربه‌نشده؛ در نقشِ اسم، رمان",
           "more": "novelty"
         },
         {
@@ -267,7 +267,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و امروز نزدیک به ۴۰۰۰ گونه مار وجود دارد که زیستگاه‌هایی از بلند و پست تا خیس و خشک را در بر می‌گیرند.",
+      "fa": "و امروز نزدیک به چهار هزار گونه مار وجود دارد که هم در ارتفاعات و هم در زمین‌های پست، هم در زیستگاه‌های مرطوب و هم در زیستگاه‌های خشک زندگی می‌کنند.",
       "en": "And today, there are nearly 4,000 snake species, spanning habitats high and low, wet and dry.",
       "ipa": "ənd təˈdeɪ ðɛr ɚ ˈnɪrli fɔr ˈθaʊzənd sneɪk ˈspiʃiz ˈspænɪŋ ˈhæbəˌtæts haɪ ənd loʊ wɛt ənd draɪ",
       "words": [
@@ -330,7 +330,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آناتومیِ «فک‌اندازِ» شگفت‌انگیزشان به بیشترِ مارها اجازه می‌دهد وعده‌های غذایی‌شان را درسته قورت بدهند.",
+      "fa": "ساختارِ حیرت‌انگیزِ بدن به بیشترِ مارها امکان می‌دهد غذایشان را درسته ببلعند. <c>(صفتِ آغازین با دهانِ بازِ مار هم بازیِ لفظی دارد.)</c>",
       "en": "Jaw-dropping anatomy allows most snakes to swallow their meals whole.",
       "ipa": "dʒɔ ˈdrɑpɪŋ əˈnætəmi əˈlaʊz moʊst sneɪks tə ˈswɑloʊ ðɛr milz hoʊl",
       "newPara": true,
@@ -360,7 +360,7 @@ DRILL({
       "note": "jaw-dropping یعنی «حیرت‌انگیز»؛ اینجا بازیِ لفظی است چون فکِ مار واقعاً پایین می‌افتد."
     },
     {
-      "fa": "چون استخوان‌های فکشان مثل ما به هم جوش نخورده‌اند، بلکه با رباطی کشسان به هم وصل‌اند،",
+      "fa": "چون استخوان‌های فکِ آن‌ها مثلِ استخوان‌های فکِ ما به هم جوش نخورده‌اند، بلکه به‌وسیلهٔ رباطی کشسان به هم متصل‌اند",
       "en": "Because their jaw bones aren’t fused like ours but connected by an elastic ligament",
       "ipa": "bɪˈkɔz ðɛr dʒɔ boʊnz ˈɑrənt fjuzd laɪk ˈaʊɚz bət kəˈnɛktəd baɪ ən ɪˈlæstɪk ˈlɪɡəmənt",
       "words": [
@@ -563,7 +563,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و نواحیِ قفسهٔ سینه‌ای را که با آن نفس می‌کشند جدا و محدود می‌کنند.",
+      "fa": "و بخش‌هایی از قفسهٔ سینه را که با آن‌ها دم می‌گیرند از بقیه جدا نگه می‌دارند.",
       "en": "and isolate which rib cage regions they inhale with.",
       "ipa": "ənd ˈaɪsəˌleɪt wɪtʃ rɪb keɪdʒ ˈridʒənz ðeɪ ɪnˈheɪl wɪð",
       "words": [
@@ -655,7 +655,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مستند شده که با این مهارت کفتار، تمساح و — بله — حتی انسان را درسته خورده‌اند.",
+      "fa": "ثبت شده که پیتون‌ها با استفاده از این توانایی کفتارها، الیگاتورها و حتی، بله، انسان‌ها را درسته می‌بلعند.",
       "en": "They’ve been documented using this skill to eat hyenas, alligators, and— yes— even humans, whole.",
       "ipa": "ðeɪv bɪn ˈdɑkjəˌmɛntəd ˈjuzɪŋ ðɪs skɪl tə it haɪˈinəz ˈæləˌɡeɪtɚz ənd jɛs ˈivɪn ˈhjumənz hoʊl",
       "words": [
@@ -731,7 +731,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و گاهی می‌توانند تنها با یک ضیافت بیش از یک سال زنده بمانند.",
+      "fa": "و گاهی می‌توانند تنها با یک وعدهٔ حسابی بیش از یک سال زنده بمانند.",
       "en": "and they can sometimes survive for over a year on just one feast.",
       "ipa": "ənd ðeɪ kən səmˈtaɪmz sɚˈvaɪv fɚ ˈoʊvɚ ə jɪr ɑn dʒʌst wʌn fist",
       "words": [
@@ -746,7 +746,7 @@ DRILL({
           "w": "feast",
           "ipa": "fist",
           "m": "a very large meal",
-          "fa": "ضیافت، سورِ مفصل",
+          "fa": "یک وعدهٔ بسیار مفصل برای مار؛ ضیافت، جشن همراهِ غذا",
           "more": "banquet · feast on"
         }
       ]
@@ -872,7 +872,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و مارهای کور سرِ موریانه‌هایی را که هدف گرفته‌اند می‌کَنند، احتمالاً تا بدنِ گوارش‌پذیرترشان را در اولویت بگذارند.",
+      "fa": "و مارهای کور سرِ موریانه‌هایی را که شکار می‌کنند جدا می‌کنند، احتمالاً برای اینکه خوردنِ بدنِ زودهضم‌ترِ آن‌ها را در اولویت بگذارند.",
       "en": "and blindsnakes decapitate their termite targets, probably to prioritize their more digestible bodies.",
       "ipa": "ənd ˈblaɪndˌsneɪks diˈkæpəˌteɪt ðɛr ˈtɝmaɪt ˈtɑrɡəts ˈprɑbəbli tə praɪˈɔrəˌtaɪz ðɛr mɔr daɪˈdʒɛstəbəl ˈbɑdiz",
       "words": [
@@ -1009,7 +1009,7 @@ DRILL({
       ]
     },
     {
-      "fa": "جایی که حشره‌هایی را می‌خورند که در غیر این صورت ممکن بود به جوجه‌هایشان آسیب بزنند.",
+      "fa": "در آن لانه‌ها مارهای کور حشره‌هایی را می‌خورند که در غیر این صورت ممکن است به جوجه‌های جغدها آسیب برسانند.",
       "en": "where they eat the insects that might otherwise harm their young.",
       "ipa": "wɛr ðeɪ it ði ˈɪnˌsɛkts ðæt maɪt ˈʌðɚˌwaɪz hɑrm ðɛr jʌŋ",
       "words": [
@@ -1038,13 +1038,13 @@ DRILL({
           "w": "young",
           "ipa": "jʌŋ",
           "m": "(n.) the babies of an animal",
-          "fa": "بچه‌ها، جوجه‌ها (جانور)",
+          "fa": "بچه‌های یک جانور، اینجا جوجه‌جغدها؛ در نقشِ صفت، جوان",
           "more": "offspring"
         }
       ]
     },
     {
-      "fa": "در واقع، جوجه‌جغدهایی که یک مارِ کور هم‌لانه‌شان است، رشد و ماندگاریِ بیشتری دارند.",
+      "fa": "در واقع، جوجه‌جغدهایی که با یک مارِ کور هم‌لانه‌اند، سریع‌تر رشد می‌کنند و احتمالِ زنده ماندنشان بیشتر است.",
       "en": "In fact, baby owls with a blindsnake nestmate have higher rates of growth and survival.",
       "ipa": "ɪn fækt ˈbeɪbi aʊlz wɪð ə ˈblaɪndˌsneɪk ˈnɛstˌmeɪt hæv ˈhaɪɚ reɪts əv ɡroʊθ ənd sɚˈvaɪvəl",
       "words": [
@@ -1135,7 +1135,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با این حال، قورباغه‌های در حالِ رشد حتی در مرحلهٔ جنینی هم لرزش‌های مارِ مهاجم را حس می‌کنند",
+      "fa": "با این حال، این قورباغه‌های در حالِ رشد حتی وقتی هنوز جنین‌اند می‌توانند لرزش‌های ماری را که حمله می‌کند حس کنند",
       "en": "However, even as embryos, the developing frogs can sense an attacking snake’s vibrations",
       "ipa": "ˌhaʊˈɛvɚ ˈivɪn əz ˈɛmbriˌoʊz ðə dɪˈvɛləpɪŋ frɑɡz kən sɛns ən əˈtækɪŋ sneɪks vaɪˈbreɪʃənz",
       "words": [
@@ -1191,7 +1191,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این یک فداکاری است — اما دست‌کم مرگِ حتمی به دستِ مار نیست.",
+      "fa": "زود به دنیا آمدن برایشان بهایی دارد، اما دست‌کم به معنای مرگِ حتمی در چنگِ مار نیست.",
       "en": "It’s a sacrifice— but at least it’s not certain death by serpent.",
       "ipa": "ɪts ə ˈsækrəˌfaɪs bət ət list ɪts nɑt ˈsɝtən dɛθ baɪ ˈsɝpənt",
       "words": [
@@ -1199,7 +1199,7 @@ DRILL({
           "w": "sacrifice",
           "ipa": "ˈsækrəˌfaɪs",
           "m": "giving up something important to get something else",
-          "fa": "فداکاری، از دست دادن",
+          "fa": "بهایی که برای زنده ماندن پرداخته می‌شود؛ ازخودگذشتگی یا قربانی",
           "more": "sacrifice (v.)"
         },
         {
@@ -1269,7 +1269,7 @@ DRILL({
       ]
     },
     {
-      "fa": "فقط یک گاز می‌تواند آدم را بکشد،",
+      "fa": "حتی خوردنِ یک لقمه از آن سمندرها می‌تواند جانِ یک انسان را بگیرد،",
       "en": "Just one bite could kill a person,",
       "ipa": "dʒʌst wʌn baɪt kʊd kɪl ə ˈpɝsən",
       "words": [
@@ -1277,7 +1277,7 @@ DRILL({
           "w": "bite",
           "ipa": "baɪt",
           "m": "the act of cutting into something with the teeth; an amount bitten",
-          "fa": "گاز",
+          "fa": "یک گاز یا لقمه از غذای سمی؛ گازگرفتگی",
           "more": "bite (v.) · mouthful"
         }
       ]
@@ -1618,7 +1618,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما هنوز جواب نداده‌ایم که مارهای کوچک‌تر چطور مارهای بزرگ‌تر را می‌خورند.",
+      "fa": "اما هنوز پاسخ نداده‌ایم که مارهای کوچک‌تر چطور می‌توانند مارهای بزرگ‌تر را بخورند.",
       "en": "But we still haven’t answered how smaller snakes can consume bigger ones.",
       "ipa": "bət wi stɪl ˈhævənt ˈænsɚd haʊ ˈsmɔlɚ sneɪks kən kənˈsum ˈbɪɡɚ wʌnz",
       "newPara": true
@@ -1639,7 +1639,7 @@ DRILL({
           "w": "elegant",
           "ipa": "ˈɛləɡənt",
           "m": "clever but simple",
-          "fa": "ظریف، هوشمندانه",
+          "fa": "ساده و هوشمندانه (راه‌حل)؛ شیک و خوش‌ظاهر",
           "more": "elegance · neat"
         },
         {
@@ -1653,7 +1653,7 @@ DRILL({
       "note": "elegant اینجا برای راه‌حل است: «ساده و هوشمندانه»، نه «شیک»."
     },
     {
-      "fa": "وقتی جا در معدهٔ انعطاف‌پذیرش تمام شد، ستون‌فقراتش را می‌کشد و فشرده می‌کند،",
+      "fa": "همین که در معدهٔ انعطاف‌پذیرِ شاه‌مار دیگر جایی نمی‌ماند، شاه‌مار ستونِ فقراتش را می‌کشد و فشرده می‌کند،",
       "en": "Once it runs out of space in its flexible stomach, it stretches and compresses its spine,",
       "ipa": "wʌns ɪt rʌnz aʊt əv speɪs ɪn ɪts ˈflɛksəbəl ˈstʌmək ɪt ˈstrɛtʃəz ənd kəmˈprɛsɪz ɪts spaɪn",
       "words": [
@@ -1724,7 +1724,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ببخشید، می‌دانیم که هضمِ حقیقت گاهی سخت است.",
+      "fa": "ببخشید، می‌دانیم گاهی قورت دادنِ حقیقت سخت است.",
       "en": "Sorry, we know the truth can be hard to swallow.",
       "ipa": "ˈsɑri wi noʊ ðə truθ kən bi hɑrd tə ˈswɑloʊ",
       "words": [
@@ -1732,7 +1732,7 @@ DRILL({
           "w": "hard to swallow",
           "ipa": "hɑrd tə ˈswɑloʊ",
           "m": "difficult to accept or believe",
-          "fa": "سخت‌هضم، پذیرفتنش دشوار",
+          "fa": "پذیرفتنش دشوار است؛ در معنیِ لفظی، بلعیدنش سخت است",
           "more": "a bitter pill to swallow"
         }
       ],

@@ -33,7 +33,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یکی از عجیب‌ترین‌ها وسواسشان به یک گونهٔ مشخصِ گیاه است.",
+      "fa": "یکی از عجیب‌ترینشان شیفتگیِ شدیدِ گربه‌ها به یک گونهٔ خاصِ گیاهی است.",
       "en": "one of the strangest is their obsession with a specific species of plant.",
       "ipa": "wʌn əv ðə ˈstreɪndʒɪst ɪz ðɛr əbˈsɛʃən wɪð ə spəˈsɪfɪk ˈspiʃiz əv plænt",
       "words": [
@@ -41,7 +41,7 @@ DRILL({
           "w": "obsession (with)",
           "ipa": "əbˈsɛʃən (wɪð)",
           "m": "a strong interest that you cannot stop thinking about",
-          "fa": "وسواس، شیفتگی (به)",
+          "fa": "شیفتگیِ شدید به چیزی، دل‌مشغولیِ مداوم؛ وسواسِ فکری",
           "more": "obsessed with · obsessive · fixation"
         },
         {
@@ -69,7 +69,7 @@ DRILL({
           "w": "whiff",
           "ipa": "wɪf",
           "m": "a slight smell of something, noticed for a moment",
-          "fa": "بو، یک بار بو کشیدن",
+          "fa": "یک بار بو کشیدن؛ بوی خفیف و گذرا",
           "more": "sniff · scent"
         },
         {
@@ -131,7 +131,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس چرا گربه‌ها برای گیاهِ پونهٔ گربه دیوانه می‌شوند؟",
+      "fa": "پس چرا گربه‌ها این‌قدر دیوانهٔ پونهٔ گربه‌اند؟",
       "en": "So, why do cats go crazy for catnip?",
       "ipa": "soʊ waɪ du kæts ɡoʊ ˈkreɪzi fɚ ˈkætnɪp",
       "words": [
@@ -174,7 +174,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آن‌ها همراه با تیم‌های پژوهشی‌شان از دانشگاهِ ایواته و ناگویا،",
+      "fa": "همراه با گروه‌های پژوهشی‌شان از دو دانشگاهِ ایواته و ناگویا،",
       "en": "Along with their research teams from Iwate and Nagoya University,",
       "ipa": "əˈlɔŋ wɪð ðɛr riˈsɝtʃ timz frəm aɪˈweɪt ənd nəˈɡɔɪə ˌjunəˈvɝsəti",
       "words": [
@@ -195,7 +195,7 @@ DRILL({
       ]
     },
     {
-      "fa": "کار را با بررسیِ گیاهِ سیلورواین آغاز کردند — گیاهی که واکنشی شبیه به پونهٔ گربه برمی‌انگیزد.",
+      "fa": "آن‌ها کار را با بررسیِ سیلورواین آغاز کردند، گیاهی که واکنشی شبیه به واکنشِ گربه‌ها به پونهٔ گربه برمی‌انگیزد.",
       "en": "they began by studying silvervine— a plant that sparks a similar response to catnip.",
       "ipa": "ðeɪ bɪˈɡæn baɪ ˈstʌdiɪŋ ˈsɪlvɚˌvaɪn ə plænt ðæt spɑrks ə ˈsɪməlɚ rɪˈspɑns tə ˈkætnɪp",
       "words": [
@@ -252,7 +252,7 @@ DRILL({
           "w": "to dribble",
           "ipa": "tə ˈdrɪbəl",
           "m": "to let a liquid fall slowly in small drops",
-          "fa": "قطره‌قطره ریختن",
+          "fa": "قطره‌قطره ریختنِ مایع؛ دریبل کردنِ توپ",
           "more": "drip · trickle"
         },
         {
@@ -279,7 +279,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بعد چند گربه آوردند و بررسی کردند که گربه‌ها به کدام ترکیب‌ها جذب می‌شوند.",
+      "fa": "بعد چند گربه آوردند و بررسی کردند که به کدام‌یک از این مواد جذب می‌شدند.",
       "en": "Then they brought in some cats and studied which compounds they were drawn to.",
       "ipa": "ðɛn ðeɪ brɔt ɪn sʌm kæts ənd ˈstʌdid wɪtʃ kəmˈpaʊndz ðeɪ wɚ drɔn tu",
       "words": [
@@ -293,7 +293,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آزمایش‌شونده‌های گربه‌سانشان با اکثریتِ قاطع روی کاغذهایی پریدند که نپتالاکتول داشتند.",
+      "fa": "اکثریتِ قاطعِ گربه‌هایی که در آزمایش شرکت داشتند روی کاغذهای حاویِ نپتالاکتول جستند.",
       "en": "Overwhelmingly, their feline testers pounced on the papers containing nepetalactol.",
       "ipa": "ˌoʊvɚˈwɛlmɪŋli ðɛr ˈfiˌlaɪn ˈtɛstɚz paʊnst ɑn ðə ˈpeɪpɚz kənˈteɪnɪŋ ˌnɛpətəˈkleɪtəl",
       "words": [
@@ -308,7 +308,7 @@ DRILL({
           "w": "tester",
           "ipa": "ˈtɛstɚ",
           "m": "a person or animal that tries something to see how good it is",
-          "fa": "آزمایش‌کننده، امتحان‌کننده",
+          "fa": "آزمایش‌کننده، اینجا گربه‌ای که مواد را امتحان می‌کند؛ وسیلهٔ آزمایش",
           "more": "test · trial"
         },
         {
@@ -328,7 +328,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و وقتی میازاکی و شاگردش رِیکو اوئنویاما از گربه‌هایی که با نپتالاکتول سروکار داشتند آزمایشِ خون گرفتند،",
+      "fa": "و وقتی میازاکی و شاگردش رِیکو اوئنویاما از گربه‌هایی آزمایشِ خون گرفتند که پیش‌تر با نپتالاکتول تماس پیدا کرده بودند،",
       "en": "And when Miyazaki and his student Reiko Uenoyama ran blood tests on the cats who’d interacted with nepetalactol,",
       "ipa": "ənd wɛn ˌmijɑˈzɑki ənd hɪz ˈstudənt ˈrikoʊ ˌwɛnuˈoʊmə ræn blʌd tɛsts ɑn ðə kæts hud ˌɪntəˈræktəd wɪð ˌnɛpətəˈkleɪtəl",
       "newPara": true,
@@ -344,13 +344,13 @@ DRILL({
           "w": "to interact with",
           "ipa": "tə ˌɪntəˈrækt wɪð",
           "m": "to have an effect on or communicate with something",
-          "fa": "سروکار داشتن با، تعامل داشتن با",
+          "fa": "در تماس بودن با ماده؛ با کسی تعامل داشتن",
           "more": "interaction · engage with"
         }
       ]
     },
     {
-      "fa": "دیدند بدنشان از اندورفین لبریز شده است.",
+      "fa": "دریافتند که بدنِ آن گربه‌ها لبریز از اندورفین شده بود.",
       "en": "they found their systems were flooded with endorphins.",
       "ipa": "ðeɪ faʊnd ðɛr ˈsɪstəmz wɚ ˈflʌdəd wɪð ɛnˈdɔrfɪnz",
       "words": [
@@ -434,7 +434,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و پونهٔ گربه همین هجومِ اندورفین را با ماده‌ای شیمیاییِ مشابه به نامِ نپتالاکتون به راه می‌اندازد،",
+      "fa": "و پونهٔ گربه با مادهٔ شیمیاییِ مشابهی به نامِ نپتالاکتون همان موجِ ناگهانیِ اندورفین را به راه می‌اندازد،",
       "en": "And catnip triggers the same endorphin rush with a similar chemical called nepetalactone,",
       "ipa": "ənd ˈkætnɪp ˈtrɪɡɚz ðə seɪm ɛnˈdɔrfɪn rʌʃ wɪð ə ˈsɪməlɚ ˈkɛməkəl kɔld ˌnɛpətəˈkleɪʃən",
       "words": [
@@ -449,7 +449,7 @@ DRILL({
           "w": "rush",
           "ipa": "rʌʃ",
           "m": "a sudden strong feeling or flow of something",
-          "fa": "هجوم، موج (ناگهانی)",
+          "fa": "موج یا افزایشِ ناگهانیِ یک هورمون؛ شتاب؛ هجوم",
           "more": "surge · adrenaline rush"
         },
         {
@@ -462,7 +462,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و همین سیلِ هورمون‌های شادی‌بخش است که واکنشِ مشخصه و شبیهِ موادِ مخدرِ پونهٔ گربه و سیلورواین را پدید می‌آورد.",
+      "fa": "و درست همین سیلِ هورمون‌های شادی‌بخش است که باعث می‌شود پونهٔ گربه و سیلورواین آن واکنشِ خاصِ شبیهِ اثرِ موادِ مخدر را برانگیزند.",
       "en": "and it’s this flood of happy hormones that gives catnip and silvervine their signature drug-like response.",
       "ipa": "ənd ɪts ðɪs flʌd əv ˈhæpi ˈhɔrˌmoʊnz ðæt ɡɪvz ˈkætnɪp ənd ˈsɪlvɚˌvaɪn ðɛr ˈsɪɡnətʃɚ drʌɡ laɪk rɪˈspɑns",
       "words": [
@@ -477,7 +477,7 @@ DRILL({
           "w": "signature",
           "ipa": "ˈsɪɡnətʃɚ",
           "m": "typical of a person or thing and making it easy to recognize",
-          "fa": "مشخصه، شاخص",
+          "fa": "ویژه و مشخصهٔ چیزی؛ در نقش اسم، امضا",
           "more": "trademark · characteristic · hallmark"
         },
         {
@@ -491,7 +491,7 @@ DRILL({
       "note": "ساختارِ <en>it’s … that …</en> برای تأکید بر «همین سیل» است."
     },
     {
-      "fa": "این ترکیب‌ها فقط در گربه‌های کوچک چنین اثری ایجاد نمی‌کنند.",
+      "fa": "فقط گربه‌سانانِ کوچک نیستند که این ترکیب‌ها در آن‌ها چنین اثری ایجاد می‌کنند.",
       "en": "These compounds don't just trigger this effect in small cats.",
       "ipa": "ðiz kəmˈpaʊndz doʊnt dʒʌst ˈtrɪɡɚ ðɪs ɪˈfɛkt ɪn smɔl kæts",
       "newPara": true
@@ -645,7 +645,7 @@ DRILL({
           "w": "to raise",
           "ipa": "tə reɪz",
           "m": "to mention a subject or idea for people to discuss",
-          "fa": "مطرح کردن",
+          "fa": "نظریه یا پرسشی را مطرح کردن؛ بالا بردن؛ پرورش دادن",
           "more": "bring up · put forward"
         },
         {
@@ -729,7 +729,7 @@ DRILL({
           "w": "to apply",
           "ipa": "tə əˈplaɪ",
           "m": "to put a substance on a surface, such as the skin",
-          "fa": "زدن، مالیدن (روی پوست)",
+          "fa": "ماده‌ای را روی بدن زدن؛ به کار بردن؛ درخواست دادن",
           "more": "application · put on"
         },
         {
@@ -778,7 +778,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و همان‌طور که انتظار می‌رفت، گربه‌هایی که به آن‌ها نپتالاکتول زده بودند",
+      "fa": "و همان‌طور که انتظار می‌رفت، گربه‌هایی که از قبل بدنشان به نپتالاکتول آغشته شده بود",
       "en": "And sure enough, the cats that had been treated with nepetalactol",
       "ipa": "ənd ʃʊr ɪˈnʌf ðə kæts ðæt hæd bɪn ˈtritəd wɪð ˌnɛpətəˈkleɪtəl",
       "words": [
@@ -792,7 +792,7 @@ DRILL({
       ]
     },
     {
-      "fa": "کمتر از گربه‌های گروهِ شاهد پشه‌گزیده شدند.",
+      "fa": "در مقایسه با گربه‌های گروهِ شاهد، دفعاتِ کمتری پشه‌گزیده شدند.",
       "en": "got fewer mosquito bites than the cats in the control group.",
       "ipa": "ɡɑt ˈfjuɚ məˈskitoʊ baɪts ðən ðə kæts ɪn ðə kənˈtroʊl ɡrup",
       "words": [
@@ -835,7 +835,7 @@ DRILL({
           "w": "subject",
           "ipa": "ˈsʌbdʒɪkt",
           "m": "a person or animal used in an experiment",
-          "fa": "آزمودنی",
+          "fa": "آزمودنیِ پژوهش؛ موضوع؛ فاعلِ جمله",
           "more": "participant · test subject"
         }
       ]
@@ -896,12 +896,12 @@ DRILL({
       ]
     },
     {
-      "fa": "اما آیا گربه‌ها واقعاً لازم است این‌قدر دیوانه‌بازی دربیاورند تا اثرِ دفعِ حشره را به دست بیاورند؟",
+      "fa": "اما آیا گربه‌ها برای بهره بردن از خاصیتِ دفعِ حشراتِ این گیاهان واقعاً لازم است تا این حد از خود بی‌خود شوند؟",
       "en": "But do cats really need to go this crazy to get their bug repelling effects?",
       "ipa": "bət du kæts ˈrɪli nid tə ɡoʊ ðɪs ˈkreɪzi tə ɡɛt ðɛr bʌɡ rəˈpɛlɪŋ ɪˈfɛkts"
     },
     {
-      "fa": "برای بررسیِ مالیدن، به گربه‌ها کاغذهای صافی‌ای دادند که به مقدارهای بسیار ناچیز و میکروسکوپیِ نپتالاکتول آغشته بود.",
+      "fa": "برای بررسیِ رفتارِ مالیدنِ بدن، کاغذهای صافیِ آغشته به مقادیرِ فوق‌العاده اندکِ نپتالاکتول را در اختیارِ گربه‌ها گذاشتند.",
       "en": "To investigate rubbing, they provided cats with filter papers treated with microscopic amounts of nepetalactol.",
       "ipa": "tə ɪnˈvɛstəˌɡeɪt ˈrʌbɪŋ ðeɪ prəˈvaɪdəd kæts wɪð ˈfɪltɚ ˈpeɪpɚz ˈtritəd wɪð ˌmaɪkrəˈskɑpɪk əˈmaʊnts əv ˌnɛpətəˈkleɪtəl",
       "words": [
@@ -923,13 +923,13 @@ DRILL({
           "w": "microscopic",
           "ipa": "ˌmaɪkrəˈskɑpɪk",
           "m": "extremely small",
-          "fa": "میکروسکوپی، بسیار ریز",
+          "fa": "فوق‌العاده ناچیز (مقدار)؛ چنان ریز که فقط با میکروسکوپ دیده شود",
           "more": "tiny · minute · microscope"
         }
       ]
     },
     {
-      "fa": "و همان‌طور که انتظار می‌رفت، حتی همین مقدارهای اندک هم کاغذها را مقاومت‌ناپذیر کرد،",
+      "fa": "و همان‌طور که انتظار می‌رفت، حتی همین مقدارهای ناچیز هم کاغذها را برای گربه‌ها چنان جذاب کرد که نمی‌توانستند از آن‌ها بگذرند،",
       "en": "And sure enough, even these tiny doses made the papers irresistible,",
       "ipa": "ənd ʃʊr ɪˈnʌf ˈivɪn ðiz ˈtaɪni ˈdoʊsəz meɪd ðə ˈpeɪpɚz ˌɪrɪˈzɪstəbəl",
       "words": [
@@ -950,7 +950,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که نشان می‌داد مقدارهای میکروسکوپیِ مادهٔ دافعِ حشره را می‌شود تنها با مالیدن منتقل کرد.",
+      "fa": "که نشان می‌داد مقادیرِ بسیار ناچیزِ مادهٔ دافعِ حشرات می‌تواند تنها از راهِ مالیدنِ بدن منتقل شود.",
       "en": "suggesting that microscopic amounts of bug repellent can be transferred by rubbing alone.",
       "ipa": "səɡˈdʒɛstɪŋ ðæt ˌmaɪkrəˈskɑpɪk əˈmaʊnts əv bʌɡ rɪˈpɛlənt kən bi trænˈsfɝd baɪ ˈrʌbɪŋ əˈloʊn",
       "words": [
@@ -958,7 +958,7 @@ DRILL({
           "w": "to suggest",
           "ipa": "tə səɡˈdʒɛst",
           "m": "to show that something is probably true",
-          "fa": "نشان دادن، حاکی بودن از",
+          "fa": "از شواهد چنین برآمدن، حاکی از چیزی بودن؛ پیشنهاد کردن",
           "more": "indicate · imply · suggestion"
         },
         {
@@ -1004,7 +1004,7 @@ DRILL({
       "ipa": "ðə livz ˈæktʃəwəli prəˈdus mɔr məˈskitoʊ rɪˈpɛlənt ˈkɛmɪkəlz"
     },
     {
-      "fa": "پس گربه‌تان فقط برای اذیت کردن کیسه‌های پونهٔ گربه‌اش را پاره نمی‌کند،",
+      "fa": "پس گربه‌تان کیسه‌های پونهٔ گربه‌اش را پاره نمی‌کند که فقط حرصتان را دربیاورد،",
       "en": "So your cat isn’t just ripping open their bags of catnip to be annoying,",
       "ipa": "soʊ jɔr kæt ˈɪzənt dʒʌst ˈrɪpɪŋ ˈoʊpən ðɛr bæɡz əv ˈkætnɪp tə bi əˈnɔɪɪŋ",
       "words": [
@@ -1012,7 +1012,7 @@ DRILL({
           "w": "to rip open",
           "ipa": "tə rɪp ˈoʊpən",
           "m": "to open something quickly by tearing it",
-          "fa": "پاره کردن و باز کردن",
+          "fa": "با پاره کردن باز کردن (مثلاً بسته یا کیسه)",
           "more": "tear open · rip"
         },
         {
@@ -1025,7 +1025,7 @@ DRILL({
       ]
     },
     {
-      "fa": "غریزه‌های تکاملی‌اش فقط می‌کوشند هرچه بیشتر از آن محافظت در برابرِ حشره به دست آورند.",
+      "fa": "غریزه‌های تکاملی‌اش فقط در پیِ این‌اند که او را حتی بیشتر از قبل در برابر حشرات محافظت کنند.",
       "en": "their evolutionary instincts are just trying to get even more of that bug protection.",
       "ipa": "ðɛr ˌɛvəˈluʃəˌnɛri ˈɪnstɪŋkts ɚ dʒʌst ˈtraɪɪŋ tə ɡɛt ˈivɪn mɔr əv ðæt bʌɡ prəˈtɛkʃən",
       "words": [
@@ -1213,7 +1213,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس دفعهٔ بعد که دوستِ گربه‌سانتان را در حالِ زیاده‌رویِ افراطی در پونهٔ گربه دیدید،",
+      "fa": "پس دفعهٔ بعد که دیدید دوستِ گربه‌سانتان در مصرفِ پونهٔ گربه زیاده‌روی می‌کند،",
       "en": "So, the next time you see your feline friend on catnip binge,",
       "ipa": "soʊ ðə nɛkst taɪm ju si jɔr ˈfiˌlaɪn frɛnd ɑn ˈkætnɪp bɪndʒ",
       "newPara": true,
@@ -1222,7 +1222,7 @@ DRILL({
           "w": "binge",
           "ipa": "bɪndʒ",
           "m": "a short period of doing too much of something, such as eating or drinking",
-          "fa": "زیاده‌روی، افراط",
+          "fa": "یک دورهٔ کوتاهِ زیاده‌روی در مصرف یا انجامِ کاری",
           "more": "binge-watch · spree · overindulge"
         }
       ],

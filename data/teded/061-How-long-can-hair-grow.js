@@ -19,7 +19,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آن موقع، گیسوانِ چشمگیرش به بیش از پنج متر می‌رسید —",
+      "fa": "آن زمان، طولِ گیسوانِ چشمگیرش به بیش از پنج متر می‌رسید —",
       "en": "At the time, her impressive locks extended over five meters—",
       "ipa": "ət ðə taɪm hɚ ɪmˈprɛsɪv lɑks ɪkˈstɛndəd ˈoʊvɚ faɪv ˈmitɚz",
       "words": [
@@ -54,7 +54,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و رکوردِ جهانیِ گینس را برای بلندترین موی دنیا برایش به ارمغان آورد.",
+      "fa": "و به این ترتیب رکوردِ جهانیِ گینس برای بلندترین موی دنیا نصیبش شد.",
       "en": "earning the Guinness World Record for the world's longest hair.",
       "ipa": "ˈɝnɪŋ ðə ˈɡɪnəs wɝld ˈrɛkɚd fɚ ðə wɝldz ˈlɔŋɡəst hɛr",
       "words": [
@@ -62,13 +62,13 @@ DRILL({
           "w": "to earn",
           "ipa": "tə ɝn",
           "m": "to get something because of what you have done",
-          "fa": "به دست آوردن، کسب کردن",
+          "fa": "به دست آوردن، کسب کردن؛ درآمد داشتن",
           "more": "to win · to gain"
         }
       ]
     },
     {
-      "fa": "اما حتی با این شاهکارِ رکوردشکن، شاید موهایش به حداکثرِ طولِ ممکنش نرسیده بود.",
+      "fa": "اما حتی با این شاهکارِ رکوردشکن، شاید موهایش هنوز به حداکثرِ طولِ ممکنشان نرسیده بودند.",
       "en": "But even with this record-setting feat, her hair might not have reached its maximum possible length.",
       "ipa": "bət ˈivɪn wɪð ðɪs ˈrɛkɚd ˈsɛtɪŋ fit hɚ hɛr maɪt nɑt hæv ritʃt ɪts ˈmæksəməm ˈpɑsəbəl lɛŋkθ",
       "words": [
@@ -102,7 +102,7 @@ DRILL({
       "note": "just این‌جا سؤال را تأکیدی می‌کند: «واقعاً تا چه اندازه»."
     },
     {
-      "fa": "برای اینکه تهِ این سؤال را دربیاوریم، بیایید از ته یک فولیکولِ مو شروع کنیم.",
+      "fa": "برای اینکه ببینیم تهِ این ماجرا چیست، بیایید از تهِ یک فولیکولِ مو شروع کنیم.",
       "en": "To get to the bottom of this question, let's start at the bottom of a hair follicle.",
       "ipa": "tə ɡɛt tə ðə ˈbɑtəm əv ðɪs ˈkwɛstʃən lɛts stɑrt ət ðə ˈbɑtəm əv ə hɛr ˈfɑləkəl",
       "newPara": true,
@@ -111,14 +111,14 @@ DRILL({
           "w": "to get to the bottom of",
           "ipa": "tə ɡɛt tə ðə ˈbɑtəm ʌv",
           "m": "to discover the real cause or truth of something",
-          "fa": "تهِ چیزی را درآوردن، سر درآوردن از",
+          "fa": "از چندوچونِ چیزی سر درآوردن، حقیقتِ چیزی را کشف کردن",
           "more": "to find out · to figure out"
         },
         {
           "w": "follicle",
           "ipa": "ˈfɑləkəl",
           "m": "one of the small holes in the skin that a hair grows from",
-          "fa": "فولیکول، پیازِ مو",
+          "fa": "فولیکولِ مو، کیسهٔ باریکی در پوست که مو از آن می‌روید",
           "more": "hair follicle"
         }
       ],
@@ -167,7 +167,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در پایهٔ آن‌ها چیزی هست به نامِ پیازِ مو، که سلول‌های ماتریکس دارد که به‌سرعت تقسیم می‌شوند.",
+      "fa": "در انتهای هر فولیکول بخشی هست که به آن «پیازِ مو» می‌گویند؛ درونِ آن سلول‌های ماتریکس قرار دارند که به‌سرعت تقسیم می‌شوند.",
       "en": "At their base is what's called the hair bulb, and it contains rapidly dividing matrix cells.",
       "ipa": "ət ðɛr beɪs ɪz wʌts kɔld ðə hɛr bʌlb ənd ɪt kənˈteɪnz ˈræpədli dɪˈvaɪdɪŋ ˈmeɪtrɪks sɛlz",
       "words": [
@@ -175,7 +175,7 @@ DRILL({
           "w": "base",
           "ipa": "beɪs",
           "m": "the lowest part of something, on which it rests",
-          "fa": "پایه، قاعده",
+          "fa": "قاعده یا انتهای فولیکول؛ پایه، مبنا",
           "more": "basic · at the base of"
         },
         {
@@ -189,7 +189,7 @@ DRILL({
           "w": "bulb",
           "ipa": "bʌlb",
           "m": "a round part at the bottom of something, like the root of a plant",
-          "fa": "پیاز، حباب",
+          "fa": "پیازِ مو؛ پیازِ گیاه، حبابِ چراغ",
           "more": "light bulb"
         },
         {
@@ -217,7 +217,7 @@ DRILL({
           "w": "matrix",
           "ipa": "ˈmeɪtrɪks",
           "m": "(biology) the material or tissue in which something develops",
-          "fa": "ماتریکس، زمینه",
+          "fa": "ماتریکسِ مو، بخشِ سلول‌سازِ پیازِ مو؛ زمینه، بستر",
           "more": "matrices (pl.)"
         }
       ],
@@ -245,7 +245,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که وقتی خودشان را با پروتئین‌های کابل‌مانندِ کراتین پر می‌کنند، سفت می‌شوند.",
+      "fa": "که هم‌زمان با پر شدن از پروتئین‌های کراتینِ شبیه به کابل، سفت می‌شوند.",
       "en": "which harden as they fill themselves with cable-like keratin proteins.",
       "ipa": "wɪtʃ ˈhɑrdən əz ðeɪ fɪl ðɛmˈsɛlvz wɪð ˈkeɪbəl laɪk ˈkɛrətən ˈproʊˌtinz",
       "words": [
@@ -273,7 +273,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هرچه تریکوسیت‌های بیشتر و بیشتری ساخته می‌شوند،",
+      "fa": "با تولیدِ تعدادِ هرچه بیشتری تریکوسیت،",
       "en": "As more and more trichocytes are produced,",
       "ipa": "əz mɔr ənd mɔr ˈtraɪkəˌsaɪts ɚ prəˈdust",
       "words": [
@@ -335,7 +335,7 @@ DRILL({
       "newPara": true
     },
     {
-      "fa": "ولی همهٔ موها به یک طول، یک شکل یا یک رنگ نمی‌رسند.",
+      "fa": "اما موها که رشد می‌کنند، طول و شکل و رنگِ همه‌شان یکسان نمی‌شود.",
       "en": "but not all hair will grow to the same length, shape, or color.",
       "ipa": "bət nɑt ɔl hɛr wɪl ɡroʊ tə ðə seɪm lɛŋkθ ʃeɪp ɔr ˈkʌlɚ",
       "words": [
@@ -343,7 +343,7 @@ DRILL({
           "w": "length",
           "ipa": "lɛŋkθ",
           "m": "how long something is",
-          "fa": "طول، درازا",
+          "fa": "بلندیِ مو، طول، درازا",
           "more": "long · to lengthen"
         }
       ]
@@ -384,7 +384,7 @@ DRILL({
       ]
     },
     {
-      "fa": "فیبروبلاست‌ها به سلول‌های ماتریکس دستور می‌دهند برای هر بخش از بدن نوعِ مشخصی مو بسازند.",
+      "fa": "فیبروبلاست‌ها به سلول‌های ماتریکس دستور می‌دهند که برای هر بخشِ بدن نوعِ خاصی از مو را برویانند.",
       "en": "Fibroblasts instruct the matrix cells to grow specific kinds of hair for each part of the body.",
       "ipa": "ˈfaɪbrəbləsts ɪnˈstrʌkt ðə ˈmeɪtrɪks sɛlz tə ɡroʊ spəˈsɪfɪk kaɪndz əv hɛr fɚ itʃ pɑrt əv ðə ˈbɑdi",
       "words": [
@@ -405,7 +405,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به همین دلیل پزشک‌هایی که کاشتِ مو انجام می‌دهند معمولاً از فولیکول‌های همان عضو بدن استفاده می‌کنند،",
+      "fa": "به همین دلیل پزشکانی که کاشتِ مو انجام می‌دهند معمولاً از فولیکول‌های همان ناحیهٔ بدن استفاده می‌کنند،",
       "en": "This is why doctors doing hair implants usually use follicles from the same body part,",
       "ipa": "ðɪs ɪz waɪ ˈdɑktɚz ˈduɪŋ hɛr ˈɪmˌplænts ˈjuʒəwəli juz ˈfɑlɪkəlz frəm ðə seɪm ˈbɑdi pɑrt",
       "words": [
@@ -413,13 +413,13 @@ DRILL({
           "w": "implant",
           "ipa": "ˈɪmˌplænt",
           "m": "something put into the body in a medical operation",
-          "fa": "کاشت، ایمپلنت",
+          "fa": "کاشت یا پیوندِ مو؛ ایمپلنت، عضوِ کاشتنی",
           "more": "to implant · hair transplant"
         }
       ]
     },
     {
-      "fa": "هرچند گاهی هم کمی ماجرا را عوض می‌کنند.",
+      "fa": "هرچند گاهی هم روششان را عوض می‌کنند.",
       "en": "though they'll sometimes change things up.",
       "ipa": "ðoʊ ðeɪl səmˈtaɪmz tʃeɪndʒ θɪŋz ʌp",
       "words": [
@@ -427,7 +427,7 @@ DRILL({
           "w": "to change things up",
           "ipa": "tə tʃeɪndʒ θɪŋz ʌp",
           "m": "(informal) to do something differently from the usual way",
-          "fa": "ماجرا را عوض کردن، تنوع دادن",
+          "fa": "روشی را برای تنوع عوض کردن، به کاری تنوع دادن",
           "more": "to mix things up · to switch up"
         }
       ]
@@ -448,7 +448,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با طولِ میانگینِ یک سانتی‌متر.",
+      "fa": "و طولشان به‌طورِ میانگین یک سانتی‌متر است.",
       "en": "at an average length of one centimeter.",
       "ipa": "ət ən ˈævərɪdʒ lɛŋkθ əv wʌn ˈsɛntəˌmitɚ",
       "words": [
@@ -462,7 +462,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس پزشک‌ها برای اینکه مژه‌های بلندتری به آدم‌ها بدهند، ممکن است فولیکول‌های پوستِ سر را بکارند،",
+      "fa": "پس برای اینکه مژه‌های افراد بلندتر شود، پزشکان ممکن است فولیکول‌های پوستِ سر را پیوند بزنند،",
       "en": "So to give people longer eyelashes, doctors might implant scalp follicles,",
       "ipa": "soʊ tə ɡɪv ˈpipəl ˈlɔŋɡɚ ˈaɪˌlæʃɪz ˈdɑktɚz maɪt ˌɪmˈplænt skælp ˈfɑlɪkəlz",
       "words": [
@@ -476,7 +476,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که با سرعتی حدودِ ۱۵ سانتی‌متر در سال رشد می‌کنند.",
+      "fa": "که موهایشان با سرعتِ حدودِ ۱۵ سانتی‌متر در سال رشد می‌کنند.",
       "en": "which grow at a rate of about 15 centimeters per year.",
       "ipa": "wɪtʃ ɡroʊ ət ə reɪt əv əˈbaʊt fɪfˈtin ˈsɛntəˌmitɚz pɝ jɪr",
       "words": [
@@ -484,7 +484,7 @@ DRILL({
           "w": "rate",
           "ipa": "reɪt",
           "m": "the speed at which something happens",
-          "fa": "سرعت، نرخ",
+          "fa": "سرعتِ رشد، نرخ، میزان",
           "more": "at a rate of · growth rate"
         },
         {
@@ -512,7 +512,7 @@ DRILL({
           "w": "to trim",
           "ipa": "tə trɪm",
           "m": "to cut a small amount off something to make it neat",
-          "fa": "کوتاه کردن، مرتب کردن",
+          "fa": "نوکِ مو یا مژه را کوتاه کردن، مرتب کردن؛ هرس کردن",
           "more": "a trim · to clip"
         },
         {
@@ -525,7 +525,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا پردهٔ مویی که جلوی دیدشان را بگیرد درست نشود.",
+      "fa": "تا پرده‌ای از مو جلوی دیدشان را نگیرد.",
       "en": "to avoid a blinding curtain of hair.",
       "ipa": "tə əˈvɔɪd ə ˈblaɪndɪŋ ˈkɝtən əv hɛr",
       "words": [
@@ -540,7 +540,7 @@ DRILL({
           "w": "blinding",
           "ipa": "ˈblaɪndɪŋ",
           "m": "making someone unable to see",
-          "fa": "کورکننده، جلوی دید را گیرنده",
+          "fa": "مانعِ دید، کورکننده؛ خیره‌کننده (دربارهٔ نور)",
           "more": "blind · to blind"
         },
         {
@@ -617,7 +617,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس اگر زمان بگذرد، آن پیازهای مو خودشان را ترمیم می‌کنند و دوباره شروع به ساختنِ موی تازه می‌کنند.",
+      "fa": "پس اگر به آن پیازهای مو فرصت بدهید، خودشان را ترمیم می‌کنند و شروع به تولیدِ موی تازه می‌کنند.",
       "en": "So given time, those hair bulbs will repair themselves and begin producing new hair.",
       "ipa": "soʊ ˈɡɪvən taɪm ðoʊz hɛr bʌlbz wɪl rɪˈpɛr ðɛmˈsɛlvz ənd bɪˈɡɪn prəˈdusɪŋ nu hɛr",
       "words": [
@@ -653,7 +653,7 @@ DRILL({
       "note": "«only for so long» یعنی زمانِ محدود، نه «این‌قدر طولانی»."
     },
     {
-      "fa": "ما کاملاً نمی‌فهمیم فولیکول‌ها چطور زمان را اندازه می‌گیرند،",
+      "fa": "هنوز کاملاً نمی‌دانیم فولیکول‌ها چطور گذشتِ زمان را می‌سنجند،",
       "en": "We don't fully understand how follicles measure time,",
       "ipa": "wi doʊnt ˈfʊli ˌʌndɚˈstænd haʊ ˈfɑlɪkəlz ˈmɛʒɚ taɪm",
       "words": [
@@ -674,7 +674,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ولی بیشترِ وقت‌ها بعد از ۵ تا ۷ سال دیگر یک تار را رشد نمی‌دهند.",
+      "fa": "اما در بیشترِ موارد، فولیکول بعد از ۵ تا ۷ سال رشدِ آن تار مو را متوقف می‌کند.",
       "en": "but in most cases they'll stop growing a strand after 5 to 7 years.",
       "ipa": "bət ɪn moʊst ˈkeɪsəz ðeɪl stɑp ˈɡroʊɪŋ ə strænd ˈæftɚ faɪv tə ˈsɛvən jɪrz",
       "words": [
@@ -688,7 +688,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یعنی با سرعتِ ۱۵ سانتی‌متر در سال،",
+      "fa": "این یعنی با سرعتِ رشدِ ۱۵ سانتی‌متر در سال،",
       "en": "This means that at the rate of 15 centimeters a year,",
       "ipa": "ðɪs minz ðæt ət ðə reɪt əv fɪfˈtin ˈsɛntəˌmitɚz ə jɪr"
     },
@@ -743,7 +743,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و به ژنتیک، هورمون‌ها و بیماری‌ها و وضعیت‌های جسمیِ گوناگون بستگی دارد،",
+      "fa": "بسته به ژنتیک، هورمون‌ها و عارضه‌های جسمیِ گوناگون،",
       "en": "depending on genetics, hormones, and various health conditions,",
       "ipa": "dɪˈpɛndɪŋ ɑn dʒəˈnɛtɪks ˈhɔrˌmoʊnz ənd ˈvɛriəs hɛlθ kənˈdɪʃənz",
       "words": [
@@ -779,7 +779,7 @@ DRILL({
           "w": "health condition",
           "ipa": "hɛlθ kənˈdɪʃən",
           "m": "an illness or medical problem, often long-term",
-          "fa": "بیماری، وضعیتِ جسمی",
+          "fa": "عارضه یا بیماری، وضعیتِ سلامت",
           "more": "medical condition · disorder"
         }
       ]
@@ -828,7 +828,7 @@ DRILL({
           "w": "to fall out",
           "ipa": "tə fɔl aʊt",
           "m": "(of hair or teeth) to become loose and drop off",
-          "fa": "ریختن، افتادن",
+          "fa": "ریختنِ مو، افتادن؛ به اختلاف خوردن",
           "more": "hair loss · to come out"
         }
       ]
@@ -855,7 +855,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بعد از اینکه مویی از دست رفت، فیبروبلاست‌ها رشدِ تار تازه‌ای را به راه می‌اندازند",
+      "fa": "پس از افتادنِ یک تار مو، فیبروبلاست‌ها رشدِ تارِ تازه‌ای را به راه می‌اندازند",
       "en": "After a hair is lost, fibroblasts will trigger the growth of a new strand",
       "ipa": "ˈæftɚ ə hɛr ɪz lɔst ˈfaɪbrəbləsts wɪl ˈtrɪɡɚ ðə ɡroʊθ əv ə nu strænd",
       "words": [
@@ -869,7 +869,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا جای خالیِ پوستِ سرتان پر شود — البته معمولاً.",
+      "fa": "تا جای خالیِ آن روی سرتان پُر شود — البته معمولاً.",
       "en": "to fill out your scalp— usually.",
       "ipa": "tə fɪl aʊt jɔr skælp ˈjuʒəwəli",
       "words": [
@@ -877,13 +877,13 @@ DRILL({
           "w": "to fill out",
           "ipa": "tə fɪl aʊt",
           "m": "to make something fuller or thicker",
-          "fa": "پر کردن، پُرپشت کردن",
+          "fa": "پُرپشت کردنِ موی سر، پُرتر کردن؛ پُر کردنِ فرم",
           "more": "to fill in · to thicken"
         }
       ]
     },
     {
-      "fa": "با بالا رفتنِ سنمان، فولیکول‌ها بعضی انواعِ سلول را تمام می‌کنند،",
+      "fa": "با بالا رفتنِ سنمان، ذخیرهٔ برخی انواعِ سلول در فولیکول‌ها ته می‌کشد،",
       "en": "As we age, follicles run out of certain cell types,",
       "ipa": "əz wi eɪdʒ ˈfɑlɪkəlz rʌn aʊt əv ˈsɝtən sɛl taɪps",
       "newPara": true,
@@ -899,7 +899,7 @@ DRILL({
           "w": "to run out of",
           "ipa": "tə rʌn aʊt ʌv",
           "m": "to use all of something so that none is left",
-          "fa": "تمام کردن، ته کشیدنِ",
+          "fa": "دیگر از چیزی نداشتن، ذخیرهٔ چیزی را به پایان رساندن",
           "more": "to run short of · to use up"
         },
         {
@@ -926,7 +926,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مثلاً وقتی سلول‌های بنیادیِ ملانوسیت که رنگدانه می‌سازند ته می‌کشند،",
+      "fa": "مثلاً وقتی ذخیرهٔ سلول‌های بنیادیِ ملانوسیتِ رنگدانه‌ساز در فولیکول‌ها تمام می‌شود،",
       "en": "For example, when they run out of pigment-producing melanocyte stem cells,",
       "ipa": "fɚ ɪɡˈzæmpəl wɛn ðeɪ rʌn aʊt əv ˈpɪɡmənt prəˈdusɪŋ ˈmɛlənəˌsaɪt stɛm sɛlz",
       "words": [
@@ -947,7 +947,7 @@ DRILL({
       ]
     },
     {
-      "fa": "فولیکول‌ها شروع می‌کنند به ساختنِ موی سفید.",
+      "fa": "فولیکول‌ها شروع به تولیدِ تارهای موی خاکستری می‌کنند.",
       "en": "follicles begin producing gray hairs.",
       "ipa": "ˈfɑlɪkəlz bɪˈɡɪn prəˈdusɪŋ ɡreɪ hɛrz",
       "words": [
@@ -955,7 +955,7 @@ DRILL({
           "w": "gray hair",
           "ipa": "ɡreɪ hɛr",
           "m": "hair that has lost its colour with age",
-          "fa": "موی سفید/جوگندمی",
+          "fa": "موی خاکستری یا سفیدشده، موی جوگندمی",
           "more": "to go gray · grey (UK)"
         }
       ],
@@ -990,7 +990,7 @@ DRILL({
       ]
     },
     {
-      "fa": "معمولاً نسبتاً زود در زندگیِ آدم ته می‌کشند.",
+      "fa": "این سلول‌ها معمولاً در سنِ نسبتاً پایینی ته می‌کشند.",
       "en": "they tend to run out relatively early in a person’s life.",
       "ipa": "ðeɪ tɛnd tə rʌn aʊt ˈrɛlətɪvli ˈɝli ɪn ə ˈpɝsənz laɪf",
       "words": [
@@ -1025,7 +1025,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شروع می‌کنند به کوچک شدن و تارهای کوتاه‌تر و نازک‌تری می‌رویانند،",
+      "fa": "خودِ فولیکول‌ها شروع به کوچک شدن می‌کنند و تارهای کوتاه‌تر و نازک‌تری می‌رویانند،",
       "en": "they begin to shrink and grow shorter, thinner strands",
       "ipa": "ðeɪ bɪˈɡɪn tə ʃrɪŋk ənd ɡroʊ ˈʃɔrtɚ ˈθɪnɚ strændz",
       "words": [
@@ -1074,7 +1074,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این همان چیزی است که به طاسی می‌انجامد، هرچند تستوسترون هم می‌تواند این وضعیت را تسریع کند،",
+      "fa": "همین روند به طاسی می‌انجامد، هرچند تستوسترون هم می‌تواند روندِ طاس شدن را سریع‌تر کند،",
       "en": "This is what leads to baldness, though the condition can also be accelerated by testosterone,",
       "ipa": "ðɪs ɪz wʌt lidz tə ˈbɔldnəs ðoʊ ðə kənˈdɪʃən kən ˈɔlsoʊ bi ækˈsɛləˌreɪtɪd baɪ ˌtɛˈstɑstəˌroʊn",
       "words": [
@@ -1089,7 +1089,7 @@ DRILL({
           "w": "condition",
           "ipa": "kənˈdɪʃən",
           "m": "a medical problem or state",
-          "fa": "وضعیت، عارضه",
+          "fa": "عارضه (اینجا طاسی)، وضعیت، حالت",
           "more": "health condition · disorder"
         },
         {
@@ -1102,7 +1102,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که می‌تواند جلوی رسیدنِ دستورهای فیبروبلاست‌ها به سلول‌های فولیکول را بگیرد.",
+      "fa": "زیرا این هورمون می‌تواند جلوی رسیدنِ دستورهای فیبروبلاست‌ها به سلول‌های فولیکول را بگیرد.",
       "en": "which can prevent fibroblasts’ instructions from reaching a follicle’s cells.",
       "ipa": "wɪtʃ kən prɪˈvɛnt ˈfaɪbrəbləsts ɪnˈstrʌkʃənz frəm ˈritʃɪŋ ə ˈfɑləkəlz sɛlz",
       "words": [
@@ -1123,7 +1123,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با اینکه تغییرِ رشدِ مو در طولِ زندگی کاملاً طبیعی است،",
+      "fa": "با اینکه کاملاً طبیعی است که رشدِ مو در طولِ زندگی‌مان تغییر کند،",
       "en": "While it’s completely natural for hair growth to change over the course of our lives,",
       "ipa": "waɪl ɪts kəmˈplitli ˈnætʃərəl fɚ hɛr ɡroʊθ tə tʃeɪndʒ ˈoʊvɚ ðə kɔrs əv ˈaʊɚ lɪvz",
       "newPara": true,
@@ -1145,7 +1145,7 @@ DRILL({
       ]
     },
     {
-      "fa": "راه‌هایی هست که اختیارِ پوستِ سرمان را بیشتر به دست بگیریم.",
+      "fa": "راه‌هایی هست که بتوانیم روی آنچه بر پوستِ سرمان می‌گذرد کنترلِ بیشتری داشته باشیم.",
       "en": "there are ways to take more control of our scalps.",
       "ipa": "ðɛr ɚ weɪz tə teɪk mɔr kənˈtroʊl əv ˈaʊɚ skælps",
       "words": [
@@ -1180,7 +1180,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و شامپوهای مخصوص می‌توانند مشکلِ تارهای زبر و شکننده را حل کنند",
+      "fa": "و شامپوهای مخصوص می‌توانند به رفعِ مشکلِ زبری و شکنندگیِ تارهای مو کمک کنند،",
       "en": "and special shampoos can address the coarse, brittle strands",
       "ipa": "ənd ˈspɛʃəl ʃæmˈpuz kən ˈæˌdrɛs ðə kɔrs ˈbrɪtəl strændz",
       "words": [
@@ -1188,7 +1188,7 @@ DRILL({
           "w": "to address",
           "ipa": "tə ˈæˌdrɛs",
           "m": "to try to deal with a problem",
-          "fa": "رسیدگی کردن به، پرداختن به",
+          "fa": "برای رفعِ مشکلی کاری کردن، به مسئله‌ای پرداختن؛ خطاب کردن",
           "more": "to tackle · to deal with"
         },
         {
@@ -1208,7 +1208,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که خیلی از آدم‌هایی که موی سفید دارند از آن خبر داده‌اند.",
+      "fa": "مشکلی که بسیاری از افرادِ دارای موی خاکستری گزارش می‌کنند.",
       "en": "reported by many people with gray hair.",
       "ipa": "ˌriˈpɔrtəd baɪ ˈmɛni ˈpipəl wɪð ɡreɪ hɛr",
       "words": [
@@ -1292,7 +1292,7 @@ DRILL({
       ]
     },
     {
-      "fa": "باید بتوانید گیسوانِ پرپشت و براقی برای خودتان بلند کنید.",
+      "fa": "قاعدتاً شما هم می‌توانید گیسوانِ پرپشت و زیبایی برای خودتان بلند کنید.",
       "en": "you should be able to grow some luscious locks of your own.",
       "ipa": "ju ʃʊd bi ˈeɪbəl tə ɡroʊ sʌm ˈlʌʃɪs lɑks əv jɔr oʊn",
       "words": [

@@ -46,7 +46,7 @@ DRILL({
       "ipa": "ðeɪ ˈmɛʒɚd wʌt wəz ðæt ˈsɑri"
     },
     {
-      "fa": "پژوهشگران دست به کار شدند تا طولِ، خب، دامنهٔ توجهِ ما را اندازه بگیرند.",
+      "fa": "پژوهشگران دست‌به‌کار شدند تا مدتِ، خب، مدت‌زمانی را اندازه بگیرند که می‌توانیم توجهمان را روی چیزی نگه داریم.",
       "en": "The researchers set out to measure the length of, well, our attention spans.",
       "ipa": "ðə ˈrisɚtʃɚz sɛt aʊt tə ˈmɛʒɚ ðə lɛŋkθ əv wɛl ˈaʊɚ əˈtɛnʃən spænz",
       "words": [
@@ -61,7 +61,7 @@ DRILL({
           "w": "attention span",
           "ipa": "əˈtɛnʃən spæn",
           "m": "the length of time a person can keep their mind on one thing",
-          "fa": "دامنهٔ توجه، مدتِ تمرکز",
+          "fa": "مدت‌زمانی که می‌توان توجه را روی یک چیز نگه داشت، بازهٔ تمرکز",
           "more": "short attention span · concentration"
         }
       ]
@@ -117,7 +117,7 @@ DRILL({
           "w": "application",
           "ipa": "ˌæpləˈkeɪʃən",
           "m": "a computer program made for a particular job",
-          "fa": "برنامه، اپلیکیشن",
+          "fa": "اینجا: برنامهٔ رایانه‌ای؛ در بافت‌های دیگر: درخواستِ رسمی، کاربرد",
           "more": "app · software"
         },
         {
@@ -179,7 +179,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این لزوماً به این معنا نیست که دامنهٔ توجهِ ما از بیخ و بُن در حالِ کوتاه‌تر شدن است.",
+      "fa": "این لزوماً به این معنی نیست که مدتِ تمرکز ما اساساً دارد کوتاه‌تر می‌شود.",
       "en": "This doesn’t necessarily mean our attention spans are fundamentally getting shorter.",
       "ipa": "ðɪs ˈdʌzənt ˌnɛsəˈsɛrəli min ˈaʊɚ əˈtɛnʃən spænz ɚ ˌfʌndəˈmɛntəli ˈɡɛtɪŋ ˈʃɔrtɚ",
       "newPara": true,
@@ -201,7 +201,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بلکه در دنیای امروز، توجهِ ما بیش از هر زمانِ دیگری به جهت‌های گوناگون کشیده می‌شود.",
+      "fa": "بلکه در دنیای امروز، جهت‌هایی که توجهمان به سوی آن‌ها کشیده می‌شود از هر زمان دیگری در گذشته بیشترند.",
       "en": "Rather, in today’s world, our attention is being pulled in more directions than ever before.",
       "ipa": "ˈræðɚ ɪn təˈdeɪz wɝld ˈaʊɚ əˈtɛnʃən ɪz ˈbiɪŋ pʊld ɪn mɔr dəˈrɛkʃənz ðən ˈɛvɚ bɪˈfɔr",
       "words": [
@@ -322,7 +322,7 @@ DRILL({
           "w": "input",
           "ipa": "ˈɪnˌpʊt",
           "m": "information that is put into a system",
-          "fa": "درونداد",
+          "fa": "اینجا: اطلاعاتی که از راه حواس به مغز می‌رسد؛ در بافت‌های دیگر: دادهٔ ورودی، نظر یا پیشنهاد",
           "more": "output · data"
         },
         {
@@ -391,7 +391,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در حالی که قشرِ آهیانه چراغ‌قوه‌ای ذهنی می‌تاباند",
+      "fa": "در حالی که قشر آهیانه‌ای نورِ یک چراغ‌قوهٔ ذهنی را می‌اندازد",
       "en": "while the parietal cortex shines a mental flashlight",
       "ipa": "waɪl ðə pəˈraɪətəl ˈkɔrtɛks ʃaɪnz ə ˈmɛntəl ˈflæʃˌlaɪt",
       "words": [
@@ -419,7 +419,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بر آن جریانِ اطلاعاتی که در اولویت قرار گرفته، و بقیه را نادیده می‌گیرد.",
+      "fa": "روی آن جریانِ اطلاعاتی که در اولویت قرار گرفته است و بقیهٔ اطلاعات را نادیده می‌گیرد.",
       "en": "on that prioritized stream of information while ignoring the rest.",
       "ipa": "ɑn ðæt praɪˈɔrəˌtaɪzd strim əv ˌɪnfɚˈmeɪʃən waɪl ɪɡˈnɔrɪŋ ðə rɛst",
       "words": [
@@ -503,7 +503,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و اگر چیزی به‌عنوانِ «به‌ویژه تازه، غیرمنتظره یا پرهیجان» علامت‌گذاری شود، تمرکزتان را به آن سمت می‌برد —",
+      "fa": "و اگر چیزی به‌عنوان موردی به‌ویژه تازه، غیرمنتظره یا دارای بار عاطفی تشخیص داده شود، مغز تمرکزتان را به سمتِ آن می‌برد —",
       "en": "And it redirects your focus if anything is flagged as particularly novel, unexpected, or emotionally charged—",
       "ipa": "ənd ɪt riˈdaɪrɪkts jɔr ˈfoʊkəs ɪf ˈɛniˌθɪŋ ɪz flæɡd əz ˌpɑrˈtɪkjəlɚli ˈnɑvəl ˌʌnɪkˈspɛktɪd ɔr ɪˈmoʊʃnəli tʃɑrdʒd",
       "words": [
@@ -546,7 +546,7 @@ DRILL({
           "w": "emotionally charged",
           "ipa": "ɪˈmoʊʃnəli tʃɑrdʒd",
           "m": "causing strong feelings",
-          "fa": "پرهیجان، پر از احساس",
+          "fa": "دارای بار عاطفی یا احساسیِ قوی",
           "more": "highly charged · emotional"
         }
       ]
@@ -763,12 +763,12 @@ DRILL({
       ]
     },
     {
-      "fa": "مثلاً ممکن است وقتی سرگرمِ کار روی",
+      "fa": "برای مثال، شاید بهتر بتوانید تمرکز کنید وقتی مشغول حلِ",
       "en": "For example, you might focus better when working on",
       "ipa": "fɚ ɪɡˈzæmpəl ju maɪt ˈfoʊkəs ˈbɛtɚ wɛn ˈwɝkɪŋ ɑn"
     },
     {
-      "fa": "پازلی سخت‌تر با طرحی پرپیچ‌وخم هستید، بهتر از یک پازلِ آسان‌تر تمرکز کنید.",
+      "fa": "پازلی دشوارتر با نقش‌ونگاری پیچیده هستید تا وقتی که پازلِ آسان‌تری حل می‌کنید.",
       "en": "a more difficult, intricately patterned puzzle than an easier one.",
       "ipa": "ə mɔr ˈdɪfəkəlt ˈɪntrəkətli ˈpætɚnd ˈpʌzəl ðən ən ˈiziɚ wʌn",
       "words": [
@@ -817,7 +817,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در این موقعیت‌ها، به‌کار می‌آید که به یاد داشته باشید اگر تمرکز کردن مثلِ کار به نظر می‌رسد، به این دلیل است که واقعاً کار است.",
+      "fa": "در چنین موقعیت‌هایی خوب است به یاد بیاورید که اگر تمرکز کردن مثل کار و زحمت به نظر می‌رسد، دلیلش این است که واقعاً زحمت می‌برد.",
       "en": "In these situations, it’s helpful to remember that if focusing feels like work, that's because it is.",
       "ipa": "ɪn ðiz ˌsɪtʃuˈeɪʃənz ɪts ˈhɛlpfəl tə rɪˈmɛmbɚ ðæt ɪf ˈfoʊkəsɪŋ filz laɪk wɝk ðæts bɪˈkɔz ɪt ɪz",
       "words": [
@@ -832,7 +832,7 @@ DRILL({
           "w": "helpful",
           "ipa": "ˈhɛlpfəl",
           "m": "useful",
-          "fa": "به‌کاربردنی، مفید",
+          "fa": "سودمند، مفید؛ دربارهٔ شخص: مایل به کمک، یاری‌رسان",
           "more": "help · useful"
         },
         {
@@ -943,7 +943,7 @@ DRILL({
       ]
     },
     {
-      "fa": "چندکاره بودن تنها تقاضا برای این منبع را بیشتر می‌کند و ذخیره‌های توجه را سریع‌تر به ته می‌رساند.",
+      "fa": "انجام هم‌زمان چند کار فقط نیاز به این منبع را بیشتر می‌کند و باعث می‌شود ذخیرهٔ توجهمان زودتر ته بکشد.",
       "en": "Multitasking only increases the demand for this resource, exhausting attentional stores more quickly.",
       "ipa": "ˈmʌltiˌtæskɪŋ ˈoʊnli ˌɪnˈkrisɪz ðə dɪˈmænd fɚ ðɪs ˈrisɔrs ɪɡˈzɔstɪŋ əˈtɛnʃənəl stɔrz mɔr ˈkwɪkli",
       "words": [
@@ -951,7 +951,7 @@ DRILL({
           "w": "multitasking",
           "ipa": "ˈmʌltiˌtæskɪŋ",
           "m": "doing several things at the same time",
-          "fa": "چندکاره بودن، انجامِ هم‌زمانِ چند کار",
+          "fa": "انجام دادن چند کار در یک زمان",
           "more": "multitask · juggle"
         },
         {
@@ -1139,7 +1139,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که کمک می‌کند آن خاطره برای بلندمدت تثبیت شود.",
+      "fa": "و این کمک می‌کند آنچه آموخته‌اید برای مدتی طولانی در حافظه تثبیت شود.",
       "en": "helping to solidify the memory for the long term.",
       "ipa": "ˈhɛlpɪŋ tə səˈlɪdəˌfaɪ ðə ˈmɛməri fɚ ðə lɔŋ tɝm",
       "words": [
@@ -1257,7 +1257,7 @@ DRILL({
       "ipa": "ˈɔlsoʊ meɪk ɪt ˈiziɚ tə steɪ ˈfoʊkəst"
     },
     {
-      "fa": "و طبیعت شاید تقویتِ بیشتری هم پیشکش کند.",
+      "fa": "و طبیعت هم ممکن است تمرکزتان را باز بیشتر تقویت کند.",
       "en": "And nature may offer an extra boost.",
       "ipa": "ənd ˈneɪtʃɚ meɪ ˈɔfɚ ən ˈɛkstrə bust",
       "words": [
@@ -1299,7 +1299,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در کارهای توجهیِ آزمایشگاهی، نسبت به همان پیاده‌روی در فضای سرپوشیده.",
+      "fa": "در تکالیفِ سنجشِ توجه در آزمایشگاه، در مقایسه با همان پیاده‌روی در فضای بسته.",
       "en": "in lab-based attention tasks than the same walk indoors.",
       "ipa": "ɪn læb beɪst əˈtɛnʃən tæsks ðən ðə seɪm wɔk ˈɪnˌdɔrz",
       "words": [
@@ -1348,7 +1348,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این شیوه تماماً دربارهٔ ماندن در لحظهٔ اکنون است",
+      "fa": "اساسِ این تمرین این است که در لحظهٔ حال بمانید،",
       "en": "This practice is all about staying in the present moment",
       "ipa": "ðɪs ˈpræktəs ɪz ɔl əˈbaʊt ˈsteɪɪŋ ɪn ðə ˈprɛzənt ˈmoʊmənt",
       "words": [
@@ -1468,7 +1468,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از میان برداشتنِ هر عاملِ حواس‌پرتی ناممکن است،",
+      "fa": "نمی‌شود تمام عوامل حواس‌پرتی را از میان برداشت؛",
       "en": "It’s impossible to remove every distraction,",
       "ipa": "ɪts ɪmˈpɑsəbəl tə riˈmuv ˈɛvəri dɪˈstrækʃən",
       "words": [

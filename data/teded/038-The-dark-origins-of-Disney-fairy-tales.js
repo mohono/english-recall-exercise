@@ -54,7 +54,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دختری را از شکمِ یک گرگ بیرون می‌کشند؛",
+      "fa": "دختری به‌زور از شکمِ گرگی بیرون کشیده می‌شود؛",
       "en": "a girl is ripped from a wolf’s stomach;",
       "ipa": "ə ɡɝl ɪz rɪpt frəm ə wʊlfs ˈstʌmək",
       "words": [
@@ -97,13 +97,13 @@ DRILL({
           "w": "slipper",
           "ipa": "ˈslɪpɚ",
           "m": "a light shoe, especially a soft one worn indoors or a fancy one for dancing",
-          "fa": "کفشِ سبک/مجلسی، دمپایی",
+          "fa": "کفشِ سبک و ظریفِ قصه؛ دمپایی یا کفشِ راحتیِ خانه",
           "more": "glass slipper · shoe"
         }
       ]
     },
     {
-      "fa": "در اوایلِ دههٔ ۱۸۰۰، برادران یاکوب و ویلهلم گریم این جزئیاتِ خون‌آلود و بی‌پرده را",
+      "fa": "در اوایلِ سدهٔ نوزدهم، دو برادر، یاکوب و ویلهلم گریم، این جزئیاتِ بی‌پرده و خون‌بار را گرد آوردند",
       "en": "During the early 1800s, brothers Jacob and Wilhelm Grimm gathered these unflinchingly gory details",
       "ipa": "ˈdʊrɪŋ ði ˈɝli eɪˈtin ˈhʌndrədz ˈbrʌðɚz ˈdʒeɪkəb ənd ˈwɪlˌhɛlm ɡrɪm ˈɡæðɚd ðiz ənˈflɪŋkəlɪŋ ˈɡɔri dɪˈteɪlz",
       "words": [
@@ -138,7 +138,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از داستان‌هایی جمع کردند که در سرزمینی که امروز آلمان است دهان‌به‌دهان می‌چرخید.",
+      "fa": "از قصه‌هایی که در سراسرِ سرزمینی که امروز آلمان است دهان‌به‌دهان می‌گشتند.",
       "en": "from stories circulating around what’s now Germany.",
       "ipa": "frəm ˈstɔriz ˈsɝkjəˌleɪtɪŋ əˈraʊnd wʌts naʊ ˈdʒɝməni",
       "words": [
@@ -146,13 +146,13 @@ DRILL({
           "w": "to circulate",
           "ipa": "tə ˈsɝkjəˌleɪt",
           "m": "to pass from one person to another",
-          "fa": "دست‌به‌دست شدن، چرخیدن",
+          "fa": "دهان‌به‌دهان گشتنِ قصه؛ در گردش بودن (خون، پول)",
           "more": "circulation · spread"
         }
       ]
     },
     {
-      "fa": "اما همین که این قصه‌ها شهرتی گسترده به هم زدند، به‌شدت دگرگون شدند.",
+      "fa": "اما هم‌زمان با شهرتِ گسترده‌ای که این قصه‌ها به دست آوردند، خودِ قصه‌ها هم به‌طرزِ چشمگیری دگرگون شدند.",
       "en": "But as the tales amassed widespread fame, they morphed dramatically.",
       "ipa": "bət əz ðə teɪlz əˈmæst ˌwaɪdˈsprɛd feɪm ðeɪ mɔrft drəˈmætɪkli",
       "words": [
@@ -167,7 +167,7 @@ DRILL({
           "w": "to amass",
           "ipa": "tə əˈmæs",
           "m": "to collect a large amount of something over time",
-          "fa": "به هم زدن، انباشتن",
+          "fa": "به‌تدریج به دست آوردن (شهرت)؛ گرد آوردن، انباشتن",
           "more": "accumulate · gather"
         },
         {
@@ -312,7 +312,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در همین حال، رمانتیسمِ اروپایی داشت شکوفا می‌شد،",
+      "fa": "در همین حال، رمانتیسمِ اروپایی تازه داشت شکوفا می‌شد،",
       "en": "Meanwhile, European Romanticism was beginning to flourish,",
       "ipa": "ˈminˌwaɪl ˌjʊrəˈpiən roʊˈmæntəˌsɪzəm wəz bɪˈɡɪnɪŋ tə ˈflɝɪʃ",
       "words": [
@@ -382,7 +382,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و خیلی زود کنجکاو شدند که قواعد و رسومِ محلی چگونه در دلِ قصه‌های عامیانه جا گرفته‌اند.",
+      "fa": "و خیلی زود به این علاقه‌مند شدند که قواعد و آدابِ محلی چگونه در دلِ قصه‌های عامیانه جای گرفته بودند.",
       "en": "and soon became interested in how local rules and customs were embedded in folk stories.",
       "ipa": "ənd sun bɪˈkeɪm ˈɪntrəstəd ɪn haʊ ˈloʊkəl rulz ənd ˈkʌstəmz wɚ ɛmˈbɛdɪd ɪn foʊk ˈstɔriz",
       "words": [
@@ -410,7 +410,7 @@ DRILL({
       ]
     },
     {
-      "fa": "طولی نکشید که پروژهٔ ملی‌گرایانه‌ـرمانتیکِ خودشان را بر عهده گرفتند،",
+      "fa": "طولی نکشید که شروع به اجرای طرحِ رمانتیک و ملی‌گرایانهٔ خودشان کردند،",
       "en": "It wasn’t long before they began undertaking their own Romantic-nationalist project,",
       "ipa": "ɪt ˈwɑzənt lɔŋ bɪˈfɔr ðeɪ bɪˈɡæn ˌʌndɚˈteɪkɪŋ ðɛr oʊn roʊˈmæntɪk ˈnæʃənələst ˈprɑdʒɛkt",
       "newPara": true,
@@ -439,7 +439,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و هر نوع افسانه و فولکلورِ آلمانی را درخواست و گردآوری کردند، و به گفتهٔ خودشان می‌کوشیدند",
+      "fa": "از مردم انواعِ روایت‌های عامیانهٔ آلمانی را می‌خواستند و به گفتهٔ خودشان تلاش می‌کردند",
       "en": "soliciting all manner of German folklore, striving, they said,",
       "ipa": "səˈlɪsətɪŋ ɔl ˈmænɚ əv ˈdʒɝmən ˈfoʊˌklɔr ˈstraɪvɪŋ ðeɪ sɛd",
       "words": [
@@ -524,7 +524,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آن‌ها ایدهٔ داستان‌های به‌اصطلاح «مردمِ عادی» را بُت می‌کردند",
+      "fa": "آن‌ها شیفتهٔ این تصور بودند که قصه‌ها از زبانِ کسانی می‌آیند که به‌اصطلاح «مردمِ عادی» خوانده می‌شدند،",
       "en": "They idolized the idea of stories from the so-called “common man,”",
       "ipa": "ðeɪ ˈaɪdəˌlaɪzd ði aɪˈdiə əv ˈstɔriz frəm ðə ˌsoʊˈkɑld ˈkɑmən mæn",
       "words": [
@@ -532,7 +532,7 @@ DRILL({
           "w": "to idolize",
           "ipa": "tə ˈaɪdəˌlaɪz",
           "m": "to admire someone or something too much",
-          "fa": "بُت کردن، ستایشِ بی‌حد کردن",
+          "fa": "بیش از حد ستودن، آرمانی دانستن",
           "more": "idol · worship · idealize"
         },
         {
@@ -545,7 +545,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و آن‌ها را گواهی بر «تخیلِ دست‌نخورده» و «پاکیِ درونیِ» ملت می‌دانستند.",
+      "fa": "قصه‌هایی که آن‌ها گواهی بر «تخیلِ دست‌نخورده» و «پاکیِ درونیِ» یک ملت می‌دانستند.",
       "en": "which they viewed as evidence of a national “unspoiled imagination” and “inner purity.”",
       "ipa": "wɪtʃ ðeɪ vjud əz ˈɛvədəns əv ə ˈnæʃənəl ənˈspɔɪld ɪˌmædʒəˈneɪʃən ənd ˈɪnɚ ˈpjʊrəti",
       "words": [
@@ -587,7 +587,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در عمل، بیشترِ آنچه گردآوری کردند از منابعِ طبقهٔ متوسط و بالا می‌آمد،",
+      "fa": "در عمل، بخشِ بزرگی از آنچه گرد آورده بودند از منابعی در طبقاتِ متوسط و بالا می‌آمد،",
       "en": "In practice, much of what they collected came from middle and upper class sources,",
       "ipa": "ɪn ˈpræktəs mʌtʃ əv wʌt ðeɪ kəˈlɛktəd keɪm frəm ˈmɪdəl ənd ˈʌpɚ klæs ˈsɔrsəz",
       "words": [
@@ -651,7 +651,7 @@ DRILL({
           "w": "material",
           "ipa": "məˈtɪriəl",
           "m": "information or ideas used in a book, study, etc.",
-          "fa": "مطالب، مواد",
+          "fa": "مطالب و روایت‌های گردآوری‌شده؛ ماده یا جنس",
           "more": "materials · content"
         },
         {
@@ -736,7 +736,7 @@ DRILL({
           "w": "volume",
           "ipa": "ˈvɑljum",
           "m": "one book in a set of books",
-          "fa": "جلد",
+          "fa": "یک جلد از یک مجموعه؛ حجم؛ بلندیِ صدا",
           "more": "edition · series"
         },
         {
@@ -763,7 +763,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا مردی که برادرش را می‌کشد تا با شاهزاده‌خانمی ازدواج کند و بعد در کیسه‌ای غرق می‌شود،",
+      "fa": "تا مردی که برادرش را می‌کشد تا با شاهزاده‌خانمی ازدواج کند و بعد او را درونِ گونی‌ای غرق می‌کنند،",
       "en": "to the man who murders his brother in order to marry a princess and then gets drowned in a sack,",
       "ipa": "tə ðə mæn hu ˈmɝdɚz hɪz ˈbrʌðɚ ɪn ˈɔrdɚ tə ˈmɛri ə ˈprɪnsɛs ənd ðɛn ɡɛts draʊnd ɪn ə sæk",
       "words": [
@@ -785,7 +785,7 @@ DRILL({
           "w": "to drown",
           "ipa": "tə draʊn",
           "m": "to die, or kill someone, by being under water",
-          "fa": "غرق شدن/کردن",
+          "fa": "اینجا در ساختِ مجهول، به دستِ کسی غرق شدن؛ غرق کردن یا غرق شدن",
           "more": "drowning · sink"
         },
         {
@@ -960,7 +960,7 @@ DRILL({
           "w": "only to",
           "ipa": "ˈoʊnli tu",
           "m": "used to show that something surprising happened next",
-          "fa": "و ناگهان (در کمالِ تعجب)",
+          "fa": "و در کمالِ تعجب نتیجه این شد که… (برای بیانِ پیامدِ غیرمنتظره)",
           "more": "only to find · only to discover"
         },
         {
@@ -1021,7 +1021,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما بسیاری از خوانندگان محتوای آن‌ها را آزاردهنده یافتند، و فروشِ خوبی نداشتند.",
+      "fa": "اما بسیاری از خوانندگان محتوای این دو جلد را آزاردهنده یافتند و خودِ کتاب‌ها هم خوب فروش نرفتند.",
       "en": "But many readers found their content disturbing, and they didn’t sell well.",
       "ipa": "bət ˈmɛni ˈridɚz faʊnd ðɛr kənˈtɛnt dɪˈstɝbɪŋ ənd ðeɪ ˈdɪdənt sɛl wɛl",
       "words": [
@@ -1049,7 +1049,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با این حال، نسخه‌ای انگلیسی که کوتاه‌تر بود، پُر از تصویر، و مخصوصِ کودکان، فروش خوبی داشت.",
+      "fa": "با این حال، یک نسخهٔ انگلیسی که کوتاه‌تر بود، تصویرهای فراوان داشت و برای کودکان تهیه شده بود، چرا. <c>(فعلِ پایانی به فروشِ کتاب در جملهٔ قبل برمی‌گردد.)</c>",
       "en": "However, an English version that was shorter, heavily illustrated, and geared towards children, did.",
       "ipa": "ˌhaʊˈɛvɚ ən ˈɪŋɡlɪʃ ˈvɝʒən ðæt wəz ˈʃɔrtɚ ˈhɛvəli ˈɪləˌstreɪtəd ənd ɡɪrd təˈwɔrdz ˈtʃɪldrən dɪd",
       "words": [
@@ -1064,7 +1064,7 @@ DRILL({
           "w": "heavily",
           "ipa": "ˈhɛvəli",
           "m": "to a great degree; a lot",
-          "fa": "به‌شدت، به‌مقدارِ زیاد",
+          "fa": "به میزانِ زیاد (اینجا با تصویرهای فراوان)؛ به‌شدت",
           "more": "heavy · greatly"
         },
         {
@@ -1149,7 +1149,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و قصد داشت به آرمان‌های رمانتیکِ تازه‌تر دربارهٔ دورانِ کودکی خوشایند باشد",
+      "fa": "و طوری تهیه شده بود که با آرمان‌های تازه‌ترِ رمانتیک دربارهٔ کودکی سازگار باشد",
       "en": "and was intended to appeal to newer, Romantic ideals of childhood",
       "ipa": "ənd wəz ɪnˈtɛndəd tə əˈpil tə ˈnuɚ roʊˈmæntɪk aɪˈdilz əv ˈtʃaɪldˌhʊd",
       "words": [
@@ -1157,7 +1157,7 @@ DRILL({
           "w": "to be intended to",
           "ipa": "tə bi ɪnˈtɛndəd tu",
           "m": "to be planned or designed for a purpose",
-          "fa": "قصد داشتن، در نظر گرفته شدن برای",
+          "fa": "با هدفِ انجامِ کاری در نظر گرفته یا طراحی شدن",
           "more": "intend · intention · be meant to"
         },
         {
@@ -1184,7 +1184,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و به حساسیت‌های مسیحیِ محافظه‌کارانه‌ترِ طبقهٔ متوسط و بالا.",
+      "fa": "و با ذوق و حساسیت‌های مسیحیِ محافظه‌کارانه‌ترِ طبقاتِ متوسط و بالا نیز همخوانی داشته باشد.",
       "en": "and more conservative, middle and upper class Christian sensibilities.",
       "ipa": "ənd mɔr kənˈsɝvətɪv ˈmɪdəl ənd ˈʌpɚ klæs ˈkrɪstʃən ˌsɛnsɪˈbɪlɪtiz",
       "words": [
@@ -1199,7 +1199,7 @@ DRILL({
           "w": "sensibilities",
           "ipa": "ˌsɛnsɪˈbɪlɪtiz",
           "m": "feelings about what is morally right or acceptable, which can easily be offended",
-          "fa": "حساسیت‌ها (اخلاقی)",
+          "fa": "سلیقه و حساسیت‌های فرهنگی و اخلاقی",
           "more": "sensibility · sensitive"
         }
       ]
@@ -1226,7 +1226,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در همین حال، مادرانِ بیولوژیکِ سهل‌انگارِ اصلیِ «سفیدبرفی» و «هانسل و گرتل»",
+      "fa": "در همین حال، مادرانِ تنی و سهل‌انگارِ «سفیدبرفی» و «هانسل و گرتل» در روایت‌های اصلی،",
       "en": "Meanwhile, the original negligent biological mothers of “Snow White” and “Hansel and Gretel”",
       "ipa": "ˈminˌwaɪl ði əˈrɪdʒənəl ˈnɛɡlədʒənt ˌbaɪəˈlɑdʒɪkəl ˈmʌðɚz əv snoʊ waɪt ənd ˈhænsəl ənd ˈɡrɛtəl",
       "words": [
@@ -1241,7 +1241,7 @@ DRILL({
           "w": "biological",
           "ipa": "ˌbaɪəˈlɑdʒɪkəl",
           "m": "related by birth, not by marriage or adoption",
-          "fa": "بیولوژیک، تنی",
+          "fa": "تنی، نَسَبی (مادر یا پدر)؛ زیستی",
           "more": "birth mother · biology"
         }
       ]
@@ -1296,7 +1296,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پاک‌دامن، زنانه و پرمهر نشان می‌دادند.",
+      "fa": "به‌صورتِ زنانی بافضیلت، با صفاتِ زنانه و مراقبِ فرزندانشان به تصویر می‌کشیدند.",
       "en": "as virtuous, feminine, and nurturing.",
       "ipa": "əz ˈvɝtʃuəs ˈfɛmənən ənd ˈnɝtʃərɪŋ",
       "words": [
@@ -1304,7 +1304,7 @@ DRILL({
           "w": "virtuous",
           "ipa": "ˈvɝtʃuəs",
           "m": "behaving in a morally good way",
-          "fa": "پاک‌دامن، با فضیلت",
+          "fa": "بافضیلت، درستکار؛ پاک‌دامن",
           "more": "virtue · righteous"
         },
         {
@@ -1324,7 +1324,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و در حالی که در ابتدا معلوم می‌شد راپونزل از ملاقات‌کنندهٔ شاهزاده‌وارش پذیرایی می‌کرده، وقتی باردار می‌شود؛",
+      "fa": "و در حالی که در روایتِ اولیه، وقتی راپونزل باردار می‌شود معلوم می‌شد که مدتی از شاهزاده‌ای که به دیدنش می‌آمد پذیرایی می‌کرده است،",
       "en": "And while at first Rapunzel was revealed to have been entertaining her princely visitor when she becomes pregnant;",
       "ipa": "ənd waɪl ət fɝst rɑˈpunzəl wəz rɪˈvild tə hæv bɪn ˌɛntɚˈteɪnɪŋ hɚ ˈprɪnsli ˈvɪzətɚ wɛn ʃi bɪˈkʌmz ˈprɛɡnənt",
       "newPara": true,
@@ -1340,7 +1340,7 @@ DRILL({
           "w": "princely",
           "ipa": "ˈprɪnsli",
           "m": "like or belonging to a prince",
-          "fa": "شاهزاده‌وار",
+          "fa": "متعلق به شاهزاده یا در مقامِ شاهزاده؛ شاهانه و باشکوه",
           "more": "prince · royal"
         },
         {
@@ -1354,7 +1354,7 @@ DRILL({
       "note": "<en>was revealed to have been entertaining</en> یعنی معلوم شد پیش‌تر (پنهانی) از او پذیرایی می‌کرده است."
     },
     {
-      "fa": "با بازنویسی، او فقط ناخواسته از وجودِ او حرفی از دهانش می‌پرد —",
+      "fa": "در روایتِ بازنویسی‌شده، فقط ناخواسته دربارهٔ او حرفی از دهانِ راپونزل پرید،",
       "en": "with revision, she simply let slip about him—",
       "ipa": "wɪð riˈvɪʒən ʃi ˈsɪmpli lɛt slɪp əˈbaʊt hɪm",
       "words": [
@@ -1375,7 +1375,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بی‌آنکه رابطه‌ای خارج از ازدواج به ذهن برسد.",
+      "fa": "بی‌آنکه تلویحاً به رابطهٔ جنسیِ خارج از ازدواج اشاره‌ای شده باشد.",
       "en": "no out-of-wedlock sex implied.",
       "ipa": "noʊ aʊt əv ˈwɛdˌlɑk sɛks ɪmˈplaɪd",
       "words": [
@@ -1466,7 +1466,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در حالی که آخرین نسخه‌شان با پرندگانی تمام می‌شود که چشمانِ خواهرخوانده‌هایش را با نوک درمی‌آورند.",
+      "fa": "در حالی که آخرین روایتشان با این صحنه پایان می‌یابد که پرندگان چشم‌های دخترانِ نامادریِ سیندرلا را با نوک درمی‌آورند.",
       "en": "while their last version concludes with birds pecking out her stepsisters’ eyes.",
       "ipa": "waɪl ðɛr læst ˈvɝʒən kənˈkludz wɪð bɝdz ˈpɛkɪŋ aʊt hɚ ˈstɛpˌsɪstɚz aɪz",
       "words": [
@@ -1502,7 +1502,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که روزبه‌روز محبوب‌تر شدند، چون داستان‌هایی را حذف و اضافه می‌کردند",
+      "fa": "که هم‌زمان با حذف و اضافه کردنِ داستان‌ها به دستِ برادران، محبوبیتشان بیشتر و بیشتر می‌شد،",
       "en": "which became increasingly popular as they deleted and added stories",
       "ipa": "wɪtʃ bɪˈkeɪm ɪnˈkrisɪŋli ˈpɑpjəlɚ əz ðeɪ dɪˈlitəd ənd ˈædəd ˈstɔriz",
       "words": [
@@ -1586,7 +1586,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اقتباس‌های دیگری که دیگران ساختند باعث شد داستان‌ها باز هم بیشتر تحول یابند.",
+      "fa": "در اقتباس‌های دیگری که دیگران از این آثار ساختند، قصه‌ها باز هم دگرگون شدند.",
       "en": "Additional adaptations by others saw the stories evolve further.",
       "ipa": "əˈdɪʃənəl ˌædæpˈteɪʃənz baɪ ˈʌðɚz sɔ ðə ˈstɔriz ɪˈvɑlv ˈfɝðɚ",
       "words": [
@@ -1608,7 +1608,7 @@ DRILL({
           "w": "to see (something happen)",
           "ipa": "tə si (ˈsʌmθɪŋ ˈhæpən)",
           "m": "(of a time or event) to be when something happens",
-          "fa": "شاهدِ … بودن، باعث شدن",
+          "fa": "شاهدِ رخ دادنِ تغییری بودن؛ در کاربردِ مستقیم، چیزی را دیدن",
           "more": "witness · bring about"
         },
         {
@@ -1621,7 +1621,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دیگر سفیدبرفی را تابوت‌کشی که سکندری می‌خورد زنده نمی‌کرد، بلکه بوسهٔ یک شاهزاده،",
+      "fa": "دیگر قرار نبود سفیدبرفی به دستِ حاملِ تابوتی که سکندری می‌خورد زنده شود؛ حالا بوسهٔ شاهزاده او را زنده می‌کرد. <c>(با قیدِ منفی آغاز کنید و ترتیبِ فاعل و فعلِ کمکی را برگردانید.)</c>",
       "en": "No longer would Snow White be revived by a stumbling pallbearer, but a prince’s kiss,",
       "ipa": "noʊ ˈlɔŋɡɚ wʊd snoʊ waɪt bi rɪˈvaɪvd baɪ ə ˈstʌmbəlɪŋ ˈpælbɛrɚ bət ə ˈprɪnsɪz kɪs",
       "words": [
@@ -1699,7 +1699,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به عبارتِ دیگر، کم‌کم دیگر به آن اندازهٔ ریشه‌هایشان نامتعارف یا تیره‌وتار نمی‌ماندند.",
+      "fa": "به بیانِ دیگر، این قصه‌ها به‌تدریج به جایی می‌رسیدند که دیگر به اندازهٔ روایت‌های اولیه‌شان نامتعارف یا هولناک نبودند.",
       "en": "In other words, they'd grow to be not quite so unconventional or grim as their origins.",
       "ipa": "ɪn ˈʌðɚ wɝdz ðeɪd ɡroʊ tə bi nɑt kwaɪt soʊ ˌʌnkənˈvɛnʃənəl ɔr ɡrɪm əz ðɛr ˈɔrədʒɪnz",
       "words": [

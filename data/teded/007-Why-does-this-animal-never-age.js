@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=NPJ9KZqrl50",
   "items": [
     {
-      "fa": "در سال ۱۷۴۰، وقتی آبراهام ترامبلی، طبیعی‌دانِ سوئیسی، معلمِ خصوصیِ پسرانِ یک اشراف‌زاده بود،",
+      "fa": "در سال ۱۷۴۰، وقتی آبراهام ترامبلی، طبیعی‌دان سوئیسی، داشت به پسرانِ یکی از اشراف درس خصوصی می‌داد،",
       "en": "In 1740, while Swiss naturalist Abraham Trembley was tutoring the sons of a nobleman,",
       "ipa": "ɪn ˌsɛvənˈtin ˈfɔrti waɪl swɪs ˈnætʃərələst ˈeɪbrəˌhæm ˈtrɛmbli wəz ˈtutərɪŋ ðə sʌnz əv ə ˈnoʊbəlmən",
       "newPara": true,
@@ -120,7 +120,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما وقتی تکه‌هایی از آن را می‌برید، یا حتی دو نیمش می‌کرد، دوباره خودش را از نو می‌ساخت،",
+      "fa": "اما وقتی بخش‌هایی از بدنش را می‌برید و جدا می‌کرد، یا حتی آن را دو نیم می‌کرد، آن موجود خودش را بازسازی می‌کرد،",
       "en": "But when he cut parts off, or even split it in two, it regenerated,",
       "ipa": "bət wɛn hi kʌt pɑrts ɔf ɔr ˈivɪn splɪt ɪt ɪn tu ɪt riˈdʒɛnəˌreɪtɪd",
       "words": [
@@ -270,7 +270,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آن‌ها یک جنس (گروهی از گونه‌های نزدیک به هم) از جانورانِ ریزِ آبزی‌اند، در شاخهٔ بزرگ‌ترِ کیسه‌تنان (<en>Cnidaria</en>).",
+      "fa": "این جانورانِ ریزِ آبزی با هم یک سَرده را در شاخهٔ گسترده‌ترِ گزنه‌تباران تشکیل می‌دهند.",
       "en": "They comprise a genus of tiny aquatic animals in the broader phylum Cnidaria.",
       "ipa": "ðeɪ kəmˈpraɪz ə ˈdʒinəs əv ˈtaɪni əˈkwɑtɪk ˈænəməlz ɪn ðə ˈbrɔdɚ ˈfaɪləm niˈdɑriə",
       "words": [
@@ -278,7 +278,7 @@ DRILL({
           "w": "to comprise",
           "ipa": "tə kəmˈpraɪz",
           "m": "to form or make up something",
-          "fa": "تشکیل دادن"
+          "fa": "اینجا: تشکیل دادن (اجزا کل را تشکیل می‌دهند)؛ در ساختی با کل به‌عنوان فاعل: دربرگرفتن، شامل بودن"
         },
         {
           "w": "aquatic",
@@ -296,7 +296,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برخی کیسه‌تنان، مثل عروس‌های دریایی، یک مرحلهٔ «پولیپ» دارند که در آن ثابت و بی‌حرکت‌اند،",
+      "fa": "برخی گزنه‌تباران، مثل عروس‌های دریایی، یک مرحلهٔ پولیپی دارند که در آن ثابت می‌مانند،",
       "en": "Some cnidarians, like jellyfish, have a stationary polyp phase,",
       "ipa": "sʌm naɪˈdɛriənz laɪk ˈdʒɛliˌfɪʃ hæv ə ˈsteɪʃəˌnɛri ˈpɑləp feɪz",
       "words": [
@@ -374,7 +374,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یک سرشان پا را می‌سازد و سرِ دیگر دهان را، که شاخک‌هایی بادبزنی دورش را قاب گرفته‌اند.",
+      "fa": "یک سرِ بدن پا را تشکیل می‌دهد و سرِ دیگر دهان را؛ شاخک‌هایی که بادبزن‌وار باز می‌شوند دورِ دهان را گرفته‌اند.",
       "en": "one end forming the foot, the other the mouth, framed by fanning tentacles.",
       "ipa": "wʌn ɛnd ˈfɔrmɪŋ ðə fʊt ði ˈʌðɚ ðə maʊð freɪmd baɪ ˈfænɪŋ ˈtɛntəkəlz",
       "words": [
@@ -628,7 +628,7 @@ DRILL({
       ]
     },
     {
-      "fa": "جلبک‌هایی که رنگشان را به آن‌ها می‌دهند و در ازای مواد مغذیِ دیگر، برایشان قند فراهم می‌کنند.",
+      "fa": "و این جلبک‌ها هستند که به هیدراها رنگ می‌بخشند و در ازای مواد مغذیِ دیگر، قندهایی در اختیارشان می‌گذارند.",
       "en": "which lend them their color and provide sugars in return for other nutrients.",
       "ipa": "wɪtʃ lɛnd ðɛm ðɛr ˈkʌlɚ ənd prəˈvaɪd ˈʃʊɡɚz ɪn rɪˈtɝn fɚ ˈʌðɚ ˈnutriənts",
       "words": [
@@ -636,7 +636,7 @@ DRILL({
           "w": "to lend",
           "ipa": "tə lɛnd",
           "m": "to give a particular quality to something",
-          "fa": "(ویژگی یا رنگی را) به چیزی دادن"
+          "fa": "اینجا: رنگ یا ویژگی‌ای به چیزی بخشیدن؛ در کاربرد روزمره: قرض دادن"
         },
         {
           "w": "to provide",
@@ -809,7 +809,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما کمبودِ دفاعی‌شان را با توانایی‌های بی‌همتایشان در بازسازیِ بدن جبران می‌کنند.",
+      "fa": "اما آنچه را از نظرِ سازوکارهای دفاعی کم دارند، با تواناییِ بی‌مانندشان در بازسازی جبران می‌کنند.",
       "en": "but what they lack in defenses, they make up for in their unparalleled regenerative abilities.",
       "ipa": "bət wʌt ðeɪ læk ɪn dɪˈfɛnsəz ðeɪ meɪk ʌp fɚ ɪn ðɛr ənˈpɛrəˌlɛld riˈdʒɛnərətɪv əˈbɪlətiz",
       "words": [
@@ -873,7 +873,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بلکه بعد از اینکه یک‌جورهایی از مخلوط‌کن رد شدند، می‌توانند دوباره خودشان را سرهم کنند،",
+      "fa": "بلکه حتی پس از گذر از فرایندی شبیه به مخلوط شدن هم می‌توانند دوباره خودشان را سرهم کنند،",
       "en": "they can also reassemble themselves after going through a blending process of sorts,",
       "ipa": "ðeɪ kən ˈɔlsoʊ ˌriəˈsɛmbəl ðɛmˈsɛlvz ˈæftɚ ˈɡoʊɪŋ θru ə ˈblɛndɪŋ ˈprɑˌsɛs əv sɔrts",
       "words": [
@@ -905,7 +905,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یعنی وقتی کاملاً به سلول‌های تک‌تک تجزیه شده‌اند.",
+      "fa": "فرایندی که طی آن کاملاً به سلول‌های جدا از هم تجزیه می‌شوند.",
       "en": "where they're completely broken down into individual cells.",
       "ipa": "wɛr ðɛr kəmˈplitli ˈbroʊkən daʊn ɪnˈtu ˌɪndəˈvɪdʒəwəl sɛlz",
       "words": [
@@ -1121,7 +1121,7 @@ DRILL({
           "w": "willy-nilly",
           "ipa": "ˈwɪli ˈnɪli",
           "m": "(informal) in a careless way, whenever or however you like",
-          "fa": "هر وقت و هر جور که شد، بی‌حساب‌وکتاب"
+          "fa": "اینجا: بی‌قیدوبند، هر وقت بخواهند؛ معنی رایج دیگر: خواه‌ناخواه، چه بخواهی چه نخواهی"
         }
       ]
     },
@@ -1225,7 +1225,7 @@ DRILL({
           "w": "to adhere",
           "ipa": "tə ədˈhɪr",
           "m": "to stick firmly to something",
-          "fa": "چسبیدن",
+          "fa": "اینجا: به سطحی یا به هم چسبیدن؛ در مورد قانون یا اصول: پایبند ماندن",
           "more": "adhesive"
         },
         {
@@ -1340,7 +1340,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و می‌تواند به جایگزینیِ هر بخشی از بدنشان کمک کند و ظاهراً تا ابد تقسیم شود.",
+      "fa": "و این سلول‌ها می‌توانند به جایگزین شدنِ هر بخشی از بدن هیدرا کمک کنند و ظاهراً تا ابد به تقسیم شدن ادامه دهند.",
       "en": "and can help replace any part of their body and seemingly divide forever.",
       "ipa": "ənd kən hɛlp ˌriˈpleɪs ˈɛni pɑrt əv ðɛr ˈbɑdi ənd ˈsimɪŋli dɪˈvaɪd fəˈrɛvɚ",
       "words": [
@@ -1483,7 +1483,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و بسیاری‌شان به‌راستی سال‌های سال است که در آزمایشگاه‌ها دوام آورده‌اند،",
+      "fa": "و در واقع بسیاری از آن‌ها سال‌های سال است که بی‌وقفه در آزمایشگاه‌ها دوام می‌آورند،",
       "en": "And many have indeed been persisting in labs for years on end,",
       "ipa": "ənd ˈmɛni hæv ɪnˈdid bɪn pɚˈsɪstɪŋ ɪn læbz fɚ jɪrz ɑn ɛnd",
       "words": [

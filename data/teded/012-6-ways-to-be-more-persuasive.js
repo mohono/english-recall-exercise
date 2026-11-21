@@ -137,7 +137,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یعنی بخش‌هایی از طرزِ فکرشان را که کار نمی‌کند پیاده کنی و چیزی بهتر را از نو بسازی.",
+      "fa": "یعنی بخش‌هایی از طرز فکرشان را که کارساز نیست برچینی و به جایش چیزی بهتر بسازی.",
       "en": "That means taking down the parts of their thinking that aren't working and rebuilding something better.",
       "ipa": "ðæt minz ˈteɪkɪŋ daʊn ðə pɑrts əv ðɛr ˈθɪŋkɪŋ ðæt ˈɑrənt ˈwɝkɪŋ ənd riˈbɪldɪŋ ˈsʌmθɪŋ ˈbɛtɚ",
       "words": [
@@ -158,7 +158,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بری شوارتز، روان‌شناس، سخنرانی‌ای ایراد کرد که طرزِ فکرِ مخاطبانش را دربارهٔ حقِ انتخاب تغییر داد.",
+      "fa": "بری شوارتز، روان‌شناس، سخنرانی‌ای کرد که نگاه مخاطبانش را به موضوعِ انتخاب تغییر داد.",
       "en": "Psychologist Barry Schwartz gave a talk that changed the way his audience thinks about choice.",
       "ipa": "saɪˈkɑlədʒəst ˈbæri ʃwɔrts ɡeɪv ə tɔk ðæt tʃeɪndʒd ðə weɪ hɪz ˈɑdiəns θɪŋks əˈbaʊt tʃɔɪs",
       "newPara": true,
@@ -181,13 +181,13 @@ DRILL({
           "w": "choice",
           "ipa": "tʃɔɪs",
           "m": "the chance to choose between different things",
-          "fa": "حق انتخاب، گزینه",
+          "fa": "انتخاب، امکانِ انتخاب کردن؛ وقتی قابل‌شمارش باشد: گزینه",
           "more": "choose · make a choice"
         }
       ]
     },
     {
-      "fa": "بسیاری از مردم وسواسِ به حداکثر رساندنِ حقِ انتخاب را دارند؛ شوارتز ماجرا را جورِ دیگری می‌بیند.",
+      "fa": "خیلی‌ها سخت درگیر این‌اند که تا جای ممکن گزینه‌های بیشتری برای انتخاب داشته باشند؛ شوارتز موضوع را جور دیگری می‌بیند.",
       "en": "Many people are obsessed with maximizing choice; Schwartz sees things differently.",
       "ipa": "ˈmɛni ˈpipəl ɚ əbˈsɛst wɪð ˈmæksəˌmaɪzɪŋ tʃɔɪs ʃwɔrts siz θɪŋz ˈdɪfrəntli",
       "words": [
@@ -228,7 +228,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شوارتز این استدلالِ غافلگیرکننده را بنا می‌کند که در بسیاری از شرایط، داشتنِ گزینه‌های بیش از حد در واقع آدم‌ها را ناشاد می‌کند.",
+      "fa": "شوارتز دلایلی برای این ادعای غافلگیرکننده می‌آورد که در بسیاری از شرایط، داشتنِ بیش از حد گزینه در واقع آدم‌ها را ناخشنود می‌کند.",
       "en": "Schwartz builds the surprising case that in many circumstances having too many choices actually makes people unhappy.",
       "ipa": "ʃwɔrts bɪldz ðə sɚˈpraɪzɪŋ keɪs ðæt ɪn ˈmɛni ˈsɝkəmˌstænsəz ˈhævɪŋ tu ˈmɛni ˈtʃɔɪsəz ˈæktʃəwəli meɪks ˈpipəl ənˈhæpi",
       "words": [
@@ -236,7 +236,7 @@ DRILL({
           "w": "to build a case",
           "ipa": "tə bɪld ə keɪs",
           "m": "to collect facts and reasons to prove that something is true",
-          "fa": "استدلالی را بنا کردن",
+          "fa": "برای یک ادعا دلیل آوردن، به‌تدریج استدلالی در پشتیبانی از آن شکل دادن",
           "more": "make a case · case for"
         },
         {
@@ -361,7 +361,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گیلبرت از درخششِ خود در مقامِ قصه‌گو بهره گرفت تا مخاطبانش را به این ایده متقاعد کند.",
+      "fa": "گیلبرت از توانایی درخشانش در قصه‌گویی بهره گرفت تا مخاطبانش را به این ایده متقاعد کند.",
       "en": "Gilbert used her brilliance as a storyteller to persuade her audience of this idea.",
       "ipa": "ˈɡɪlbɚt just hɚ ˈbrɪljəns əz ə ˈstɔriˌtɛlɚ tə pɚˈsweɪd hɚ ˈɑdiəns əv ðɪs aɪˈdiə",
       "words": [
@@ -396,7 +396,7 @@ DRILL({
       ]
     },
     {
-      "fa": "همیشه آن را چیزی نمی‌دانستند که خودِ آدم باشد.",
+      "fa": "همیشه این‌طور تصور نمی‌شد که «نابغه» چیزی است که خودِ شخص می‌تواند باشد.",
       "en": "It wasn't always thought of as a thing a person was.",
       "ipa": "ɪt ˈwɑzənt ˈɔlˌweɪz θɔt əv əz ə θɪŋ ə ˈpɝsən wɑz"
     },
@@ -451,7 +451,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ذهنِ شنونده‌ات را برای یک تغییر آماده و زمینه‌چینی کن.",
+      "fa": "ذهنِ شنونده‌ات را پذیرای تغییر کن.",
       "en": "Prime your listener’s mind for a change.",
       "ipa": "praɪm jɔr ˈlɪsənɚz maɪnd fɚ ə tʃeɪndʒ",
       "words": [
@@ -465,7 +465,7 @@ DRILL({
       ]
     },
     {
-      "fa": "فیلسوف، دنیل دنت، اصطلاحِ «تلمبهٔ شهود» را برای اشاره به هر زبانی به کار می‌برد",
+      "fa": "دنیل دنت، فیلسوف، اصطلاحِ «تلمبهٔ شهود» را برای اشاره به هر نوع بیان و کلامی به کار می‌برد",
       "en": "The philosopher Daniel Dennett uses the term “intuition pump” to refer to any language",
       "ipa": "ðə fəˈlɑsəfɚ ˈdænjəl ˈdɛnɪt ˈjuzɪz ðə tɝm ˌɪntuˈɪʃən pʌmp tə rəˈfɝ tə ˈɛni ˈlæŋɡwədʒ",
       "words": [
@@ -565,7 +565,7 @@ DRILL({
       ]
     },
     {
-      "fa": "جلوبستهٔ دکمه‌ای می‌خواهی یا زیپی؟",
+      "fa": "جلوی شلوار را دکمه‌دار می‌خواهی یا زیپ‌دار؟",
       "en": "Do you want button fly or zipper fly?",
       "ipa": "du ju wɑnt ˈbʌtən flaɪ ɔr ˈzɪpɚ flaɪ",
       "words": [
@@ -573,7 +573,7 @@ DRILL({
           "w": "fly",
           "ipa": "flaɪ",
           "m": "the opening at the front of trousers, closed with buttons or a zip",
-          "fa": "جلوبستهٔ شلوار، چاک شلوار",
+          "fa": "اینجا: چاکِ جلوی شلوار که با زیپ یا دکمه بسته می‌شود؛ معنی دیگرِ این اسم: مگس",
           "more": "button fly · zip fly"
         },
         {
@@ -599,7 +599,7 @@ DRILL({
           "w": "distressed",
           "ipa": "dɪˈstrɛst",
           "m": "(of clothes or furniture) made to look old and used on purpose",
-          "fa": "ساییده و کهنه‌نما",
+          "fa": "دربارهٔ لباس: عمداً ساییده یا زاپ‌دار؛ دربارهٔ آدم: آشفته، پریشان",
           "more": "ripped · worn"
         }
       ]
@@ -920,7 +920,7 @@ DRILL({
       ]
     },
     {
-      "fa": "او با هر ۱۲۰ چهره‌نگارهٔ مردانه‌ای که گمان می‌رود لئوناردو کشیده باشد شروع کرد، و می‌پرسد:",
+      "fa": "از تمام آن ۱۲۰ پرترهٔ مردان که گمان می‌رود لئوناردو کشیده باشد شروع کرد و می‌پرسد:",
       "en": "He started with all of the 120 portraits of males that Leonardo is thought to have made and asks:",
       "ipa": "hi ˈstɑrtəd wɪð ɔl əv ðə wʌn ˈhʌndrəd ˈtwɛnti ˈpɔrtrəts əv meɪlz ðæt ˌliəˈnɑrdoʊ ɪz θɔt tə hæv meɪd ənd æsks",
       "words": [
@@ -1089,7 +1089,7 @@ DRILL({
       "newPara": true
     },
     {
-      "fa": "بیشترِ آدم‌ها را می‌شود با عقل قانع کرد، اما این همیشه آن‌ها را سرشار از انرژی بر جا نمی‌گذارد.",
+      "fa": "بیشتر مردم را می‌شود با منطق قانع کرد، اما این کار همیشه به آن‌ها احساس شور و انرژی نمی‌دهد.",
       "en": "Most people can be convinced by reason, but it doesn't always leave them feeling energized.",
       "ipa": "moʊst ˈpipəl kən bi kənˈvɪnst baɪ ˈrizən bət ɪt ˈdʌzənt ˈɔlˌweɪz liv ðɛm ˈfilɪŋ ˈɛnɚˌdʒaɪzd",
       "words": [
@@ -1302,7 +1302,7 @@ DRILL({
       ]
     },
     {
-      "fa": "استدلالی محکم و سنجیده، حتی اگر همه فوراً آن را نپذیرند،",
+      "fa": "یک استدلالِ محکم که خوب برایش دلیل آورده باشند، حتی اگر بلافاصله مورد پذیرشِ همگان قرار نگیرد،",
       "en": "A strong, well-reasoned argument, even if it isn't immediately accepted by everyone,",
       "ipa": "ə strɔŋ wɛl ˈrizənd ˈɑrɡjəmənt ˈivɪn ɪf ɪt ˈɪzənt ɪˈmidiətli ækˈsɛptɪd baɪ ˈɛvriˌwʌn",
       "words": [

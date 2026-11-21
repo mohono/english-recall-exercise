@@ -26,7 +26,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پرزیدنت هربرت هوور تصمیمِ اقتصادیِ جسورانه‌ای گرفت.",
+      "fa": "رئیس‌جمهور هربرت هوور تصمیم اقتصادی جسورانه‌ای گرفت.",
       "en": "President Herbert Hoover made a bold economic decision.",
       "ipa": "ˈprɛzəˌdɛnt ˈhɝbɚt ˈhuvɚ meɪd ə boʊld ˌɛkəˈnɑmɪk dɪˈsɪʒən",
       "words": [
@@ -82,7 +82,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مالیاتی فراگیرِ ۲۰ درصدی بر همهٔ کالاهای کشاورزی و صنعتیِ وارداتی را تصویب کرد.",
+      "fa": "مالیاتِ فراگیری به میزانِ ۲۰ درصد بر همهٔ کالاهای کشاورزی و صنعتیِ وارداتی تصویب کرد.",
       "en": "he approved a sweeping 20% tax on all imported agricultural and industrial goods.",
       "ipa": "hi əˈpruvd ə ˈswipɪŋ ˈtwɛnti pɚˈsɛnt tæks ɑn ɔl ɪmˈpɔrtɪd ˌæɡrəˈkʌltʃərəl ənd ɪnˈdʌstriəl ɡʊdz",
       "words": [
@@ -131,7 +131,7 @@ DRILL({
       ]
     },
     {
-      "fa": "او باور داشت گران‌تر کردنِ کالاهای خارجی مصرف‌کنندگان را به خریدِ کالای داخلی تشویق می‌کند،",
+      "fa": "او باور داشت که گران‌تر کردن کالاهای خارجی، مصرف‌کنندگان را به خرید کالای داخلی تشویق خواهد کرد،",
       "en": "He believed making foreign goods more expensive would encourage consumers to buy domestic,",
       "ipa": "hi bɪˈlivd ˈmeɪkɪŋ ˈfɔrən ɡʊdz mɔr ɪkˈspɛnsɪv wʊd ɛnˈkɝɪdʒ kənˈsumɚz tə baɪ dəˈmɛstɪk",
       "words": [
@@ -166,7 +166,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و بدین‌سان پول را به سوی کسب‌وکارهای آمریکایی سرازیر می‌کند و شغل‌های بیشتری می‌آفریند.",
+      "fa": "و از این راه پول را به سوی کسب‌وکارهای آمریکایی سرازیر خواهد کرد و شغل‌های بیشتری به وجود خواهد آورد.",
       "en": "thus funneling cash into American businesses and creating more jobs.",
       "ipa": "ðʌs ˈfʌnəlɪŋ kæʃ ɪnˈtu əˈmɛrəkən ˈbɪznəsəz ənd kriˈeɪtɪŋ mɔr dʒɑbz",
       "words": [
@@ -370,13 +370,13 @@ DRILL({
           "w": "bill",
           "ipa": "bɪl",
           "m": "a written plan for a new law",
-          "fa": "لایحه",
+          "fa": "اینجا: طرحِ قانونی که برای تصویب ارائه شده، لایحه؛ در رستوران: صورت‌حساب",
           "more": "act · draft law · pass a bill"
         }
       ]
     },
     {
-      "fa": "اما این آخرین باری نبود که یک رهبرِ جهانی از پیامدهای یک تعرفه یکه می‌خورد.",
+      "fa": "اما این آخرین باری نبود که یکی از رهبران جهان از پیامدهای یک تعرفه غافلگیر می‌شد.",
       "en": "But this wouldn’t be the last time a world leader was shocked by a tariff's consequences.",
       "ipa": "bət ðɪs ˈwʊdənt bi ðə læst taɪm ə wɝld ˈlidɚ wəz ʃɑkt baɪ ə ˈtɛrəfs ˈkɑnsəkˌwɛnsəz",
       "words": [
@@ -394,7 +394,8 @@ DRILL({
           "fa": "پیامد",
           "more": "consequently · outcome · effect"
         }
-      ]
+      ],
+      "note": "راوی از دیدِ گذشته به اتفاق‌های بعدی نگاه می‌کند. برای همین می‌گوید <en>this wouldn’t be the last time</en>."
     },
     {
       "fa": "خب، تعرفه دقیقاً چیست؟",
@@ -417,7 +418,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مثلاً اگر کالایی به ارزشِ ۱۰۰۰ دلار با نرخِ تعرفهٔ ۱۰ درصد وارد کنند،",
+      "fa": "مثلاً اگر یک واردکننده کالاهایی به ارزشِ هزار دلار با نرخِ تعرفهٔ ده درصد وارد کند،",
       "en": "For example, if they import $1,000 worth of goods at a 10% tariff rate,",
       "ipa": "fɚ ɪɡˈzæmpəl ɪf ðeɪ ˌɪmˈpɔrt wʌn ˈθaʊzənd ˈdɑlɚz wɝθ əv ɡʊdz ət ə tɛn pɚˈsɛnt ˈtɛrəf reɪt",
       "words": [
@@ -445,7 +446,7 @@ DRILL({
       ]
     },
     {
-      "fa": "افزون بر ۱۰۰۰ دلار به فروشنده، ۱۰۰ دلار هم به دولت می‌پردازند.",
+      "fa": "علاوه بر هزار دلاری که به فروشنده می‌دهد، صد دلار هم به دولت خواهد پرداخت.",
       "en": "they'll pay $100 to the government in addition to $1,000 to the seller.",
       "ipa": "ðeɪl peɪ wʌn ˈhʌndrəd ˈdɑlɚz tə ðə ˈɡʌvɚmənt ɪn əˈdɪʃən tə wʌn ˈθaʊzənd ˈdɑlɚz tə ðə ˈsɛlɚ",
       "words": [
@@ -473,7 +474,7 @@ DRILL({
       ]
     },
     {
-      "fa": "صادرکنندگانِ خارجی می‌توانند در واکنش به یک تعرفه قیمتِ محصولشان را پایین بیاورند تا مشتریِ واردکننده را از دست ندهند.",
+      "fa": "صادرکنندگان خارجی می‌توانند با پایین آوردنِ قیمت محصولشان به تعرفه واکنش نشان دهند تا واردکننده همچنان از آن‌ها خرید کند.",
       "en": "Foreign exporters could respond to a tariff by reducing their product’s price to keep an importer’s business.",
       "ipa": "ˈfɔrən ɪkˈspɔrtɚz kʊd rɪˈspɑnd tə ə ˈtɛrəf baɪ rəˈdusɪŋ ðɛr ˈprɑdəkts praɪs tə kip ən ɪmˈpɔrtɚz ˈbɪznəs",
       "words": [
@@ -509,13 +510,13 @@ DRILL({
           "w": "to keep sb’s business",
           "ipa": "tə kip ˌsiˌbiˈsis ˈbɪznəs",
           "m": "to continue to have someone as a customer",
-          "fa": "مشتری را از دست ندادن",
+          "fa": "کاری کردن که کسی همچنان مشتری‌ات بماند و خریدش را از تو انجام دهد",
           "more": "retain a customer · lose sb’s business (opp.)"
         }
       ]
     },
     {
-      "fa": "اما اگر نکنند، واردکنندگان این هزینه را به دوش می‌کشند و سپس قیمت‌هایشان را بالا می‌برند تا مصرف‌کنندگان تفاوت را جبران کنند.",
+      "fa": "اما اگر این کار را نکنند، واردکنندگان هزینه را متحمل می‌شوند و بعد قیمت‌هایشان را بالا می‌برند تا مصرف‌کنندگان مابه‌التفاوت را بپردازند.",
       "en": "But if they don’t, importers bear this cost and then increase their prices so consumers will make up the difference.",
       "ipa": "bət ɪf ðeɪ doʊnt ɪmˈpɔrtɚz bɛr ðɪs kɑst ənd ðɛn ˌɪnˈkris ðɛr ˈpraɪsəz soʊ kənˈsumɚz wɪl meɪk ʌp ðə ˈdɪfərəns",
       "words": [
@@ -778,7 +779,7 @@ DRILL({
           "w": "to come at a cost",
           "ipa": "tə kʌm ət ə kɑst",
           "m": "to be gained only by losing or paying something",
-          "fa": "بهای سنگینی داشتن",
+          "fa": "بهایی داشتن، هزینه‌ای در پی داشتن",
           "more": "at a price · at the expense of"
         }
       ]
@@ -958,7 +959,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس این تعرفه با گران‌تر کردنِ فولادِ خارجی می‌کوشید برای تولیدکنندگانِ فولادِ آمریکایی شغل‌های تازه بیافریند.",
+      "fa": "پس هدف از این تعرفه آن بود که با گران‌تر کردن فولاد خارجی، برای تولیدکنندگانِ فولاد در آمریکا شغل‌های تازه‌ای ایجاد کند.",
       "en": "so by making foreign steel more expensive, the tariff sought to create new jobs for US steel manufacturers.",
       "ipa": "soʊ baɪ ˈmeɪkɪŋ ˈfɔrən stil mɔr ɪkˈspɛnsɪv ðə ˈtɛrəf sɔt tə kriˈeɪt nu dʒɑbz fɚ ˌjuˈɛs stil ˌmænjəˈfæktʃərɚz",
       "words": [
@@ -1042,7 +1043,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این کار محصولاتشان را در عرصهٔ بین‌المللی کم‌رقابت‌تر کرد،",
+      "fa": "این کار توان رقابتِ محصولاتشان را در بازارهای بین‌المللی کاهش داد،",
       "en": "This made their products less competitive internationally,",
       "ipa": "ðɪs meɪd ðɛr ˈprɑdəkts lɛs kəmˈpɛtətɪv ˌɪntɚˈnæʃənəli",
       "words": [
@@ -1068,15 +1069,15 @@ DRILL({
       "ipa": "wɛr ˈfɔrən ˌmænjəˈfæktʃərɚz wɚ stɪl ˈjuzɪŋ tʃip stil"
     },
     {
-      "fa": "در کمتر از یک سال پس از وضعِ تعرفه، آمریکا در صنایعِ وابسته به فولاد شغل‌های بسیار بیشتری از دست داد",
+      "fa": "ظرف یک سال از زمانِ وضعِ تعرفه، تعداد شغل‌هایی که آمریکا در صنایعِ مرتبط با فولاد از دست داد بسیار بیشتر بود",
       "en": "Within a year of enacting the tariff, the US lost far more jobs in steel-related industries",
       "ipa": "wɪˈðɪn ə jɪr əv ɛˈnæktɪŋ ðə ˈtɛrəf ðə ˌjuˈɛs lɔst fɑr mɔr dʒɑbz ɪn stil rɪˈleɪtɪd ˈɪndəstriz",
       "words": [
         {
           "w": "within",
           "ipa": "wɪˈðɪn",
-          "m": "in less than a particular period of time",
-          "fa": "در کمتر از",
+          "m": "before or by the end of a stated period of time",
+          "fa": "در بیان زمان: ظرفِ، تا پایانِ یک بازه؛ در بیان مکان: در محدودهٔ",
           "more": "inside · in under"
         },
         {
@@ -1096,7 +1097,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا آنچه در صنایعِ فولادساز به دست آورد.",
+      "fa": "از تعداد شغل‌هایی که در صنایعِ تولیدکنندهٔ فولاد به دست آورد.",
       "en": "than they gained in steel-producing industries.",
       "ipa": "ðən ðeɪ ɡeɪnd ɪn stil prəˈdusɪŋ ˈɪndəstriz",
       "words": [
@@ -1110,7 +1111,7 @@ DRILL({
       ]
     },
     {
-      "fa": "روشن است که چگونگیِ واکنشِ کشورهای دیگر به تعرفه‌ها بخشِ بزرگِ دیگری از اثرِ موج‌وارِ این سیاست‌هاست.",
+      "fa": "روشن است که نحوهٔ واکنش کشورهای دیگر به تعرفه‌ها هم بخش مهمِ دیگری از پیامدهای موج‌وارِ این سیاست‌هاست.",
       "en": "Clearly, how other countries respond to tariffs is another big part of the ripple effect these policies have.",
       "ipa": "ˈklɪrli haʊ ˈʌðɚ ˈkʌntriz rɪˈspɑnd tə ˈtɛrəfs ɪz əˈnʌðɚ bɪɡ pɑrt əv ðə ˈrɪpəl ɪˈfɛkt ðiz ˈpɑləsiz hæv",
       "newPara": true,
@@ -1297,7 +1298,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا جای پایشان را در داخلِ کشور محکم کنند، بیشتر برای جمع کردنِ بودجهٔ دولت به کار می‌رفتند.",
+      "fa": "جای پایشان را در بازارِ داخلی محکم کنند، عمدتاً از این تعرفه‌ها برای تأمین منابعِ مالیِ دولت استفاده می‌شد.",
       "en": "find their domestic footing, they were mostly used to raise government funds.",
       "ipa": "faɪnd ðɛr dəˈmɛstɪk ˈfʊtɪŋ ðeɪ wɚ ˈmoʊstli juzd tə reɪz ˈɡʌvɚmənt fʌndz",
       "words": [
@@ -1346,7 +1347,7 @@ DRILL({
       ]
     },
     {
-      "fa": "امروزه بیش از هر زمانِ دیگری قطعه‌های تولیدی وارد می‌شوند،",
+      "fa": "امروز بیش از هر زمان دیگری قطعاتِ مورد نیازِ تولید وارد می‌شوند،",
       "en": "Today, there are more manufacturing components being imported than ever before,",
       "ipa": "təˈdeɪ ðɛr ɚ mɔr ˌmænjəˈfæktʃərɪŋ kəmˈpoʊnənts ˈbiɪŋ ɪmˈpɔrtɪd ðən ˈɛvɚ bɪˈfɔr",
       "words": [
@@ -1395,7 +1396,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این پیچیدگی یعنی حتی تعرفه‌ای که به ظاهر ساده است می‌تواند زنجیرهٔ واکنشی جهانی به راه بیندازد،",
+      "fa": "این پیچیدگی به این معناست که حتی تعرفه‌ای به‌ظاهر ساده می‌تواند یک واکنشِ زنجیره‌ای در سراسر جهان به راه بیندازد،",
       "en": "This complexity means that even a seemingly simple tariff can trigger a global chain reaction,",
       "ipa": "ðɪs kəmˈplɛksəti minz ðæt ˈivɪn ə ˈsimɪŋli ˈsɪmpəl ˈtɛrəf kən ˈtrɪɡɚ ə ˈɡloʊbəl tʃeɪn riˈækʃən",
       "words": [

@@ -53,7 +53,7 @@ DRILL({
       ]
     },
     {
-      "fa": "چیزی که با یک شرط‌بندی میان دوستان شروع شد او را به جایی رساند که بیش از ۱۴۰۰ کارت باز کند،",
+      "fa": "چیزی که با شرط‌بندیِ چند دوست شروع شد، باعث شد او بیش از ۱۴۰۰ حسابِ کارت اعتباری باز کند،",
       "en": "What began as a bet between friends led him to open over 1,400 cards,",
       "ipa": "wʌt bɪˈɡæn əz ə bɛt bɪˈtwin frɛndz lɛd hɪm tə ˈoʊpən ˈoʊvɚ ˌfɔrˈtin ˈhʌndrəd kɑrdz",
       "words": [
@@ -128,7 +128,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گرچه کارت‌های اعتباری برای خریدِ امن، از پسِ موقعیت‌های اضطراری برآمدن و ساختنِ امتیازِ اعتباری (سابقهٔ خوش‌حسابی) مفیدند،",
+      "fa": "با اینکه برای خرید امن، مدیریتِ موقعیت‌های اضطراری و بالا بردنِ امتیاز اعتباری مفیدند،",
       "en": "While useful for secure purchasing, handling emergencies, and building credit scores,",
       "ipa": "waɪl ˈjusfəl fɚ sɪˈkjʊr ˈpɝtʃəsɪŋ ˈhændlɪŋ ɪˈmɝdʒənsiz ənd ˈbɪldɪŋ ˈkrɛdət skɔrz",
       "words": [
@@ -174,7 +174,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ممکن است دوری کردن از خرجِ بیش از اندازه را سخت کنند.",
+      "fa": "کارت‌های اعتباری می‌توانند پرهیز از ولخرجی را دشوار کنند.",
       "en": "credit cards can make it difficult to avoid overspending.",
       "ipa": "ˈkrɛdət kɑrdz kən meɪk ɪt ˈdɪfəkəlt tə əˈvɔɪd ˈoʊvɚˌspɛndɪŋ",
       "words": [
@@ -209,7 +209,7 @@ DRILL({
           "w": "outstanding",
           "ipa": "ˌaʊtˈstændɪŋ",
           "m": "not yet paid",
-          "fa": "پرداخت‌نشده، معوق",
+          "fa": "اینجا: باقی‌مانده و هنوز پرداخت‌نشده (حتی پیش از سررسید)؛ دربارهٔ کیفیت: برجسته، ممتاز",
           "more": "unpaid"
         },
         {
@@ -330,7 +330,7 @@ DRILL({
       ]
     },
     {
-      "fa": "وام‌دهنده‌ها اغلب مزایایی مثلِ برگشتِ بخشی از پولِ خرید (کش‌بک)، امتیازِ مایلِ پرواز و تخفیف را به‌شکلی تهاجمی تبلیغ می‌کنند.",
+      "fa": "وام‌دهندگان اغلب مزایای جانبی مثل بازگشتِ بخشی از پول خرید، امتیاز مسافتِ پرواز و تخفیف را با شدت و پیگیری تبلیغ می‌کنند.",
       "en": "Lenders often aggressively advertise perks like cash back, travel miles, and discounts.",
       "ipa": "ˈlɛndɚz ˈɔfən əˈɡrɛsɪvli ˈædvɚˌtaɪz pɝks laɪk kæʃ bæk ˈtrævəl maɪlz ənd ˈdɪˌskaʊnts",
       "words": [
@@ -444,7 +444,7 @@ DRILL({
           "w": "to pay off",
           "ipa": "tə peɪ ɔf",
           "m": "to pay back all the money you owe",
-          "fa": "تسویه کردن، کامل پرداختن"
+          "fa": "اینجا: بدهی را به‌طور کامل تسویه کردن؛ در مورد تلاش یا سرمایه‌گذاری: نتیجه دادن"
         },
         {
           "w": "entire",
@@ -528,7 +528,7 @@ DRILL({
       ]
     },
     {
-      "fa": "کارشناسانِ مالی توصیه می‌کنند کارتی بگیرید که کمترین «نرخِ درصدِ سالانه» یا APR را دارد.",
+      "fa": "کارشناسان مالی توصیه می‌کنند کارتی با کمترین نرخِ درصدِ سالانه بگیرید <c>(نام کاملِ نرخ و سپس شکلِ اختصاری‌اش)</c>.",
       "en": "financial experts recommend getting a card with the lowest annual percentage rate, or APR.",
       "ipa": "fəˈnænʃəl ˈɛkspɚts ˌrɛkəˈmɛnd ˈɡɛtɪŋ ə kɑrd wɪð ðə ˈloʊəst ˈænjuəl pɚˈsɛntədʒ reɪt ɔr ˌeɪˌpiˈɑr",
       "words": [
@@ -596,7 +596,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این هزینه را از راهِ هزینه‌های بهره می‌پردازید،",
+      "fa": "این هزینه را در قالب مبالغی که به‌عنوان بهره از شما می‌گیرند می‌پردازید،",
       "en": "You pay that cost through interest charges,",
       "ipa": "ju peɪ ðæt kɑst θru ˈɪntrəst ˈtʃɑrdʒəz",
       "words": [
@@ -610,7 +610,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که به محضِ اینکه هر مقدار بدهی‌ای را بعد از سررسیدِ صورت‌حساب پرداخت‌نشده نگه دارید، شروع می‌شوند.",
+      "fa": "و این مبالغ به‌محض اینکه حتی بخشی از ماندهٔ بدهی از سررسیدِ صورت‌حساب بگذرد، به حسابتان منظور می‌شوند.",
       "en": "which kick in as soon as you carry any balance past a statement due date.",
       "ipa": "wɪtʃ kɪk ɪn əz sun əz ju ˈkæri ˈɛni ˈbæləns pæst ə ˈsteɪtmənt du deɪt",
       "words": [
@@ -643,7 +643,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گرچه APRها به‌صورت نرخِ سالانه اعلام می‌شوند، در بیشترِ کارت‌ها بهره هر روز تعلق می‌گیرد و جمع می‌شود.",
+      "fa": "اگرچه این نرخ‌های درصدی را سالانه اعلام می‌کنند، بهرهٔ بیشترِ کارت‌ها روزبه‌روز روی هم جمع می‌شود.",
       "en": "While APRs are listed as yearly rates, for most cards, interest accrues daily.",
       "ipa": "waɪl ˌeɪˌpiˈɑrz ɚ ˈlɪstəd əz ˈjɪrli reɪts fɚ moʊst kɑrdz ˈɪntrəst əˈkruz ˈdeɪli",
       "words": [
@@ -668,7 +668,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مثلاً کارتی با APR سی‌وپنج درصد، روزی حدودِ ۰٫۰۹۵ درصد بهره می‌گیرد.",
+      "fa": "برای مثال، کارتی با نرخِ درصدِ سالانهٔ ۳۵ درصد، روزانه حدود ۰٫۰۹۵ درصد بهره از شما می‌گیرد.",
       "en": "For example, a card with a 35% APR charges about 0.095% interest per day.",
       "ipa": "fɚ ɪɡˈzæmpəl ə kɑrd wɪð ə ˈθɝdi faɪv pɚˈsɛnt ˌeɪˌpiˈɑr ˈtʃɑrdʒəz əˈbaʊt ˈzɪroʊ pɔɪnt ˈnaɪnti faɪv pɚˈsɛnt ˈɪntrəst pɝ deɪ",
       "words": [
@@ -688,7 +688,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس ماندهٔ چرخشیِ ۱۰۰۰ دلاری در طولِ یک ماه تقریباً ۲۹ دلار بهره روی هم جمع می‌کند.",
+      "fa": "پس ماندهٔ بدهیِ انتقال‌یافته‌ای به مبلغ ۱۰۰۰ دلار، در طول یک ماه حدود ۲۹ دلار بهره روی هم جمع می‌کرد.",
       "en": "So a revolving balance of $1,000 would accumulate approximately $29 in interest over a month.",
       "ipa": "soʊ ə riˈvɑlvɪŋ ˈbæləns əv wʌn ˈθaʊzənd ˈdɑlɚz wʊd əˈkjumjəˌleɪt əˈprɑksəmətli ˈtwɛnti naɪn ˈdɑlɚz ɪn ˈɪntrəst ˈoʊvɚ ə mʌnθ",
       "words": [
@@ -709,7 +709,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در این میان، کارتی با APR پایین‌تر، مثلاً ۱۸ درصد،",
+      "fa": "در مقابل، کارتی با نرخِ درصدِ سالانهٔ پایین‌تر، مثلاً ۱۸ درصد،",
       "en": "Meanwhile, a card with a lower APR, say 18%,",
       "ipa": "ˈminˌwaɪl ə kɑrd wɪð ə ˈloʊɚ ˌeɪˌpiˈɑr seɪ eɪˈtin pɚˈsɛnt",
       "words": [
@@ -728,7 +728,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در همان بازه حدودِ ۱۵ دلار بهره می‌گیرد.",
+      "fa": "در همان بازه حدود ۱۵ دلار بهره می‌گرفت.",
       "en": "would charge about $15 in interest during the same period.",
       "ipa": "wʊd tʃɑrdʒ əˈbaʊt fɪfˈtin ˈdɑlɚz ɪn ˈɪntrəst ˈdʊrɪŋ ðə seɪm ˈpɪriəd",
       "words": [
@@ -792,7 +792,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تسویهٔ کارتی که APR بالاتری دارد ۳۲۵ دلار بیشتر خرج برمی‌دارد و هفت ماه بیشتر طول می‌کشد.",
+      "fa": "تسویهٔ کارتی که نرخِ درصدِ سالانه‌اش بالاتر است، ۳۲۵ دلار بیشتر هزینه می‌برد و هفت ماه بیشتر طول می‌کشد.",
       "en": "the card with the higher APR would take an extra $325 and an extra seven months to pay off.",
       "ipa": "ðə kɑrd wɪð ðə ˈhaɪɚ ˌeɪˌpiˈɑr wʊd teɪk ən ˈɛkstrə θri ˈhʌndrəd ˈtwɛnti faɪv ˈdɑlɚz ənd ən ˈɛkstrə ˈsɛvən mʌnθs tə peɪ ɔf",
       "words": [
@@ -916,7 +916,7 @@ DRILL({
       ]
     },
     {
-      "fa": "کارت‌هایی با APR پایین بهترین گزینه برای به حداقل رساندنِ این هزینه‌های بهره‌اند؛",
+      "fa": "کارت‌هایی با نرخِ درصدِ سالانهٔ پایین بهترین گزینه برای به حداقل رساندنِ این هزینه‌های بهره‌اند؛",
       "en": "Low APR cards are the best option for minimizing these interest charges;",
       "ipa": "loʊ ˌeɪˌpiˈɑr kɑrdz ɚ ðə bɛst ˈɑpʃən fɚ ˈmɪnəˌmaɪzɪŋ ðiz ˈɪntrəst ˈtʃɑrdʒəz",
       "newPara": true,
@@ -937,7 +937,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با این حال، مراقبِ کارت‌هایی باشید که برای یک دورهٔ معرفیِ اولیه، APR فوق‌العاده پایینی پیشنهاد می‌کنند.",
+      "fa": "با این حال، مراقب کارت‌هایی باشید که برای یک دورهٔ آغازین، نرخِ درصدِ سالانهٔ فوق‌العاده پایینی پیشنهاد می‌کنند.",
       "en": "however, be wary of cards that offer exceptionally low APR for an introductory period.",
       "ipa": "ˌhaʊˈɛvɚ bi ˈwɛri əv kɑrdz ðæt ˈɔfɚ ɪkˈsɛpʃənəli loʊ ˌeɪˌpiˈɑr fɚ ən ˌɪntrəˈdʌktəri ˈpɪriəd",
       "words": [
@@ -996,7 +996,7 @@ DRILL({
       ]
     },
     {
-      "fa": "جریمه‌های سنگینِ دیرکرد، و APRهای پیش‌فرضِ بالا که به محضِ تمام شدنِ دورهٔ آغازین به کار می‌افتند.",
+      "fa": "جریمه‌های سنگینِ دیرکرد و نرخ‌های درصدِ سالانهٔ عادیِ بالایی که به‌محض پایان دورهٔ آغازین به اجرا درمی‌آیند.",
       "en": "steep late charges, and high default APRs that kick in once the introductory period ends.",
       "ipa": "stip leɪt ˈtʃɑrdʒəz ənd haɪ dɪˈfɔlt ˌeɪˌpiˈɑrz ðæt kɪk ɪn wʌns ði ˌɪntrəˈdʌktəri ˈpɪriəd ɛndz",
       "words": [
@@ -1017,7 +1017,7 @@ DRILL({
           "w": "default",
           "ipa": "dɪˈfɔlt",
           "m": "the standard setting that applies when nothing else has been chosen",
-          "fa": "پیش‌فرض",
+          "fa": "اینجا: پیش‌فرض، نرخ عادیِ قابل‌اعمال پس از دورهٔ آغازین؛ در بحث بازپرداخت بدهی: نکول",
           "more": "by default"
         }
       ]
@@ -1144,7 +1144,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در نتیجه، اگر فقط به همان حداقلِ پرداخت پایبند بمانید،",
+      "fa": "در نتیجه، پایبند ماندن به پرداختِ فقط همان مبلغِ حداقل",
       "en": "As a result, sticking to just the minimum payment",
       "ipa": "əz ə rɪˈzʌlt ˈstɪkɪŋ tə dʒʌst ðə ˈmɪnəməm ˈpeɪmənt",
       "words": [
@@ -1163,7 +1163,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تسویهٔ حتی ماندهٔ کمِ ۱۰۰۰ دلاری ممکن است بیش از ۱۸ سال طول بکشد.",
+      "fa": "می‌تواند باعث شود تسویهٔ حتی مانده‌ای کوچک به مبلغ ۱۰۰۰ دلار، بیش از ۱۸ سال طول بکشد.",
       "en": "can make even a low balance of $1,000 take over 18 years to pay off.",
       "ipa": "kən meɪk ˈivɪn ə loʊ ˈbæləns əv wʌn ˈθaʊzənd ˈdɑlɚz teɪk ˈoʊvɚ eɪˈtin jɪrz tə peɪ ɔf"
     },
@@ -1224,12 +1224,12 @@ DRILL({
       ]
     },
     {
-      "fa": "اگر بدهی روی کارتی با APR بالاست،",
+      "fa": "اگر بدهی‌تان روی کارتی با نرخِ درصدِ سالانهٔ بالاست،",
       "en": "If the debt is on a high APR card,",
       "ipa": "ɪf ðə dɛt ɪz ɑn ə haɪ ˌeɪˌpiˈɑr kɑrd"
     },
     {
-      "fa": "انتقالِ مانده‌تان به کارتی با APR پایین‌تر ممکن است کمک کند.",
+      "fa": "انتقالِ ماندهٔ بدهی‌تان به کارتی با نرخِ درصدِ سالانهٔ پایین‌تر ممکن است کمک کند.",
       "en": "transferring your balance to a lower APR card may help.",
       "ipa": "trænˈsfɝɪŋ jɔr ˈbæləns tə ə ˈloʊɚ ˌeɪˌpiˈɑr kɑrd meɪ hɛlp",
       "words": [
@@ -1315,7 +1315,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که هر پولِ اضافه‌ای را صرفِ کارتی کنید که بالاترین APR را دارد، فارغ از مقدارِ مانده.",
+      "fa": "که هر مبلغ اضافه‌ای را صرفِ پرداختِ بدهیِ کارتی کنید که بالاترین نرخِ درصدِ سالانه را دارد، صرف‌نظر از اینکه مانده‌اش چقدر است.",
       "en": "to put any extra money towards the card with the highest APR, regardless of balance.",
       "ipa": "tə pʊt ˈɛni ˈɛkstrə ˈmʌni təˈwɔrdz ðə kɑrd wɪð ðə ˈhaɪəst ˌeɪˌpiˈɑr rəˈɡɑrdləs əv ˈbæləns",
       "words": [

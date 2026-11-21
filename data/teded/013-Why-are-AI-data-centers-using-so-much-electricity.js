@@ -124,7 +124,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از دههٔ ۲۰۰۰ مراکزِ دادهٔ مشابهی داشته‌ایم که به گرداندنِ اینترنت اختصاص داشتند،",
+      "fa": "از دههٔ ۲۰۰۰ تاکنون مراکز دادهٔ مشابهی داشته‌ایم که کارشان گرداندنِ اینترنت است،",
       "en": "We’ve had similar data centers dedicated to operating the internet since the 2000s,",
       "ipa": "wiv hæd ˈsɪməlɚ ˈdeɪtə ˈsɛntɚz ˈdɛdəkeɪtəd tə ˈɑpəˌreɪtɪŋ ði ˈɪntɚˌnɛt sɪns ðə tu ˈθaʊzəndz",
       "newPara": true,
@@ -267,7 +267,7 @@ DRILL({
           "w": "backup",
           "ipa": "ˈbæˌkʌp",
           "m": "something kept ready to use if the main thing fails",
-          "fa": "پشتیبان، جایگزینِ اضطراری",
+          "fa": "اینجا: سامانهٔ جایگزینِ برق در مواقع قطع برق؛ دربارهٔ فایل‌ها: نسخهٔ پشتیبان",
           "more": "back up (v) · spare"
         },
         {
@@ -350,7 +350,7 @@ DRILL({
       ]
     },
     {
-      "fa": "وقتی از یک مدلِ زبانیِ بزرگ سؤالی می‌پرسی، درخواستت (پرامپت) وارد یکی از همین اتاق‌های سرور می‌شود.",
+      "fa": "وقتی از یک مدل زبانی بزرگ سؤالی می‌پرسی، درخواستی که به آن داده‌ای وارد یکی از این اتاق‌های سرور می‌شود.",
       "en": "When you ask an LLM a question, your prompt enters one of these server rooms.",
       "ipa": "wɛn ju æsk ən ˌɛlˌɛlˈɛm ə ˈkwɛstʃən jɔr prɑmpt ˈɛntɚz wʌn əv ðiz ˈsɝvɚ rumz",
       "newPara": true,
@@ -359,7 +359,7 @@ DRILL({
           "w": "prompt",
           "ipa": "prɑmpt",
           "m": "the instruction or question you type into an AI system",
-          "fa": "پرامپت، درخواست متنی",
+          "fa": "اینجا: متنِ درخواست یا دستور به مدل؛ در کاربرد عمومی: سرنخ یا اشاره‌ای که کسی را به پاسخ دادن وامی‌دارد",
           "more": "prompt (v) · input"
         }
       ]
@@ -547,7 +547,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هرچند بیشترِ پرامپت‌ها برای پاسخ گرفتن فقط به چند پردازندهٔ گرافیکی نیاز دارند،",
+      "fa": "هرچند برای پاسخ دادن به بیشترِ درخواست‌ها فقط چند پردازندهٔ گرافیکی لازم است،",
       "en": "While most prompts only require a few GPUs to answer,",
       "ipa": "waɪl moʊst prɑmpts ˈoʊnli ˌriˈkwaɪɚ ə fju ˌdʒiˌpiˈjuz tə ˈænsɚ",
       "newPara": true,
@@ -562,7 +562,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مراکزِ داده همین حالا هم ثانیه‌ای ده‌ها هزار پرامپت را جواب‌گویی می‌کنند.",
+      "fa": "مراکز داده همین حالا هم در هر ثانیه به ده‌ها هزار درخواست پاسخ می‌دهند.",
       "en": "data centers already field tens of thousands of prompts a second.",
       "ipa": "ˈdeɪtə ˈsɛntɚz ɔlˈrɛdi fild tɛnz əv ˈθaʊzəndz əv prɑmpts ə ˈsɛkənd",
       "words": [
@@ -570,7 +570,7 @@ DRILL({
           "w": "to field",
           "ipa": "tə fild",
           "m": "to receive and deal with questions or requests",
-          "fa": "پاسخ‌گو بودن، رسیدگی کردن به",
+          "fa": "اینجا: دریافت کردن و پاسخ دادن به سؤال‌ها یا درخواست‌ها؛ در ورزش: تیم یا بازیکنی را به میدان فرستادن",
           "more": "field questions · handle"
         },
         {
@@ -668,7 +668,7 @@ DRILL({
       ]
     },
     {
-      "fa": "حتی در اتاق‌های سرورِ دارای تهویهٔ مطبوع، پردازنده‌های گرافیکی آن‌قدر داغ می‌شوند که بردهای سرور را ذوب کنند.",
+      "fa": "حتی در اتاق‌های سروری که شرایط محیطی‌شان کنترل می‌شود، پردازنده‌های گرافیکی آن‌قدر داغ می‌شوند که می‌توانند بردهای سرور را ذوب کنند.",
       "en": "Even in climate-controlled server rooms, GPUs get hot enough to melt server boards.",
       "ipa": "ˈivɪn ɪn ˈklaɪmət kənˈtroʊld ˈsɝvɚ rumz ˌdʒiˌpiˈjuz ɡɛt hɑt ɪˈnʌf tə mɛlt ˈsɝvɚ bɔrdz",
       "words": [
@@ -689,7 +689,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و سیم‌های مسی‌ای که این تراشه‌ها را به هم وصل می‌کنند پیوسته انرژی را به هدر می‌دهند،",
+      "fa": "و سیم‌های مسی‌ای که این تراشه‌ها را به هم وصل می‌کنند، پیوسته بخشی از انرژی را تلف می‌کنند،",
       "en": "And the copper wires connecting these chips constantly dissipate energy,",
       "ipa": "ənd ðə ˈkɑpɚ ˈwaɪɚz kəˈnɛktɪŋ ðiz tʃɪps ˈkɑnstəntli ˈdɪsəˌpeɪt ˈɛnɚdʒi",
       "words": [
@@ -724,7 +724,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که برقِ بیشتری مصرف می‌کند و گرمای اضافی پدید می‌آورد.",
+      "fa": "و به این ترتیب برقِ بیشتری مصرف می‌کنند و گرمای بیشتری تولید می‌کنند.",
       "en": "using more electricity and generating additional heat.",
       "ipa": "ˈjuzɪŋ mɔr ɪˌlɛkˈtrɪsəti ənd ˈdʒɛnəˌreɪtɪŋ əˈdɪʃənəl hit",
       "words": [
@@ -760,7 +760,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برای خنک کردنِ تراشه‌ها، از راه‌حل‌هایی آزموده و مطمئن استفاده می‌کنند، مثلِ برج‌های آبی که گرما را جذب و تبخیر می‌کنند،",
+      "fa": "برای خنک کردن تراشه‌ها، دارند از راه‌حل‌های امتحان‌پس‌داده استفاده می‌کنند، مثل برج‌های خنک‌کنندهٔ آبی که گرما را جذب و از راه تبخیر دفع می‌کنند،",
       "en": "To cool chips, they’re using tried-and-true solutions like water towers that absorb and evaporate heat",
       "ipa": "tə kul tʃɪps ðɛr ˈjuzɪŋ traɪd ənd tru səˈluʃənz laɪk ˈwɔtɚ ˈtaʊɚz ðæt əbˈzɔrb ənd ɪˈvæpəˌreɪt hit",
       "words": [
@@ -799,10 +799,11 @@ DRILL({
           "fa": "تبخیر کردن، بخار شدن",
           "more": "evaporation · condense"
         }
-      ]
+      ],
+      "note": "در متن آمده است <en>absorb and evaporate heat</en>. برای بیان همین منظور در انگلیسی می‌توانید بگویید <en>absorb heat and remove it by evaporating water</en>؛ چیزی که تبخیر می‌شود آب است."
     },
     {
-      "fa": "در کنارِ رویکردهای تازه‌ای مثلِ لوله‌کشیِ آبِ سرد پشتِ بردهای سرور،",
+      "fa": "در کنار روش‌های تازه‌ای مثل رساندنِ آبِ خنک‌شده از راه لوله به پشتِ بردهای سرور،",
       "en": "alongside new approaches like piping chilled water behind server boards,",
       "ipa": "əˌlɔŋˈsaɪd nu əˈproʊtʃəz laɪk ˈpaɪpɪŋ tʃɪld ˈwɔtɚ bɪˈhaɪnd ˈsɝvɚ bɔrdz",
       "words": [
@@ -922,7 +923,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که از میانِ فیبرهای نوری عبور می‌کنند، با وفاداریِ داده‌ایِ بیشتر از مس و اتلافِ انرژیِ نزدیک به صفر.",
+      "fa": "این سیگنال‌ها از فیبرهای نوری می‌گذرند؛ داده‌ها را دقیق‌تر از سیم مسی انتقال می‌دهند و اتلاف توانشان نزدیک به صفر است.",
       "en": "which travel through optical fibers with higher data fidelity than copper and near-zero power loss.",
       "ipa": "wɪtʃ ˈtrævəl θru ˈɑptɪkəl ˈfaɪbɚz wɪð ˈhaɪɚ ˈdeɪtə fəˈdɛləti ðən ˈkɑpɚ ənd nɪr ˈzɪroʊ ˈpaʊɚ lɔs",
       "words": [
@@ -930,7 +931,7 @@ DRILL({
           "w": "fidelity",
           "ipa": "fəˈdɛləti",
           "m": "how exactly a copy matches the original",
-          "fa": "وفاداری، دقتِ بازتولید",
+          "fa": "اینجا: دقت در حفظِ دادهٔ اصلی هنگام انتقال؛ در روابط: وفاداری",
           "more": "high fidelity (hi-fi) · accuracy"
         },
         {
@@ -1069,7 +1070,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و بارِ گرمایی‌شان را پخش کند و به مدل‌های بزرگ‌تر اجازه دهد برقِ کمتری مصرف کنند.",
+      "fa": "به این ترتیب بار گرمایی‌شان پخش می‌شود و مدل‌های زبانیِ بزرگ‌تری می‌توانند با توانِ کمتری کار کنند.",
       "en": "spreading out their heat load and allowing bigger LLMs to use less power.",
       "ipa": "ˈsprɛdɪŋ aʊt ðɛr hit loʊd ənd əˈlaʊɪŋ ˈbɪɡɚ ˌɛlˌɛlˈɛmz tə juz lɛs ˈpaʊɚ",
       "words": [
@@ -1145,7 +1146,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این را در همهٔ پردازنده‌های گرافیکیِ یک مرکزِ داده ضرب کن،",
+      "fa": "این مقدار را در تعداد کل پردازنده‌های گرافیکیِ یک مرکز داده ضرب کن،",
       "en": "Multiply that by every GPU in a data center,",
       "ipa": "ˈmʌltəˌplaɪ ðæt baɪ ˈɛvəri ˌdʒiˌpiˈju ɪn ə ˈdeɪtə ˈsɛntɚ",
       "words": [
@@ -1244,7 +1245,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تنها مراکزِ دادهٔ آمریکا ممکن است به اندازهٔ هشت شهرِ نیویورک انرژی مصرف کنند.",
+      "fa": "ممکن است مراکز دادهٔ آمریکا به‌تنهایی در آن زمان به اندازهٔ هشت شهر در ابعادِ نیویورک انرژی مصرف کنند.",
       "en": "US data centers alone could be using as much energy as eight New York Citys.",
       "ipa": "ˌjuˈɛs ˈdeɪtə ˈsɛntɚz əˈloʊn kʊd bi ˈjuzɪŋ əz mʌtʃ ˈɛnɚdʒi əz eɪt nu jɔrk ˈsɪtiz",
       "words": [
@@ -1258,7 +1259,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در واقع، برخی شرکت‌های هوش مصنوعی پیشنهاد کرده‌اند مراکزِ دادهٔ نسلِ آینده را با نیروگاهِ هسته‌ایِ اختصاصیِ خودشان جفت کنند.",
+      "fa": "در واقع، بعضی شرکت‌های هوش مصنوعی همین حالا هم پیشنهاد کرده‌اند مراکز دادهٔ نسل بعد را با نیروگاه هسته‌ایِ اختصاصیِ خودشان جفت کنند.",
       "en": "In fact, some AI companies have already proposed pairing next-gen data centers with their own personal nuclear power plant.",
       "ipa": "ɪn fækt sʌm ˌeɪˈaɪ ˈkʌmpəniz hæv ɔlˈrɛdi prəˈpoʊzd ˈpɛrɪŋ nɛkst ˈdʒɛnərəl ˈdeɪtə ˈsɛntɚz wɪð ðɛr oʊn ˈpɝsɪnɪl ˈnukliɚ ˈpaʊɚ plænt",
       "words": [
@@ -1364,7 +1365,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برای اینکه کمکت کند ماشینِ ظرف‌شویی‌ات را تعمیر کنی، به مدلی نیاز نداری که شکسپیر بلد باشد.",
+      "fa": "برای تعمیر ماشین ظرف‌شویی‌ات لازم نیست از مدلی کمک بگیری که آثار شکسپیر را بشناسد.",
       "en": "you don’t need a model that knows Shakespeare to help you fix your dishwasher.",
       "ipa": "ju doʊnt nid ə ˈmɑdəl ðæt noʊz ˈʃeɪkˌspɪr tə hɛlp ju fɪks jɔr ˈdɪʃˌwɑʃɚ",
       "words": [

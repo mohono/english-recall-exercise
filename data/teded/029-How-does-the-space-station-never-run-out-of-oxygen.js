@@ -89,7 +89,7 @@ DRILL({
       ]
     },
     {
-      "fa": "حالا شما و هم‌تیمی‌هایتان باید با مرکزِ کنترلِ مأموریت همکاری کنید",
+      "fa": "حالا شما و دیگر اعضای خدمه باید با مرکز کنترل مأموریت همکاری کنید",
       "en": "Now, you and your crewmates must work with mission control",
       "ipa": "naʊ ju ənd jɔr ˈkruˌmeɪts mʌst wɝk wɪð ˈmɪʃən kənˈtroʊl",
       "words": [
@@ -97,7 +97,7 @@ DRILL({
           "w": "crewmate",
           "ipa": "ˈkruˌmeɪt",
           "m": "a fellow member of a crew",
-          "fa": "هم‌خدمه، هم‌تیمی",
+          "fa": "کسی که همراه تو عضوِ خدمهٔ همان کشتی، هواپیما یا فضاپیماست",
           "more": "crew · teammate"
         },
         {
@@ -152,7 +152,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما برای فضانوردانِ ایستگاهِ فضاییِ بین‌المللی، سروکار داشتن با چنین موقعیت‌هایی جزءِ واقعیتِ زندگی است.",
+      "fa": "اما برای فضانوردانِ ایستگاه فضاییِ بین‌المللی، روبه‌رو شدن با چنین موقعیت‌هایی یکی از واقعیت‌های زندگی است.",
       "en": "but for astronauts on the International Space Station, dealing with situations like this is a reality of life.",
       "ipa": "bət fɚ ˈæstrəˌnɔts ɑn ði ˌɪntɚˈnæʃənəl speɪs ˈsteɪʃən ˈdilɪŋ wɪð ˌsɪtʃuˈeɪʃənz laɪk ðɪs ɪz ə riˈæləti əv laɪf",
       "words": [
@@ -167,7 +167,7 @@ DRILL({
           "w": "a reality of life",
           "ipa": "ə riˈæləti əv laɪf",
           "m": "a normal, unavoidable part of life",
-          "fa": "جزءِ واقعیتِ زندگی",
+          "fa": "یکی از واقعیت‌هایی که در زندگی با آن روبه‌رو می‌شویم",
           "more": "a fact of life · part and parcel"
         }
       ]
@@ -453,7 +453,7 @@ DRILL({
           "w": "to scrub",
           "ipa": "tə skrʌb",
           "m": "to remove an unwanted substance from air or gas",
-          "fa": "زدودن، پاک کردن",
+          "fa": "اینجا: زدودنِ یک گاز از هوا؛ در شست‌وشو: محکم ساییدن و تمیز کردن",
           "more": "scrubber · scrub (= clean hard)"
         },
         {
@@ -495,7 +495,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برای نخستین بار، خدمه به‌جای چند روز، چند ماه در مدار می‌ماندند.",
+      "fa": "برای اولین بار، قرار بود خدمه ماه‌ها در مدار بمانند، نه فقط چند روز.",
       "en": "For the first time, crews would remain in orbit for months, not days.",
       "ipa": "fɚ ðə fɝst taɪm kruz wʊd rɪˈmeɪn ɪn ˈɔrbət fɚ mʌnθs nɑt deɪz",
       "words": [
@@ -551,7 +551,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و فرستادنِ مدامِ این بارِ عظیم به مدار و برگرداندنش هزینهٔ زیادی داشت.",
+      "fa": "و اگر قرار بود این محمولهٔ عظیم مدام به مدار فرستاده و از آنجا برگردانده شود، هزینهٔ زیادی در بر داشت.",
       "en": "And constantly shipping this massive load to and from orbit would be expensive.",
       "ipa": "ənd ˈkɑnstəntli ˈʃɪpɪŋ ðɪs ˈmæsɪv loʊd tə ənd frəm ˈɔrbət wʊd bi ɪkˈspɛnsɪv",
       "words": [
@@ -621,7 +621,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در ایستگاهِ فضایی آب نسبتاً آسان به دست می‌آید، به لطفِ سامانهٔ بازیابیِ مستحکمش.",
+      "fa": "به لطفِ سامانهٔ کارآمدِ بازیابیِ آب در ایستگاه فضاییِ بین‌المللی، دسترسی به آب در آنجا نسبتاً آسان است.",
       "en": "Water is relatively easy to come by on the ISS thanks to its robust recovery system.",
       "ipa": "ˈwɔtɚ ɪz ˈrɛlətɪvli ˈizi tə kʌm baɪ ɑn ði ˌaɪˌɛsˈɛs θæŋks tə ɪts roʊˈbʌst rɪˈkʌvri ˈsɪstəm",
       "newPara": true,
@@ -644,7 +644,7 @@ DRILL({
           "w": "robust",
           "ipa": "roʊˈbʌst",
           "m": "strong and unlikely to fail",
-          "fa": "مستحکم، قابلِ‌اعتماد",
+          "fa": "دربارهٔ سامانه: قابل‌اتکا و مقاوم در برابر مشکل؛ دربارهٔ جسم: محکم، نیرومند",
           "more": "sturdy · resilient · fragile (opp.)"
         },
         {
@@ -706,7 +706,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و آن را به آبِ تازهٔ آشامیدنی تصفیه می‌کند.",
+      "fa": "و آن را تصفیه می‌کند تا به آبِ تازه و قابلِ نوشیدن تبدیل شود.",
       "en": "and purifies it into fresh, potable water.",
       "ipa": "ənd ˈpjʊrəˌfaɪz ɪt ɪnˈtu frɛʃ ˈpoʊtəbəl ˈwɔtɚ",
       "words": [
@@ -831,7 +831,7 @@ DRILL({
       "newPara": true
     },
     {
-      "fa": "روی زمین، حباب‌ها به خاطرِ گرانش خودبه‌خود به بالای مایع‌های چگال‌تر شناور می‌شوند.",
+      "fa": "روی زمین، به‌دلیلِ گرانش، حباب‌ها به‌طور طبیعی بالا می‌آیند و به سطحِ مایعِ چگال‌تر می‌رسند.",
       "en": "On Earth, bubbles naturally float to the top of denser liquids due to gravity.",
       "ipa": "ɑn ɝθ ˈbʌbəlz ˈnætʃərəli floʊt tə ðə tɑp əv ˈdɛnsɚ ˈlɪkwədz du tə ˈɡrævəti",
       "words": [
@@ -936,7 +936,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اینجا آبِ پُرگاز درست مثلِ ماشینِ لباسشویی در چرخهٔ آخرِ خشک‌کن چرخانده می‌شود،",
+      "fa": "اینجا آبِ حاوی حباب‌های گاز را می‌چرخانند، تقریباً مانند چرخش ماشینِ لباس‌شویی در مرحلهٔ نهاییِ آب‌گیری،",
       "en": "Here, the gas-filled water is spun much like a washing machine in its final spin cycle,",
       "ipa": "hɪr ðə ɡæs fɪld ˈwɔtɚ ɪz spʌn mʌtʃ laɪk ə ˈwɑʃɪŋ məˈʃin ɪn ɪts ˈfaɪnəl spɪn ˈsaɪkəl",
       "words": [
@@ -965,13 +965,13 @@ DRILL({
           "w": "spin cycle",
           "ipa": "spɪn ˈsaɪkəl",
           "m": "the part of a washing machine's program that spins clothes to remove water",
-          "fa": "چرخهٔ خشک‌کن (لباسشویی)",
+          "fa": "مرحلهٔ آب‌گیریِ لباس‌شویی که در آن دیگ با سرعت می‌چرخد",
           "more": "cycle · rinse cycle"
         }
       ]
     },
     {
-      "fa": "و مایع را به بیرون می‌راند، در حالی که گاز در مرکز جمع می‌شود.",
+      "fa": "و این چرخش مایع را به طرفِ بیرون می‌راند، در حالی که گاز در مرکز جمع می‌شود.",
       "en": "forcing the liquid outward while the gas collects in the center.",
       "ipa": "ˈfɔrsɪŋ ðə ˈlɪkwəd ˈaʊtwɚd waɪl ðə ɡæs kəˈlɛkts ɪn ðə ˈsɛntɚ",
       "words": [
@@ -1096,7 +1096,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و هرچه آژانس‌های فضایی سفرهای اکتشافیِ دورتر در فضا را هدف می‌گیرند،",
+      "fa": "و در حالی که سازمان‌های فضایی چشم به سفرهای اکتشافی به نقاطِ دورتری از فضا دوخته‌اند،",
       "en": "And as space agencies set their sights on expeditions deeper into space,",
       "ipa": "ənd əz speɪs ˈeɪdʒənsiz sɛt ðɛr saɪts ɑn ˌɛkspəˈdɪʃənz ˈdipɚ ɪnˈtu speɪs",
       "words": [
@@ -1222,7 +1222,7 @@ DRILL({
       ]
     },
     {
-      "fa": "وقتی مولکول‌هایی با بارِ منفی به‌طورِ عمودی از میانِ یک میدانِ مغناطیسی حرکت می‌کنند،",
+      "fa": "وقتی مولکول‌های دارای بار منفی از درونِ یک میدان مغناطیسی در جهتی عمود بر میدان حرکت می‌کنند،",
       "en": "When negatively charged molecules move perpendicularly through a magnetic field,",
       "ipa": "wɛn ˈnɛɡətɪvli tʃɑrdʒd ˈmɑləkˌjulz muv pɚˈpɛntʃəˌfɛli θru ə mæɡˈnɛtɪk fild",
       "words": [
@@ -1237,7 +1237,7 @@ DRILL({
           "w": "perpendicularly",
           "ipa": "pɚˈpɛntʃəˌfɛli",
           "m": "at an angle of 90 degrees to something",
-          "fa": "به‌طورِ عمودی، عمود بر",
+          "fa": "با زاویهٔ ۹۰ درجه نسبت به یک جهت یا سطحِ مشخص",
           "more": "perpendicular · at right angles"
         },
         {
@@ -1340,7 +1340,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس نگهداریِ کمتر و سخت‌افزارِ جایگزینِ کمتری لازم دارد،",
+      "fa": "بنابراین به نگهداریِ کمتر و قطعاتِ یدکیِ کمتری نیاز دارد،",
       "en": "so it requires less maintenance and replacement hardware,",
       "ipa": "soʊ ɪt riˈkwaɪɚz lɛs ˈmeɪntənəns ənd rɪˈpleɪsmənt ˈhɑrdˌwɛr",
       "words": [
@@ -1403,7 +1403,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با یک سامانهٔ اکسیژنِ مستحکم‌تر، فضانوردانِ ایستگاه‌های فضاییِ آینده و مأموریت‌های اعماقِ فضا باید بتوانند کمی آسوده‌تر نفس بکشند.",
+      "fa": "با سامانهٔ اکسیژنِ قابل‌اتکاتری، انتظار می‌رود فضانوردان در ایستگاه‌های فضاییِ آینده و مأموریت‌های اعماق فضا بتوانند کمی آسوده‌تر نفس بکشند.",
       "en": "With a more robust oxygen system, astronauts on future space stations and deep-space missions should be able to breathe a little easier.",
       "ipa": "wɪð ə mɔr roʊˈbʌst ˈɑksədʒən ˈsɪstəm ˈæstrəˌnɔts ɑn ˈfjutʃɚ speɪs ˈsteɪʃənz ənd dip speɪs ˈmɪʃənz ʃʊd bi ˈeɪbəl tə brið ə ˈlɪtəl ˈiziɚ",
       "words": [

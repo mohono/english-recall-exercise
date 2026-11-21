@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=JJdoAMiaLZo",
   "items": [
     {
-      "fa": "در اواخرِ دههٔ ۱۷۰۰، پزشکِ آلمانی، آنتون مسمر، داشت اروپا را شیفته و مسحورِ خود می‌کرد،",
+      "fa": "در اواخرِ قرنِ هجدهم، آنتون مسمر، پزشکِ آلمانی، داشت اروپا را مسحورِ خود می‌کرد،",
       "en": "In the late 1700s, German physician Anton Mesmer was enthralling Europe,",
       "ipa": "ɪn ðə leɪt ˌsɛvənˈtin ˈhʌndrədz ˈdʒɝmən fəˈzɪʃən ˈænˌtɔn ˈmɛzmɚ wəz ɪnˈθrɔlɪŋ ˈjʊrəp",
       "newPara": true,
@@ -41,7 +41,7 @@ DRILL({
           "w": "condition",
           "ipa": "kənˈdɪʃən",
           "m": "an illness or medical problem that lasts a long time",
-          "fa": "بیماری، عارضه",
+          "fa": "عارضه یا بیماری؛ وضعیت، شرط",
           "more": "medical condition · heart condition"
         },
         {
@@ -111,7 +111,7 @@ DRILL({
           "w": "to animate",
           "ipa": "tə ˈænəˌmeɪt",
           "m": "to give life or energy to something",
-          "fa": "جان بخشیدن، زنده کردن",
+          "fa": "جان بخشیدن به؛ متحرک‌سازی کردن",
           "more": "animated · inanimate"
         },
         {
@@ -145,7 +145,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برای به‌اصطلاح «درمان»، مسمر مراجعانش را وامی‌داشت دورِ دستگاهی عجیب‌وغریب زنجیره‌ای تشکیل دهند",
+      "fa": "مسمر برای این به‌اصطلاح «درمان» از مراجعانش می‌خواست دورِ دستگاهی عجیب‌وغریب زنجیره‌ای تشکیل دهند",
       "en": "For so-called “treatment,” Mesmer had his clientele form a chain around a contraption",
       "ipa": "fɚ ˌsoʊˈkɑld ˈtritmənt ˈmɛzmɚ hæd hɪz ˌklaɪənˈtɛl fɔrm ə tʃeɪn əˈraʊnd ə kənˈtræpʃən",
       "words": [
@@ -167,13 +167,13 @@ DRILL({
           "w": "to have someone do something",
           "ipa": "tə hæv ˈsʌmˌwʌn du ˈsʌmθɪŋ",
           "m": "to make or arrange for someone to do something",
-          "fa": "واداشتن کسی به کاری"
+          "fa": "ترتیبی دادن که کسی کاری کند، از کسی خواستن کاری کند"
         },
         {
           "w": "clientele",
           "ipa": "ˌklaɪənˈtɛl",
           "m": "all the customers or clients of a business or professional",
-          "fa": "مشتریان، مراجعان",
+          "fa": "مجموعِ مراجعان یا مشتریانِ یک فرد یا کسب‌وکار",
           "more": "client · customers"
         },
         {
@@ -186,7 +186,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که پر از آبی بود که به‌ادعای خودش آن را مغناطیسی کرده بود.",
+      "fa": "که پر از آبی بود که گفته می‌شد مسمر آن را مغناطیسی کرده است.",
       "en": "filled with water he allegedly magnetized.",
       "ipa": "fɪld wɪð ˈwɔtɚ hi əˈlɛdʒədli ˈmæɡnɪˌtaɪzd",
       "words": [
@@ -194,7 +194,7 @@ DRILL({
           "w": "allegedly",
           "ipa": "əˈlɛdʒədli",
           "m": "according to what someone says, although it has not been proved",
-          "fa": "به‌ادعا، ظاهراً",
+          "fa": "بنا بر ادعا، آن‌طور که گفته می‌شود",
           "more": "alleged · allegation · supposedly"
         },
         {
@@ -207,7 +207,7 @@ DRILL({
       ]
     },
     {
-      "fa": "سپس، با تکان دادنِ دست‌هایش، بیماران دچارِ حمله‌هایی ناگهانی می‌شدند",
+      "fa": "بعد، با حرکاتِ دست‌های مسمر، بیماران دچارِ حمله‌های تشنجی می‌شدند",
       "en": "Then, with waves of his hands, patients would fall into fits",
       "ipa": "ðɛn wɪð weɪvz əv hɪz hændz ˈpeɪʃənts wʊd fɔl ɪnˈtu fɪts",
       "words": [
@@ -215,14 +215,14 @@ DRILL({
           "w": "wave",
           "ipa": "weɪv",
           "m": "a movement of the hand from side to side",
-          "fa": "تکانِ دست",
+          "fa": "تکان یا حرکتِ دست؛ موج",
           "more": "to wave · a wave of the hand"
         },
         {
           "w": "fit",
           "ipa": "fɪt",
           "m": "a sudden short period of uncontrolled movement or strong feeling",
-          "fa": "حمله، تشنج",
+          "fa": "حملهٔ ناگهانی، حملهٔ تشنجی",
           "more": "a fit of laughter · seizure"
         },
         {
@@ -235,7 +235,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که ظاهراً قرار بود سلامتی‌شان را به آن‌ها بازگرداند.",
+      "fa": "که بنا بر ادعا قرار بود سلامتی‌شان را به آن‌ها بازگردانند.",
       "en": "that would supposedly restore their health.",
       "ipa": "ðæt wʊd səˈpoʊzədli rɪˈstɔr ðɛr hɛlθ",
       "words": [
@@ -243,7 +243,7 @@ DRILL({
           "w": "supposedly",
           "ipa": "səˈpoʊzədli",
           "m": "according to what people say or believe, though it may not be true",
-          "fa": "ظاهراً، از قرارِ معلوم",
+          "fa": "بنا بر ادعا، ظاهراً",
           "more": "supposed · allegedly"
         },
         {
@@ -256,7 +256,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با این حال، بعضی‌ها شکاک بودند — از جمله شاه لویی شانزدهم،",
+      "fa": "با این حال، بعضی‌ها به این ادعا شک داشتند، از جمله شاه لویی شانزدهم",
       "en": "Some, however, were skeptical— including King Louis XVI,",
       "ipa": "sʌm ˌhaʊˈɛvɚ wɚ ˈskɛptəkəl ɪnˈkludɪŋ kɪŋ ˈluɪs ˌɛksˌviˈaɪ",
       "newPara": true,
@@ -265,7 +265,7 @@ DRILL({
           "w": "skeptical",
           "ipa": "ˈskɛptəkəl",
           "m": "having doubts that a claim is true",
-          "fa": "شکاک، بدبین",
+          "fa": "مردد، به‌آسانی قانع‌نشونده؛ شکاک",
           "more": "skeptic · skepticism · doubtful"
         }
       ]
@@ -293,7 +293,7 @@ DRILL({
           "w": "to interrogate",
           "ipa": "tə ɪnˈtɛrəˌɡeɪt",
           "m": "to examine something very closely and critically (here, not a person)",
-          "fa": "موشکافی کردن، به پرسش کشیدن",
+          "fa": "موشکافی کردن، زیرِ سؤال بردن؛ بازجویی کردن از",
           "more": "interrogation · to scrutinize"
         },
         {
@@ -306,7 +306,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آن‌ها نخستین آزمایشِ کورِ دارونمای تاریخِ علم را انجام دادند،",
+      "fa": "آن‌ها برای نخستین بار در تاریخِ علم، آزمایشی کور با دارونما انجام دادند؛",
       "en": "They conducted science’s first-ever blind placebo trial,",
       "ipa": "ðeɪ kənˈdʌktəd ˈsaɪənsɪz fɝst ˈɛvɚ blaɪnd pləˈsiboʊ ˈtraɪəl",
       "words": [
@@ -328,20 +328,20 @@ DRILL({
           "w": "blind trial",
           "ipa": "blaɪnd ˈtraɪəl",
           "m": "a test in which people do not know which treatment they are getting",
-          "fa": "آزمایشِ کور",
+          "fa": "آزمایشِ کور که در آن شرکت‌کننده نمی‌داند چه درمانی دریافت می‌کند",
           "more": "double-blind · trial"
         },
         {
           "w": "placebo",
           "ipa": "pləˈsiboʊ",
           "m": "a fake treatment with no medical effect, used to test a real one",
-          "fa": "دارونما",
+          "fa": "دارونما، درمانِ فاقدِ جزءِ فعالِ موردِ آزمایش",
           "more": "placebo effect"
         }
       ]
     },
     {
-      "fa": "به این صورت که به شرکت‌کنندگان می‌گفتند درمانِ مغناطیسی می‌گیرند در حالی که نمی‌گرفتند، و برعکس.",
+      "fa": "به شرکت‌کنندگان می‌گفتند که دارند درمانِ مغناطیسی دریافت می‌کنند، در حالی که چنین نبود، و برعکس.",
       "en": "informing participants that they were receiving the magnetized treatment though they weren’t, and vice versa.",
       "ipa": "ɪnˈfɔrmɪŋ pɑrˈtɪsəpənts ðæt ðeɪ wɚ rəˈsivɪŋ ðə ˈmæɡnɪˌtaɪzd ˈtritmənt ðoʊ ðeɪ ˈwɝənt ənd vaɪs ˈvɝsə",
       "words": [
@@ -356,7 +356,7 @@ DRILL({
           "w": "participant",
           "ipa": "pɑrˈtɪsəpənt",
           "m": "a person who takes part in an activity or study",
-          "fa": "شرکت‌کننده",
+          "fa": "شرکت‌کننده، آزمودنی",
           "more": "to participate · participation"
         },
         {
@@ -418,7 +418,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در عوض، این نتایج حاصلِ تخیلِ خودِ شرکت‌کنندگان بود،",
+      "fa": "در عوض، این نتایج زاییدهٔ تخیلِ خودِ شرکت‌کنندگان بودند؛",
       "en": "Instead, they were results of the participants’ own imaginations,",
       "ipa": "ɪnˈstɛd ðeɪ wɚ rɪˈzʌlts əv ðə pɑrˈtɪsəpənts oʊn ɪˌmædʒəˈneɪʃənz",
       "words": [
@@ -432,7 +432,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که به تلقین‌هایی دربارهٔ اثربخشیِ درمان واکنش نشان می‌داد.",
+      "fa": "قوهٔ تخیلشان به تلقین‌هایی که دربارهٔ اثربخشیِ درمان می‌شد واکنش نشان می‌داد.",
       "en": "responding to suggestions about the treatment's effectiveness.",
       "ipa": "rɪˈspɑndɪŋ tə səɡˈdʒɛstʃənz əˈbaʊt ðə ˈtritmənts ɪˈfɛktɪvnəs",
       "words": [
@@ -447,7 +447,7 @@ DRILL({
           "w": "suggestion",
           "ipa": "səɡˈdʒɛstʃən",
           "m": "an idea put into someone's mind that affects what they think or feel",
-          "fa": "تلقین",
+          "fa": "تلقین؛ پیشنهاد",
           "more": "suggestible · power of suggestion"
         },
         {
@@ -461,7 +461,7 @@ DRILL({
       "note": "suggestion این‌جا یعنی «تلقین»، نه «پیشنهاد»."
     },
     {
-      "fa": "مسمر از صحنه محو شد، اما آن درسِ وسوسه‌انگیز باقی ماند.",
+      "fa": "مسمر از صحنه محو شد، اما نکتهٔ کنجکاوی‌برانگیزی که از ماجرا به دست آمد، باقی ماند.",
       "en": "Mesmer disappeared, but the tantalizing takeaway remained.",
       "ipa": "ˈmɛzmɚ ˌdɪsəˈpɪrd bət ðə ˈtæntəˌlaɪzɪŋ ˈteɪkəˌweɪ rɪˈmeɪnd",
       "newPara": true,
@@ -470,14 +470,14 @@ DRILL({
           "w": "tantalizing",
           "ipa": "ˈtæntəˌlaɪzɪŋ",
           "m": "very attractive or interesting, making you want more",
-          "fa": "وسوسه‌انگیز",
+          "fa": "کنجکاوی‌برانگیز، وسوسه‌انگیز",
           "more": "to tantalize · tempting · intriguing"
         },
         {
           "w": "takeaway",
           "ipa": "ˈteɪkəˌweɪ",
           "m": "the main idea or lesson that you learn from something",
-          "fa": "درس، نکتهٔ اصلی",
+          "fa": "نکته یا درسِ اصلی که از ماجرایی به دست می‌آید؛ غذای بیرون‌بر",
           "more": "key takeaway · lesson"
         }
       ]
@@ -583,7 +583,7 @@ DRILL({
           "w": "popular",
           "ipa": "ˈpɑpjəlɚ",
           "m": "of or for ordinary people in general",
-          "fa": "عامه، مردمی",
+          "fa": "رایج در میانِ عمومِ مردم؛ محبوب",
           "more": "popular culture · popular belief"
         },
         {
@@ -596,7 +596,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما آیا آنچه گفته می‌شود از پسش برمی‌آید ذره‌ای حقیقت دارد؟",
+      "fa": "اما آیا در آنچه می‌گویند هیپنوتیزم می‌تواند انجام دهد حقیقتی هست؟",
       "en": "But is there any truth to what it can accomplish?",
       "ipa": "bət ɪz ðɛr ˈɛni truθ tə wʌt ɪt kən əˈkɑmplɪʃ",
       "words": [
@@ -640,7 +640,7 @@ DRILL({
           "w": "stage",
           "ipa": "steɪdʒ",
           "m": "(as adjective) done in front of an audience in a theatre or show",
-          "fa": "صحنه‌ای، روی صحنه",
+          "fa": "صحنهٔ نمایش؛ مرحله",
           "more": "onstage · stage magician"
         },
         {
@@ -654,7 +654,7 @@ DRILL({
           "w": "conception",
           "ipa": "kənˈsɛpʃən",
           "m": "an idea or understanding of what something is like",
-          "fa": "تصور، برداشت",
+          "fa": "تصور، برداشت؛ شکل‌گیریِ یک ایده، لقاح",
           "more": "misconception · concept"
         }
       ]
@@ -688,7 +688,7 @@ DRILL({
       ]
     },
     {
-      "fa": "چه هیپنوتیزم شده بودند چه نشده بودند،",
+      "fa": "چه شرکت‌کنندگان هیپنوتیزم شده بودند و چه نشده بودند،",
       "en": "Whether or not they were hypnotized,",
       "ipa": "ˈwɛðɚ ɔr nɑt ðeɪ wɚ ˈhɪpnəˌtaɪzd",
       "words": [
@@ -702,7 +702,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یک پژوهش نشان داد شرکت‌کنندگان دقیقاً به یک اندازه احتمال داشت دستشان را در اسید فرو کنند.",
+      "fa": "یک پژوهش نشان داد که احتمالِ فرو بردنِ دست‌هایشان در اسید در هر دو حالت یکسان بود.",
       "en": "one study found that participants were just as likely to dip their hands into acid.",
       "ipa": "wʌn ˈstʌdi faʊnd ðæt pɑrˈtɪsəpənts wɚ dʒʌst əz ˈlaɪkli tə dɪp ðɛr hændz ɪnˈtu ˈæsəd",
       "words": [
@@ -710,7 +710,7 @@ DRILL({
           "w": "just as likely",
           "ipa": "dʒʌst əz ˈlaɪkli",
           "m": "equally probable",
-          "fa": "به همان اندازه محتمل",
+          "fa": "با همان میزان احتمال، به همان اندازه محتمل",
           "more": "more likely · less likely"
         },
         {
@@ -730,7 +730,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شاید این به این خاطر باشد که انگیزه پیدا می‌کردند ریسک کنند",
+      "fa": "شاید دلیلش این بود که برای خطر کردن احساسِ انگیزه می‌کردند،",
       "en": "This might be because they felt motivated to take risks",
       "ipa": "ðɪs maɪt bi bɪˈkɔz ðeɪ fɛlt ˈmoʊtəˌveɪtəd tə teɪk rɪsks",
       "words": [
@@ -751,7 +751,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آن هم در محدودهٔ یک آزمایشِ روان‌شناسی که علی‌القاعده امن بود.",
+      "fa": "آن هم در محدودهٔ یک آزمایشِ روان‌شناسی که احتمال می‌رفت امن باشد.",
       "en": "within the presumably safe confines of a psychology experiment.",
       "ipa": "wɪˈðɪn ðə prəˈzuməbli seɪf ˈkɑnˌfaɪnz əv ə saɪˈkɑlədʒi ɪkˈspɛrəmənt",
       "words": [
@@ -759,14 +759,14 @@ DRILL({
           "w": "presumably",
           "ipa": "prəˈzuməbli",
           "m": "used to say what you think is probably true",
-          "fa": "علی‌القاعده، احتمالاً",
+          "fa": "احتمالاً، بنا بر آنچه می‌توان فرض کرد",
           "more": "to presume · presumption"
         },
         {
           "w": "confines",
           "ipa": "ˈkɑnˌfaɪnz",
           "m": "the limits or borders of an area or activity",
-          "fa": "محدوده، حدود",
+          "fa": "محدوده، چارچوب",
           "more": "to confine · within the confines of"
         },
         {
@@ -779,7 +779,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به همین ترتیب، شرکت‌کنندگانِ روی صحنه ممکن است در فضای فشارهای اجتماعی و سرگرمی، حرف‌شنوی کنند،",
+      "fa": "به همین ترتیب، شرکت‌کنندگانِ روی صحنه ممکن است در فضای سرگرمی و زیرِ فشارِ جمع، کاری را که از آن‌ها می‌خواهند انجام دهند،",
       "en": "Similarly, onstage participants might comply in the context of social pressures and fun,",
       "ipa": "ˈsɪməlɚli ˌɑnˈsteɪdʒ pɑrˈtɪsəpənts maɪt kəmˈplaɪ ɪn ðə ˈkɑntɛkst əv ˈsoʊʃəl ˈprɛʃɚz ənd fʌn",
       "words": [
@@ -801,7 +801,7 @@ DRILL({
           "w": "to comply",
           "ipa": "tə kəmˈplaɪ",
           "m": "to do what you are asked or told to do",
-          "fa": "اطاعت کردن، تن دادن",
+          "fa": "به خواسته‌ای تن دادن، پیروی کردن",
           "more": "compliance · compliant · to obey"
         },
         {
@@ -835,7 +835,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما هیپنوتیزمی که امروزه در پزشکی به کار می‌رود ظاهرِ دیگری دارد؛ به هیچ وسیلهٔ نمایشی نیازی نیست.",
+      "fa": "اما هیپنوتیزمی که امروزه در پزشکی به کار می‌رود شکلِ دیگری دارد؛ به هیچ‌گونه وسیلهٔ نمایشی نیاز نیست.",
       "en": "But hypnosis used in medicine today looks different; no props are necessary.",
       "ipa": "bət hɪpˈnoʊsəs juzd ɪn ˈmɛdəsən təˈdeɪ lʊks ˈdɪfərənt noʊ prɑps ɚ ˈnɛsəˌsɛri",
       "newPara": true,
@@ -844,7 +844,7 @@ DRILL({
           "w": "prop",
           "ipa": "prɑp",
           "m": "an object used by actors or performers in a show",
-          "fa": "وسیلهٔ صحنه، وسیلهٔ نمایشی",
+          "fa": "وسیلهٔ صحنه یا نمایش؛ تکیه‌گاه",
           "more": "stage prop · costume"
         }
       ]
@@ -878,7 +878,7 @@ DRILL({
       ]
     },
     {
-      "fa": "امروزه بیشتر به‌صورتِ مجموعه‌ای از روال‌ها فهمیده می‌شود که حولِ تلقین متمرکزند.",
+      "fa": "حالا آن را بیشتر مجموعه‌ای از روش‌ها می‌دانند که بر تلقین تمرکز دارند.",
       "en": "it’s now understood more as a set of procedures focused on suggestions.",
       "ipa": "ɪts naʊ ˌʌndɚˈstʊd mɔr əz ə sɛt əv prəˈsidʒɚz ˈfoʊkəst ɑn səɡˈdʒɛstʃənz",
       "words": [
@@ -886,7 +886,7 @@ DRILL({
           "w": "procedure",
           "ipa": "prəˈsidʒɚ",
           "m": "a set of actions done in a fixed order, especially in medicine",
-          "fa": "روال، رویه",
+          "fa": "روشِ انجامِ کار، رویه؛ اقدامِ پزشکی",
           "more": "procedural · process"
         },
         {
@@ -899,7 +899,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تلقین‌ها، هرقدر هم غیررسمی باشند، جزوِ ویژگی‌های طبیعیِ تعاملِ پزشک و بیمارند،",
+      "fa": "تلقین‌ها، هرقدر هم غیررسمی باشند، به‌طورِ طبیعی بخشی از تعامل‌های میانِ پزشک و بیمارند",
       "en": "No matter how informal, suggestions are natural features of doctor-patient interactions,",
       "ipa": "noʊ ˈmætɚ haʊ ɪnˈfɔrməl səɡˈdʒɛstʃənz ɚ ˈnætʃərəl ˈfitʃɚz əv ˈdɑktɚ ˈpeɪʃənt ˌɪntəˈrækʃənz",
       "words": [
@@ -921,7 +921,7 @@ DRILL({
           "w": "feature",
           "ipa": "ˈfitʃɚ",
           "m": "a typical or important part of something",
-          "fa": "ویژگی، جزءِ همیشگی",
+          "fa": "ویژگی، جزءِ مشخصه",
           "more": "characteristic · to feature"
         },
         {
@@ -948,7 +948,7 @@ DRILL({
       ]
     },
     {
-      "fa": "جلسه‌های هیپنوتیزمِ متکی به پژوهش معمولاً با مرحلهٔ «القای» هیپنوتیزمی شروع می‌شوند،",
+      "fa": "جلسه‌های هیپنوتیزمی که پشتوانهٔ پژوهشی دارند، معمولاً با «القای هیپنوتیزم» آغاز می‌شوند،",
       "en": "Research-backed hypnosis sessions generally begin with a hypnotic induction,",
       "ipa": "riˈsɝtʃ bækt hɪpˈnoʊsəs ˈsɛʃənz ˈdʒɛnərəli bɪˈɡɪn wɪð ə hɪpˈnɑtɪk ɪnˈdʌkʃən",
       "newPara": true,
@@ -957,7 +957,7 @@ DRILL({
           "w": "-backed",
           "ipa": "bækt",
           "m": "supported by",
-          "fa": "متکی به، با پشتوانهٔ",
+          "fa": "دارای پشتوانهٔ …، متکی به …",
           "more": "research-backed · science-backed · to back"
         },
         {
@@ -985,7 +985,7 @@ DRILL({
           "w": "induction",
           "ipa": "ɪnˈdʌkʃən",
           "m": "the first step of hypnosis, which prepares a person to be hypnotized",
-          "fa": "القا، مرحلهٔ ورود",
+          "fa": "القای حالتِ هیپنوتیزم؛ القا، استقرا",
           "more": "to induce · de-induction"
         }
       ]
@@ -1048,7 +1048,7 @@ DRILL({
           "w": "certain",
           "ipa": "ˈsɝtən",
           "m": "particular, but not named",
-          "fa": "خاص، بعضی",
+          "fa": "معیّن، خاص؛ مطمئن",
           "more": "certain people · in certain cases"
         },
         {
@@ -1061,7 +1061,7 @@ DRILL({
       ]
     },
     {
-      "fa": "قرار است القا به پدید آمدنِ ذهنیتی پذیراتر کمک کند.",
+      "fa": "قرار است القا کمک کند ذهنِ بیمار پذیراتر شود.",
       "en": "Induction is supposed to help facilitate a more receptive mindset.",
       "ipa": "ɪnˈdʌkʃən ɪz səˈpoʊzd tə hɛlp fəˈsɪləˌteɪt ə mɔr rɪˈsɛptɪv ˈmaɪndˌsɛt",
       "words": [
@@ -1130,7 +1130,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و اغلب چیزی را طوری توصیف می‌کنند که انگار قرار است رخ دهد و بیمار فقط به‌طورِ منفعل آن را مشاهده کند.",
+      "fa": "و اغلب چیزی را طوری توصیف می‌کنند که گویی قرار است رخ دهد و بیمار صرفاً تماشاگرِ آن باشد.",
       "en": "often describing something as though it will happen and be passively observed.",
       "ipa": "ˈɔfən dɪˈskraɪbɪŋ ˈsʌmθɪŋ əz ðoʊ ɪt wɪl ˈhæpən ənd bi ˈpæsɪvli əbˈzɝvd",
       "words": [
@@ -1174,7 +1174,7 @@ DRILL({
           "w": "to ensure",
           "ipa": "tə ɛnˈʃʊr",
           "m": "to make certain that something happens",
-          "fa": "اطمینان حاصل کردن",
+          "fa": "اطمینان حاصل کردن از، تضمین کردن",
           "more": "to make sure · to guarantee"
         },
         {
@@ -1187,7 +1187,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به نظر می‌رسد بیشترِ آدم‌ها به‌طورِ متوسط به تلقینِ هیپنوتیزمی پاسخ می‌دهند،",
+      "fa": "به نظر می‌رسد بیشترِ مردم تا حدِ متوسطی به تلقینِ هیپنوتیزمی واکنش نشان می‌دهند،",
       "en": "Most people seem moderately responsive to hypnotic suggestion,",
       "ipa": "moʊst ˈpipəl sim ˈmɑdərətli rɪˈspɑnsɪv tə hɪpˈnɑtɪk səɡˈdʒɛstʃən",
       "newPara": true,
@@ -1203,13 +1203,13 @@ DRILL({
           "w": "responsive",
           "ipa": "rɪˈspɑnsɪv",
           "m": "reacting quickly or strongly to something",
-          "fa": "پاسخ‌گو، واکنش‌پذیر",
+          "fa": "واکنش‌پذیر، پاسخ‌دهنده به تلقین",
           "more": "unresponsive · response"
         }
       ]
     },
     {
-      "fa": "در حالی که درصدهای کمی به‌شدت پاسخ‌گو یا بی‌پاسخ‌اند.",
+      "fa": "در حالی که درصدِ کمی از مردم واکنشِ بسیار شدیدی نشان می‌دهند و درصدِ کمی هم اصلاً واکنشی نشان نمی‌دهند.",
       "en": "while small percentages are extremely responsive or unresponsive.",
       "ipa": "waɪl smɔl pɚˈsɛntɪdʒɪz ɚ ɪkˈstrimli rɪˈspɑnsɪv ɔr ˌʌnriˈspɑnsɪv",
       "words": [
@@ -1224,7 +1224,7 @@ DRILL({
           "w": "unresponsive",
           "ipa": "ˌʌnriˈspɑnsɪv",
           "m": "not reacting to something",
-          "fa": "بی‌پاسخ، بی‌واکنش",
+          "fa": "بی‌واکنش، بدونِ پاسخ به تلقین",
           "more": "responsive"
         }
       ]
@@ -1279,7 +1279,7 @@ DRILL({
       ]
     },
     {
-      "fa": "روشن نیست چه چیزی هیپنوتیزم‌پذیری را تعیین می‌کند، اما گویا بعضی خصوصیاتِ شخصیتی با آن ربط دارند.",
+      "fa": "روشن نیست چه چیزی میزانِ هیپنوتیزم‌پذیری را تعیین می‌کند، اما به نظر می‌رسد بعضی ویژگی‌های فردی با آن ارتباط دارند.",
       "en": "It’s unclear what determines hypnotizability, but certain traits seem to be associated.",
       "ipa": "ɪts ənˈklɪr wʌt dəˈtɝmənz ˌhɪpnətəzəˈtɪləti bət ˈsɝtən treɪts sim tə bi əˈsoʊsiˌeɪtəd",
       "words": [
@@ -1287,7 +1287,7 @@ DRILL({
           "w": "unclear",
           "ipa": "ənˈklɪr",
           "m": "not known or not understood",
-          "fa": "نامعلوم، روشن‌نبودن",
+          "fa": "نامشخص، مبهم",
           "more": "clear · uncertain"
         },
         {
@@ -1308,7 +1308,7 @@ DRILL({
           "w": "to be associated with",
           "ipa": "tə bi əˈsoʊsiˌeɪtəd wɪð",
           "m": "to be connected with something",
-          "fa": "ربط داشتن به، مرتبط بودن با",
+          "fa": "مرتبط بودن با، همراه بودن با",
           "more": "association · linked to"
         }
       ]
@@ -1329,13 +1329,13 @@ DRILL({
           "w": "open-minded",
           "ipa": "ˈoʊpən ˈmaɪndəd",
           "m": "willing to consider new ideas",
-          "fa": "روشن‌فکر، با ذهنِ باز",
+          "fa": "با ذهنِ باز، پذیرای دیدگاه‌ها یا تجربه‌های تازه",
           "more": "narrow-minded · open-mindedness"
         }
       ]
     },
     {
-      "fa": "بیشتر مستعدِ خیال‌پردازی‌اند و احتمالاً در فعالیت‌ها غرق می‌شوند.",
+      "fa": "بیشتر مستعدِ خیال‌پردازی‌اند و احتمال دارد در کارهایی که انجام می‌دهند غرق شوند.",
       "en": "more prone to fantasy, and likely to become absorbed in activities.",
       "ipa": "mɔr proʊn tə ˈfæntəsi ənd ˈlaɪkli tə bɪˈkʌm əbˈzɔrbd ɪn ækˈtɪvətiz",
       "words": [
@@ -1343,7 +1343,7 @@ DRILL({
           "w": "prone to",
           "ipa": "proʊn tu",
           "m": "likely to do or suffer from something, usually something bad",
-          "fa": "مستعدِ، دچارشونده به",
+          "fa": "مستعدِ، متمایل به",
           "more": "accident-prone · liable to"
         },
         {
@@ -1371,7 +1371,7 @@ DRILL({
           "w": "dissociative",
           "ipa": "ˌdɪsəˈsaɪətɪv",
           "m": "connected with feeling separated from your thoughts, body or surroundings",
-          "fa": "گسستی، تجزیه‌ای",
+          "fa": "گسستی، همراه با احساسِ جدایی از خود یا محیط",
           "more": "dissociation · to dissociate"
         },
         {
@@ -1384,7 +1384,7 @@ DRILL({
       ]
     },
     {
-      "fa": "وقتی یک تلقینِ هیپنوتیزمی جواب می‌دهد، اثراتش می‌تواند چشمگیر باشد — و ردپایش را می‌شود دنبال کرد.",
+      "fa": "وقتی تلقینِ هیپنوتیزمی اثر می‌کند، تأثیرش می‌تواند چشمگیر و قابلِ ردیابی باشد.",
       "en": "When a hypnotic suggestion works, the effects can be considerable— and traceable.",
       "ipa": "wɛn ə hɪpˈnɑtɪk səɡˈdʒɛstʃən wɝks ði ɪˈfɛkts kən bi kənˈsɪdərəbəl ənd ˈtreɪsəbəl",
       "newPara": true,
@@ -1400,13 +1400,13 @@ DRILL({
           "w": "traceable",
           "ipa": "ˈtreɪsəbəl",
           "m": "able to be found or followed back to a cause",
-          "fa": "قابلِ ردیابی",
+          "fa": "قابلِ ردیابی، دارای اثری که می‌توان دنبال کرد",
           "more": "to trace · trace (n.)"
         }
       ]
     },
     {
-      "fa": "در بعضی پژوهش‌ها، محققان شرکت‌کنندگانِ بسیار هیپنوتیزم‌پذیر را واداشته‌اند چیزهایی را حس کنند که در غیرِ این صورت وجود نداشتند.",
+      "fa": "در بعضی پژوهش‌ها، محققان با تلقین باعث شده‌اند شرکت‌کنندگانِ بسیار هیپنوتیزم‌پذیر چیزهایی را ادراک کنند که در واقع حضور نداشتند.",
       "en": "In some studies, researchers have prompted highly hypnotizable participants to perceive things that were otherwise absent.",
       "ipa": "ɪn sʌm ˈstʌdiz ˈrisɚtʃɚz hæv ˈprɑmptəd ˈhaɪli ˈhɪpnətəzəlt pɑrˈtɪsəpənts tə pɚˈsiv θɪŋz ðæt wɚ ˈʌðɚˌwaɪz ˈæbsənt",
       "words": [
@@ -1414,14 +1414,14 @@ DRILL({
           "w": "to prompt someone to",
           "ipa": "tə prɑmpt ˈsʌmˌwʌn tu",
           "m": "to cause or encourage someone to do something",
-          "fa": "واداشتنِ کسی به",
+          "fa": "کسی را به کاری برانگیختن، ترغیب کردن",
           "more": "prompt (n.) · to trigger"
         },
         {
           "w": "to perceive",
           "ipa": "tə pɚˈsiv",
           "m": "to notice or become aware of something through the senses",
-          "fa": "درک کردن، حس کردن",
+          "fa": "با حواس ادراک کردن، متوجه شدن",
           "more": "perception · perceptive"
         },
         {
@@ -1441,7 +1441,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در پاسخ، نشان داده شده که فعالیتِ مغزیِ شرکت‌کنندگانِ هیپنوتیزم‌شده به شیوه‌هایی تغییر می‌کند",
+      "fa": "در واکنش به این تلقین‌ها، دیده شده که فعالیتِ مغزیِ شرکت‌کنندگانِ هیپنوتیزم‌شده به شکل‌هایی تغییر می‌کند",
       "en": "In response, the hypnotized participants’ brain activity has been shown to change in ways",
       "ipa": "ɪn rɪˈspɑns ðə ˈhɪpnəˌtaɪzd pɑrˈtɪsəpənts breɪn ækˈtɪvəti hæz bɪn ʃoʊn tə tʃeɪndʒ ɪn weɪz",
       "words": [
@@ -1462,7 +1462,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که با آنچه در فرایندهای خیالی دیده می‌شود فرق دارد، و در عوض شباهتِ نزدیک‌تری به ادراکِ واقعی پیدا می‌کند.",
+      "fa": "که با آنچه هنگامِ خیال‌پردازی مشاهده می‌شود فرق دارند و به آنچه هنگامِ ادراکِ واقعی رخ می‌دهد شبیه‌ترند.",
       "en": "different from what’s observed in imaginative processes, to instead more closely resemble actual perception.",
       "ipa": "ˈdɪfərənt frəm wʌts əbˈzɝvd ɪn ɪˈmædʒənətɪv ˌprɔˈsɛsəz tə ɪnˈstɛd mɔr ˈkloʊsli rɪˈzɛmbəl ˈæktʃəwəl pɚˈsɛpʃən",
       "words": [
@@ -1470,7 +1470,7 @@ DRILL({
           "w": "imaginative",
           "ipa": "ɪˈmædʒənətɪv",
           "m": "connected with using the imagination",
-          "fa": "خیالی، تخیلی",
+          "fa": "مربوط به تخیل یا خیال‌پردازی؛ خلاق",
           "more": "imagination · imaginary"
         },
         {
@@ -1484,7 +1484,7 @@ DRILL({
           "w": "closely",
           "ipa": "ˈkloʊsli",
           "m": "in a way that is very similar",
-          "fa": "از نزدیک، به‌شدت",
+          "fa": "با شباهتِ زیاد (در این ترکیب)؛ از نزدیک، با دقت",
           "more": "closely related · close"
         },
         {
@@ -1504,7 +1504,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برای کسانی که روی‌شان اثر می‌کند، هیپنوتیزم می‌تواند ابزارِ پزشکیِ مفیدی باشد،",
+      "fa": "برای کسانی که هیپنوتیزم در موردشان مؤثر است، این روش می‌تواند ابزارِ پزشکیِ مفیدی باشد،",
       "en": "For those it works with, hypnosis can be a helpful medical tool,",
       "ipa": "fɚ ðoʊz ɪt wɝks wɪð hɪpˈnoʊsəs kən bi ə ˈhɛlpfəl ˈmɛdəkəl tul",
       "newPara": true,
@@ -1527,7 +1527,7 @@ DRILL({
           "w": "scope",
           "ipa": "skoʊp",
           "m": "the range of things that something deals with or can do",
-          "fa": "دامنه، گستره",
+          "fa": "دامنهٔ کاربرد، گستره",
           "more": "within the scope of · range"
         },
         {
@@ -1547,7 +1547,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در یک پژوهش، بیمارانِ هیپنوتیزم‌پذیری که حینِ جراحی تلقین‌هایی برای کم کردنِ درد گرفتند",
+      "fa": "در یک پژوهش، بیمارانِ هیپنوتیزم‌پذیری که حینِ جراحی تلقین‌هایی برای کاهشِ درد دریافت کردند،",
       "en": "In one study, hypnotizable patients who received pain-reducing suggestions during surgery",
       "ipa": "ɪn wʌn ˈstʌdi ˈhɪpnətəzəlt ˈpeɪʃənts hu rəˈsivd peɪn rəˈdusɪŋ səɡˈdʒɛstʃənz ˈdʊrɪŋ ˈsɝdʒəri",
       "words": [
@@ -1596,7 +1596,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در میانِ بیمارانی که آسیبِ مغزی داشتند، دیده شده که هیپنوتیزم حافظهٔ کاری‌شان را بهتر می‌کند —",
+      "fa": "در بیمارانِ دچارِ آسیبِ مغزی مشاهده شده است که هیپنوتیزم حافظهٔ کاریِ آن‌ها را بهبود می‌بخشد؛",
       "en": "Among patients with brain injuries, hypnosis has been observed to improve their working memory—",
       "ipa": "əˈmʌŋ ˈpeɪʃənts wɪð breɪn ˈɪndʒəriz hɪpˈnoʊsəs hæz bɪn əbˈzɝvd tə ɪmˈpruv ðɛr ˈwɝkɪŋ ˈmɛməri",
       "words": [
@@ -1645,7 +1645,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شاید دلیلش این باشد که تلقین‌ها به نحوی نقص‌های شناختی را تسکین می‌دهند",
+      "fa": "شاید دلیلش این باشد که تلقین‌ها به‌نحوی آن دسته از کاستی‌های شناختی را کاهش می‌دهند",
       "en": "This might be because the suggestions somehow ease cognitive deficits",
       "ipa": "ðɪs maɪt bi bɪˈkɔz ðə səɡˈdʒɛstʃənz ˈsʌmˌhaʊ iz ˈkɑɡnɪtɪv ˈdɛfɪsɪts",
       "words": [
@@ -1660,7 +1660,7 @@ DRILL({
           "w": "to ease",
           "ipa": "tə iz",
           "m": "to make something less severe or unpleasant",
-          "fa": "تسکین دادن، کاهش دادن",
+          "fa": "کاهش دادن، از شدتِ چیزی کاستن؛ تسکین دادن",
           "more": "ease (n.) · to relieve"
         },
         {
@@ -1674,7 +1674,7 @@ DRILL({
           "w": "deficit",
           "ipa": "ˈdɛfəsət",
           "m": "a weakness or lack of a particular ability",
-          "fa": "نقص، کمبود",
+          "fa": "کاستی، نقصِ عملکرد؛ کسری",
           "more": "attention deficit · shortfall"
         }
       ]
@@ -1701,7 +1701,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و برای بعضی چیزها، از جمله ترکِ سیگار،",
+      "fa": "و در بعضی موارد، از جمله برای ترکِ سیگار،",
       "en": "And for certain things, including quitting smoking,",
       "ipa": "ənd fɚ ˈsɝtən θɪŋz ɪnˈkludɪŋ ˈkwɪtɪŋ ˈsmoʊkɪŋ",
       "words": [
@@ -1765,7 +1765,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شواهدِ کمی هست که نشان دهد می‌تواند چیزهایی مثلِ اسکیزوفرنی را درمان کند.",
+      "fa": "شواهدِ اندکی وجود دارد که نشان دهد می‌تواند اختلال‌هایی مثلِ اسکیزوفرنی را درمان کند.",
       "en": "there’s little evidence it can treat things like schizophrenia.",
       "ipa": "ðɛrz ˈlɪtəl ˈɛvədəns ɪt kən trit θɪŋz laɪk ˌskɪtsəˈfriniə",
       "words": [
@@ -1793,7 +1793,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با این حال، وقتی هیپنوتیزم واقعاً کمک می‌کند، قطعاً این کمک هیچ ربطی به سیال‌های مغناطیسی ندارد،",
+      "fa": "با این حال، وقتی هیپنوتیزم واقعاً کمک می‌کند، قطعاً این اثر به لطفِ سیال‌های مغناطیسی‌شده نیست،",
       "en": "When hypnosis does help, though, it’s certainly no thanks to magnetized fluids,",
       "ipa": "wɛn hɪpˈnoʊsəs dʌz hɛlp ðoʊ ɪts ˈsɝtənli noʊ θæŋks tə ˈmæɡnɪˌtaɪzd ˈfluədz",
       "words": [
@@ -1801,14 +1801,14 @@ DRILL({
           "w": "no thanks to",
           "ipa": "noʊ θæŋks tu",
           "m": "not because of someone or something",
-          "fa": "هیچ ربطی به … ندارد، نه به لطفِ",
+          "fa": "به لطفِ … نیست، … در آن نقشی نداشته است",
           "more": "thanks to"
         }
       ],
       "note": "does ِ قبل از help تأکیدی است: «وقتی واقعاً کمک می‌کند»."
     },
     {
-      "fa": "بلکه کارِ قدرتِ افسونگرِ ذهن است.",
+      "fa": "بلکه به لطفِ قدرتِ مسحورکنندهٔ ذهن است.",
       "en": "but rather the mesmerizing power of the mind.",
       "ipa": "bət ˈræðɚ ðə ˈmɛzməˌraɪzɪŋ ˈpaʊɚ əv ðə maɪnd",
       "words": [
@@ -1823,7 +1823,7 @@ DRILL({
           "w": "mesmerizing",
           "ipa": "ˈmɛzməˌraɪzɪŋ",
           "m": "holding your attention completely, as if by magic",
-          "fa": "افسونگر، مسحورکننده",
+          "fa": "مسحورکننده، افسونگر",
           "more": "to mesmerize · spellbinding"
         }
       ],

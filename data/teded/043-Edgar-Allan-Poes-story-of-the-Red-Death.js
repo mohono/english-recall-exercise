@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=HdieAFhQtPo",
   "items": [
     {
-      "fa": "«مرگِ سرخ» مدت‌ها بود که آن سرزمین را ویران کرده بود. خون تجسمِ آن بود.",
+      "fa": "«مرگِ سرخ» از دیرباز آن سرزمین را به ویرانی کشانده بود. خون تجسّمِ آن بود.",
       "en": "The Red Death had long devastated the country. Blood was its Avatar.",
       "ipa": "ðə rɛd dɛθ hæd lɔŋ ˈdɛvəˌsteɪtəd ðə ˈkʌntri blʌd wəz ɪts ˈævəˌtɑr",
       "newPara": true,
@@ -20,7 +20,7 @@ DRILL({
           "w": "avatar",
           "ipa": "ˈævəˌtɑr",
           "m": "(literary) the form in which something shows itself; its embodiment",
-          "fa": "تجسم، مظهر",
+          "fa": "تجسّم یا مظهر؛ تصویرِ نمایندهٔ شخص در فضای مجازی",
           "more": "embodiment · incarnation"
         }
       ],
@@ -60,7 +60,7 @@ DRILL({
       ]
     },
     {
-      "fa": "لکه‌های سرخِ روی بدن، داغِ نفرینِ طاعون بود که راهِ هر کمک و همدردی‌ای را می‌بست.",
+      "fa": "لکه‌های سرخِ روشن بر تن، داغِ طردشدگیِ ناشی از طاعون بودند؛ داغی که راهِ یاری و همدردی را می‌بست.",
       "en": "The scarlet stains upon the body were the pest ban, which shut out aid and sympathy.",
       "ipa": "ðə ˈskɑrlət steɪnz əˈpɑn ðə ˈbɑdi wɚ ðə pɛst bæn wɪtʃ ʃʌt aʊt eɪd ənd ˈsɪmpəθi",
       "words": [
@@ -68,7 +68,7 @@ DRILL({
           "w": "scarlet",
           "ipa": "ˈskɑrlət",
           "m": "bright red",
-          "fa": "سرخ، ارغوانیِ روشن",
+          "fa": "سرخِ روشن و مایل به نارنجی",
           "more": "crimson"
         },
         {
@@ -81,7 +81,7 @@ DRILL({
           "w": "pest",
           "ipa": "pɛst",
           "m": "(old use) a deadly disease that spreads; the plague",
-          "fa": "طاعون، وبا",
+          "fa": "طاعون یا بلای واگیر (کاربردِ قدیمی)؛ آفت؛ مزاحم",
           "more": "pestilence"
         },
         {
@@ -113,7 +113,7 @@ DRILL({
       "note": "pest ban اصطلاحِ کهنه است؛ امروز pest به معنای «آفت» است."
     },
     {
-      "fa": "تمامِ روند و پایانِ بیماری، رویدادهای نیم‌ساعت بود.",
+      "fa": "تمامِ سیرِ بیماری، از پیشروی‌اش تا پایانش، در عرضِ نیم ساعت رخ می‌داد.",
       "en": "The whole progress and termination of the disease were the incidents of half an hour.",
       "ipa": "ðə hoʊl ˈprɑˌɡrɛs ənd tɚməˈneɪʃən əv ðə dɪˈziz wɚ ði ˈɪnsədənts əv hæf ən ˈaʊɚ",
       "words": [
@@ -213,7 +213,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و به یکی از دیرهای قلعه‌مانندش کناره گرفت.",
+      "fa": "و برای خلوت‌گزینی به یکی از دیرهای کنگره‌دارِ قلعه‌مانندش رفت.",
       "en": "and retired to one of his castellated abbeys.",
       "ipa": "ənd rɪˈtaɪrd tə wʌn əv hɪz ˈkæstətəld ˈæbiz",
       "words": [
@@ -296,13 +296,13 @@ DRILL({
           "w": "to grieve",
           "ipa": "tə ɡriv",
           "m": "to feel very sad, especially because someone has died",
-          "fa": "سوگواری کردن، غصه خوردن",
+          "fa": "اندوه خوردن، سوگواری کردن؛ کسی را اندوهگین کردن",
           "more": "grief"
         }
       ]
     },
     {
-      "fa": "نزدیکِ ماهِ پنجم یا ششمِ عزلت‌نشینی‌اش بود",
+      "fa": "درست در حوالیِ پنجمین یا ششمین ماهِ گوشه‌نشینی‌اش بود",
       "en": "It was toward the fifth or sixth month of his seclusion",
       "ipa": "ɪt wəz təˈwɔrd ðə fɪfθ ɔr sɪksθ mʌnθ əv hɪz sɪˈkluʒən",
       "newPara": true,
@@ -317,7 +317,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که شاهزاده پروسپرو هزار دوستش را در یک مجلسِ رقصِ نقاب‌دار پذیرایی کرد.",
+      "fa": "که شاهزاده پروسپرو در یک مجلسِ رقصِ بالماسکه از هزار دوستِ خود پذیرایی کرد.",
       "en": "that Prince Prospero entertained his thousand friends at a masked ball.",
       "ipa": "ðæt prɪns proʊˈspɛroʊ ˌɛntɚˈteɪnd hɪz ˈθaʊzənd frɛndz ət ə mæskt bɔl",
       "words": [
@@ -411,7 +411,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شیشه‌ها سرخ بودند و چنان حالتِ وحشیانه‌ای به چهرهٔ واردشوندگان می‌دادند",
+      "fa": "شیشه‌های پنجره سرخِ روشن بودند و به چهرهٔ کسانی که وارد می‌شدند چنان حالتی غریب و هراس‌انگیز می‌دادند",
       "en": "The panes were scarlet and produced so wild a look upon those who entered",
       "ipa": "ðə peɪnz wɚ ˈskɑrlət ənd prəˈdust soʊ waɪld ə lʊk əˈpɑn ðoʊz hu ˈɛntɚd",
       "words": [
@@ -460,7 +460,7 @@ DRILL({
           "w": "apartment",
           "ipa": "əˈpɑrtmənt",
           "m": "(old use) a large room in a grand building",
-          "fa": "تالار، اتاق"
+          "fa": "تالار یا اتاقِ عمارت (کاربردِ قدیمی)؛ آپارتمان"
         },
         {
           "w": "gigantic",
@@ -499,7 +499,7 @@ DRILL({
           "w": "face",
           "ipa": "feɪs",
           "m": "the front part of a clock with the numbers",
-          "fa": "صفحهٔ ساعت"
+          "fa": "صفحهٔ ساعت؛ چهره؛ سطح یا وجه"
         }
       ]
     },
@@ -594,7 +594,7 @@ DRILL({
           "w": "lapse",
           "ipa": "læps",
           "m": "a period of time that passes",
-          "fa": "گذشت (زمان)",
+          "fa": "سپری شدنِ زمان؛ لغزش یا غفلت",
           "more": "elapse"
         },
         {
@@ -636,7 +636,7 @@ DRILL({
       ]
     },
     {
-      "fa": "سلیقهٔ دوک غریب بود. کسانی هستند که ممکن بود او را دیوانه بپندارند.",
+      "fa": "سلیقه‌های دوک غریب بودند. کسانی هستند که اگر او را می‌دیدند، دیوانه‌اش می‌پنداشتند.",
       "en": "The tastes of the Duke were peculiar. There are some who would have thought him mad.",
       "ipa": "ðə teɪsts əv ðə duk wɚ pəˈkjuljɚ ðɛr ɚ sʌm hu wʊd hæv θɔt hɪm mæd",
       "words": [
@@ -681,7 +681,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و نه چندان کم از آنچه شاید بیزاری برانگیزد.",
+      "fa": "و کم نبود آنچه می‌توانست در بیننده احساسِ انزجار برانگیخته باشد.",
       "en": "and not a little of that which might have excited disgust.",
       "ipa": "ənd nɑt ə ˈlɪtəl əv ðæt wɪtʃ maɪt hæv ɪkˈsaɪtəd dɪsˈɡʌst",
       "words": [
@@ -689,7 +689,7 @@ DRILL({
           "w": "not a little",
           "ipa": "nɑt ə ˈlɪtəl",
           "m": "quite a lot",
-          "fa": "نه چندان کم، بسیار"
+          "fa": "کم هم نبود، مقدارِ چشمگیری (تأکید با نفی)"
         },
         {
           "w": "to excite",
@@ -707,7 +707,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در آن هفت حجره، انبوهی از رؤیاها این‌سو و آن‌سو گام برمی‌داشتند.",
+      "fa": "در آن هفت تالار، این‌سو و آن‌سو، انبوهی از رؤیاها با گام‌های بلند و سنگین راه می‌رفتند.",
       "en": "To and fro in the seven chambers there stalked a multitude of dreams.",
       "ipa": "tə ənd froʊ ɪn ðə ˈsɛvən ˈtʃeɪmbɚz ðɛr stɔkt ə ˈmʌltəˌtud əv drimz",
       "words": [
@@ -902,7 +902,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از هر آنچه به گوشِ کسانی می‌رسد که در شادی‌های دورترِ تالارهای دیگر غرق شده‌اند.",
+      "fa": "از هر طنینی که به گوشِ کسانی می‌رسد که دورتر، در تالارهای دیگر، خود را به عیش و شادی سپرده‌اند.",
       "en": "than any which reaches their ears who indulge in the more remote gaieties of the other apartments.",
       "ipa": "ðən ˈɛni wɪtʃ ˈritʃəz ðɛr ɪrz hu ɪnˈdʌldʒ ɪn ðə mɔr rɪˈmoʊt ˈɡaɪətiz əv ði ˈʌðɚ əˈpɑrtmənts",
       "words": [
@@ -964,7 +964,7 @@ DRILL({
       ]
     },
     {
-      "fa": "فکر بیشتر به ذهن‌ها خزید. و بسیاری از افرادِ جمعیت متوجهِ پیکری نقاب‌دار شده بودند.",
+      "fa": "فکر و خیال آرام‌آرام بیشتر به ذهن‌ها راه یافت. بسیاری از افرادِ حاضر در جمع متوجهِ پیکری نقاب‌دار شده بودند.",
       "en": "More of thought crept. And many individuals in the crowd had become aware of a masked figure.",
       "ipa": "mɔr əv θɔt krɛpt ənd ˈmɛni ˌɪndəˈvɪdʒəwəlz ɪn ðə kraʊd hæd bɪˈkʌm əˈwɛr əv ə mæskt ˈfɪɡjɚ",
       "words": [
@@ -1050,7 +1050,7 @@ DRILL({
       ]
     },
     {
-      "fa": "نقاب را طوری ساخته بودند که به چهرهٔ جسدی خشک‌شده شبیه باشد.",
+      "fa": "نقاب طوری ساخته شده بود که به چهرهٔ جسدی که بدنش سفت شده شبیه باشد.",
       "en": "The mask was made to resemble the countenance of a stiffened corpse.",
       "ipa": "ðə mæsk wəz meɪd tə rɪˈzɛmbəl ðə ˈkaʊntənəns əv ə ˈstɪfənd kɔrps",
       "words": [
@@ -1104,7 +1104,7 @@ DRILL({
           "w": "to assume",
           "ipa": "tə əˈsum",
           "m": "to take on a particular appearance or form",
-          "fa": "به خود گرفتن",
+          "fa": "هیئت یا ظاهرِ کسی را به خود گرفتن؛ فرض کردن؛ بر عهده گرفتن",
           "more": "take on · adopt"
         },
         {
@@ -1203,7 +1203,7 @@ DRILL({
           "w": "to uncase",
           "ipa": "tə ənˈkeɪs",
           "m": "(old use) to uncover; to take something off",
-          "fa": "برهنه کردن، نقاب را برداشتن"
+          "fa": "پوشش یا نقابِ کسی را برداشتن؛ چیزی را از قاب یا غلاف بیرون آوردن"
         },
         {
           "w": "varlet",
@@ -1262,7 +1262,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شاهزاده پروسپرو، دیوانه از شرمِ بزدلیِ خودش، خنجری برهنه را بالا گرفت",
+      "fa": "شاهزاده پروسپرو که داشت از شرمِ بزدلیِ خودش دیوانه می‌شد، خنجری از نیام کشیده را بالا گرفت",
       "en": "Prince Prospero, maddening with the shame of his own cowardice, bore aloft a drawn dagger,",
       "ipa": "prɪns proʊˈspɛroʊ ˈmædənɪŋ wɪð ðə ʃeɪm əv hɪz oʊn ˈkaʊɚdəs bɔr əˈlɔft ə drɔn ˈdæɡɚ",
       "words": [
@@ -1297,7 +1297,7 @@ DRILL({
           "w": "drawn",
           "ipa": "drɔn",
           "m": "(of a sword or knife) taken out of its cover",
-          "fa": "برهنه، از نیام کشیده"
+          "fa": "از نیام کشیده (خنجر)؛ کشیده‌شده؛ خسته و تکیده (چهره)"
         },
         {
           "w": "dagger",
@@ -1418,7 +1418,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و اکنون حضورِ «مرگِ سرخ» پذیرفته شد.",
+      "fa": "و اکنون حضورِ «مرگِ سرخ» به رسمیت شناخته شد. <c>(فعلِ مجهول پیش از فاعل می‌آید.)</c>",
       "en": "And now was acknowledged the presence of the Red Death.",
       "ipa": "ənd naʊ wəz ækˈnɑlɪdʒd ðə ˈprɛzəns əv ðə rɛd dɛθ",
       "words": [
@@ -1438,7 +1438,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بزم‌کنندگان یکی‌یکی در تالارهای خون‌آلود بر زمین افتادند.",
+      "fa": "بزم‌کنندگان یکی پس از دیگری در تالارهایی که قطره‌های خون چون شبنم بر آن‌ها نشسته بود بر زمین افتادند.",
       "en": "One by one dropped the revellers in the blood-bedewed halls.",
       "ipa": "wʌn baɪ wʌn drɑpt ðə ˈrɛvəlɚz ɪn ðə blʌd bɪˈdiwd hɔlz",
       "words": [
@@ -1452,7 +1452,7 @@ DRILL({
           "w": "bedewed",
           "ipa": "bɪˈdiwd",
           "m": "(literary) wet with drops of liquid",
-          "fa": "شبنم‌زده، نم‌خورده",
+          "fa": "پوشیده از قطره‌ها همچون شبنم، اینجا قطره‌های خون",
           "more": "dew"
         }
       ]
@@ -1478,7 +1478,7 @@ DRILL({
           "w": "to expire",
           "ipa": "tə ɪkˈspaɪr",
           "m": "(literary) to die; to come to an end",
-          "fa": "مردن، به پایان رسیدن",
+          "fa": "خاموش شدنِ شعله؛ منقضی شدن؛ جان سپردن",
           "more": "expiry · expiration"
         }
       ]

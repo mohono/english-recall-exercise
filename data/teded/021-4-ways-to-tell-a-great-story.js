@@ -75,7 +75,7 @@ DRILL({
       ]
     },
     {
-      "fa": "جدی می‌گویم — شواهدی که از نیاکانِ باستانی‌مان به جا مانده نشان می‌دهد",
+      "fa": "واقعاً هم همین‌طور است؛ شواهدِ به‌جامانده از نیاکانِ باستانی‌مان حاکی از آن است",
       "en": "Really — evidence left behind from our ancient ancestors suggests",
       "ipa": "ˈrɪli ˈɛvədəns lɛft bɪˈhaɪnd frəm ˈaʊɚ ˈeɪntʃənt ˈænˌsɛstɚz səɡˈdʒɛsts",
       "words": [
@@ -152,7 +152,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آتش کانونِ جاذبهٔ تازه‌ای برای صمیمی شدن پدید آورد.",
+      "fa": "آتش جاذبهٔ تازه‌ای پدید آورد که آدم‌ها را دور هم جمع می‌کرد تا با هم پیوند برقرار کنند.",
       "en": "Fire created a new magnet for bonding.",
       "ipa": "ˈfaɪɚ kriˈeɪtəd ə nu ˈmæɡnət fɚ ˈbɑndɪŋ",
       "newPara": true,
@@ -161,14 +161,14 @@ DRILL({
           "w": "magnet",
           "ipa": "ˈmæɡnət",
           "m": "(figurative) something that attracts people to it",
-          "fa": "آهن‌ربا، کانونِ جذب",
+          "fa": "اینجا: چیزی که آدم‌ها را به خود جذب می‌کند؛ معنای فیزیکی: آهن‌ربا",
           "more": "draw · attraction · magnetic"
         },
         {
           "w": "bonding",
           "ipa": "ˈbɑndɪŋ",
           "m": "the process of people becoming close to each other",
-          "fa": "صمیمی شدن، پیوندیابی",
+          "fa": "شکل گرفتنِ پیوند عاطفی، با هم صمیمی شدن",
           "more": "bond · to bond with"
         }
       ]
@@ -227,7 +227,8 @@ DRILL({
           "fa": "فرهنگ",
           "more": "cultural · society"
         }
-      ]
+      ],
+      "note": "در <en>seems to have happened</en>، برداشتِ گوینده مربوط به اکنون است، اما خودِ اتفاق پیش‌تر رخ داده است."
     },
     {
       "fa": "و نیاکانمان با این اوقاتی که کنارِ هم بودند چه می‌کردند؟",
@@ -387,7 +388,7 @@ DRILL({
       "ipa": "ənd tə ˌʌndɚˈstænd ðə maɪndz əv ˈʌðɚz"
     },
     {
-      "fa": "قصه‌گوها درونِ هر جامعه‌ای آدم‌های مهمی شدند،",
+      "fa": "قصه‌گوها در میانِ اعضای جامعهٔ خود به آدم‌های مهمی تبدیل شدند،",
       "en": "Storytellers became important people within a community,",
       "ipa": "ˈstɔriˌtɛlɚz bɪˈkeɪm ɪmˈpɔrtənt ˈpipəl wɪˈðɪn ə kəˈmjunəti",
       "newPara": true,
@@ -409,7 +410,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و شنونده‌هایشان از داستان‌ها اطلاعاتی برمی‌داشتند که شیوهٔ رفتارشان در دنیا را عوض می‌کرد.",
+      "fa": "و شنوندگانشان از داستان‌ها اطلاعاتی به دست می‌آوردند که شیوهٔ رفتارشان را در دنیا تغییر می‌داد.",
       "en": "and their listeners took information from the stories that changed how they behaved in the world.",
       "ipa": "ənd ðɛr ˈlɪsənɚz tʊk ˌɪnfɚˈmeɪʃən frəm ðə ˈstɔriz ðæt tʃeɪndʒd haʊ ðeɪ bɪˈheɪvd ɪn ðə wɝld",
       "words": [
@@ -444,7 +445,7 @@ DRILL({
       ]
     },
     {
-      "fa": "احتمالاً داستان‌ها کمک کردند شیوهٔ به اشتراک گذاشتن و دریافت کردنِ اطلاعات در ذهن‌هایمان شکل بگیرد.",
+      "fa": "احتمالاً داستان‌ها در شکل دادن به شیوه‌ای که ذهن ما اطلاعات را با دیگران در میان می‌گذارد و از آن‌ها دریافت می‌کند نقش داشته‌اند.",
       "en": "Stories probably helped shape how our minds share and receive information.",
       "ipa": "ˈstɔriz ˈprɑbəbli hɛlpt ʃeɪp haʊ ˈaʊɚ maɪndz ʃɛr ənd rəˈsiv ˌɪnfɚˈmeɪʃən",
       "words": [
@@ -493,7 +494,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پایه‌ای‌ترین راهِ اجزای یک داستان را از هم جدا کردن این است:",
+      "fa": "اگر بخواهیم داستان را به اجزایش تقسیم کنیم، ساده‌ترین راه این است:",
       "en": "The most basic way of breaking down a story is this:",
       "ipa": "ðə moʊst ˈbeɪsɪk weɪ əv ˈbreɪkɪŋ daʊn ə ˈstɔri ɪz ðɪs",
       "newPara": true,
@@ -509,7 +510,7 @@ DRILL({
           "w": "to break down",
           "ipa": "tə breɪk daʊn",
           "m": "to divide something into smaller parts to understand it",
-          "fa": "به اجزا تقسیم کردن، تجزیه کردن",
+          "fa": "اینجا: چیزی را به اجزایش تقسیم کردن؛ دربارهٔ دستگاه: خراب شدن",
           "more": "breakdown · analyze"
         }
       ]
@@ -691,7 +692,7 @@ DRILL({
       ]
     },
     {
-      "fa": "۳. میزانِ درستی از جزئیات ارائه دهید.",
+      "fa": "۳. جزئیات را به اندازهٔ مناسب ارائه کنید.",
       "en": "3. Offer the right level of detail.",
       "ipa": "θri ˈɔfɚ ðə raɪt ˈlɛvəl əv dɪˈteɪl",
       "words": [
@@ -712,7 +713,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اگر کافی نباشد، داستان جان نمی‌گیرد.",
+      "fa": "اگر جزئیات کافی نباشد، داستان جان نخواهد گرفت.",
       "en": "If there's not enough, the story won't come to life.",
       "ipa": "ɪf ðɛrz nɑt ɪˈnʌf ðə ˈstɔri woʊnt kʌm tə laɪf",
       "words": [
@@ -726,7 +727,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اگر زیادی باشد، داستان زمین‌گیر می‌شود.",
+      "fa": "اگر جزئیات بیش از حد باشد، داستان در آن‌ها گیر می‌کند و پیش نمی‌رود.",
       "en": "If there's too much, it will get bogged down.",
       "ipa": "ɪf ðɛrz tu mʌtʃ ɪt wɪl ɡɛt bɑɡd daʊn",
       "words": [
@@ -827,7 +828,7 @@ DRILL({
           "w": "plot",
           "ipa": "plɑt",
           "m": "the series of events that form a story",
-          "fa": "طرحِ داستان",
+          "fa": "طرحِ داستان، چگونگیِ پیوندِ رویدادهای آن؛ در بافت دیگر: توطئه یا قطعه‌زمین",
           "more": "storyline · plot twist"
         }
       ]
@@ -895,7 +896,7 @@ DRILL({
       "ipa": "rɪˈmɛmbɚ ðə ɡoʊl ɪz tə ɡɪv"
     },
     {
-      "fa": "داستان‌های شخصی ممکن است مخاطب را سرگرم کنند یا کنجکاوش کنند،",
+      "fa": "داستان‌های شخصی ممکن است مخاطبان را سرگرم کنند یا علاقه‌شان را برانگیزند،",
       "en": "Personal stories may entertain or interest an audience,",
       "ipa": "ˈpɝsɪnɪl ˈstɔriz meɪ ˌɛntɚˈteɪn ɔr ˈɪntrəst ən ˈɑdiəns",
       "words": [
@@ -917,7 +918,7 @@ DRILL({
           "w": "to interest",
           "ipa": "tə ˈɪntrəst",
           "m": "to make someone want to know more",
-          "fa": "کنجکاو کردن، علاقه برانگیختن",
+          "fa": "توجه و علاقهٔ کسی را برانگیختن، برای کسی جالب بودن",
           "more": "interesting · intrigue"
         }
       ]
@@ -1015,7 +1016,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به گونه‌ای که برای کسِ دیگری معنادار باشد.",
+      "fa": "به شکلی که بتواند برای شخصِ دیگری هم معنا داشته باشد.",
       "en": "in a way that can be meaningful to someone else.",
       "ipa": "ɪn ə weɪ ðæt kən bi ˈminɪŋfəl tə ˈsʌmˌwʌn ɛls",
       "words": [
@@ -1231,7 +1232,7 @@ DRILL({
       ]
     },
     {
-      "fa": "داستان‌ها می‌توانند آن‌قدر تأثیرِ بزرگی بگذارند که برخی سخنران‌ها وسوسه می‌شوند حقیقت را کمی کج‌ومعوج کنند.",
+      "fa": "داستان‌ها می‌توانند چنان تأثیر بزرگی بگذارند که بعضی سخنران‌ها وسوسه شوند حقیقت را کمی تحریف کنند.",
       "en": "Stories can have such a big impact that some speakers are tempted to bend the truth.",
       "ipa": "ˈstɔriz kən hæv sʌtʃ ə bɪɡ ˈɪmpækt ðæt sʌm ˈspikɚz ɚ ˈtɛmptəd tə bɛnd ðə truθ",
       "words": [
@@ -1365,7 +1366,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اگر از آن استفاده کنید، می‌توانید ارتباطتان با مخاطب را به‌مراتب بیشتر کنید.",
+      "fa": "از آن استفاده کنید؛ آن‌وقت می‌توانید پیوندتان را با مخاطبان بسیار قوی‌تر کنید.",
       "en": "Use it, and you can greatly increase your connection with an audience.",
       "ipa": "juz ɪt ənd ju kən ˈɡreɪtli ˌɪnˈkris jɔr kəˈnɛkʃən wɪð ən ˈɑdiəns",
       "words": [

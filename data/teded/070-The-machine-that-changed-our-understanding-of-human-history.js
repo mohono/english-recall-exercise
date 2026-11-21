@@ -33,7 +33,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که محتویاتش قرار بود درکِ ما از دنیای باستان را تکان دهد.",
+      "fa": "که محتویاتش بعدها برداشتِ ما از دنیای باستان را زیر و رو کرد. <c>(نتیجه را از دیدِ لحظهٔ کشف بیان کنید، وقتی هنوز در آینده بود.)</c>",
       "en": "whose contents would shake our understanding of the ancient world.",
       "ipa": "huz ˈkɑntɛnts wʊd ʃeɪk ˈaʊɚ ˌʌndɚˈstændɪŋ əv ði ˈeɪntʃənt wɝld",
       "words": [
@@ -62,7 +62,7 @@ DRILL({
       "note": "would این‌جا «آینده در گذشته» است: «قرار بود … تکان دهد»."
     },
     {
-      "fa": "در میانِ بقایا تکه‌هایی از چوبِ له‌شده و فلزِ زنگ‌زده بود،",
+      "fa": "در میانِ بقایا، تکه‌هایی از چوبِ درهم‌شکسته و فلزِ خورده‌شده به چشم می‌خورد،",
       "en": "Among the remains were fragments of mangled wood and corroded metal,",
       "ipa": "əˈmʌŋ ðə rɪˈmeɪnz wɚ ˈfræɡmənts əv ˈmæŋɡəld wʊd ənd kəˈroʊdɪd ˈmɛtəl",
       "words": [
@@ -91,14 +91,14 @@ DRILL({
           "w": "corroded",
           "ipa": "kəˈroʊdɪd",
           "m": "slowly damaged by chemicals, rust or water",
-          "fa": "زنگ‌زده، خورده‌شده",
+          "fa": "دچارِ خوردگی (فلز)؛ زنگ‌زده، در موردِ آهن",
           "more": "corrosion · to corrode · rusty"
         }
       ],
       "note": "جمله وارونه است: «Among the remains were …» (اول قید، بعد فعل، بعد فاعل)."
     },
     {
-      "fa": "که باستان‌شناسان خیلی زود فهمیدند شاملِ رشته‌ای پیچیده از چرخ‌دنده‌هاست،",
+      "fa": "تکه‌هایی که باستان‌شناسان خیلی زود پی بردند مجموعه‌ای پیچیده از چرخ‌دنده‌ها را در خود داشتند،",
       "en": "which archaeologists soon realized contained an intricate series of gears,",
       "ipa": "wɪtʃ ˌɑrkiˈɑlədʒɪsts sun ˈriˌlaɪzd kənˈteɪnd ən ˈɪntrəkət ˈsɪriz əv ɡɪrz",
       "words": [
@@ -134,13 +134,13 @@ DRILL({
           "w": "gear",
           "ipa": "ɡɪr",
           "m": "a wheel with teeth that turns another wheel in a machine",
-          "fa": "چرخ‌دنده",
+          "fa": "چرخ‌دنده؛ دندهٔ خودرو؛ وسایل و تجهیزات",
           "more": "geared · cog"
         }
       ]
     },
     {
-      "fa": "که به فناوری‌ای شباهت داشت که گمان نمی‌رفت تا قرن‌ها بعد وجود داشته باشد.",
+      "fa": "شبیه به فناوری‌ای که گمان می‌رفت تازه چندین سده بعد پدید آمده باشد. <c>(در انگلیسی، باور دربارهٔ وجودِ این فناوری به صورتِ مجهول و منفی بیان می‌شود.)</c>",
       "en": "resembling technology not believed to exist until centuries later.",
       "ipa": "rɪˈzɛmbəlɪŋ tɛkˈnɑlədʒi nɑt bɪˈlivd tə ɪɡˈzɪst ənˈtɪl ˈsɛntʃəriz ˈleɪtɚ",
       "words": [
@@ -154,7 +154,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا دههٔ ۱۹۵۰، دانشمندان کم‌کم فهمیدند چه چیزی پیدا کرده‌اند.",
+      "fa": "با رسیدن به دههٔ ۱۹۵۰، دانشمندان کم‌کم پی بردند چه چیزی یافته بودند.",
       "en": "By the 1950s, scientists began to understand what they'd found.",
       "ipa": "baɪ ðə ˌnaɪnˈtin ˈfɪftiz ˈsaɪəntɪsts bɪˈɡæn tə ˌʌndɚˈstænd wʌt ðeɪd faʊnd",
       "newPara": true
@@ -181,7 +181,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این ابزار که امروز به نامِ سازوکارِ آنتیکیترا شناخته می‌شود،",
+      "fa": "این ابزار، که امروزه به «سازوکارِ آنتیکیترا» معروف است،",
       "en": "Now known as the Antikythera mechanism, this instrument",
       "ipa": "naʊ noʊn əz ði ˌæntikɪˈrɪθə ˈmɛkəˌnɪzəm ðɪs ˈɪnstrəmənt",
       "words": [
@@ -202,7 +202,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ظاهراً قدیمی‌ترین دستگاهِ چرخ‌دنده‌ای است که تا به حال کشف شده و نخستین رایانهٔ بشر.",
+      "fa": "به نظر می‌رسد هم قدیمی‌ترین وسیلهٔ چرخ‌دنده‌داری باشد که تاکنون کشف شده و هم نخستین رایانهٔ بشر.",
       "en": "appears to be the oldest geared device ever discovered and humankind’s first computer.",
       "ipa": "əˈpɪrz tə bi ði ˈoʊldəst ɡɪrd dɪˈvaɪs ˈɛvɚ dɪˈskʌvɚd ənd ˈhjumənˌkaɪndz fɝst kəmˈpjutɚ",
       "words": [
@@ -260,13 +260,13 @@ DRILL({
           "w": "string",
           "ipa": "strɪŋ",
           "m": "a series of things, such as numbers or letters, in a line",
-          "fa": "رشته",
+          "fa": "دنباله‌ای از رقم‌ها یا نویسه‌ها؛ رشته یا نخ",
           "more": "string of numbers · sequence"
         }
       ]
     },
     {
-      "fa": "که بعد می‌توانند آن‌ها را به تصویر روی صفحه یا صدا در بلندگو تبدیل کنند.",
+      "fa": "رشته‌هایی که این سامانه‌ها سپس می‌توانند به تصویرهای روی صفحه یا صداهای پخش‌شده از بلندگو تبدیل کنند.",
       "en": "that they can then convert into images on a screen or sounds in a speaker.",
       "ipa": "ðæt ðeɪ kən ðɛn kənˈvɝt ɪnˈtu ˈɪmədʒəz ɑn ə skrin ɔr saʊndz ɪn ə ˈspikɚ",
       "words": [
@@ -295,7 +295,7 @@ DRILL({
           "w": "to refer to",
           "ipa": "tə rəˈfɝ tu",
           "m": "to be a word for something; to mean",
-          "fa": "اشاره داشتن به، به معنای … بودن",
+          "fa": "به معنای چیزی بودن، بر آن دلالت کردن؛ اشاره یا ارجاع دادن به",
           "more": "reference · to mean"
         }
       ]
@@ -344,13 +344,13 @@ DRILL({
           "w": "analog",
           "ipa": "ˈænəˌlɔɡ",
           "m": "showing information using continuous physical changes, not digits",
-          "fa": "آنالوگ، قیاسی",
+          "fa": "آنالوگ، مبتنی بر تغییرِ پیوستهٔ کمیت‌های فیزیکی",
           "more": "analogue (UK) · digital"
         }
       ]
     },
     {
-      "fa": "رایانه‌های آنالوگ به‌جای استفاده از بیت‌های دودویی،",
+      "fa": "به‌جای استفاده از بیت‌های دودویی،",
       "en": "Rather than using binary bits,",
       "ipa": "ˈræðɚ ðən ˈjuzɪŋ ˈbaɪnəri bɪts",
       "words": [
@@ -378,7 +378,7 @@ DRILL({
       ]
     },
     {
-      "fa": "سیگنال‌ها را از جهانِ واقعی، مثلِ نور یا حرکتِ مکانیکی، می‌گیرند و ذخیره می‌کنند،",
+      "fa": "رایانه‌های آنالوگ سیگنال‌هایی از جهانِ واقعی، مانندِ نور یا حرکتِ مکانیکی، دریافت و ذخیره می‌کنند",
       "en": "analog computers receive and store signals from the real world, such as light or mechanical motion,",
       "ipa": "ˈænəˌlɔɡ kəmˈpjutɚz rəˈsiv ənd stɔr ˈsɪɡnəlz frəm ðə ril wɝld sʌtʃ əz laɪt ɔr məˈkænɪkəl ˈmoʊʃən",
       "words": [
@@ -420,7 +420,7 @@ DRILL({
       ]
     },
     {
-      "fa": "فکر کنید یک صفحهٔ وینیل چطور نقش‌های صدا را در خود نگه می‌دارد.",
+      "fa": "به این فکر کنید که یک صفحهٔ وینیل چگونه ردِ فیزیکیِ صدا را در خود ثبت می‌کند.",
       "en": "Think of how a vinyl record stores impressions of sound.",
       "ipa": "θɪŋk əv haʊ ə ˈvaɪnəl ˈrɛkɚd stɔrz ɪmˈprɛʃənz əv saʊnd",
       "newPara": true,
@@ -443,14 +443,14 @@ DRILL({
           "w": "impression",
           "ipa": "ɪmˈprɛʃən",
           "m": "a mark made by pressing something into a surface",
-          "fa": "نقش، اثر",
+          "fa": "رد یا اثرِ فیزیکیِ ثبت‌شده؛ برداشتِ ذهنی",
           "more": "to impress · imprint"
         }
       ],
       "note": "impression این‌جا یعنی «اثرِ فشرده‌شده»، نه «برداشت»."
     },
     {
-      "fa": "دستگاهِ ضبط — یک سامانهٔ برشِ وینیل — همتاهای مکانیکیِ جهان را می‌نگارد:",
+      "fa": "دستگاهِ ضبط، یعنی سامانهٔ برشِ صفحهٔ وینیل، معادل‌های مکانیکیِ پدیده‌های جهان را ثبت می‌کند؛",
       "en": "The recording device— a vinyl cutting system— writes mechanical analogs of the world:",
       "ipa": "ðə rəˈkɔrdɪŋ dɪˈvaɪs ə ˈvaɪnəl ˈkʌtɪŋ ˈsɪstəm raɪts məˈkænɪkəl ˈænəˌlɔɡz əv ðə wɝld",
       "words": [
@@ -458,7 +458,7 @@ DRILL({
           "w": "analog",
           "ipa": "ˈænəˌlɔɡ",
           "m": "(n.) something that is similar to or matches something else",
-          "fa": "همتا، نظیر",
+          "fa": "چیزی که نماینده یا معادلِ چیزِ دیگری است",
           "more": "analogy · analogous · equivalent"
         }
       ],
@@ -514,7 +514,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که بعد گرامافون دوباره آن را به صدا برمی‌گرداند و می‌خواند.",
+      "fa": "شیارهایی که دستگاهِ پخشِ صفحه بعداً می‌خواند و دوباره به صدا تبدیل می‌کند.",
       "en": "which a record player then reads back into sound.",
       "ipa": "wɪtʃ ə ˈrɛkɚd ˈpleɪɚ ðɛn ridz bæk ɪnˈtu saʊnd",
       "words": [
@@ -529,7 +529,7 @@ DRILL({
           "w": "to read back",
           "ipa": "tə rid bæk",
           "m": "to change stored information back into its original form",
-          "fa": "دوباره خواندن و بازگرداندن",
+          "fa": "شیارهای ضبط‌شده را خواندن و صدا را بازپخش کردن؛ متن را دوباره برای کسی خواندن",
           "more": "playback · to play back"
         }
       ]
@@ -623,7 +623,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این دستگاه احتمالاً آن فرایند را خیلی آسان‌تر کرده بود.",
+      "fa": "این دستگاه احتمالاً آن فرایند را بسیار آسان‌تر می‌کرد.",
       "en": "This device likely made that process much easier.",
       "ipa": "ðɪs dɪˈvaɪs ˈlaɪkli meɪd ðæt ˈprɑˌsɛs mʌtʃ ˈiziɚ"
     },
@@ -650,13 +650,13 @@ DRILL({
           "w": "to drive",
           "ipa": "tə draɪv",
           "m": "(of a machine part) to make another part move",
-          "fa": "به حرکت درآوردن، به کار انداختن",
+          "fa": "به حرکت درآوردنِ چرخ‌دنده‌ها؛ راندنِ خودرو",
           "more": "drive (n.) · to power"
         }
       ]
     },
     {
-      "fa": "تا «شخصیتِ نجومیِ» آن روز را محاسبه کنند.",
+      "fa": "تا چرخ‌دنده‌ها به تعبیرِ راوی «شخصیتِ نجومیِ» آن روز را محاسبه کنند.",
       "en": "to calculate that day's astronomical personality.",
       "ipa": "tə ˈkælkjəˌleɪt ðæt deɪz ˌæstrəˈnɑmɪkəl ˌpɝsəˈnælɪti",
       "words": [
@@ -671,7 +671,7 @@ DRILL({
       "note": "astronomical personality تعبیری شوخ است: «وضعیتِ آسمان در آن روز»."
     },
     {
-      "fa": "عقربه‌های فلزی جایگاهِ خورشید، ماه، و ظاهراً پنج سیاره‌ای را که آن زمان شناخته شده بودند نشان می‌دادند",
+      "fa": "عقربه‌های فلزی به جایگاهِ خورشید، ماه و ظاهراً همان پنج سیاره‌ای اشاره می‌کردند که در آن روزگار شناخته شده بودند،",
       "en": "Metallic hands pointed to the positions of the Sun, Moon, and what seemed to be the five then-known planets",
       "ipa": "məˈtælɪk hændz ˈpɔɪntəd tə ðə pəˈzɪʃənz əv ðə sʌn mun ənd wʌt simd tə bi ðə faɪv ðɛn noʊn ˈplænəts",
       "words": [
@@ -686,7 +686,7 @@ DRILL({
           "w": "hand",
           "ipa": "hænd",
           "m": "a pointer on a clock or dial",
-          "fa": "عقربه",
+          "fa": "عقربهٔ دستگاه یا ساعت؛ دست",
           "more": "minute hand · hour hand"
         },
         {
@@ -764,7 +764,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یک سامانهٔ چرخ‌دندهٔ دیگر احتمالاً کره‌ای رنگی را می‌چرخاند که نشان‌دهندهٔ اهلهٔ ماه بود.",
+      "fa": "احتمالاً مجموعهٔ دیگری از چرخ‌دنده‌ها کره‌ای رنگی را می‌چرخاند که نشان می‌داد ماه در کدام مرحله از چرخه‌اش است.",
       "en": "another gear system likely spun a colored sphere representing the lunar phase.",
       "ipa": "əˈnʌðɚ ɡɪr ˈsɪstəm ˈlaɪkli spʌn ə ˈkʌlɚd sfɪr ˌrɛprɪˈzɛntɪŋ ðə ˈlunɚ feɪz",
       "words": [
@@ -800,7 +800,7 @@ DRILL({
           "w": "phase",
           "ipa": "feɪz",
           "m": "one of the changing shapes of the Moon as seen from Earth",
-          "fa": "اهله، مرحله",
+          "fa": "شکلِ قابلِ مشاهدهٔ ماه در یک مرحله از چرخه‌اش، یکی از اهلهٔ ماه؛ مرحله",
           "more": "phase of the Moon · stage"
         }
       ]
@@ -814,7 +814,7 @@ DRILL({
           "w": "face",
           "ipa": "feɪs",
           "m": "one side of an object",
-          "fa": "وجه، رو",
+          "fa": "وجه یا رویِ دستگاه؛ چهره",
           "more": "surface · side"
         },
         {
@@ -841,7 +841,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یعنی تقریباً ۶۵۸۵٫۳ روزی که طول می‌کشد تا خورشید، ماه و زمین به جایگاهِ نسبیِ دقیقِ خود برگردند.",
+      "fa": "یعنی حدودِ ۶٬۵۸۵٫۳ روزی که طول می‌کشد تا خورشید و ماه و زمین دقیقاً به همان موقعیت‌های قبلی‌شان نسبت به یکدیگر بازگردند.",
       "en": "the approximately 6,585.3 days it takes for the Sun, Moon, and Earth to return to their exact relative positions.",
       "ipa": "ði əˈprɑksəmətli sɪks ˈθaʊzənd faɪv ˈhʌndrəd ˈeɪti faɪv pɔɪnt θri deɪz ɪt teɪks fɚ ðə sʌn mun ənd ɝθ tə rɪˈtɝn tə ðɛr ɪɡˈzækt ˈrɛlətɪv pəˈzɪʃənz",
       "words": [
@@ -1011,7 +1011,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مثلاً، هماهنگیِ میانِ ۱۳ چرخ‌دنده که به‌طورِ خودکار مدارِ ماهِ ما را بازسازی می‌کرد",
+      "fa": "برای نمونه، هماهنگیِ میانِ سیزده چرخ‌دنده که مدارِ ماه را به‌طورِ خودکار بازسازی می‌کرد،",
       "en": "For example, the handshake between 13 gears that automatically recreated our Moon’s orbit",
       "ipa": "fɚ ɪɡˈzæmpəl ðə ˈhændˌʃeɪk bɪˈtwin ˌθɝˈtin ɡɪrz ðæt ˌɔtəˈmætɪkli ˈrɛkriˌeɪtɪd ˈaʊɚ munz ˈɔrbət",
       "words": [
@@ -1019,7 +1019,7 @@ DRILL({
           "w": "handshake",
           "ipa": "ˈhændˌʃeɪk",
           "m": "(fig.) the way two parts connect and work together",
-          "fa": "هماهنگی، جفت‌شدن",
+          "fa": "هماهنگی و درگیریِ چرخ‌دنده‌ها با هم؛ دست دادن",
           "more": "interaction · coupling"
         },
         {
@@ -1040,7 +1040,7 @@ DRILL({
       "note": "handshake این‌جا مجازی است: درگیرِ هم شدنِ چرخ‌دنده‌ها."
     },
     {
-      "fa": "فقط چند ثانیه با واقعیت فاصله داشت.",
+      "fa": "فقط چند ثانیه با واقعیت اختلاف داشت.",
       "en": "was only seconds off from reality.",
       "ipa": "wəz ˈoʊnli ˈsɛkəndz ɔf frəm riˈæləti",
       "words": [
@@ -1048,7 +1048,7 @@ DRILL({
           "w": "off",
           "ipa": "ɔf",
           "m": "(of a measurement) not correct; different from the true value",
-          "fa": "دور از، با خطا",
+          "fa": "دارای اختلاف با مقدارِ واقعی، خطا داشتن",
           "more": "a bit off · way off"
         }
       ]
@@ -1118,7 +1118,7 @@ DRILL({
       ]
     },
     {
-      "fa": "باید با نرم‌افزارِ تلویزیون یا لپ‌تاپتان کنار هم چیده شوند،",
+      "fa": "این بیت‌ها باید به کمکِ نرم‌افزاری روی تلویزیون یا لپ‌تاپِ شما کنارِ هم چیده شوند",
       "en": "They must be assembled by software on your TV or laptop,",
       "ipa": "ðeɪ mʌst bi əˈsɛmbəld baɪ ˈsɔftˌwɛr ɑn jɔr ˌtiˈvi ɔr ˈlæpˌtɑp",
       "words": [
@@ -1181,7 +1181,7 @@ DRILL({
       ]
     },
     {
-      "fa": "منطقِ دیجیتال به وفورِ داده نیاز دارد و بهایش را کارآمدی می‌پردازد.",
+      "fa": "منطقِ دیجیتال به مقدارِ بسیار زیادی داده نیاز دارد و این به بهایِ کاهشِ کارایی تمام می‌شود.",
       "en": "digital logic requires abundance at the expense of efficiency.",
       "ipa": "ˈdɪdʒətəl ˈlɑdʒɪk riˈkwaɪɚz əˈbʌndəns ət ði ɪkˈspɛns əv ɪˈfɪʃənsi",
       "words": [
@@ -1260,7 +1260,7 @@ DRILL({
           "w": "scale",
           "ipa": "skeɪl",
           "m": "a machine for weighing people or things",
-          "fa": "ترازو",
+          "fa": "ترازو؛ مقیاس؛ اندازه و ابعاد",
           "more": "scales · bathroom scale"
         }
       ]
@@ -1288,7 +1288,7 @@ DRILL({
           "w": "spring",
           "ipa": "sprɪŋ",
           "m": "a twisted piece of metal that goes back to its shape after being pressed",
-          "fa": "فنر",
+          "fa": "فنرِ ترازو؛ چشمه؛ فصلِ بهار",
           "more": "springy · coil"
         }
       ]
@@ -1320,7 +1320,7 @@ DRILL({
       "ipa": "ðɪs kəmˈpjutɚ kənˈvɝts məˈkænɪkəl fɔrs dəˈrɛktli ɪnˈtu ˈnʌmbɚz wi kən rid"
     },
     {
-      "fa": "یک ورودیِ پیوسته است: وزنِ ۱۵۰ پوندی فنر را بیشتر از وزنِ ۱۴۹ پوندی جابه‌جا می‌کند.",
+      "fa": "ورودیِ این دستگاه پیوسته است؛ اگر وزنتان ۱۵۰ پوند باشد، فنر بیش از وقتی که ۱۴۹ پوند وزن دارید جابه‌جا می‌شود.",
       "en": "It’s a continuous input: weighing 150 pounds moves the spring more than weighing 149 pounds does.",
       "ipa": "ɪts ə kənˈtɪnjuəs ˈɪnˌpʊt ˈweɪɪŋ wʌn ˈhʌndrəd ˈfɪfti paʊndz muvz ðə sprɪŋ mɔr ðən ˈweɪɪŋ wʌn ˈhʌndrəd ˈfɔrti naɪn paʊndz dʌz",
       "words": [
@@ -1370,7 +1370,7 @@ DRILL({
       "note": "discretely (گسسته) را با discreetly (رازدارانه) قاطی نکن."
     },
     {
-      "fa": "این ظرافتِ بازنماییِ وفادارانهٔ اطلاعاتِ واقعی، علاقه به فناوریِ آنالوگ را دوباره زنده کرده،",
+      "fa": "این ظرافت در بازنماییِ دقیقِ اطلاعاتِ واقعی، علاقه به فناوریِ آنالوگ را از نو زنده کرده است",
       "en": "This elegance of faithfully representing real information has renewed interest in analog tech,",
       "ipa": "ðɪs ˈɛləɡəns əv ˈfeɪθfəli ˌrɛprɪˈzɛntɪŋ ril ˌɪnfɚˈmeɪʃən hæz rɪˈnud ˈɪntrəst ɪn ˈænəˌlɔɡ tɛk",
       "newPara": true,
@@ -1406,7 +1406,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و حتی الهام‌بخشِ فناوری‌های تازه شده است.",
+      "fa": "و حتی دارد الهام‌بخشِ فناوری‌های تازه می‌شود.",
       "en": "and is even inspiring new technologies.",
       "ipa": "ənd ɪz ˈivɪn ɪnˈspaɪrɪŋ nu tɛkˈnɑlədʒiz",
       "words": [

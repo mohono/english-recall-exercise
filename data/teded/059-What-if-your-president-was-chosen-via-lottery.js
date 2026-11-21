@@ -33,7 +33,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ابزاری‌اند که تضمین می‌کنند همهٔ شهروندانِ یک کشور صدای سیاسیِ برابری داشته باشند.",
+      "fa": "ابزارهایی هستند که تضمین می‌کنند همهٔ شهروندانِ یک کشور به یک اندازه در امورِ سیاسی حقِ اظهارنظر داشته باشند.",
       "en": "are tools that ensure a nation's citizens all have an equal political voice.",
       "ipa": "ɚ tulz ðæt ɛnˈʃʊr ə ˈneɪʃənz ˈsɪtəzənz ɔl hæv ən ˈikwəl pəˈlɪtəkəl vɔɪs",
       "words": [
@@ -152,7 +152,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از ۵۰۸ تا ۳۲۲ پیش از میلاد، آتن هر روز بیشتر از مقام‌های انتخابی فاصله گرفت.",
+      "fa": "از سالِ ۵۰۸ تا ۳۲۲ پیش از میلاد، آتن به‌تدریج کمتر به انتخابِ مسئولان از راهِ رأی‌گیری متکی شد.",
       "en": "From 508 to 322 BCE, Athens increasingly moved away from elected officials.",
       "ipa": "frəm faɪv ˈhʌndrəd eɪt tə θri ˈhʌndrəd ˈtwɛnti tu ˌbiˌsiˈi ˈæθənz ɪnˈkrisɪŋli muvd əˈweɪ frəm ɪˈlɛktəd əˈfɪʃəlz",
       "newPara": true,
@@ -203,7 +203,7 @@ DRILL({
           "w": "position",
           "ipa": "pəˈzɪʃən",
           "m": "a job or official role",
-          "fa": "منصب، سِمَت",
+          "fa": "منصب یا سِمَتِ دولتی؛ موقعیتِ مکانی؛ موضع",
           "more": "post · role"
         },
         {
@@ -279,7 +279,7 @@ DRILL({
       "note": "در انگلیسی معمولاً نقش را fill می‌کنند و آدم را appoint؛ این‌جا roles were appointed یعنی «برای این نقش‌ها کسی گماشته می‌شد»."
     },
     {
-      "fa": "شهروندان از سی‌سالگی می‌توانستند ژتونی با نامِ خودشان را در دستگاهِ تخصیص بیندازند.",
+      "fa": "شهروندان از سی‌سالگی به بعد می‌توانستند نشانی را که نامشان روی آن بود داخلِ دستگاهِ قرعه‌کشیِ منصب‌ها بیندازند.",
       "en": "Starting at age 30, citizens could place a token with their name into an allotment machine.",
       "ipa": "ˈstɑrtɪŋ ət eɪdʒ ˈθɝdi ˈsɪtəzənz kʊd pleɪs ə ˈtoʊkən wɪð ðɛr neɪm ɪnˈtu ən əˈlɑtmənt məˈʃin",
       "words": [
@@ -294,7 +294,7 @@ DRILL({
           "w": "allotment",
           "ipa": "əˈlɑtmənt",
           "m": "the act of giving out shares of something",
-          "fa": "تخصیص، سهم‌بندی",
+          "fa": "واگذاری یا تقسیمِ منصب‌ها، اینجا با قرعه؛ سهمِ تخصیص‌یافته",
           "more": "to allot · allocation"
         }
       ]
@@ -333,7 +333,7 @@ DRILL({
       ]
     },
     {
-      "fa": "داوطلبانِ برگزیده پیش از گرفتنِ کار، تن به یک بررسیِ علنی می‌دادند تا شخصیتشان سنجیده شود،",
+      "fa": "نامزدهای برگزیده پیش از گرفتنِ منصب، بررسیِ علنی‌ای را از سر می‌گذراندند که هدفش شناختِ منشِ آن‌ها بود،",
       "en": "Before getting the job, chosen candidates underwent a public examination to investigate their character,",
       "ipa": "bɪˈfɔr ˈɡɛtɪŋ ðə dʒɑb ˈtʃoʊzən ˈkændədeɪts ˌʌndɚˈwɛnt ə ˈpʌblɪk ɪɡˌzæməˈneɪʃən tə ɪnˈvɛstəˌɡeɪt ðɛr ˈkɛrɪktɚ",
       "words": [
@@ -369,7 +369,7 @@ DRILL({
           "w": "character",
           "ipa": "ˈkɛrɪktɚ",
           "m": "the qualities that make up a person’s nature, especially moral ones",
-          "fa": "شخصیت، منش",
+          "fa": "منش و ویژگی‌های اخلاقیِ فرد؛ شخصیتِ یک داستان؛ نویسه",
           "more": "good character · personality"
         }
       ]
@@ -389,7 +389,7 @@ DRILL({
       ]
     },
     {
-      "fa": "وقتی دورهٔ کارشان تمام می‌شد، دوباره بررسیِ علنیِ دیگری از سر می‌گذراندند تا رفتار و معاملاتِ مالی‌شان در دورانِ تصدی‌شان بررسی شود.",
+      "fa": "وقتی دورهٔ تصدی‌شان تمام می‌شد، بارِ دیگر در برابرِ عموم ارزیابی می‌شدند تا رفتار و دادوستدهای مالی‌شان در مدتی که بر سرِ کار بودند بررسی شود.",
       "en": "When their term ended, they underwent another public review to investigate their conduct and financial dealings while in office.",
       "ipa": "wɛn ðɛr tɝm ˈɛndəd ðeɪ ˌʌndɚˈwɛnt əˈnʌðɚ ˈpʌblɪk ˌriˈvju tə ɪnˈvɛstəˌɡeɪt ðɛr ˈkɑndəkt ənd fəˈnænʃəl ˈdilɪŋz waɪl ɪn ˈɔfəs",
       "words": [
@@ -397,7 +397,7 @@ DRILL({
           "w": "term",
           "ipa": "tɝm",
           "m": "a fixed period of time that someone holds an official job",
-          "fa": "دورهٔ تصدی، دوره",
+          "fa": "دورهٔ تصدیِ منصب؛ اصطلاح؛ نیمسالِ تحصیلی",
           "more": "term of office · term limit"
         },
         {
@@ -502,7 +502,7 @@ DRILL({
           "w": "well-connected",
           "ipa": "wɛl kəˈnɛktəd",
           "m": "knowing important or powerful people",
-          "fa": "پارتی‌دار، دارای روابطِ قوی",
+          "fa": "دارای روابطِ بانفوذ",
           "more": "connections · influential"
         }
       ]
@@ -557,7 +557,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و چون بیشترِ منصب‌ها اجازهٔ دوره‌های تکراری نمی‌دادند،",
+      "fa": "و از آنجا که در بیشترِ این مناصب، خدمت برای یک دورهٔ دیگر مجاز نبود،",
       "en": "And since most offices didn't allow repeat terms,",
       "ipa": "ənd sɪns moʊst ˈɔfəsəz ˈdɪdənt əˈlaʊ rɪˈpit tɝmz",
       "words": [
@@ -565,7 +565,7 @@ DRILL({
           "w": "office",
           "ipa": "ˈɔfəs",
           "m": "an important official position",
-          "fa": "منصب",
+          "fa": "منصبِ دولتی؛ دفترِ کار",
           "more": "public office · run for office"
         },
         {
@@ -614,7 +614,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گزینش با قرعه در آتن زنان، ساکنانِ خارجی‌تبار و مردمانِ به بردگی کشیده‌شده را کنار می‌گذاشت.",
+      "fa": "گزینش با قرعه در آتن زنان، ساکنانِ زادهٔ خارج از کشور و افرادی را که به بردگی کشیده شده بودند کنار می‌گذاشت.",
       "en": "Athenian sortition excluded women, foreign-born residents, and enslaved peoples.",
       "ipa": "əˈθiniən ˌsɔrˈtɪʃən ɪksˈkludəd ˈwɪmən ˈfɔrən bɔrn ˈrɛzɪdənts ənd ɛnˈsleɪvd ˈpipəlz",
       "words": [
@@ -629,7 +629,7 @@ DRILL({
           "w": "foreign-born",
           "ipa": "ˈfɔrən bɔrn",
           "m": "born in another country",
-          "fa": "خارجی‌تبار، متولدِ کشورِ دیگر",
+          "fa": "زادهٔ کشوری دیگر",
           "more": "native-born · immigrant"
         },
         {
@@ -704,7 +704,7 @@ DRILL({
       ]
     },
     {
-      "fa": "صفتی که در منصب‌های کوتاه‌مدت به‌سختی پرورش پیدا می‌کند،",
+      "fa": "ویژگی‌ای که پرورش دادنش طیِ دوره‌های کوتاهِ تصدی دشوار است",
       "en": "a quality that's difficult to develop in short appointments,",
       "ipa": "ə ˈkwɑləti ðæts ˈdɪfəkəlt tə dɪˈvɛləp ɪn ʃɔrt əˈpɔɪntmənts",
       "words": [
@@ -719,13 +719,13 @@ DRILL({
           "w": "appointment",
           "ipa": "əˈpɔɪntmənt",
           "m": "a job or position someone is chosen for",
-          "fa": "منصب، انتصاب",
+          "fa": "دورهٔ تصدیِ منصبی انتصابی؛ انتصاب؛ قرارِ ملاقات",
           "more": "to appoint"
         }
       ]
     },
     {
-      "fa": "و با انتخابِ تصادفی نمی‌شود تضمینش کرد.",
+      "fa": "و نمی‌توان آن را با گزینشِ تصادفی تضمین کرد.",
       "en": "and can't be guaranteed by random selection.",
       "ipa": "ənd kænt bi ˌɡɛrənˈtid baɪ ˈrændəm səˈlɛkʃən",
       "words": [
@@ -823,7 +823,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس اگر گزینش با قرعه آن زمان ثبات می‌آورد، آیا امروز هم می‌تواند؟",
+      "fa": "پس اگر گزینش با قرعه آن زمان ثبات فراهم می‌کرد، آیا امروز هم ممکن است همین کار را بکند؟",
       "en": "So if sortition provided stability then, could it do so now?",
       "ipa": "soʊ ɪf ˌsɔrˈtɪʃən prəˈvaɪdəd stəˈbɪlɪti ðɛn kʊd ɪt du soʊ naʊ",
       "newPara": true,
@@ -892,7 +892,7 @@ DRILL({
           "w": "body",
           "ipa": "ˈbɑdi",
           "m": "a group of people who work together officially",
-          "fa": "نهاد، هیئت",
+          "fa": "نهاد یا هیئتِ تصمیم‌گیر؛ بدن",
           "more": "governing body · organization"
         },
         {
@@ -960,7 +960,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از صدها شهروندِ تصادفی‌برگزیده تشکیل می‌شوند که کارشناسان و مدافعان آن‌ها را در حوزهٔ موضوعیِ مجمعشان آموزش می‌دهند.",
+      "fa": "از صدها شهروندی تشکیل می‌شوند که به‌طورِ تصادفی انتخاب شده‌اند و در زمینهٔ کارِ مجمعشان به دستِ کارشناسان و مدافعانِ دیدگاه‌های مختلف آموزش می‌بینند.",
       "en": "are made up of hundreds of randomly chosen citizens who get trained in their assembly’s topic area by experts and advocates.",
       "ipa": "ɚ meɪd ʌp əv ˈhʌndrədz əv ˈrændəmli ˈtʃoʊzən ˈsɪtəzənz hu ɡɛt treɪnd ɪn ðɛr əˈsɛmbliz ˈtɑpɪk ˈɛriə baɪ ˈɛkspɚts ənd ˈædvəkəts",
       "words": [
@@ -988,7 +988,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بعد، اعضای هر SILL پس از مشورت با مردم برای گرفتنِ دیدگاهشان،",
+      "fa": "سپس، پس از مشورت با مردم برای آگاهی از دیدگاهشان،",
       "en": "Then, after consulting with the public to get their perspective,",
       "ipa": "ðɛn ˈæftɚ kənˈsʌltɪŋ wɪð ðə ˈpʌblɪk tə ɡɛt ðɛr pɚˈspɛktɪv",
       "words": [
@@ -1009,7 +1009,7 @@ DRILL({
       ]
     },
     {
-      "fa": "سیاست‌های مربوط به موضوعِ خودشان را پیش‌نویس می‌کنند و درباره‌شان رأی می‌دهند.",
+      "fa": "اعضای یک مجمعِ تک‌موضوعیِ قرعه‌ای پیش‌نویسِ سیاست‌های مربوط به همان موضوع را تهیه می‌کنند و به آن‌ها رأی می‌دهند.",
       "en": "the members of a SILL draft and vote on topic-specific policies.",
       "ipa": "ðə ˈmɛmbɚz əv ə ˌɛsˌaɪˌɛlˈɛl dræft ənd voʊt ɑn ˈtɑpɪk spəˈsɪfɪk ˈpɑləsiz",
       "words": [
@@ -1057,7 +1057,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و حتی اختیاراتِ ریاست‌جمهوری را هم میانِ شبکه‌ای از «مجمع‌های اجرایی»، که با قرعه پر می‌شوند،",
+      "fa": "و به این ترتیب حتی اختیاراتِ ریاست‌جمهوری را هم میانِ شبکه‌ای از مجمع‌های اجرایی که اعضایشان با قرعه انتخاب می‌شوند",
       "en": "distributing even the powers of the presidency across a network of lottery-filled Executive Assemblies",
       "ipa": "dɪˈstrɪbjutɪŋ ˈivɪn ðə ˈpaʊɚz əv ðə ˈprɛzədənsi əˈkrɔs ə ˈnɛtˌwɝk əv ˈlɑtəri fɪld ɪɡˈzɛkjətɪv əˈsɛmbliz",
       "words": [
@@ -1085,7 +1085,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و مقام‌های اداری‌ای که این مجمع‌ها منصوب می‌کنند، پخش می‌کند.",
+      "fa": "و مسئولانِ اداری‌ای که این مجمع‌ها منصوب می‌کنند، تقسیم می‌کند.",
       "en": "and the administrative officials they appoint.",
       "ipa": "ənd ði ədˈmɪnəˌstreɪtɪv əˈfɪʃəlz ðeɪ əˈpɔɪnt",
       "words": [
@@ -1226,7 +1226,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و گروه‌های ذی‌نفعِ خاص متکی‌اند که ممکن است بخواهند بر سیاست‌هایشان اثر بگذارند.",
+      "fa": "و گروه‌های ذی‌نفعی متکی‌اند که ممکن است تلاش کنند بر سیاست‌های آن نامزدها اثر بگذارند.",
       "en": "and special interest groups who may try to influence their policies.",
       "ipa": "ənd ˈspɛʃəl ˈɪntrəst ɡrups hu meɪ traɪ tə ˈɪnfluəns ðɛr ˈpɑləsiz",
       "words": [
@@ -1247,12 +1247,12 @@ DRILL({
       ]
     },
     {
-      "fa": "لاتوکراسی خریدنِ نفوذ را سخت‌تر می‌کند، چون از برگزاریِ انتخابات پرهیز می‌کند،",
+      "fa": "لاتوکراسی خریدنِ نفوذِ سیاسی را دشوارتر می‌کند؛ با کنار گذاشتنِ انتخابات،",
       "en": "Lottocracy makes influence harder to buy by avoiding elections,",
       "ipa": "ləˈtɑtrəsi meɪks ˈɪnfluəns ˈhɑrdɚ tə baɪ baɪ əˈvɔɪdɪŋ ɪˈlɛkʃənz"
     },
     {
-      "fa": "به گماشته‌ها دستمزدِ سخاوتمندانه‌ای می‌دهد، و محدودیت‌های دورهٔ کوتاه‌تری را به اجرا می‌گذارد.",
+      "fa": "با پرداختِ حق‌الزحمه‌ای چشمگیر به افرادِ منصوب و با تعیین و اجرای سقفی کوتاه‌تر برای دورهٔ تصدیِ آن‌ها.",
       "en": "offering appointees generous compensation, and enforcing shorter term limits.",
       "ipa": "ˈɔfərɪŋ əpɔɪnˈtiz ˈdʒɛnərəs ˌkɑmpənˈseɪʃən ənd ɛnˈfɔrsɪŋ ˈʃɔrtɚ tɝm ˈlɪməts",
       "words": [
@@ -1267,7 +1267,7 @@ DRILL({
           "w": "compensation",
           "ipa": "ˌkɑmpənˈseɪʃən",
           "m": "money paid to someone for their work",
-          "fa": "دستمزد، حق‌الزحمه",
+          "fa": "دستمزد یا حق‌الزحمهٔ خدمت؛ جبرانِ خسارت",
           "more": "to compensate · pay · salary"
         },
         {
@@ -1307,7 +1307,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در حالی که سیاستمدارانِ حرفه‌ای ده‌ها پیشنهادِ سیاستی را دربارهٔ موضوعاتِ پیچیدهٔ بی‌شمار هم‌زمان سرپا نگه می‌دارند،",
+      "fa": "در حالی که سیاستمدارانِ حرفه‌ای هم‌زمان به ده‌ها طرحِ سیاست‌گذاری در حوزهٔ مسائلِ بی‌شمار و پیچیده رسیدگی می‌کنند،",
       "en": "While career politicians juggle dozens of policy proposals on countless complicated issues,",
       "ipa": "waɪl kəˈrɪr ˌpɑləˈtɪʃənz ˈdʒʌɡəl ˈdʌzənz əv ˈpɑləsi prəˈpoʊzəlz ɑn ˈkaʊntləs ˈkɑmpləˌkeɪtəd ˈɪʃuz",
       "words": [
@@ -1321,7 +1321,7 @@ DRILL({
           "w": "to juggle",
           "ipa": "tə ˈdʒʌɡəl",
           "m": "to try to deal with several things at the same time",
-          "fa": "هم‌زمان چند کار را سرپا نگه داشتن",
+          "fa": "هم‌زمان به چند کار رسیدگی کردن؛ با چند شیء تردستی کردن",
           "more": "juggling · multitask"
         },
         {
@@ -1375,7 +1375,7 @@ DRILL({
       ]
     },
     {
-      "fa": "کریستینا لافون و نادیا اوربیناتی، نظریه‌پردازانِ سیاسی، استدلال می‌کنند که لاتوکراسی از بیشترِ شهروندان می‌خواهد تسلیمِ نظرِ چند نفرِ معدودِ تصادفی‌برگزیده شوند.",
+      "fa": "کریستینا لافون و نادیا اوربیناتی، دو نظریه‌پردازِ سیاسی، استدلال می‌کنند که لاتوکراسی از بیشترِ شهروندان می‌خواهد تصمیمِ عدهٔ معدودی را که با قرعه انتخاب شده‌اند بپذیرند.",
       "en": "Political theorists Cristina LaFont and Nadia Urbinati argue that lottocracy asks most citizens to defer to a randomly chosen few.",
       "ipa": "pəˈlɪtəkəl ˈθiərɪsts krɪˈstinə ləˈfɑnt ənd ˈnædjə ɚbɑniˈæti ˈɑrɡju ðæt ləˈtɑtrəsi æsks moʊst ˈsɪtəzənz tə dɪˈfɝ tə ə ˈrændəmli ˈtʃoʊzən fju",
       "words": [
@@ -1397,7 +1397,7 @@ DRILL({
           "w": "to defer to",
           "ipa": "tə dɪˈfɝ tu",
           "m": "to accept someone else’s decision or opinion because of their position",
-          "fa": "تسلیمِ نظرِ (کسی) شدن",
+          "fa": "نظر یا تصمیمِ دیگری را پذیرفتن و به آن گردن نهادن",
           "more": "deference · yield to"
         },
         {
@@ -1459,7 +1459,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و صاحبانِ منصب را به چرخه‌ای پیوسته از پاسخ‌گویی پایبند می‌کند،",
+      "fa": "و انتخابات صاحبانِ منصب را به چرخه‌ای پیوسته از پاسخ‌گویی ملزم می‌کند،",
       "en": "and they bind officeholders to a continuing cycle of accountability,",
       "ipa": "ənd ðeɪ baɪnd ˈɔfəsˌhoʊldɚz tə ə kənˈtɪnjuɪŋ ˈsaɪkəl əv əˈkaʊntəbɪlɪti",
       "words": [
@@ -1502,7 +1502,7 @@ DRILL({
           "w": "the polls",
           "ipa": "ðə poʊlz",
           "m": "the place where people vote in an election",
-          "fa": "صندوقِ رأی، پای صندوق",
+          "fa": "محلِ رأی‌گیری، صندوق‌های رأی؛ در بافتی دیگر، نظرسنجی‌ها",
           "more": "polling station · go to the polls"
         },
         {
@@ -1564,7 +1564,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بدونِ انتخابات، سخت است بگوییم چه چیزی یک نظام را دموکراتیک می‌کند.",
+      "fa": "بدون انتخابات، ممکن است دشوار باشد که بگوییم چه چیزی یک نظام را دموکراتیک می‌کند.",
       "en": "Without elections, it can be hard to say what makes a system democratic.",
       "ipa": "wɪˈθaʊt ɪˈlɛkʃənz ɪt kən bi hɑrd tə seɪ wʌt meɪks ə ˈsɪstəm ˌdɛməˈkrætɪk",
       "newPara": true
@@ -1640,7 +1640,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا نظامی پیدا کنیم که به آن آرمان‌ها برسد.",
+      "fa": "تا نظامی پیدا کنیم که آن آرمان‌ها را محقق کند.",
       "en": "until we find a system that achieves those ideals.",
       "ipa": "ənˈtɪl wi faɪnd ə ˈsɪstəm ðæt əˈtʃivz ðoʊz aɪˈdilz",
       "words": [

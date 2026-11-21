@@ -1,6 +1,6 @@
 ---
 name: teded-vocab-drill
-description: Build Hossein's Persian-to-English vocabulary drill from TED-Ed YouTube videos — the video's transcript (fetched from supadata.ai) is split into units, each unit's Persian is written, and tapping a unit reveals the original English plus its B1+ words and expressions. Use this skill whenever the user asks for the next TED-Ed video, says "ادامهٔ TED-Ed" or "continue TED-Ed" (or just "ادامه" right after TED-Ed work), mentions the video ledger, or asks which videos are already done. Also use it when the user asks to revise a unit in an existing TED-Ed drill file.
+description: Build Hossein's Persian-to-English vocabulary drill from TED-Ed YouTube videos — the video's transcript (fetched from supadata.ai) is split into units, each unit's Persian is written, and tapping a unit reveals the original English plus its B1+ words and expressions. Use this skill whenever the user asks for the next TED-Ed video, says "ادامهٔ TED-Ed" or "continue TED-Ed" (or just "ادامه" right after TED-Ed work), mentions the video ledger, or asks which videos are already done. Use it also to review existing TED-Ed exercises, including numbered ranges, for Persian recall prompts, vocabulary senses, and agreement with saved transcripts.
 ---
 
 # تمرین واژگان — TED-Ed
@@ -33,7 +33,9 @@ data/teded/<NNN>-<Slug>.js                ← هر ویدیو، یک فایل د
 
 ## ۲. وقتی بدون دستور مشخص صدا زده می‌شوی
 
-اگر کاربر فقط «ادامه» گفت یا اسم اسکیل را آورد، **هیچ سؤالی نپرس**:
+اگر کاربر بازبینیِ تمرین‌های موجود را خواست یا در ادامهٔ چنین کاری گفت «ادامه»، فایل‌های همان بازه را در `data/teded/` ویرایش کن. شناسهٔ ویدیو را از `storeKey` با برداشتن پیشوند `teded-` به دست بیاور و متن ذخیره‌شده را مبنا بگیر. برای هر فایل، بررسیِ بخش ۱۰ را با شناسهٔ همان ویدیو اجرا کن. این مسیر به دریافت ویدیوی تازه یا ساخت دوبارهٔ تمرین نیاز ندارد.
+
+برای ساخت تمرین تازه، اگر کاربر فقط «ادامه» گفت یا اسم اسکیل را آورد، **هیچ سؤالی نپرس**:
 
 1. اجرا کن: `python3 scripts/fetch.py next`. این دستور فهرست کانال را (تازه‌ترین اول) می‌گیرد، با `sources/teded/video-ledger.md` مقایسه می‌کند و **تازه‌ترین ویدیویی را که هنوز در دفتر نیست** برمی‌گرداند. پس اگر ویدیوی تازه‌ای آپلود شده باشد خودبه‌خود همان انتخاب می‌شود، و اگر نه، ادامه از آرشیو است — از تازه‌ترینِ پردازش‌نشده به عقب.
 2. در خط اول پاسخ بگو کجا هستیم: «ویدیوی ۳ — عنوان (تاریخ انتشار)». اگر `positionInChannel` برابر ۱ بود بگو «ویدیوی تازه»؛ در غیر این صورت «از آرشیو».
@@ -61,7 +63,7 @@ data/teded/<NNN>-<Slug>.js                ← هر ویدیو، یک فایل د
 
 ## ۵. نوشتن فارسی — قاعدهٔ اصلی
 
-فارسیِ هر واحد نه روان و خلاصه باشد، نه آینهٔ انگلیسی. باید **شفاف** باشد: تمام اطلاعات لازم برای بازساختن جملهٔ انگلیسی در آن باشد، ولی شکل انگلیسی را لو ندهد.
+فارسیِ هر واحد را طوری بنویس که زبان‌آموز بتواند با خواندن آن، هم معنی و هم دستور جملهٔ اصلی را بازسازی کند. تفاوت‌های مؤثر در پاسخ را با فارسیِ طبیعی برسان، از جمله زمان و استمرار فعل، معلوم و مجهول، احتمال و الزام، شرط، نفی و دامنهٔ قیدهایی مثل «فقط». اگر واحد بخشی از یک جمله است، آن را همراه با واحدهای کناری بخوان و پیوند دو بخش را در فارسی نگه دار. راهنمای پیش از پاسخ باید با [قواعد راهنما](../../../docs/rules.md) سازگار باشد.
 
 **قاعدهٔ بازیابی:** هر عنصر معنایی جملهٔ انگلیسی باید از فارسی قابل استخراج باشد. اگر برای رسیدن به جملهٔ اصلی باید چیزی را حدس بزند، واحد خراب است.
 
@@ -71,7 +73,7 @@ data/teded/<NNN>-<Slug>.js                ← هر ویدیو، یک فایل د
 
 - برای `to pose a question` بنویس «سؤالی مطرح کنم» — نه «سؤالی بپرسم»، که به `ask` می‌رسد.
 - برای `bear in mind` بنویس «در نظر داشته باشید» — نه «یادت باشد».
-- برای `were facing down a mystery` بنویس «با یک معما رودررو شده بودند» — نه «با یک معما مواجه بودند».
+- برای `were facing down a mystery` بنویس «داشتند با یک معما دست‌وپنجه نرم می‌کردند» — نه «با یک معما مواجه بودند».
 
 این با قاعدهٔ عدم انعکاس در تضاد نیست: معادل فارسیِ طبیعیِ همان مفهوم را انتخاب می‌کنی، نه اینکه ساختار انگلیسی را در فارسی بچینی.
 
@@ -99,12 +101,12 @@ data/teded/<NNN>-<Slug>.js                ← هر ویدیو، یک فایل د
   - `to face down` ← `to deal with a difficult problem directly, without backing away`
   - `frighteningly` ← `in a way that is very worrying`
   - `vigilant` ← `watching carefully for possible danger`
-- `fa` — معادل فارسیِ همین بافت، **کوتاه** (یک تا سه کلمه یا عبارت)، طبیعی.
+- `fa` — اول معادل طبیعیِ واژه یا کل عبارت را در همین جمله بیاور. اگر معنی رایجِ دیگری برای یادگیری مفید است، آن را بعد از «؛» بیاور. مثلاً برای `ivory` در `ivory doll` بنویس «از جنس عاج؛ عاج؛ به رنگ سفیدِ مایل به کرم».
 - `more` — **اختیاری**: مترادف، هم‌خانواده یا هم‌نشین رایج، با `·` جدا، حداکثر ۳–۴ قلم. فقط اگر مطمئنی و به یادگیری کمک می‌کند. خالی بود کلید را حذف کن.
 
 ### دقت
 
-جدولی نیست که پشتش بایستد، پس **هر ورودی باید درست باشد.** تعریفی را که از آن مطمئن نیستی ننویس؛ در معنای همین بافت بمان (نه همهٔ معانی واژه)؛ اگر عبارت اصطلاح است، معنی مجازی‌اش را بنویس نه تحت‌اللفظی را. مترادف و هم‌نشین را از حافظه بنویس فقط وقتی مطمئنی.
+جدولی نیست که پشتش بایستد، پس **هر ورودی باید درست باشد.** تعریفی را که از آن مطمئن نیستی ننویس؛ تعریف انگلیسیِ `m` را به کاربرد واژه در همین جمله محدود کن؛ اگر عبارت اصطلاح است، معنی مجازی‌اش را بنویس نه تحت‌اللفظی را. مترادف و هم‌نشین را از حافظه بنویس فقط وقتی مطمئنی.
 
 ## ۷. نکته — `note`
 
@@ -182,5 +184,5 @@ git add -A && git commit -m "ویدیوی ۱ — Everything you need to know abo
 - واژه‌های A1/A2 را ورودی نکن؛ B1+ را جا نینداز.
 - توضیح گرامری ننویس؛ اگر لازم شد یک جمله در `note` کافی است.
 - کلید API را در هیچ فایلی جز `.env` ننویس و `.env` را هرگز کامیت نکن.
-- بیش از یک ویدیو در هر جلسه پردازش نکن.
+- در هر جلسه یک تمرین تازه بساز. برای بازبینیِ تمرین‌های موجود، بازهٔ درخواستی کاربر را دنبال کن.
 - پیشنهاد و توصیهٔ نخواسته اضافه نکن.

@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=EtiC0DVewa4",
   "items": [
     {
-      "fa": "در ۱۸۵۶، سنگ‌کن‌هایی که در غاری در درهٔ نئاندرِ آلمان کار می‌کردند چند سنگوارهٔ اسرارآمیز پیدا کردند.",
+      "fa": "در سالِ ۱۸۵۶، کارگرانِ معدنِ سنگ که در غاری در درهٔ نئاندرِ آلمان سنگ استخراج می‌کردند، چند سنگوارهٔ اسرارآمیز کشف کردند.",
       "en": "In 1856, quarriers working a cave in Germany’s Neander Valley discovered several mysterious fossils.",
       "ipa": "ɪn eɪˈtin ˈfɪfti sɪks ˈkwɔriɚz ˈwɝkɪŋ ə keɪv ɪn ˈdʒɝməniz ˈnidɚn ˈvæli dɪˈskʌvɚd ˈsɛvrəl mɪˈstɪriəs ˈfɑsəlz",
       "newPara": true,
@@ -20,7 +20,7 @@ DRILL({
           "w": "to work (a mine or cave)",
           "ipa": "tə wɝk (ə maɪn ɔr keɪv)",
           "m": "to dig in a place to get stone or minerals from it",
-          "fa": "استخراج کردن از، کار کردن در (معدن)",
+          "fa": "از معدن یا غار سنگ یا کانی استخراج کردن",
           "more": "to mine · to excavate"
         },
         {
@@ -41,7 +41,7 @@ DRILL({
       "note": "work این‌جا متعدی است: «work a cave» یعنی در غار سنگ کندن."
     },
     {
-      "fa": "این بقایا دست‌به‌دست شدند تا اینکه معلوم شد کاسهٔ سر و استخوان‌های رانِ موجودی کهن و انسانی‌اند، ولی نه کاملاً از نوعِ ما.",
+      "fa": "این بقایا دست‌به‌دست شدند تا سرانجام مشخص شد که بخشِ بالاییِ جمجمه و استخوان‌های رانِ موجودی باستانی از جنسِ انسان‌اند، اما نه دقیقاً از گونهٔ ما.",
       "en": "The remains changed hands until being identified as the skullcap and femur bones of something ancient and human, but not quite us.",
       "ipa": "ðə rɪˈmeɪnz tʃeɪndʒd hændz ənˈtɪl ˈbiɪŋ aɪˈdɛntəˌfaɪd əz ðə ˈskʌlkəp ənd ˈfimɚ boʊnz əv ˈsʌmθɪŋ ˈeɪntʃənt ənd ˈhjumən bət nɑt kwaɪt ʌs",
       "words": [
@@ -49,7 +49,7 @@ DRILL({
           "w": "remains",
           "ipa": "rɪˈmeɪnz",
           "m": "the bones or body of a dead person or animal",
-          "fa": "بقایا",
+          "fa": "بقایای جسد؛ آنچه از چیزی به جا مانده است",
           "more": "human remains · to remain"
         },
         {
@@ -70,7 +70,7 @@ DRILL({
           "w": "skullcap",
           "ipa": "ˈskʌlkəp",
           "m": "the top part of the skull, over the brain",
-          "fa": "کاسهٔ سر، عرقچینِ جمجمه",
+          "fa": "بخشِ بالاییِ جمجمه؛ کلاهِ کوچک و چسبان",
           "more": "skull · cranium"
         },
         {
@@ -97,7 +97,7 @@ DRILL({
       ]
     },
     {
-      "fa": "خیلی زود روشن شد که متعلق به یک گونهٔ منقرض‌شدهٔ انسان‌اند — نخستین گونه‌ای که علم تا آن روز شناخته بود:",
+      "fa": "خیلی زود روشن شد که این استخوان‌ها متعلق به گونه‌ای منقرض‌شده از انسان‌اند؛ نخستین گونهٔ منقرض‌شدهٔ انسان که علم شناخته بود:",
       "en": "It soon became clear they belonged to an extinct human species— the first ever known to science:",
       "ipa": "ɪt sun bɪˈkeɪm klɪr ðeɪ bɪˈlɔŋd tə ən ɪkˈstɪŋkt ˈhjumən ˈspiʃiz ðə fɝst ˈɛvɚ noʊn tə ˈsaɪəns",
       "words": [
@@ -152,7 +152,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما تا اواسطِ دههٔ ۱۸۰۰، طبیعی‌دان‌ها با جدول‌های زمانیِ زمین‌شناختی و نظریهٔ تکامل راحت‌تر کنار آمده بودند.",
+      "fa": "اما تا میانهٔ قرنِ نوزدهم، طبیعی‌دانان ترتیبِ زمانیِ رویدادهای زمین‌شناختی و نظریهٔ تکامل را راحت‌تر می‌پذیرفتند.",
       "en": "However, by the mid-1800s, naturalists were more comfortable with geological timelines and evolutionary theory.",
       "ipa": "ˌhaʊˈɛvɚ baɪ ðə mɪd eɪˈtin ˈhʌndrədz ˈnætʃərəlɪsts wɚ mɔr ˈkʌmfɚtəbəl wɪð ˌdʒiəˈlɑdʒɪkəl ˈtaɪmlaɪnz ənd ˌɛvəˈluʃəˌnɛri ˈθɪri",
       "words": [
@@ -167,7 +167,7 @@ DRILL({
           "w": "comfortable with",
           "ipa": "ˈkʌmfɚtəbəl wɪð",
           "m": "happy to accept an idea or situation",
-          "fa": "راحت با، پذیرای",
+          "fa": "با چیزی راحت بودن و آن را پذیرفتن؛ در کار با چیزی احساسِ راحتی کردن",
           "more": "at ease with · uncomfortable"
         },
         {
@@ -181,7 +181,7 @@ DRILL({
           "w": "timeline",
           "ipa": "ˈtaɪmlaɪn",
           "m": "a list of events in the order they happened",
-          "fa": "خطِ زمانی، جدولِ زمانی",
+          "fa": "ترتیبِ زمانیِ رویدادها؛ خطِ زمان، جدولِ زمانی",
           "more": "chronology · time frame"
         },
         {
@@ -201,7 +201,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این ایده که بقایای کهن ممکن است مالِ گونهٔ دیگری از انسان باشند سرانجام داشت قابلِ تصور می‌شد.",
+      "fa": "سرانجام این تصور داشت پذیرفتنی می‌شد که بقایای باستانی ممکن است متعلق به گونهٔ دیگری از انسان باشند.",
       "en": "The idea that ancient remains could belong to another human species was finally becoming conceivable.",
       "ipa": "ði aɪˈdiə ðæt ˈeɪntʃənt rɪˈmeɪnz kʊd bɪˈlɔŋ tə əˈnʌðɚ ˈhjumən ˈspiʃiz wəz ˈfaɪnəli bɪˈkʌmɪŋ kənˈsivəbəl",
       "words": [
@@ -215,7 +215,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما برداشت‌های غلط همچنان ماندند، و کلی «بدگویی از نئاندرتال‌ها» از پی‌اش آمد.",
+      "fa": "اما تصورهای نادرست پابرجا ماند و به‌دنبالِ آن «بدگویی از نئاندرتال‌ها» رواج یافت.",
       "en": "But misconceptions persisted, and much “Neander slander” ensued.",
       "ipa": "bət mɪskənˈsɛpʃənz pɚˈsɪstəd ənd mʌtʃ ˈnidɚn ˈslændɚ ɪnˈsud",
       "words": [
@@ -237,21 +237,21 @@ DRILL({
           "w": "slander",
           "ipa": "ˈslændɚ",
           "m": "false spoken statements that damage someone's reputation",
-          "fa": "بدگویی، تهمت",
+          "fa": "بدگوییِ دروغین، افترا",
           "more": "libel · defamation"
         },
         {
           "w": "to ensue",
           "ipa": "tə ɪnˈsu",
           "m": "to happen after or as a result of something",
-          "fa": "از پی آمدن، در پی داشتن",
+          "fa": "در پیِ چیزی رخ دادن",
           "more": "ensuing · to follow"
         }
       ],
       "note": "«Neander slander» بازیِ قافیه‌ای است."
     },
     {
-      "fa": "در اوایل، نئاندرتال‌ها را به‌صورتِ آدم‌های خنگ و دست‌وپاچلفتی نشان می‌دادند که به خاطرِ پست‌تر بودنشان نسبت به انسان‌های امروزی، یا همان هومو ساپینس، از بین رفتند.",
+      "fa": "در آغاز، نئاندرتال‌ها را آدم‌هایی کندذهن و دست‌وپاچلفتی به تصویر می‌کشیدند که چون از انسان‌های امروزی، یا همان هومو ساپینس، پست‌تر بودند، منقرض شدند.",
       "en": "Early on, Neanderthals were depicted as dim-witted oafs who died out because of their inferiority to modern humans, aka Homo sapiens.",
       "ipa": "ˈɝli ɑn niˈændɚˌθɔlz wɚ dɪˈpɪktəd əz dɪm ˈwɪtɪd oʊfs hu daɪd aʊt bɪˈkɔz əv ðɛr ˌɪnfɪriˈɔrɪti tə ˈmɑdɚn ˈhjumənz ˈɑkə ˈhoʊmoʊ ˈseɪpiənz",
       "words": [
@@ -287,14 +287,14 @@ DRILL({
           "w": "to die out",
           "ipa": "tə daɪ aʊt",
           "m": "to stop existing completely",
-          "fa": "از بین رفتن، منقرض شدن",
+          "fa": "منقرض شدن؛ به‌تدریج از میان رفتن",
           "more": "to become extinct"
         },
         {
           "w": "inferiority",
           "ipa": "ˌɪnfɪriˈɔrɪti",
           "m": "the state of being worse or lower than others",
-          "fa": "پست‌تری، فرودستی",
+          "fa": "پست‌تر یا ضعیف‌تر بودن؛ فرودستی",
           "more": "inferior · superiority"
         },
         {
@@ -307,7 +307,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یک تصویرِ پرطرفدار القا می‌کرد که نئاندرتال‌ها، علاوه بر اینکه پرمو و چماق‌به‌دست بودند،",
+      "fa": "یک تصویرِ پرطرفدار این برداشت را القا می‌کرد که علاوه بر پرمو و چماق‌به‌دست بودن،",
       "en": "One popular illustration suggested that, in addition to being hairy and club-carrying,",
       "ipa": "wʌn ˈpɑpjəlɚ ˌɪləˈstreɪʃən səɡˈdʒɛstəd ðæt ɪn əˈdɪʃən tə ˈbiɪŋ ˈhɛri ənd klʌb ˈkæriɪŋ",
       "words": [
@@ -342,7 +342,7 @@ DRILL({
       ]
     },
     {
-      "fa": "خمیده راه می‌رفتند و مثلِ میمون‌ها انگشتانِ شستِ پای مقابل‌شونده داشتند، با اینکه یافته‌های اسکلتی چنین چیزی را نشان نمی‌دادند.",
+      "fa": "نئاندرتال‌ها خمیده راه می‌رفتند و مانندِ میمون‌های انسان‌نما انگشتانِ پایی داشتند که می‌توانستند مقابلِ انگشتانِ دیگر قرار بگیرند، هرچند یافته‌های اسکلتی چنین چیزی را نشان نمی‌دادند.",
       "en": "Neanderthals stooped and had ape-like opposable toes, even though this wasn’t reflected in skeletal findings.",
       "ipa": "niˈændɚˌθɔlz stupt ənd hæd ˈeɪˌplaɪk əˈpɑsəbəl toʊz ˈivɪn ðoʊ ðɪs ˈwɑzənt rəˈflɛktəd ɪn ˈskɛlətəl ˈfaɪndɪŋz",
       "words": [
@@ -364,7 +364,7 @@ DRILL({
           "w": "opposable",
           "ipa": "əˈpɑsəbəl",
           "m": "(of a thumb or toe) able to touch the other fingers or toes, for gripping",
-          "fa": "مقابل‌شونده (شست)",
+          "fa": "مقابل‌شونده؛ انگشتی که می‌تواند روبه‌روی انگشتانِ دیگر قرار بگیرد",
           "more": "opposable thumb"
         },
         {
@@ -413,7 +413,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و همچنین بقایای بیش از ۳۰۰ فردِ نئاندرتال را.",
+      "fa": "و نیز بقایای بیش از ۳۰۰ نئاندرتال را.",
       "en": "as well as the remains of over 300 Neanderthal individuals.",
       "ipa": "əz wɛl əz ðə rɪˈmeɪnz əv ˈoʊvɚ θri ˈhʌndrəd niˈændɚˌθɔl ˌɪndəˈvɪdʒəwəlz",
       "words": [
@@ -455,7 +455,7 @@ DRILL({
       ]
     },
     {
-      "fa": "کوتاه‌تر و عضلانی‌تر بودند، و با بدن‌هایی کمی بزرگ‌تر — از جمله قلب و مغزشان — به کالریِ بیشتری نیاز داشتند.",
+      "fa": "قدشان کوتاه‌تر و بدنشان عضلانی‌تر بود، به کالریِ بیشتری نیاز داشتند و بدنشان، از جمله قلب و مغزشان، کمی بزرگ‌تر بود.",
       "en": "were shorter and more muscular, had higher caloric needs with slightly bigger bodies, including their hearts and brains.",
       "ipa": "wɚ ˈʃɔrtɚ ənd mɔr ˈmʌskjəlɚ hæd ˈhaɪɚ kəˈlɔrɪk nidz wɪð ˈslaɪtli ˈbɪɡɚ ˈbɑdiz ɪnˈkludɪŋ ðɛr hɑrts ənd breɪnz",
       "words": [
@@ -470,7 +470,7 @@ DRILL({
           "w": "caloric",
           "ipa": "kəˈlɔrɪk",
           "m": "connected with calories (energy from food)",
-          "fa": "کالریک، مربوط به کالری",
+          "fa": "مربوط به کالری یا انرژیِ غذایی",
           "more": "calorie · high-calorie"
         },
         {
@@ -488,7 +488,7 @@ DRILL({
       "ipa": "fɚ ˈoʊvɚ θri ˈhʌndrəd ˈfɪfti ˈθaʊzənd jɪrz ðeɪ laɪvd əˈkrɔs ˈjʊrəp ənd ˈwɛstɚn ˈeɪʒə"
     },
     {
-      "fa": "دست‌کم در ۱۰٬۰۰۰ سالِ آخرشان، از نظرِ مکانی با هومو ساپینس هم‌پوشانی داشتند.",
+      "fa": "دست‌کم در ده‌هزار سالِ پایانیِ حیاتشان، قلمروِ زیستشان با قلمروِ هومو ساپینس هم‌پوشانی داشت.",
       "en": "For at least their final 10,000 years, they spatially overlapped with Homo sapiens.",
       "ipa": "fɚ ət list ðɛr ˈfaɪnəl tɛn ˈθaʊzənd jɪrz ðeɪ ˈspæʃəli ˈoʊvɚˌlæpt wɪð ˈhoʊmoʊ ˈseɪpiənz",
       "words": [
@@ -509,7 +509,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و یافته‌های باستان‌شناختی نشان داده‌اند که آن‌ها زندگی‌ای بسیار پیچیده‌تر از آنچه در ابتدا گمان می‌رفت داشتند.",
+      "fa": "و یافته‌های باستان‌شناختی حکایت از آن دارند که نئاندرتال‌ها زندگیِ بسیار پیچیده‌تری از آنچه در ابتدا گمان می‌رفت داشته‌اند.",
       "en": "And archaeological finds have suggested that they led much more complex lives than initially suspected.",
       "ipa": "ənd ˌɑrkiəˈlɑdʒɪkəl faɪndz hæv səɡˈdʒɛstəd ðæt ðeɪ lɛd mʌtʃ mɔr ˈkɑmplɛks lɪvz ðən ɪˈnɪʃəli səˈspɛktəd",
       "words": [
@@ -524,7 +524,7 @@ DRILL({
           "w": "find",
           "ipa": "faɪnd",
           "m": "(n.) something valuable or interesting that has been discovered",
-          "fa": "یافته",
+          "fa": "یافته، شیءِ کشف‌شده؛ کشفی ارزشمند",
           "more": "findings · discovery"
         },
         {
@@ -573,7 +573,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که دستِ راستش قطع شده بود، پایش آسیب دیده بود، و احتمالاً تا حدی نابینا و ناشنوا بود.",
+      "fa": "که بازوی راستش قطع شده بود، پایش آسیب دیده بود و احتمالاً بینایی و شنوایی‌اش را تا حدی از دست داده بود.",
       "en": "who had a severed right arm, injured leg, and was likely partially blind and deaf.",
       "ipa": "hu hæd ə ˈsɛvɚd raɪt ɑrm ˈɪndʒɚd lɛɡ ənd wəz ˈlaɪkli ˈpɑrʃəli blaɪnd ənd dɛf",
       "words": [
@@ -608,7 +608,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با این حال، او مدت‌ها پس از این آسیب‌ها زنده ماند، که نشان می‌دهد جامعه‌اش هر روز حمایتِ گسترده‌ای از او می‌کرده.",
+      "fa": "با این حال، او مدت‌ها پس از این آسیب‌ها زنده ماند و این حاکی از آن است که افرادِ گروهش هر روز کمکِ زیادی به او می‌کردند.",
       "en": "Yet, he survived long after these injuries, suggesting his community provided him extensive, daily support.",
       "ipa": "jɛt hi sɚˈvaɪvd lɔŋ ˈæftɚ ðiz ˈɪndʒəriz səɡˈdʒɛstɪŋ hɪz kəˈmjunəti prəˈvaɪdəd hɪm ɪkˈstɛnsɪv ˈdeɪli səˈpɔrt",
       "words": [
@@ -630,7 +630,7 @@ DRILL({
           "w": "community",
           "ipa": "kəˈmjunəti",
           "m": "a group of people who live together or share something",
-          "fa": "جامعه، گروه",
+          "fa": "گروهِ افرادی که با هم زندگی می‌کنند؛ اجتماع، جامعه",
           "more": "communal"
         },
         {
@@ -664,7 +664,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و آن‌قدر دندان از دست داده بود که شاید لازم بوده غذایش را برایش خرد و له کنند.",
+      "fa": "و آن‌قدر دندان از دست داده بود که شاید لازم بود غذایش را برایش بسایند.",
       "en": "and had lost so many teeth he may have needed his food ground up.",
       "ipa": "ənd hæd lɔst soʊ ˈmɛni tiθ hi meɪ hæv ˈnidəd hɪz fud ɡraʊnd ʌp",
       "words": [
@@ -672,14 +672,14 @@ DRILL({
           "w": "to grind up",
           "ipa": "tə ɡraɪnd ʌp",
           "m": "to crush something into very small pieces or powder",
-          "fa": "خرد کردن، آسیاب کردن",
+          "fa": "ساییدن و ریز کردن؛ آسیاب کردن",
           "more": "ground (p.p.) · to crush"
         },
         {
           "w": "to need something done",
           "ipa": "tə nid ˈsʌmθɪŋ dʌn",
           "m": "to need someone to do something to it",
-          "fa": "نیاز داشتن که کاری روی چیزی انجام شود"
+          "fa": "لازم بودن که کسی کاری را برای آدم انجام دهد"
         }
       ],
       "note": "ground این‌جا قسمتِ سومِ grind است، نه «زمین»."
@@ -713,7 +713,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که همه نشان می‌دهد نئاندرتال‌ها از دغدغه‌های فوری و عملی برای بقا فراتر می‌رفتند و از بیماران و مردگانشان مراقبت می‌کردند.",
+      "fa": "و همهٔ این شواهد حاکی از آن است که نئاندرتال‌ها از دغدغه‌های فوری و عملیِ بقا فراتر می‌رفتند و به بیماران و مردگانِ خود رسیدگی می‌کردند.",
       "en": "all suggesting that Neanderthals went beyond immediate, practical concerns for survival and cared for their ailing and dead.",
       "ipa": "ɔl səɡˈdʒɛstɪŋ ðæt niˈændɚˌθɔlz wɛnt bɪˈɑnd ɪˈmidiət ˈpræktəkəl kənˈsɝnz fɚ sɚˈvaɪvəl ənd kɛrd fɚ ðɛr ˈeɪlɪŋ ənd dɛd",
       "words": [
@@ -769,7 +769,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تحلیل‌های دندان همچنین نشان می‌دهد که نئاندرتال‌ها شاید از گیاهانِ ضدالتهاب و آنتی‌بیوتیکی به‌عنوانِ دارو استفاده می‌کردند.",
+      "fa": "بررسیِ دندان‌ها همچنین نشان می‌دهد که شاید نئاندرتال‌ها از گیاهانِ ضدالتهاب و ضدباکتری برای درمان استفاده می‌کرده‌اند.",
       "en": "Teeth analyses also indicate that Neanderthals might have used anti-inflammatory and antibiotic plants medicinally.",
       "ipa": "tiθ əˈnælɪˌsiz ˈɔlsoʊ ˈɪndəˌkeɪt ðæt niˈændɚˌθɔlz maɪt hæv juzd ˌæntɪˈfʌndləmɪti ənd ˌæntibiˈɑtɪk plænts məˈdɪsənəli",
       "words": [
@@ -798,7 +798,7 @@ DRILL({
           "w": "antibiotic",
           "ipa": "ˌæntibiˈɑtɪk",
           "m": "a substance that kills bacteria",
-          "fa": "آنتی‌بیوتیک",
+          "fa": "ضدباکتری؛ آنتی‌بیوتیک (داروی ضدباکتری)",
           "more": "antibacterial"
         },
         {
@@ -811,7 +811,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مدتی، پژوهشگران فرض می‌کردند که نئاندرتال‌ها شکارهای بزرگ را با حمله‌های غافلگیرانهٔ ابتدایی و متکی به زورِ بازو شکار می‌کردند.",
+      "fa": "پژوهشگران مدتی فرض می‌کردند نئاندرتال‌ها برای شکارِ جانورانِ بزرگ از کمین حمله می‌کردند و به شیوه‌ای ابتدایی به زورِ بازو متکی بودند.",
       "en": "For a while, researchers assumed that Neanderthals hunted big game with unsophisticated, brute force ambush attacks.",
       "ipa": "fɚ ə waɪl ˈrisɚtʃɚz əˈsumd ðæt niˈændɚˌθɔlz ˈhʌntəd bɪɡ ɡeɪm wɪð ˌʌnsəˈfɪstɪˌkeɪtɪd brut fɔrs ˈæmˌbʊʃ əˈtæks",
       "newPara": true,
@@ -827,7 +827,7 @@ DRILL({
           "w": "game",
           "ipa": "ɡeɪm",
           "m": "wild animals hunted for food or sport",
-          "fa": "شکار، جانورِ شکاری",
+          "fa": "جانورانِ وحشی که شکار می‌شوند؛ بازی، مسابقه",
           "more": "big game · small game"
         },
         {
@@ -848,14 +848,14 @@ DRILL({
           "w": "ambush",
           "ipa": "ˈæmˌbʊʃ",
           "m": "a surprise attack from a hidden place",
-          "fa": "کمین، حملهٔ غافلگیرانه",
+          "fa": "حملهٔ غافلگیرانه از کمین؛ کمین",
           "more": "to ambush · to lie in wait"
         }
       ],
       "note": "game این‌جا یعنی «جانورِ شکاری»، نه «بازی»."
     },
     {
-      "fa": "اما ردِ بریدگی روی استخوان‌های خرگوش و ابزارهایی با ردِ آشکارِ فلس و پَر",
+      "fa": "اما آثارِ بریدگی بر استخوان‌های خرگوش و ابزارهایی که ظاهراً آثاری از فلس و پَر بر آن‌ها مانده بود،",
       "en": "But cut marks on rabbit bones and tools with apparent traces of scales and feathers",
       "ipa": "bət kʌt mɑrks ɑn ˈræbət boʊnz ənd tulz wɪð əˈpɛrənt ˈtreɪsəz əv skeɪlz ənd ˈfɛðɚz",
       "words": [
@@ -870,7 +870,7 @@ DRILL({
           "w": "apparent",
           "ipa": "əˈpɛrənt",
           "m": "able to be seen; seeming to be true",
-          "fa": "آشکار، ظاهری",
+          "fa": "ظاهری، آنچه به نظر می‌رسد؛ آشکار",
           "more": "apparently · evident"
         },
         {
@@ -884,7 +884,7 @@ DRILL({
           "w": "scale",
           "ipa": "skeɪl",
           "m": "one of the small flat pieces covering a fish or reptile",
-          "fa": "فلس",
+          "fa": "فلسِ ماهی یا خزنده؛ مقیاس، ترازو",
           "more": "scaly"
         },
         {
@@ -897,7 +897,7 @@ DRILL({
       ]
     },
     {
-      "fa": "نشان می‌دهند که نئاندرتال‌ها مهارتِ لازم برای گرفتنِ شکارهای کوچک را داشتند، شاید با استفاده از تله‌های طنابی و پرتابه‌های تندرو.",
+      "fa": "حاکی از آن‌اند که نئاندرتال‌ها مهارتِ لازم برای گرفتنِ جانورانِ کوچک را داشتند و شاید از دام‌های حلقه‌ای و پرتابه‌های پرسرعت استفاده می‌کردند.",
       "en": "suggest Neanderthals were capable of the skill required to capture small game, perhaps utilizing snares and fast-moving projectiles.",
       "ipa": "səɡˈdʒɛst niˈændɚˌθɔlz wɚ ˈkeɪpəbəl əv ðə skɪl riˈkwaɪɚd tə ˈkæptʃɚ smɔl ɡeɪm pɚˈhæps ˈjutəˌlaɪzɪŋ snɛrz ənd fæst ˈmuvɪŋ prəˈdʒɛktəlz",
       "words": [
@@ -933,7 +933,7 @@ DRILL({
           "w": "snare",
           "ipa": "snɛr",
           "m": "a trap with a loop of wire or rope for catching animals",
-          "fa": "تله (طنابی یا سیمی)",
+          "fa": "دامِ حلقه‌ای از طناب یا سیم؛ تله",
           "more": "trap · to ensnare"
         },
         {
@@ -946,7 +946,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در واقع، می‌دانیم که انواعِ زیادی ابزار می‌ساختند و به کار می‌بردند،",
+      "fa": "در واقع، می‌دانیم که انواعِ گوناگونِ ابزارها را می‌ساختند و به کار می‌گرفتند،",
       "en": "In fact, we know they fashioned and wielded many types of tools,",
       "ipa": "ɪn fækt wi noʊ ðeɪ ˈfæʃənd ənd ˈwildɪd ˈmɛni taɪps əv tulz",
       "words": [
@@ -968,7 +968,7 @@ DRILL({
       "note": "fashion این‌جا فعل است: «ساختن»."
     },
     {
-      "fa": "و گاهی آن‌ها را با چسبی که از پوستِ داغ‌شدهٔ درختِ توس درست می‌کردند به هم وصل می‌کردند.",
+      "fa": "و گاهی این ابزارها را با چسبی محکم می‌کردند که از حرارت دادنِ پوستِ درختِ توس می‌ساختند.",
       "en": "sometimes affixing them with glue they made from heated birch bark.",
       "ipa": "səmˈtaɪmz əˈfɪksɪŋ ðɛm wɪð ɡlu ðeɪ meɪd frəm ˈhitəd bɝtʃ bɑrk",
       "words": [
@@ -1003,7 +1003,7 @@ DRILL({
       ]
     },
     {
-      "fa": "همچنین چوب‌دستی‌های کندن را از چوبِ سخت با آتش شکل می‌دادند و با الیافِ پوستِ درخت ریسمانِ مقاومِ سه‌لا می‌ساختند.",
+      "fa": "آن‌ها همچنین چوب‌های سختِ مخصوصِ حفاری را با آتش شکل می‌دادند و از الیافِ پوستِ درخت ریسمانی سه‌لا و تقویت‌شده می‌ساختند.",
       "en": "They also shaped hardwood digging sticks with fire and created reinforced, 3-ply string using bark fibers.",
       "ipa": "ðeɪ ˈɔlsoʊ ʃeɪpt ˈhɑrdˌwʊd ˈdɪɡɪŋ stɪks wɪð ˈfaɪɚ ənd kriˈeɪtəd ˌriɪnˈfɔrst θri plaɪ strɪŋ ˈjuzɪŋ bɑrk ˈfaɪbɚz",
       "words": [
@@ -1032,7 +1032,7 @@ DRILL({
           "w": "-ply",
           "ipa": "plaɪ",
           "m": "having a certain number of layers or strands",
-          "fa": "…لا",
+          "fa": "ـلا؛ دارای شمارِ معینی لایه یا رشته",
           "more": "two-ply · plywood"
         },
         {
@@ -1067,7 +1067,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یعنی فراتر از کاربردِ مستقیم را می‌دیدند و به قلمروهایی مثلِ هنر و زبان می‌رسیدند،",
+      "fa": "یعنی آیا نگاهشان از کاربردِ مستقیمِ چیزها فراتر می‌رفت و به قلمروهایی چون هنر و زبان می‌رسید،",
       "en": "seeing beyond direct utility, into realms like art and language,",
       "ipa": "ˈsiɪŋ bɪˈɑnd dəˈrɛkt juˈtɪləti ɪnˈtu rɛlmz laɪk ɑrt ənd ˈlæŋɡwədʒ",
       "words": [
@@ -1088,7 +1088,7 @@ DRILL({
       ]
     },
     {
-      "fa": "چیزی که مدت‌ها نشانهٔ بارزِ هومو ساپینس دانسته می‌شد.",
+      "fa": "شیوه‌ای از اندیشیدن که از دیرباز ویژگیِ شاخصِ هومو ساپینس به شمار می‌رفت.",
       "en": "long considered a hallmark of Homo sapiens.",
       "ipa": "lɔŋ kənˈsɪdɚd ə ˈhɑlˌmɑrk əv ˈhoʊmoʊ ˈseɪpiənz",
       "words": [
@@ -1102,7 +1102,7 @@ DRILL({
       ]
     },
     {
-      "fa": "احتمالاً برای زینتِ شخصی، شواهدی هست از اینکه نئاندرتال‌ها پرهای پروازِ پرندگان را گزینشی جدا می‌کردند،",
+      "fa": "شواهدی وجود دارد که نئاندرتال‌ها، شاید برای آراستنِ خود، شاه‌پرهای پرندگان را به‌طورِ گزینشی جدا می‌کردند،",
       "en": "Potentially for personal adornment, there’s evidence of Neanderthals selectively removing bird’s flight feathers,",
       "ipa": "pəˈtɛnʃəli fɚ ˈpɝsɪnɪl əˈdɔrnmənt ðɛrz ˈɛvədəns əv niˈændɚˌθɔlz səˈlɛktɪvli riˈmuvɪŋ bɝdz flaɪt ˈfɛðɚz",
       "words": [
@@ -1117,7 +1117,7 @@ DRILL({
           "w": "adornment",
           "ipa": "əˈdɔrnmənt",
           "m": "decoration, especially of the body",
-          "fa": "زینت، آرایش",
+          "fa": "آراستنِ خود، زیور؛ آرایش و تزیین",
           "more": "to adorn · ornament · decoration"
         },
         {
@@ -1137,7 +1137,7 @@ DRILL({
       ]
     },
     {
-      "fa": "صدف‌ها را رنگ می‌کردند و سوراخ می‌کردند، و چنگال‌های عقاب را در چیزی می‌پیچیدند که ظاهراً نوعِ دیگری از بافتِ جانوری بوده.",
+      "fa": "صدف‌ها را رنگ می‌کردند و سوراخ می‌زدند و چنگال‌های عقاب را در چیزی می‌پیچیدند که به نظر می‌رسد نوعِ دیگری از بافتِ جانوری بوده باشد.",
       "en": "painting and perforating shells, and wrapping eagle talons in what seems to have been another kind of animal tissue.",
       "ipa": "ˈpeɪntɪŋ ənd ˈpɝfəˌreɪtɪŋ ʃɛlz ənd ˈræpɪŋ ˈiɡəl ˈtælənz ɪn wʌt simz tə hæv bɪn əˈnʌðɚ kaɪnd əv ˈænəməl ˈtɪsˌju",
       "words": [
@@ -1179,7 +1179,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به همین ترتیب روی استخوانِ انگشتِ پای یک گوزنِ غول‌پیکر نشانه‌هایی کندند و سه نقاشیِ غاری در اسپانیا خلق کردند،",
+      "fa": "همچنین روی استخوانِ انگشتِ پای یک گوزنِ غول‌پیکر علامت‌هایی گذاشتند و در اسپانیا سه غارنگاره کشیدند،",
       "en": "They likewise made markings on a giant elk’s toe bone and created three cave paintings in Spain,",
       "ipa": "ðeɪ ˈlaɪkˌwaɪz meɪd ˈmɑrkɪŋz ɑn ə ˈdʒaɪənt ɛlks toʊ boʊn ənd kriˈeɪtəd θri keɪv ˈpeɪntɪŋz ɪn speɪn",
       "words": [
@@ -1201,13 +1201,13 @@ DRILL({
           "w": "elk",
           "ipa": "ɛlk",
           "m": "a very large deer",
-          "fa": "گوزنِ شمالی",
+          "fa": "نوعی گوزنِ بزرگ‌جثه",
           "more": "deer · moose"
         }
       ]
     },
     {
-      "fa": "اگر تخمینِ اولیهٔ تاریخ‌گذاری، یعنی ۶۵٬۰۰۰ سال پیش، درست از آب درآید.",
+      "fa": "البته اگر برآوردِ اولیه که قدمتِ این نقاشی‌ها را ۶۵٬۰۰۰ سال می‌داند همچنان معتبر باشد.",
       "en": "if the original 65,000-year-old dating estimate holds.",
       "ipa": "ɪf ði əˈrɪdʒənəl ˈsɪksti faɪv ˈθaʊzənd jɪr oʊld ˈdeɪtɪŋ ˈɛstəmət hoʊldz",
       "words": [
@@ -1236,7 +1236,7 @@ DRILL({
       "note": "hold این‌جا بی‌مفعول و به معنای «معتبر ماندن» است."
     },
     {
-      "fa": "در همین حال، استالاگمیت‌های شکسته، جابه‌جاشده و سوخته در عمقِ یک غار در فرانسه",
+      "fa": "در همین حال، چکیده‌سنگ‌های شکسته، از نو چیده‌شده و سوخته در اعماقِ غاری در فرانسه",
       "en": "Meanwhile, broken, rearranged, and burned stalagmites deep within a French cave",
       "ipa": "ˈminˌwaɪl ˈbroʊkən ˌriəˈreɪndʒd ənd bɝnd ˈstæləˌmaɪtɪdʒ dip wɪˈðɪn ə frɛntʃ keɪv",
       "words": [
@@ -1258,13 +1258,13 @@ DRILL({
           "w": "stalagmite",
           "ipa": "ˈstæləˌmaɪt",
           "m": "a column of rock that grows up from the floor of a cave",
-          "fa": "استالاگمیت، چکیدِ زمینی",
+          "fa": "چکیده‌سنگ، ستونِ سنگی که از کفِ غار به بالا رشد می‌کند",
           "more": "stalactite"
         }
       ]
     },
     {
-      "fa": "دانشمندان را به این فکر واداشتند که آیا این ساختارهای اسرارآمیز برای نئاندرتال‌ها اهمیتِ معنوی یا آیینی داشته‌اند.",
+      "fa": "دانشمندان را به این فکر انداختند که آیا آن سازه‌های اسرارآمیز برای نئاندرتال‌ها اهمیتِ معنوی یا آیینی داشته‌اند.",
       "en": "left scientists wondering if the mysterious structures held spiritual or ceremonial significance to Neanderthals.",
       "ipa": "lɛft ˈsaɪəntɪsts ˈwʌndərɪŋ ɪf ðə mɪˈstɪriəs ˈstrʌktʃɚz hɛld ˈspɪrɪtʃəwəl ɔr ˌsɛrəˈmoʊniəl səɡˈnɪfɪkəns tə niˈændɚˌθɔlz",
       "words": [
@@ -1306,7 +1306,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پیداست که آن‌ها به اندازه‌ای که در اصل باور داشتند متفاوت نبودند.",
+      "fa": "پیداست که نئاندرتال‌ها آن‌قدر که در ابتدا تصور می‌شد با ما تفاوت نداشتند.",
       "en": "Clearly, they weren’t as different as originally believed.",
       "ipa": "ˈklɪrli ðeɪ ˈwɝənt əz ˈdɪfərənt əz əˈrɪdʒənəli bɪˈlivd",
       "words": [
@@ -1314,13 +1314,13 @@ DRILL({
           "w": "originally",
           "ipa": "əˈrɪdʒənəli",
           "m": "at first; in the beginning",
-          "fa": "در اصل، در ابتدا",
+          "fa": "در ابتدا؛ در اصل",
           "more": "original · initially"
         }
       ]
     },
     {
-      "fa": "و پس از نخستین ژنومِ نئاندرتالی که در ۲۰۱۰ به‌طورِ کامل توالی‌یابی شد، پژوهشگران فهمیدند گونه‌های ما با هم آمیزش کرده‌اند.",
+      "fa": "و پس از آنکه در سالِ ۲۰۱۰ برای نخستین بار ژنومِ یک نئاندرتال به‌طورِ کامل توالی‌یابی شد، پژوهشگران دریافتند که گونهٔ ما و نئاندرتال‌ها با هم آمیزش کرده‌اند.",
       "en": "And following the first fully sequenced Neanderthal genome in 2010, researchers realized our species interbred.",
       "ipa": "ənd ˈfɑloʊɪŋ ðə fɝst ˈfʊli ˈsikwənst niˈændɚˌθɔl ˈdʒiˌnoʊm ɪn ˈtwɛnti tɛn ˈrisɚtʃɚz ˈriˌlaɪzd ˈaʊɚ ˈspiʃiz ˌɪntɚˈbrɛd",
       "newPara": true,
@@ -1350,7 +1350,7 @@ DRILL({
           "w": "to interbreed",
           "ipa": "tə ˈɪntɚˌbid",
           "m": "(of different groups or species) to have babies together",
-          "fa": "آمیزش کردن (میانِ گونه‌ها)",
+          "fa": "با اعضای گروه یا گونه‌ای دیگر آمیزش کردن و زادآوری کردن",
           "more": "interbreeding · to crossbreed"
         }
       ]
@@ -1377,7 +1377,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که نتیجهٔ صدها رویدادِ جداگانهٔ آمیزش است.",
+      "fa": "که حاصلِ صدها موردِ جداگانهٔ آمیزش میانِ دو گونه است.",
       "en": "the result of hundreds of discrete interbreeding events.",
       "ipa": "ðə rɪˈzʌlt əv ˈhʌndrədz əv dɪˈskrit ˈɪntɚˌridɪŋ ɪˈvɛnts",
       "words": [
@@ -1445,7 +1445,7 @@ DRILL({
       "ipa": "bət əˈnʌðɚ aɪˈdiə ɪz ðæt bɪˈkɔz niˈændɚˌθɔlz laɪvd ɪn ˈsmɔlɚ ɡrups"
     },
     {
-      "fa": "وقتی با جمعیت‌های بزرگ‌ترِ هومو ساپینس آمیزش کردند، یه‌جورایی به‌تدریج در آن‌ها جذب و حل شدند.",
+      "fa": "همچنان‌که با جمعیت‌های بزرگ‌ترِ هومو ساپینس آمیزش می‌کردند، به‌نوعی کم‌کم در آن جمعیت‌ها جذب شدند.",
       "en": "as they interbred with larger populations of Homo sapiens, they just sort of got gradually absorbed.",
       "ipa": "əz ðeɪ ˌɪntɚˈbrɛd wɪð ˈlɑrdʒɚ ˌpɑpjəˈleɪʃənz əv ˈhoʊmoʊ ˈseɪpiənz ðeɪ dʒʌst sɔrt əv ɡɑt ˈɡrædʒuəli əbˈzɔrbd",
       "words": [
@@ -1453,7 +1453,7 @@ DRILL({
           "w": "population",
           "ipa": "ˌpɑpjəˈleɪʃən",
           "m": "a group of the same species living in one area",
-          "fa": "جمعیت",
+          "fa": "جمعیتِ افرادِ یک گونه در یک ناحیه؛ جمعیتِ ساکنان",
           "more": "populate · populous"
         },
         {
@@ -1467,13 +1467,13 @@ DRILL({
           "w": "to absorb",
           "ipa": "tə əbˈzɔrb",
           "m": "to take something into a larger group so that it becomes part of it",
-          "fa": "جذب کردن، در خود حل کردن",
+          "fa": "در یک جمعیت ادغام کردن؛ جذب کردن",
           "more": "absorption · to assimilate"
         }
       ]
     },
     {
-      "fa": "در مجموع، اجماعِ دانشمندان کم‌کم از نمایشِ تکاملِ انسان به شکلِ درخت فاصله گرفته",
+      "fa": "در مجموع، دیدگاهِ موردِ توافقِ دانشمندان کم‌کم از ترسیمِ تکاملِ انسان به شکلِ یک درخت فاصله می‌گیرد",
       "en": "Overall, consensus has begun shifting away from representing human evolution as tree-like",
       "ipa": "ˈoʊvəˌrɔl kənˈsɛnsəs hæz bɪˈɡʌn ˈʃɪftɪŋ əˈweɪ frəm ˌrɛprɪˈzɛntɪŋ ˈhjumən ˌɛvəˈluʃən əz tri laɪk",
       "newPara": true,
@@ -1516,7 +1516,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و بیشتر به سمتِ نوعی جویبارِ درهم‌بافته رفته،",
+      "fa": "و بیشتر به سوی ترسیمِ آن به شکلِ جویباری با شاخه‌های درهم‌بافته می‌رود،",
       "en": "and more towards a kind of braided stream,",
       "ipa": "ənd mɔr təˈwɔrdz ə kaɪnd əv ˈbreɪdɪd strim",
       "words": [
@@ -1524,7 +1524,7 @@ DRILL({
           "w": "braided",
           "ipa": "ˈbreɪdɪd",
           "m": "with several strands crossing over each other",
-          "fa": "درهم‌بافته، گیس‌مانند",
+          "fa": "با شاخه‌های درهم‌بافته (جویبار)؛ بافته‌شده، گیس‌بافت",
           "more": "braid · to plait"
         },
         {
@@ -1565,12 +1565,12 @@ DRILL({
       ]
     },
     {
-      "fa": "همان‌طور که دربارهٔ عموزاده‌های تکاملی‌مان بیشتر و بیشتر یاد می‌گیریم،",
+      "fa": "هرچه دربارهٔ خویشاوندانِ تکاملی‌مان بیشتر می‌آموزیم،",
       "en": "As we continue to learn more about our evolutionary cousins,",
       "ipa": "əz wi kənˈtɪnju tə lɝn mɔr əˈbaʊt ˈaʊɚ ˌɛvəˈluʃəˌnɛri ˈkʌzənz"
     },
     {
-      "fa": "هر کشف این پرسش را پیش می‌کشد که دقیقاً چقدر با هم وجهِ مشترک داریم.",
+      "fa": "هر کشف پرسش‌هایی برمی‌انگیزد دربارهٔ اینکه دقیقاً تا چه اندازه با آن‌ها وجهِ مشترک داریم.",
       "en": "each discovery raises questions about just how much we share.",
       "ipa": "itʃ dɪˈskʌvəri ˈreɪzəz ˈkwɛstʃənz əˈbaʊt dʒʌst haʊ mʌtʃ wi ʃɛr",
       "words": [

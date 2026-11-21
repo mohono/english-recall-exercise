@@ -214,7 +214,7 @@ DRILL({
           "w": "demonstration",
           "ipa": "ˌdɛmənˈstreɪʃən",
           "m": "showing how something works or is done",
-          "fa": "نمایش عملی",
+          "fa": "اینجا: نمایش عملیِ نحوهٔ کارِ چیزی؛ در بافت دیگر: تظاهرات، تجمع اعتراضی",
           "more": "demonstrate · demo"
         },
         {
@@ -316,7 +316,7 @@ DRILL({
       ]
     },
     {
-      "fa": "می‌تواند مثل بازدید از کارگاهِ یک هنرمند باشد که خودش تو را از اثری به اثرِ دیگر می‌برد و راهنمایی‌ات می‌کند،",
+      "fa": "می‌تواند شبیه بازدید از یک کارگاه هنری باشد که در آن هنرمندی تو را در شناختِ تک‌تک آثار راهنمایی می‌کند،",
       "en": "It can be like a studio tour with an artist guiding you through each artwork,",
       "ipa": "ɪt kən bi laɪk ə ˈstudiˌoʊ tʊr wɪð ən ˈɑrtəst ˈɡaɪdɪŋ ju θru itʃ ˈɑrtˌwɝk",
       "words": [
@@ -484,7 +484,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این سخنرانیِ پنج‌دقیقه‌ای بیش از ۱۵ میلیون بار در یوتیوب تماشا شده است.",
+      "fa": "سخنرانی‌ای پنج‌دقیقه‌ای بود، و تا امروز بیش از ۱۵ میلیون بار در یوتیوب دیده شده است.",
       "en": "A five-minute talk, it’s been viewed over 15 million times on YouTube.",
       "ipa": "ə faɪv ˈmɪnət tɔk ɪts bɪn vjud ˈoʊvɚ fɪfˈtin ˈmɪljən taɪmz ɑn ˈjuˌtub",
       "words": [
@@ -573,7 +573,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دیوید مکالی، تصویرگر، نقاشی‌هایش از رم را با حاضران در میان گذاشت،",
+      "fa": "دیوید مکالی، تصویرگر، طراحی‌هایش از شهرِ رم را با حاضران در میان گذاشت،",
       "en": "Illustrator David McAuley shared his drawings of Rome,",
       "ipa": "ˈɪləˌstreɪtɚ ˈdeɪvɪd məˈkɔli ʃɛrd hɪz ˈdrɔɪŋz əv roʊm",
       "newPara": true,
@@ -664,7 +664,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به آدم‌ها فقط کارهایت را قدم‌به‌قدم نشان نده.",
+      "fa": "فقط به این بسنده نکن که کارت را قدم‌به‌قدم به مردم نشان بدهی.",
       "en": "Don't just walk people through your work.",
       "ipa": "doʊnt dʒʌst wɔk ˈpipəl θru jɔr wɝk",
       "words": [
@@ -706,7 +706,7 @@ DRILL({
       ]
     },
     {
-      "fa": "۲. نمایشِ عملیِ پویا (دمو).",
+      "fa": "۲. نمایشِ عملیِ پویا.",
       "en": "2. The Dynamic Demo.",
       "ipa": "tu ðə daɪˈnæmɪk ˈdɛmoʊ",
       "newPara": true,
@@ -750,7 +750,7 @@ DRILL({
           "w": "novel",
           "ipa": "ˈnɑvəl",
           "m": "new and different from anything before",
-          "fa": "بدیع، نو",
+          "fa": "اینجا صفت: بدیع، نوآورانه؛ به‌عنوان اسم: رمان",
           "more": "innovative · original · novelty"
         },
         {
@@ -836,7 +836,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اگر واقعاً گیراست، می‌توانی با یک اشارهٔ کوتاهِ کنجکاوکننده دربارهٔ آنچه قرار است ببینند، مخاطبانت را به هیجان بیاوری.",
+      "fa": "اگر واقعاً گیراست، می‌توانی با اشاره‌ای کوتاه و کنجکاوی‌برانگیز به آنچه تا لحظاتی دیگر خواهند دید، مخاطبانت را به هیجان بیاوری.",
       "en": "If it's truly compelling, you can excite your audience with a small tease about what they’re about to see.",
       "ipa": "ɪf ɪts ˈtruli kəmˈpɛlɪŋ ju kən ɪkˈsaɪt jɔr ˈɑdiəns wɪð ə smɔl tiz əˈbaʊt wʌt ðɛr əˈbaʊt tə si",
       "words": [
@@ -1287,7 +1287,7 @@ DRILL({
       ]
     },
     {
-      "fa": "نطقِ دکتر مارتین لوتر کینگ جونیور در یادبودِ لینکلن در ۱۹۶۳ هفده دقیقه و چهل ثانیه طول کشید،",
+      "fa": "سخنرانیِ دکتر مارتین لوتر کینگ جونیور در سال ۱۹۶۳ در بنای یادبودِ لینکلن هفده دقیقه و چهل ثانیه طول کشید،",
       "en": "Dr. Martin Luther King Jr.’s speech at the Lincoln Memorial in 1963 lasted 17 minutes and 40 seconds,",
       "ipa": "draɪv ˈmɑrtən ˈluθɚ kɪŋ ˈdʒunjɚ ɛs spitʃ ət ðə ˈlɪŋkən məˈmɔriəl ɪn ˌnaɪnˈtin ˈsɪksti θri ˈlæstəd ˌsɛvənˈtin ˈmɪnəts ənd ˈfɔrti ˈsɛkəndz",
       "words": [
@@ -1385,10 +1385,10 @@ DRILL({
       ]
     },
     {
-      "fa": "یکی از حاضران درجا چکی یک‌میلیون‌دلاری نوشت،",
+      "fa": "یکی از حاضران همان‌جا چکی به مبلغ یک میلیون دلار کشید،",
       "en": "One audience member wrote $1 million check on the spot,",
       "ipa": "wʌn ˈɑdiəns ˈmɛmbɚ roʊt wʌn ˈdɑlɚ ˈmɪljən tʃɛk ɑn ðə spɑt",
-      "note": "در کپشن پیش از <en>check</en> حرف تعریف <en>a</en> نیامده است.",
+      "note": "در انگلیسی معیار، پیش از کلِ گروه اسمی حرف تعریف می‌آید: <en>wrote a $1 million check</en>. زیرنویس این <en>a</en> را جا انداخته است.",
       "words": [
         {
           "w": "to write a check",
@@ -1401,7 +1401,7 @@ DRILL({
           "w": "on the spot",
           "ipa": "ɑn ðə spɑt",
           "m": "immediately, at the place where something is happening",
-          "fa": "درجا، همان لحظه",
+          "fa": "اینجا: درجا، همان لحظه؛ بسته به بافت: در محل، همان‌جا",
           "more": "right away · there and then"
         }
       ]
@@ -1464,7 +1464,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و کاری کنی که مخاطبانت آن آینده را با تمامِ وجود بخواهند.",
+      "fa": "و کاری کنی که مخاطبانت خواهانِ آن آینده شوند.",
       "en": "and making your audience desire that future.",
       "ipa": "ənd ˈmeɪkɪŋ jɔr ˈɑdiəns dɪˈzaɪɚ ðæt ˈfjutʃɚ",
       "words": [
@@ -1472,13 +1472,13 @@ DRILL({
           "w": "to desire",
           "ipa": "tə dɪˈzaɪɚ",
           "m": "to want something very much",
-          "fa": "آرزو کردن، با تمام وجود خواستن",
+          "fa": "خواهانِ چیزی بودن، آرزو کردن",
           "more": "desire (n) · desirable"
         }
       ]
     },
     {
-      "fa": "ابزارهای کمکیِ تصویری (عکس، اسلاید، ماکت) اغلب می‌توانند در بخشِ اول کمک کنند.",
+      "fa": "ابزارهای کمک‌بصری اغلب می‌توانند در بخشِ اول کمک کنند.",
       "en": "Visual aids can often help with the first part.",
       "ipa": "ˈvɪʒəwəl eɪdz kən ˈɔfən hɛlp wɪð ðə fɝst pɑrt",
       "words": [
@@ -1555,7 +1555,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و آینده‌ای را ترسیم می‌کرد که بسیاری از شنوندگان برای زندگی در آن سر از پا نمی‌شناختند.",
+      "fa": "و آینده‌ای را ترسیم می‌کرد که خیلی از شنوندگان از زندگی در آن به هیجان می‌آمدند.",
       "en": "painting a future many listeners would be thrilled to inhabit.",
       "ipa": "ˈpeɪntɪŋ ə ˈfjutʃɚ ˈmɛni ˈlɪsənɚz wʊd bi θrɪld tə ɪnˈhæbət",
       "words": [
@@ -1647,7 +1647,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بیشترِ سخنرانی‌ها مرتب و دقیق در یک دسته جا نمی‌گیرند.",
+      "fa": "بیشتر سخنرانی‌ها را نمی‌شود به‌راحتی در یک دستهٔ مشخص جا داد.",
       "en": "Most talks don’t fit neatly into one category.",
       "ipa": "moʊst tɔks doʊnt fɪt ˈnitli ɪnˈtu wʌn ˈkætəˌɡɔri",
       "words": [

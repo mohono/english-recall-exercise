@@ -74,7 +74,7 @@ DRILL({
       "ipa": "ɪts ðə fɝst ɡeɪm ðæt ˈɔlˌmoʊst ˈɛvriˌwʌn pleɪz"
     },
     {
-      "fa": "پس چه چیزی در این بازیِ مسخره و بامزه هست که بچه‌ها این‌قدر دوستش دارند؟",
+      "fa": "پس نوزادها چه چیزِ این بازیِ بامزه و کمی مضحک را این‌قدر دوست دارند؟",
       "en": "So what is it about this goofy game that babies love so much?",
       "ipa": "soʊ wʌt ɪz ɪt əˈbaʊt ðɪs ˈɡufi ɡeɪm ðæt ˈbeɪbiz lʌv soʊ mʌtʃ",
       "words": [
@@ -143,7 +143,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مثلاً بچه‌های شش‌ماهه معمولاً می‌توانند چیزها را چنگ بزنند — و بلافاصله هم ولشان کنند —",
+      "fa": "برای نمونه، در حالی که بچه‌های شش‌ماهه معمولاً می‌توانند اشیا را با دست بگیرند و بعد هم بلافاصله رهایشان کنند،",
       "en": "For example, while 6-month-olds can typically grab things— and then promptly drop them—",
       "ipa": "fɚ ɪɡˈzæmpəl waɪl sɪks mʌnθ oʊldz kən ˈtɪpɪkli ɡræb θɪŋz ənd ðɛn ˈprɑmptli drɑp ðɛm",
       "words": [
@@ -171,7 +171,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ولی راه رفتن و حرف زدن عموماً حدودِ ۱۲ ماهگی شروع می‌شود.",
+      "fa": "راه رفتن و حرف زدن عموماً حدودِ دوازده‌ماهگی آغاز می‌شود.",
       "en": "walking and talking generally begin around 12 months.",
       "ipa": "ˈwɔkɪŋ ənd ˈtɔkɪŋ ˈdʒɛnərəli bɪˈɡɪn əˈraʊnd twɛlv mʌnθs",
       "words": [
@@ -226,13 +226,13 @@ DRILL({
           "w": "fluid",
           "ipa": "ˈfluəd",
           "m": "not fixed; able to change easily",
-          "fa": "انعطاف‌پذیر، سیال",
+          "fa": "انعطاف‌پذیر و بدونِ مرزهای ثابت (مراحلِ رشد)؛ روان و سیال",
           "more": "flexible · fixed"
         }
       ]
     },
     {
-      "fa": "رشدهای اولیه‌ای که او شناسایی کرد برای فهمیدنِ دالّی‌بازی کلیدی‌اند.",
+      "fa": "مراحلِ اولیهٔ رشدی که او شناسایی کرد، برای درکِ دالّی‌بازی اهمیتِ اساسی دارند.",
       "en": "the early developments he identified are key for understanding peek-a-boo.",
       "ipa": "ði ˈɝli dɪˈvɛləpmənts hi aɪˈdɛntəˌfaɪd ɚ ki fɚ ˌʌndɚˈstændɪŋ pik ə bu",
       "words": [
@@ -307,13 +307,13 @@ DRILL({
           "w": "caregiver",
           "ipa": "ˈkɛrˌɡɪvɚ",
           "m": "a person who looks after a child or sick person",
-          "fa": "مراقب، پرستار",
+          "fa": "کسی که از کودک مراقبت می‌کند، مثلاً یکی از والدین؛ مراقب یا پرستار",
           "more": "carer (UK)"
         }
       ]
     },
     {
-      "fa": "بعد، حدودِ ۶ تا ۱۰ هفتگی، بچه‌ها لبخندِ اجتماعی را شروع می‌کنند—",
+      "fa": "بعد، در حدودِ شش تا ده هفتگی، نوزادان شروع به لبخند زدنِ اجتماعی خواهند کرد؛",
       "en": "Then, around 6 to 10 weeks, babies will begin social smiling—",
       "ipa": "ðɛn əˈraʊnd sɪks tə tɛn wiks ˈbeɪbiz wɪl bɪˈɡɪn ˈsoʊʃəl ˈsmaɪlɪŋ",
       "words": [
@@ -405,7 +405,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس پیش از این دوره، «از جلوی چشم دور» می‌تواند به معنای واقعیِ کلمه «از دل برود» باشد—",
+      "fa": "پس پیش از این دوره، «از دیده پنهان» می‌تواند به معنای کاملاً لفظیِ «از ذهن بیرون» باشد،",
       "en": "So before this period, “out of sight” can literally mean “out of mind”—",
       "ipa": "soʊ bɪˈfɔr ðɪs ˈpɪriəd aʊt əv saɪt kən ˈlɪtərəli min aʊt əv maɪnd",
       "newPara": true,
@@ -414,7 +414,7 @@ DRILL({
           "w": "out of sight, out of mind",
           "ipa": "aʊt əv saɪt aʊt əv maɪnd",
           "m": "people forget things they can no longer see",
-          "fa": "از دل برود هر آن‌که از دیده برفت"
+          "fa": "اینجا به معنای لفظی، از دید که پنهان شود از ذهن هم بیرون می‌رود؛ در کاربردِ ضرب‌المثلی، از دل برود هر آن‌که از دیده برفت"
         },
         {
           "w": "literally",
@@ -446,7 +446,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پیش از پایداریِ شیء، این نمایشِ ناپدید شدن ممکن است از گیج‌کننده تا غافلگیریِ خوشایند را در بر بگیرد.",
+      "fa": "پیش از شکل‌گیریِ پایداریِ شیء، این نمایشِ ناپدید شدن می‌تواند برای کودک از گیج‌کننده تا به‌طرزِ خوشایندی غافلگیرکننده باشد.",
       "en": "Before object permanence, this disappearing act can range from confusing to pleasantly surprising.",
       "ipa": "bɪˈfɔr əbˈdʒɛkt ˈpɝmənəns ðɪs ˌdɪsəˈpɪrɪŋ ækt kən reɪndʒ frəm kənˈfjuzɪŋ tə ˈplɛzəntli sɚˈpraɪzɪŋ",
       "words": [
@@ -495,7 +495,7 @@ DRILL({
       "note": "peak و peek هم‌آوا هستند؛ اینجا بازی با کلمه است."
     },
     {
-      "fa": "در این سن، نوزادان می‌توانند مدتِ بیشتری روی بازی تمرکز کنند، زمانِ رونمایی را پیش‌بینی کنند،",
+      "fa": "در این سن، نوزادان می‌توانند مدتِ بیشتری روی بازی تمرکز کنند و زمانِ دوباره نمایان شدنِ چهره را پیش‌بینی کنند،",
       "en": "At this age, infants can focus on the game longer, predict the timing of the reveal,",
       "ipa": "ət ðɪs eɪdʒ ˈɪnfənts kən ˈfoʊkəs ɑn ðə ɡeɪm ˈlɔŋɡɚ prɪˈdɪkt ðə ˈtaɪmɪŋ əv ðə rɪˈvil",
       "words": [
@@ -522,7 +522,7 @@ DRILL({
           "w": "reveal",
           "ipa": "rɪˈvil",
           "m": "the moment when something hidden is shown",
-          "fa": "رونمایی، آشکار شدن",
+          "fa": "لحظهٔ دوباره نمایان شدنِ چهره؛ آشکارسازی یا افشا",
           "more": "to reveal"
         }
       ]
@@ -546,7 +546,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در یک پژوهش، به بچه‌های ۱۱ماهه مانعی نشان دادند که پایینش پشتِ یک پرده پنهان بود.",
+      "fa": "در یک پژوهش، به کودکانِ یازده‌ماهه مانعی نشان داده شد که بخشِ پایینیِ آن پشتِ یک حائل پنهان بود.",
       "en": "In one study, 11-month-olds were shown a barrier, the bottom of which was hidden behind a screen.",
       "ipa": "ɪn wʌn ˈstʌdi ɪˈlɛvən mʌnθ oʊldz wɚ ʃoʊn ə ˈbæriɚ ðə ˈbɑtəm əv wɪtʃ wəz ˈhɪdən bɪˈhaɪnd ə skrin",
       "newPara": true,
@@ -568,7 +568,7 @@ DRILL({
           "w": "screen",
           "ipa": "skrin",
           "m": "a flat panel used to hide something",
-          "fa": "پرده، پاراوان"
+          "fa": "حائل یا پرده‌ای که جلوی دید را می‌گیرد؛ صفحه‌نمایش"
         }
       ],
       "note": "the bottom of which: «که پایینش» — ضمیرِ موصولی بعد از of."
@@ -587,7 +587,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و بعدش پرده را برداشتند تا نشان دهند اسباب‌بازی‌ها یا همان‌طور که انتظار می‌رفت پشتِ مانع ایستاده‌اند،",
+      "fa": "و بعد حائل را برداشتند تا نشان دهند که اسباب‌بازی‌ها یا طبقِ انتظار به مانع رسیده و همان‌جا متوقف شده بودند،",
       "en": "removing it afterwards to show that the toys had either stopped at the barrier as expected,",
       "ipa": "riˈmuvɪŋ ɪt ˈæftɚwɚdz tə ʃoʊ ðæt ðə tɔɪz hæd ˈiðɚ stɑpt ət ðə ˈbæriɚ əz ɪkˈspɛktəd",
       "words": [
@@ -607,7 +607,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یا به شکلی عجیب از آن رد شده‌اند.",
+      "fa": "یا به طریقی نامعلوم از میانِ همان مانع گذشته بودند.",
       "en": "or, somehow, gone through it.",
       "ipa": "ɔr ˈsʌmˌhaʊ ɡɔn θru ɪt",
       "words": [
@@ -620,7 +620,7 @@ DRILL({
       ]
     },
     {
-      "fa": "نوزادانی که این اسباب‌بازی‌های ظاهراً جادویی را دیده بودند، بعدش علاقهٔ بیشتری به آن‌ها نشان دادند—",
+      "fa": "نوزادانی که این اسباب‌بازی‌های به‌ظاهر جادویی به آن‌ها نشان داده شده بود، بعداً علاقهٔ بیشتری به آن‌ها نشان دادند،",
       "en": "Infants shown these seemingly magical toys showed more interest in them afterwards—",
       "ipa": "ˈɪnfənts ʃoʊn ðiz ˈsimɪŋli ˈmædʒɪkəl tɔɪz ʃoʊd mɔr ˈɪntrəst ɪn ðɛm ˈæftɚwɚdz",
       "words": [
@@ -700,7 +700,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تماسِ چشمی، نوبت گرفتن و توجهِ مشترک.",
+      "fa": "تماسِ چشمی، نوبتی عمل کردن و توجهِ مشترک.",
       "en": "eye contact, turn-taking, and joint attention.",
       "ipa": "aɪ ˈkɑnˌtækt tɝn ˈteɪkɪŋ ənd dʒɔɪnt əˈtɛnʃən",
       "words": [
@@ -714,7 +714,7 @@ DRILL({
           "w": "turn-taking",
           "ipa": "tɝn ˈteɪkɪŋ",
           "m": "doing something one after the other, by turns",
-          "fa": "نوبت گرفتن",
+          "fa": "نوبت را رعایت کردن و به‌نوبت عمل کردن",
           "more": "take turns"
         },
         {
@@ -747,7 +747,7 @@ DRILL({
       ]
     },
     {
-      "fa": "همان‌طور که مراقب‌ها یاد می‌گیرند گریه‌ها و نشانه‌های کلامیِ نوزادشان را بخوانند،",
+      "fa": "درست همان‌طور که مراقبان یاد می‌گیرند معنای گریه‌ها و نشانه‌های کلامیِ نوزادشان را بفهمند،",
       "en": "Just as caregivers learn to read their infant’s cries and verbal cues,",
       "ipa": "dʒʌst əz ˈkɛrˌɡɪvɚz lɝn tə rid ðɛr ˈɪnfənts kraɪz ənd ˈvɝbəl kjuz",
       "words": [
@@ -761,7 +761,7 @@ DRILL({
           "w": "to read",
           "ipa": "tə rid",
           "m": "to understand what a sign or behavior means",
-          "fa": "خواندن، فهمیدن (نشانه‌ها)"
+          "fa": "معنای یک نشانه را فهمیدن؛ متن خواندن"
         },
         {
           "w": "verbal",
@@ -800,7 +800,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بعضی از پژوهشگرانِ بازی به این رفت‌وبرگشت می‌گویند تعاملِ «پرتاب و برگشت»، و دالّی‌بازی نمونهٔ بارزِ آن است.",
+      "fa": "برخی پژوهشگرانِ بازی این رفت‌وبرگشت را تعاملِ «سرویس و پاسخ» می‌نامند و دالّی‌بازی نمونهٔ بارزِ آن است.",
       "en": "Some play researchers call this back and forth “serve and return” interaction, and peek-a-boo is a prime example.",
       "ipa": "sʌm pleɪ ˈrisɚtʃɚz kɔl ðɪs bæk ənd fɔrθ sɝv ənd rɪˈtɝn ˌɪntəˈrækʃən ənd pik ə bu ɪz ə praɪm ɪɡˈzæmpəl",
       "words": [
@@ -815,7 +815,7 @@ DRILL({
           "w": "serve and return",
           "ipa": "sɝv ənd rɪˈtɝn",
           "m": "an exchange where one person acts and the other answers, like in tennis",
-          "fa": "پرتاب و برگشت (مثلِ تنیس)"
+          "fa": "کنشِ یک نفر و پاسخِ دیگری؛ در تنیس، سرویس و پاسخ به آن"
         },
         {
           "w": "interaction",
@@ -867,7 +867,7 @@ DRILL({
           "w": "reliable",
           "ipa": "rɪˈlaɪəbəl",
           "m": "able to be trusted to stay the same",
-          "fa": "قابلِ اعتماد، ثابت",
+          "fa": "ثابت و قابلِ پیش‌بینی (قالبِ بازی)؛ قابلِ اعتماد",
           "more": "reliability · dependable"
         },
         {
@@ -893,7 +893,7 @@ DRILL({
           "w": "to inform",
           "ipa": "tə ɪnˈfɔrm",
           "m": "to influence or shape something",
-          "fa": "جهت دادن به، شکل دادن به",
+          "fa": "شکل دادن یا جهت دادن به؛ اطلاع دادن",
           "more": "shape · influence"
         },
         {
@@ -993,7 +993,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هرچه باشد، اگر آن‌ها تو را نبینند، لابد تو هم آن‌ها را نمی‌بینی.",
+      "fa": "آخر اگر آن کودک نتواند تو را ببیند، لابد تو هم نمی‌توانی او را ببینی. <c>(هر دو ضمیرِ سوم‌شخص به همان یک کودک برمی‌گردند.)</c>",
       "en": "after all, if they can’t see you, surely you can’t see them.",
       "ipa": "ˈæftɚ ɔl ɪf ðeɪ kænt si ju ˈʃʊrli ju kænt si ðɛm",
       "words": [
@@ -1012,7 +1012,7 @@ DRILL({
       ]
     },
     {
-      "fa": "وقتی نظریهٔ ذهن حدودِ سه یا چهار سالگی شکل می‌گیرد، بچه‌ها می‌توانند با هم نقش‌بازی کنند،",
+      "fa": "وقتی نظریهٔ ذهن در حدودِ سه یا چهار سالگی شکل می‌گیرد، بچه‌ها می‌توانند شروع کنند به بازی‌های وانمودی با یکدیگر،",
       "en": "Once theory of mind develops around age 3 or 4, kids can begin playing pretend together,",
       "ipa": "wʌns ˈθɪri əv maɪnd dɪˈvɛləps əˈraʊnd eɪdʒ θri ɔr fɔr kɪdz kən bɪˈɡɪn ˈpleɪɪŋ priˈtɛnd təˈɡɛðɚ",
       "newPara": true,
@@ -1068,7 +1068,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در پنج و شش سالگی، زبان گسترش پیدا می‌کند و به چانه‌زنی‌های بازیگوشانه‌تر شکل می‌دهد،",
+      "fa": "تا پنج یا شش سالگی، تواناییِ زبانی بچه‌ها گسترش می‌یابد و به چانه‌زنی‌های بازیگوشانه‌تری شکل می‌دهد،",
       "en": "By ages 5 and 6, language expands to inform more playful negotiation,",
       "ipa": "baɪ ˈeɪdʒəz faɪv ənd sɪks ˈlæŋɡwədʒ ɪkˈspændz tə ɪnˈfɔrm mɔr ˈpleɪfəl nɪˌɡoʊʃiˈeɪʃən",
       "words": [

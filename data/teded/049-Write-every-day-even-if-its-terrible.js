@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=2x3rJMBVB28",
   "items": [
     {
-      "fa": "یکی از هم‌کلاسی‌هایم، توانست برایم قرارِ ملاقاتی با رئیسِ بزرگ جور کند— لیور کوهن.",
+      "fa": "یکی از هم‌کلاسی‌هایم، او توانست برایم با رئیسِ کل قرارِ ملاقات بگذارد، با لیور کوهن.",
       "en": "One of my classmates, he was able to get me a meeting with the big boss— Lyor Cohen.",
       "ipa": "wʌn əv maɪ ˈklæˌsmeɪts hi wəz ˈeɪbəl tə ɡɛt mi ə ˈmitɪŋ wɪð ðə bɪɡ bɑs ˈlaɪɚ ˈkoʊən",
       "newPara": true,
@@ -29,7 +29,7 @@ DRILL({
       "ipa": "aɪ tʊk ə ˈmɛɡəbəs frəm di si tə nu jɔrk"
     },
     {
-      "fa": "می‌نشینیم و من یک بند و ترجیع‌بندِ یکی از آهنگ‌هایم را برایش زدم.",
+      "fa": "می‌نشینیم و من یک بند و ترجیع‌بند از یک آهنگ را برایش اجرا کردم. <c>(راوی از حالِ روایی به گذشته می‌رود.)</c>",
       "en": "We sit down and I played him a verse chorus of one song.",
       "ipa": "wi sɪt daʊn ənd aɪ pleɪd hɪm ə vɝs ˈkɔrəs əv wʌn sɔŋ",
       "words": [
@@ -43,19 +43,19 @@ DRILL({
           "w": "chorus",
           "ipa": "ˈkɔrəs",
           "m": "the part of a song that is repeated after each verse",
-          "fa": "ترجیع‌بند، کُر",
+          "fa": "ترجیع‌بند، بخشِ تکرارشوندهٔ ترانه؛ گروهِ هم‌خوانان",
           "more": "refrain · hook"
         }
       ],
       "note": "We sit down … I played: گوینده در روایت بینِ حال و گذشته جابه‌جا می‌شود، که در گفتارِ محاوره‌ای رایج است."
     },
     {
-      "fa": "و بعد شروع کردم به زدنِ اولِ یک آهنگِ دوم،",
+      "fa": "و بعد شروع کردم به نواختنِ ابتدای یک آهنگِ دیگر، یعنی آهنگِ دوم،",
       "en": "And then I started to play the beginning of a second song,",
       "ipa": "ənd ðɛn aɪ ˈstɑrtəd tə pleɪ ðə bɪˈɡɪnɪŋ əv ə ˈsɛkənd sɔŋ"
     },
     {
-      "fa": "که وسطِ کارم پرید و گفت «من چرا این‌جام؟»",
+      "fa": "و او وسطِ اجرایم جلوی مرا گرفت و گفت «من چرا اینجام؟»",
       "en": "and he cut me off, and he was like, “why am I here?”",
       "ipa": "ənd hi kʌt mi ɔf ənd hi wəz laɪk waɪ æm aɪ hɪr",
       "words": [
@@ -63,7 +63,7 @@ DRILL({
           "w": "to cut someone off",
           "ipa": "tə kʌt ˈsʌmˌwʌn ɔf",
           "m": "to stop someone while they are speaking or doing something",
-          "fa": "وسطِ حرفِ کسی پریدن، قطع کردن",
+          "fa": "اجرای کسی را نیمه‌کاره قطع کردن؛ وسطِ حرفِ کسی پریدن؛ ارتباطِ کسی را قطع کردن",
           "more": "interrupt"
         },
         {
@@ -146,7 +146,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا کمکت کنند آن را بشنوی، نگهش داری و با این دنیای وحشی و شگفت‌انگیز در میان بگذاری.",
+      "fa": "تا کمکت کنند آن موسیقی را بشنوی، نگهش داری و با این دنیای عجیب و شگفت‌انگیز در میانش بگذاری.",
       "en": "to help you hear it, hold it, and share it with this wild and wonderful world.",
       "ipa": "tə hɛlp ju hɪr ɪt hoʊld ɪt ənd ʃɛr ɪt wɪð ðɪs waɪld ənd ˈwʌndɚfəl wɝld",
       "words": [
@@ -175,7 +175,7 @@ DRILL({
           "w": "to go by",
           "ipa": "tə ɡoʊ baɪ",
           "m": "to use a particular name",
-          "fa": "با اسمِ … شناخته شدن، خود را … نامیدن"
+          "fa": "با نامی شناخته شدن؛ سپری شدنِ زمان؛ بر اساسِ چیزی قضاوت کردن"
         }
       ]
     },
@@ -251,7 +251,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با کسی جلسه گرفتم که قرار است همان آدمِ اصلی باشد، و او گفت این آن نیست، می‌فهمی؟",
+      "fa": "با کسی قرارِ ملاقات گرفتم که می‌گویند توی این کار همان آدمِ مهم و تعیین‌کننده است؛ و او گفت موسیقی‌ام آن چیزی نبود که باید می‌بود، می‌دانی؟",
       "en": "I got a meeting with the guy that’s supposed to be The Guy, and he said it wasn’t it, you know?",
       "ipa": "aɪ ɡɑt ə ˈmitɪŋ wɪð ðə ɡaɪ ðæts səˈpoʊzd tə bi ðə ɡaɪ ənd hi sɛd ɪt ˈwɑzənt ɪt ju noʊ",
       "words": [
@@ -271,12 +271,12 @@ DRILL({
           "w": "it wasn’t it",
           "ipa": "ɪt ˈwɑzənt ɪt",
           "m": "it was not good enough or not the right thing (informal)",
-          "fa": "این آن نیست، چیزی نیست"
+          "fa": "آن چیزی نبود که انتظارش را داشت، اثر به حدِ لازم نرسیده بود (محاوره)"
         }
       ]
     },
     {
-      "fa": "و این‌طور بود که فقط سعی می‌کردم بفهمم قدم‌های بعدی‌ام باید چه باشد.",
+      "fa": "و حالا فقط دارم سعی می‌کنم بفهمم قدم‌های بعدی‌ام باید چه باشند.",
       "en": "And so I’m just trying to figure out what my next steps should be.",
       "ipa": "ənd soʊ aɪm dʒʌst ˈtraɪɪŋ tə ˈfɪɡjɚ aʊt wʌt maɪ nɛkst stɛps ʃʊd bi",
       "words": [
@@ -323,7 +323,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و با خودم گفتم، ببین، هر روز یک آهنگ می‌نویسم و ضبط می‌کنم تا بهتر شوم.",
+      "fa": "و با خودم گفتم «ببین، قصد دارم هر روز یک آهنگ بنویسم و ضبط کنم تا وقتی که بهتر بشوم.»",
       "en": "And I was like, look, I’m going to write and record a song every day until I get better.",
       "ipa": "ənd aɪ wəz laɪk lʊk aɪm ˈɡoʊɪŋ tə raɪt ənd rɪˈkɔrd ə sɔŋ ˈɛvəri deɪ ənˈtɪl aɪ ɡɛt ˈbɛtɚ",
       "words": [
@@ -363,7 +363,7 @@ DRILL({
           "w": "marginally",
           "ipa": "ˈmɑrdʒənəli",
           "m": "by a very small amount",
-          "fa": "یک ذره، اندکی",
+          "fa": "به میزانِ خیلی کم، اندکی",
           "more": "slightly · marginal"
         }
       ]
@@ -383,12 +383,12 @@ DRILL({
       ]
     },
     {
-      "fa": "گفتم روزی دو آهنگ می‌نویسم و ضبط می‌کنم.",
+      "fa": "گفتم «قصد دارم روزی دو آهنگ بنویسم و ضبط کنم.»",
       "en": "I said I’m going to write and record two songs a day.",
       "ipa": "aɪ sɛd aɪm ˈɡoʊɪŋ tə raɪt ənd rɪˈkɔrd tu sɔŋz ə deɪ"
     },
     {
-      "fa": "خب، در این مرحله، دیگر تقریباً به‌زور سرِ کلاس می‌روم.",
+      "fa": "خب، تا اینجای کار دیگر عملاً به‌ندرت سرِ کلاس می‌روم.",
       "en": "Now, at this point, I’m pretty much barely going to class.",
       "ipa": "naʊ ət ðɪs pɔɪnt aɪm ˈprɪti mʌtʃ ˈbɛrli ˈɡoʊɪŋ tə klæs",
       "words": [
@@ -402,7 +402,7 @@ DRILL({
           "w": "barely",
           "ipa": "ˈbɛrli",
           "m": "almost not; only just",
-          "fa": "به‌زور، به‌سختی",
+          "fa": "تقریباً هیچ، به‌ندرت (اینجا حضور در کلاس)؛ به‌زحمت",
           "more": "hardly · scarcely"
         }
       ]
@@ -493,7 +493,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شاید چندتایی نامهٔ دست‌نویس هم نوشته باشم، اگر نشانیِ یک شرکتِ ضبطِ موسیقی پیدا می‌شد.",
+      "fa": "شاید یکی دو نامهٔ دست‌نویس هم نوشته باشم، اگر نشانیِ یک شرکتِ ضبطِ موسیقی در دسترس بود.",
       "en": "I might have written a couple handwritten letters if there was an address to a record label.",
       "ipa": "aɪ maɪt hæv ˈrɪtən ə ˈkʌpəl ˈhænˌdrɪtən ˈlɛtɚz ɪf ðɛr wəz ən ˈæˌdrɛs tə ə ˈrɛkɚd ˈleɪbəl",
       "words": [
@@ -512,7 +512,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و واقعاً فقط سعی می‌کردم با هر چند نفری که می‌توانم تماس بگیرم تا ببینم می‌توانم بازخوردی بگیرم یا نه.",
+      "fa": "و واقعاً فقط سعی می‌کردم با هر تعداد آدم که می‌توانستم تماس بگیرم تا ببینم آیا می‌توانستم بازخوردی بگیرم.",
       "en": "And literally just trying to reach out to as many people I could to see if I could get any feedback.",
       "ipa": "ənd ˈlɪtərəli dʒʌst ˈtraɪɪŋ tə ritʃ aʊt tə əz ˈmɛni ˈpipəl aɪ kʊd tə si ɪf aɪ kʊd ɡɛt ˈɛni ˈfidˌbæk",
       "words": [
@@ -525,7 +525,7 @@ DRILL({
       ]
     },
     {
-      "fa": "راستش آن سالی بود که بزرگ‌ترین جهش را کردم،",
+      "fa": "راستش، همان سال بود که بیشترین جهش را در کارم داشتم،",
       "en": "Really, that was the year that I made the biggest jump,",
       "ipa": "ˈrɪli ðæt wəz ðə jɪr ðæt aɪ meɪd ðə ˈbɪɡəst dʒʌmp",
       "words": [
@@ -533,7 +533,7 @@ DRILL({
           "w": "jump",
           "ipa": "dʒʌmp",
           "m": "a sudden large improvement or increase",
-          "fa": "جهش",
+          "fa": "جهش در توانایی، پیشرفتِ چشمگیر؛ پرش",
           "more": "leap"
         }
       ]
@@ -558,7 +558,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دربارهٔ اینکه آهنگ‌ها واقعاً چطور نوشته می‌شوند و کجاها کم می‌آورم.",
+      "fa": "دربارهٔ اینکه آهنگ‌ها در عمل چطور نوشته می‌شوند و کارِ من کجاها به حدِ لازم نمی‌رسد.",
       "en": "on how songs are actually written and where I’m falling short.",
       "ipa": "ɑn haʊ sɔŋz ɚ ˈæktʃəwəli ˈrɪtən ənd wɛr aɪm ˈfɑlɪŋ ʃɔrt",
       "words": [
@@ -600,7 +600,7 @@ DRILL({
           "w": "to strike",
           "ipa": "tə straɪk",
           "m": "(of an idea or feeling) to come suddenly",
-          "fa": "از راه رسیدن، به سرِ کسی زدن"
+          "fa": "ناگهان به ذهن رسیدن (الهام)؛ ضربه زدن؛ اعتصاب کردن"
         }
       ]
     },
@@ -707,7 +707,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ممکن است فکر کنی، خب، آهنگ باید این کار را بکند",
+      "fa": "شاید فکر کنی «خب، پس این همان کاری است که آهنگ باید بکند»،",
       "en": "You may think, okay, well, this is what it needs to do",
       "ipa": "ju meɪ θɪŋk ˌoʊˈkeɪ wɛl ðɪs ɪz wʌt ɪt nidz tə du"
     },
@@ -730,7 +730,7 @@ DRILL({
       "ipa": "bət səmˈtaɪmz ɪts ˈbiɪŋ ˈeɪbəl tə seɪ heɪ ˈmeɪbi ɪts ˈsʌmθɪŋ ðæt aɪv ˈnɛvɚ θɔt əv bɪˈfɔr"
     },
     {
-      "fa": "و شاید چیزی است که سرِ وقتِ خودش به سراغم می‌آید.",
+      "fa": "و شاید چیزی است که قرار است در وقتِ خودش به ذهنم برسد.",
       "en": "and maybe it’s something that’s going to come to me in its own time.",
       "ipa": "ənd ˈmeɪbi ɪts ˈsʌmθɪŋ ðæts ˈɡoʊɪŋ tə kʌm tə mi ɪn ɪts oʊn taɪm",
       "words": [
@@ -802,7 +802,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گاهی یعنی کلی به یک آهنگ گوش بدهم، و گاهی یعنی اصلاً به آن گوش ندهم؛",
+      "fa": "گاهی این کار برایم یعنی بارها به یک آهنگ گوش بدهم و گاهی یعنی اصلاً به آن آهنگ گوش ندهم؛",
       "en": "Sometimes it’s me listening to a song a bunch, and sometimes it’s me not listening to the song at all;",
       "ipa": "səmˈtaɪmz ɪts mi ˈlɪsənɪŋ tə ə sɔŋ ə bʌntʃ ənd səmˈtaɪmz ɪts mi nɑt ˈlɪsənɪŋ tə ðə sɔŋ ət ɔl",
       "words": [
@@ -810,7 +810,7 @@ DRILL({
           "w": "a bunch",
           "ipa": "ə bʌntʃ",
           "m": "a lot; many times (informal, US)",
-          "fa": "کلی، خیلی"
+          "fa": "بارها یا خیلی زیاد (اینجا دفعاتِ گوش دادن)؛ یک دسته"
         }
       ]
     },
@@ -860,7 +860,7 @@ DRILL({
           "w": "receptive to",
           "ipa": "rɪˈsɛptɪv tu",
           "m": "willing to listen to and accept new ideas",
-          "fa": "پذیرای، گشاده‌رو نسبت به",
+          "fa": "آمادهٔ پذیرفتنِ یک واقعیت یا نظر؛ پذیرایِ",
           "more": "open to"
         },
         {
@@ -921,7 +921,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برای من، فقط این است که بپذیرم همیشه دقیقاً آن‌طور که می‌خواهم پیش نمی‌رود.",
+      "fa": "برای من یعنی پذیرفتنِ اینکه قرار نیست کار همیشه دقیقاً همان‌طور که می‌خواهم پیش برود.",
       "en": "For me, it’s just recognizing that it’s not always going to go exactly the way I want.",
       "ipa": "fɚ mi ɪts dʒʌst ˈrɛkəɡˌnaɪzɪŋ ðæt ɪts nɑt ˈɔlˌweɪz ˈɡoʊɪŋ tə ɡoʊ ɪɡˈzæktli ðə weɪ aɪ wɑnt",
       "newPara": true,
@@ -949,7 +949,7 @@ DRILL({
       ]
     },
     {
-      "fa": "باز هم کمک می‌کنند به اینکه در آینده آهنگ‌هایم را چطور بنویسم شکل بدهند.",
+      "fa": "باز هم در شکل دادن به شیوه‌ای که در آینده آهنگ خواهم نوشت نقش دارند.",
       "en": "they still help inform the way that I write songs in the future.",
       "ipa": "ðeɪ stɪl hɛlp ɪnˈfɔrm ðə weɪ ðæt aɪ raɪt sɔŋz ɪn ðə ˈfjutʃɚ",
       "words": [
@@ -957,7 +957,7 @@ DRILL({
           "w": "to inform",
           "ipa": "tə ɪnˈfɔrm",
           "m": "to influence or shape something",
-          "fa": "شکل دادن به، جهت دادن به"
+          "fa": "شکل دادن به شیوهٔ انجامِ کاری؛ خبر دادن"
         }
       ]
     },
@@ -993,7 +993,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و برای همین فقط سعی کن به خودت دلگرمی بدهی و زیادی به خودت سخت نگیری",
+      "fa": "و برای همین، فقط تلاش برای اینکه همچنان به خودت دلگرمی بدهی و زیادی خودت را سرزنش نکنی،",
       "en": "And so just trying to continue to encourage yourself and not get too down on yourself",
       "ipa": "ənd soʊ dʒʌst ˈtraɪɪŋ tə kənˈtɪnju tə ɛnˈkɝɪdʒ jɚˈsɛlf ənd nɑt ɡɛt tu daʊn ɑn jɚˈsɛlf",
       "words": [
@@ -1014,7 +1014,7 @@ DRILL({
       ]
     },
     {
-      "fa": "فقط چون چیزی با سرعتی که می‌خواهی پیش نمی‌رود یا دقیقاً آن‌طور که می‌خواهی جفت‌وجور نمی‌شود.",
+      "fa": "فقط به این دلیل که کاری با سرعتِ دلخواهت پیش نمی‌رود یا کاملاً آن‌طور که می‌خواهی شکل نمی‌گیرد.",
       "en": "because something isn’t going at the speed that you want or coming together in quite the way that you want.",
       "ipa": "bɪˈkɔz ˈsʌmθɪŋ ˈɪzənt ˈɡoʊɪŋ ət ðə spid ðæt ju wɑnt ɔr ˈkʌmɪŋ təˈɡɛðɚ ɪn kwaɪt ðə weɪ ðæt ju wɑnt",
       "words": [

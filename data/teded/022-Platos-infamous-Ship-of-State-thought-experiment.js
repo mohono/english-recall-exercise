@@ -110,7 +110,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با این حال، بی‌امان با رشوه و چاپلوسی و حتی شورش بر سرِ قدرت با هم رقابت می‌کنند.",
+      "fa": "با این حال، آن‌ها بی‌وقفه با رشوه دادن، چاپلوسی و حتی شورش بر سرِ اینکه اختیار کشتی را به دست بگیرند رقابت می‌کنند.",
       "en": "yet they relentlessly vie for control through bribery, flattery, and even mutiny.",
       "ipa": "jɛt ðeɪ rɪˈlɛntləsli vaɪ fɚ kənˈtroʊl θru ˈbraɪbəri ˈflætəri ənd ˈivɪn ˈmjutəni",
       "words": [
@@ -184,10 +184,11 @@ DRILL({
           "fa": "واقعی",
           "more": "genuine · real"
         }
-      ]
+      ],
+      "note": "گوینده اول محل را می‌آورد: <en>In the crow’s nest sits a true navigator.</en> به همین دلیل فعل پیش از فاعل می‌آید. ترتیب معمول هم ممکن است: <en>A true navigator sits in the crow’s nest.</en>"
     },
     {
-      "fa": "اما خدمهٔ پایینی دانشِ او از ستاره‌ها و بادها و فصل‌ها را پس می‌زنند.",
+      "fa": "اما دانشِ او دربارهٔ ستاره‌ها و بادها و فصل‌ها را خدمه‌ای که پایینِ دکل‌اند جدی نمی‌گیرند.",
       "en": "But her knowledge of the stars, winds, and seasons is dismissed by the crew below.",
       "ipa": "bət hɚ ˈnɑlədʒ əv ðə stɑrz wɪndz ənd ˈsizənz ɪz dɪˈsmɪst baɪ ðə kru bɪˈloʊ",
       "words": [
@@ -202,7 +203,7 @@ DRILL({
           "w": "to dismiss",
           "ipa": "tə dɪˈsmɪs",
           "m": "to refuse to consider something seriously",
-          "fa": "پس زدن، جدی نگرفتن",
+          "fa": "اینجا: چیزی را بی‌اهمیت شمردن و جدی نگرفتن؛ دربارهٔ کارمند: اخراج کردن",
           "more": "dismissive · reject · brush aside"
         },
         {
@@ -215,7 +216,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این شناورِ از کار افتاده همان «کشتیِ دولت» است —",
+      "fa": "این کشتی که کارش درست پیش نمی‌رود همان «کشتیِ دولت» است —",
       "en": "This dysfunctional vessel is the Ship of State—",
       "ipa": "ðɪs dɪˈsfʌŋkʃənəl ˈvɛsəl ɪz ðə ʃɪp əv steɪt",
       "newPara": true,
@@ -224,7 +225,7 @@ DRILL({
           "w": "dysfunctional",
           "ipa": "dɪˈsfʌŋkʃənəl",
           "m": "not working in a normal or healthy way",
-          "fa": "ازکارافتاده، ناکارآمد",
+          "fa": "ناکارآمد؛ دربارهٔ یک گروه یا نظام: طوری که اجزایش درست با هم کار نمی‌کنند",
           "more": "malfunctioning · broken · functional (opp.)"
         },
         {
@@ -454,7 +455,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شهروندانِ آتن دربارهٔ تک‌تکِ قوانین مستقیماً رأی می‌دادند.",
+      "fa": "تک‌تکِ قوانین مستقیماً به رأیِ شهروندان آتن گذاشته می‌شدند.",
       "en": "every law was voted on directly by the citizens of Athens.",
       "ipa": "ˈɛvəri lɔ wəz ˈvoʊtəd ɑn dəˈrɛktli baɪ ðə ˈsɪtəzənz əv ˈæθənz",
       "words": [
@@ -489,7 +490,7 @@ DRILL({
       ]
     },
     {
-      "fa": "زنان و بیگانگان و آدم‌هایی که به بردگی گرفته شده بودند هیچ قدرتِ رأیی نداشتند.",
+      "fa": "زنان، خارجی‌ها و افرادی که به بردگی گرفته شده بودند هیچ حق رأیی نداشتند.",
       "en": "women, foreigners, and enslaved individuals had no voting power.",
       "ipa": "ˈwɪmən ˈfɔrənɚz ənd ɛnˈsleɪvd ˌɪndəˈvɪdʒəwəlz hæd noʊ ˈvoʊtɪŋ ˈpaʊɚ",
       "words": [
@@ -518,7 +519,7 @@ DRILL({
           "w": "voting power",
           "ipa": "ˈvoʊtɪŋ ˈpaʊɚ",
           "m": "the right or ability to vote",
-          "fa": "قدرتِ رأی، حقِ رأی",
+          "fa": "اینجا: حقِ رأی دادن؛ در بافت‌های دیگر: میزانِ نفوذِ رأی یک فرد یا گروه",
           "more": "the vote · suffrage · franchise"
         }
       ]
@@ -850,7 +851,7 @@ DRILL({
       ]
     },
     {
-      "fa": "او در «جمهوری» خطوطِ کلیِ این را ترسیم کرد که چطور «اختیارِ انجام دادنِ هر کاری که آدم بخواهد»",
+      "fa": "او در «جمهوری» به‌اختصار توضیح داد که چطور «اختیارِ انجامِ هر کاری که آدم دلش بخواهد»",
       "en": "In the “Republic,” he outlined how the “license to do whatever one wants”",
       "ipa": "ɪn ðə riˈpʌblək hi ˈaʊtˌlaɪnd haʊ ðə ˈlaɪsəns tə du ˌwʌˈtɛvɚ wʌn wɑnts",
       "words": [
@@ -865,13 +866,13 @@ DRILL({
           "w": "license",
           "ipa": "ˈlaɪsəns",
           "m": "freedom to do what you want, often too much freedom",
-          "fa": "اختیارِ بی‌حدوحصر، اجازه",
+          "fa": "اینجا: آزادی یا اختیار برای انجام دادن کاری؛ در کاربرد اداری: مجوز، پروانه",
           "more": "freedom · free rein · licence (UK)"
         }
       ]
     },
     {
-      "fa": "مردم را وامی‌دارد که خواسته‌های خودشان را بر خیرِ همگانی مقدم بدارند.",
+      "fa": "باعث خواهد شد مردم خواسته‌های خود را بر خیرِ همگانی مقدم بدانند.",
       "en": "would lead people to prioritize their own desires over the common good.",
       "ipa": "wʊd lɛd ˈpipəl tə praɪˈɔrəˌtaɪz ðɛr oʊn dɪˈzaɪɚz ˈoʊvɚ ðə ˈkɑmən ɡʊd",
       "words": [
@@ -899,7 +900,7 @@ DRILL({
       ]
     },
     {
-      "fa": "افلاطون باور داشت که این وضع در کوتاه‌مدت همبستگیِ اجتماعی را سست می‌کند",
+      "fa": "افلاطون معتقد بود که در کوتاه‌مدت این وضع همبستگیِ اجتماعی را تضعیف خواهد کرد",
       "en": "In the short term, Plato believed this would weaken societal cohesion",
       "ipa": "ɪn ðə ʃɔrt tɝm ˈpleɪtoʊ bɪˈlivd ðɪs wʊd ˈwikən səˈsaɪɪtəl koʊˈhiʒən",
       "words": [
@@ -934,7 +935,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و احترام به حاکمیتِ قانون را کم‌کم می‌ساید و از میان می‌برد.",
+      "fa": "و احترام به حاکمیتِ قانون را به‌تدریج از میان خواهد برد.",
       "en": "and erode respect for the rule of law.",
       "ipa": "ənd ɪˈroʊd rɪˈspɛkt fɚ ðə rul əv lɔ",
       "words": [
@@ -1109,7 +1110,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که از همان آزادی‌هایی بهره‌کشی می‌کند که دموکراسی را ممکن کرده بودند.",
+      "fa": "که از همان آزادی‌هایی سوءاستفاده می‌کند که دموکراسی را ممکن ساختند.",
       "en": "who exploits the very freedoms that made democracy possible.",
       "ipa": "hu ˈɛkˌsplɔɪts ðə ˈvɛri ˈfridəmz ðæt meɪd dɪˈmɑkrəsi ˈpɑsəbəl",
       "words": [
@@ -1145,7 +1146,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از جمله سپردنِ قدرت به شاهانِ فیلسوفِ برگزیده — چندان دلچسب نیستند.",
+      "fa": "از جمله سپردن قدرت به جمعی از نخبگانِ فیلسوف‌پادشاه — کم‌وکاستی‌های زیادی دارند.",
       "en": "including handing power to elite philosopher kings— leave much to be desired.",
       "ipa": "ɪnˈkludɪŋ ˈhændɪŋ ˈpaʊɚ tə ɪˈlit fəˈlɑsəfɚ kɪŋz liv mʌtʃ tə bi dɪˈzaɪɚd",
       "words": [
@@ -1181,7 +1182,7 @@ DRILL({
           "w": "to leave much to be desired",
           "ipa": "tə liv mʌtʃ tə bi dɪˈzaɪɚd",
           "m": "to be much worse than it should be",
-          "fa": "چندان دلچسب نبودن، کم‌وکاستیِ زیاد داشتن",
+          "fa": "کم‌وکاستیِ زیادی داشتن، از حدِ انتظار بسیار پایین‌تر بودن",
           "more": "fall short · be unsatisfactory"
         }
       ]
@@ -1334,7 +1335,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مگنزیا به‌جای اینکه شهروندان را در برابرِ زبان‌بازها بی‌دفاع رها کند،",
+      "fa": "به‌جای آنکه شهروندان را در برابر زبان‌بازها آسیب‌پذیر بگذارد،",
       "en": "Instead of leaving citizens vulnerable to smooth talkers,",
       "ipa": "ɪnˈstɛd əv ˈlivɪŋ ˈsɪtəzənz ˈvʌlnərəbəl tə smuð ˈtɔkɚz",
       "newPara": true,
@@ -1356,7 +1357,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اقناع را مستقیماً در تار و پودِ قوانینش می‌بافد.",
+      "fa": "مگنزیا خودِ اقناع را مستقیماً در تار و پود قوانینش می‌گنجاند.",
       "en": "Magnesia weaves persuasion directly into its laws.",
       "ipa": "mæɡˈniʒə wivz pɚˈsweɪʒən dəˈrɛktli ɪnˈtu ɪts lɔz",
       "words": [
@@ -1475,7 +1476,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما قانون‌ها به‌جای آنکه برای جلوگیری از این جرم‌ها فقط به ترس از مجازات تکیه کنند،",
+      "fa": "اما به‌جای اتکای صرف به ترس از مجازات برای جلوگیری از این جرم‌ها،",
       "en": "But rather than relying solely on the fear of punishment to prevent these crimes,",
       "ipa": "bət ˈræðɚ ðən riˈlaɪɪŋ ˈsoʊlli ɑn ðə fɪr əv ˈpʌnɪʃmənt tə prɪˈvɛnt ðiz kraɪmz",
       "words": [
@@ -1517,7 +1518,7 @@ DRILL({
       ]
     },
     {
-      "fa": "قوانینی که علیهِ آن‌هاست استدلال‌هایی فلسفی در خود دارند",
+      "fa": "قوانینِ مربوط به این جرم‌ها در خود استدلال‌هایی فلسفی دارند",
       "en": "the laws against them contain philosophical arguments",
       "ipa": "ðə lɔz əˈɡɛnst ðɛm kənˈteɪn ˌfɪləˈsɑfɪkəl ˈɑrɡjəmənts",
       "words": [
@@ -1539,7 +1540,7 @@ DRILL({
           "w": "argument",
           "ipa": "ˈɑrɡjəmənt",
           "m": "a set of reasons used to show that something is true",
-          "fa": "استدلال",
+          "fa": "اینجا: استدلال، دلیل‌هایی برای اثبات یک نظر؛ در گفت‌وگوی روزمره: مشاجره",
           "more": "argue · reasoning · case"
         }
       ]
@@ -1721,7 +1722,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بسیاری از قدرتمندترین مقام‌های مگنزیا را به‌جای تک‌نفر، گروه‌ها با هم در دست دارند.",
+      "fa": "بسیاری از پرقدرت‌ترین سِمت‌ها در مگنزیا به‌صورت جمعی اداره می‌شوند، نه انفرادی.",
       "en": "Many of Magnesia’s most powerful positions are held collectively rather than individually.",
       "ipa": "ˈmɛni əv mæɡˈniʒəz moʊst ˈpaʊɚfəl pəˈzɪʃənz ɚ hɛld kəˈlɛktɪvli ˈræðɚ ðən ˌɪndɪˈvɪdʒuəli",
       "words": [
@@ -1841,7 +1842,7 @@ DRILL({
       ]
     },
     {
-      "fa": "نظامِ آموزشیِ افلاطون پهلو به فرقه‌بازی می‌زند،",
+      "fa": "نظامِ آموزشیِ افلاطون تا مرزِ شباهت به یک فرقهٔ بسته پیش می‌رود،",
       "en": "Plato’s educational regime is borderline cultish,",
       "ipa": "ˈpleɪtoʊz ˌɛdʒəˈkeɪʃənəl rəˈʒim ɪz ˈbɔrdɚˌlaɪn ˈkʌltɪʃ",
       "words": [

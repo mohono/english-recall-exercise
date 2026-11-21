@@ -83,7 +83,7 @@ DRILL({
       ]
     },
     {
-      "fa": "او قصد داشت فقط در یک سخنرانیِ کوتاه، مفهومی پیچیده به نامِ «شادیِ ساختگی» را توضیح دهد،",
+      "fa": "او قصد داشت تنها در یک سخنرانی کوتاه، مفهومی پیچیده به نام «شادیِ ساخته‌شده» را توضیح دهد،",
       "en": "In just a single short talk, he planned to explain a complicated concept called “Synthesized Happiness,”",
       "ipa": "ɪn dʒʌst ə ˈsɪŋɡəl ʃɔrt tɔk hi plænd tə ɪkˈspleɪn ə ˈkɑmpləˌkeɪtəd ˈkɑnsɛpt kɔld ˈsɪnθɪˌsaɪzd ˈhæpinəs",
       "words": [
@@ -104,8 +104,8 @@ DRILL({
         {
           "w": "synthesized",
           "ipa": "ˈsɪnθɪˌsaɪzd",
-          "m": "made by combining parts, not found naturally",
-          "fa": "ساختگی، ساخته‌شده",
+          "m": "produced by combining parts or through a process, here by the mind itself",
+          "fa": "ساخته‌شده، حاصلِ یک فرایند؛ اینجا شادی‌ای که ذهن خودش می‌سازد",
           "more": "synthesize · synthetic · artificial"
         }
       ]
@@ -209,7 +209,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از مغزِ یک‌وربع‌پوندیِ نیای ما در اینجا، هابیلیس،",
+      "fa": "از مغزِ یک‌پوند و ربعیِ این نیای ما، هابیلیس،",
       "en": "going from the one and a quarter pound brain of our ancestor here, Habilis,",
       "ipa": "ˈɡoʊɪŋ frəm ðə wʌn ənd ə ˈkwɔrtɚ paʊnd breɪn əv ˈaʊɚ ˈænˌsɛstɚ hɪr ˈhæbələs",
       "words": [
@@ -223,16 +223,16 @@ DRILL({
       ]
     },
     {
-      "fa": "تا آن کتلتِ نزدیک به سه‌پوندی که همهٔ حاضران میانِ دو گوششان دارند.",
+      "fa": "تا این خوراکِ گوشتیِ قالبیِ نزدیک به سه پوند که تک‌تکِ حاضران بین دو گوششان دارند.",
       "en": "to the almost 3 pound meatloaf that everybody here has between their ears.",
       "ipa": "tə ði ˈɔlˌmoʊst θri paʊnd ˈmitloʊf ðæt ˈɛvriˌbɑdi hɪr hæz bɪˈtwin ðɛr ɪrz",
-      "note": "<en>meatloaf</en> (نوعی کتلتِ قالبی) شوخیِ گیلبرت برای مغز است.",
+      "note": "گیلبرت برای شوخی مغز را به <en>meatloaf</en> تشبیه می‌کند، خوراکی که از گوشت چرخ‌کرده درست می‌کنند و به شکل یک قالب می‌پزند.",
       "words": [
         {
           "w": "meatloaf",
           "ipa": "ˈmitloʊf",
           "m": "a dish of chopped meat pressed into a loaf shape and baked",
-          "fa": "کتلتِ قالبی، میت‌لوف"
+          "fa": "خوراکی از گوشت چرخ‌کرده که به شکل یک قالب پخته می‌شود؛ اینجا تشبیهی طنزآمیز برای مغز"
         }
       ]
     },
@@ -343,7 +343,7 @@ DRILL({
       ]
     },
     {
-      "fa": "خب، معلوم می‌شود وقتی اندازهٔ مغز سه برابر می‌شود، فقط سه برابر بزرگ‌تر نمی‌شود،",
+      "fa": "خب، معلوم می‌شود وقتی مغزها سه برابر می‌شوند، فقط اندازه‌شان نیست که سه برابر می‌شود،",
       "en": "Well, it turns out when brains triple in size, they don't just get three times bigger,",
       "ipa": "wɛl ɪt tɝnz aʊt wɛn breɪnz ˈtrɪpəl ɪn saɪz ðeɪ doʊnt dʒʌst ɡɛt θri taɪmz ˈbɪɡɚ",
       "newPara": true,
@@ -358,7 +358,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بلکه ساختارهای تازه‌ای به دست می‌آورد.",
+      "fa": "ساختارهای تازه‌ای هم پیدا می‌کنند.",
       "en": "they gain new structures.",
       "ipa": "ðeɪ ɡeɪn nu ˈstrʌktʃɚz",
       "words": [
@@ -489,7 +489,7 @@ DRILL({
       "newPara": true
     },
     {
-      "fa": "اما یکی از مهم‌ترین کارهایی که انجام می‌دهد این است که شبیه‌سازِ تجربه است.",
+      "fa": "اما یکی از مهم‌ترین کارهایش این است که نقشِ شبیه‌سازِ تجربه را بازی می‌کند.",
       "en": "But one of the most important things it does is an experience simulator.",
       "ipa": "bət wʌn əv ðə moʊst ɪmˈpɔrtənt θɪŋz ɪt dʌz ɪz ən ɪkˈspɪriəns ˈsɪmjəˌleɪtɚ",
       "words": [
@@ -500,10 +500,11 @@ DRILL({
           "fa": "شبیه‌ساز",
           "more": "simulate · simulation"
         }
-      ]
+      ],
+      "note": "در گفتار دو ساخت با هم آمیخته‌اند. با فعل می‌توان گفت <en>One of the most important things it does is simulate experiences.</en> با اسم هم می‌توان گفت <en>It acts as an experience simulator.</en>"
     },
     {
-      "fa": "خلبان‌ها در شبیه‌سازهای پرواز تمرین می‌کنند تا در هواپیماهای واقعی اشتباهِ واقعی نکنند.",
+      "fa": "خلبان‌ها در شبیه‌سازهای پرواز تمرین می‌کنند تا در هواپیما اشتباهِ واقعی نکنند.",
       "en": "Pilots practice in flight simulators so that they don't make real mistakes in planes.",
       "ipa": "ˈpaɪləts ˈpræktəs ɪn flaɪt ˈsɪmjəˌleɪtɚz soʊ ðæt ðeɪ doʊnt meɪk ril mɪˈsteɪks ɪn pleɪnz",
       "words": [
@@ -573,7 +574,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این ترفندی است که هیچ‌یک از نیاکانمان نمی‌توانستند انجامش دهند، و هیچ جانورِ دیگری نمی‌تواند به خوبیِ ما انجامش دهد.",
+      "fa": "این کاری است که هیچ‌یک از نیاکانمان از عهده‌اش برنمی‌آمد و هیچ جانور دیگری نمی‌تواند درست به شیوهٔ ما انجامش دهد.",
       "en": "This is a trick that none of our ancestors could do, that no other animal can do quite like we can.",
       "ipa": "ðɪs ɪz ə trɪk ðæt nʌn əv ˈaʊɚ ˈænˌsɛstɚz kʊd du ðæt noʊ ˈʌðɚ ˈænəməl kən du kwaɪt laɪk wi kæn",
       "words": [
@@ -732,7 +733,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و دلیلش این نیست که سرهم‌بندی‌اش کردند، چشیدندش و گفتند «اَه!»",
+      "fa": "و دلیلش این نیست که مقداری از آن را سریع درست کردند، چشیدند و گفتند «اَه!»",
       "en": "and it’s not because they whipped some up, tried it, and went yuck!",
       "ipa": "ənd ɪts nɑt bɪˈkɔz ðeɪ wɪpt sʌm ʌp traɪd ɪt ənd wɛnt jʌk",
       "words": [
@@ -740,7 +741,7 @@ DRILL({
           "w": "to whip up",
           "ipa": "tə wɪp ʌp",
           "m": "to make food or something quickly",
-          "fa": "سرهم کردن، سریع درست کردن",
+          "fa": "اینجا: سریع چیزی برای خوردن درست کردن؛ در بافت دیگر: هیجان یا احساسات را برانگیختن",
           "more": "rustle up · throw together"
         },
         {
@@ -829,7 +830,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گیلبرت از حاضران می‌خواهد با شبیه‌سازهای تجربهٔ خود",
+      "fa": "گیلبرت از مخاطبان می‌خواهد شبیه‌سازهای تجربه‌شان را به کار بگیرند",
       "en": "Gilbert asks the audience to use their experience simulators",
       "ipa": "ˈɡɪlbɚt æsks ði ˈɑdiəns tə juz ðɛr ɪkˈspɪriəns ˈsɪmjəˌleɪtɚz",
       "words": [
@@ -913,7 +914,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بعد یک اطلاعاتِ به‌راستی شگفت‌آور را در میان می‌گذارد.",
+      "fa": "بعد نکته‌ای به‌راستی شگفت‌انگیز را با آن‌ها در میان می‌گذارد.",
       "en": "Then he shares a truly amazing piece of information.",
       "ipa": "ðɛn hi ʃɛrz ə ˈtruli əˈmeɪzɪŋ pis əv ˌɪnfɚˈmeɪʃən",
       "words": [
@@ -942,7 +943,7 @@ DRILL({
           "w": "a piece of information",
           "ipa": "ə pis əv ˌɪnfɚˈmeɪʃən",
           "m": "one fact",
-          "fa": "یک اطلاعات، یک داده",
+          "fa": "یک نکته یا یک مورد اطلاعات؛ در انگلیسی برای شمردنِ اطلاعات از این عبارت استفاده می‌شود",
           "more": "a piece of advice · a bit of news"
         }
       ]
@@ -1047,7 +1048,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برندگانِ لاتاری و فلج‌شدگانِ پا به یک اندازه از زندگی‌شان خشنودند.",
+      "fa": "برندگان بخت‌آزمایی و کسانی که پاهایشان فلج شده، به یک اندازه از زندگی‌شان خشنودند.",
       "en": "lottery winners and paraplegics are equally happy with their lives.",
       "ipa": "ˈlɑtəri ˈwɪnɚz ənd ˌpɛrəˈplɛɡɪks ɚ ˈikwəli ˈhæpi wɪð ðɛr lɪvz",
       "words": [
@@ -1144,7 +1145,7 @@ DRILL({
       ]
     },
     {
-      "fa": "او و همکارانش دربارهٔ چیزی به نامِ «سوگیریِ اثر» پژوهش می‌کرده‌اند،",
+      "fa": "او و همکارانش مدتی است دربارهٔ پدیده‌ای به نام «سوگیریِ اثر» پژوهش می‌کنند،",
       "en": "He and his coworkers have been researching something called impact bias,",
       "ipa": "hi ənd hɪz ˌkoʊˈwɝkɚz hæv bɪn riˈsɝtʃɪŋ ˈsʌmθɪŋ kɔld ˈɪmpækt ˈbaɪəs",
       "words": [
@@ -1333,7 +1334,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اثر، شدت و دوامِ بسیار کمتری از آنچه مردم انتظار دارند دارند.",
+      "fa": "بسیار کمتر از انتظارِ مردم اثر می‌گذارند، شدتشان کمتر است و مدتِ اثرشان هم بسیار کوتاه‌تر است.",
       "en": "have far less impact, less intensity, and much less duration than people expect them to have.",
       "ipa": "hæv fɑr lɛs ˈɪmpækt lɛs ɪnˈtɛnsəti ənd mʌtʃ lɛs ˌdʊˈreɪʃən ðən ˈpipəl ɪkˈspɛkt ðɛm tə hæv",
       "words": [
@@ -1658,7 +1659,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا بتوانند به جهانی که در آن گرفتار شده‌اند حسِ بهتری داشته باشند.",
+      "fa": "تا بتوانند نسبت به دنیاهایی که خود را در آن‌ها می‌یابند احساس بهتری داشته باشند.",
       "en": "so that they can feel better about the worlds in which they find themselves.",
       "ipa": "soʊ ðæt ðeɪ kən fil ˈbɛtɚ əˈbaʊt ðə wɝldz ɪn wɪtʃ ðeɪ faɪnd ðɛmˈsɛlvz",
       "words": [
@@ -1666,13 +1667,13 @@ DRILL({
           "w": "to find oneself",
           "ipa": "tə faɪnd ˌwʌnˈsɛlf",
           "m": "to be in a situation, often without planning it",
-          "fa": "خود را در جایی یافتن، گرفتار شدن",
+          "fa": "در این ساخت: خود را در وضعیت یا موقعیتی یافتن؛ در کاربردی دیگر: به خودشناسی رسیدن",
           "more": "end up · wind up"
         }
       ]
     },
     {
-      "fa": "این هم از ایدهٔ بزرگِ گیلبرت: چیزی به نامِ «شادیِ مصنوعی».",
+      "fa": "این هم ایدهٔ اصلیِ گیلبرت: چیزی به نام «شادیِ خودساخته».",
       "en": "There it is, Gilbert’s big idea: something called Synthetic Happiness.",
       "ipa": "ðɛr ɪt ɪz ˈɡɪlbɚts bɪɡ aɪˈdiə ˈsʌmθɪŋ kɔld sɪnˈθɛtɪk ˈhæpinəs",
       "newPara": true,
@@ -1687,8 +1688,8 @@ DRILL({
         {
           "w": "synthetic",
           "ipa": "sɪnˈθɛtɪk",
-          "m": "made by people, not natural",
-          "fa": "مصنوعی",
+          "m": "made or produced, here describing happiness the mind creates for itself",
+          "fa": "ساخته‌شده، مصنوعی؛ اینجا شادیِ واقعی‌ای که خودِ ذهن پدید می‌آورد",
           "more": "artificial · synthesize · natural (opp.)"
         }
       ]
@@ -1713,7 +1714,7 @@ DRILL({
       "ipa": "ɪts laɪk ən ɪˈmjun ˈsɪstəm fɚ ðə maɪnd"
     },
     {
-      "fa": "همان‌طور که دستگاهِ ایمنی بدنمان را از عفونت محافظت می‌کند، شادیِ ساختگی آرامشِ خاطرمان را محافظت می‌کند.",
+      "fa": "همان‌طور که دستگاه ایمنی از بدنمان در برابر عفونت محافظت می‌کند، شادی‌ای که ذهن می‌سازد هم از آرامش خاطرمان محافظت می‌کند.",
       "en": "Just as the immune system protects our bodies from infection, synthesized happiness protects our peace of mind.",
       "ipa": "dʒʌst əz ði ɪˈmjun ˈsɪstəm prəˈtɛkts ˈaʊɚ ˈbɑdiz frəm ɪnˈfɛkʃən ˈsɪnθɪˌsaɪzd ˈhæpinəs prəˈtɛkts ˈaʊɚ pis əv maɪnd",
       "words": [
@@ -1762,7 +1763,7 @@ DRILL({
       ]
     },
     {
-      "fa": "گیلبرت کاری کرد که حاضران شادیِ ساختگی را بفهمند",
+      "fa": "گیلبرت کاری کرد که مخاطبانش مفهومِ شادیِ ساخته‌شده را درک کنند،",
       "en": "Gilbert got his audience to understand synthesized happiness",
       "ipa": "ˈɡɪlbɚt ɡɑt hɪz ˈɑdiəns tə ˌʌndɚˈstænd ˈsɪnθɪˌsaɪzd ˈhæpinəs",
       "newPara": true,
@@ -1810,7 +1811,7 @@ DRILL({
       ]
     },
     {
-      "fa": "او تکه‌تکه به آنجا رسید.",
+      "fa": "او جزءبه‌جزء پیش رفت تا به آنجا رسید.",
       "en": "He got there piece by piece.",
       "ipa": "hi ɡɑt ðɛr pis baɪ pis",
       "words": [
@@ -1824,7 +1825,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس از آنکه چند نمونه از شادیِ ساختگی را در عمل نشانمان داد،",
+      "fa": "بعد از اینکه چند نمونه نشانمان داد که شادیِ ساخته‌شده در عمل چگونه است،",
       "en": "After giving us some examples of synthesized happiness in action,",
       "ipa": "ˈæftɚ ˈɡɪvɪŋ ʌs sʌm ɪɡˈzæmpəlz əv ˈsɪnθɪˌsaɪzd ˈhæpinəs ɪn ˈækʃən",
       "words": [
@@ -1838,7 +1839,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در ادامه نشان می‌دهد اگر به یاد داشته باشید که شادیِ مصنوعی وجود دارد، چطور می‌توانید زندگیِ خردمندانه‌تر و شادتری داشته باشید.",
+      "fa": "در ادامه نشان می‌دهد که اگر وجودِ این شادیِ خودساخته را به یاد داشته باشید، چطور می‌توانید خردمندانه‌تر و شادتر زندگی کنید.",
       "en": "he goes on to show how you can live a wiser, happier life if you remember synthetic happiness exists.",
       "ipa": "hi ɡoʊz ɑn tə ʃoʊ haʊ ju kən laɪv ə ˈwaɪzɚ ˈhæpiɚ laɪf ɪf ju rɪˈmɛmbɚ sɪnˈθɛtɪk ˈhæpinəs ɪɡˈzɪsts",
       "words": [
@@ -2000,7 +2001,7 @@ DRILL({
           "w": "helpful",
           "ipa": "ˈhɛlpfəl",
           "m": "useful",
-          "fa": "مفید، به‌کاربردنی",
+          "fa": "مفید، کمک‌کننده؛ دربارهٔ شخص: اهلِ کمک",
           "more": "useful · help · unhelpful (opp.)"
         }
       ]
@@ -2037,7 +2038,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تشخیصِ اینکه حاضران در فهمِ چه چیزهایی ممکن است به کمک نیاز داشته باشند می‌تواند دشوار و فریبنده باشد.",
+      "fa": "گاهی تشخیص اینکه مخاطبان برای فهمِ چه چیزهایی ممکن است به کمک نیاز داشته باشند، کارِ ظریفی است.",
       "en": "It can be tricky to spot what things an audience may need help understanding.",
       "ipa": "ɪt kən bi ˈtrɪki tə spɑt wʌt θɪŋz ən ˈɑdiəns meɪ nid hɛlp ˌʌndɚˈstændɪŋ",
       "newPara": true,
@@ -2046,7 +2047,7 @@ DRILL({
           "w": "tricky",
           "ipa": "ˈtrɪki",
           "m": "difficult and needing care",
-          "fa": "دشوار، فریبنده",
+          "fa": "اینجا: دشوار و نیازمندِ دقت؛ در توصیف یک سؤال: گمراه‌کننده، دارای نکتهٔ پنهان",
           "more": "difficult · awkward · trick"
         },
         {

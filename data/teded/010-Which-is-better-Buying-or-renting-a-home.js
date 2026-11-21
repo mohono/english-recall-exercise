@@ -61,7 +61,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تنها تفاوت؟ مورگان خانه‌اش را خرید، در حالی که لیزا خانه‌اش را اجاره کرده است.",
+      "fa": "تنها تفاوت؟ مورگان خانه‌اش را خرید، در حالی که لیزا در خانه‌اش اجاره‌نشین است.",
       "en": "The only difference? Morgan bought her house, while Lisa is renting hers.",
       "ipa": "ði ˈoʊnli ˈdɪfərəns ˈmɔrɡən bɑt hɚ haʊs waɪl ˈlisə ɪz ˈrɛntɪŋ hɚz",
       "words": [
@@ -160,7 +160,7 @@ DRILL({
       ]
     },
     {
-      "fa": "وقتی مورگان و لیزا به خانه‌های دوخوابه‌شان می‌روند، هزینه‌های اولِ کارشان کمی با هم فرق دارد.",
+      "fa": "همین که مورگان و لیزا به خانه‌های دوخوابه‌شان اسباب‌کشی می‌کنند، هزینه‌های اولیه‌شان کمی متفاوت به نظر می‌رسد.",
       "en": "As Morgan and Lisa move into their two-bedroom houses, their upfront costs look a little different.",
       "ipa": "əz ˈmɔrɡən ənd ˈlisə muv ɪnˈtu ðɛr tu ˈbɛˌdrum ˈhaʊsəz ðɛr ˈʌpˌfrʌnt kɑsts lʊk ə ˈlɪtəl ˈdɪfərənt",
       "newPara": true,
@@ -169,7 +169,7 @@ DRILL({
           "w": "upfront",
           "ipa": "ˈʌpˌfrʌnt",
           "m": "paid at the beginning, before you get something",
-          "fa": "پیشاپیش، اولِ کار",
+          "fa": "اینجا: اولیه، قابل‌پرداخت در آغاز کار؛ در توصیفِ شخص: رُک و صریح",
           "more": "pay upfront · in advance"
         },
         {
@@ -378,7 +378,7 @@ DRILL({
           "w": "security deposit",
           "ipa": "sɪˈkjʊrəti dəˈpɑzɪt",
           "m": "money paid to a landlord that is returned if nothing is damaged",
-          "fa": "ودیعه، پولِ ضمانت (که آخرِ قرارداد پس داده می‌شود)",
+          "fa": "ودیعه، مبلغ ضمانتی که در آغاز اجاره می‌پردازند",
           "more": "deposit · refundable"
         }
       ]
@@ -427,7 +427,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اجاره‌بهای لیزا به‌طورِ پیوسته بالا رفته است، سالی حدود ۲ درصد.",
+      "fa": "اجاره‌بهای لیزا در تمام این مدت به‌طور پیوسته بالا رفته، هر سال حدود ۲ درصد.",
       "en": "Lisa’s rent has been steadily climbing, about 2% every year.",
       "ipa": "ˈlisəz rɛnt hæz bɪn ˈstɛdəli ˈklaɪmɪŋ əˈbaʊt tu pɚˈsɛnt ˈɛvəri jɪr",
       "words": [
@@ -481,7 +481,7 @@ DRILL({
       "ipa": "ðɪs brɪŋz hɚ faɪv jɪr ˈtoʊtəl tə əˈraʊnd wʌn ˈhʌndrəd twɛlv ˈθaʊzənd ˈdɑlɚz"
     },
     {
-      "fa": "در همین حال، مورگان هنوز دارد وامِ مسکنش را تسویه می‌کند،",
+      "fa": "در همین حال، مورگان هنوز دارد وام مسکنش را قسط‌به‌قسط بازپرداخت می‌کند،",
       "en": "Meanwhile, Morgan’s still paying off her mortgage,",
       "ipa": "ˈminˌwaɪl ˈmɔrɡənz stɪl ˈpeɪɪŋ ɔf hɚ ˈmɔrɡədʒ",
       "newPara": true,
@@ -497,7 +497,7 @@ DRILL({
           "w": "to pay off",
           "ipa": "tə peɪ ɔf",
           "m": "to pay all the money you owe on a loan",
-          "fa": "تسویه کردن (بدهی)",
+          "fa": "اینجا: بدهی را تا تسویهٔ کامل بازپرداخت کردن؛ دربارهٔ تلاش: نتیجه دادن",
           "more": "pay off a debt · paid off"
         }
       ]
@@ -707,7 +707,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و همین به او امکان می‌دهد وامش را از نو تأمین کند (اصطلاحاً «ری‌فایننس» کند).",
+      "fa": "و این به او امکان می‌دهد وامِ قبلی‌اش را با وامی تازه جایگزین کند.",
       "en": "allowing her to refinance.",
       "ipa": "əˈlaʊɪŋ hɚ tə ˌrifəˈnæns",
       "words": [
@@ -722,7 +722,7 @@ DRILL({
           "w": "to refinance",
           "ipa": "tə ˌrifəˈnæns",
           "m": "to replace an old loan with a new one, usually at a lower interest rate",
-          "fa": "وامِ قبلی را با وامی تازه (با شرایط بهتر) عوض کردن",
+          "fa": "تأمین مالیِ مجدد کردن، وام قبلی را با وام تازه‌ای با شرایطِ جدید جایگزین کردن",
           "more": "refinancing"
         }
       ]
@@ -763,7 +763,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پانزده سال که می‌گذرد، اجاره‌بهای لیزا حالا از قسط‌های ماهانهٔ مورگان فراتر رفته است.",
+      "fa": "پانزده سال که از شروع ماجرا می‌گذرد، اجاره‌بهای لیزا حالا بیشتر از پرداخت‌های ماهانهٔ مورگان است.",
       "en": "15 years in, Lisa’s rent now exceeds Morgan’s monthly payments.",
       "ipa": "fɪfˈtin jɪrz ɪn ˈlisəz rɛnt naʊ ɪkˈsidz ˈmɔrɡənz ˈmʌnθli ˈpeɪmənts",
       "newPara": true,
@@ -876,7 +876,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بعد از ۳۰ سال، مورگان بالاخره تسویهٔ وامِ مسکنش را تمام کرده است.",
+      "fa": "بعد از سی سال، مورگان بالاخره کارِ بازپرداختِ وام مسکنش را به پایان رسانده است.",
       "en": "After 30 years, Morgan is finally done paying off her mortgage.",
       "ipa": "ˈæftɚ ˈθɝdi jɪrz ˈmɔrɡən ɪz ˈfaɪnəli dʌn ˈpeɪɪŋ ɔf hɚ ˈmɔrɡədʒ",
       "newPara": true,
@@ -1027,7 +1027,7 @@ DRILL({
           "w": "pretty",
           "ipa": "ˈprɪti",
           "m": "(adverb) quite; fairly",
-          "fa": "نسبتاً، تقریباً",
+          "fa": "اینجا قید: نسبتاً، تا حد زیادی؛ به‌عنوان صفت: زیبا",
           "more": "fairly · rather"
         },
         {
@@ -1070,7 +1070,7 @@ DRILL({
           "w": "at a loss",
           "ipa": "ət ə lɔs",
           "m": "having lost money rather than made it",
-          "fa": "در ضرر",
+          "fa": "اینجا: در وضعِ زیان مالی؛ در تعبیر «ندانستن چه باید کرد»: سردرگم، درمانده",
           "more": "make a loss · at a profit"
         }
       ]
@@ -1157,7 +1157,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در سناریویی دیگر، شاید آن پولِ نقدِ اضافه را در حسابِ بازنشستگی یا سرمایه‌گذاری‌ها می‌ریخت و اجازه می‌داد رشد کند.",
+      "fa": "در شرایطی دیگر، شاید آن پول اضافه را برای بازنشستگی کنار می‌گذاشت یا سرمایه‌گذاری می‌کرد و می‌گذاشت رشد کند.",
       "en": "In another scenario, she might have put that extra cash into retirement or investments and allowed it to grow.",
       "ipa": "ɪn əˈnʌðɚ sɪˈnɛrioʊ ʃi maɪt hæv pʊt ðæt ˈɛkstrə kæʃ ɪnˈtu riˈtaɪɚmənt ɔr ɪnˈvɛstmənts ənd əˈlaʊd ɪt tə ɡroʊ",
       "words": [
@@ -1220,7 +1220,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و بالاخره حس می‌کند آماده است سراغِ تجربه‌های تازه برود و شاخه‌های تازه بدواند.",
+      "fa": "و بالاخره احساس می‌کند آماده است پا به عرصه‌ای تازه بگذارد.",
       "en": "and is finally feeling ready to branch out.",
       "ipa": "ənd ɪz ˈfaɪnəli ˈfilɪŋ ˈrɛdi tə bræntʃ aʊt",
       "words": [
@@ -1228,7 +1228,7 @@ DRILL({
           "w": "to branch out",
           "ipa": "tə bræntʃ aʊt",
           "m": "to start doing something new and different",
-          "fa": "سراغِ کارها و تجربه‌های تازه رفتن، شاخه دواندن",
+          "fa": "به فعالیت یا حوزه‌ای تازه روی آوردن، دامنهٔ کار یا تجربه‌های خود را گسترش دادن",
           "more": "expand · diversify"
         }
       ]

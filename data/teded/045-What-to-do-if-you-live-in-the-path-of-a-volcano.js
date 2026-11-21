@@ -65,7 +65,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و شروع به فوران دادنِ فواره‌هایی از گدازه به بلندیِ ۱۰۰ متر کرد.",
+      "fa": "و شروع کرد به بیرون پاشیدنِ فواره‌هایی از گدازه که صد متر ارتفاع داشتند.",
       "en": "and began spewing lava fountains 100 meters tall.",
       "ipa": "ənd bɪˈɡæn ˈspjuɪŋ ˈlɑvə ˈfaʊntənz wʌn ˈhʌndrəd ˈmitɚz tɔl",
       "words": [
@@ -91,7 +91,7 @@ DRILL({
       ]
     },
     {
-      "fa": "خوشبختانه، سنگِ مذاب به جای دیگری جاری شد و آن شهرکِ ماهیگیری از بیخِ گوشش گذشت.",
+      "fa": "خوشبختانه سنگِ مذاب به سوی دیگری روان شد و با فاصله‌ای اندک از کنارِ آن شهرکِ ماهیگیری گذشت.",
       "en": "Luckily, the molten rock flowed elsewhere, narrowly avoiding the small fishing town.",
       "ipa": "ˈlʌkəli ðə ˈmoʊltən rɑk floʊd ˈɛlsˌwɛr ˈnɛroʊli əˈvɔɪdɪŋ ðə smɔl ˈfɪʃɪŋ taʊn",
       "words": [
@@ -111,7 +111,7 @@ DRILL({
           "w": "narrowly",
           "ipa": "ˈnɛroʊli",
           "m": "only just; by a small amount",
-          "fa": "به‌زحمت، از بیخِ گوش",
+          "fa": "با اختلاف یا فاصله‌ای بسیار اندک؛ به‌طورِ محدود",
           "more": "a narrow escape"
         },
         {
@@ -189,7 +189,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هدایتِ مسیرِ جریانِ گدازه تقریباً همان‌قدر دشوار است که به نظر می‌رسد.",
+      "fa": "تغییر دادنِ مسیرِ جریانِ گدازه تقریباً همان‌قدر دشوار است که از شنیدنِ وصفش به نظر می‌رسد.",
       "en": "Steering a lava flow is about as difficult as it sounds.",
       "ipa": "ˈstɪrɪŋ ə ˈlɑvə floʊ ɪz əˈbaʊt əz ˈdɪfəkəlt əz ɪt saʊndz",
       "newPara": true,
@@ -198,7 +198,7 @@ DRILL({
           "w": "to steer",
           "ipa": "tə stɪr",
           "m": "to control the direction something moves in",
-          "fa": "هدایت کردن، فرمان دادن"
+          "fa": "مسیرِ جریان را هدایت کردن؛ هدایتِ وسیلهٔ نقلیه"
         },
         {
           "w": "flow",
@@ -228,7 +228,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و وقتی سطحِ زمین را می‌شکافد و بیرون می‌آید گدازه، می‌تواند به دمای حدوداً ۱۲۰۰ درجهٔ سلسیوس برسد.",
+      "fa": "و وقتی از سطحِ زمین بیرون می‌زند آن را گدازه می‌نامیم، می‌تواند به دمایی در حدودِ ۱۲۰۰ درجهٔ سلسیوس برسد.",
       "en": "and lava when it breaks through the Earth's surface, can reach temperatures of roughly 1,200° Celsius.",
       "ipa": "ənd ˈlɑvə wɛn ɪt breɪks θru ði ɝθs ˈsɝfəs kən ritʃ ˈtɛmprətʃɚz əv ˈrʌfli twɛlv ˈhʌndrəd ˈsɛlsiəs",
       "words": [
@@ -274,7 +274,7 @@ DRILL({
       ]
     },
     {
-      "fa": "حالا تصور کنید که این گرما از چندین کیلومترِ مربع ساطع شود.",
+      "fa": "حالا تصور کنید این گرما از پهنه‌ای به وسعتِ چندین کیلومتر مربع در حالِ تابیدن باشد.",
       "en": "now imagine that heat radiating from several square kilometers.",
       "ipa": "naʊ ɪˈmædʒən ðæt hit ˈreɪdiˌeɪtɪŋ frəm ˈsɛvrəl skwɛr kəˈlɑmətɚz",
       "words": [
@@ -381,7 +381,7 @@ DRILL({
       ]
     },
     {
-      "fa": "وقتی تا حدوداً ۶۰۰ درجهٔ سلسیوس سرد شد، سفت و بی‌حرکت می‌شود.",
+      "fa": "خودِ گدازه پس از خنک شدن تا حدودِ ۶۰۰ درجهٔ سلسیوس، جامد و بی‌حرکت می‌شود.",
       "en": "lava becomes solid and still after cooling to roughly 600° Celsius.",
       "ipa": "ˈlɑvə bɪˈkʌmz ˈsɑləd ənd stɪl ˈæftɚ ˈkulɪŋ tə ˈrʌfli sɪks ˈhʌndrəd ˈsɛlsiəs",
       "words": [
@@ -396,12 +396,12 @@ DRILL({
           "w": "still",
           "ipa": "stɪl",
           "m": "not moving",
-          "fa": "بی‌حرکت"
+          "fa": "بی‌حرکت، ساکن؛ در نقش قید، هنوز"
         }
       ]
     },
     {
-      "fa": "این روند معمولاً خودبه‌خود ظرفِ همین چند ساعت رخ می‌دهد،",
+      "fa": "این فرایند معمولاً خودبه‌خود و تنها ظرفِ چند ساعت رخ می‌دهد،",
       "en": "This process typically happens on its own in just a few hours,",
       "ipa": "ðɪs ˈprɑˌsɛs ˈtɪpɪkli ˈhæpənz ɑn ɪts oʊn ɪn dʒʌst ə fju ˈaʊɚz",
       "words": [
@@ -420,7 +420,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مگر آنکه فورانی در جریان، خوراکِ این جریانِ گدازه را تأمین کند.",
+      "fa": "مگر اینکه فورانی همچنان ادامه داشته و در حالِ تغذیهٔ جریانِ گدازه باشد.",
       "en": "unless an ongoing eruption is fueling the flow.",
       "ipa": "ənˈlɛs ən ˈɑnˌɡoʊɪŋ ɪˈrʌpʃən ɪz ˈfjulɪŋ ðə floʊ",
       "words": [
@@ -435,7 +435,7 @@ DRILL({
           "w": "to fuel",
           "ipa": "tə ˈfjuəl",
           "m": "to supply something so it can continue",
-          "fa": "خوراک دادن به، تغذیه کردن"
+          "fa": "به جریانِ گدازه مادهٔ تازه رساندن و آن را تداوم دادن؛ سوخت رساندن"
         }
       ]
     },
@@ -467,7 +467,7 @@ DRILL({
           "w": "to evacuate",
           "ipa": "tə ɪˈvækjəˌeɪt",
           "m": "to leave a dangerous place",
-          "fa": "تخلیه کردن",
+          "fa": "محلِ خطر را ترک کردن؛ جایی را از سکنه تخلیه کردن",
           "more": "evacuation"
         },
         {
@@ -617,7 +617,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما امروز بیشترِ آتشفشان‌شناسان هم‌زمانیِ این دو را تصادفی می‌دانند.",
+      "fa": "اما امروزه بیشترِ آتشفشان‌شناسان معتقدند اینکه این دو اتفاق در آن زمان افتادند صرفاً تصادفی بود.",
       "en": "But today, most volcanologists consider the timing to be a coincidence.",
       "ipa": "bət təˈdeɪ moʊst ˌvɔlkəˈnɔlədʒɪsts kənˈsɪdɚ ðə ˈtaɪmɪŋ tə bi ə koʊˈɪnsɪdəns",
       "words": [
@@ -637,7 +637,7 @@ DRILL({
           "w": "timing",
           "ipa": "ˈtaɪmɪŋ",
           "m": "when something happens",
-          "fa": "زمان‌بندی، هم‌زمانی"
+          "fa": "زمانِ وقوعِ اتفاق‌ها نسبت به هم؛ زمان‌بندی"
         },
         {
           "w": "coincidence",
@@ -746,7 +746,7 @@ DRILL({
       "ipa": "bət ðæt ˈdɪdənt stɑp ði aɪˈslændɪk ˈɡʌvɚmənt ɪn ˌnaɪnˈtin ˈsɛvənti θri"
     },
     {
-      "fa": "وقتی آتشفشانِ الدفل فوران کرد و گدازه به سمتِ بندرگاهِ هیمای سرازیر شد،",
+      "fa": "وقتی آتشفشانِ الدفل فوران کرد و گدازه شروع کرد به سرازیر شدن به سوی بندرگاهِ هیمای،",
       "en": "When the Eldfell volcano erupted and lava began streaming towards the Heimaey Harbor,",
       "ipa": "wɛn ði ˈɛldˌfɛl vɑlˈkeɪnoʊ ɪˈrʌptəd ənd ˈlɑvə bɪˈɡæn ˈstrimɪŋ təˈwɔrdz ðə ˈhaɪmaɪ ˈhɑrbɚ",
       "words": [
@@ -827,7 +827,7 @@ DRILL({
           "w": "peak",
           "ipa": "pik",
           "m": "the highest or busiest point",
-          "fa": "اوج"
+          "fa": "اوجِ فعالیت یا تلاش؛ قله"
         },
         {
           "w": "to manage",
@@ -896,7 +896,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما فقط در جایی کارساز بود که به این‌همه آب دسترسی داشته باشد.",
+      "fa": "اما این روش تنها در جایی می‌توانست کارساز باشد که به این مقدار آب دسترسی داشت.",
       "en": "but it could only work in a place with access to this much water.",
       "ipa": "bət ɪt kʊd ˈoʊnli wɝk ɪn ə pleɪs wɪð ˈækˌsɛs tə ðɪs mʌtʃ ˈwɔtɚ",
       "words": [
@@ -931,7 +931,7 @@ DRILL({
           "w": "defense",
           "ipa": "dɪˈfɛns",
           "m": "something that protects against attack or danger",
-          "fa": "دفاع، استحکامات",
+          "fa": "مانع یا سازهٔ حفاظتی؛ دفاع",
           "more": "defence (UK) · defend"
         },
         {
@@ -949,7 +949,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این سدها که معمولاً از موادی مثلِ ماسه، خاک یا شنِ آتشفشانی ساخته می‌شوند،",
+      "fa": "این موانع که معمولاً از مصالحی مانند ماسه، خاک یا سنگ‌ریزه‌های آتشفشانی ساخته می‌شوند،",
       "en": "Typically made of materials like sand, dirt, or volcanic gravel,",
       "ipa": "ˈtɪpɪkli meɪd əv məˈtɪriəlz laɪk sænd dɝt ɔr vɑlˈkænɪk ˈɡrævəl",
       "words": [
@@ -968,7 +968,7 @@ DRILL({
       ]
     },
     {
-      "fa": "می‌توانند مسیرِ جریان‌های گدازه را از مناطقِ پرجمعیت منحرف کنند.",
+      "fa": "می‌توانند جریانِ گدازه را از مناطقِ مسکونی دور کنند و به مسیرِ دیگری بیندازند.",
       "en": "these barriers can divert lava flows away from populated areas.",
       "ipa": "ðiz ˈbæriɚz kən daɪˈvɝt ˈlɑvə floʊz əˈweɪ frəm ˈpɑpjəˌleɪtəd ˈɛriəz",
       "words": [
@@ -983,7 +983,7 @@ DRILL({
           "w": "populated",
           "ipa": "ˈpɑpjəˌleɪtəd",
           "m": "having people living there",
-          "fa": "مسکونی، پرجمعیت",
+          "fa": "مسکونی، دارای سکنه",
           "more": "population · densely populated"
         }
       ]
@@ -994,7 +994,7 @@ DRILL({
       "ipa": "fɚ ɪɡˈzæmpəl wɛn ˈɪtəliz maʊnt ˈɛtnə ɪˈrʌptəd ɪn ˌnaɪnˈtin ˈeɪti θri"
     },
     {
-      "fa": "کارگران ۷۵۰ هزار مترِ مکعب مصالح — معادلِ ۲۵ هزار کامیون بار —",
+      "fa": "کارگران ۷۵۰ هزار متر مکعب مصالح، معادلِ بارِ ۲۵ هزار کامیون، به کار بردند",
       "en": "workers used 750,000 cubic meters of material— the equivalent of 25,000 truckloads—",
       "ipa": "ˈwɝkɚz just ˈsɛvən ˈhʌndrəd ˈfɪfti ˈθaʊzənd ˈkjubɪk ˈmitɚz əv məˈtɪriəl ði ɪˈkwɪvələnt əv ˈtwɛnti faɪv ˈθaʊzənd ˈtrʌˌkloʊdz",
       "words": [
@@ -1014,7 +1014,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به کار بردند تا چهار سدِ بزرگ برپا کنند.",
+      "fa": "تا چهار مانعِ بزرگ برپا کنند.",
       "en": "to erect four large barriers.",
       "ipa": "tə ɪˈrɛkt fɔr lɑrdʒ ˈbæriɚz",
       "words": [
@@ -1085,7 +1085,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این سدها را باید میانِ هر فوران بلندتر می‌کردند.",
+      "fa": "لازم بود در فاصلهٔ میانِ هر دو فوران ارتفاعِ این موانع بیشتر شود.",
       "en": "these barriers had to be raised between each eruption.",
       "ipa": "ðiz ˈbæriɚz hæd tə bi reɪzd bɪˈtwin itʃ ɪˈrʌpʃən"
     },
@@ -1116,7 +1116,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دانشمندان هنوز دارند تلاش می‌کنند دقیق‌تر پیش‌بینی کنند که جریان‌های گدازه دقیقاً از کجا سر برمی‌آورند،",
+      "fa": "دانشمندان همچنان تلاش می‌کنند بهتر پیش‌بینی کنند که جریان‌های گدازه دقیقاً از کجا پدیدار خواهند شد،",
       "en": "Scientists are still working to better predict exactly where lava flows will emerge,",
       "ipa": "ˈsaɪəntɪsts ɚ stɪl ˈwɝkɪŋ tə ˈbɛtɚ prɪˈdɪkt ɪɡˈzæktli wɛr ˈlɑvə floʊz wɪl ɪˈmɝdʒ",
       "newPara": true,
@@ -1138,7 +1138,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به کدام سمت می‌روند، و یک فوران دقیقاً چه مقدار گدازه بیرون می‌دهد.",
+      "fa": "به کدام جهت حرکت خواهند کرد و هر فوران دقیقاً چه مقدار گدازه تولید خواهد کرد.",
       "en": "what direction they’ll travel, and just how much lava an eruption will produce.",
       "ipa": "wʌt dəˈrɛkʃən ðeɪl ˈtrævəl ənd dʒʌst haʊ mʌtʃ ˈlɑvə ən ɪˈrʌpʃən wɪl prəˈdus",
       "words": [
@@ -1191,7 +1191,7 @@ DRILL({
           "w": "otherwise",
           "ipa": "ˈʌðɚˌwaɪz",
           "m": "apart from that; in other ways",
-          "fa": "جز این، از دیگر جهات"
+          "fa": "از جنبه‌های دیگر، جدا از خطرِ یادشده؛ وگرنه"
         },
         {
           "w": "awe-inspiring",

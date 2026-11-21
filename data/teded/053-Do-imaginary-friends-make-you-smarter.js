@@ -69,7 +69,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آمیا گاهی فکرهای بدی به سرش می‌زند، و زلبا با این حال همراهی‌اش می‌کند.",
+      "fa": "آمیا گاهی فکرهای بدی به سرش می‌زند و زلبا با وجودِ این با همان فکرها همراهی می‌کند.",
       "en": "Amia sometimes has bad ideas, and Zelba goes along with them anyway.",
       "ipa": "ˈɑmiə səmˈtaɪmz hæz bæd aɪˈdiəz ənd ˈzɛlbə ɡoʊz əˈlɔŋ wɪð ðɛm ˈɛniˌweɪ",
       "words": [
@@ -95,7 +95,7 @@ DRILL({
       "ipa": "ˈɑmiə ɪz ˈvɛri ril ənd ˈzɛlbə … ɪz nɑt"
     },
     {
-      "fa": "بعضی والدین نگران‌اند که بچه‌شان هم‌بازی‌هایی دارد که نه می‌شود دیدشان و نه صدایشان را شنید،",
+      "fa": "بعضی پدر و مادرها نگران‌اند که فرزندشان هم‌بازی‌هایی دارد که خودشان نه می‌توانند آن‌ها را ببینند و نه صدایشان را بشنوند،",
       "en": "Some parents worry about their child having playmates they can't see or hear,",
       "ipa": "sʌm ˈpɛrənts ˈwɝi əˈbaʊt ðɛr tʃaɪld ˈhævɪŋ ˈpleɪˌmeɪts ðeɪ kænt si ɔr hɪr",
       "newPara": true,
@@ -131,7 +131,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در واقع، حتی نوعِ خاصی از پشتیبانی فراهم می‌کنند که دوستانِ واقعی از پسش برنمی‌آیند.",
+      "fa": "در واقع، این همدم‌ها حتی نوعِ ویژه‌ای از حمایت را فراهم می‌کنند که دوستانِ واقعی نمی‌توانند فراهم کنند.",
       "en": "In fact, they even provide a special kind of support real friends can’t.",
       "ipa": "ɪn fækt ðeɪ ˈivɪn prəˈvaɪd ə ˈspɛʃəl kaɪnd əv səˈpɔrt ril frɛndz kænt",
       "words": [
@@ -196,7 +196,7 @@ DRILL({
           "w": "inventor",
           "ipa": "ɪnˈvɛntɚ",
           "m": "a person who creates something new",
-          "fa": "مخترع، سازنده",
+          "fa": "آفرینندهٔ دوستِ خیالی؛ مخترعِ وسیله",
           "more": "invent · invention"
         },
         {
@@ -230,7 +230,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که خواهر و برادری هم‌سن‌وسالِ خودشان ندارند.",
+      "fa": "که خواهر یا برادری نزدیک به سنِ خود ندارند.",
       "en": "who lack siblings of a similar age.",
       "ipa": "hu læk ˈsɪblɪŋz əv ə ˈsɪməlɚ eɪdʒ",
       "words": [
@@ -279,7 +279,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از هم‌صحبتی خوششان می‌آید، پس خودشان بیشترش را می‌سازند.",
+      "fa": "از داشتنِ همدم خوششان می‌آید، پس با نیرویِ خیال برای خود همدمِ بیشتری می‌سازند.",
       "en": "they like company, so they invent more of it.",
       "ipa": "ðeɪ laɪk ˈkʌmpəni soʊ ðeɪ ɪnˈvɛnt mɔr əv ɪt",
       "words": [
@@ -287,7 +287,7 @@ DRILL({
           "w": "company",
           "ipa": "ˈkʌmpəni",
           "m": "the fact of being with other people",
-          "fa": "هم‌صحبتی، همراهی",
+          "fa": "همدم داشتن، همراهیِ دیگران؛ شرکتِ تجاری",
           "more": "keep someone company · companion"
         },
         {
@@ -343,7 +343,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یک پژوهش حتی نشان داد این بچه‌ها قصه‌گوهای بهتری هستند،",
+      "fa": "حتی یک پژوهش نشان داد که این بچه‌ها قصه‌گوهای بهتری بودند،",
       "en": "One study even found these kids were better storytellers,",
       "ipa": "wʌn ˈstʌdi ˈivɪn faʊnd ðiz kɪdz wɚ ˈbɛtɚ ˈstɔriˌtɛlɚz",
       "words": [
@@ -357,7 +357,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که به این اشاره دارد که خیال‌پردازیِ دوست شاید به رشدِ زبانی و شناختی کمک کند.",
+      "fa": "و این یافته حاکی از آن است که شاید تصور کردنِ دوست‌هایی خیالی به رشدِ زبانی و شناختی کمک کند.",
       "en": "suggesting that imagining friends might help with linguistic and cognitive development.",
       "ipa": "səɡˈdʒɛstɪŋ ðæt ɪˈmædʒənɪŋ frɛndz maɪt hɛlp wɪð lɪŋˈɡwɪstɪk ənd ˈkɑɡnɪtɪv dɪˈvɛləpmənt",
       "words": [
@@ -365,7 +365,7 @@ DRILL({
           "w": "to suggest",
           "ipa": "tə səɡˈdʒɛst",
           "m": "to show that something is probably true",
-          "fa": "اشاره داشتن به، حاکی بودن از",
+          "fa": "حاکی از چیزی بودن (یافتهٔ پژوهش)؛ پیشنهاد دادن",
           "more": "suggestion · indicate"
         },
         {
@@ -461,7 +461,7 @@ DRILL({
       "ipa": "bɪˈtwin kɪdz hu du ənd du nɑt hæv ɪˈmædʒəˌnɛri frɛndz"
     },
     {
-      "fa": "اما خودِ این شخصیت‌های نامرئی از این متفاوت‌تر نمی‌توانند باشند.",
+      "fa": "اما خودِ شخصیت‌های نامرئی آن‌قدر با هم فرق دارند که تفاوتشان از این بیشتر ممکن نیست.",
       "en": "However, the invisible characters themselves couldn't be more different.",
       "ipa": "ˌhaʊˈɛvɚ ði ɪnˈvɪzəbəl ˈkærɪktɚz ðɛmˈsɛlvz ˈkʊdənt bi mɔr ˈdɪfərənt",
       "words": [
@@ -514,7 +514,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بعضی تنها می‌آیند؛ بعضی دیگر یک گلّه دوست و خانوادهٔ خیالی دارند.",
+      "fa": "بعضی تنها می‌آیند؛ بعضی دیگر خودشان دارودسته‌ای از دوستان و اعضای خانوادهٔ خیالی دارند.",
       "en": "Some come alone; others have a gaggle of imaginary friends and family.",
       "ipa": "sʌm kʌm əˈloʊn ˈʌðɚz hæv ə ˈɡæɡəl əv ɪˈmædʒəˌnɛri frɛndz ənd ˈfæməli",
       "words": [
@@ -522,14 +522,14 @@ DRILL({
           "w": "a gaggle of",
           "ipa": "ə ˈɡæɡəl ʌv",
           "m": "(informal) a noisy group of people",
-          "fa": "یک گلّه، یک دار و دسته",
+          "fa": "یک دارودسته یا جمعِ شلوغ؛ دربارهٔ غازها، یک دسته",
           "more": "a bunch of · a crowd of"
         }
       ],
       "note": "gaggle در اصل «دستهٔ غازها» است و برای گروهِ شلوغ و پرسروصدای آدم‌ها به کار می‌رود."
     },
     {
-      "fa": "حتی می‌توانند چیزی باشند که پژوهشگران «اشیای جان‌بخشیده» می‌نامند —",
+      "fa": "حتی ممکن است از آن دسته باشند که پژوهشگران «اشیای شخصیت‌یافته» می‌نامند؛",
       "en": "They can even be what researchers call personified objects—",
       "ipa": "ðeɪ kən ˈivɪn bi wʌt ˈrisɚtʃɚz kɔl pɚˈsɑnəˌfaɪd ˈɑbdʒɛkts",
       "words": [
@@ -537,13 +537,13 @@ DRILL({
           "w": "to personify",
           "ipa": "tə pɚˈsɑnəˌfaɪ",
           "m": "to give human qualities to an object or animal",
-          "fa": "جان بخشیدن، شخصیت دادن (به اشیا)",
+          "fa": "ویژگی‌های انسانی به یک شیء نسبت دادن؛ مظهرِ یک صفت بودن",
           "more": "personification"
         }
       ]
     },
     {
-      "fa": "عروسک‌های پشمالو یا اسباب‌بازی‌هایی که تخیل جانشان بخشیده است.",
+      "fa": "عروسک‌های پارچه‌ایِ حیوانات یا اسباب‌بازی‌هایی که با نیرویِ تخیل جان گرفته‌اند.",
       "en": "stuffed animals or toys brought to life by the imagination.",
       "ipa": "stʌft ˈænəməlz ɔr tɔɪz brɔt tə laɪf baɪ ði ɪˌmædʒəˈneɪʃən",
       "words": [
@@ -597,7 +597,7 @@ DRILL({
       "ipa": "ə tu ˈθaʊzənd fɔr ˈstʌdi faʊnd ˈrʌfli ˈsɪksti ˈsɛvən pɚˈsɛnt əv ˌjuˈɛs kɪdz ˈʌndɚ eɪt hæd ɪnˈvɪzəbəl kəmˈpænjənz"
     },
     {
-      "fa": "در حالی که در ژاپن اشیای جان‌بخشیده بسیار رایج‌تر بودند.",
+      "fa": "در حالی که در ژاپن، اشیایی که کودکان به آن‌ها شخصیت می‌دادند بسیار رایج‌تر بودند.",
       "en": "while in Japan personified objects were much more common.",
       "ipa": "waɪl ɪn dʒəˈpæn pɚˈsɑnəˌfaɪd ˈɑbdʒɛkts wɚ mʌtʃ mɔr ˈkɑmən",
       "words": [
@@ -655,7 +655,7 @@ DRILL({
           "w": "scapegoat",
           "ipa": "ˈskeɪpˌɡoʊt",
           "m": "someone who is blamed for things that others have done",
-          "fa": "سپرِ بلا، قربانیِ تقصیرِ دیگران",
+          "fa": "کسی که تقصیرِ دیگری را گردنش می‌اندازند، بلاگردان",
           "more": "blame · fall guy"
         },
         {
@@ -701,7 +701,7 @@ DRILL({
       "ipa": "sɪns ðɛr nɑt ˈɔlˌweɪz frɛndz"
     },
     {
-      "fa": "در واقع، پژوهشگران حتی بچه‌هایی را گزارش کرده‌اند که با هم‌نشینِ خیالی‌شان دعوا می‌کنند یا واقعاً و به‌طورِ فعال از آن‌ها می‌ترسند.",
+      "fa": "در واقع، پژوهشگران حتی از کودکانی گزارش داده‌اند که با همدمِ خیالی‌شان دعوا می‌کنند یا به‌راستی از او می‌ترسند.",
       "en": "In fact, researchers have even reported children who fight with their imaginary companion or are actively afraid of them.",
       "ipa": "ɪn fækt ˈrisɚtʃɚz hæv ˈivɪn ˌriˈpɔrtəd ˈtʃɪldrən hu faɪt wɪð ðɛr ɪˈmædʒəˌnɛri kəmˈpænjən ɔr ɚ ˈæktɪvli əˈfreɪd əv ðɛm",
       "words": [
@@ -716,7 +716,7 @@ DRILL({
           "w": "actively",
           "ipa": "ˈæktɪvli",
           "m": "in a way that involves real effort or feeling, not just passively",
-          "fa": "به‌طورِ فعال، واقعاً",
+          "fa": "به‌راستی و به‌وضوح (ترسیدن در این جمله)؛ به‌طورِ فعال",
           "more": "active · passively"
         }
       ]
@@ -731,7 +731,7 @@ DRILL({
           "w": "to concern",
           "ipa": "tə kənˈsɝn",
           "m": "to make someone worried",
-          "fa": "نگران کردن",
+          "fa": "نگران کردن؛ مربوط بودن به",
           "more": "concern (n.) · concerned"
         },
         {
@@ -744,7 +744,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما این‌ها نه‌تنها کاملاً عادی‌اند، بلکه قدرتِ ویژهٔ هم‌نشین‌های خیالی را برجسته می‌کنند:",
+      "fa": "اما این وضعیت‌ها نه‌تنها کاملاً طبیعی‌اند، بلکه توانِ ویژهٔ همدم‌های خیالی را هم آشکار می‌کنند. <c>(عبارتِ تأکیدیِ منفی در آغاز، ترتیبِ فعل و فاعل را وارونه می‌کند.)</c>",
       "en": "But not only are they totally normal, they highlight the special power of imaginary companions:",
       "ipa": "bət nɑt ˈoʊnli ɚ ðeɪ ˈtoʊtəli ˈnɔrməl ðeɪ ˈhaɪˌlaɪt ðə ˈspɛʃəl ˈpaʊɚ əv ɪˈmædʒəˌnɛri kəmˈpænjənz",
       "words": [
@@ -893,7 +893,7 @@ DRILL({
           "w": "argument",
           "ipa": "ˈɑrɡjəmənt",
           "m": "an angry disagreement",
-          "fa": "دعوا، بحث",
+          "fa": "بگومگو، مشاجره؛ استدلال",
           "more": "argue · quarrel"
         },
         {
@@ -976,7 +976,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اختیارِ کار همیشه دستِ خودِ بچه‌هاست — حتی وقتی به نظر نمی‌رسد.",
+      "fa": "بچه‌ها همیشه اختیارِ اوضاع را دارند، حتی وقتی در ظاهر این‌طور به نظر نمی‌رسد.",
       "en": "the kids are always in control— even when it doesn’t look like it.",
       "ipa": "ðə kɪdz ɚ ˈɔlˌweɪz ɪn kənˈtroʊl ˈivɪn wɛn ɪt ˈdʌzənt lʊk laɪk ɪt",
       "words": [
@@ -1012,7 +1012,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما به‌طورِ کلی، وقتی بچه‌ها حدودِ ۵ یا ۶ سالگی در مدرسه دوست پیدا می‌کنند،",
+      "fa": "اما معمولاً وقتی بچه‌ها حدودِ پنج یا شش سالگی در مدرسه شروع به دوست پیدا کردن می‌کنند،",
       "en": "But generally, as kids start making friends in school around age 5 or 6,",
       "ipa": "bət ˈdʒɛnərəli əz kɪdz stɑrt ˈmeɪkɪŋ frɛndz ɪn skul əˈraʊnd eɪdʒ faɪv ɔr sɪks",
       "words": [
@@ -1033,7 +1033,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دربارهٔ هم‌نشین‌های خیالی‌شان روزبه‌روز کمتر حرف می‌زنند.",
+      "fa": "دفعاتی که دربارهٔ همدم‌های خیالی‌شان حرف می‌زنند کمتر و کمتر می‌شود.",
       "en": "they talk about their imaginary companions less and less often.",
       "ipa": "ðeɪ tɔk əˈbaʊt ðɛr ɪˈmædʒəˌnɛri kəmˈpænjənz lɛs ənd lɛs ˈɔfən",
       "words": [
@@ -1204,7 +1204,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پس دفعهٔ بعد که دیدید بچه‌ای با هوا بی‌وقفه وراجی می‌کند،",
+      "fa": "پس دفعهٔ بعد که دیدید کودکی دارد یکریز حرف می‌زند بی‌آنکه کسی مقابلش باشد،",
       "en": "So, the next time you see a kid chattering to thin air,",
       "ipa": "soʊ ðə nɛkst taɪm ju si ə kɪd ˈtʃætərɪŋ tə θɪn ɛr",
       "newPara": true,
@@ -1220,7 +1220,7 @@ DRILL({
           "w": "thin air",
           "ipa": "θɪn ɛr",
           "m": "nothing; empty space where nobody is",
-          "fa": "هوا، هیچ",
+          "fa": "فضای خالی، جایی که ظاهراً کسی نیست",
           "more": "vanish into thin air"
         }
       ]

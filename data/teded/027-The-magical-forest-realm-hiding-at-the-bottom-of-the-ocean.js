@@ -61,7 +61,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و این غواص‌ها پس از پایین رفتن به منطقهٔ نیمه‌تاریکِ دریا — ناحیه‌ای از اقیانوس که از ۳۰ تا ۱۵۰ متر را دربر می‌گیرد —",
+      "fa": "و پس از پایین رفتن به منطقهٔ نیمه‌روشنِ دریا، ناحیه‌ای از اقیانوس که از عمق ۳۰ تا ۱۵۰ متری امتداد دارد،",
       "en": "And after descending into the mesophotic zone, an ocean region spanning 30 to 150 m,",
       "ipa": "ənd ˈæftɚ dɪˈsɛndɪŋ ɪnˈtu ðə ˌmɛsoʊˈfætɪk zoʊn ən ˈoʊʃən ˈridʒən ˈspænɪŋ ˈθɝdi tə wʌn ˈhʌndrəd ˈfɪfti ɛm",
       "words": [
@@ -96,7 +96,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به کشفِ شگفت‌انگیزی دست یافتند.",
+      "fa": "این کاوشگرانِ زیرِ آب به کشفی چشمگیر دست یافتند.",
       "en": "these aquanauts made a remarkable discovery.",
       "ipa": "ðiz ˈɑkwəˌnɑts meɪd ə rɪˈmɑrkəbəl dɪˈskʌvəri",
       "words": [
@@ -124,7 +124,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا ۹۰ متر زیرِ سطحِ آب، جایی که گاهی تنها ۰٫۱ درصدِ نورِ خورشیدِ سطح به آن می‌رسد،",
+      "fa": "تا عمقِ ۹۰ متریِ زیرِ سطح آب، جایی که گاهی فقط یک‌دهمِ درصد از نورِ خورشیدی که به سطح می‌تابد می‌تواند به آن برسد،",
       "en": "Up to 90 m below the surface, where sometimes only 0.1% of surface sunlight can reach,",
       "ipa": "ʌp tə ˈnaɪnti ɛm bɪˈloʊ ðə ˈsɝfəs wɛr səmˈtaɪmz ˈoʊnli ˈzɪroʊ pɔɪnt wʌn pɚˈsɛnt əv ˈsɝfəs ˈsʌnˌlaɪt kən ritʃ",
       "words": [
@@ -181,7 +181,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و حتی در اواخرِ سدهٔ نوزدهم هم صحبت‌هایی بود از اینکه چنین غول‌هایی از ژرفاهای بسیار زیاد بیرون کشیده شده‌اند.",
+      "fa": "و از همان اواخرِ قرن نوزدهم هم صحبت از این بود که چنین غول‌هایی را از اعماقی بسیار زیاد بالا کشیده‌اند.",
       "en": "and there had already been talk of such giants being pulled up from enormous depths in the late 19th century.",
       "ipa": "ənd ðɛr hæd ɔlˈrɛdi bɪn tɔk əv sʌtʃ ˈdʒaɪənts ˈbiɪŋ pʊld ʌp frəm ɪˈnɔrməs dɛpθs ɪn ðə leɪt ˌnaɪnˈtinθ ˈsɛntʃəri",
       "words": [
@@ -216,7 +216,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما پس از کشفِ مدیترانه، ماهیگیران، افسرانِ نیروی دریایی و دانشمندان",
+      "fa": "اما پس از این کشف در دریای مدیترانه، ماهیگیران، افسران نیروی دریایی و دانشمندان",
       "en": "But following the Mediterranean discovery, fishermen, naval officers, and scientists",
       "ipa": "bət ˈfɑloʊɪŋ ðə ˌmɛdətəˈreɪniən dɪˈskʌvəri ˈfɪʃɚmɪn ˈneɪvəl ˈɔfəsɚz ənd ˈsaɪəntɪsts",
       "words": [
@@ -244,7 +244,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با تورِ لایروبی کلپ‌های غول‌آسای بیشتری از اعماقِ نیمه‌تاریک بیرون کشیدند،",
+      "fa": "شروع کردند به بیرون کشیدنِ کلپ‌های غول‌پیکرِ بیشتری از بسترِ آب‌های نیمه‌روشن،",
       "en": "began dredging up more massive mesophotic kelps",
       "ipa": "bɪˈɡæn ˈdrɛdʒɪŋ ʌp mɔr ˈmæsɪv ˌmɛsoʊˈfætɪk kɛlps",
       "words": [
@@ -252,7 +252,7 @@ DRILL({
           "w": "to dredge up",
           "ipa": "tə drɛdʒ ʌp",
           "m": "to bring something up from the bottom of a sea or river",
-          "fa": "از کف بیرون کشیدن (با تور/لایروب)",
+          "fa": "اینجا: با کشیدنِ ابزار روی بسترِ آب چیزی را بیرون آوردن؛ مجازی: موضوع یا خاطره‌ای قدیمی را دوباره پیش کشیدن",
           "more": "dredge · dredge up the past (fig.)"
         },
         {
@@ -313,7 +313,7 @@ DRILL({
       "note": "مقایسهٔ دو بُعدِ مختلف: عمقِ آب با ارتفاعِ هرم (deeper than … is tall)."
     },
     {
-      "fa": "این جنگل‌ها نباید ممکن باشند.",
+      "fa": "طبقِ انتظار، اصلاً نباید وجودِ چنین جنگل‌هایی ممکن باشد.",
       "en": "These forests should be impossible.",
       "ipa": "ðiz ˈfɔrəsts ʃʊd bi ɪmˈpɑsəbəl",
       "newPara": true
@@ -333,7 +333,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با این همه، این نمونه‌ها به اندازهٔ همتایانِ کم‌عمقشان و اغلب حتی بزرگ‌تر از آن‌ها رشد می‌کنند.",
+      "fa": "با این همه، این نمونه‌ها به اندازهٔ همتایانشان در آب‌های کم‌عمق رشد می‌کنند و اغلب حتی از آن‌ها هم بزرگ‌تر می‌شوند.",
       "en": "Yet these specimens grow as large as and often even larger than their shallow counterparts.",
       "ipa": "jɛt ðiz ˈspɛsəmənz ɡroʊ əz lɑrdʒ əz ənd ˈɔfən ˈivɪn ˈlɑrdʒɚ ðən ðɛr ˈʃæloʊ ˈkaʊntɚˌpɑrts",
       "words": [
@@ -368,12 +368,12 @@ DRILL({
       ]
     },
     {
-      "fa": "همهٔ این‌ها با نوری کمتر از آنچه فقط برای زنده ماندن لازم دارند.",
+      "fa": "آن هم با نوری کمتر از آنچه انتظار می‌رود حتی برای زنده ماندن نیاز داشته باشند.",
       "en": "All with less light than they should require just to stay alive.",
       "ipa": "ɔl wɪð lɛs laɪt ðən ðeɪ ʃʊd ˌriˈkwaɪɚ dʒʌst tə steɪ əˈlaɪv"
     },
     {
-      "fa": "از طرفِ دیگر، منطقهٔ نیمه‌تاریک مرزِ میانِ دو جهان است.",
+      "fa": "البته منطقهٔ نیمه‌روشن مرز بین دو جهان است.",
       "en": "Then again, the mesophotic is the border between two worlds.",
       "ipa": "ðɛn əˈɡɛn ðə ˌmɛsoʊˈfætɪk ɪz ðə ˈbɔrdɚ bɪˈtwin tu wɝldz",
       "words": [
@@ -477,7 +477,7 @@ DRILL({
       ]
     },
     {
-      "fa": "کلپ‌های نیمه‌تاریک کارآمدتر از همتایانِ کم‌عمقشان فتوسنتز می‌کنند،",
+      "fa": "کلپ‌های منطقهٔ نیمه‌روشن با بازدهِ بیشتری از همتایانشان در آب‌های کم‌عمق فتوسنتز می‌کنند،",
       "en": "Mesophotic kelps photosynthesize more efficiently than their shallow counterparts,",
       "ipa": "ˌmɛsoʊˈfætɪk kɛlps ˌfoʊəˈsaɪnəˌsaɪts mɔr ɪˈfɪʃəntli ðən ðɛr ˈʃæloʊ ˈkaʊntɚˌpɑrts",
       "words": [
@@ -574,7 +574,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با در نظر گرفتنِ این سازگاری‌ها، پژوهش‌های موجود هنوز نشان می‌دهد که جنگل‌های کلپِ ژرف",
+      "fa": "حتی وقتی این سازگاری‌ها را به حساب می‌آوریم، پژوهش‌های موجود همچنان حاکی از آن‌اند که جنگل‌های کلپ در آب‌های عمیق",
       "en": "By taking these adaptations into account, existing research still suggests that deep kelp forests",
       "ipa": "baɪ ˈteɪkɪŋ ðiz ˌædæpˈteɪʃənz ɪnˈtu əˈkaʊnt ɪɡˈzɪstɪŋ riˈsɝtʃ stɪl səɡˈdʒɛsts ðæt dip kɛlp ˈfɔrəsts",
       "words": [
@@ -804,7 +804,7 @@ DRILL({
       ]
     },
     {
-      "fa": "سهمِ کاملشان را از راهِ انتشارِ غیرفعال و کم‌انرژی می‌گیرند.",
+      "fa": "از راهِ انتشارِ غیرفعال که انرژیِ کمی می‌برد، به اندازهٔ نیازشان از آن دریافت می‌کنند.",
       "en": "they get their fill through low-energy passive diffusion.",
       "ipa": "ðeɪ ɡɛt ðɛr fɪl θru loʊ ˈɛnɚdʒi ˈpæsɪv dɪˈfjuʒən",
       "words": [
@@ -812,7 +812,7 @@ DRILL({
           "w": "to get your fill",
           "ipa": "tə ɡɛt jɔr fɪl",
           "m": "to have as much of something as you want or need",
-          "fa": "به اندازهٔ کافی گرفتن، سیر شدن از",
+          "fa": "به اندازهٔ نیاز یا میلِ خود از چیزی دریافت کردن؛ دربارهٔ خوردنی: سیر شدن از آن",
           "more": "have your fill of · enough"
         },
         {
@@ -832,7 +832,7 @@ DRILL({
       ]
     },
     {
-      "fa": "کلپ‌های نیمه‌تاریک با تولید نکردنِ ضدآفتابِ مولکولی هم در انرژی صرفه‌جویی می‌کنند،",
+      "fa": "کلپ‌های منطقهٔ نیمه‌روشن از راه دیگری هم در مصرف انرژی صرفه‌جویی می‌کنند؛ نیازی ندارند ضدآفتابِ مولکولی تولید کنند،",
       "en": "Mesophotic kelps also save energy by not having to produce molecular sunscreen,",
       "ipa": "ˌmɛsoʊˈfætɪk kɛlps ˈɔlsoʊ seɪv ˈɛnɚdʒi baɪ nɑt ˈhævɪŋ tə prəˈdus məˈlɛkjəlɚ sənˈskrin",
       "words": [
@@ -917,7 +917,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و با ذخیره‌های کربنی که در طولِ تابستان انبار کرده‌اند به‌زحمت سر می‌کنند.",
+      "fa": "و با ذخایر کربنی که در طول تابستان اندوخته‌اند زنده می‌مانند.",
       "en": "and subsist on the carbon reserves they stocked up over the summer.",
       "ipa": "ənd səbˈsɪst ɑn ðə ˈkɑrbən rɪˈzɝvz ðeɪ stɑkt ʌp ˈoʊvɚ ðə ˈsʌmɚ",
       "words": [
@@ -966,7 +966,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما در حالی که دسترسیِ کلپِ نیمه‌تاریک به نورِ خورشید هم با فصل‌ها تغییر می‌کند،",
+      "fa": "اما با اینکه میزان دسترسیِ کلپ‌های منطقهٔ نیمه‌روشن به نور خورشید هم با فصل‌ها تغییر می‌کند،",
       "en": "But while mesophotic kelp's access to sunlight also changes with the seasons,",
       "ipa": "bət waɪl ˌmɛsoʊˈfætɪk kɛlps ˈækˌsɛs tə ˈsʌnˌlaɪt ˈɔlsoʊ ˈtʃeɪndʒəz wɪð ðə ˈsizənz",
       "words": [
@@ -1213,7 +1213,7 @@ DRILL({
       ]
     },
     {
-      "fa": "از آنجا که بیشترِ جنگل‌های کلپ برای ماهواره‌ها دیده نمی‌شوند،",
+      "fa": "از آنجا که بیشتر جنگل‌های کلپ از دید ماهواره‌ها پنهان‌اند،",
       "en": "Since most kelp forests are invisible to satellites,",
       "ipa": "sɪns moʊst kɛlp ˈfɔrəsts ɚ ɪnˈvɪzəbəl tə ˈsætəˌlaɪts",
       "words": [
@@ -1255,7 +1255,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این وسیله‌های کنترل‌از‌راهِ دور، یعنی ROVها، می‌توانند ژرفاهایی را بسیار فراتر از دسترسِ انسان کاوش و فیلمبرداری کنند.",
+      "fa": "این وسایلِ نقلیهٔ هدایت‌شونده از راه دور، یا «آر‌اُ‌وی»ها، می‌توانند در اعماقی بسیار فراتر از دسترس انسان کاوش کنند و از آنجا فیلم بگیرند.",
       "en": "These remotely operated vehicles, ROVs, can explore and film depths far beyond the reach of humans.",
       "ipa": "ðiz riˈmoʊtli ˈɑpəˌreɪtəd ˈvihɪkəlz ˌɑrˌoʊˈviz kən ɪkˈsplɔr ənd fɪlm dɛpθs fɑr bɪˈɑnd ðə ritʃ əv ˈhjumənz",
       "words": [
@@ -1311,15 +1311,15 @@ DRILL({
       ]
     },
     {
-      "fa": "مثلِ آن‌هایی که در آب‌های ساحلِ استواییِ جزایرِ گالاپاگوس‌اند.",
+      "fa": "مانند جنگل‌هایی که در آب‌های نزدیکِ ساحلِ گرمسیریِ جزایر گالاپاگوس قرار دارند.",
       "en": "such as those off the tropical coast of the Galapagos Islands.",
       "ipa": "sʌtʃ əz ðoʊz ɔf ðə ˈtrɑpɪkəl koʊst əv ðə ɡəˈlɑpəɡoʊz ˈaɪləndz",
       "words": [
         {
           "w": "tropical",
           "ipa": "ˈtrɑpɪkəl",
-          "m": "from or relating to the hot, wet areas near the equator",
-          "fa": "استوایی، گرمسیری",
+          "m": "relating to or found in the part of the world near the equator",
+          "fa": "گرمسیری، مربوط به نواحیِ میان دو مدارِ رأس‌السرطان و رأس‌الجدی",
           "more": "the tropics · subtropical"
         }
       ]

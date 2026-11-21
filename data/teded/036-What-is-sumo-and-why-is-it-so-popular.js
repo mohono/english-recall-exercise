@@ -110,7 +110,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که فقط صنفِ آن‌ها حق دارد از تماشاگران پولِ ورودی بگیرد.",
+      "fa": "که فقط صنفِ آن‌ها حق داشت از تماشاگران ورودی بگیرد.",
       "en": "that only their guild had the right to charge audiences admission.",
       "ipa": "ðæt ˈoʊnli ðɛr ɡɪld hæd ðə raɪt tə tʃɑrdʒ ˈɑdiənsəz ædˈmɪʃən",
       "words": [
@@ -125,7 +125,7 @@ DRILL({
           "w": "to charge",
           "ipa": "tə tʃɑrdʒ",
           "m": "to ask someone to pay an amount of money",
-          "fa": "پول گرفتن، هزینه دریافت کردن",
+          "fa": "از کسی مبلغی گرفتن؛ چیزی را شارژ کردن؛ کسی را متهم کردن",
           "more": "charge (n.) · free of charge"
         },
         {
@@ -139,7 +139,7 @@ DRILL({
           "w": "admission",
           "ipa": "ædˈmɪʃən",
           "m": "the money you pay to enter a place or event",
-          "fa": "پولِ ورودی، حقِ ورود",
+          "fa": "بهای ورود؛ پذیرش؛ اعتراف",
           "more": "entrance fee · admit"
         }
       ]
@@ -180,7 +180,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در بازگشت به توکیو، صنف پرونده‌اش را نزدِ یک قاضیِ محلی برد.",
+      "fa": "در خودِ توکیو، اعضای صنف پرونده‌شان را نزدِ یک قاضیِ محلی بردند.",
       "en": "Back in Tokyo, the guild took their case to a magistrate.",
       "ipa": "bæk ɪn ˈtoʊkiˌoʊ ðə ɡɪld tʊk ðɛr keɪs tə ə ˈmædʒəˌstreɪt",
       "newPara": true,
@@ -210,13 +210,13 @@ DRILL({
           "w": "to argue",
           "ipa": "tə ˈɑrɡju",
           "m": "to give reasons to show that something is true",
-          "fa": "استدلال کردن",
+          "fa": "استدلال کردن؛ جرّ و بحث کردن",
           "more": "argument · claim"
         }
       ]
     },
     {
-      "fa": "که به «رسومِ بسیار باستانیِ» سومو پایبند بود،",
+      "fa": "که به «کهن‌ترین رسومِ» سومو پایبند بود،",
       "en": "that adhered to sumo’s most “ancient practices,”",
       "ipa": "ðæt ædˈhɪrd tə ˈsumoʊz moʊst ˈeɪntʃənt ˈpræktəsəz",
       "words": [
@@ -238,13 +238,13 @@ DRILL({
           "w": "practice",
           "ipa": "ˈpræktəs",
           "m": "a usual way of doing something, often as a custom",
-          "fa": "رسم، عرف",
+          "fa": "رسم یا شیوهٔ مرسوم؛ تمرین",
           "more": "custom · tradition"
         }
       ]
     },
     {
-      "fa": "هیچ اجراکنندهٔ دیگری در کشور مشروع نیست.",
+      "fa": "هیچ‌یک از اجراکنندگانِ دیگر در سراسرِ کشور رسمیت نداشتند.",
       "en": "no other performers in the country were legitimate.",
       "ipa": "noʊ ˈʌðɚ pɚˈfɔrmɚz ɪn ðə ˈkʌntri wɚ ləˈdʒɪtəmət",
       "words": [
@@ -386,7 +386,7 @@ DRILL({
           "w": "court",
           "ipa": "kɔrt",
           "m": "the king or emperor, his family and the people who serve them",
-          "fa": "دربار",
+          "fa": "دربارِ فرمانروا؛ دادگاه؛ زمینِ بازی",
           "more": "royal court · courtier"
         },
         {
@@ -413,7 +413,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا نمایشی از نفوذِ امپراتور باشند.",
+      "fa": "و این فراخوان نمایشی از نفوذِ امپراتور بود.",
       "en": "as a demonstration of the emperor's influence.",
       "ipa": "əz ə ˌdɛmənˈstreɪʃən əv ði ˈɛmpərɚz ˈɪnfluəns",
       "words": [
@@ -421,7 +421,7 @@ DRILL({
           "w": "demonstration",
           "ipa": "ˌdɛmənˈstreɪʃən",
           "m": "an act that shows clearly that something exists or is true",
-          "fa": "نمایش، نشان دادن",
+          "fa": "نمایشِ قدرت یا نفوذ؛ نمایشِ عملی؛ تظاهرات",
           "more": "demonstrate · display"
         },
         {
@@ -441,7 +441,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در ابتدا، این کشتی‌گیران به حریفانشان مشت می‌زدند، پنجه می‌کشیدند و آن‌ها را می‌قاپیدند،",
+      "fa": "اوایل رسم بر این بود که این کشتی‌گیران به حریفانشان مشت بزنند، چنگشان بکشند و آن‌ها را بگیرند،",
       "en": "Initially, these wrestlers would punch, scratch, and grab their opponents,",
       "ipa": "ɪˈnɪʃəli ðiz ˈrɛslɚz wʊd pʌntʃ skrætʃ ənd ɡræb ðɛr əˈpoʊnənts",
       "words": [
@@ -470,7 +470,7 @@ DRILL({
           "w": "to grab",
           "ipa": "tə ɡræb",
           "m": "to take hold of someone or something suddenly and roughly",
-          "fa": "قاپیدن، چنگ زدن",
+          "fa": "حریف را گرفتن، چنگ زدن به؛ قاپیدن",
           "more": "seize · grip"
         },
         {
@@ -483,7 +483,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و با به‌زور رساندنِ دست‌ها یا زانوهای حریف به زمین، ادعای پیروزی می‌کردند.",
+      "fa": "و با فشردنِ دست‌ها یا زانوهای حریف به زمین، پیروزی را از آنِ خود می‌کردند.",
       "en": "claiming victory by forcing their hands or knees to the ground.",
       "ipa": "ˈkleɪmɪŋ ˈvɪktəri baɪ ˈfɔrsɪŋ ðɛr hændz ɔr niz tə ðə ɡraʊnd",
       "words": [
@@ -491,7 +491,7 @@ DRILL({
           "w": "to claim victory",
           "ipa": "tə kleɪm ˈvɪktəri",
           "m": "to say officially that you have won",
-          "fa": "ادعای پیروزی کردن، پیروز اعلام شدن",
+          "fa": "پیروزی را از آنِ خود کردن؛ اعلامِ پیروزی کردن",
           "more": "victory · win · triumph"
         },
         {
@@ -610,7 +610,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با این حال، رهبرانِ سامورایی همچنان سربازانشان را وادار می‌کردند مسابقه‌های سومویِ کمتر رسمی اجرا کنند",
+      "fa": "با این حال، رهبرانِ سامورایی همچنان ترتیبی می‌دادند که سربازان در مسابقه‌های سومو با تشریفاتِ کمتر کشتی بگیرند،",
       "en": "However, samurai leaders still had soldiers perform less formal sumo bouts",
       "ipa": "ˌhaʊˈɛvɚ ˈsæmʊˌraɪ ˈlidɚz stɪl hæd ˈsoʊldʒɚz pɚˈfɔrm lɛs ˈfɔrməl ˈsumoʊ baʊts",
       "words": [
@@ -618,7 +618,7 @@ DRILL({
           "w": "to have someone do something",
           "ipa": "tə hæv ˈsʌmˌwʌn du ˈsʌmθɪŋ",
           "m": "to make or arrange for someone to do something",
-          "fa": "واداشتن کسی به کاری",
+          "fa": "ترتیب دادن یا از کسی خواستن که کاری را انجام دهد",
           "more": "get someone to do · make someone do"
         },
         {
@@ -792,7 +792,7 @@ DRILL({
           "w": "to bring in",
           "ipa": "tə brɪŋ ɪn",
           "m": "to attract people or make money",
-          "fa": "آوردن، جذب کردن (مشتری/درآمد)",
+          "fa": "جذب کردنِ مشتری؛ درآمد ایجاد کردن",
           "more": "attract · draw in"
         }
       ]
@@ -840,7 +840,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که شغلی پایدار را تضمین می‌کرد و شرایطِ کارشان را بهتر می‌کرد.",
+      "fa": "و از این راه برای خود اشتغالِ پایدار فراهم کردند و شرایطِ کارشان را بهبود بخشیدند.",
       "en": "ensuring steady employment and improving their working conditions.",
       "ipa": "ɛnˈʃʊrɪŋ ˈstɛdi ɛmˈplɔɪmənt ənd ɪmˈpruvɪŋ ðɛr ˈwɝkɪŋ kənˈdɪʃənz",
       "words": [
@@ -890,7 +890,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مشتاق شدند برای هرچه بیشتر مشتریِ پول‌پرداز اجرا کنند.",
+      "fa": "مشتاق شدند برای بیشترین تعدادِ ممکن از تماشاگرانی که پول می‌پرداختند اجرا کنند.",
       "en": "they became eager to perform for as many paying customers as possible.",
       "ipa": "ðeɪ bɪˈkeɪm ˈiɡɚ tə pɚˈfɔrm fɚ əz ˈmɛni ˈpeɪɪŋ ˈkʌstəmɚz əz ˈpɑsəbəl",
       "words": [
@@ -911,7 +911,7 @@ DRILL({
       ]
     },
     {
-      "fa": "جوانانِ اهلِ ابتکار نمایش‌های سومویِ پرهیاهو و آشوب‌زده در گوشهٔ خیابان‌ها راه انداختند،",
+      "fa": "مردانِ جوانِ اهلِ ابتکار، سرِ خیابان‌ها نمایش‌های پرهیاهوی سومو راه می‌انداختند،",
       "en": "Enterprising young men put on rowdy street corner sumo performances,",
       "ipa": "ˈɛntɚˌpraɪzɪŋ jʌŋ mɛn pʊt ɑn ˈraʊdi strit ˈkɔrnɚ ˈsumoʊ pɚˈfɔrmənsəz",
       "words": [
@@ -946,7 +946,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به امیدِ جذبِ کمک‌های مالیِ رهگذران.",
+      "fa": "به این امید که کمک‌های مالیِ رهگذران را جلب کنند.",
       "en": "hoping to attract the donations of passersby.",
       "ipa": "ˈhoʊpɪŋ tə əˈtrækt ðə doʊˈneɪʃənz əv ˈpæsɚzbi",
       "words": [
@@ -974,7 +974,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این مسابقه‌ها که نظم و سازمان‌دهیِ نمایش‌های رسمی را نداشتند،",
+      "fa": "از آنجا که نظم و سامانِ اجراهای رسمی را نداشتند،",
       "en": "Lacking the organization of formal performances,",
       "ipa": "ˈlækɪŋ ði ˌɔrɡənəˈzeɪʃən əv ˈfɔrməl pɚˈfɔrmənsəz",
       "words": [
@@ -995,7 +995,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اغلب به دعوا و آسیب‌دیدگی در میانِ هم شرکت‌کنندگان و هم تماشاگران منجر می‌شدند.",
+      "fa": "این مسابقه‌ها اغلب به درگیری و آسیب‌دیدگی هم در میانِ شرکت‌کنندگان و هم در میانِ تماشاگران می‌انجامیدند.",
       "en": "these bouts often resulted in fights and injuries among both participants and spectators.",
       "ipa": "ðiz baʊts ˈɔfən rɪˈzʌltɪd ɪn faɪts ənd ˈɪndʒəriz əˈmʌŋ boʊθ pɑrˈtɪsəpənts ənd ˈspɛkteɪtɚz",
       "words": [
@@ -1058,7 +1058,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و هرازگاهی همهٔ انواعِ سومو را در شهرهای بزرگ‌تر ممنوع کردند.",
+      "fa": "و به‌طورِ دوره‌ای همهٔ شکل‌های سومو را در شهرهای بزرگ‌تر ممنوع می‌کردند.",
       "en": "periodically banning all forms of sumo in larger cities.",
       "ipa": "ˌpɪriˈɑdɪkəli ˈbænɪŋ ɔl fɔrmz əv ˈsumoʊ ɪn ˈlɑrdʒɚ ˈsɪtiz",
       "words": [
@@ -1165,7 +1165,7 @@ DRILL({
           "w": "ring",
           "ipa": "rɪŋ",
           "m": "an area where people fight or compete, often enclosed",
-          "fa": "رینگ، میدان",
+          "fa": "میدانِ کشتی؛ حلقه؛ انگشتر",
           "more": "arena · boxing ring"
         }
       ]
@@ -1240,7 +1240,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که وزنشان از پیش هم به آن‌ها کمک می‌کرد حریفانشان را به زمین بیندازند.",
+      "fa": "کشتی‌گیرانی که وزنشان پیش از آن هم کمکشان می‌کرد حریفانشان را به زمین بزنند.",
       "en": "whose weight already helped them topple their opponents.",
       "ipa": "huz weɪt ɔlˈrɛdi hɛlpt ðɛm ˈtɑpəl ðɛr əˈpoʊnənts",
       "words": [
@@ -1254,7 +1254,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما سفرِ سومو برای تبدیل شدن به ورزشی آبرومند وقتی واقعاً به اوج رسید",
+      "fa": "اما مسیرِ تبدیل شدنِ سومو به ورزشی معتبر زمانی واقعاً شتاب گرفت",
       "en": "But sumo’s journey to become a respectable sport really took off",
       "ipa": "bət ˈsumoʊz ˈdʒɝni tə bɪˈkʌm ə rɪˈspɛktəbəl spɔrt ˈrɪli tʊk ɔf",
       "newPara": true,
@@ -1263,7 +1263,7 @@ DRILL({
           "w": "journey",
           "ipa": "ˈdʒɝni",
           "m": "(figurative) a long process of change or development",
-          "fa": "سفر، مسیر",
+          "fa": "مسیر یا روندِ تحول؛ سفر",
           "more": "path · process"
         },
         {
@@ -1277,7 +1277,7 @@ DRILL({
           "w": "to take off",
           "ipa": "tə teɪk ɔf",
           "m": "to suddenly become successful or popular",
-          "fa": "به اوج رسیدن، گُل کردن",
+          "fa": "شتاب گرفتن، رونق گرفتن؛ از زمین برخاستن؛ درآوردنِ لباس",
           "more": "boom · catch on"
         }
       ]
@@ -1346,7 +1346,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این سنت‌های ابداعی این ورزش را سرشار از مشروعیتِ فرهنگی کردند،",
+      "fa": "این سنت‌های ابداعی به این ورزش مشروعیتِ فرهنگی بخشیدند،",
       "en": "These invented traditions imbued the sport with cultural legitimacy,",
       "ipa": "ðiz ɪnˈvɛntəd trəˈdɪʃənz ɪmˈbjud ðə spɔrt wɪð ˈkʌltʃərəl ləˈdʒɪtəməsi",
       "words": [
@@ -1354,7 +1354,7 @@ DRILL({
           "w": "to imbue (with)",
           "ipa": "tə ɪmˈbju (wɪð)",
           "m": "to fill someone or something with a quality or feeling",
-          "fa": "سرشار کردن، آغشتن (به)",
+          "fa": "به چیزی ویژگی یا کیفیتی بخشیدن؛ آغشته کردن به",
           "more": "fill with · infuse with"
         },
         {
@@ -1410,7 +1410,7 @@ DRILL({
       ]
     },
     {
-      "fa": "زمانی که صنفِ توکیو شروع کرد به اینکه کشتی‌گیرانِ رده‌اولش را وادارد اجرا کنند",
+      "fa": "زمانی که صنفِ توکیو برای نخستین بار اجرای این آیین را به کشتی‌گیرانِ رده‌اولش سپرد، <c>(صنف ترتیب می‌داد که کشتی‌گیران اجرا کنند.)</c>",
       "en": "when the Tokyo guild began having their top-ranked wrestlers perform",
       "ipa": "wɛn ðə ˈtoʊkiˌoʊ ɡɪld bɪˈɡæn ˈhævɪŋ ðɛr tɑp ræŋkt ˈrɛslɚz pɚˈfɔrm",
       "words": [
@@ -1424,7 +1424,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مراسمِ ورود به رینگ را، در حالی که طنابی مقدس به نامِ یوکوزونا بسته بودند.",
+      "fa": "آیینِ ورود به میدان، در حالی که طنابی مقدس به نامِ یوکوزونا به خود بسته بودند.",
       "en": "a ring-entering ceremony wearing a sacred rope called the yokozuna.",
       "ipa": "ə rɪŋ ˈɛntərɪŋ ˈsɛrəˌmoʊni ˈwɛrɪŋ ə ˈseɪkrəd roʊp kɔld ðə ˌjoʊkəˈzunə",
       "words": [
@@ -1619,7 +1619,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در حالی که نوآوری‌های دیگری وارد شدند تا گذشتهٔ باستانی را تداعی کنند.",
+      "fa": "در حالی که نوآوری‌های دیگری با هدفِ زنده کردنِ خاطرهٔ گذشتهٔ باستانی معرفی شدند.",
       "en": "while other innovations were introduced to evoke the ancient past.",
       "ipa": "waɪl ˈʌðɚ ˌɪnəˈveɪʃənz wɚ ˌɪntrəˈdust tə ɪˈvoʊk ði ˈeɪntʃənt pæst"
     },
@@ -1639,7 +1639,7 @@ DRILL({
           "w": "division",
           "ipa": "dɪˈvɪʒən",
           "m": "a group of teams or players at the same level in a sport",
-          "fa": "رده، دسته",
+          "fa": "ردهٔ رقابتی؛ بخش؛ تقسیم",
           "more": "league · tier"
         },
         {

@@ -103,7 +103,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به بیانِ دیگر، آیا واقعاً می‌شود از دلِ شکسته مُرد؟",
+      "fa": "به بیان دیگر، آیا واقعاً ممکن است شما بر اثرِ دل‌شکستگی بمیرید؟",
       "en": "In other words, can you actually die from a broken heart?",
       "ipa": "ɪn ˈʌðɚ wɝdz kən ju ˈæktʃəwəli daɪ frəm ə ˈbroʊkən hɑrt",
       "words": [
@@ -118,13 +118,13 @@ DRILL({
           "w": "broken heart",
           "ipa": "ˈbroʊkən hɑrt",
           "m": "great sadness, especially after losing someone you love",
-          "fa": "دلِ شکسته",
+          "fa": "دل‌شکستگی، اندوهِ شدیدِ ناشی از فقدان یا جدایی",
           "more": "heartbroken · heartbreak"
         }
       ]
     },
     {
-      "fa": "یکی از پدیده‌های پزشکی که به‌طورِ گسترده ثبت شده و به این پرسش می‌پردازد «اثرِ بیوگی» است.",
+      "fa": "یکی از پدیده‌های پزشکی که به این پرسش می‌پردازند و در گسترده‌ترین مقیاس مستند شده‌اند، «اثرِ بیوگی» است.",
       "en": "One of the most widely documented medical phenomena addressing this question is the widowhood effect.",
       "ipa": "wʌn əv ðə moʊst ˈwaɪdli ˈdɑkjəˌmɛntəd ˈmɛdəkəl fəˈnɑmənə əˈdrɛsɪŋ ðɪs ˈkwɛstʃən ɪz ðə ˈwɪdˌwʊd ɪˈfɛkt",
       "newPara": true,
@@ -154,7 +154,7 @@ DRILL({
           "w": "to address",
           "ipa": "tə ˈæˌdrɛs",
           "m": "to deal with or think about a question or problem",
-          "fa": "پرداختن به",
+          "fa": "به پرسش یا مسئله‌ای پرداختن؛ کسی را خطاب قرار دادن",
           "more": "tackle · deal with"
         },
         {
@@ -188,7 +188,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که خطرِ مرگِ فرد می‌تواند تا ۹۰ درصد بالا برود،",
+      "fa": "که احتمالِ مرگِ یک فرد می‌تواند به میزانِ حداکثر ۹۰ درصد افزایش یابد",
       "en": "that a person’s risk of dying can increase by up to 90%",
       "ipa": "ðæt ə ˈpɝsənz rɪsk əv ˈdaɪɪŋ kən ˌɪnˈkris baɪ ʌp tə ˈnaɪnti pɚˈsɛnt",
       "words": [
@@ -196,7 +196,7 @@ DRILL({
           "w": "risk",
           "ipa": "rɪsk",
           "m": "the chance that something bad will happen",
-          "fa": "خطر، احتمالِ خطر",
+          "fa": "احتمالِ وقوعِ پیامدی ناگوار، اینجا احتمالِ مرگ؛ خطر",
           "more": "risky · at risk · run a risk"
         },
         {
@@ -216,7 +216,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در سه ماهِ پس از مرگِ همسرشان،",
+      "fa": "در طولِ سه ماهِ پس از مرگِ همسرِ آن فرد،",
       "en": "over the three months following their spouse’s death,",
       "ipa": "ˈoʊvɚ ðə θri mʌnθs ˈfɑloʊɪŋ ðɛr ˈspaʊsɪz dɛθ",
       "words": [
@@ -237,7 +237,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و همین باعث می‌شود شمارِ قابل‌توجهی از زوج‌ها",
+      "fa": "و همین امر باعث می‌شود شمارِ چشمگیری از زوج‌ها از دنیا بروند،",
       "en": "leading a significant number of couples to pass away",
       "ipa": "ˈlidɪŋ ə səɡˈnɪfɪkənt ˈnʌmbɚ əv ˈkʌpəlz tə pæs əˈweɪ",
       "words": [
@@ -265,7 +265,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با چند ماه، چند هفته یا حتی چند روز فاصله از هم درگذرند.",
+      "fa": "به فاصلهٔ چند ماه، چند هفته یا حتی چند روز از یکدیگر.",
       "en": "months, weeks, or even days apart.",
       "ipa": "mʌnθs wiks ɔr ˈivɪn deɪz əˈpɑrt",
       "words": [
@@ -279,7 +279,7 @@ DRILL({
       ]
     },
     {
-      "fa": "نظریه‌های زیادی برای توضیحِ این اثر وجود دارد.",
+      "fa": "نظریه‌های زیادی وجود دارند که این اثر را توضیح می‌دهند.",
       "en": "There are a lot of theories explaining this effect.",
       "ipa": "ðɛr ɚ ə lɑt əv ˈθɪriz ɪkˈspleɪnɪŋ ðɪs ɪˈfɛkt",
       "newPara": true,
@@ -349,7 +349,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که احتمالاً دستگاهِ ایمنی را مختل می‌کند.",
+      "fa": "که این امر ممکن است عملکردِ دستگاه ایمنی را مختل کند.",
       "en": "potentially impairing the immune system.",
       "ipa": "pəˈtɛnʃəli ɪmˈpɛrɪŋ ði ɪˈmjun ˈsɪstəm",
       "words": [
@@ -357,7 +357,7 @@ DRILL({
           "w": "potentially",
           "ipa": "pəˈtɛnʃəli",
           "m": "possibly, but not certainly",
-          "fa": "احتمالاً، بالقوه",
+          "fa": "ممکن است، به‌طورِ بالقوه",
           "more": "potential · possibly"
         },
         {
@@ -420,7 +420,7 @@ DRILL({
           "w": "to keep up with",
           "ipa": "tə kip ʌp wɪð",
           "m": "to continue doing something regularly so that you do not fall behind",
-          "fa": "از پسِ … برآمدن، مرتب رسیدگی کردن به",
+          "fa": "مرتب به چیزی رسیدگی کردن و از آن عقب نماندن؛ هم‌پای کسی پیش رفتن",
           "more": "stay on top of · keep pace with"
         },
         {
@@ -519,7 +519,7 @@ DRILL({
           "w": "condition",
           "ipa": "kənˈdɪʃən",
           "m": "an illness or medical problem that lasts a long time",
-          "fa": "عارضه، بیماری",
+          "fa": "عارضه، بیماری؛ وضعیت؛ شرط",
           "more": "medical condition · heart condition"
         },
         {
@@ -537,7 +537,7 @@ DRILL({
       "ipa": "ˌtækəzˈtɑbjoʊ ˌkɑrdiəˈmoʊθiəp"
     },
     {
-      "fa": "این عارضه که با نامِ کاردیومیوپاتیِ استرسی یا «سندرمِ دلِ شکسته» هم شناخته می‌شود،",
+      "fa": "این عارضه، که با نامِ کاردیومیوپاتیِ ناشی از استرس یا «سندرمِ دلِ شکسته» نیز شناخته می‌شود،",
       "en": "Also known as stress cardiomyopathy, or “broken heart syndrome,”",
       "ipa": "ˈɔlsoʊ noʊn əz strɛs ˌkɑrdiəˈmoʊθiəp ɔr ˈbroʊkən hɑrt ˈsɪnˌdroʊm",
       "words": [
@@ -557,7 +557,7 @@ DRILL({
       ]
     },
     {
-      "fa": "نخستین بار در سالِ ۱۹۹۰ پزشکانِ ژاپنی به آن نام دادند،",
+      "fa": "نخستین بار در سال ۱۹۹۰ به دستِ پزشکان ژاپنی نام‌گذاری شد، <c>(فاعلِ اشاره‌ای همان عارضهٔ بخشِ قبل است.)</c>",
       "en": "this was originally labeled by Japanese doctors in 1990,",
       "ipa": "ðɪs wəz əˈrɪdʒənəli ˈleɪbəld baɪ ˌdʒæpəˈniz ˈdɑktɚz ɪn ˌnaɪnˈtin ˈnaɪnti",
       "words": [
@@ -578,7 +578,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و آن را از روی واژهٔ ژاپنیِ «تلهٔ هشت‌پا» نام‌گذاری کردند.",
+      "fa": "پزشکانی که نامِ عارضه را از واژهٔ ژاپنیِ مربوط به تلهٔ هشت‌پا گرفتند.",
       "en": "who named the condition after the Japanese word for an octopus trap.",
       "ipa": "hu neɪmd ðə kənˈdɪʃən ˈæftɚ ðə ˌdʒæpəˈniz wɝd fɚ ən ˈɑktəˌpʊs træp",
       "words": [
@@ -613,13 +613,13 @@ DRILL({
           "w": "chamber",
           "ipa": "ˈtʃeɪmbɚ",
           "m": "an enclosed space inside the body, a machine or a building",
-          "fa": "حفره، محفظه",
+          "fa": "حفرهٔ قلب؛ اتاق یا محفظه",
           "more": "heart chamber"
         }
       ]
     },
     {
-      "fa": "پر از خونِ ایستاده می‌شود و رو به بیرون باد می‌کند،",
+      "fa": "خون در آن جمع می‌شود و مثل بادکنک به سمت بیرون برآمده می‌شود،",
       "en": "pools with blood and balloons outward,",
       "ipa": "pulz wɪð blʌd ənd bəˈlunz ˈaʊtwɚd",
       "words": [
@@ -668,7 +668,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و با اینکه بیشترِ بیماران ظرفِ چند هفته بهبود پیدا می‌کنند،",
+      "fa": "و با اینکه بیشترِ بیماران می‌توانند در طولِ چند هفته بهبود یابند،",
       "en": "And while most patients can recover over several weeks,",
       "ipa": "ənd waɪl moʊst ˈpeɪʃənts kən rɪˈkʌvɚ ˈoʊvɚ ˈsɛvrəl wiks",
       "words": [
@@ -682,7 +682,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تقریباً ۵ درصد دچارِ ایستِ قلبی‌ای می‌شوند که ممکن است کشنده باشد.",
+      "fa": "حدودِ ۵ درصد از آن‌ها دچارِ ایستِ قلبی خواهند شد که ممکن است کشنده باشد.",
       "en": "roughly 5% will experience a potentially lethal cardiac arrest.",
       "ipa": "ˈrʌfli faɪv pɚˈsɛnt wɪl ɪkˈspɪriəns ə pəˈtɛnʃəli ˈliθəl ˈkɑrdiˌæk əˈrɛst",
       "words": [
@@ -710,7 +710,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با اینکه علتِ دقیقِ کاردیومیوپاتیِ تاکوتسوبو هنوز در دستِ بررسی است،",
+      "fa": "در حالی که علتِ دقیقِ کاردیومیوپاتیِ تاکوتسوبو هنوز دارد بررسی می‌شود،",
       "en": "While the exact cause of takotsubo cardiomyopathy is still being studied,",
       "ipa": "waɪl ði ɪɡˈzækt kɑz əv ˌtækəzˈtɑbjoʊ ˌkɑrdiəˈmoʊθiəp ɪz stɪl ˈbiɪŋ ˈstʌdid",
       "newPara": true,
@@ -740,7 +740,7 @@ DRILL({
           "w": "to appear",
           "ipa": "tə əˈpɪr",
           "m": "to start to exist or happen",
-          "fa": "بروز کردن، پدیدار شدن",
+          "fa": "بروز کردن (عارضه)؛ پدیدار شدن؛ به نظر رسیدن",
           "more": "appearance · emerge"
         },
         {
@@ -753,7 +753,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و از آنجا که مواردی هم بر اثرِ سوگِ تکان‌دهنده و هم بر اثرِ شادیِ غیرمنتظره به راه افتاده‌اند،",
+      "fa": "و از آنجا که مواردی از این عارضه هم بر اثرِ اندوهی تکان‌دهنده و هم بر اثرِ شادیِ غیرمنتظره بروز کرده‌اند،",
       "en": "And since cases have been triggered by both shocking grief and unexpected happiness,",
       "ipa": "ənd sɪns ˈkeɪsəz hæv bɪn ˈtrɪɡɚd baɪ boʊθ ˈʃɑkɪŋ ɡrif ənd ˌʌnɪkˈspɛktɪd ˈhæpinəs",
       "words": [
@@ -803,7 +803,7 @@ DRILL({
           "w": "nature",
           "ipa": "ˈneɪtʃɚ",
           "m": "the basic qualities or type of something",
-          "fa": "ماهیت، نوع",
+          "fa": "ماهیت، سرشت؛ طبیعت",
           "more": "by nature · the nature of"
         },
         {
@@ -895,13 +895,13 @@ DRILL({
           "w": "concentration",
           "ipa": "ˌkɑnsənˈtreɪʃən",
           "m": "a large amount of something in one place",
-          "fa": "تراکم، غلظت",
+          "fa": "تراکمِ گیرنده‌ها در یک ناحیه؛ غلظتِ محلول؛ تمرکزِ ذهنی",
           "more": "concentrated · concentrate"
         }
       ]
     },
     {
-      "fa": "پس پژوهشگران بر این باورند که در جریانِ کاردیومیوپاتیِ تاکوتسوبو،",
+      "fa": "پس در جریانِ کاردیومیوپاتیِ تاکوتسوبو، پژوهشگران بر این باورند که",
       "en": "So during takotsubo cardiomyopathy, researchers believe",
       "ipa": "soʊ ˈdʊrɪŋ ˌtækəzˈtɑbjoʊ ˌkɑrdiəˈmoʊθiəp ˈrisɚtʃɚz bɪˈliv",
       "words": [
@@ -929,7 +929,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و باعث می‌شوند پی‌درپی و با سرعت منقبض شود.",
+      "fa": "و به این ترتیب باعث می‌شوند بطن به‌سرعت و بارها منقبض شود.",
       "en": "triggering it to contract rapidly and repeatedly.",
       "ipa": "ˈtrɪɡərɪŋ ɪt tə ˈkɑnˌtrækt ˈræpədli ənd rɪˈpitɪdli",
       "words": [
@@ -937,7 +937,7 @@ DRILL({
           "w": "to contract",
           "ipa": "tə ˈkɑnˌtrækt",
           "m": "(of a muscle) to become tighter and shorter",
-          "fa": "منقبض شدن",
+          "fa": "منقبض شدنِ عضله؛ مبتلا شدن به بیماری؛ قرارداد بستن",
           "more": "contraction · relax (opp.)"
         },
         {
@@ -1077,7 +1077,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ممکن است خودِ بافتِ ماهیچه آن‌قدر جریانِ خون نگیرد که بتواند کار کند.",
+      "fa": "ممکن است جریانِ خونِ کافی برای کار کردن به خودِ بافتِ عضلانی نرسد.",
       "en": "the muscle tissue itself may not be getting enough blood flow to function.",
       "ipa": "ðə ˈmʌsəl ˈtɪsˌju ɪtˈsɛlf meɪ nɑt bi ˈɡɛtɪŋ ɪˈnʌf blʌd floʊ tə ˈfʌŋkʃən",
       "words": [
@@ -1085,7 +1085,7 @@ DRILL({
           "w": "tissue",
           "ipa": "ˈtɪsˌju",
           "m": "the material that the parts of a body are made of",
-          "fa": "بافت",
+          "fa": "بافتِ بدن؛ دستمال کاغذی",
           "more": "muscle tissue · brain tissue"
         },
         {
@@ -1160,7 +1160,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هرچند که سرخرگ‌هایشان مثلِ وقتِ حملهٔ قلبی بسته نیستند.",
+      "fa": "با اینکه سرخرگ‌هایشان مسدود نیستند، آن‌طور که در صورتِ وقوعِ حملهٔ قلبی مسدود می‌شدند.",
       "en": "even though their arteries aren’t blocked like they would be during a heart attack.",
       "ipa": "ˈivɪn ðoʊ ðɛr ˈɑrtəriz ˈɑrənt blɑkt laɪk ðeɪ wʊd bi ˈdʊrɪŋ ə hɑrt əˈtæk",
       "words": [
@@ -1266,7 +1266,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پزشکان ممکن است داروهای رقیق‌کنندهٔ خون تجویز کنند تا از لخته شدنِ خون در قلب جلوگیری شود",
+      "fa": "پزشکان ممکن است رقیق‌کننده‌های خون تجویز کنند تا از لخته شدنِ خون در قلب جلوگیری کنند",
       "en": "Doctors may prescribe blood thinners to prevent clotting in the heart",
       "ipa": "ˈdɑktɚz meɪ prəˈskraɪb blʌd ˈθɪnɚz tə prɪˈvɛnt ˈklɑtɪŋ ɪn ðə hɑrt",
       "words": [
@@ -1301,7 +1301,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و بتابلاکرها را تا انقباض‌های قلب کُند شود.",
+      "fa": "و داروهای بتابلاکر تجویز کنند تا انقباض‌های قلب را کُند کنند.",
       "en": "and beta blockers to slow the heart's contractions.",
       "ipa": "ənd ˈbeɪtə ˈblɑkɚz tə sloʊ ðə hɑrts kənˈtrækʃənz",
       "words": [
@@ -1316,7 +1316,7 @@ DRILL({
           "w": "contraction",
           "ipa": "kənˈtrækʃən",
           "m": "the tightening of a muscle",
-          "fa": "انقباض",
+          "fa": "انقباضِ عضله؛ در دستور زبان، صورتِ کوتاه‌شدهٔ واژه‌ها",
           "more": "contract (v.)"
         }
       ]
@@ -1392,7 +1392,7 @@ DRILL({
       ]
     },
     {
-      "fa": "همچنین دقیقاً نمی‌دانیم کِی سر می‌رسد و ضربه می‌زند.",
+      "fa": "ما همچنین دقیقاً نمی‌دانیم این عارضه چه زمانی ناگهان بروز خواهد کرد.",
       "en": "We also don't know exactly when it will strike.",
       "ipa": "wi ˈɔlsoʊ doʊnt noʊ ɪɡˈzæktli wɛn ɪt wɪl straɪk",
       "words": [
@@ -1400,13 +1400,13 @@ DRILL({
           "w": "to strike",
           "ipa": "tə straɪk",
           "m": "(of something bad) to happen suddenly",
-          "fa": "سر رسیدن، ضربه زدن (بیماری یا فاجعه)",
+          "fa": "ناگهان بروز کردن (بیماری یا بلا)؛ ضربه زدن؛ اعتصاب کردن",
           "more": "struck · hit · occur"
         }
       ]
     },
     {
-      "fa": "جمعیتی که بیش از همه در معرضِ خطر به نظر می‌رسد، زنانِ یائسه‌اند،",
+      "fa": "گروهی که به نظر می‌رسد بیش از همه در معرض خطر باشد، زنانِ یائسه‌اند،",
       "en": "The population that appears most at risk is postmenopausal women,",
       "ipa": "ðə ˌpɑpjəˈleɪʃən ðæt əˈpɪrz moʊst ət rɪsk ɪz ˌpoʊstməˈnutəpəs ˈwɪmən",
       "newPara": true,
@@ -1415,14 +1415,14 @@ DRILL({
           "w": "population",
           "ipa": "ˌpɑpjəˈleɪʃən",
           "m": "a particular group of people",
-          "fa": "جمعیت، گروه",
+          "fa": "گروهِ معینی از افراد؛ جمعیتِ یک منطقه",
           "more": "populated · general population"
         },
         {
           "w": "to appear",
           "ipa": "tə əˈpɪr",
           "m": "to seem",
-          "fa": "به نظر رسیدن",
+          "fa": "به نظر رسیدن؛ ظاهر شدن",
           "more": "seem · look"
         },
         {
@@ -1521,7 +1521,7 @@ DRILL({
       "note": "make a full recovery: هم‌نشینیِ ثابت با make؛ نه do یا have."
     },
     {
-      "fa": "چون با اینکه بدنِ ما در برابرِ فراز و نشیب‌های احساساتمان حساس است،",
+      "fa": "چون با اینکه بدن‌های ما به فراز و نشیبِ احساساتمان حساس‌اند،",
       "en": "Because while our bodies are sensitive to the ups and downs of our emotions,",
       "ipa": "bɪˈkɔz waɪl ˈaʊɚ ˈbɑdiz ɚ ˈsɛnsətɪv tə ði ʌps ənd daʊnz əv ˈaʊɚ ɪˈmoʊʃənz",
       "words": [
@@ -1542,7 +1542,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تاب‌آور هم هست.",
+      "fa": "آن‌ها تاب‌آور هم هستند.",
       "en": "they're also resilient.",
       "ipa": "ðɛr ˈɔlsoʊ rɪˈzɪljənt",
       "words": [
@@ -1556,7 +1556,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و درست مثلِ استخوانِ شکسته، حتی دلِ شکسته هم با گذرِ زمان و مراقبت التیام می‌یابد.",
+      "fa": "و درست مثلِ استخوانی شکسته، حتی دلی شکسته هم می‌تواند با گذشت زمان و مراقبت التیام یابد.",
       "en": "And much like a broken bone, even a broken heart can heal with time and care.",
       "ipa": "ənd mʌtʃ laɪk ə ˈbroʊkən boʊn ˈivɪn ə ˈbroʊkən hɑrt kən hil wɪð taɪm ənd kɛr",
       "words": [

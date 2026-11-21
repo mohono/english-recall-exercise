@@ -25,7 +25,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برای فرار از دستِ مهاجمان، قایق‌قایق آدم به تالابِ ونیز گریختند،",
+      "fa": "برای گریختن از دستِ مهاجمان، مردم قایق‌قایق به درونِ تالابِ ونیز پناه بردند،",
       "en": "To escape the invaders, boatloads of people fled into the Venetian Lagoon,",
       "ipa": "tə ɪˈskeɪp ði ɪnˈveɪdɚz ˈboʊtˌloʊdz əv ˈpipəl flɛd ɪnˈtu ðə vəˈniʃən ləˈɡun",
       "words": [
@@ -99,7 +99,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این منطقه طیِ قرن‌ها بر اثرِ لای و رسوبی شکل گرفته بود که از رودهای پو و پیاوه بیرون می‌ریخت",
+      "fa": "شکل‌گرفته در طولِ سده‌ها، از یک سو بر اثرِ جریانِ لای از رودهای پو و پیاوه",
       "en": "Formed over centuries by the outflow of silt from the Po and Piave Rivers",
       "ipa": "fɔrmd ˈoʊvɚ ˈsɛntʃəriz baɪ ði ˈaʊtˌfloʊ əv sɪlt frəm ðə poʊ ənd ˈpiˌveɪ ˈrɪvɚz",
       "words": [
@@ -120,7 +120,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و نیز نیروی مخالفِ جریان‌های دریای آدریاتیک؛ این هزارتوی باتلاقی مدام جابه‌جا می‌شد و ناپدید می‌شد.",
+      "fa": "و از سوی دیگر بر اثرِ نیروی مخالفِ جریان‌های دریای آدریاتیک، این هزارتوی باتلاقی پیوسته جابه‌جا و ناپدید می‌شد.",
       "en": "and the counterforce of Adriatic currents, this marshy maze was constantly shifting and disappearing.",
       "ipa": "ənd ðə ˈkaʊntɚˌfɔrs əv ˌeɪdriˈætɪk ˈkɝənts ðɪs ˈmɑrʃi meɪz wəz ˈkɑnstəntli ˈʃɪftɪŋ ənd ˌdɪsəˈpɪrɪŋ",
       "words": [
@@ -167,7 +167,7 @@ DRILL({
       ]
     },
     {
-      "fa": "همین ویژگی‌ها آن را هم جای بی‌نقصی برای پنهان شدن کرده بود و هم جای بسیار ناپایداری برای زندگی.",
+      "fa": "این ویژگی‌ها آنجا را هم به جایی ایدئال برای پنهان شدن و هم به محلی بسیار ناپایدار برای زندگی تبدیل کردند.",
       "en": "These qualities made it both the perfect spot to hide and a very unstable place to live.",
       "ipa": "ðiz ˈkwɑlətiz meɪd ɪt boʊθ ðə ˈpɝˌfɪkt spɑt tə haɪd ənd ə ˈvɛri ənˈsteɪbəl pleɪs tə laɪv",
       "words": [
@@ -252,7 +252,7 @@ DRILL({
           "w": "stilted",
           "ipa": "ˈstɪltɪd",
           "m": "built on stilts (tall posts that hold it above water or ground)",
-          "fa": "پایه‌دار، روی پایه‌های بلند",
+          "fa": "ساخته‌شده روی پایه‌های بلند؛ دربارهٔ گفتار، تصنعی و خشک",
           "more": "stilts"
         },
         {
@@ -265,7 +265,7 @@ DRILL({
       ]
     },
     {
-      "fa": "کوچ‌نشین‌ها می‌خواستند پی‌ای بسازند که سازه‌هایی سنگین‌تر و بادوام‌تر را نگه دارد.",
+      "fa": "تازه‌ساکنان می‌خواستند پی‌ای بسازند که بتواند وزنِ سازه‌هایی سنگین‌تر و بادوام‌تر را تحمل کند.",
       "en": "the settlers wanted to build a foundation to support heavier, longer lasting structures.",
       "ipa": "ðə ˈsɛtlɚz ˈwɑntəd tə bɪld ə faʊnˈdeɪʃən tə səˈpɔrt ˈhɛviɚ ˈlɔŋɡɚ ˈlæstɪŋ ˈstrʌktʃɚz",
       "words": [
@@ -273,14 +273,14 @@ DRILL({
           "w": "settler",
           "ipa": "ˈsɛtəlɚ",
           "m": "a person who goes to live in a new place where few people live",
-          "fa": "کوچ‌نشین، ساکنِ تازه",
+          "fa": "کسی که برای سکونت به سرزمینی تازه می‌آید، مهاجرِ تازه‌ساکن",
           "more": "to settle · settlement"
         },
         {
           "w": "foundation",
           "ipa": "faʊnˈdeɪʃən",
           "m": "the solid base under a building",
-          "fa": "پی، شالوده"
+          "fa": "پیِ ساختمان؛ شالوده یا مبنا؛ بنیاد یا مؤسسه"
         },
         {
           "w": "to support",
@@ -304,7 +304,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اصلاً خبر نداشتند که کارشان تا همین امروز ونیز را سرپا نگه خواهد داشت.",
+      "fa": "هیچ خبر نداشتند که حاصلِ کارشان تا همین امروز تکیه‌گاهِ ونیز خواهد بود. <c>(جمله با قیدی منفی و ترتیبِ وارونه آغاز می‌شود.)</c>",
       "en": "Little did they know, their work would support Venice to this very day.",
       "ipa": "ˈlɪtəl dɪd ðeɪ noʊ ðɛr wɝk wʊd səˈpɔrt ˈvɛnəs tə ðɪs ˈvɛri deɪ",
       "words": [
@@ -348,7 +348,7 @@ DRILL({
           "w": "pile",
           "ipa": "paɪl",
           "m": "a heavy post pushed into the ground to support a building",
-          "fa": "دیرک، شمع (پی)",
+          "fa": "شمعِ پی، دیرکی که در زمین می‌کوبند؛ توده، انبوهه",
           "more": "piling · stilt"
         }
       ]
@@ -454,7 +454,7 @@ DRILL({
           "w": "impervious to",
           "ipa": "ɪmˈpɝviəs tu",
           "m": "not affected or harmed by something",
-          "fa": "نفوذناپذیر، مقاوم در برابرِ",
+          "fa": "مصون از اثرِ چیزی، اینجا مقاوم به پوسیدگی؛ نفوذناپذیر در برابرِ آب",
           "more": "resistant to · immune to"
         },
         {
@@ -489,7 +489,7 @@ DRILL({
           "w": "beam",
           "ipa": "bim",
           "m": "a long thick piece of wood or metal used in building",
-          "fa": "تیر (ساختمان)"
+          "fa": "تیرِ باربرِ ساختمان؛ پرتوِ نور"
         },
         {
           "w": "platform",
@@ -512,7 +512,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و زمانی حدودِ سالِ ۶۹۷، کوچ‌نشین‌ها سرزمینِ تازه‌شان را رسماً جمهوریِ ونیز اعلام کردند.",
+      "fa": "و حدودِ سالِ ۶۹۷ بود که این تازه‌ساکنان رسماً خانهٔ جدیدشان را «جمهوری ونیز» اعلام کردند.",
       "en": "And sometime around 697, the settlers formally declared their new home the Republic of Venice.",
       "ipa": "ənd ˈsʌmˌtaɪm əˈraʊnd sɪks ˈhʌndrəd ˈnaɪnti ˈsɛvən ðə ˈsɛtlɚz ˈfɔrməli dɪˈklɛrd ðɛr nu hoʊm ðə riˈpʌblək əv ˈvɛnəs",
       "words": [
@@ -666,7 +666,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به کانال‌هایی با دیواره‌های سنگی که گوندولاهای باریک‌اندام در آن‌ها رفت‌وآمد می‌کردند.",
+      "fa": "به کانال‌هایی با دیواره‌های سنگ‌پوش که قایق‌های باریک و کشیدهٔ گوندولا آن‌ها را می‌پیمودند.",
       "en": "into stone-lined canals navigated by slender gondolas.",
       "ipa": "ɪnˈtu stoʊn laɪnd kəˈnælz ˈnævəˌɡeɪtɪd baɪ ˈslɛndɚ ˈɡɑndələz",
       "words": [
@@ -760,7 +760,7 @@ DRILL({
           "w": "class",
           "ipa": "klæs",
           "m": "a social group with a similar position in society",
-          "fa": "طبقه (اجتماعی)"
+          "fa": "طبقهٔ اجتماعی؛ کلاسِ درس؛ دسته یا رده"
         }
       ]
     },
@@ -934,7 +934,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و دههٔ ۱۲۰۰ با بزرگ‌ترین معاملهٔ تجاریِ ونیزی‌ها تا آن زمان آغاز شد.",
+      "fa": "و سدهٔ سیزدهم با بزرگ‌ترین معاملهٔ تجاریِ ونیزی‌ها تا آن زمان آغاز شد.",
       "en": "and the 1200s began with their biggest business deal yet.",
       "ipa": "ənd ðə twɛlv ˈhʌndrədz bɪˈɡæn wɪð ðɛr ˈbɪɡəst ˈbɪznəs dil jɛt",
       "words": [
@@ -954,7 +954,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پاپ با رهبرِ منتخبِ ونیز، انریکو داندولو، قراری را با میانجی‌گری جوش داد",
+      "fa": "پاپ با انریکو داندولو، رهبرِ منتخبِ ونیز، توافقی را ترتیب داد",
       "en": "The Pope brokered an arrangement with Venice’s elected leader, Enrico Dandolo,",
       "ipa": "ðə poʊp ˈbroʊkɚd ən əˈreɪndʒmənt wɪð ˈvɛnɪsɪz ɪˈlɛktəd ˈlidɚ ɛnˈrikoʊ dɑˈnɑldoʊ",
       "newPara": true,
@@ -982,7 +982,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا برای ۳۳ هزار سربازِ پیش‌بینی‌شدهٔ جنگِ صلیبیِ چهارم کشتی و جنگ‌افزار بسازد.",
+      "fa": "برای ساختِ کشتی و جنگ‌افزار برای ۳۳ هزار سربازی که انتظار می‌رفت در چهارمین جنگِ صلیبی شرکت کنند.",
       "en": "to produce ships and arms for the Fourth Crusade’s anticipated 33,000 soldiers.",
       "ipa": "tə prəˈdus ʃɪps ənd ɑrmz fɚ ðə fɔrθ kruˈseɪdz ænˈtɪsəˌpeɪtəd ˈθɝdi θri ˈθaʊzənd ˈsoʊldʒɚz",
       "words": [
@@ -1097,7 +1097,7 @@ DRILL({
           "w": "campaign",
           "ipa": "kæmˈpeɪn",
           "m": "a series of military attacks with one aim",
-          "fa": "لشکرکشی"
+          "fa": "لشکرکشی؛ کارزارِ سیاسی یا تبلیغاتی"
         },
         {
           "w": "to lay the foundation for",
@@ -1177,7 +1177,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دستگاه‌های بافندگیِ بادبان‌سازی‌اش برای ساختنِ بوم‌های نقاشیِ عظیم تغییرِ کاربری دادند،",
+      "fa": "کاربریِ دستگاه‌های بافندگیِ بادبان‌هایش تغییر داده شد تا با آن‌ها بوم‌های نقاشیِ بسیار بزرگ بسازند،",
       "en": "Its sail-making looms were repurposed to create vast canvases,",
       "ipa": "ɪts seɪl ˈmeɪkɪŋ lumz wɚ riˈpɝsəpəst tə kriˈeɪt væst ˈkænvəsɪz",
       "words": [
@@ -1239,7 +1239,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و ماسه‌های سرشار از سیلیسِ رودهای تیچینو و آدیجه، به کارگاه‌های شیشه‌گریِ پرزرق‌وبرق رونق می‌داد.",
+      "fa": "و ماسه‌های سرشار از سیلیسِ رودهای تیچینو و آدیجه خوراکِ کارگاه‌های پرزرق‌وبرقِ شیشه‌گری را فراهم می‌کردند.",
       "en": "and the silica-rich sands from the Ticino and Adige rivers fueled extravagant glassworks.",
       "ipa": "ənd ðə ˈsɪləkə rɪtʃ sændz frəm ðə tɪˈsinoʊ ənd əˈdaɪdʒ ˈrɪvɚz ˈfjuəld ɪkˈstrævəɡənt ˈɡlæsˌwɝks",
       "words": [
@@ -1333,7 +1333,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بعضی‌هاشان همین که آزاد شدند، در شهر ماندند و حتی به‌عنوانِ گوندولاران کار پیدا کردند.",
+      "fa": "پس از آزاد شدن، برخی از آن‌ها در شهر ماندند و حتی به‌عنوانِ پاروزنِ گوندولا کار پیدا کردند.",
       "en": "Once freed, some stayed in the city, even finding work as gondoliers.",
       "ipa": "wʌns frid sʌm steɪd ɪn ðə ˈsɪti ˈivɪn ˈfaɪndɪŋ wɝk əz ˌɡɑndəˈlɪrz",
       "words": [
@@ -1354,7 +1354,7 @@ DRILL({
           "w": "gondolier",
           "ipa": "ˌɡɑndəˈlɪr",
           "m": "a person who rows a gondola",
-          "fa": "پاروزنِ گوندولا"
+          "fa": "پاروزن و هدایت‌کنندهٔ گوندولا در ونیز"
         }
       ]
     },
@@ -1421,7 +1421,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و در همان حال، مسیرهای تجاریِ تازهٔ فرااقیانوسی ونیزی‌ها را از بازی بیرون گذاشت.",
+      "fa": "و در تمامِ همین مدت، مسیرهای تازهٔ تجارت از آن سوی اقیانوس‌ها ونیزی‌ها را از این تجارت کنار می‌گذاشتند.",
       "en": "all while new transoceanic trade routes excluded Venetians.",
       "ipa": "ɔl waɪl nu ˌtrænzoʊʃiˈænɪk treɪd ruts ɪksˈkludəd vɛˈniʃənz",
       "words": [
@@ -1502,7 +1502,7 @@ DRILL({
       "note": "صورتِ رایج‌ترِ این عبارت change hands است."
     },
     {
-      "fa": "تا اینکه سرانجام در ۱۸۶۶ به ایتالیا واگذار شد.",
+      "fa": "پیش از آنکه سرانجام در سالِ ۱۸۶۶ به ایتالیا واگذار شود.",
       "en": "before finally being ceded to Italy in 1866.",
       "ipa": "bɪˈfɔr ˈfaɪnəli ˈbiɪŋ ˈsidəd tə ˈɪtəli ɪn eɪˈtin ˈsɪksti sɪks",
       "words": [
@@ -1557,7 +1557,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما امروز، بالا آمدنِ سطحِ دریا دارد تهدید می‌کند که «شهرِ شناور»، آن‌طور که می‌نامندش، را غرق کند.",
+      "fa": "اما امروز با بالا آمدنِ سطحِ دریا، خطرِ آن می‌رود که شهری که به «شهرِ شناور» معروف است زیر آب برود.",
       "en": "But today, rising sea levels are threatening to sink the so-called “floating city.”",
       "ipa": "bət təˈdeɪ ˈraɪzɪŋ si ˈlɛvəlz ɚ ˈθrɛtənɪŋ tə sɪŋk ðə ˌsoʊˈkɑld ˈfloʊtɪŋ ˈsɪti",
       "words": [
@@ -1577,7 +1577,7 @@ DRILL({
           "w": "to threaten to",
           "ipa": "tə ˈθrɛtən tu",
           "m": "to be likely to cause something bad",
-          "fa": "تهدید کردن که"
+          "fa": "خطرِ رخ دادنِ اتفاقی را در پی داشتن؛ تهدید به انجامِ کاری کردن"
         },
         {
           "w": "to sink",
@@ -1610,7 +1610,7 @@ DRILL({
           "w": "the then",
           "ipa": "ðə ðɛn",
           "m": "existing at that time (but not now)",
-          "fa": "آن زمانی، در آن هنگام",
+          "fa": "در آن زمان (برای توصیفِ وضع یا سِن در زمانی در گذشته)",
           "more": "the then president"
         },
         {
@@ -1654,7 +1654,7 @@ DRILL({
       "ipa": "ənd ˈtʊrəsts ɚ pɚˈhæps dʒʌst əz ˈdeɪndʒərəs"
     },
     {
-      "fa": "در حالی که میلیون‌ها بازدیدکنندهٔ هرساله سوار بر قایق‌های موتوری به‌سرعت در رفت‌وآمدند،",
+      "fa": "وقتی میلیون‌ها نفری که هر سال برای بازدید می‌آیند با قایق‌های موتوری به‌سرعت پیش می‌روند،",
       "en": "As millions of annual visitors speed along in motorboats,",
       "ipa": "əz ˈmɪljənz əv ˈænjuəl ˈvɪzətɚz spid əˈlɔŋ ɪn ˈmoʊtɚˌboʊts",
       "words": [

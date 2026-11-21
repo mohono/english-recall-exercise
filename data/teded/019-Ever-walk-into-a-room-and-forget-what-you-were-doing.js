@@ -33,7 +33,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شتابِ مأموریتتان را حس می‌کنید — اما هدفش ناگهان گم شده است.",
+      "fa": "هنوز نیرویی را حس می‌کنید که شما را پیِ مأموریتتان پیش می‌برد، اما ناگهان هدفش از ذهنتان می‌پرد.",
       "en": "You feel your mission’s momentum— but its aim is suddenly lost.",
       "ipa": "ju fil jɔr ˈmɪʃənz moʊˈmɛntəm bət ɪts eɪm ɪz ˈsʌdənli lɔst",
       "words": [
@@ -48,7 +48,7 @@ DRILL({
           "w": "momentum",
           "ipa": "moʊˈmɛntəm",
           "m": "the force that keeps something moving forward",
-          "fa": "شتاب، تکانه",
+          "fa": "اینجا: نیرویی که باعث می‌شود کاری پس از شروع ادامه پیدا کند؛ در فیزیک: تکانه",
           "more": "gain momentum · lose momentum · drive"
         },
         {
@@ -160,7 +160,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مغزمان جریانِ پیوستهٔ زمان و فعالیتِ زندگی را به رویدادهایی جدا از هم تجزیه می‌کند.",
+      "fa": "مغز ما جریانِ پیوستهٔ زمان و فعالیت را در زندگی به رویدادهایی متمایز تقسیم می‌کند.",
       "en": "our brains parse life’s continuous flow of time and activity into distinct events.",
       "ipa": "ˈaʊɚ breɪnz pɑrs laɪfs kənˈtɪnjuəs floʊ əv taɪm ənd ækˈtɪvəti ɪnˈtu dɪˈstɪŋkt ɪˈvɛnts",
       "words": [
@@ -168,7 +168,7 @@ DRILL({
           "w": "to parse",
           "ipa": "tə pɑrs",
           "m": "to divide something into parts to understand it",
-          "fa": "تجزیه کردن",
+          "fa": "اینجا: جریانی را به بخش‌های معنادار تقسیم کردن؛ در دستور زبان: ساختار جمله را تجزیه و تحلیل کردن",
           "more": "analyze · break down"
         },
         {
@@ -202,7 +202,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هم‌زمان با آنکه موقعیتی پیش می‌رود، مغز مدلی کاری از آن رویداد می‌پرورد.",
+      "fa": "هم‌زمان با پیش رفتنِ یک موقعیت، مغز از آن رویداد مدلی می‌سازد که فعلاً بر اساس آن کار می‌کند.",
       "en": "As a situation unfolds, the brain develops a working model of the event.",
       "ipa": "əz ə ˌsɪtʃuˈeɪʃən ənˈfoʊldz ðə breɪn dɪˈvɛləps ə ˈwɝkɪŋ ˈmɑdəl əv ði ɪˈvɛnt",
       "words": [
@@ -231,7 +231,7 @@ DRILL({
           "w": "working model",
           "ipa": "ˈwɝkɪŋ ˈmɑdəl",
           "m": "a model that is used now and may change",
-          "fa": "مدلِ کاری",
+          "fa": "اینجا: مدلی موقتی که مغز برای دنبال کردنِ رویداد به کار می‌گیرد؛ در مهندسی: نمونه‌ای که واقعاً کار می‌کند",
           "more": "draft · current version"
         }
       ]
@@ -307,7 +307,7 @@ DRILL({
       ]
     },
     {
-      "fa": "سپس وقتی تغییرِ به‌اندازهٔ کافی بزرگی رخ دهد، گمان می‌رود مغز مرزِ یک رویداد را تشخیص می‌دهد،",
+      "fa": "بعد، وقتی تغییری به‌اندازهٔ کافی بزرگ رخ می‌دهد، گمان می‌رود که مغز مرزِ میان دو رویداد را تشخیص دهد،",
       "en": "Then, when there's a big enough change, the brain is thought to identify an event boundary,",
       "ipa": "ðɛn wɛn ðɛrz ə bɪɡ ɪˈnʌf tʃeɪndʒ ðə breɪn ɪz θɔt tə aɪˈdɛntəˌfaɪ ən ɪˈvɛnt ˈbaʊndəri",
       "newPara": true,
@@ -385,7 +385,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به نظر می‌رسد بخش‌هایی از شبکهٔ حالتِ پیش‌فرض با هیپوکامپ، که حافظه را ذخیره می‌کند، برهم‌کنش دارند،",
+      "fa": "به نظر می‌رسد بخش‌هایی از شبکهٔ حالت پیش‌فرض با هیپوکامپ، که خاطرات را ذخیره می‌کند، در تعامل‌اند،",
       "en": "parts of the default mode network seem to interact with the memory-storing hippocampus,",
       "ipa": "pɑrts əv ðə dɪˈfɔlt moʊd ˈnɛtˌwɝk sim tə ˌɪntəˈrækt wɪð ðə ˈmɛməri ˈstɔrɪŋ ˌhɪpoʊˈkæmpəs",
       "words": [
@@ -462,7 +462,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا برای اطلاعاتِ تازه‌ای که از همین حالا سیل‌آسا سرازیر شده جا باز کند.",
+      "fa": "و به این ترتیب برای اطلاعات تازه‌ای که همین حالا هم دارد سرازیر می‌شود جا باز می‌کند.",
       "en": "making room for the new information that’s already pouring in.",
       "ipa": "ˈmeɪkɪŋ rum fɚ ðə nu ˌɪnfɚˈmeɪʃən ðæts ɔlˈrɛdi ˈpɔrɪŋ ɪn",
       "words": [
@@ -483,7 +483,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما گاهی آن می‌تواند چیزهایی باشد که هنوز کارتان کاملاً با آن‌ها تمام نشده بود.",
+      "fa": "اما گاهی چیزی که پاک می‌شود همان اطلاعاتی است که هنوز کارتان با آن‌ها کاملاً تمام نشده بود.",
       "en": "But sometimes that can be stuff you weren't quite done with.",
       "ipa": "bət səmˈtaɪmz ðæt kən bi stʌf ju ˈwɝənt kwaɪt dʌn wɪð",
       "words": [
@@ -540,7 +540,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما یک پژوهش دریافت که سن تأثیرِ بسیار اندکی دارد.",
+      "fa": "اما یک بررسی نشان داد که سن تأثیر بسیار کمی در این اتفاق داشت.",
       "en": "But one study found that age had very little bearing.",
       "ipa": "bət wʌn ˈstʌdi faʊnd ðæt eɪdʒ hæd ˈvɛri ˈlɪtəl ˈbɛrɪŋ",
       "words": [
@@ -625,7 +625,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آن‌ها را دور از دید تا مسافت‌های تعیین‌شده‌ای حمل کنند، و بعد بکوشند به یاد بیاورند چه در دست داشتند.",
+      "fa": "در حالی که آن اشیا را دور از دید نگه می‌داشتند، مسافت‌های معینی را پیاده طی کنند و بعد سعی کنند به یاد بیاورند چه در دست داشتند.",
       "en": "walk set distances carrying them out of view, then try to recall what they were holding.",
       "ipa": "wɔk sɛt ˈdɪstənsəz ˈkæriɪŋ ðɛm aʊt əv vju ðɛn traɪ tə rɪˈkɔl wʌt ðeɪ wɚ ˈhoʊldɪŋ",
       "words": [
@@ -702,7 +702,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و گذشتن از چند درگاه گویا این اثرِ حافظه‌برانداز را بدتر می‌کند.",
+      "fa": "به نظر می‌رسد عبور از چند درگاه اثرِ مختل‌کنندهٔ آن بر حافظه را شدیدتر می‌کند.",
       "en": "And passing through multiple doorways seems to worsen the memory-thwarting effect.",
       "ipa": "ənd ˈpæsɪŋ θru ˈmʌltəpəl ˈdɔrˌweɪz simz tə ˈwɝsən ðə ˈmɛməri ˈθwɔrtɪŋ ɪˈfɛkt",
       "words": [
@@ -730,7 +730,7 @@ DRILL({
       ]
     },
     {
-      "fa": "چندکاره بودن هم به آن کمکی نمی‌کند.",
+      "fa": "انجام دادنِ چند کار هم‌زمان هم کمکی به این وضعیت نمی‌کند.",
       "en": "It's also not helped by multitasking.",
       "ipa": "ɪts ˈɔlsoʊ nɑt hɛlpt baɪ ˈmʌltiˌtæskɪŋ",
       "newPara": true,
@@ -739,7 +739,7 @@ DRILL({
           "w": "multitasking",
           "ipa": "ˈmʌltiˌtæskɪŋ",
           "m": "doing several things at the same time",
-          "fa": "چندکاره بودن",
+          "fa": "انجام دادن چند کار در یک زمان",
           "more": "multitask · juggle"
         }
       ]
@@ -780,7 +780,7 @@ DRILL({
       ]
     },
     {
-      "fa": "سپس برخی در همان اتاق جابه‌جا شدند و برخی دیگر وارد اتاقِ دیگری شدند.",
+      "fa": "بعد بعضی از یک سوی همان اتاق به سوی دیگر رفتند، در حالی که بقیه وارد اتاق دیگری شدند.",
       "en": "Then, some moved across the same room while others entered another.",
       "ipa": "ðɛn sʌm muvd əˈkrɔs ðə seɪm rum waɪl ˈʌðɚz ˈɛntɚd əˈnʌðɚ"
     },
@@ -827,10 +827,10 @@ DRILL({
       ]
     },
     {
-      "fa": "گذشتن از درگاه در حالِ حواس‌پرتی گویا به‌نحوی حافظه‌شان را بیش از حد بار می‌کرد.",
+      "fa": "به نظر می‌رسید رد شدن از درگاه در حالی که حواسشان به کار دیگری بود، به‌نوعی بیش از ظرفیتِ حافظه‌شان به آن فشار می‌آورد.",
       "en": "Moving through the doorway distracted seemed to somehow overload their memory.",
       "ipa": "ˈmuvɪŋ θru ðə ˈdɔrˌweɪ dɪˈstræktəd simd tə ˈsʌmˌhaʊ ˈoʊvɚˌloʊd ðɛr ˈmɛməri",
-      "note": "جمله در کپشن ناقص به نظر می‌رسد (احتمالاً <en>while distracted</en>)؛ معنا: گذشتن از درگاه در حالِ حواس‌پرتی.",
+      "note": "در این جمله، <en>distracted</en> حالتِ افراد را هنگام عبور توصیف می‌کند. می‌توانید آن را به صورتِ <en>while they were distracted</en> هم بیان کنید.",
       "words": [
         {
           "w": "distracted",
@@ -911,7 +911,7 @@ DRILL({
       "ipa": "ənd ˈrɪli ˌwʌˈtɛvɚ ˈtrɪɡɚz ən ɪˈvɛnt əpˈdeɪt ɪz θɔt tə du ðə seɪm"
     },
     {
-      "fa": "به صدا درآمدنِ یک زنگِ هشدار؛ عوض کردنِ موضوعِ صحبت توسطِ یک دوست؛",
+      "fa": "زنگِ هشداری که به صدا درمی‌آید؛ دوستی که موضوعِ صحبت را عوض می‌کند؛",
       "en": "an alarm ringing; a friend changing the subject;",
       "ipa": "ən əˈlɑrm ˈrɪŋɪŋ ə frɛnd ˈtʃeɪndʒɪŋ ðə ˈsʌbdʒɪkt",
       "words": [
@@ -932,7 +932,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یا جابه‌جایی در مکان، زمان، انگیزه یا زبانهٔ رایانه.",
+      "fa": "یا تغییرِ مکان، زمان، انگیزه یا زبانه‌ای که روی رایانه باز است.",
       "en": "or a shift in location, time, motivation, or computer tab.",
       "ipa": "ɔr ə ʃɪft ɪn loʊˈkeɪʃən taɪm ˌmoʊtəˈveɪʃən ɔr kəmˈpjutɚ tæb",
       "words": [
@@ -1010,7 +1010,7 @@ DRILL({
       ]
     },
     {
-      "fa": "پژوهشگران دیده‌اند که ممکن است سرعتِ خواندنشان کم شود، فعالیتِ عصبی‌شان افزایش یابد،",
+      "fa": "پژوهشگران مشاهده کرده‌اند که شاید سرعتِ خواندنِ افراد کم شود، فعالیتِ عصبی‌شان افزایش می‌یابد،",
       "en": "researchers have observed that their reading speed may slow, their neural activity increases,",
       "ipa": "ˈrisɚtʃɚz hæv əbˈzɝvd ðæt ðɛr ˈrɛdɪŋ spid meɪ sloʊ ðɛr ˈnʊrəl ækˈtɪvəti ˈɪnˌkrisɪz",
       "words": [
@@ -1045,7 +1045,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و در پاسخ دادن به پرسش‌هایی دربارهٔ اینکه یکی از شخصیت‌ها همین حالا چه می‌کرد دشواریِ بیشتری دارند.",
+      "fa": "و برایشان دشوارتر است به سؤال‌هایی پاسخ دهند که می‌پرسند یک شخصیت تا همین چند لحظه پیش داشت چه می‌کرد.",
       "en": "and they have more difficulty answering questions about what a character was just doing.",
       "ipa": "ənd ðeɪ hæv mɔr ˈdɪfəkəlti ˈænsərɪŋ ˈkwɛstʃənz əˈbaʊt wʌt ə ˈkɛrɪktɚ wəz dʒʌst ˈduɪŋ",
       "words": [
@@ -1107,7 +1107,7 @@ DRILL({
       "ipa": "ɪn wʌn ˈstʌdi pɑrˈtɪsəpənts wɚ ˈɡɪvən lɪsts əv wɝdz"
     },
     {
-      "fa": "و در فاصلهٔ میانِ آن‌ها، یا درونِ یک اتاق جایشان را عوض کردند یا به اتاقِ دیگری رفتند.",
+      "fa": "و در فاصلهٔ بین فهرست‌ها، یا در همان اتاق جایشان را عوض کردند یا به اتاق دیگری رفتند.",
       "en": "and in between them, they either moved spots within one room or walked into another.",
       "ipa": "ənd ɪn bɪˈtwin ðɛm ðeɪ ˈiðɚ muvd spɑts wɪˈðɪn wʌn rum ɔr wɔkt ɪnˈtu əˈnʌðɚ",
       "words": [
@@ -1143,13 +1143,13 @@ DRILL({
           "w": "faithfully",
           "ipa": "ˈfeɪθfəli",
           "m": "exactly and correctly, without changes",
-          "fa": "دقیق، با وفاداری",
+          "fa": "اینجا: با دقت و مطابق اصل؛ در رابطه با شخص یا عهد: وفادارانه",
           "more": "accurately · faithful · precisely"
         }
       ]
     },
     {
-      "fa": "تفاوتِ کلیدی در توانِ یک درگاه برای محکم کردنِ حافظه در برابرِ درهم‌ریختنِ آن",
+      "fa": "تفاوتِ اصلی در اینکه عبور از درگاه می‌تواند حافظه را تقویت کند یا آن را به هم بریزد،",
       "en": "The key difference in a doorway’s ability to strengthen versus muddle memory",
       "ipa": "ðə ki ˈdɪfərəns ɪn ə ˈdɔrˌweɪz əˈbɪləti tə ˈstrɛŋθən ˈvɝsəs ˈmʌdəl ˈmɛməri",
       "newPara": true,
@@ -1185,7 +1185,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شاید کنشِ جدا کردنِ اطلاعات به رویدادهایی مجزا باشد، در برابرِ پخش کردنِ آن میانِ چند رویداد.",
+      "fa": "شاید در این باشد که اطلاعات را به رویدادهایی مجزا تقسیم می‌کنیم یا همان اطلاعات را میان چند رویداد پخش می‌کنیم.",
       "en": "might be the act of separating information into discrete events versus sharing it among multiple.",
       "ipa": "maɪt bi ði ækt əv ˈsɛpəˌreɪtɪŋ ˌɪnfɚˈmeɪʃən ɪnˈtu dɪˈskrit ɪˈvɛnts ˈvɝsəs ˈʃɛrɪŋ ɪt əˈmʌŋ ˈmʌltəpəl",
       "words": [
@@ -1368,7 +1368,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما برگشتن از همان راهی که آمده‌اید شاید حافظه‌تان را تلنگر بزند.",
+      "fa": "اما شاید برگشتن از همان راهی که آمده‌اید به حافظه‌تان تلنگری بزند.",
       "en": "But retracing your steps may help jog your memory.",
       "ipa": "bət riˈtreɪsɪŋ jɔr stɛps meɪ hɛlp dʒɑɡ jɔr ˈmɛməri",
       "words": [
@@ -1424,7 +1424,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یعنی آگاهانه هدفشان را در ذهن نگه دارند — شاید با تکرارِ بلندِ آن.",
+      "fa": "به این صورت که هدفشان را آگاهانه در ذهن نگه دارند و شاید آن را به زبان بیاورند و تکرار کنند.",
       "en": "consciously keeping their goal in mind— perhaps repeating it verbally.",
       "ipa": "ˈkɑnʃəsli ˈkipɪŋ ðɛr ɡoʊl ɪn maɪnd pɚˈhæps rɪˈpitɪŋ ɪt vɚˈbæli",
       "words": [
@@ -1453,7 +1453,7 @@ DRILL({
           "w": "verbally",
           "ipa": "vɚˈbæli",
           "m": "using spoken words",
-          "fa": "با صدای بلند، شفاهی",
+          "fa": "به زبان، با کلام؛ اینجا یعنی هدف را به زبان آوردن",
           "more": "verbal · aloud · out loud"
         }
       ]

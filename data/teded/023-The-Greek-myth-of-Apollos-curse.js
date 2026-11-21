@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=l29K-ZkARmE",
   "items": [
     {
-      "fa": "کاساندرا، شاهزاده‌خانمِ تروا، اگر با زن‌برادرِ آینده‌اش بی‌رحم بود،",
+      "fa": "سنگدلیِ کاساندرا، شاهزادهٔ تروا، با زن‌برادرِ آینده‌اش،",
       "en": "Troy's princess, Cassandra, wasn't cruel to her soon-to-be sister-in-law,",
       "ipa": "trɔɪz ˈprɪnsɛs kəˈsændrə ˈwɑzənt ˈkruəl tə hɚ sun tə bi ˈsɪstɚ ɪn lɔ",
       "newPara": true,
@@ -40,7 +40,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یعنی هلن، زیبارویِ افسانه‌ای، از سرِ کینه و بدجنسی نبود.",
+      "fa": "یعنی هلنِ زیباروی افسانه‌ای، از سرِ کینه نبود.",
       "en": "the legendary beauty Helen, out of spite.",
       "ipa": "ðə ˈlɛdʒənˌdɛri ˈbjuti ˈhɛlən aʊt əv spaɪt",
       "words": [
@@ -68,7 +68,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دلیلش این بود که زیرِ بارِ نفرینی رنج می‌کشید که به‌طرزی عذاب‌آور کج‌ومعوج و بدذات بود،",
+      "fa": "علتش این بود که کاساندرا زیرِ بارِ نفرینی با پیچشی شوم و عذاب‌آور رنج می‌کشید،",
       "en": "It was because she was suffering under the weight of a torturously twisted curse,",
       "ipa": "ɪt wəz bɪˈkɔz ʃi wəz ˈsʌfərɪŋ ˈʌndɚ ðə weɪt əv ə ˈtɔrtʃərəsli ˈtwɪstəd kɝs",
       "words": [
@@ -97,7 +97,7 @@ DRILL({
           "w": "twisted",
           "ipa": "ˈtwɪstəd",
           "m": "strange, unpleasant and wrong in a cruel way",
-          "fa": "کج‌ومعوج، منحرف، بدذات",
+          "fa": "اینجا: شوم و بی‌رحمانه؛ دربارهٔ شکلِ جسم: تاب‌خورده، پیچ‌خورده",
           "more": "warped · perverse · sick"
         },
         {
@@ -110,7 +110,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که با رؤیاهایی هولناک و مربوط به آمدنِ هلن مدام آزارش می‌داد.",
+      "fa": "نفرینی که با نشان دادنِ صحنه‌های هولناکی از آینده، در پیوند با ورود هلن، دست از سرش برنمی‌داشت.",
       "en": "which haunted her with appalling visions linked to Helen's arrival.",
       "ipa": "wɪtʃ ˈhɔntəd hɚ wɪð əˈpɔlɪŋ ˈvɪʒənz lɪŋkt tə ˈhɛlɪnz əˈraɪvəl",
       "words": [
@@ -132,7 +132,7 @@ DRILL({
           "w": "vision",
           "ipa": "ˈvɪʒən",
           "m": "a picture of the future seen in the mind, as if by magic",
-          "fa": "رؤیا، مکاشفه",
+          "fa": "اینجا: صحنه‌ای از آینده که پیشِ چشمِ ذهن ظاهر می‌شود، مکاشفه؛ در بافت دیگر: بینایی یا چشم‌انداز",
           "more": "visionary · premonition"
         },
         {
@@ -223,7 +223,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما پاریس فقط حرفش را پس زده بود، دل به هلن باخته بود، و او را دنبالِ خودش به تروا برگردانده بود.",
+      "fa": "اما پاریس فقط حرفش را نادیده گرفته بود، دل به هلن باخته بود و در حالی به تروا بازگشته بود که هلن هم همراهش بود.",
       "en": "But he'd merely dismissed her, fallen for Helen, and returned to Troy with her in tow.",
       "ipa": "bət hid ˈmɪrli dɪˈsmɪst hɚ ˈfɑlən fɚ ˈhɛlən ənd rɪˈtɝnd tə trɔɪ wɪð hɚ ɪn toʊ",
       "words": [
@@ -245,7 +245,7 @@ DRILL({
           "w": "in tow",
           "ipa": "ɪn toʊ",
           "m": "following closely behind someone",
-          "fa": "به دنبالِ خود",
+          "fa": "اینجا: همراهِ کسی، به دنبالِ کسی؛ دربارهٔ وسیلهٔ نقلیه: در حالِ یدک کشیده شدن",
           "more": "tow (v.) · along · in his wake"
         }
       ]
@@ -300,7 +300,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به سقوطِ وحشیانهٔ خاندانشان و شهرِ تروا می‌انجامد.",
+      "fa": "به سقوطی خون‌بار برای خاندانشان و شهرِ تروا خواهد انجامید.",
       "en": "would lead to the brutal fall of their family and the city of Troy.",
       "ipa": "wʊd lɛd tə ðə ˈbrutəl fɔl əv ðɛr ˈfæməli ənd ðə ˈsɪti əv trɔɪ",
       "words": [
@@ -361,7 +361,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آپولونِ خدا در جوانیِ کاساندرا دنبالش افتاده بود.",
+      "fa": "وقتی کاساندرا زن جوانی بود، آپولون، یکی از خدایان، در پیِ جلبِ مهرش برآمده بود.",
       "en": "As a young woman, she had been pursued by the god Apollo.",
       "ipa": "əz ə jʌŋ ˈwʊmən ʃi hæd bɪn pɚˈsud baɪ ðə ɡɑd əˈpɑloʊ",
       "newPara": true,
@@ -370,7 +370,7 @@ DRILL({
           "w": "to pursue",
           "ipa": "tə pɚˈsu",
           "m": "to try hard to win someone’s love",
-          "fa": "دنبالِ کسی افتادن",
+          "fa": "اینجا: در پیِ جلب علاقهٔ کسی بودن؛ در بافت‌های دیگر: تعقیب کردن یا هدفی را پی گرفتن",
           "more": "pursuit · chase · court"
         }
       ]
@@ -397,7 +397,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما وقتی کاساندرا از ابرازِ عشقِ پی‌درپیِ او پا پس کشید،",
+      "fa": "اما وقتی کاساندرا در برابرِ ابرازِ علاقهٔ او پا پس کشید،",
       "en": "But when she withdrew from his advances,",
       "ipa": "bət wɛn ʃi wɪθˈdru frəm hɪz ədˈvænsəz",
       "words": [
@@ -418,7 +418,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آپولون موهبتش را کج کرد و به طلسمی دیوانه‌کننده بدل کرد.",
+      "fa": "آپولون موهبتش را چنان دگرگون کرد که به نفرینی جنون‌آور بدل شد.",
       "en": "he twisted his gift into a maddening hex.",
       "ipa": "hi ˈtwɪstəd hɪz ɡɪft ɪnˈtu ə ˈmædənɪŋ hɛks",
       "words": [
@@ -426,7 +426,7 @@ DRILL({
           "w": "to twist … into",
           "ipa": "tə twɪst … ɪnˈtu",
           "m": "to change something into a bad or wrong form",
-          "fa": "کج کردن و بدل کردن به",
+          "fa": "ماهیت چیزی را دگرگون کردن و آن را به چیز دیگری بدل کردن",
           "more": "distort · warp · pervert"
         },
         {
@@ -474,9 +474,10 @@ DRILL({
       ]
     },
     {
-      "fa": "اما هیچ‌وقت کسی پیشگویی‌هایش را باور نمی‌کرد.",
+      "fa": "اما قرار بود پیشگویی‌هایش هرگز باور نشوند.",
       "en": "but her prophecies would never be believed.",
-      "ipa": "bət hɚ ˈprɑfəsiz wʊd ˈnɛvɚ bi bɪˈlivd"
+      "ipa": "bət hɚ ˈprɑfəsiz wʊd ˈnɛvɚ bi bɪˈlivd",
+      "note": "این آینده از دیدِ گذشته است. در <en>would never be believed</en> پیشگویی‌ها فاعلِ جمله‌اند و فعل مجهول است."
     },
     {
       "fa": "با این حال، کاساندرا عزمش را جزم کرد که همیشه حقیقت را بگوید،",
@@ -620,7 +621,7 @@ DRILL({
       ]
     },
     {
-      "fa": "کاساندرا از این دیدبانگاهِ بی‌مانع، تماشا کرد که همه‌چیز چطور رخ می‌دهد.",
+      "fa": "کاساندرا از این دیدبانگاه که چیزی جلوی دیدش را نمی‌گرفت، شاهد بود که ماجراها یکی‌یکی رخ می‌دهند.",
       "en": "From this unobstructed lookout, Cassandra watched everything unfold.",
       "ipa": "frəm ðɪs ˌʌnəbˈstrʌktɪd ˈlʊˌkaʊt kəˈsændrə wɑtʃt ˈɛvriˌθɪŋ ənˈfoʊld",
       "words": [
@@ -711,7 +712,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یک روز سپیده که دمید، پیدا شد که به‌جای اردوگاهِ یونانی‌ها اسبی چوبی و عظیم مانده است،",
+      "fa": "یک روز وقتی سپیده دمید و اسبِ چوبیِ عظیمی به جای اردوگاه یونانی‌ها نمایان شد،",
       "en": "When dawn broke one day to reveal a huge wooden horse in place of the Greek encampment,",
       "ipa": "wɛn dɔn broʊk wʌn deɪ tə rɪˈvil ə hjudʒ ˈwʊdən hɔrs ɪn pleɪs əv ðə ɡrik ɪnˈkæmpmɪnt",
       "newPara": true,
@@ -944,7 +945,7 @@ DRILL({
       ]
     },
     {
-      "fa": "با زور او را زمین زدند و به ریشخند گفتند که با بالا رفتنِ سن بدگمان‌تر شده است.",
+      "fa": "با زور او را به زمین زدند و به ریشخند گفتند که با بالا رفتن سنش دارد بدگمان‌تر می‌شود.",
       "en": "they wrestled her to the ground and scoffed that she was getting more paranoid with age.",
       "ipa": "ðeɪ ˈrɛsəld hɚ tə ðə ɡraʊnd ənd skɔft ðæt ʃi wəz ˈɡɛtɪŋ mɔr ˈpɛrəˌnɔɪd wɪð eɪdʒ",
       "words": [
@@ -1015,7 +1016,7 @@ DRILL({
       "note": "جمله فاعل ندارد (Then proceeded …)؛ فاعل همان «آن‌ها»ی جملهٔ قبل است. «gift horse» بازی با اصطلاحِ don’t look a gift horse in the mouth است."
     },
     {
-      "fa": "آن شب در حالی که تروا بی‌خبر از همه‌جا به خوابی سنگین فرو رفته بود،",
+      "fa": "آن شب، در حالی که مردم تروا بی‌خبر از همه‌جا به خواب فرو می‌رفتند،",
       "en": "As Troy fell into an oblivious slumber that night,",
       "ipa": "əz trɔɪ fɛl ɪnˈtu ən əˈblɪviəs ˈslʌmbɚ ðæt naɪt",
       "newPara": true,
@@ -1347,7 +1348,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما به همان یقینی که می‌دید آگاممنون به سوی کشته شدنِ خودش دریانوردی می‌کند،",
+      "fa": "اما کاساندرا همان‌قدر که به‌یقین می‌دید آگاممنون با کشتی به سوی جایی می‌رود که در آن به قتل خواهد رسید،",
       "en": "But just as certainly as she saw that Agamemnon was sailing towards his own murder,",
       "ipa": "bət dʒʌst əz ˈsɝtənli əz ʃi sɔ ðæt ˌæɡəˈmɛmˌnɑn wəz ˈseɪlɪŋ təˈwɔrdz hɪz oʊn ˈmɝdɚ",
       "words": [
@@ -1375,7 +1376,7 @@ DRILL({
       ]
     },
     {
-      "fa": "کاساندرا می‌دید که خودش هم در پیامدهای آن کشته خواهد شد.",
+      "fa": "به همان روشنی می‌دید که خودش هم در پیِ آن ماجرا کشته خواهد شد.",
       "en": "Cassandra saw that she would also be killed in the fallout.",
       "ipa": "kəˈsændrə sɔ ðæt ʃi wʊd ˈɔlsoʊ bi kɪld ɪn ðə ˈfɔˌlaʊt",
       "words": [
@@ -1383,7 +1384,7 @@ DRILL({
           "w": "fallout",
           "ipa": "ˈfɔˌlaʊt",
           "m": "the bad results of an event",
-          "fa": "پیامدها، تبعات",
+          "fa": "اینجا: عواقبِ ناگوار یک رویداد؛ در معنای فیزیکی: غبار یا ذرات رادیواکتیوِ فرونشسته",
           "more": "aftermath · consequences · repercussions"
         }
       ]
@@ -1424,7 +1425,7 @@ DRILL({
       ]
     },
     {
-      "fa": "کاساندرا در پیمانِ تنهایی که با حقیقت بسته بود — هر قدر هم که حقیقت زشت بود —",
+      "fa": "در آن پیمانی که یک‌تنه با حقیقت بسته بود، هرقدر هم که آن حقیقت زشت باشد،",
       "en": "In her lonely pact with the truth, no matter how ugly,",
       "ipa": "ɪn hɚ ˈloʊnli pækt wɪð ðə truθ noʊ ˈmætɚ haʊ ˈʌɡli",
       "newPara": true,
@@ -1453,7 +1454,7 @@ DRILL({
       ]
     },
     {
-      "fa": "همیشه جدا از دیگران ایستاده بود.",
+      "fa": "کاساندرا همیشه از دیگران جدا ایستاده بود.",
       "en": "Cassandra had always stood apart.",
       "ipa": "kəˈsændrə hæd ˈɔlˌweɪz stʊd əˈpɑrt",
       "words": [

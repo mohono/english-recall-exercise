@@ -4,7 +4,7 @@ DRILL({
   "source": "https://www.youtube.com/watch?v=JhxuP0AuRPA",
   "items": [
     {
-      "fa": "در سالِ ۱۹۴۱، در لهستانِ اشغال‌شده به دستِ آلمان، نازی‌ها شروع کردند به ربودنِ اعضای جمعیتِ یهودی",
+      "fa": "در سال ۱۹۴۱، در لهستانِ تحت اشغالِ آلمان، نازی‌ها شروع کردند به ربودنِ افرادِ جامعهٔ یهودی",
       "en": "In 1941, in German-occupied Poland, the Nazis began abducting members of the Jewish population",
       "ipa": "ɪn ˌnaɪnˈtin ˈfɔrti wʌn ɪn ˈdʒɝmən ˈɑkjəˌpaɪd ˈpoʊlənd ðə ˈnɑtsiz bɪˈɡæn æbˈdʌktɪŋ ˈmɛmbɚz əv ðə ˈdʒuɪʃ ˌpɑpjəˈleɪʃən",
       "newPara": true,
@@ -33,7 +33,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و زندانی کردنشان در اردوگاه‌های نابودی.",
+      "fa": "و زندانی کردنِ آن‌ها در اردوگاه‌های کشتار جمعی.",
       "en": "and imprisoning them in extermination camps.",
       "ipa": "ənd ɪmˈprɪzənɪŋ ðɛm ɪn ɪkˌstɝməˈneɪʃən kæmps",
       "words": [
@@ -48,7 +48,7 @@ DRILL({
           "w": "extermination",
           "ipa": "ɪkˌstɝməˈneɪʃən",
           "m": "the killing of a whole group of people or animals",
-          "fa": "نابودی، قلع‌وقمع",
+          "fa": "نابودسازیِ کامل؛ در نامِ این اردوگاه‌ها: کشتارِ جمعی",
           "more": "exterminate · annihilation"
         },
         {
@@ -159,7 +159,7 @@ DRILL({
       ]
     },
     {
-      "fa": "شروع کرد به ساختنِ گذرنامه‌های جعلیِ آمریکای لاتین و قاچاقِ آن‌ها برای یهودیانِ لهستانی.",
+      "fa": "شروع کرد به تهیهٔ گذرنامه‌های جعلیِ کشورهای آمریکای لاتین و رساندنِ مخفیانهٔ آن‌ها به یهودیانِ لهستان.",
       "en": "started producing forged Latin American passports and smuggling them to Polish Jews.",
       "ipa": "ˈstɑrtəd prəˈdusɪŋ fɔrdʒd ˈlætən əˈmɛrəkən ˈpæˌspɔrts ənd ˈsmʌɡlɪŋ ðɛm tə ˈpɑlɪʃ dʒuz",
       "words": [
@@ -180,7 +180,7 @@ DRILL({
       ]
     },
     {
-      "fa": "سرانجام، همین دفترچه‌های کاغذیِ ساده برای هزاران نفر فرقِ میانِ زندگی و مرگ شدند.",
+      "fa": "در نهایت، همین دفترچه‌های کاغذیِ ساده بودند که برای هزاران نفر تفاوتِ میان زندگی و مرگ را رقم می‌زدند.",
       "en": "In the end, these simple paper booklets would mean the difference between life and death for thousands.",
       "ipa": "ɪn ði ɛnd ðiz ˈsɪmpəl ˈpeɪpɚ ˈbʊkləts wʊd min ðə ˈdɪfərəns bɪˈtwin laɪf ənd dɛθ fɚ ˈθaʊzəndz",
       "words": [
@@ -286,7 +286,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در چینِ دورهٔ هان و انگلستانِ دورهٔ تودور، به خارجی‌ها برگهٔ عبور داده می‌شد؛",
+      "fa": "در چینِ دورهٔ هان و انگلستانِ دورهٔ تودور، برای خارجی‌ها مجوزِ سفر صادر می‌شد؛",
       "en": "in Han China and Tudor England, foreigners were issued travel passes;",
       "ipa": "ɪn hɑn ˈtʃaɪnə ənd ˈtudɚ ˈɪŋɡlənd ˈfɔrənɚz wɚ ˈɪʃud ˈtrævəl ˈpæsəz",
       "words": [
@@ -350,7 +350,7 @@ DRILL({
           "w": "fluid",
           "ipa": "ˈfluəd",
           "m": "able to change easily; not fixed",
-          "fa": "سیال، انعطاف‌پذیر",
+          "fa": "دربارهٔ مرز: ثابت و تغییرناپذیر نبودن؛ در معنای فیزیکی: سیال، روان",
           "more": "fluidity · flexible · rigid (opp.)"
         }
       ]
@@ -427,7 +427,7 @@ DRILL({
       ]
     },
     {
-      "fa": "برای بازداشتن هم از جاسوسی و هم از فرار از خدمت، بسیاری از کشورهای اروپایی",
+      "fa": "برای جلوگیری از جاسوسی و نیز فرار سربازان از خدمت، بسیاری از کشورهای اروپایی",
       "en": "To deter both espionage and desertion, many European nations",
       "ipa": "tə dɪˈtɝ boʊθ ˈɛspiənɑdʒ ənd dɪˈzɝʃən ˈmɛni ˌjʊrəˈpiən ˈneɪʃənz",
       "words": [
@@ -462,7 +462,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در بندرهای ورودی ایست‌بازرسی برپا کردند تا ملیتِ مسافران را تأیید کنند.",
+      "fa": "در مبادیِ رسمیِ ورود به کشور ایست‌های بازرسی برپا کردند تا تابعیت مسافران را بررسی و تأیید کنند.",
       "en": "established checkpoints at ports of entry to confirm travelers’ nationalities.",
       "ipa": "ɪˈstæblɪʃt ˈtʃɛkˌpɔɪnts ət pɔrts əv ˈɛntri tə kənˈfɝm ˈtrævəlɚz ˌnæʃəˈnælɪtiz",
       "words": [
@@ -484,7 +484,7 @@ DRILL({
           "w": "port of entry",
           "ipa": "pɔrt əv ˈɛntri",
           "m": "a place where people and goods officially enter a country",
-          "fa": "مبادیِ ورودی، بندرِ ورودی",
+          "fa": "محل رسمی ورود به یک کشور، مثل گذرگاهِ زمینی، فرودگاه یا بندر",
           "more": "port · border post"
         },
         {
@@ -504,7 +504,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اینجا، مقامات نسخه‌های اولیهٔ گذرنامه را بررسی می‌کردند،",
+      "fa": "در این ایست‌ها مسئولان شکل‌های اولیهٔ گذرنامه را بررسی می‌کردند،",
       "en": "Here, authorities would screen early versions of passports,",
       "ipa": "hɪr əˈθɔrətiz wʊd skrin ˈɝli ˈvɝʒənz əv ˈpæˌspɔrts",
       "words": [
@@ -519,7 +519,7 @@ DRILL({
           "w": "to screen",
           "ipa": "tə skrin",
           "m": "to check people or things to find any problems",
-          "fa": "بررسی کردن، غربال کردن",
+          "fa": "اینجا: بررسیِ دقیقِ مدارک یا افراد؛ دربارهٔ فیلم: نمایش دادن",
           "more": "screening · vet · inspect"
         },
         {
@@ -532,7 +532,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که بسته به کشورِ صادرکننده، اسنادی بودند با قالب‌های متفاوت و انواعِ گوناگونی از اطلاعات.",
+      "fa": "مدارکی که بسته به کشورِ صادرکننده از قالب‌های متفاوتی پیروی می‌کردند و انواع مختلفی از اطلاعات را در بر داشتند.",
       "en": "which, depending on the issuing country, were documents that followed different formats and contained varying types of information.",
       "ipa": "wɪtʃ dɪˈpɛndɪŋ ɑn ði ˈɪʃuɪŋ ˈkʌntri wɚ ˈdɑkjəmənts ðæt ˈfɑloʊd ˈdɪfərənt ˈfɔrˌmæts ənd kənˈteɪnd ˈvɛriɪŋ taɪps əv ˌɪnfɚˈmeɪʃən",
       "words": [
@@ -929,7 +929,7 @@ DRILL({
       ]
     },
     {
-      "fa": "آن‌ها سلسله‌مراتبِ میانِ شهروندانِ زاده‌شده در کشورهای استعمارگر و زاده‌شدگان در مستعمره‌ها را تقویت می‌کردند.",
+      "fa": "گذرنامه‌ها سلسله‌مراتبِ موجود میان دو گروه از شهروندان را تقویت می‌کردند؛ آنان که در کشورهای استعمارگر به دنیا آمده بودند و آنان که در مستعمره‌ها زاده شده بودند.",
       "en": "They reinforced hierarchies between citizens born in colonizer states and those born in the colonies.",
       "ipa": "ðeɪ ˌriɪnˈfɔrst ˈhaɪˌrɑrkiz bɪˈtwin ˈsɪtəzənz bɔrn ɪn ˈkɑləˌnaɪzɚ steɪts ənd ðoʊz bɔrn ɪn ðə ˈkɑləniz",
       "words": [
@@ -979,7 +979,7 @@ DRILL({
           "w": "subject",
           "ipa": "ˈsʌbdʒɪkt",
           "m": "a person who lives in a country ruled by a king or queen",
-          "fa": "تبعه، رعیت",
+          "fa": "اینجا: تبعهٔ یک پادشاهی؛ در بافت‌های دیگر: موضوعِ بحث، فاعلِ جمله",
           "more": "British subject · citizen"
         }
       ]
@@ -1013,7 +1013,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به‌عنوانِ مجازات یا برای دلسرد کردن از مخالفت.",
+      "fa": "برای مجازات یا برای بازداشتنِ شهروندان از ابراز مخالفت.",
       "en": "as punishment or to discourage dissent.",
       "ipa": "əz ˈpʌnɪʃmənt ɔr tə dɪˈskɝɪdʒ dɪˈsɛnt",
       "words": [
@@ -1147,7 +1147,7 @@ DRILL({
       ]
     },
     {
-      "fa": "امروزه، اعتبارِ یک گذرنامه و اینکه آدم به کجا می‌تواند سفر کند و از کجا،",
+      "fa": "امروزه، قدرتِ یک گذرنامه و اینکه فرد از کجا و به کجا می‌تواند سفر کند،",
       "en": "Today, a passport’s strength and where a person can travel to and from",
       "ipa": "təˈdeɪ ə ˈpæˌspɔrts strɛŋkθ ənd wɛr ə ˈpɝsən kən ˈtrævəl tə ənd frʌm"
     },
@@ -1187,7 +1187,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که سفرِ بدونِ مرز را در ۲۹ کشورِ اروپایی ممکن می‌کند.",
+      "fa": "که سفر بدون کنترل مرزی را در محدودهٔ ۲۹ کشور اروپایی ممکن می‌کند.",
       "en": "which allows border-free travel within 29 European countries.",
       "ipa": "wɪtʃ əˈlaʊz ˈbɔrdɚ fri ˈtrævəl wɪˈðɪn ˈtwɛnti naɪn ˌjʊrəˈpiən ˈkʌntriz",
       "words": [
@@ -1201,7 +1201,7 @@ DRILL({
       ]
     },
     {
-      "fa": "کشورهای پُردرآمدتر هم معمولاً دسترسیِ سفرِ بهتری دارند.",
+      "fa": "کشورهای پردرآمدتر هم معمولاً از امکانِ بیشتری برای سفر برخوردارند.",
       "en": "Higher-income countries also typically have better travel access.",
       "ipa": "ˈhaɪɚ ˈɪnˌkʌm ˈkʌntriz ˈɔlsoʊ ˈtɪpɪkli hæv ˈbɛtɚ ˈtrævəl ˈækˌsɛs",
       "words": [
@@ -1257,7 +1257,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا سالِ ۲۰۲۵، دارندهٔ گذرنامهٔ آمریکایی بدونِ اینکه از قبل ویزا بگیرد می‌تواند وارد نزدیک به ۱۸۰ کشور شود.",
+      "fa": "طبقِ وضعیتِ سالِ ۲۰۲۵، دارندهٔ گذرنامهٔ آمریکا می‌تواند بدون اقدامِ قبلی برای گرفتن ویزا وارد نزدیک به ۱۸۰ کشور شود.",
       "en": "As of 2025, a US passport holder can enter almost 180 countries without arranging a visa beforehand.",
       "ipa": "əz əv ˈtwɛnti ˈtwɛnti faɪv ə ˌjuˈɛs ˈpæˌspɔrt ˈhoʊldɚ kən ˈɛntɚ ˈɔlˌmoʊst wʌn ˈhʌndrəd ˈeɪti ˈkʌntriz wɪˈθaʊt əˈreɪndʒɪŋ ə ˈvizə bɪˈfɔrˌhænd",
       "words": [
@@ -1265,7 +1265,7 @@ DRILL({
           "w": "as of",
           "ipa": "əz ʌv",
           "m": "starting from or at a particular time",
-          "fa": "تا تاریخِ، از (تاریخِ)",
+          "fa": "اینجا: بر اساسِ وضعیت در تاریخِ مشخص؛ دربارهٔ شروعِ یک تغییر: از آن تاریخ به بعد",
           "more": "as from · from … on"
         },
         {

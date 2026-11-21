@@ -33,7 +33,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما اگر همین‌طوری... نزنید چه؟",
+      "fa": "اما اگر اصلاً… این کارها را نمی‌کردید، چه؟",
       "en": "But what if you just... didn’t?",
       "ipa": "bət wʌt ɪf ju dʒʌst … ˈdɪdənt",
       "words": [
@@ -180,9 +180,21 @@ DRILL({
       ]
     },
     {
-      "fa": "«هم‌سفره‌ها» (<en>commensals</en>؛ میکروب‌های بی‌خطری که با ما زندگی می‌کنند) و «بیماری‌زاهای بالقوه» (<en>pathobionts</en>؛ میکروب‌هایی که می‌توانند بیماری بسازند).",
+      "fa": "میکروب‌های هم‌سفره و میکروب‌های بالقوه بیماری‌زا.",
       "en": "commensals and pathobionts.",
-      "ipa": "ˈkɑmənsəlz ənd ˈpæθioʊˌbɪnts"
+      "ipa": "ˈkɑmənsəlz ənd ˈpæθioʊˌbɪnts",
+      "words": [
+        {
+          "w": "commensal",
+          "m": "here, a microbe that normally lives in the mouth without harming its host",
+          "fa": "میکروبِ هم‌سفره؛ اینجا از ساکنانِ معمولِ دهان که در شرایط عادی به میزبان آسیب نمی‌زند."
+        },
+        {
+          "w": "pathobiont",
+          "m": "a normally resident microbe that can cause disease under certain conditions",
+          "fa": "میکروبِ بالقوه بیماری‌زا؛ از ساکنانِ معمولِ بدن که در بعضی شرایط می‌تواند بیماری ایجاد کند."
+        }
+      ]
     },
     {
       "fa": "تعدادِ زیادِ هم‌سفره‌ها برای سلامتِ دهان خوب است.",
@@ -242,7 +254,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و آمونیاک تولید می‌کنند که اسیدهای پوساندنِ دندان را خنثی می‌کند.",
+      "fa": "و آمونیاک تولید می‌کنند که اسیدهای پوسانندهٔ دندان را خنثی می‌کند.",
       "en": "and produce ammonia, which neutralizes tooth-decaying acids.",
       "ipa": "ənd prəˈdus əˈmoʊnjə wɪtʃ ˈnutrəˌlaɪzɪz tuθ dəˈkeɪɪŋ ˈæsədz",
       "words": [
@@ -277,7 +289,7 @@ DRILL({
           "w": "meanwhile",
           "ipa": "ˈminˌwaɪl",
           "m": "used to compare two things: on the other hand",
-          "fa": "از آن طرف، در مقابل"
+          "fa": "در این میان، هم‌زمان؛ اینجا برای گذر به وضعیت گروه دوم"
         },
         {
           "w": "abundance",
@@ -337,7 +349,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مسواک‌زدن و نخ‌دندان‌کشیدنِ کامل و دقیق، اعضای هر دو گروه را پاک می‌کند،",
+      "fa": "مسواک‌زدن و نخ‌دندان‌کشیدنِ دقیق و کامل، تعدادی از اعضای هر دو گروه را از دهان می‌زداید،",
       "en": "Thorough brushing and flossing remove members of both groups,",
       "ipa": "ˈθɝoʊ ˈbrʌʃɪŋ ənd ˈflɔsɪŋ riˈmuv ˈmɛmbɚz əv boʊθ ɡrups",
       "newPara": true,
@@ -429,7 +441,7 @@ DRILL({
           "w": "pretty",
           "ipa": "ˈprɪti",
           "m": "(adverb, informal) fairly; quite",
-          "fa": "نسبتاً، خیلی"
+          "fa": "اینجا قید و به معنی «نسبتاً، تا حد زیادی»؛ به‌عنوان صفت: زیبا"
         },
         {
           "w": "once",
@@ -440,7 +452,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در ۷۲ ساعت اول، چشمگیرترین عارضهٔ جانبی، بوی دهانِ فوق‌العاده بد است.",
+      "fa": "در ۷۲ ساعت اول، چشمگیرترین عارضه این است که دهانتان به‌شدت بوی بد می‌گیرد.",
       "en": "For the first 72 hours, the most notable side effect is supremely bad breath.",
       "ipa": "fɚ ðə fɝst ˈsɛvənti tu ˈaʊɚz ðə moʊst ˈnoʊtəbəl saɪd ɪˈfɛkt ɪz suˈpriməli bæd brɛθ",
       "newPara": true,
@@ -509,7 +521,7 @@ DRILL({
           "w": "film",
           "ipa": "fɪlm",
           "m": "a thin layer of something on a surface",
-          "fa": "لایهٔ نازک"
+          "fa": "اینجا: لایه یا پرده‌ای نازک روی یک سطح؛ در بافت دیگر: فیلم سینمایی"
         },
         {
           "w": "dental",
@@ -562,7 +574,7 @@ DRILL({
           "w": "gum",
           "ipa": "ɡʌm",
           "m": "the firm pink flesh around the base of your teeth",
-          "fa": "لثه",
+          "fa": "اینجا: لثه (معمولاً به‌صورت جمع)؛ در بافت دیگر: آدامس، صمغ",
           "more": "gum line · gum disease"
         },
         {
@@ -608,7 +620,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بعد از یک ماه، جمعیتِ بیماری‌زاهای بالقوه‌تان که به‌سرعت زیاد شده، ممکن است آن‌قدر اسید به‌عنوان مادهٔ جانبی آزاد کند",
+      "fa": "بعد از یک ماه، جمعیتِ به‌سرعت در حال رشدِ میکروب‌های بالقوه بیماری‌زای دهانتان ممکن است آن‌قدر فرآوردهٔ جانبیِ اسیدی آزاد کند",
       "en": "After a month, your booming pathobiont population may be releasing enough acid byproducts",
       "ipa": "ˈæftɚ ə mʌnθ jɔr ˈbumɪŋ pəˈθoʊənt ˌpɑpjəˈleɪʃən meɪ bi riˈlisɪŋ ɪˈnʌf ˈæsəd ˈbaɪˌprɔdəkts",
       "words": [
@@ -1131,7 +1143,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و داربستی را که دندان‌هایتان را نگه می‌دارد سست می‌کند و آن‌ها را رها می‌کند تا لق شوند و بیفتند.",
+      "fa": "و داربستی را که دندان‌هایتان را نگه می‌دارد سست می‌کند، به‌طوری که دندان‌ها لق می‌شوند و می‌افتند.",
       "en": "and weakens the scaffolding holding your teeth, leaving them to wobble and fall out.",
       "ipa": "ənd ˈwikənz ðə ˈskæfəldɪŋ ˈhoʊldɪŋ jɔr tiθ ˈlivɪŋ ðɛm tə ˈwɑbəl ənd fɔl aʊt",
       "words": [
@@ -1152,7 +1164,7 @@ DRILL({
           "w": "to leave somebody/something to do",
           "ipa": "tə liv ˈsʌmˌbɑdi | ˈsʌmθɪŋ tə du",
           "m": "to let something happen to someone or something without helping",
-          "fa": "(کسی یا چیزی را) رها کردن تا …"
+          "fa": "اینجا: موجب شدن که چیزی سرانجام در چنین وضعی قرار بگیرد؛ در کاربرد دیگر: کاری را به کسی واگذاشتن"
         },
         {
           "w": "to wobble",
@@ -1458,7 +1470,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و از همهٔ آسیب‌های دائمی‌ای که بعدش آمد جلوگیری کنید.",
+      "fa": "و می‌توانستید از تمام آسیب‌های دائمی‌ای که در پیِ آن پیش آمد جلوگیری کنید.",
       "en": "and avoided all the permanent damage that followed.",
       "ipa": "ənd əˈvɔɪdəd ɔl ðə ˈpɝmənənt ˈdæmədʒ ðæt ˈfɑloʊd",
       "words": [
@@ -1529,7 +1541,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که بخشی از مینای در معرضِ دندانتان را با اتم‌های فلوئورِ مقاوم در برابر اسید جایگزین می‌کند.",
+      "fa": "که بخشی از مینای بی‌حفاظِ دندان‌هایتان را با اتم‌های فلوئورِ مقاوم در برابر اسید جایگزین می‌کند.",
       "en": "which replaces some of your exposed enamel with acid-resistant fluorine atoms.",
       "ipa": "wɪtʃ rɪˈpleɪsɪz sʌm əv jɔr ɪkˈspoʊzd ɪˈnæməl wɪð ˈæsəd rɪˈzɪstənt ˈflʊˌrin ˈætəmz",
       "words": [

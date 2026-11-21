@@ -33,7 +33,7 @@ DRILL({
       ]
     },
     {
-      "fa": "همین که محمولهٔ ارزشمندِ کشتی روی آب آمد و شناور شد،",
+      "fa": "همین‌طور که محمولهٔ ارزشمندِ کشتی بالا می‌آمد و روی آب شناور می‌شد،",
       "en": "As the vessel’s valuable contents floated to the surface,",
       "ipa": "əz ðə ˈvɛsəlz ˈvæljəbəl ˈkɑntɛnts ˈfloʊtəd tə ðə ˈsɝfəs",
       "words": [
@@ -75,7 +75,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مردمِ محلی دسته‌دسته به دریا هجوم آوردند تا هرچه می‌توانستند از لای آب جمع کنند.",
+      "fa": "مردم محلی دسته‌دسته به سمت دریا رفتند تا از بقایای کشتی هرچه می‌توانستند پیدا کنند و بردارند.",
       "en": "locals flocked to the sea to scavenge what they could.",
       "ipa": "ˈloʊkəlz flɑkt tə ðə si tə ˈskævəndʒ wʌt ðeɪ kʊd",
       "words": [
@@ -97,7 +97,7 @@ DRILL({
           "w": "to scavenge",
           "ipa": "tə ˈskævəndʒ",
           "m": "to search through things to find something useful",
-          "fa": "از لای چیزی جمع کردن، لاشه‌جویی کردن",
+          "fa": "از میان بقایا چیزهای به‌دردبخور پیدا و جمع کردن؛ دربارهٔ جانوران: از لاشه تغذیه کردن",
           "more": "scavenger · forage · salvage"
         }
       ]
@@ -145,7 +145,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دانه‌های فلفلِ سیاه میوه‌های ریز و حبه‌مانندِ تاکی رونده و گرمسیری‌اند.",
+      "fa": "دانه‌های فلفل سیاه میوه‌های ریز و توت‌مانندِ یک گیاهِ بالاروندهٔ گرمسیری‌اند.",
       "en": "Black peppercorns are the small, berry-like fruits of a tropical vine.",
       "ipa": "blæk ˈpɛpɚkɚnz ɚ ðə smɔl ˈbɛriˌlaɪk fruts əv ə ˈtrɑpɪkəl vaɪn",
       "newPara": true,
@@ -154,7 +154,7 @@ DRILL({
           "w": "berry-like",
           "ipa": "ˈbɛriˌlaɪk",
           "m": "looking like a small round fruit",
-          "fa": "حبه‌مانند، شبیهِ توت",
+          "fa": "شبیه میوه‌های ریزی مثل توت",
           "more": "berry · -like"
         },
         {
@@ -168,13 +168,13 @@ DRILL({
           "w": "vine",
           "ipa": "vaɪn",
           "m": "a plant that climbs or grows along the ground",
-          "fa": "تاک، گیاهِ رونده",
+          "fa": "گیاه رونده یا بالارونده؛ در مورد انگور: تاک، مو",
           "more": "grapevine · climber · creeper"
         }
       ]
     },
     {
-      "fa": "این ادویه طعمی ملایم از چوب و مرکبات دارد، و تندیِ نه‌چندان ملایمی",
+      "fa": "این ادویه ته‌مزهٔ ظریفی از چوب و مرکبات دارد و تندیِ گزنده‌ای که دیگر چندان هم ظریف نیست",
       "en": "The spice has a subtle wood and citrus flavor, and a not-so-subtle spicy kick",
       "ipa": "ðə spaɪs hæz ə ˈsʌtəl wʊd ənd ˈsɪtrəs ˈfleɪvɚ ənd ə nɑt soʊ ˈsʌtəl ˈspaɪsi kɪk",
       "words": [
@@ -210,7 +210,7 @@ DRILL({
           "w": "kick",
           "ipa": "kɪk",
           "m": "informal: a strong, sharp taste or effect",
-          "fa": "تندی، ضربه (طعم)",
+          "fa": "اینجا: تندیِ محسوس و ناگهانیِ مزه؛ در معنای فیزیکی: لگد، ضربهٔ پا",
           "more": "punch · bite · zing"
         },
         {
@@ -498,7 +498,7 @@ DRILL({
       ]
     },
     {
-      "fa": "کوچ‌نشینان و بازرگانانِ نخستین کمک کردند فلفل از هند به اندونزی و فراتر از آن برده شود.",
+      "fa": "مهاجران و بازرگانانِ نخستین به انتقال فلفل از هند به اندونزی و سرزمین‌های دورتر کمک کردند.",
       "en": "Early migrants and traders helped move pepper from India to Indonesia and beyond.",
       "ipa": "ˈɝli ˈmaɪɡrənts ənd ˈtreɪdɚz hɛlpt muv ˈpɛpɚ frəm ˈɪndiə tə ˌɪndoʊˈniʒə ənd bɪˈɑnd",
       "newPara": true,
@@ -507,7 +507,7 @@ DRILL({
           "w": "migrant",
           "ipa": "ˈmaɪɡrənt",
           "m": "a person who moves from one place to another to live",
-          "fa": "کوچ‌نشین، مهاجر",
+          "fa": "مهاجر، کسی که برای زندگی یا کار از جایی به جای دیگر می‌رود",
           "more": "migrate · migration · immigrant"
         },
         {
@@ -590,7 +590,7 @@ DRILL({
       ]
     },
     {
-      "fa": "یک کتابِ آشپزیِ رومی از سدهٔ چهارم یا پنجمِ پیش از میلاد، در ۸۱ درصد از ۴۰۰ دستورِ پختش فلفل لازم داشت.",
+      "fa": "در یک کتابِ آشپزیِ رومی متعلق به قرن چهارم یا پنجم پیش از میلاد، ۸۱ درصد از ۴۰۰ دستورِ پخت به فلفل نیاز داشتند.",
       "en": "A Roman cookbook from the 4th or 5th century BCE called for pepper in 81% of the 400 recipes.",
       "ipa": "ə ˈroʊmən ˈkʊkˌbʊk frəm ðə fɔrθ ɔr fɪfθ ˈsɛntʃəri ˌbiˌsiˈi kɔld fɚ ˈpɛpɚ ɪn ˈeɪti wʌn pɚˈsɛnt əv ðə fɔr ˈhʌndrəd ˈrɛsəpiz",
       "words": [
@@ -612,7 +612,7 @@ DRILL({
           "w": "to call for",
           "ipa": "tə kɔl fɔr",
           "m": "to need something as part of a recipe or plan",
-          "fa": "لازم داشتن",
+          "fa": "در دستور پخت: به ماده‌ای نیاز داشتن؛ در بافت دیگر: خواستارِ چیزی شدن",
           "more": "require · need · ask for"
         },
         {
@@ -639,7 +639,7 @@ DRILL({
       ]
     },
     {
-      "fa": "بیش از سه هزار پوند دانهٔ فلفلِ سیاه را به‌عنوانِ بخشی از خون‌بهای شهر طلب کردند.",
+      "fa": "بیش از سه هزار پوند دانهٔ فلفل سیاه را به‌عنوان بخشی از بهای رهاییِ شهر مطالبه کردند.",
       "en": "they demanded over 3,000 pounds of black peppercorns as part of the city’s ransom.",
       "ipa": "ðeɪ dɪˈmændəd ˈoʊvɚ θri ˈθaʊzənd paʊndz əv blæk ˈpɛpɚkɚnz əz pɑrt əv ðə ˈsɪtiz ˈrænsəm",
       "words": [
@@ -654,7 +654,7 @@ DRILL({
           "w": "ransom",
           "ipa": "ˈrænsəm",
           "m": "money or goods demanded to free a person or place",
-          "fa": "خون‌بها، فدیه",
+          "fa": "بهایی که برای آزادیِ کسی یا رهاییِ چیزی مطالبه می‌شود؛ فدیه، باج",
           "more": "hold to ransom · payment"
         }
       ]
@@ -823,7 +823,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما این برتریِ فلفلی بی‌رقیب نماند.",
+      "fa": "اما این سلطه بر تجارتِ فلفل بی‌منازع نماند.",
       "en": "But this pepper dominance wasn't without contest.",
       "ipa": "bət ðɪs ˈpɛpɚ ˈdɑmənəns ˈwɑzənt wɪˈθaʊt ˈkɑntɛst",
       "words": [
@@ -929,7 +929,7 @@ DRILL({
       ]
     },
     {
-      "fa": "هرچند در واقع داشت به میوه‌ای بسیار تندتر، درشت‌تر و یکسره بی‌ربط گاز می‌زد: فلفل‌چیلی.",
+      "fa": "هرچند در واقع داشت میوه‌ای بسیار تندتر و درشت‌تر از خانواده‌ای کاملاً متفاوت را گاز می‌زد: فلفل چیلی.",
       "en": "though he was actually biting into a much hotter, larger, and completely unrelated fruit: the chili.",
       "ipa": "ðoʊ hi wəz ˈæktʃəwəli ˈbaɪtɪŋ ɪnˈtu ə mʌtʃ ˈhɑtɚ ˈlɑrdʒɚ ənd kəmˈplitli ˌʌnrɪˈleɪtɪd frut ðə ˈtʃɪli",
       "words": [
@@ -944,7 +944,7 @@ DRILL({
           "w": "unrelated",
           "ipa": "ˌʌnrɪˈleɪtɪd",
           "m": "not connected or of the same family",
-          "fa": "بی‌ربط، بی‌نسبت",
+          "fa": "اینجا: از تبارِ گیاهی دیگری؛ در مورد موضوع‌ها: بی‌ارتباط",
           "more": "related (opp.) · unconnected"
         },
         {
@@ -1119,7 +1119,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و در چین، فلفل‌چیلی با آشپزیِ سیچوان یکی شد و نامش با آن گره خورد،",
+      "fa": "و در چین، نام فلفل چیلی چنان با آشپزی سیچوان گره خورد که یکی دیگری را تداعی می‌کرد،",
       "en": "And in China, chili peppers became synonymous with Sichuan cuisine,",
       "ipa": "ənd ɪn ˈtʃaɪnə ˈtʃɪli ˈpɛpɚz bɪˈkeɪm səˈnɑnəməs wɪð ˌsɪtʃˈwɑn kwɪˈzin",
       "words": [
@@ -1140,7 +1140,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در کنارِ فلفلِ سیچوان، گیاهِ تندِ بی‌ربطِ دیگری که برچسبِ «فلفل» خورده بود.",
+      "fa": "در کنارِ فلفل سیچوان، گیاه تند دیگری از تباری متفاوت که روی آن هم نامِ «فلفل» گذاشتند.",
       "en": "alongside Sichuan peppers, another unrelated spicy plant labeled “pepper.”",
       "ipa": "əˌlɔŋˈsaɪd ˌsɪtʃˈwɑn ˈpɛpɚz əˈnʌðɚ ˌʌnrɪˈleɪtɪd ˈspaɪsi plænt ˈleɪbəld ˈpɛpɚ",
       "words": [
@@ -1332,7 +1332,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این ادویه در میانِ بسیاری گزینه‌های تندِ دیگر جای دارد.",
+      "fa": "فلفل سیاه در میان گزینه‌های بسیار دیگری برای تند کردن غذا جای دارد.",
       "en": "It stands among many other heat options.",
       "ipa": "ɪt stændz əˈmʌŋ ˈmɛni ˈʌðɚ hit ˈɑpʃənz",
       "words": [
@@ -1354,13 +1354,13 @@ DRILL({
           "w": "to spice up",
           "ipa": "tə spaɪs ʌp",
           "m": "to add spices to food; to make something more exciting",
-          "fa": "تندی دادن، ادویه زدن",
+          "fa": "به غذا ادویه یا تندی افزودن؛ مجازی: به چیزی شور و تنوع دادن",
           "more": "season · liven up"
         }
       ]
     },
     {
-      "fa": "یا می‌توانیم ساده دست ببریم سمتِ فلفل‌پاش.",
+      "fa": "یا می‌توانیم فقط دستمان را به سمتِ فلفل‌پاش ببریم.",
       "en": "Or we could simply reach for the pepper shaker.",
       "ipa": "ɔr wi kʊd ˈsɪmpli ritʃ fɚ ðə ˈpɛpɚ ˈʃeɪkɚ",
       "words": [

@@ -20,14 +20,14 @@ DRILL({
           "w": "to unveil",
           "ipa": "tə ənˈveɪl",
           "m": "to show something new to the public for the first time",
-          "fa": "رونمایی کردن",
+          "fa": "برای نخستین بار در معرضِ دیدِ عموم گذاشتن، رونمایی کردن؛ پرده برداشتن از",
           "more": "to reveal · to launch"
         },
         {
           "w": "creation",
           "ipa": "kriˈeɪʃən",
           "m": "something that someone has made or designed",
-          "fa": "آفریده، اثر",
+          "fa": "اثرِ طراحی‌شده، آفریده؛ آفرینش",
           "more": "to create · creator"
         }
       ]
@@ -41,7 +41,7 @@ DRILL({
           "w": "stiletto",
           "ipa": "stəˈlɛtoʊ",
           "m": "a woman’s shoe with a very high, thin heel",
-          "fa": "کفشِ پاشنه‌سوزنی",
+          "fa": "کفشِ پاشنه‌سوزنی؛ خنجرِ باریک",
           "more": "high heels"
         },
         {
@@ -54,7 +54,7 @@ DRILL({
       ]
     },
     {
-      "fa": "چیزی که این تکهٔ به‌ظاهر معمولی را این‌قدر درخورِ توجه می‌کرد این بود که طراحی شده بود تا روی سرِ یک زن بنشیند.",
+      "fa": "چیزی که این اثرِ به‌ظاهر معمولی را این‌قدر درخورِ توجه می‌کرد این بود که آن را طوری طراحی کرده بودند که روی سرِ یک زن بنشیند.",
       "en": "What made this seemingly ordinary piece so noteworthy was that it was designed to sit on top of a woman’s head.",
       "ipa": "wʌt meɪd ðɪs ˈsimɪŋli ˈɔrdəˌnɛri pis soʊ ˈnoʊtˌwɝði wəz ðæt ɪt wəz dɪˈzaɪnd tə sɪt ɑn tɑp əv ə ˈwʊmənz hɛd",
       "words": [
@@ -82,7 +82,7 @@ DRILL({
       ]
     },
     {
-      "fa": "کلاه‌کفشِ عجیب‌وغریبِ اسکیاپارلی که با همکاریِ سالوادور دالی ساخته شده بود،",
+      "fa": "کلاهِ کفش‌شکلِ عجیب‌وغریبِ اسکیاپارلی که با همکاریِ سالوادور دالی ساخته شده بود،",
       "en": "Created in collaboration with Salvador Dalí, Schiaparelli’s bizarre shoe hat",
       "ipa": "kriˈeɪtəd ɪn kəˌlæbəˈreɪʃən wɪð ˈsælvəˌdɔr ˈdɑli ʃiˌɑpəˈrɛliz bəˈzɑr ʃu hæt",
       "words": [
@@ -103,7 +103,7 @@ DRILL({
       ]
     },
     {
-      "fa": "به‌عنوانِ سهمی نمادین در جنبشِ هنریِ سوررئالیسم ستایش شد.",
+      "fa": "به‌خاطرِ سهمِ شاخصی که در جنبشِ هنریِ سوررئالیسم داشت، تحسین شد.",
       "en": "was celebrated as an iconic contribution to the Surrealist art movement.",
       "ipa": "wəz ˈsɛləˌbreɪtəd əz ən ˌaɪˈkɑnɪk ˌkɑntrəˈbjuʃən tə ðə ˈsɝələst ɑrt ˈmuvmənt",
       "words": [
@@ -111,21 +111,21 @@ DRILL({
           "w": "to celebrate",
           "ipa": "tə ˈsɛləˌbreɪt",
           "m": "to praise someone or something publicly",
-          "fa": "ستایش کردن، تجلیل کردن",
+          "fa": "ستودن، تجلیل کردن از؛ جشن گرفتن",
           "more": "celebrated · celebration"
         },
         {
           "w": "iconic",
           "ipa": "ˌaɪˈkɑnɪk",
           "m": "very famous and seen as a symbol of something",
-          "fa": "نمادین، شاخص",
+          "fa": "شاخص و نمادین، مظهرِ یک سبک",
           "more": "icon"
         },
         {
           "w": "contribution",
           "ipa": "ˌkɑntrəˈbjuʃən",
           "m": "something you give or do to help something succeed",
-          "fa": "سهم، کمک",
+          "fa": "اثری که به یک جنبش افزوده می‌شود؛ سهم، مشارکت",
           "more": "to contribute · contributor"
         },
         {
@@ -138,7 +138,7 @@ DRILL({
       ]
     },
     {
-      "fa": "انسان‌ها از سپیده‌دمِ تمدن کلاه درست می‌کرده‌اند.",
+      "fa": "انسان‌ها از سپیده‌دمِ تمدن تا امروز پیوسته کلاه ساخته‌اند.",
       "en": "Humans have been fashioning caps since the dawn of civilization.",
       "ipa": "ˈhjumənz hæv bɪn ˈfæʃənɪŋ kæps sɪns ðə dɔn əv ˌsɪvəlɪˈzeɪʃən",
       "newPara": true,
@@ -154,14 +154,14 @@ DRILL({
           "w": "cap",
           "ipa": "kæp",
           "m": "a soft hat, often with a hard part at the front",
-          "fa": "کلاه، کلاهِ لبه‌دار",
+          "fa": "کلاهِ معمولاً نرم و اندازهٔ سر؛ درپوش",
           "more": "baseball cap"
         },
         {
           "w": "the dawn of",
           "ipa": "ðə dɔn ʌv",
           "m": "the beginning of a period of time",
-          "fa": "سپیده‌دمِ، آغازِ",
+          "fa": "آغازِ، سپیده‌دمِ",
           "more": "dawn · since the dawn of time"
         },
         {
@@ -175,7 +175,7 @@ DRILL({
       "note": "fashion این‌جا فعل است به معنای «ساختن»، که با موضوعِ ویدیو (مُد) بازی می‌کند."
     },
     {
-      "fa": "یک کلاهِ سادهٔ پوستِ خرس از عصرِ مفرغ یکی از قدیمی‌ترین کلاه‌هایی است که باقی مانده،",
+      "fa": "کلاهی ساده از پوستِ خرس که از عصرِ مفرغ به جا مانده، یکی از کهن‌ترین کلاه‌های باقی‌مانده است؛",
       "en": "A simple bearskin cap from the Bronze Age is one of the earliest surviving hats,",
       "ipa": "ə ˈsɪmpəl ˈbɝskɪn kæp frəm ðə brɑnz eɪdʒ ɪz wʌn əv ði ˈɝliəst sɚˈvaɪvɪŋ hæts",
       "words": [
@@ -196,7 +196,7 @@ DRILL({
       ]
     },
     {
-      "fa": "که در آلپ در کنارِ قدیمی‌ترین مومیاییِ اروپا، اوتزی مردِ یخی، پیدا شد.",
+      "fa": "این کلاه را در کوه‌های آلپ در کنارِ قدیمی‌ترین مومیاییِ اروپا، اوتزیِ مردِ یخی، کشف کردند.",
       "en": "discovered in the Alps alongside Europe’s oldest mummy, Ötzi the Iceman.",
       "ipa": "dɪˈskʌvɚd ɪn ði ælps əˌlɔŋˈsaɪd ˈjʊrəps ˈoʊldəst ˈmʌmi ˈtoʊtsi ði ˈaɪsmæn",
       "words": [
@@ -217,7 +217,7 @@ DRILL({
       ]
     },
     {
-      "fa": "ولی تصویرهایی از کلاه پیدا کرده‌ایم که خیلی قدیمی‌ترند:",
+      "fa": "اما تصویرهایی بسیار قدیمی‌تر هم از کلاه پیدا کرده‌ایم:",
       "en": "But we’ve found images of hats that are much older:",
       "ipa": "bət wiv faʊnd ˈɪmədʒəz əv hæts ðæt ɚ mʌtʃ ˈoʊldɚ"
     },
@@ -273,7 +273,7 @@ DRILL({
           "w": "to make a statement",
           "ipa": "tə meɪk ə ˈsteɪtmənt",
           "m": "to show your opinions or values clearly, often through what you wear or do",
-          "fa": "موضع گرفتن، پیامی را نشان دادن",
+          "fa": "موضعی را بیان کردن، پیامی را رساندن",
           "more": "fashion statement · political statement"
         }
       ]
@@ -294,7 +294,7 @@ DRILL({
           "w": "favorite",
           "ipa": "ˈfeɪvərɪt",
           "m": "a thing that is liked more than others",
-          "fa": "محبوب، موردِ علاقه",
+          "fa": "چیز یا شخصِ محبوب، موردِ علاقه",
           "more": "favourite (UK)"
         },
         {
@@ -307,7 +307,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در جمهوریِ روم، کلاه‌های پیلئوس را به کسانی می‌دادند که پیش‌تر به بردگی کشیده شده بودند، به‌عنوانِ نشانه‌ای علنی از آزادی‌شان،",
+      "fa": "در جمهوریِ روم، کلاه‌های پیلئوس را به کسانی که پیش‌تر برده بودند می‌دادند تا نشانه‌ای آشکار از آزادی‌شان باشد",
       "en": "In the Roman Republic, pileus caps were given to previously enslaved people as a public sign of their freedom",
       "ipa": "ɪn ðə ˈroʊmən riˈpʌblək ˈpaɪləs kæps wɚ ˈɡɪvən tə ˈpriviəsli ɛnˈsleɪvd ˈpipəl əz ə ˈpʌblɪk saɪn əv ðɛr ˈfridəm",
       "words": [
@@ -335,7 +335,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و کم‌کم نمادِ آرمان‌های آزادیِ فردی و سیاسی شدند.",
+      "fa": "و این کلاه‌ها به‌تدریج نمادِ آرمان‌های آزادیِ فردی و سیاسی شدند.",
       "en": "and came to symbolize the ideals of personal and political liberty.",
       "ipa": "ənd keɪm tə ˈsɪmbəˌlaɪz ði aɪˈdilz əv ˈpɝsɪnɪl ənd pəˈlɪtəkəl ˈlɪbɚti",
       "words": [
@@ -343,7 +343,7 @@ DRILL({
           "w": "to come to",
           "ipa": "tə kʌm tu",
           "m": "to gradually start to do or be something",
-          "fa": "کم‌کم … شدن",
+          "fa": "به‌تدریج به جایی رسیدن که …",
           "more": "to come to believe"
         },
         {
@@ -370,7 +370,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در قرنِ هجدهم، ظاهراً انقلابیونِ آمریکایی و فرانسوی پیلئوس را با کلاهِ فریجیِ بسیار شبیه به آن قاطی کرده بودند،",
+      "fa": "در قرنِ هجدهم، به نظر می‌رسد انقلابیونِ آمریکایی و فرانسوی پیلئوس را با کلاهِ فریجی، که ظاهرش بسیار شبیه آن بود، یکی گرفته بودند",
       "en": "In the 18th century, American and French revolutionaries seemed to have conflated the pileus with the very similar-looking Phrygian cap,",
       "ipa": "ɪn ði eɪˈtinθ ˈsɛntʃəri əˈmɛrəkən ənd frɛntʃ ˌrɛvəˈluʃəˌnɛriz simd tə hæv ˈkɑnˌfleɪtɪd ðə ˈpaɪləs wɪð ðə ˈvɛri ˈsɪməlɚ ˈlʊkɪŋ ˈfrɪdʒiən kæp",
       "words": [
@@ -385,14 +385,14 @@ DRILL({
           "w": "to conflate",
           "ipa": "tə kənˈfleɪt",
           "m": "to mix two different things and treat them as one",
-          "fa": "قاطی کردن، یکی گرفتن",
+          "fa": "دو چیزِ متفاوت را یکی گرفتن، با هم خلط کردن",
           "more": "to confuse · to merge"
         },
         {
           "w": "similar-looking",
           "ipa": "ˈsɪməlɚ ˈlʊkɪŋ",
           "m": "looking like something else",
-          "fa": "شبیه، هم‌شکل",
+          "fa": "از نظرِ ظاهر شبیه به هم",
           "more": "lookalike"
         }
       ]
@@ -426,7 +426,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این را در تصویرهایی از ماریان، تجسمِ جمهوریِ فرانسه، می‌شود دید، که اغلب یک کلاهِ فریجیِ قرمز سر دارد.",
+      "fa": "این موضوع در تصویرهای ماریان بازتاب یافته است؛ ماریان که تجسمِ انسانیِ جمهوریِ فرانسه است، اغلب کلاهِ فریجیِ قرمزی بر سر دارد.",
       "en": "This is reflected in renderings of Marianne, a personification of the French Republic, who often wears a red Phrygian.",
       "ipa": "ðɪs ɪz rəˈflɛktəd ɪn ˈrɛndərɪŋz əv ˌmɛriˈæn ə pɚˌsɑnəfəˈkeɪʃən əv ðə frɛntʃ riˈpʌblək hu ˈɔfən wɛrz ə rɛd ˈfrɪdʒiən",
       "words": [
@@ -441,20 +441,20 @@ DRILL({
           "w": "rendering",
           "ipa": "ˈrɛndərɪŋ",
           "m": "a drawing, painting or performance of something",
-          "fa": "تصویر، اجرا",
+          "fa": "تصویر، بازنماییِ هنری؛ اجرا، ترجمه",
           "more": "to render · depiction"
         },
         {
           "w": "personification",
           "ipa": "pɚˌsɑnəfəˈkeɪʃən",
           "m": "a person or figure that represents an idea or quality",
-          "fa": "تجسم، شخصیت‌بخشی",
+          "fa": "تجسمِ انسانیِ یک مفهوم؛ جان‌بخشی در ادبیات",
           "more": "to personify · embodiment"
         }
       ]
     },
     {
-      "fa": "کلاه‌ها همچنین لوازمِ جانبیِ ضروری برای نمایشِ جایگاه و قدرت بوده‌اند.",
+      "fa": "کلاه همچنین از ملزوماتِ پوشش برای به نمایش گذاشتنِ جایگاه و قدرت بوده است.",
       "en": "Hats have also been an essential accessory for projecting status and power.",
       "ipa": "hæts hæv ˈɔlsoʊ bɪn ən ɪˈsɛnʃəl ækˈsɛsəri fɚ prəˈdʒɛktɪŋ ˈstætəs ənd ˈpaʊɚ",
       "newPara": true,
@@ -470,14 +470,14 @@ DRILL({
           "w": "accessory",
           "ipa": "ækˈsɛsəri",
           "m": "an extra item worn with clothes, like a bag or hat",
-          "fa": "لوازمِ جانبی، اکسسوری",
+          "fa": "چیزی که پوشش را تکمیل می‌کند، اکسسوری؛ وسیلهٔ جانبی",
           "more": "to accessorize"
         },
         {
           "w": "to project",
           "ipa": "tə prɑˈdʒɛkt",
           "m": "to show a particular image or quality to others",
-          "fa": "به نمایش گذاشتن، القا کردن",
+          "fa": "به نمایش گذاشتن، القا کردن؛ روی پرده انداختن",
           "more": "to project confidence"
         },
         {
@@ -490,7 +490,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در اروپای غربیِ قرنِ پانزدهم، هیچ چیز به اندازهٔ هنین زیاده‌رویِ شاهانه را نشان نمی‌داد.",
+      "fa": "در اروپای غربیِ قرنِ پانزدهم، هیچ چیز به اندازهٔ کلاهِ هنین تجملِ افراطیِ دربار را نشان نمی‌داد.",
       "en": "In Western Europe in the 15th century, nothing conveyed royal excess quite like the hennin.",
       "ipa": "ɪn ˈwɛstɚn ˈjʊrəp ɪn ðə fɪfˈtinθ ˈsɛntʃəri ˈnʌθɪŋ kənˈveɪd ˈrɔɪəl ˈɛkˌsɛs kwaɪt laɪk ðə ˈhɛnɪn",
       "words": [
@@ -512,14 +512,14 @@ DRILL({
           "w": "excess",
           "ipa": "ˈɛkˌsɛs",
           "m": "too much of something; behaviour that goes beyond normal limits",
-          "fa": "زیاده‌روی، افراط",
+          "fa": "تجمل یا زیاده‌رویِ افراطی؛ مازاد",
           "more": "excessive · extravagance"
         },
         {
           "w": "nothing … quite like",
           "ipa": "ˈnʌθɪŋ … kwaɪt laɪk",
           "m": "nothing else does something as well as",
-          "fa": "هیچ چیز به اندازهٔ … نه",
+          "fa": "هیچ چیز به اندازهٔ … چنین اثری ندارد",
           "more": "there’s nothing like"
         }
       ]
@@ -533,7 +533,7 @@ DRILL({
           "w": "court",
           "ipa": "kɔrt",
           "m": "the king or queen and the people who live with them",
-          "fa": "دربار",
+          "fa": "دربار؛ دادگاه، زمینِ بازی",
           "more": "courtier"
         },
         {
@@ -567,7 +567,7 @@ DRILL({
       ]
     },
     {
-      "fa": "و گونه‌هایی هم داشتند، مثلِ طرحی با سرِ صاف و اسکوفیونِ جسورانهٔ دومخروطی.",
+      "fa": "و گونه‌های مختلفی داشتند، از جمله مدلی با بالای تخت و طرحِ جسورانهٔ اسکوفیون با دو مخروط.",
       "en": "and included variations like a flat-topped design and the daring double-coned escoffion.",
       "ipa": "ənd ɪnˈkludəd ˌvɛriˈeɪʃənz laɪk ə flæt tɑpt dɪˈzaɪn ənd ðə ˈdɛrɪŋ ˈdʌbəl koʊnd ˈsɛksoʊfin",
       "words": [
@@ -617,7 +617,7 @@ DRILL({
           "w": "rank",
           "ipa": "ræŋk",
           "m": "a position in a social or official system",
-          "fa": "رتبه، مقام",
+          "fa": "رتبه یا مرتبهٔ اجتماعی؛ درجهٔ نظامی",
           "more": "to rank · ranking"
         }
       ]
@@ -631,7 +631,7 @@ DRILL({
           "w": "to sport",
           "ipa": "tə spɔrt",
           "m": "to wear something in a way that people notice",
-          "fa": "به تن/سر داشتن (با نمایش)",
+          "fa": "با جلوه‌گری به سر یا به تن داشتن",
           "more": "to wear · to show off"
         },
         {
@@ -652,7 +652,7 @@ DRILL({
       "note": "sport این‌جا فعل است: «با فخر به سر گذاشتن»، نه «ورزش»."
     },
     {
-      "fa": "و منتقدانِ خودشان را هم داشتند؛ روحانیون و اخلاق‌گرایان که طرح‌های پرزرق‌وبرقشان را خلافِ دین می‌دانستند، اغلب آن‌ها را نشانه می‌گرفتند.",
+      "fa": "این کلاه‌ها هم منتقدانِ خود را داشتند؛ روحانیون و اخلاق‌گرایان اغلب هنین‌ها را آماجِ انتقاد قرار می‌دادند، چون طرح‌های پرزرق‌وبرقشان را خلافِ دینداری می‌دانستند.",
       "en": "And they weren’t without their critics; hennins were often targeted by clerics and moralists who found their flashy designs impious.",
       "ipa": "ənd ðeɪ ˈwɝənt wɪˈθaʊt ðɛr ˈkrɪtɪks ˈhɛnɪnz wɚ ˈɔfən ˈtɑrɡətɪd baɪ ˈklɛrɪks ənd ˈmɔrəlɪsts hu faʊnd ðɛr ˈflæʃi dɪˈzaɪnz ɪmˈpaɪəs",
       "words": [
@@ -674,7 +674,7 @@ DRILL({
           "w": "to target",
           "ipa": "tə ˈtɑrɡət",
           "m": "to aim criticism or an attack at someone or something",
-          "fa": "نشانه گرفتن، هدف قرار دادن",
+          "fa": "آماجِ انتقاد قرار دادن؛ نشانه گرفتن",
           "more": "target (n.)"
         },
         {
@@ -708,7 +708,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تقریباً یک قرن بعد، سلیمانِ باشکوه، طولانی‌ترین سلطانِ امپراتوریِ عثمانی از نظرِ مدتِ فرمانروایی،",
+      "fa": "نزدیک به یک قرن بعد، سلیمانِ باشکوه، سلطانی که بیش از هر سلطانِ دیگری بر امپراتوریِ عثمانی فرمان راند،",
       "en": "Nearly a century later, Suleiman the Magnificent, the longest-reigning sultan of the Ottoman Empire,",
       "ipa": "ˈnɪrli ə ˈsɛntʃəri ˈleɪtɚ ˈsulimən ðə mæɡˈnɪfəsənt ðə ˈlɔŋɡəst ˈreɪnɪŋ ˈsʌltən əv ði ˈɑtəmən ˈɛmpaɪɚ",
       "newPara": true,
@@ -766,7 +766,7 @@ DRILL({
           "w": "audacious",
           "ipa": "ɑˈdeɪʃəs",
           "m": "very bold and willing to take surprising risks",
-          "fa": "گستاخانه، بی‌پروا",
+          "fa": "جسورانه، بی‌پروا؛ گستاخانه",
           "more": "audacity · daring"
         }
       ]
@@ -808,7 +808,7 @@ DRILL({
           "w": "spray",
           "ipa": "spreɪ",
           "m": "a small bunch of flowers, feathers or jewels arranged together",
-          "fa": "دسته، شاخه",
+          "fa": "دسته یا خوشهٔ تزیینی؛ افشانه، ذراتِ پاشیده‌شده",
           "more": "a spray of flowers"
         },
         {
@@ -821,7 +821,7 @@ DRILL({
       ]
     },
     {
-      "fa": "مجموعه‌اش کلاه‌خودی طلاییِ چهارطبقهٔ پرشکوه هم داشت، هرچند بعضی تاریخ‌دانان گمان می‌کنند در واقع برای سر گذاشتن طراحی نشده بود.",
+      "fa": "در مجموعه‌اش کلاه‌خودی باشکوه و طلایی با چهار طبقه هم بود، هرچند بعضی تاریخ‌دانان گمان می‌کنند که در واقع آن را برای به سر گذاشتن طراحی نکرده بودند.",
       "en": "His collection also included a grand four-tiered golden helmet, though some historians suspect it wasn’t actually designed for wearing.",
       "ipa": "hɪz kəˈlɛkʃən ˈɔlsoʊ ɪnˈkludəd ə ɡrænd fɔr tɪrd ˈɡoʊldən ˈhɛlmət ðoʊ sʌm hɪˈstɔriənz səˈspɛkt ɪt ˈwɑzənt ˈæktʃəwəli dɪˈzaɪnd fɚ ˈwɛrɪŋ",
       "words": [
@@ -829,14 +829,14 @@ DRILL({
           "w": "tiered",
           "ipa": "tɪrd",
           "m": "having several layers, one above another",
-          "fa": "طبقه‌طبقه، چندلایه",
+          "fa": "دارای چند طبقه یا ردیفِ روی هم",
           "more": "tier · multi-tiered"
         },
         {
           "w": "helmet",
           "ipa": "ˈhɛlmət",
           "m": "a hard hat that protects the head",
-          "fa": "کلاه‌خود",
+          "fa": "کلاه‌خود؛ کلاهِ ایمنی",
           "more": "crash helmet"
         },
         {
@@ -905,7 +905,7 @@ DRILL({
       ]
     },
     {
-      "fa": "دربارهٔ بعضی کلاه‌های دیگر، داستانِ اصلی در نحوهٔ ساختنشان است.",
+      "fa": "در موردِ کلاه‌های دیگر، داستانِ اصلی در شیوهٔ ساختشان نهفته است.",
       "en": "For other caps, the real story lies in their making.",
       "ipa": "fɚ ˈʌðɚ kæps ðə ril ˈstɔri laɪz ɪn ðɛr ˈmeɪkɪŋ",
       "newPara": true,
@@ -927,7 +927,7 @@ DRILL({
       ]
     },
     {
-      "fa": "کلاهِ سیلندرِ شیک و براقِ بریتانیایی اولین بار در اوایلِ قرنِ نوزدهم معرفی شد، همان وقتی که کلاه‌گیس‌های پودرزده از مد افتادند.",
+      "fa": "کلاهِ سیلندرِ صاف و براقِ بریتانیایی نخستین بار در اوایلِ قرنِ نوزدهم معرفی شد، زمانی که کلاه‌گیس‌های پودرزده داشتند از مد می‌افتادند.",
       "en": "The sleek British top hat was first introduced in the early 19th century as powdered wigs fell out of fashion.",
       "ipa": "ðə slik ˈbrɪtɪʃ tɑp hæt wəz fɝst ˌɪntrəˈdust ɪn ði ˈɝli ˌnaɪnˈtinθ ˈsɛntʃəri əz ˈpaʊdɚd wɪɡz fɛl aʊt əv ˈfæʃən",
       "words": [
@@ -935,7 +935,7 @@ DRILL({
           "w": "sleek",
           "ipa": "slik",
           "m": "smooth, shiny and elegant",
-          "fa": "شیک و براق، صاف",
+          "fa": "صاف و براق، خوش‌تراش",
           "more": "stylish · streamlined"
         },
         {
@@ -976,7 +976,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این کلاه‌ها در اصل از پوستِ جانورانی مثلِ سگِ آبی ساخته می‌شدند، و کلاه‌سازها ماده را در خمره‌هایی پر از نیتراتِ جیوهٔ سمی می‌خیساندند",
+      "fa": "این کلاه‌ها را در ابتدا از خزِ جانورانی مثلِ سگِ آبی می‌ساختند؛ کلاه‌سازها این خز را در خمره‌هایی پر از نیتراتِ جیوهٔ سمی می‌خیساندند",
       "en": "Originally crafted from the fur of animals like beavers, hat makers would soak the material in vats filled with toxic mercuric nitrate",
       "ipa": "əˈrɪdʒənəli ˈkræftɪd frəm ðə fɝ əv ˈænəməlz laɪk ˈbivɚz hæt ˈmeɪkɚz wʊd soʊk ðə məˈtɪriəl ɪn væts fɪld wɪð ˈtɑksɪk mɚˈkjʊrɪk ˈnaɪˌtreɪt",
       "words": [
@@ -991,7 +991,7 @@ DRILL({
           "w": "fur",
           "ipa": "fɝ",
           "m": "the thick soft hair of an animal",
-          "fa": "پوست و مو، خز",
+          "fa": "خز، پوستِ پشمالوی جانور",
           "more": "furry"
         },
         {
@@ -1012,7 +1012,7 @@ DRILL({
           "w": "vat",
           "ipa": "væt",
           "m": "a large container for holding liquids",
-          "fa": "خمره، تانک",
+          "fa": "خمره یا مخزنِ بزرگِ مایعات",
           "more": "tank · barrel"
         },
         {
@@ -1041,13 +1041,13 @@ DRILL({
           "w": "density",
           "ipa": "ˈdɛnsəti",
           "m": "how thick or solid something is",
-          "fa": "تراکم",
+          "fa": "تراکم، فشردگی؛ چگالی",
           "more": "dense"
         }
       ]
     },
     {
-      "fa": "اما قرار گرفتنِ طولانی در معرضِ این مادهٔ شیمیایی در فضاهایی با تهویهٔ ضعیف باعث شد بسیاری از کلاه‌سازها به مسمومیتِ جیوه دچار شوند،",
+      "fa": "اما تماسِ طولانی‌مدت با این مادهٔ شیمیایی در فضاهایی با تهویهٔ نامناسب باعث شد بسیاری از کلاه‌سازها دچارِ مسمومیت با جیوه شوند",
       "en": "But prolonged exposure to the chemical in poorly ventilated spaces led many hatters to develop mercury poisoning,",
       "ipa": "bət prəˈlɔŋd ɪkˈspoʊʒɚ tə ðə ˈkɛməkəl ɪn ˈpʊrli ˈvɛntəˌleɪtɪd ˈspeɪsəz lɛd ˈmɛni ˈhætɚz tə dɪˈvɛləp ˈmɝkjəri ˈpɔɪzənɪŋ",
       "words": [
@@ -1090,13 +1090,13 @@ DRILL({
           "w": "poisoning",
           "ipa": "ˈpɔɪzənɪŋ",
           "m": "illness caused by poison",
-          "fa": "مسمومیت",
+          "fa": "مسمومیت؛ مسموم کردن",
           "more": "poison · food poisoning"
         }
       ]
     },
     {
-      "fa": "و از نشانه‌هایی مثلِ زودرنجی، گفتارِ نامفهوم و بریده‌بریده، مشکلاتِ حافظه و لرزش رنج ببرند.",
+      "fa": "و از علائمی مثلِ تحریک‌پذیری، نامفهوم ادا کردنِ کلمات، مشکلاتِ حافظه و لرزش رنج ببرند.",
       "en": "suffering symptoms like irritability, slurred speech, memory problems, and tremors.",
       "ipa": "ˈsʌfərɪŋ ˈsɪmptəmz laɪk ɪrɪtəˈbɪləti slɝd spitʃ ˈmɛməri ˈprɑbləmz ənd ˈtrɛmɚz",
       "words": [
@@ -1118,14 +1118,14 @@ DRILL({
           "w": "irritability",
           "ipa": "ɪrɪtəˈbɪləti",
           "m": "the state of becoming annoyed very easily",
-          "fa": "زودرنجی، تحریک‌پذیری",
+          "fa": "تحریک‌پذیری، زودرنجی",
           "more": "irritable · to irritate"
         },
         {
           "w": "slurred",
           "ipa": "slɝd",
           "m": "(of speech) not clear, with sounds running together",
-          "fa": "نامفهوم، کش‌دار",
+          "fa": "نامفهوم و درهم اداشده (دربارهٔ گفتار)",
           "more": "to slur"
         },
         {
@@ -1159,7 +1159,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اشاره‌ای رایج به همین گرفتاریِ ویرانگر است.",
+      "fa": "اشاره‌ای شناخته‌شده به این وضعِ مصیبت‌بار است.",
       "en": "is a popular reference to this devastating plight.",
       "ipa": "ɪz ə ˈpɑpjəlɚ ˈrɛfərəns tə ðɪs ˈdɛvəˌsteɪtɪŋ plaɪt",
       "words": [
@@ -1181,13 +1181,13 @@ DRILL({
           "w": "plight",
           "ipa": "plaɪt",
           "m": "a very difficult or dangerous situation",
-          "fa": "گرفتاری، وضعِ اسفبار",
+          "fa": "وضعِ اسفبار، گرفتاری",
           "more": "predicament · hardship"
         }
       ]
     },
     {
-      "fa": "خوشبختانه در اواخرِ دههٔ ۱۸۰۰، همین‌که مردمِ بیشتری از خطرهای جیوه آگاه شدند، کشورهای زیادی شروع به ممنوع کردنِ استفاده از آن کردند.",
+      "fa": "خوشبختانه، در اواخرِ قرنِ نوزدهم، با آگاه شدنِ افرادِ بیشتری از خطرهای جیوه، بسیاری از کشورها ممنوع کردنِ استفاده از آن را آغاز کردند.",
       "en": "Thankfully, in the late 1800s, as more people became aware of the dangers of mercury, many countries began to ban its use.",
       "ipa": "ˈθæŋkfəli ɪn ðə leɪt eɪˈtin ˈhʌndrədz əz mɔr ˈpipəl bɪˈkeɪm əˈwɛr əv ðə ˈdeɪndʒɚz əv ˈmɝkjəri ˈmɛni ˈkʌntriz bɪˈɡæn tə bæn ɪts jus",
       "words": [
@@ -1215,7 +1215,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در قرنِ بعد، کلاهِ سیلندر، کلاهِ لگنی و کلاهِ بندی تا حدِ زیادی به‌عنوانِ پوششِ روزمره از مد افتادند،",
+      "fa": "در طولِ قرنِ بعد، کلاه‌های سیلندر، لگنی و بندی تا حدِ زیادی به‌عنوانِ پوششِ روزمره از مد افتادند،",
       "en": "Over the following century, top hats, bowlers, and bonnets largely fell out of fashion as everyday wear,",
       "ipa": "ˈoʊvɚ ðə ˈfɑloʊɪŋ ˈsɛntʃəri tɑp hæts ˈboʊlɚz ənd ˈbɑnɪts ˈlɑrdʒli fɛl aʊt əv ˈfæʃən əz ˌɛvriˈdeɪ wɛr",
       "newPara": true,
@@ -1224,14 +1224,14 @@ DRILL({
           "w": "bowler",
           "ipa": "ˈboʊlɚ",
           "m": "a hard round black hat (also bowler hat)",
-          "fa": "کلاهِ لگنی",
+          "fa": "کلاهِ نمدیِ سفت با بالای گرد و لبهٔ باریک، کلاهِ لگنی",
           "more": "derby (US)"
         },
         {
           "w": "bonnet",
           "ipa": "ˈbɑnət",
           "m": "a hat tied under the chin, worn by women or babies",
-          "fa": "کلاهِ بندی، کلاهِ زنانه",
+          "fa": "کلاهِ بندی که زیرِ چانه بسته می‌شود؛ در انگلیسیِ بریتانیایی، کاپوتِ خودرو",
           "more": "cap"
         },
         {
@@ -1266,7 +1266,7 @@ DRILL({
           "w": "big business",
           "ipa": "bɪɡ ˈbɪznəs",
           "m": "an activity that makes a lot of money",
-          "fa": "کسب‌وکارِ پرسود/بزرگ",
+          "fa": "تجارتی بزرگ و پردرآمد",
           "more": "lucrative"
         }
       ]
@@ -1300,7 +1300,7 @@ DRILL({
       ]
     },
     {
-      "fa": "طراحیِ مقرون‌به‌صرفه و قابلِ‌تنظیمِ این کلاه، همراه با اینکه به‌راحتی می‌شود لوگو، نشان و علامتِ تجاری رویش گذاشت،",
+      "fa": "طراحیِ مقرون‌به‌صرفه و قابل‌تنظیمِ این کلاه، همراه با امکانِ گنجاندنِ آسانِ لوگوها، نشان‌ها و علائمِ تجاری در طرحِ آن،",
       "en": "The cap’s cost-effective, adjustable design, along with its easy integration of logos, badges, and trademarks,",
       "ipa": "ðə kæps kɑst ɪˈfɛktɪv əˈdʒʌstəbəl dɪˈzaɪn əˈlɔŋ wɪð ɪts ˈizi ˌɪntəˈɡreɪʃən əv ˈloʊˌɡoʊz ˈbædʒɪz ənd ˈtreɪdˌmɑrks",
       "words": [
@@ -1329,14 +1329,14 @@ DRILL({
           "w": "integration",
           "ipa": "ˌɪntəˈɡreɪʃən",
           "m": "the act of combining things so they work together",
-          "fa": "ادغام، گنجاندن",
+          "fa": "گنجاندن در طرح، ادغام و یکپارچه‌سازی",
           "more": "to integrate"
         },
         {
           "w": "badge",
           "ipa": "bædʒ",
           "m": "a small piece of metal or cloth with a design, worn on clothes",
-          "fa": "نشان، بج",
+          "fa": "نشان، آرم",
           "more": "emblem · patch"
         },
         {
@@ -1349,7 +1349,7 @@ DRILL({
       ]
     },
     {
-      "fa": "باعثِ تجاری‌سازیِ انبوهِ آن شده است.",
+      "fa": "باعث شده است که این کلاه در مقیاسی وسیع تولید و عرضه شود.",
       "en": "has driven its mass commercialization.",
       "ipa": "hæz ˈdrɪvən ɪts mæs kəˌmɝʃəlɪˈzeɪʃən",
       "words": [
@@ -1371,13 +1371,13 @@ DRILL({
           "w": "commercialization",
           "ipa": "kəˌmɝʃəlɪˈzeɪʃən",
           "m": "the process of using something to make money",
-          "fa": "تجاری‌سازی",
+          "fa": "عرضه در بازار و تبدیل به کالای تجاری، تجاری‌سازی",
           "more": "commercial · to commercialize"
         }
       ]
     },
     {
-      "fa": "در ایالاتِ متحده، بعضی تخمین می‌زنند که فقط کلاه‌های بیسبال حدودِ ۸۰ درصدِ کلِ بازارِ کلاه را تشکیل می‌دهند.",
+      "fa": "بعضی برآورد می‌کنند که در ایالاتِ متحده، کلاه‌های بیسبال به‌تنهایی حدودِ ۸۰ درصدِ کلِ بازارِ کلاه را تشکیل می‌دهند.",
       "en": "In the United States, some estimate that baseball caps alone make up around 80% of the entire hat market.",
       "ipa": "ɪn ðə juˈnaɪtəd steɪts sʌm ˈɛstəmət ðæt ˌbeɪsˈbɔl kæps əˈloʊn meɪk ʌp əˈraʊnd ˈeɪti pɚˈsɛnt əv ði ɪnˈtaɪɚ hæt ˈmɑrkət",
       "words": [
@@ -1412,7 +1412,7 @@ DRILL({
       ]
     },
     {
-      "fa": "اما دربارهٔ آینده، کی می‌داند چه نوع کلاهی دفعهٔ بعد دلمان را — و سرمان را — تسخیر می‌کند.",
+      "fa": "اما در موردِ آینده، چه کسی می‌داند دفعهٔ بعد چه نوع کلاهی دل‌هایمان را ــ و سرهایمان را ــ تسخیر خواهد کرد؟",
       "en": "But as for the future, who knows what type of hat will capture our hearts— and our heads— next.",
       "ipa": "bət əz fɚ ðə ˈfjutʃɚ hu noʊz wʌt taɪp əv hæt wɪl ˈkæptʃɚ ˈaʊɚ hɑrts ənd ˈaʊɚ hɛdz nɛkst",
       "words": [

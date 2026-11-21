@@ -31,7 +31,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در گاوداری‌های شیریِ تگزاس و ایالت‌های همسایه، گاوها بی‌اشتها شده بودند و شیری غلیظ و بدرنگ تولید می‌کردند.",
+      "fa": "در گاوداری‌های شیریِ تگزاس و ایالت‌های اطراف، گاوها کم‌کم اشتهایشان را از دست می‌دادند و شیری غلیظ و بدرنگ تولید می‌کردند.",
       "en": "On dairy farms in Texas and nearby states, cows were losing their appetite and producing thick, discolored milk.",
       "ipa": "ɑn ˈdɛri fɑrmz ɪn ˈtɛksəs ənd ˌnɪrˈbaɪ steɪts kaʊz wɚ ˈluzɪŋ ðɛr ˈæpəˌtaɪt ənd prəˈdusɪŋ θɪk dɪˈskʌlɚd mɪlk",
       "words": [
@@ -53,7 +53,7 @@ DRILL({
           "w": "discolored",
           "ipa": "dɪˈskʌlɚd",
           "m": "changed to a different, usually worse, colour",
-          "fa": "بدرنگ، رنگ‌برگشته",
+          "fa": "تغییررنگ‌داده، به‌رنگی غیرطبیعی درآمده",
           "more": "discoloured (BrE) · discoloration"
         }
       ]
@@ -80,7 +80,7 @@ DRILL({
           "w": "neurological",
           "ipa": "ˌnʊrəˈlɑdʒɪkəl",
           "m": "relating to the nerves and the brain",
-          "fa": "عصبی",
+          "fa": "مربوط به دستگاه عصبی، عصب‌شناختی",
           "more": "neurology · neurologist"
         },
         {
@@ -101,7 +101,7 @@ DRILL({
           "w": "cattle",
           "ipa": "ˈkætəl",
           "m": "cows and bulls kept on a farm for their meat or milk",
-          "fa": "گاو (به‌طور جمعی)، احشام",
+          "fa": "گاوها، دامِ گاوی (اسم جمع)",
           "more": "livestock"
         },
         {
@@ -114,7 +114,7 @@ DRILL({
       ]
     },
     {
-      "fa": "تا اینکه بالاخره جواب‌های آزمایشگاه پرده از مقصر برداشت:",
+      "fa": "تا اینکه سرانجام نتایج آزمایشگاهی عاملِ ماجرا را آشکار کرد:",
       "en": "until lab results finally uncovered the culprit:",
       "ipa": "ənˈtɪl læb rɪˈzʌlts ˈfaɪnəli ənˈkʌvɚd ðə ˈkʌlprɪt",
       "words": [
@@ -159,7 +159,7 @@ DRILL({
       ]
     },
     {
-      "fa": "این اولین بار نبود که ویروسی که با بدن پرندگان سازگار شده بود، حیوانی غیر از پرنده را آلوده می‌کرد.",
+      "fa": "این اولین بار نبود که ویروسی سازگار با پرندگان، جانورانی غیر از پرندگان را آلوده می‌کرد.",
       "en": "This wasn’t the first time a virus adapted for birds infected non-avian animals.",
       "ipa": "ðɪs ˈwɑzənt ðə fɝst taɪm ə ˈvaɪrəs əˈdæptəd fɚ bɝdz ɪnˈfɛktəd nɑˈneɪviən ˈænəməlz",
       "newPara": true,
@@ -194,7 +194,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در واقع، همهٔ همه‌گیری‌های جهانیِ آنفلوانزای انسانی که تا امروز ثبت شده‌اند، به یکی از انواع آنفلوانزای پرندگان ربط داده شده‌اند.",
+      "fa": "در واقع، هر همه‌گیریِ جهانیِ ثبت‌شدهٔ آنفلوانزای انسانی را به سویه‌ای از آنفلوانزای پرندگان مرتبط دانسته‌اند.",
       "en": "In fact, every human influenza pandemic on record has been linked to some strain of bird flu.",
       "ipa": "ɪn fækt ˈɛvəri ˈhjumən ˌɪnfluˈɛnzə pænˈdɛmɪk ɑn ˈrɛkɚd hæz bɪn lɪŋkt tə sʌm streɪn əv bɝd flu",
       "words": [
@@ -228,7 +228,7 @@ DRILL({
           "w": "strain",
           "ipa": "streɪn",
           "m": "a particular type of a virus or bacteria",
-          "fa": "نوع، واریانت (ویروس یا میکروب)"
+          "fa": "سویه (مثلاً سویه‌ای از ویروس)؛ در بافتی دیگر: فشار یا کشیدگیِ عضله"
         }
       ]
     },
@@ -342,7 +342,7 @@ DRILL({
       "ipa": "ənd nʊrɑmiˈnɑdiz hɛlps ðoʊz nu ˈvaɪrəsəz liv ðə sɛl"
     },
     {
-      "fa": "در حال حاضر، ۱۸ نوع هماگلوتینین و ۱۱ نوع نورآمینیداز را کشف کرده‌ایم،",
+      "fa": "تا امروز ۱۸ نوع هماگلوتینین و ۱۱ نوع نورآمینیداز کشف کرده‌ایم،",
       "en": "Currently, we’ve discovered 18 types of hemagglutinin and 11 types of neuraminidase,",
       "ipa": "ˈkɝəntli wiv dɪˈskʌvɚd eɪˈtin taɪps əv ˌhɛməɡəˈleɪntʃi ənd ɪˈlɛvən taɪps əv nʊrɑmiˈnɑdiz",
       "words": [
@@ -535,7 +535,7 @@ DRILL({
           "w": "reservoir",
           "ipa": "ˈrɛzəvˌwɑr",
           "m": "a place or animal where a disease is kept and can spread from",
-          "fa": "مخزن، منبع (بیماری)",
+          "fa": "مخزن بیماری؛ در کاربرد روزمره: مخزن آب، دریاچهٔ پشت سد",
           "more": "natural reservoir"
         }
       ]
@@ -809,7 +809,7 @@ DRILL({
       ]
     },
     {
-      "fa": "در واقع، با به‌روزکردنِ واکسن آنفلوانزا در هر سال، از پسِ رانش آنتی‌ژنیِ آنفلوانزای انسانی برمی‌آییم.",
+      "fa": "در واقع، ما با به‌روز کردنِ واکسن‌های آنفلوانزایمان در هر سال، رانش آنتی‌ژنیِ آنفلوانزای انسانی را مهار می‌کنیم.",
       "en": "In fact, we manage the antigenic drift of human flu by updating our flu shots every year.",
       "ipa": "ɪn fækt wi ˈmænədʒ ði ˌæntədʒəˈnɛkɪŋ drɪft əv ˈhjumən flu baɪ əpˈdeɪtɪŋ ˈaʊɚ flu ʃɑts ˈɛvəri jɪr",
       "words": [
@@ -835,7 +835,7 @@ DRILL({
       ]
     },
     {
-      "fa": "فرایندی که بسیار ناگهانی‌تر و بالقوه خطرناک‌تر است، «جابه‌جایی آنتی‌ژنی» است.",
+      "fa": "فرایندی که بسیار ناگهانی‌تر است و می‌تواند خطرناک باشد، «جابه‌جایی آنتی‌ژنی» است.",
       "en": "The much more sudden and potentially dangerous process is antigenic shift.",
       "ipa": "ðə mʌtʃ mɔr ˈsʌdən ənd pəˈtɛnʃəli ˈdeɪndʒərəs ˈprɑˌsɛs ɪz ˌæntədʒəˈnɛkɪŋ ʃɪft",
       "newPara": true,
@@ -850,7 +850,7 @@ DRILL({
           "w": "potentially",
           "ipa": "pəˈtɛnʃəli",
           "m": "possibly, but not certainly",
-          "fa": "بالقوه، احتمالاً"
+          "fa": "بالقوه، به‌طور بالقوه؛ یعنی ممکن است چنین شود"
         },
         {
           "w": "shift",
@@ -1032,7 +1032,7 @@ DRILL({
       "ipa": "ənd sɪns ˈaʊɚ ɪˈmjun ˈsɪstəmz ˈɑrənt treɪnd tə ˈrɛkəɡˌnaɪz ˈeɪviən ˌɪnfluˈɛnzə ˈproʊˌtinz"
     },
     {
-      "fa": "اثر این ویروس‌ها می‌تواند کشنده باشد.",
+      "fa": "اثرات این ویروس‌ها می‌تواند مرگبار باشد.",
       "en": "the effects of these viruses can be deadly.",
       "ipa": "ði ɪˈfɛkts əv ðiz ˈvaɪrəsəz kən bi ˈdɛdli",
       "words": [
