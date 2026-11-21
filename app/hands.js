@@ -14,7 +14,7 @@ const AFTERS = [0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 20, 30];            // s to 
 const TIMES = [1, 2, 3];                                                // times the answer is read aloud
 const REPS = [0, 1, 2, 3, 4, 5];                                        // extra full rounds of a sentence: Persian, then English
 const RATES = [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 1, 1.1, 1.2];   // reading speed (1 = the voice's own)
-const DEFAULTS = { think: 10, perWord: 0, after: 3, speak: true, times: 1, rate: 0.75, reps: 0, typing: true };
+const DEFAULTS = { think: 10, perWord: 0, after: 3, speak: true, readPersian: true, readEnglish: true, times: 1, rate: 0.75, reps: 0, typing: true };
 const REPEAT_GAP = 900;              // ms between two readings of the same answer
 
 // key -> command (Space is next, Shift+Space previous: see onKey). ↑ ↓ PageUp PageDown keep scrolling.
@@ -76,7 +76,7 @@ function stopFa() {
 }
 function maybeFa(a) {
   faUntil = 0;
-  if (!S.speak || !F?.win.hasFa?.(a) || !F.win.playFa) return;
+  if (!S.speak || !S.readPersian || !F?.win.hasFa?.(a) || !F.win.playFa) return;
   if (navigator.userActivation && !navigator.userActivation.hasBeenActive) return;   // no click or key yet
   faAt = a;
   faUntil = performance.now() + 60000;      // until the real end of the clip
@@ -118,6 +118,9 @@ function pickVoice() {
 }
 function hush() {
   stopFa();
+  stopEnglish();
+}
+function stopEnglish() {
   TTS?.cancel();
   clearTimeout(gapTimer); gapTimer = 0;
   speaking?.classList.remove("on");
@@ -150,8 +153,10 @@ function play(btn, retry = true, times = 1) {   // read a 🔊 button's text fro
   TTS.speak(u);
   setTimeout(() => {                 // not started (a network voice offline, or Chrome hanging): try once more, locally
     if (current !== u || readingUntil) return;
-    hush();                          // speaking right after cancelling a pending utterance hangs too: let it settle
-    if (retry) setTimeout(() => { if (!current) play(btn, false, times); }, 300); else toast("Reading aloud did not start");
+    stopEnglish();
+    if (retry) {
+      gapTimer = setTimeout(() => { gapTimer = 0; play(btn, false, times); }, 300);
+    } else toast("Reading aloud did not start");
   }, retry ? 1500 : 4000);
 }
 
@@ -173,6 +178,7 @@ function quiet() {
   if (auto) { setAuto(false); toast("Auto off"); }
 }
 function readAnswer() {              // the open answer, as many times as set
+  if (!S.speak || !S.readEnglish) return;
   const btn = panel()?.querySelector(".en-box .say");
   if (btn) play(btn, true, S.times);
 }
@@ -380,10 +386,20 @@ function stepSize(d) {
   toast(`Text ${S.size}px`);
 }
 function setTheme(t) { S.theme = t; save("theme", t); applyLook(); }
-function toggle(key, on, off) {
-  S[key] = !S[key]; save(key, S[key]);
-  F ? keepPlace(applyLook) : applyLook();
-  toast(S[key] ? on : off);
+function setReadAloud(persian, english) {
+  if (!persian && S.speak && S.readPersian) stopFa();
+  if (!english && S.speak && S.readEnglish) {
+    cutRead = false;
+    stopEnglish();
+  }
+  S.speak = persian || english;
+  save("speak", S.speak);
+  // Keep the last audible combination for the toolbar's unmute action.
+  if (S.speak) {
+    S.readPersian = persian; save("readPersian", persian);
+    S.readEnglish = english; save("readEnglish", english);
+  }
+  applyLook();
 }
 
 /* ---------- exercises: the sidebar lists every one, grouped by collection ---------- */
@@ -547,7 +563,7 @@ function changed() {                 // the engine opened, closed or revealed so
       resetReps(a);                  // a new sentence: all of its rounds
       maybeFa(a);                    // before restart(), so the think time waits for the voice
     } else if (sh && !lastShown) {   // the answer just opened: by a command, the engine's button or Enter
-      if (S.speak && !quietReveal) readAnswer();
+      if (!quietReveal) readAnswer();
       quietReveal = false;
     }
     lastShown = sh;
@@ -628,8 +644,8 @@ const COMMANDS = {
   settings: () => setMore(!document.body.classList.contains("more")),
   bigger: () => stepSize(1), smaller: () => stepSize(-1),
   speakAnswers: () => {
-    toggle("speak", "🔊 Reading aloud: on", "🔊 Reading aloud: off");
-    if (!S.speak) hush();                 // off: stop the Persian clip and the English answer now
+    setReadAloud(!S.speak && S.readPersian, !S.speak && S.readEnglish);
+    toast(S.speak ? "Reading aloud on" : "Reading aloud off");
   },
   theme: () => setTheme(THEMES[(THEMES.indexOf(S.theme) + 1) % THEMES.length]),
   fullscreen: () => (document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen())
@@ -720,7 +736,6 @@ const SETTINGS = [
   { key: "typing", list: [false, true], label: "Typing box for your translation", say: (v) => v ? "On" : "Off" },
   { key: "think", list: THINKS, label: "Time to think before the answer", say: (v) => `${v} s` },
   { key: "perWord", list: PER_WORD, label: "Extra time to think, per English word", say: (v) => v ? `+${v} s` : "none" },
-  { key: "speak", list: [false, true], label: "Read aloud: the Persian clip, then the English answer (V)", say: (v) => v ? "On" : "Off" },
   { key: "times", list: TIMES, label: "Times the answer is read", say: (v) => `${v}×` },
   { key: "rate", list: RATES, label: "Reading speed", say: (v) => `${v}×` },
   { key: "after", list: AFTERS, label: "Wait after the answer, then next", say: (v) => `${v} s` },
@@ -729,6 +744,8 @@ const SETTINGS = [
 function buildSettings() {
   const n = F && active() >= 0 ? enWords() : 12;
   const think = Math.round((S.think + S.perWord * n) * 10) / 10;
+  $("#readPersian").checked = S.speak && S.readPersian;
+  $("#readEnglish").checked = S.speak && S.readEnglish;
   $("#typingSetting").checked = S.typing;
   $("#setList").innerHTML = SETTINGS.filter(s => s.key !== "typing").map((s) => {
     const i = s.list.indexOf(S[s.key]);
@@ -737,11 +754,11 @@ function buildSettings() {
       `<b>${esc(s.say(S[s.key]))}</b>` +
       `<button data-set="${s.key}" data-d="1" aria-label="Increase ${esc(s.label)}"${i === s.list.length - 1 ? " disabled" : ""}>+</button></div>`;
   }).join("");
-  $("#setFlow").textContent = `This sentence (${n} words): ` + (S.speak ? "Persian clip → " : "") +
+  $("#setFlow").textContent = `This sentence (${n} words): ` + (S.speak && S.readPersian && F?.win.hasFa?.(active()) ? "Persian clip → " : "") +
     `${think} s to think → answer ` +
-    (S.speak ? `read aloud ${S.times > 1 ? S.times + " times" : "once"}` : "shown") +
+    (S.speak && S.readEnglish ? `read aloud ${S.times > 1 ? S.times + " times" : "once"}` : "shown") +
     ` → ${S.after} s → ` +
-    (S.reps > 0 ? `the same sentence ${S.reps} more time${S.reps > 1 ? "s" : ""} (Persian, then English), then next.` : "next sentence.") +
+    (S.reps > 0 ? `the same sentence ${S.reps} more time${S.reps > 1 ? "s" : ""}, then next.` : "next sentence.") +
     (S.speak ? "" : " (Nothing is read aloud.)");
 }
 function changeSetting(key, d) {
@@ -749,15 +766,15 @@ function changeSetting(key, d) {
   const i = s.list.indexOf(S[key]);
   S[key] = s.list[Math.max(0, Math.min(s.list.length - 1, (i < 0 ? s.list.indexOf(DEFAULTS[key]) : i) + d))];
   save(key, S[key]);
-  if (key === "speak") {
-    applyLook();
-    if (!S.speak) hush();                 // off: stop the Persian clip and the English answer now
-  }
   if (key === "typing") applyTyping();
   if (key === "reps" && repLeft > S.reps) repLeft = S.reps;   // fewer rounds from now on, never more
   if (auto && F && (key === "think" || key === "perWord" ? !shown() : key === "after" && shown())) restart();
   buildSettings();
 }
+$("#voiceSettings").addEventListener("change", () => {
+  setReadAloud($("#readPersian").checked, $("#readEnglish").checked);
+  buildSettings();
+});
 $("#typingSetting").addEventListener("change", e => changeSetting("typing", e.target.checked ? 1 : -1));
 $("#setPanel").addEventListener("click", (e) => {
   const b = e.target.closest("button");

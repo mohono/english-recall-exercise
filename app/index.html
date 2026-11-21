@@ -32,7 +32,7 @@ try {
     <button id="auto" data-cmd="auto" title="Auto mode: play / pause (P)">▶ Auto</button>
     <button data-cmd="quiet" aria-label="Stop playback" title="Stop auto mode and reading aloud (Esc)">■</button>
   </div>
-  <button id="speak" aria-label="Read aloud" aria-pressed="true" data-cmd="speakAnswers" title="Reading aloud — the Persian sentence and the English answer: on / off (V)">
+  <button id="speak" aria-label="Read aloud" aria-pressed="true" data-cmd="speakAnswers" title="Mute or restore the selected voices (V)">
     <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
       <path d="M3 9h4l5-4v14l-5-4H3z"/>
       <path class="soundOn" d="M16 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/>
@@ -49,6 +49,11 @@ try {
       <button data-cmd="fullscreen" title="Fullscreen (F)">Fullscreen</button>
     </div>
     <label class="typingSetting">Translation box <input id="typingSetting" type="checkbox"></label>
+    <fieldset id="voiceSettings">
+      <legend>Read aloud</legend>
+      <label><input id="readPersian" type="checkbox"> Persian prompt</label>
+      <label><input id="readEnglish" type="checkbox"> English answer</label>
+    </fieldset>
     <details id="setPanel">
       <summary>Auto playback</summary>
       <div id="setList"></div>
@@ -80,7 +85,8 @@ try {
     <li>Tap a Persian sentence to jump to it. In Auto, press and hold the sentence to jump.</li>
     <li>Outside the answer, tap the lesson background to advance, or swipe right for next and left for previous.</li>
     <li>Inside the answer, scroll, select text, or tap a heading to open its notes.</li>
-    <li>Use ☰ to switch exercises and ⋯ for settings. Back closes an open panel.</li>
+    <li>Use ⋯ → Read aloud to choose Persian, English, or both. The speaker button mutes and restores your selection.</li>
+    <li>Use ☰ to switch exercises. Back closes an open panel.</li>
   </ul>
   <table>
     <tr><th>Key</th><th>Does</th></tr>
@@ -96,7 +102,7 @@ try {
     <tr><td>+</td><td>add the sentence to the Anki deck “sentences”</td></tr>
     <tr><td>. ,</td><td>text size</td></tr>
     <tr><td>↓ ↑ PageDown</td><td>scroll a long answer</td></tr>
-    <tr><td>V</td><td>reading aloud (the Persian clip and the English answer): on / off (the “🔊 Read” button)</td></tr>
+    <tr><td>V</td><td>mute or restore the voices selected under Read aloud in settings</td></tr>
     <tr><td>T F</td><td>theme, fullscreen</td></tr>
     <tr><td>E L</td><td>sidebar of all exercises: expanded → shrunk to numbers → hidden. Click a group to open it, an exercise to switch to it; auto mode stops at the end of each exercise</td></tr>
     <tr><td>Back</td><td>close an open panel (the ⋯ sheet, help, sidebar on a phone), otherwise leave the app</td></tr>

@@ -189,7 +189,11 @@ body.side #clock { right: calc(var(--side) + 26px); }
 #setPanel summary { padding: 14px 0; cursor: pointer; font-weight: 600; }
 #setPanel[open] { padding-bottom: 12px; }
 .typingSetting { width: 100%; min-height: 44px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; }
-.typingSetting input { width: 20px; height: 20px; accent-color: var(--accent); }
+.typingSetting input, #voiceSettings input { width: 20px; height: 20px; accent-color: var(--accent); }
+#voiceSettings { width: 100%; margin: 0; padding: 0; border: 0; display: flex; flex-wrap: wrap; gap: 0 12px; }
+#voiceSettings legend { padding: 0; color: var(--muted); font-size: 13px; }
+#voiceSettings label { display: flex; align-items: center; gap: 6px; min-height: 44px; cursor: pointer; }
+#voiceSettings input { margin: 0; }
 #setPanel .row {
   display: grid; grid-template-columns: 1fr 40px 96px 40px; gap: 8px; align-items: center;
   padding: 6px 0; border-top: 1px solid var(--line); font-size: 15px; line-height: 1.35;
@@ -220,12 +224,14 @@ body.side #clock { right: calc(var(--side) + 26px); }
   #where .count { font-size: 12px; }
   #bar #transport {
     position: fixed; left: 0; right: 0; bottom: 0; height: var(--bot); display: grid;
-    grid-template-columns: 44px minmax(0, 1fr) 84px 44px; gap: 6px;
+    grid-template-columns: minmax(0, 1fr) 84px; gap: 6px;
     padding: 7px max(10px, env(safe-area-inset-right)) calc(7px + env(safe-area-inset-bottom)) max(10px, env(safe-area-inset-left));
     background: var(--panel); border-top: 1px solid var(--line);
   }
   #transport button { height: 48px; min-width: 0; border-radius: 10px; }
-  #transport [data-cmd="prev"], #transport [data-cmd="quiet"] { border-color: transparent; font-size: 16px; }
+  body.auto #bar #transport { grid-template-columns: minmax(0, 1fr) 84px 44px; }
+  #transport [data-cmd="prev"], body:not(.auto) #transport [data-cmd="quiet"] { display: none; }
+  #transport [data-cmd="quiet"] { border-color: transparent; font-size: 16px; }
   #transport [data-cmd="step"] { background: var(--accent); color: #141413; border-color: transparent; }
   #stepLabel { display: inline; font: 700 17px/1.4 "Vazirmatn", system-ui, sans-serif; white-space: nowrap; }
   #transport #auto { min-width: 0; padding: 0 4px; font-size: 14px; white-space: nowrap; }

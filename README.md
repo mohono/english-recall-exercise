@@ -33,8 +33,8 @@ pushes to GitHub and updates the server.
   CSS or JS in an exercise. `data/collections.json` names the collections and sets their order;
   `data/index.json` is generated.
 - **Persian voice clips** live in `audio/<collection>/<exercise>/<sha1(fa)>.m4a` (not in git). A lesson plays one
-  with the 🔊 beside the Persian, and with **🔊 Read** on auto mode plays it before the think time, then reads
-  the English answer.
+  with the 🔊 beside the Persian, and Auto plays it before the think time when **Persian prompt** is enabled.
+  **English answer** controls reading the revealed answer independently. Both switches are under **⋯ → Read aloud**.
   `scripts/fa-voices.py --drill <collection>/<id>` fills a whole exercise at once with one of the six Persian
   Piper voices of eboo's free text-to-speech page (no API key; models are cached in `~/.cache/eboo-tts/`).
   There is no upload button; copy the clips to the server with rsync.

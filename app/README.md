@@ -14,17 +14,16 @@ O the ⋯ sheet (settings) · C bookmark · X (or \*) star · \+ Anki · . / , t
 on / off · E or L sidebar · T theme · F fullscreen · ? help · Esc stop (auto off) / close.
 ↑ ↓ PageUp PageDown scroll a long answer.
 
-**Reading aloud:** the **🔊 Read** button in the bar (or **V**) is the one switch for both voices. On, a
-sentence plays its Persian clip as it opens, and its English answer is read aloud when it shows, however you
-opened it (keys, auto mode, the page's own «نمایش پاسخ» button or Enter in the typing box). Off, neither is
-started by the app; the lesson's own 🔊 buttons still play one thing at a time. Going back to a sentence, or
+**Reading aloud:** Open **⋯ → Read aloud** to choose **Persian prompt** and **English answer** independently.
+The Persian clip plays when a sentence opens. English plays when you reveal its answer by touch, keyboard,
+or Auto. The speaker button in the top bar (or **V**) mutes and restores your selection.
+The lesson’s individual speaker buttons play a clip or pronunciation on demand. Going back to a sentence, or
 reopening your place, does not read it again. Chrome lets a page speak only after one click or key press, so
 after starting, click once anywhere. The voice is the same one the lesson pages use. If it doesn't start (for
 example a Google network voice while offline), it is tried again with a local voice.
 
-**Auto mode** (P, ▶ Auto): opens a sentence and, with 🔊 Read on, plays its Persian clip first (see “Persian
-voice clips”) while the countdown waits, waits the think time (10 s), opens the answer and reads the English
-aloud, waits a little (3 s), then goes to the next sentence. **Repeat each sentence** (⋯, Off / +1…+5) plays
+**Auto mode** (P, ▶ Auto): opens a sentence and, with Persian enabled, plays its clip first (see “Persian
+voice clips”) while the countdown waits, waits the think time (10 s), opens the answer and reads it aloud if English is enabled, waits a little (3 s), then goes to the next sentence. **Repeat each sentence** (⋯, Off / +1…+5) plays
 extra full rounds before it moves on: one round is
 Persian → think → English → wait, and the whole round starts again, not each half on its own; the answer is hidden
 again at the start of every round. On a phone, the timer has its own strip above the bottom controls. On a laptop, the clock at the bottom right shows the step and its seconds: 💭 think, 🔊 reading, ⏭ the wait
@@ -34,7 +33,7 @@ click on a sentence) starts the time of the new step afresh, and going to anothe
 the old one.
 P pauses it where it is; P again goes on, and an answer cut off by the pause is read again. Esc (or ■) turns auto
 mode off. = / − change the think time, ; / ' the wait after the answer.
-**Settings**: there is no separate ⚙ window. **⋯** (or **O**) opens the settings sheet. Text size, theme and the translation box come first. Expand **Auto playback** for read aloud on / off (the Persian clip and the English answer together), time to
+**Settings**: there is no separate ⚙ window. **⋯** (or **O**) opens the settings sheet. Text size, theme and the translation box come first. Choose the two voices under **Read aloud**. Expand **Auto playback** for time to
 think, extra time per English word (for long sentences), how many times the answer is read (1–3), reading speed
 (0.75 by default, slower than the voice's own 1; the lesson's own 🔊 buttons read at this speed too), the wait
 after the answer, and how many extra rounds of each sentence to play (+1…+5, or Off; Persian → English as one
@@ -49,9 +48,8 @@ sentence number, so reordering an exercise never plays the wrong voice and an ed
 Audio is not in git; `audio/` on the server is the only copy, and `?v=<mtime>` on the URL makes a replaced clip get
 fetched again. Copy it there with rsync after generating.
 
-With **🔊 Read** on, the clip plays as the sentence opens and the countdown waits for it, then the English
-answer is read as before. It is on by default; on a fresh page the browser needs one click or key before it may
-play sound, the same rule as the English voice.
+With **Persian prompt** enabled, the countdown waits for the clip. Both voices default to on.
+A fresh browser session needs a click or key press before it can play sound.
 
 **⭐ Starred sentences** (the Anki deck, in the app): ☆ under any sentence (or **X**) stars it, and
 a small ★ marks it in its exercise. Every starred sentence is in **⭐ ستاره‌دار → جمله‌های ستاره‌دار**, first in
@@ -75,7 +73,7 @@ the width:
 - at every width the top bar keeps ☰, the title, the **speaker** and **⋯**; the transport (◀ ▶, Auto, ■) is in the
   bar too on a laptop and at the bottom on a phone. The ⋯ sheet holds every other control and all the
   auto-play settings (+Anki, text size, theme, help), so nothing needs a keyboard;
-- up to 700px (phone): Previous, Reveal / Next, Auto and Stop sit at the bottom, the sidebar becomes a drawer that
+- up to 700px (phone): Reveal / Next and Auto sit at the bottom. Stop appears while Auto is running or paused. The sidebar becomes a drawer that
   ☰ opens over the lesson (tap an exercise and it closes), the ⋯ sheet opens over the lesson, help fills the
   screen, and the text starts at 18px. Swiping the lesson sideways moves too: right = next (answer first), left = previous.
 - the main phone button reads **نمایش پاسخ** until the answer opens, then **جملهٔ بعدی**. The English and pronunciation
